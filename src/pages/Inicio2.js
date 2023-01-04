@@ -65,7 +65,7 @@ function Block1() {
             <div>
                 <div className="boxRight tecnologia">
                     <div className="boxLeft c7h">
-                        <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/camiones.webm" className="videoWidth" />
+                        <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/camiones.mp4" className="videoWidth" />
                     </div>
                 </div>
                 <div className="overlayBox">
