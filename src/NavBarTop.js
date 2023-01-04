@@ -314,7 +314,7 @@ export default function NavBarTop() {
                         <div className="colMenu">
                             <p className="colTitle">Especiales</p>
                             <p className="colItem meniu"><NavLink to="/mixer/mixer-a7-1257">A7-1257 / Mixer</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">Volqueta T5G-280/330 8-9m3</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">Volqueta T5G-330 8-9m3</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430">Volqueta T5G-430 10-14m3</NavLink></p>
                             <p className="colItem meniu"><NavLink to="#">Volqueta C7H-540 20m3</NavLink></p>
                             <div>

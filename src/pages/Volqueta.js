@@ -76,9 +76,9 @@ function Camion() {
 
         //volqueta 280 330
         case "volqueta-t5g-280":
-            console.log('volqueta 280')
-            nombreCamion = "Volqueta | T5G-280-330"
-            camionSerie = "VOLQUETA T5G 280-330 8-9M2"
+            console.log('volqueta 330')
+            nombreCamion = "Volqueta | T5G-330"
+            camionSerie = "VOLQUETA T5G-330 8-9M2"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA280"
             images = [
@@ -86,7 +86,7 @@ function Camion() {
                 "../images/volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
             ];
             textoMotor1 = "340 HP"
-            textoMotor2 = "Modelo T5G-280-330"
+            textoMotor2 = "Modelo T5G-330"
             textoMotor3 = "Ficha técnica"
 
             precio = <div className="banner"><img src="../images/volqueta-280/logo-sinotruk.webp" /></div>
@@ -129,13 +129,13 @@ function Camion() {
 
             break;
 
-        //volqueta 280 330
+        //volqueta 430
         case "volqueta-t7h-430":
             console.log('volqueta T7H-430')
             nombreCamion = "Volqueta | T7H-430"
             camionSerie = "VOLQUETA T5G 430-330 10-14M2"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA280"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
             images = [
                 "../images/volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
             ];
