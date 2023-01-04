@@ -77,7 +77,7 @@ export default function BannerContacto(props){
             <div className="bodyModalContact">
               <div className="btnModalContact" onClick={gotoWs}><span className="wa">ESCRÍBENOS</span></div>
               <div className="btnModalContact" onClick={gotoCall}><span className="ca">LLAMADA DIRECTA</span></div>
-              <div className="btnModalContact" onClick={openModal}><span>DÉJANOS TUS DATOS</span></div>
+              <div className="btnModalContact" onClick={openModal}><span>COTIZA TU CAMIÓN</span></div>
             </div>
           </div>
           }

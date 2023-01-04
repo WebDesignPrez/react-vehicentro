@@ -587,7 +587,7 @@ export default function NavBar() {
                 </div>
             </li>
             <li className="item-level-5">
-                <a href="#">CAMIONES EN USO</a>
+                <a href="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</a>
                 <div className="item-level-5 nav-header nav-header-h" >
 
                 </div>
