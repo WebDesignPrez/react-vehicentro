@@ -107,7 +107,7 @@ function Block1() {
 function Block2() {
     return (
         <div className="block2">
-            <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/vehinstein-tv.webm" className="videoWidth" />
+            <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/vehinstein-tv.mp4" className="videoWidth" />
         </div>
     )
 }
@@ -244,7 +244,7 @@ function Block4() {
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/tamara.webm" className="videoWidth" />
+                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/tamara.mp4" className="videoWidth" />
                 </div>
             </div>
 
