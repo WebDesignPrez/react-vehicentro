@@ -55,6 +55,9 @@ export default function Footer(){
                 <ul className="list listNonTitle">
                     <li><p className="itemMenu">Componentes</p></li>
                     <li><p className="itemMenu">Medición de rendimiento</p></li>
+                    <li><a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login"><p className="itemMenu">BDC</p></a></li>
+                    
+                    
                     
                 </ul>
             </div>
