@@ -1397,7 +1397,7 @@ li.mouseA:hover {
 .block1 .titleBox {
     font-size: 2vw;
     color: #fff;
-    padding: 6.5vw 1.5vw 0vw 2vw;
+    padding: 4.5vw 1.5vw 0vw 2vw;
     display: inline-block;
 }
 
@@ -1633,4 +1633,10 @@ a .flex-row{
 
 .item-level-8.linkContact{
 padding: 0 0 160px 0;
+}
+
+.mensaje{
+    text-align: center;
+    font-size: 4vw;
+    padding: 8vw 21vw;
 }

@@ -6,6 +6,7 @@ import 'react-notifications/lib/notifications.css';
 
 function FormContactFicha(props) {
 
+  let redireccion = "https://vehicentro.com/mensaje"
   let url = props.url
   let nomCamion = props.camion
   let listSerie = (props.serie=="")?'':props.serie
@@ -146,12 +147,14 @@ function FormContactFicha(props) {
           NotificationManager.success('Datos enviados.', '');
         }, 
         error(data){
+
           NotificationManager.success('Datos enviados.', '');
           setName('')
           setCity('')
           setEmail('')
           setTel('')
           setCed('')       
+          window.location.href = redireccion;
         }
       })
     } else {

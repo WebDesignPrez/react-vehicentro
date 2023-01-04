@@ -15,6 +15,7 @@ import Trabaja_con_nosotros from "./pages/Trabaja_con_nosotros"
 import Mixer from "./pages/Mixer"
 import Serie from "./pages/Serie"
 import { Helmet } from "react-helmet"
+import Mensaje from "./pages/Mensaje"
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
           <Route path="/mixer/:id" element={<Mixer />} />
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/serie/:id" element={<Serie />} />
+          <Route path="/mensaje" element={<Mensaje />} />
 
         </Routes>
       </main>
