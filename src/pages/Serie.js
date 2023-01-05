@@ -186,21 +186,22 @@ function Serie() {
             cabina = "../images/9-toneladas/cabina-de-camion-de-9-toneladas-sinotruk.webp"
             marcas = "../images/9-toneladas/marcas-vehicentro.webp"
             internas1 = [
-                "../images/9-toneladas/volante-deportivo-de-camion-de-9-toneladas.webp",
-                "../images/9-toneladas/palanca-de-cambios-de-camion-de-9-toneladas.webp"
+                "../images/45-toneladas/volante-deportivo.webp",
+                "../images/45-toneladas/pantalla-android.webp",
+                "../images/45-toneladas/palanca.webp"
             ];
             internas2 = [
-                "../images/9-toneladas/climatizador.webp",
-                "../images/9-toneladas/radio-touch-mp5.webp"
+                "../images/45-toneladas/computadora-bosch.webp",
+                "../images/45-toneladas/wabco-dos.webp"
             ];
             internas3 = [
-                "../images/9-toneladas/cabina.webp",
-                "../images/9-toneladas/portavasos.webp"
+                "../images/45-toneladas/uneta.webp",
+                "../images/45-toneladas/wabco.webp"
             ];
 
             internas4 = [
-                "../images/9-toneladas/asiento-neumatico.webp",
-                "../images/9-toneladas/eleva-vidrios-electricos.webp"
+                "../images/45-toneladas/bloqueo.webp",
+                "../images/45-toneladas/control-hidraulico.webp"
             ];
 
             audio_motor = "../images/9-toneladas/motor.mp3"
@@ -210,10 +211,10 @@ function Serie() {
         //12 toneladas
         case "c7h":
             console.log('12 toneladas')
-            video = "../images/t7h/video.webm"
-            imagen = "../images/t7h/contacto.webp"
-            imagen2 = "../images/t7h/camion.webp"
-            motor = "../images/t7h/motor.webp"
+            video = "../images/c7h/video.webm"
+            imagen = "../images/c7h/contacto.webp"
+            imagen2 = "../images/c7h/camion.webp"
+            motor = "../images/c7h/motor.webp"
             nombreSerie = "Serie C7H"
             nombreSerieInd = "C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
