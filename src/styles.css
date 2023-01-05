@@ -1443,6 +1443,7 @@ li.mouseA:hover {
 
 .block2 img {
     width: 100%;
+    height: auto;
 }
 
 .block2 {
@@ -1507,7 +1508,9 @@ li.mouseA:hover {
 }
 
 .block4>div img {
+    max-width: 100%;
     width: 100%;
+    height: auto;
 }
 
 .sinoIcon {

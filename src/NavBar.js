@@ -467,7 +467,7 @@ export default function NavBar() {
             <div className="line3"></div>
         </div>
         <div className="logo">
-            <a href="/"><img src="./images/vehicentro-logo-blanco.png" width="230" height="80" /></a>
+            <a href="/"><img src="./images/vehicentro-logo-blanco.png" width="230" height="80" alt="Vehicentro" /></a>
         </div>
         <div className="navSearch">
             <input className="search-nav-input" data-testid="search-input" type="search" title="Search" placeholder="Buscar..." id="global-search-input" onChange={handleChange} />
@@ -492,7 +492,7 @@ export default function NavBar() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="0"></div>
                         <p>CAMIONES</p>
-                        <img className="imgnMenu" src="../images/logoSinotruck.png" alt="Sinotruck" width="100" height="32" />
+                        <img className="imgnMenu" src="../images/logoSinotruck.png" width="100" height="32" alt="Sinotruck" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -646,6 +646,6 @@ export default function NavBar() {
             <li className="item-level-8 linkContact">
             </li>
         </ul>
-        <img className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="275" height="69" />
+        <img className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="275" height="69" alt="Sinotruk" />
     </nav>
 } 
