@@ -653,8 +653,8 @@ function Camion() {
             textoMotor1 = "154 HP"
             textoMotor2 = "Modelo 1067 - 6 Ton"
             textoMotor3 = "Ficha técnica"
-            precio = "$31.890"
-            cuotas = 'Cuotas desde: $585.00'
+            precio = "$30.890"
+            cuotas = 'Cuotas desde: $568.00'
             motor = "../images/6-toneladas/motor-sinotruk-de-camion-de-6-toneladas-ecuador.webp"
             garantia = "../images/6-toneladas/5-anos-de-garantia.webp"
             tecnologia = "../images/6-toneladas/serie-100.webp"
@@ -719,7 +719,7 @@ function Camion() {
                 </div>
             </div>
 
-            contenedorVidaUtil = <div className="banner"><img src="../images/6-toneladas/cummins.webp" /></div>
+            contenedorVidaUtil = "Disponible con caja Eaton"
 
             break;
 

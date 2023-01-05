@@ -304,7 +304,7 @@ function Serie() {
         </Helmet>
 
         <NavBarTop />
-        <div className="boxesIni posRelative content2">
+        <div className="boxesIni posRelative content2 fondonegro">
             <div className="boxRight tecnologia">
             <div className="boxLeft c7h">
                     <video width="320" height="240" controls autoPlay={true} muted loop src={video} className="videoWidth" />
@@ -317,7 +317,7 @@ function Serie() {
                 </div>
             </div>
         </div>
-        <div className="boxesIni posRelative content2">
+        <div className="boxesIni posRelative content2 fondonegro">
 
             <div className="boxRight nomSeries">
                 <div className="serieTitle serieBox">
@@ -341,23 +341,8 @@ function Serie() {
                 <img src={imagen2} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
         </div>
-        <div className="serieMarcas marcasbg textoImagenesProducto" >
-
-            <div className="boxRightHeader  half icon_center" >
-                <div className="banner"><img src={tecnologia} /></div>
-            </div>
-
-            <div className="boxRightHeader  half text_icon_center" >
-                <p className='vidaUtil'>{contenedorVidaUtil}</p>
-            </div>
-
-            <div className="boxRightHeader  half icon_right">
-                <div className="banner"><img src={garantia} /></div>
-            </div>
-
-        </div>
-        <div className="marcasSeries">
-            <img src="../images/marcasSeries.png" alt="Marcas Series" width="1532" height="355" />
+        <div className="marcasSeries fondonegro">
+            <img src="../images/marcasSeries.webp" alt="Marcas Series" width="1532" height="355" />
         </div>
 
         <div className="boxesIni posRelative fondonegro">
