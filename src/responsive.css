@@ -289,9 +289,7 @@
     bottom: 40px;
   }
 
-  .imgConcesionario {
-    display: none;
-  }
+ 
 
   .boxesIni.posRelative.news.repuesto {
     flex-direction: initial;
@@ -430,5 +428,33 @@
 
   .sinoIcon {
     display: none;
+  }
+
+  .btnConcesionarios{
+    width: 100%;
+  }
+
+  .boxConcesionarios table{
+    width: 90%;
+  }
+
+  .concesionariosFlexText {
+    width: 100%;
+  }
+
+  .imgConcesionario img{
+    width: 100%;
+  }
+
+  .concesionariosFlex{
+    flex-direction: column-reverse;
+  }
+
+  .imgConcesionario{
+    text-align: center;
+  }
+
+  .concesionariosFlex{
+    gap: 5vw;
   }
 }

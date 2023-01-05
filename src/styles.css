@@ -1203,6 +1203,7 @@ p.titleFooter {
 .boxConcesionarios {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .boxConcesionarios table {
@@ -1255,6 +1256,7 @@ p.titleFooter {
 .direccionConcesionario {
     position: relative;
     font-size: 20px;
+    margin: 0 5vw;
 }
 
 .telefonoConcesionario span {
@@ -1644,3 +1646,22 @@ padding: 0 0 160px 0;
 .movil{
     display: none;
 }
+
+.boxConcesionarios > span.spanText{
+    text-align: center;
+    padding: 5vw; 
+}
+
+.concesionariosFlex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin-bottom: 1vw;
+}
+
+.concesionariosFlexText {
+    width: 40%;
+  }
+
+  

@@ -147,11 +147,11 @@ function Concesionarios() {
       let buscarDatos = datosConcesionarios.find((dato) => dato.id == val)
       let datosGrid = buscarDatos.datos
       let auxTable = ""
-      auxTable += "<table>"
+
       datosGrid.forEach((datos) => {
-        auxTable += "<tr><td class='textConcesionario'><p class='nombreConcesionario'>" + datos.nombre + "</p><p class='descConcesionario'>" + datos.descripcion + "</p><span class='direccionConcesionario'>" + datos.direccion + "</span><p class='telefonoConcesionario'><span>Línea directa </span>" + datos.telefono + "</p><span class='linkConcesionario'><a href='" + datos.url + "' target='_blank'>UBICACIÓN</a></span></td><td class='imgConcesionario'><img src='" + datos.img + "' alt='" + datos.alt + "'></td></tr>"
+        auxTable += "<div class='concesionariosFlex'><div class='concesionariosFlexText textConcesionario'><p class='nombreConcesionario'>" + datos.nombre + "</p><p class='descConcesionario'>" + datos.descripcion + "</p><span class='direccionConcesionario'>" + datos.direccion + "</span><p class='telefonoConcesionario'><span>Línea directa </span>" + datos.telefono + "</p><span class='linkConcesionario'><a href='" + datos.url + "' target='_blank'>UBICACIÓN</a></span></div><div class='concesionariosFlexImg imgConcesionario'><img src='" + datos.img + "' alt='" + datos.alt + "' /></div></div>"
       })
-      auxTable += "</table>"
+      
       container.innerHTML = auxTable
     }
 
@@ -175,7 +175,7 @@ function Concesionarios() {
         <button type="button" option="Manta">Manta</button>
       </div>
       <div className="boxConcesionarios">
-        <span>Selecciona el concesionario en la ciudad mas cercana</span>
+        <span className='spanText'>Selecciona el concesionario en la ciudad mas cercana</span>
       </div>
       <BannerContacto />
       <Footer />
