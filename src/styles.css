@@ -653,7 +653,7 @@ p.titleFooter {
 .boxesIni .boxRight {
     position: relative;
     cursor: pointer;
-    overflow : hidden;
+    overflow: hidden;
 }
 
 .boxesIni .boxRightText {
@@ -1617,30 +1617,55 @@ li.mouseA:hover {
     text-align-last: center;
 }
 
-a .flex-row{
+a .flex-row {
     color: #000;
     text-decoration: none;
 }
 
 
-.videoWidthRepuesto{
+.videoWidthRepuesto {
     width: 200%;
 }
 
-.boxText.flex-table.row a{
+.boxText.flex-table.row a {
     text-decoration: none;
 }
 
-.item-level-8.linkContact{
-padding: 0 0 160px 0;
+.item-level-8.linkContact {
+    padding: 0 0 160px 0;
 }
 
-.mensaje{
+.mensaje {
     text-align: center;
     font-size: 4vw;
     padding: 8vw 21vw;
 }
 
-.movil{
+.movil {
     display: none;
+}
+
+a.titleBox2 {
+    text-decoration: none !important;
+    color: white;
+}
+
+a.titleBox2:hover {
+    text-decoration: none !important;
+    color: #f44331;
+}
+
+.block3.boxBlock .titleBox {
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+.block3.boxBlock .titleBox2 {
+    font-size: 1.6vw;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.fondonegro{
+    background-color: #2b2b2b;
 }

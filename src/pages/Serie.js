@@ -360,7 +360,7 @@ function Serie() {
             <img src="../images/marcasSeries.png" alt="Marcas Series" width="1532" height="355" />
         </div>
 
-        <div className="boxesIni posRelative">
+        <div className="boxesIni posRelative fondonegro">
             <div className="marcasbg">
                 <img src={cabina} width="1500" height="1500" className="slideMain" alt="Punto de Venta" />
             </div>
