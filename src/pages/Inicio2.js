@@ -134,7 +134,7 @@ function Block3() {
                     <img src="../images/home/serie-t5g.webp" width="360" height="464" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <a className="titleBox2" href="/serie/t5g">T5G</a>
+                        <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
                         <div className="linksBox">
                             <a className="line2" src="" href="/camiones/camion-de-9-toneladas">9 TON</a><span>/</span>
                             <a className="line2" src="" href="/camiones/camion-10-toneladas-t5g-1167">10.8 TON</a><span>/</span>
@@ -151,7 +151,7 @@ function Block3() {
                     <img src="../images/home/serie-t7h.webp" width="360" height="464" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <a className="titleBox2" href="/serie/t7h">T7H</a>
+                        <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
                         <div className="linksBox">
                             <a className="line2" src="" href="/cabezales/cabezal-t7h-390-28-toneladas">28 TON</a><span>/</span>
                             <a className="line2" src="" href="/cabezales/cabezal-t7h-390-42-toneladas">42 TON</a><span>/</span>
@@ -160,13 +160,13 @@ function Block3() {
                     </div>
                 </div>
             </div>
-
+            
             <div className="block3 boxBlock row2">
                 <div>
                     <img src="../images/home/serie-c7h.webp" width="360" height="464" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <a className="titleBox2" href="/serie/c7h">C7H</a>
+                        <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
                         <div className="linksBox">
                             <a className="line2" src="" href="/camiones/camion-20-toneladas-1256">20 TON</a><span>/</span>
                             <a className="line2" src="" href="/cabezales/cabezal-c7h-540">48 TON</a><span>/</span>
