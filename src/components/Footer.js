@@ -3,7 +3,7 @@ export default function Footer(){
     return (
     <div className="footer posRelative">
             <div className="info">
-            <img src="../images/vehicentro-logo-blanco.png" width="230" height="80" />
+            <img src="../images/vehicentro-logo-blanco.png" width="230" height="80" alt="Vehicentro" />
                  <ul className="list">
                     <li><p className="titleFooter"><a href="/compania">NOSOTROS</a></p></li>
                     <li><p className="titleFooter"><a href="/concesionarios">CONCESIONARIOS</a></p></li>
