@@ -25,8 +25,8 @@ export default function NavBar() {
                         case "sunward":
                             menuSelect("sunward")
                             break;
-                        case "keyton":
-                            menuSelect("keyton")
+                        case "compania":
+                            menuSelect("compania")
                             break;
                     }
                 })
@@ -44,11 +44,11 @@ export default function NavBar() {
                     document.querySelector(".item-level-1").classList.remove("nav-header-s")
                     document.querySelector(".item-level-1").classList.add("nav-header-h")
 
-                    document.querySelector(".item-level-2").classList.remove("nav-header-s")
-                    document.querySelector(".item-level-2").classList.add("nav-header-h")
-
                     document.querySelector(".item-level-3").classList.remove("nav-header-s")
                     document.querySelector(".item-level-3").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-6").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-6").classList.add("nav-header-h")
                     break;
                 case "sunward":
                     document.querySelector(".item-level-1").classList.remove("nav-header-h")
@@ -58,26 +58,13 @@ export default function NavBar() {
                     document.querySelector(".item-level-0").classList.remove("nav-header-s")
                     document.querySelector(".item-level-0").classList.add("nav-header-h")
 
-                    document.querySelector(".item-level-2").classList.remove("nav-header-s")
-                    document.querySelector(".item-level-2").classList.add("nav-header-h")
-
                     document.querySelector(".item-level-3").classList.remove("nav-header-s")
                     document.querySelector(".item-level-3").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-6").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-6").classList.add("nav-header-h")
                     break;
-                case "keyton":
-                    document.querySelector(".item-level-2").classList.remove("nav-header-h")
-                    document.querySelector(".item-level-2").classList.add("nav-header-s")
-                    document.querySelector(".item-level-2").classList.add("nav-header-s-i")
 
-                    document.querySelector(".item-level-0").classList.remove("nav-header-s")
-                    document.querySelector(".item-level-0").classList.add("nav-header-h")
-
-                    document.querySelector(".item-level-1").classList.remove("nav-header-s")
-                    document.querySelector(".item-level-1").classList.add("nav-header-h")
-
-                    document.querySelector(".item-level-3").classList.remove("nav-header-s")
-                    document.querySelector(".item-level-3").classList.add("nav-header-h")
-                    break;
                 case "concesionarios":
                     document.querySelector(".item-level-3").classList.remove("nav-header-h")
                     document.querySelector(".item-level-3").classList.add("nav-header-s")
@@ -89,9 +76,23 @@ export default function NavBar() {
                     document.querySelector(".item-level-1").classList.remove("nav-header-s")
                     document.querySelector(".item-level-1").classList.add("nav-header-h")
 
-                    document.querySelector(".item-level-2").classList.remove("nav-header-s")
-                    document.querySelector(".item-level-2").classList.add("nav-header-h")
+                    document.querySelector(".item-level-6").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-6").classList.add("nav-header-h")
                     break;
+                case "compania":
+                    document.querySelector(".item-level-6").classList.remove("nav-header-h")
+                    document.querySelector(".item-level-6").classList.add("nav-header-s")
+                    document.querySelector(".item-level-6").classList.add("nav-header-s-i")
+
+                    document.querySelector(".item-level-0").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-0").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-1").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-1").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-3").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-3").classList.add("nav-header-h")
+                    break;                    
 
             }
 
@@ -102,8 +103,8 @@ export default function NavBar() {
             document.querySelector(".item-level-0").classList.add("nav-header-s")
             document.querySelector(".item-level-1").classList.remove("nav-header-s")
             document.querySelector(".item-level-1").classList.add("nav-header-h")
-            document.querySelector(".item-level-2").classList.remove("nav-header-s")
-            document.querySelector(".item-level-2").classList.add("nav-header-h")
+            document.querySelector(".item-level-6").classList.remove("nav-header-s")
+            document.querySelector(".item-level-6").classList.add("nav-header-h")
         }
 
         const navSlide = () => {
@@ -112,6 +113,7 @@ export default function NavBar() {
             const sunward = document.querySelector(".sunward");
             /*const keyton = document.querySelector(".keyton"); */
             const concesionarios = document.querySelector(".concesionarios");
+            const compania = document.querySelector(".compania");
 
             const nav = document.querySelector(".nav-links");
             const navh = document.querySelector(".nav-links-h");
@@ -283,6 +285,34 @@ export default function NavBar() {
                     document.querySelector(".menu1").classList.remove("logob")
                 }
             });
+
+           /* compania.addEventListener("click", () => {
+                nav.classList.toggle("nav-active");
+                navSearch[0].classList.toggle("nav-search-active");
+
+                document.querySelector('nav > .logo').classList.toggle("logoNav");
+                navh.classList.toggle("nav-inactive");
+
+                navLinks.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = "";
+                    } else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
+                    }
+                });
+
+                document.querySelector(".menu1").classList.add("logob")
+
+                if (auxMovil == 0)
+                    resetMenu();
+
+                burger.classList.toggle("toggle");
+                if (burger.classList.contains('toggle')) {
+
+                } else {
+                    document.querySelector(".menu1").classList.remove("logob")
+                }
+            });*/
             //INI PARAMS
 
 
@@ -314,20 +344,20 @@ export default function NavBar() {
                     document.querySelector(".item-level-1").classList.toggle("nav-header-h")
                     document.querySelector(".item-level-1").classList.toggle("nav-header-s")
                     break;
-                case "2":
-                    document.querySelector(".item-level-2").classList.toggle("nav-header-h")
-                    document.querySelector(".item-level-2").classList.toggle("nav-header-s")
-                    break;
                 case "3":
                     document.querySelector(".item-level-3").classList.toggle("nav-header-h")
                     document.querySelector(".item-level-3").classList.toggle("nav-header-s")
                     break;
+                case "6":
+                    document.querySelector(".item-level-6").classList.toggle("nav-header-h")
+                    document.querySelector(".item-level-6").classList.toggle("nav-header-s")
+                    break;    
                 default:
                     break;
             }
         }
 
-        const modalVideo = (vid, poster) => {
+      /*  const modalVideo = (vid, poster) => {
             const para = document.createElement("div");
             para.classList.add("modal");
             document.querySelector("body").appendChild(para);
@@ -358,7 +388,7 @@ export default function NavBar() {
             video.addEventListener('click', (event) => {
                 event.stopPropagation();
             })
-        }
+        }*/
 
         const navSlideClick = () => {
             const navLinks = document.querySelectorAll(".nav-links a");
@@ -376,9 +406,9 @@ export default function NavBar() {
                         case "sunward":
                             menuSelect("sunward")
                             break;
-                        case "keyton":
-                            menuSelect("keyton")
-                            break;
+                        case "compania":
+                            menuSelect("compania")
+                            break;    
                     }
                 })
             })
@@ -455,7 +485,7 @@ export default function NavBar() {
         </div>
         <ul className="nav-links">
 
-            <li><a className="" href="https://vehicentro.com">INICIO</a></li>
+            <li><NavLink className="" to="/">INICIO</NavLink></li>
             <li>
                 <a className="" href="#" option="sinotruk">SINOTRUK</a>
                 <div className="item-level-0 nav-header nav-header-h" >
@@ -592,10 +622,19 @@ export default function NavBar() {
 
                 </div>
             </li>
-            <li className="item-level-6">
-                <a href="/compania">COMPAÑÍA</a>
+            <li>
+                <a href="#" option="compania">COMPAÑÍA</a>
                 <div className="item-level-6 nav-header nav-header-h" >
-
+                    <div className="headerSubMenu">
+                        <div className="closeMovil" data-id="6"></div>
+                        <p>COMPAÑÍA</p>
+                    </div>
+                    <div className="rowMenu">
+                        <div className="colMenu">
+                            <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/bdc">BDC</NavLink></p>
+                        </div>
+                    </div>
                 </div>
             </li>
             <li className="item-level-7">
@@ -604,7 +643,6 @@ export default function NavBar() {
 
                 </div>
             </li>
-
             <li className="item-level-8 linkContact">
             </li>
         </ul>
