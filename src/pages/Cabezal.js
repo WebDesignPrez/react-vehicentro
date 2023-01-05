@@ -327,7 +327,7 @@ function Camion() {
         case "cabezal-c7h-540-catalinas-48-toneladas":
             console.log('48 ton con catalinas')
             nombreCamion = "Camion de 48 toneladas con Catalinas | C7H-540"
-            camionSerie = "C7H 540 / 48 TON OFFROAD"
+            camionSerie = "C7H 540 / 48 TON con Catalinas"
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540OFFROAD"
             images = [

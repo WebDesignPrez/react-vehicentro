@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function NavBar() {
     var auxMovil = 0;
-    
+
     useEffect(() => {
         const navSlideClickH = () => {
             const burger = document.querySelector(".burger");
@@ -97,7 +97,7 @@ export default function NavBar() {
 
         }
 
-        const resetMenu = () => { 
+        const resetMenu = () => {
             document.querySelector(".item-level-0").classList.remove("nav-header-h")
             document.querySelector(".item-level-0").classList.add("nav-header-s")
             document.querySelector(".item-level-1").classList.remove("nav-header-s")
@@ -173,7 +173,7 @@ export default function NavBar() {
                     document.querySelector(".menu1").classList.remove("logob")
                 }
             });
-            
+
             sunward.addEventListener("click", () => {
                 nav.classList.toggle("nav-active");
                 navSearch[0].classList.toggle("nav-search-active");
@@ -286,10 +286,10 @@ export default function NavBar() {
             //INI PARAMS
 
 
-/*             const searchBtn = document.querySelector(".searchIcon");
-            searchBtn.addEventListener("click", () => {
-                burger.click()
-            }) */
+            /*             const searchBtn = document.querySelector(".searchIcon");
+                        searchBtn.addEventListener("click", () => {
+                            burger.click()
+                        }) */
 
             const closeBtnMovil = document.querySelectorAll(".closeMovil");
             for (var i = 0; i < closeBtnMovil.length; ++i) {
@@ -300,8 +300,8 @@ export default function NavBar() {
                 })
             }
 
-          /*   const motorPlayer = document.getElementById('audioMotor')
-            motorPlayer.src = './motor.mp3' */
+            /*   const motorPlayer = document.getElementById('audioMotor')
+              motorPlayer.src = './motor.mp3' */
         }
 
         const resetMenuMovil = (opt) => {
@@ -398,35 +398,35 @@ export default function NavBar() {
     const [message, setMessage] = useState('');
     const [menuBusqueda, setMenu] = useState([]);
 
-    var  obj
+    var obj
     const handleChange = (event) => {
         setMenu([])
         let s
-        if(event.target.value.length>0){
-            indexData.forEach(a=>{
+        if (event.target.value.length > 0) {
+            indexData.forEach(a => {
                 s = a.buscar
-                if(s.includes(event.target.value)){
-                    a.resultados.forEach(res=>{
+                if (s.includes(event.target.value)) {
+                    a.resultados.forEach(res => {
                         //console.log(res.url)
-                        setMenu($menuBusqueda=>[...menuBusqueda, {url: res.url, desc:res.descripcion}])
+                        setMenu($menuBusqueda => [...menuBusqueda, { url: res.url, desc: res.descripcion }])
                     })
-                    
+
                 }
             })
         }
     };
-    
+
     let indexData = [{
         buscar: "8 toneladas",
-        resultados:[{
-            url : "camiones/camion-8-toneladas-1147",
-            descripcion : "Camion de 8 toneladas"
+        resultados: [{
+            url: "camiones/camion-8-toneladas-1147",
+            descripcion: "Camion de 8 toneladas"
         }]
     }, {
         buscar: "5 toneladas",
-        resultados:[{
-            url : "camiones/camion-5-toneladas-1147",
-            descripcion : "Camion de 5 toneladas"
+        resultados: [{
+            url: "camiones/camion-5-toneladas-1147",
+            descripcion: "Camion de 5 toneladas"
         }]
     }]
 
@@ -437,24 +437,24 @@ export default function NavBar() {
             <div className="line3"></div>
         </div>
         <div className="logo">
-            <img src="./images/vehicentro-logo-blanco.png" width="230" height="80" />
+            <a href="/"><img src="./images/vehicentro-logo-blanco.png" width="230" height="80" /></a>
         </div>
         <div className="navSearch">
             <input className="search-nav-input" data-testid="search-input" type="search" title="Search" placeholder="Buscar..." id="global-search-input" onChange={handleChange} />
-            {menuBusqueda.length>0&&    
+            {menuBusqueda.length > 0 &&
                 <div className="result">
                     {menuBusqueda.map((item, index) => (
                         <li>
-                        <NavLink to={item.url}>
-                        {item.desc}
-                        </NavLink>
+                            <NavLink to={item.url}>
+                                {item.desc}
+                            </NavLink>
                         </li>
                     ))}
                 </div>
             }
         </div>
         <ul className="nav-links">
-            
+
             <li><a className="" href="https://vehicentro.com">INICIO</a></li>
             <li>
                 <a className="" href="#" option="sinotruk">SINOTRUK</a>

@@ -1640,3 +1640,7 @@ padding: 0 0 160px 0;
     font-size: 4vw;
     padding: 8vw 21vw;
 }
+
+.movil{
+    display: none;
+}

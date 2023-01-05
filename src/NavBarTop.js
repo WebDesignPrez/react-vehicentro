@@ -260,7 +260,7 @@ export default function NavBarTop() {
             <div className="line3"></div>
         </div>
         <div className="logo">
-            <img src="../images/vehicentro-logo-blanco.png" width="230" height="80" />
+            <a href="/"><img src="../images/vehicentro-logo-blanco.png" width="230" height="80" /></a>
         </div>
         <ul className="nav-links">
             <li><a className="" href="https://vehicentro.com">INICIO</a></li>
@@ -413,7 +413,7 @@ export default function NavBarTop() {
 
             <li className="item-level-8 linkContact">
             </li>
-            
+
         </ul>
 
         <ul className="nav-links-h">

@@ -85,8 +85,8 @@ function Block1() {
                 <div className="overlayBox">
                     <p className="titleBox"><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
                     <div className="linksBox">
-                        <a src="">CONCESIONARIOS</a>
-                        <a src="">REPUESTOS Y TALLERES</a>
+                        <a href="/concesionarios" src="">CONCESIONARIOS</a>
+                        <a href="/concesionarios" src="">REPUESTOS Y TALLERES</a>
                         <a src="">CALCULADORA DE RENDIMIENTO</a>
                     </div>
                 </div>
