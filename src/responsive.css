@@ -289,7 +289,7 @@
     bottom: 40px;
   }
 
- 
+
 
   .boxesIni.posRelative.news.repuesto {
     flex-direction: initial;
@@ -331,6 +331,12 @@
 
   .textContact.movil {
     margin-top: 15%;
+  }
+
+  .btn-wsp {
+    width: 63px;
+    height: 63px;
+    line-height: 66px;
   }
 }
 
@@ -430,11 +436,11 @@
     display: none;
   }
 
-  .btnConcesionarios{
+  .btnConcesionarios {
     width: 100%;
   }
 
-  .boxConcesionarios table{
+  .boxConcesionarios table {
     width: 90%;
   }
 
@@ -442,19 +448,19 @@
     width: 100%;
   }
 
-  .imgConcesionario img{
+  .imgConcesionario img {
     width: 100%;
   }
 
-  .concesionariosFlex{
+  .concesionariosFlex {
     flex-direction: column-reverse;
   }
 
-  .imgConcesionario{
+  .imgConcesionario {
     text-align: center;
   }
 
-  .concesionariosFlex{
+  .concesionariosFlex {
     gap: 5vw;
   }
 }

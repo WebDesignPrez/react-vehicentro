@@ -1650,12 +1650,12 @@ a .flex-row {
     display: none;
 }
 
-.boxConcesionarios > span.spanText{
+.boxConcesionarios>span.spanText {
     text-align: center;
-    padding: 5vw; 
+    padding: 5vw;
 }
 
-.concesionariosFlex{
+.concesionariosFlex {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1665,9 +1665,9 @@ a .flex-row {
 
 .concesionariosFlexText {
     width: 40%;
-  }
+}
 
-  
+
 a.titleBox2 {
     text-decoration: none !important;
     color: white;
@@ -1689,6 +1689,25 @@ a.titleBox2:hover {
     letter-spacing: 1px;
 }
 
-.fondonegro{
+.fondonegro {
     background-color: #000;
+}
+
+.btn-wsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 63px;
+    bottom: 25px;
+    right: 25px;
+    z-index: 100;
+    transition: all 300ms ease;
+}
+
+.btn-wsp:hover {
+    background: #20ba5a;
+}
+
+.imgWpp {
+    max-width: 100%;
 }
