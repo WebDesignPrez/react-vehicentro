@@ -206,7 +206,7 @@ ul.nav-links-h>li>a:hover,
 .active {
     color: #f44331;
     border-bottom-color: #f44331;
-    border-bottom-width: 4px;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
 
 }
