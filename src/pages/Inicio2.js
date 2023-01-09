@@ -115,7 +115,7 @@ function Block2() {
 
 function Block3() {
     return (
-        <>
+        <>ƒ
             <div className="block3 boxBlock">
                 <div>
                     <img src="../images/home/serie-100.webp" width="900" height="700" alt="Vehicentro" />
@@ -226,7 +226,7 @@ function Block3() {
                     <img src="../images/home/sector-ganadero.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">SECTOR GANADERIA</p>
+                        <p className="titleBox2">SECTOR GANADERÍA</p>
                         <div className="linksBox">
                         </div>
                     </div>
@@ -275,7 +275,7 @@ function Menu2() {
                 <li ><a className="sinotruk mouseA" option="sunward">SUNWARD</a></li>
                 <li ><a className="concesionarios mouseA" option="concesionarios">CONCESIONARIOS</a></li>
                 <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
-                <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
+                <li className="companiaCss"><NavLink to="/compania">COMPAÑÍA</NavLink></li>
                 <li className="tecnologiaCss"><a>TECNOLOGÍA</a></li>
             </ul>
             <span className="telefonoInicio">032994740 - 0992048229</span>

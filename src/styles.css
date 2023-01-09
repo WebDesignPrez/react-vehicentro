@@ -1176,7 +1176,7 @@ p.titleFooter {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    margin: 20px auto;
+    margin: 5% auto;
     justify-content: center;
 
 }
@@ -1257,6 +1257,8 @@ p.titleFooter {
     position: relative;
     font-size: 20px;
     margin: 0 5vw;
+    display: flex;
+    justify-content: center;
 }
 
 .telefonoConcesionario span {
@@ -1660,7 +1662,10 @@ a .flex-row {
     display: flex;
     justify-content: center;
     gap: 10vw;
-    margin-bottom: 1vw;
+    padding: 3% 0 3% 0;
+    align-items: center;
+    border: solid;
+    border-color: #9e9e9e24;
 }
 
 .concesionariosFlexText {
@@ -1704,10 +1709,70 @@ a.titleBox2:hover {
     transition: all 300ms ease;
 }
 
-.btn-wsp:hover {
-    background: #20ba5a;
-}
 
 .imgWpp {
     max-width: 100%;
+}
+
+
+.btn6::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    width: 0%;
+    height: 1px;
+    background: #ac1e22;
+    box-shadow: inset 0px 0px 0px #ac1e22;
+    display: block;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+}
+
+.btn6:hover::before {
+    width: 100%;
+}
+
+.btn6::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 0%;
+    height: 1px;
+    background: #ac1e22;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+}
+
+.btn6:hover::after {
+    width: 100%;
+}
+
+.btn6:hover {
+    border: none;
+    border-left: 1px solid #ac1e22;
+    border-right: 1px solid #ac1e22;
+    color: #ac1e22;
+}
+
+.btn6 {
+    border: 1px solid #e6e3e3;
+    padding: 15px 0px;
+    margin: 10px 4px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    width: 32%;
+}
+
+ .linksBox a.active{
+    text-decoration: none !important;
 }

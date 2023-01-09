@@ -520,6 +520,7 @@ export default function NavBar() {
                         <div className="colMenu">
                             <p className="colTitle">Serie T7H</p>
                             <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-390-28-toneladas">T7H-390 / 28 ton</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-28-toneladas-retardador">T7H-390 / 28 ton con retardador</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-390-42-toneladas">T7H-390 / 42 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-430-45-toneladas">T7H-430 / 45 ton</NavLink></p>
 
