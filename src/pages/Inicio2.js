@@ -27,10 +27,52 @@ function Inicio2() {
             }
         };
 
+        const videoContainer = document.getElementById('videoContainer')
+        const imgContainer = document.querySelectorAll('.imgContainerHeader')
+        const mouseOverHandler = event =>{
+            if(!videoContainer.classList.contains("video50"))
+                videoContainer.classList.add("video50");
+            
+            imgContainer.forEach(a=>{
+                if(!a.classList.contains("img25")){
+                    a.classList.add("img25")
+                    //a.classList.add("imgHidden")
+                    a.querySelector('.linksBox').classList.add("imgHidden")
+                    //console.log(a.querySelector('.linksBox').classList)
+                }
+            })
+        }
+
+        const mouseLeaveHandler = event =>{
+            if(videoContainer.classList.contains("video50")){
+                //console.log("Sale")
+                videoContainer.classList.remove("video50");
+            }
+            imgContainer.forEach(a=>{
+                if(a.classList.contains("img25")){
+                    a.classList.remove("img25")
+
+                    a.querySelector('.linksBox').classList.remove("imgHidden")
+                    //console.log(a.querySelector('.linksBox').classList)
+                    
+                }
+            })
+        }
+        
+        videoContainer.addEventListener('mouseenter', mouseOverHandler);
+        videoContainer.addEventListener('mouseleave', mouseLeaveHandler);
+
+
         document.addEventListener('keydown', keyDownHandler);
         return () => {
             document.removeEventListener('keydown', keyDownHandler);
         };
+
+
+
+/*         return () => {
+            document.removeEventListener('keydown', keyDownHandler);
+        }; */
     }, []);
 
 
@@ -63,7 +105,7 @@ function Inicio2() {
 function Block1() {
     return (
         <div className="block1 boxBlock">
-            <div>
+            <div id= "videoContainer">
                 <div className="boxRight tecnologia">
                     <div className="boxLeft c7h">
                         <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/camiones.mp4" className="videoWidth" />
@@ -81,8 +123,8 @@ function Block1() {
                     </div>
                 </div>
             </div>
-            <div>
-                <img src="./images/home/repuestos.webp" alt="Vehicentro repuestos" height="1200" width="930" />
+            <div className="imgContainerHeader imgHeader1">
+                
                 <div className="overlayBox">
                     <p className="titleBox"><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
                     <div className="linksBox">
@@ -91,9 +133,9 @@ function Block1() {
                         <NavLink src="">CALCULADORA DE RENDIMIENTO</NavLink>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img src="./images/home/sinotrukeros.webp" alt="Vehicentro" height="1200" width="930"/>
+            </div> 
+            <div className="imgContainerHeader imgHeader2">
+  
                 <div className="overlayBox">
                     <p className="titleBox">SINOTRUKEROS</p>
                     <div className="linksBox">
