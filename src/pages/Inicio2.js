@@ -97,7 +97,7 @@ function Block1() {
                 <div className="overlayBox">
                     <p className="titleBox">SINOTRUKEROS</p>
                     <div className="linksBox">
-                        <a className="line2" src="">EXPERIENCIA DE‎ ‎ ‎ ‎ ‎ ‎ ‎ <br></br> NUESTROS CLIENTES</a>
+                        <a href="/experiencia" className="line2" src="">EXPERIENCIA DE‎ ‎ ‎ ‎ ‎ ‎ ‎ <br></br> NUESTROS CLIENTES</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ function Block2() {
 
 function Block3() {
     return (
-        <>ƒ
+        <>
             <div className="block3 boxBlock">
                 <div>
                     <img src="../images/home/serie-100.webp" width="900" height="700" alt="Vehicentro" />
@@ -271,8 +271,8 @@ function Menu2() {
     return (
         <nav className="menu2 home2">
             <ul className="nav-links-h">
-                <li ><a className="sunward mouseA" option="sinotruk">SINOTRUK</a></li>
-                <li ><a className="sinotruk mouseA" option="sunward">SUNWARD</a></li>
+                <li ><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
+                <li ><a className="sinotruk mouseA" option="sunward">EXCAVADORAS</a></li>
                 <li ><a className="concesionarios mouseA" option="concesionarios">CONCESIONARIOS</a></li>
                 <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
                 <li className="companiaCss"><NavLink to="/compania">COMPAÑÍA</NavLink></li>

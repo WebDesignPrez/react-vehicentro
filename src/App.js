@@ -16,6 +16,7 @@ import Mixer from "./pages/Mixer"
 import Serie from "./pages/Serie"
 import { Helmet } from "react-helmet"
 import Mensaje from "./pages/Mensaje"
+import Experiencia from "./pages/Experiencia"
 
 
 function App() {
@@ -46,7 +47,8 @@ function App() {
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/serie/:id" element={<Serie />} />
           <Route path="/mensaje" element={<Mensaje />} />
-
+          <Route path="/experiencia" element={<Experiencia />} />
+        
         </Routes>
       </main>
     </BrowserRouter>
