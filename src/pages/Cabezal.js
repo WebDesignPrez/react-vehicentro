@@ -56,7 +56,7 @@ function Camion() {
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
             images = [
                 "../images/24-toneladas/camion-blanco-sinotruk-de-24-toneladas-ecuador.webp",
-                "../images/24-toneladas/camion-blanco-sinotruk-de-24-toneladas-ecuador.webp"
+                "../images/24-toneladas/camion-sinotruk-de-24-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "340 HP"
             textoMotor2 = "Modelo T5G-4187 - 24 Ton"
@@ -149,6 +149,60 @@ function Camion() {
             medidas = "../images/28-toneladas/dimensiones-de-camion-de-28-toneladas-sinotruk.webp"
             medidasMovil = "../images/28-toneladas/dimensiones-de-camion-de-28-toneladas-sinotruk-responsive.webp"
             audio_motor = "../images/28-toneladas/motor.wav"
+
+            internas = internas1.concat(internas2)
+
+            contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+            </div>
+
+            contenedorVidaUtil = "Disponible con retardador"
+            break;
+
+            //28 toneladas retardador
+        case "cabezal-28-toneladas-retardador":
+            console.log('28 ton retardador')
+            nombreCamion = "Camion de 28 toneladas | T7H-390"
+            camionSerie = "T7H 390 / 28 TON con retardador"
+            nombreSerie = "Serie T7H"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
+            images = [
+                "../images/28-toneladas-retardador/camion-blanco-sinotruk-de-28-toneladas-ecuador.webp",
+                "../images/28-toneladas-retardador/camion-blanco-sinotruk-de-28-toneladas-de-frente-ecuador.webp"
+            ];
+            textoMotor1 = "390 HP"
+            textoMotor2 = "Modelo T7H-390"
+            textoMotor3 = "Ficha técnica"
+            precio = "$69.990"
+            cuotas = 'Cuotas desde: $1.258,00'
+            motor = "../images/28-toneladas-retardador/motor-sinotruk-de-camion-de-28-toneladas-ecuador.webp"
+            garantia = "../images/28-toneladas-retardador/5-anos-de-garantia.webp"
+            tecnologia = "../images/28-toneladas-retardador/tecnologia-alemana.webp"
+            caracteristicas = [
+                "../images/28-toneladas-retardador/camion-de-28-toneladas-potencia-390hp.webp",
+                "../images/28-toneladas-retardador/camion-de-28-toneladas-cilindraje.webp",
+                "../images/28-toneladas-retardador/camion-de-28-toneladas-freno-a-las-valvulas.webp",
+                "../images/28-toneladas-retardador/inyeccion.webp"
+            ]
+            cabina = "../images/28-toneladas-retardador/cabina-de-camion-de-28-toneladas-sinotruk.webp"
+            marcas = "../images/28-toneladas-retardador/marcas-vehicentro.webp"
+            internas1 = [
+                "../images/28-toneladas-retardador/volante-deportivo.webp",
+                "../images/28-toneladas-retardador/pantalla-android.webp",
+                "../images/28-toneladas-retardador/palanca.webp",
+                "../images/28-toneladas-retardador/computadora-bosch.webp",
+                "../images/28-toneladas-retardador/wabco-dos.webp"
+            ];
+            internas2 = [
+                "../images/28-toneladas-retardador/uneta.webp",
+                "../images/28-toneladas-retardador/wabco.webp",
+                "../images/28-toneladas-retardador/bloqueo.webp",
+                "../images/28-toneladas-retardador/control-hidraulico.webp"
+            ];
+
+            medidas = "../images/28-toneladas-retardador/dimensiones-de-camion-de-28-toneladas-sinotruk.webp"
+            medidasMovil = "../images/28-toneladas-retardador/dimensiones-de-camion-de-28-toneladas-sinotruk-responsive.webp"
+            audio_motor = "../images/28-toneladas-retardador/motor.wav"
 
             internas = internas1.concat(internas2)
 

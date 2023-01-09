@@ -455,7 +455,7 @@ function Camion() {
                 "../images/3.5-toneladas/camion-blanco-sinotruk-de-3.5-toneladas-ecuador.webp",
                 "../images/3.5-toneladas/camion-blanco-sinotruk-de-3.5-toneladas-de-frente-ecuador.webp"
             ];
-            textoMotor1 = "87 HP"
+            textoMotor1 = "100% Aire"
             textoMotor2 = "Modelo 1057 - 3.5 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$23.990"
