@@ -1382,6 +1382,7 @@ li.mouseA:hover {
 .boxBlock>div {
     width: 33.33%;
     position: relative;
+    transition: width 1s;
 }
 
 .boxBlock>div img {
@@ -1775,4 +1776,37 @@ a.titleBox2:hover {
 
  .linksBox a.active{
     text-decoration: none !important;
+}
+
+.imgHeader1{
+    background-image: url(../public/images/home/repuestos.webp);
+    background-size: cover;
+}
+
+.imgHeader2{
+    background-image: url(../public/images/home/sinotrukeros.webp);
+    background-size: cover;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #videoContainer{
+        max-height: 43vw;
+        overflow: hidden;
+    }
+
+    .video50{
+        width: 50% !important;
+        
+        transition: width 1s;
+    }
+
+    .img25{
+        width: 25% !important;
+        transition: width 1s;
+    }
+
+    .imgHidden{
+        display: none !important;
+    }
 }
