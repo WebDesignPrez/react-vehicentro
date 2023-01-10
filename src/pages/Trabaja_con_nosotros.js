@@ -35,6 +35,6 @@ function Content1() {
         </div>
     </>
     )
-}
+} 
 
 export default Trabaja_con_nosotros

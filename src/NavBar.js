@@ -510,8 +510,8 @@ export default function NavBar() {
                             <p className="colItem meniu"><NavLink to="/camiones/camion-de-9-toneladas">T5G-1167 / 9 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-10-toneladas-t5g-1167">T5G-1167 / 10.8 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-12-toneladas-t5g-1167">T5G-1167 / 12 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167">T5G-1167 / 13 ton (280HP)</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167-330hp">T5G-1167 / 13 ton (330hp)</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167">T5G-1167 / 13 ton <b>(280HP)</b></NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167-330hp">T5G-1167 / 13 ton <b>(330HP)</b></NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-de-18-toneladas-t5g-1257">T5G-1257 / 18 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-de-19-toneladas-t5g-1257">T5G-1257 / 19.5 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t5g-4187">T5G-4187 / 24 ton</NavLink></p>
@@ -547,7 +547,7 @@ export default function NavBar() {
                 </div>
             </li>
             <li>
-                <a className="" href="#" option="sunward">SUNWARD</a>
+                <a className="" href="#" option="sunward">EXCAVADORAS SUNWARD</a>
                 <div className="item-level-1 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="1"></div>
