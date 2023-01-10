@@ -463,4 +463,8 @@
   .concesionariosFlex {
     gap: 5vw;
   }
+
+  .imgContainerHeader {
+    min-height: 70vh;
+  }
 }

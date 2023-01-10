@@ -157,7 +157,7 @@ function Block2() {
 
 function Block3() {
     return (
-        <>ƒ
+        <>
             <div className="block3 boxBlock">
                 <div>
                     <img src="../images/home/serie-100.webp" width="900" height="700" alt="Vehicentro" />
