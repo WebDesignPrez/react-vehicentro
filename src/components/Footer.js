@@ -29,9 +29,9 @@ export default function Footer() {
                 <ul className="list">
                     <li><p className="subTitle">SINOTRUK</p></li>
                     <li><p className="itemMenu">Serie 100</p></li>
-                    <li><p className="itemMenu"><NavLink to="/serie/t5g">Serie T5G</NavLink></p></li>
-                    <li><p className="itemMenu"><NavLink to="/serie/t7h">Serie T7H</NavLink></p></li>
-                    <li><p className="itemMenu"><NavLink to="/serie/c7h">Serie C7H</NavLink></p></li>
+                    <li><p className="itemMenu"><a href="/serie/t5g">Serie T5G</a></p></li>
+                    <li><p className="itemMenu"><a href="/serie/t7h">Serie T7H</a></p></li>
+                    <li><p className="itemMenu"><a href="/serie/c7h">Serie C7H</a></p></li>
                     <li><p className="itemMenu">Especiales</p></li>
                 </ul>
                 <ul className="list">
@@ -44,8 +44,8 @@ export default function Footer() {
             <div className="col1 colSell">
                 <p className="title">POST VENTA</p>
                 <ul className="list listNonTitle">
-                    <li><p className="itemMenu"><NavLink to="/concesionarios">Concesionarios</NavLink></p></li>
-                    <li><p className="itemMenu"><NavLink to="/repuestos">Repuestos</NavLink></p></li>
+                    <li><p className="itemMenu"><a href="/concesionarios">Concesionarios</a></p></li>
+                    <li><p className="itemMenu"><a href="/repuestos">Repuestos</a></p></li>
                     <li><p className="itemMenu">Mantenimiento</p></li>
                     <li><p className="itemMenu">Garantía</p></li>
                 </ul>

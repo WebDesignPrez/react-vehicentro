@@ -403,7 +403,7 @@ export default function NavBarTop() {
                 <a href="#" option="compania">COMPAÑÍA</a>
                 <div className="item-level-6 nav-header nav-header-h" >
                     <div className="headerSubMenu">
-                        <div className="closeMovil" data-id="0"></div>
+                        <div className="closeMovil" data-id="6"></div>
                         <p>COMPAÑÍA</p>
                     </div>
                     <div className="rowMenu">
