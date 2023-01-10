@@ -205,7 +205,7 @@ function FormContactFicha(props) {
   }
 
   return <div className="modalForm">
-    <span className="closeBtnForm" onClick={closeBtn}><img src="https://desarollo.vehicentro.com/images/close-icon.png" alt="close" /></span>
+    <span className="closeBtnForm" onClick={closeBtn}><img src="https://vehicentro.com/images/close-icon.png" alt="close" /></span>
             <div className="form-box">
               <h5 className="form-step"> ¿Necesitas información? </h5>
               <form action={url} method="post" onSubmit={(ev) => handleSumbit(ev)}>
@@ -285,7 +285,6 @@ function FormContactFicha(props) {
                       {options}
                     </select>
                   </div>
-
 
                   <div className="input-group inputCamionInt">
                     <span className="userIcon"></span>
