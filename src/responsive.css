@@ -6,8 +6,8 @@
   .closeMovil::before {
     content: url(../public/images/back.png);
     position: absolute;
-    top: -10px;
-    left: -25px;
+    top: -20px;
+    left: -45px;
     transform: scale(0.35);
   }
 
@@ -464,8 +464,16 @@
     gap: 5vw;
   }
 
-  .imgContainerHeader {
+  .imgContainerHeader, #videoContainer {
     min-height: 70vh;
+  }
+
+  .logo::after{
+    content: url(../public/images/leon-web.png);
+    position: absolute;
+    transform: scale(0.4);
+    right: -49px;
+    top: -38px;
   }
 }
 

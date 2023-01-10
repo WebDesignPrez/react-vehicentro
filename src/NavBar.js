@@ -485,7 +485,7 @@ export default function NavBar() {
         </div>
         <ul className="nav-links">
 
-            <li><NavLink className="" to="/">INICIO</NavLink></li>
+          
             <li>
                 <a className="" href="#" option="sinotruk">SINOTRUK</a>
                 <div className="item-level-0 nav-header nav-header-h" >

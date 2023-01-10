@@ -74,7 +74,7 @@ export default function BannerContacto(props){
           {modalContactIsOpen &&
           <div className="modalContact" id="modalBanner" >
             <span className="closeBtnForm" onClick={closeContact}><img src="https://vehicentro.com/images/close-icon_w.png" alt="close" /></span>
-            <div className="headerModalContact"><img src="https://desarollo.vehicentro.com/images/vehicentro-logo-blanco.png" alt="Vehicentro" /></div>
+            <div className="headerModalContact"><img src="https://vehicentro.com/images/vehicentro-logo-blanco.png" alt="Vehicentro" /></div>
             <div className="bodyModalContact">
               <div className="btnModalContact" onClick={gotoWs}><span className="wa">ESCRÍBENOS</span></div>
               <div className="btnModalContact" onClick={gotoCall}><span className="ca">LLAMADA DIRECTA</span></div>

@@ -279,7 +279,7 @@ function FormContact(props) {
                   <label className="input_title">*Camión</label>
                   <div className="input-group">
                     <span className="userIcon"><img src="../images/map-marker-solid.png" /></span>
-                    <select name="serie" value={camionSerie}>
+                    <select name="camionserie" onChange={(e) => { handleChangeSerieCamion(e) }} value={camionSerie} >
                       {options}
                     </select>
                   </div>

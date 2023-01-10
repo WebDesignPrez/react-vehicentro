@@ -54,7 +54,8 @@ nav.internal{
 }
 
 .internal .nav-links a{
-  display: block;
+  /*display: block;*/
+
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
@@ -63,6 +64,16 @@ nav.internal{
   transform: translateX(0%);*/
   opacity: 0;
   font-size: 1em;
+}
+
+.internal .nav-links .nav-header a{
+  display: inline-block;
+}
+
+
+.internal .nav-links .nav-header a:hover::after{
+  content: url(../public/images/arrow2.png);
+  margin-left: 5px;
 }
 
 .internal .nav-links a:hover{
