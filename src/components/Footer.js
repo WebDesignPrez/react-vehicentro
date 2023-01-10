@@ -23,6 +23,7 @@ export default function Footer() {
                     </div>
 
                 </div>
+                
             </div>
             <div className="col1 colProd">
                 <p className="title">PRODUCTOS</p>
@@ -55,13 +56,13 @@ export default function Footer() {
                 <ul className="list listNonTitle">
                     <li><p className="itemMenu">Componentes</p></li>
                     <li><p className="itemMenu">Medición de rendimiento</p></li>
-                    <li><a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login"><p className="itemMenu">BDC</p></a></li>
                 </ul>
 
-                <a href="https://api.whatsapp.com/send?phone=593988593279" className="btn-wsp" target="_blank">
+                
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=593988593279" className="btn-wsp" target="_blank">
                     <img className="imgWpp" src="../images/wpp.gif"></img>
                 </a>
-            </div>
         </div>
     )
 }
