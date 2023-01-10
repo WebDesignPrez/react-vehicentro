@@ -206,7 +206,7 @@ ul.nav-links-h>li>a:hover,
 .active {
     color: #f44331;
     border-bottom-color: #f44331;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     border-bottom-style: solid;
 
 }
@@ -1176,7 +1176,7 @@ p.titleFooter {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    margin: 5% auto;
+    margin: 4% auto;
     justify-content: center;
 
 }
@@ -1656,7 +1656,7 @@ a .flex-row {
 
 .boxConcesionarios>span.spanText {
     text-align: center;
-    padding: 5vw;
+    padding: 0 0 5vw 0;
 }
 
 .concesionariosFlex {
@@ -1775,16 +1775,16 @@ a.titleBox2:hover {
     width: 32%;
 }
 
- .linksBox a.active{
+.linksBox a.active {
     text-decoration: none !important;
 }
 
-.imgHeader1{
+.imgHeader1 {
     background-image: url(../public/images/home/repuestos.webp);
     background-size: cover;
 }
 
-.imgHeader2{
+.imgHeader2 {
     background-image: url(../public/images/home/sinotrukeros.webp);
     background-size: cover;
 }
@@ -1793,23 +1793,27 @@ a.titleBox2:hover {
 
 
 @media only screen and (min-width: 768px) {
-    #videoContainer{
+    #videoContainer {
         max-height: 43vw;
         overflow: hidden;
     }
 
-    .video50{
+    .video50 {
         width: 50% !important;
-        
+
         transition: width 1s;
     }
 
-    .img25{
+    .img25 {
         width: 25% !important;
         transition: width 1s;
     }
 
-    .imgHidden{
+    .imgHidden {
         display: none !important;
     }
+}
+
+a.colItem.meniu.negro {
+    color: #000;
 }

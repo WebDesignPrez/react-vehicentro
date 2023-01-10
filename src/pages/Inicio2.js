@@ -108,7 +108,7 @@ function Block1() {
             <div id= "videoContainer">
                 <div className="boxRight tecnologia">
                     <div className="boxLeft c7h">
-                        <video  autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
+                        <video  autoplay="true" loop muted defaultMuted playsinline id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
                     </div>
                 </div>
                 <div className="overlayBox">
