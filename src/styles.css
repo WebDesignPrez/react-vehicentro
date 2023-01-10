@@ -1404,6 +1404,7 @@ li.mouseA:hover {
     color: #fff;
     padding: 4.5vw 1.5vw 0vw 2vw;
     display: inline-block;
+    text-decoration: none;
 }
 
 .block1 .titleBox::after {
