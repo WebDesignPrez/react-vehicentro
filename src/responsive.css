@@ -506,6 +506,15 @@
     line-height: 15vw;
     padding: 13vh 10vw;
   }
+
+  audio#audioMotorHome {
+    width: 45vw !important;
+  }
+
+  .boxPlayerMotor.audiohome {
+    left: 130px;
+    bottom: 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) {

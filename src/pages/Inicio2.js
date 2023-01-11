@@ -14,9 +14,20 @@ let audio_motor = "../images/10-toneladas/motor.mp3"
 function Inicio2() {
 
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
-
-
+   
     useEffect(() => {
+
+       
+/*         const videoListener = document.querySelectorAll('video')
+        videoListener.forEach(vid=>{
+            vid.addEventListener("click", function(){
+                //console.log(vid)
+                if(vid.paused)
+                vid.play()
+                else
+                vid.pause()
+            })
+        }) */
         const motorPlayer = document.getElementById('audioMotorHome')
         motorPlayer.src = audio_motor
 
@@ -36,25 +47,19 @@ function Inicio2() {
             imgContainer.forEach(a=>{
                 if(!a.classList.contains("img25")){
                     a.classList.add("img25")
-                    //a.classList.add("imgHidden")
                     a.querySelector('.linksBox').classList.add("imgHidden")
-                    //console.log(a.querySelector('.linksBox').classList)
                 }
             })
         }
 
         const mouseLeaveHandler = event =>{
             if(videoContainer.classList.contains("video50")){
-                //console.log("Sale")
                 videoContainer.classList.remove("video50");
             }
             imgContainer.forEach(a=>{
                 if(a.classList.contains("img25")){
                     a.classList.remove("img25")
-
                     a.querySelector('.linksBox').classList.remove("imgHidden")
-                    //console.log(a.querySelector('.linksBox').classList)
-                    
                 }
             })
         }
@@ -68,11 +73,6 @@ function Inicio2() {
             document.removeEventListener('keydown', keyDownHandler);
         };
 
-
-
-/*         return () => {
-            document.removeEventListener('keydown', keyDownHandler);
-        }; */
     }, []);
 
 
@@ -108,7 +108,7 @@ function Block1() {
             <div id= "videoContainer">
                 <div className="boxRight tecnologia">
                     <div className="boxLeft c7h">
-                        <video  autoplay="true" loop muted defaultMuted playsinline id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
+                        <video  autoplay="true" controls loop muted defaultMuted playsinline id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
                     </div>
                 </div>
                 <div className="overlayBox">
