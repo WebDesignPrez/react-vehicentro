@@ -475,5 +475,15 @@
     right: -49px;
     top: -38px;
   }
+
+  .desktopImg{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .movilImg{
+    display: none;
+  }
 }
 
