@@ -301,7 +301,7 @@ function Block4() {
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/tamara.mp4" className="videoWidth" />
+                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/tamara2.mp4" className="videoWidth" />
                 </div>
             </div>
 
@@ -327,12 +327,12 @@ function Menu2() {
 
 function Banner() {
     return (
-        <div className="posRelative banner">
+        <dgitiv className="posRelative banner">
             <img src="./images/home/vehicentro-en-ecuador-venta-de-camiones-cabezales-y-volquetas-sinotruk.webp" width="1790" height="590" className="slideMain" alt="Punto de Venta" />
             <div className="boxText flex-table row">
                 <a href="/concesionarios"><div className="flex-row textMain textMain2">Puntos Vehicentro a nivel Nacional</div></a>
             </div>
-        </div>
+        </dgitiv>
     )
 }
 
