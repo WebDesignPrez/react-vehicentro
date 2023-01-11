@@ -479,6 +479,33 @@
   .desktopImg{
     display: none;
   }
+
+  .nomSeries{
+    display: flex;
+  }
+
+  .nomSeries > div.serieTitle{
+    width: 40%;
+  } 
+  .nomSeries > div.serieList{
+    width: 60%;
+  }
+
+  .serieContainer {
+    font-size: 4.3vw;
+    width: 25vw;
+  }
+
+  .serieTitle1{
+    font-size: 7.2vw;
+    line-height: 4vw;
+  }
+
+  .serieTitle {
+    font-size: 15vw;
+    line-height: 15vw;
+    padding: 13vh 10vw;
+  }
 }
 
 @media only screen and (min-width: 768px) {
