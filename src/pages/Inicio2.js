@@ -14,20 +14,20 @@ let audio_motor = "../images/10-toneladas/motor.mp3"
 function Inicio2() {
 
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
-   
+
     useEffect(() => {
 
-       
-/*         const videoListener = document.querySelectorAll('video')
-        videoListener.forEach(vid=>{
-            vid.addEventListener("click", function(){
-                //console.log(vid)
-                if(vid.paused)
-                vid.play()
-                else
-                vid.pause()
-            })
-        }) */
+
+        /*         const videoListener = document.querySelectorAll('video')
+                videoListener.forEach(vid=>{
+                    vid.addEventListener("click", function(){
+                        //console.log(vid)
+                        if(vid.paused)
+                        vid.play()
+                        else
+                        vid.pause()
+                    })
+                }) */
         const motorPlayer = document.getElementById('audioMotorHome')
         motorPlayer.src = audio_motor
 
@@ -40,30 +40,30 @@ function Inicio2() {
 
         const videoContainer = document.getElementById('videoContainer')
         const imgContainer = document.querySelectorAll('.imgContainerHeader')
-        const mouseOverHandler = event =>{
-            if(!videoContainer.classList.contains("video50"))
+        const mouseOverHandler = event => {
+            if (!videoContainer.classList.contains("video50"))
                 videoContainer.classList.add("video50");
-            
-            imgContainer.forEach(a=>{
-                if(!a.classList.contains("img25")){
+
+            imgContainer.forEach(a => {
+                if (!a.classList.contains("img25")) {
                     a.classList.add("img25")
                     a.querySelector('.linksBox').classList.add("imgHidden")
                 }
             })
         }
 
-        const mouseLeaveHandler = event =>{
-            if(videoContainer.classList.contains("video50")){
+        const mouseLeaveHandler = event => {
+            if (videoContainer.classList.contains("video50")) {
                 videoContainer.classList.remove("video50");
             }
-            imgContainer.forEach(a=>{
-                if(a.classList.contains("img25")){
+            imgContainer.forEach(a => {
+                if (a.classList.contains("img25")) {
                     a.classList.remove("img25")
                     a.querySelector('.linksBox').classList.remove("imgHidden")
                 }
             })
         }
-        
+
         videoContainer.addEventListener('mouseenter', mouseOverHandler);
         videoContainer.addEventListener('mouseleave', mouseLeaveHandler);
 
@@ -105,10 +105,10 @@ function Inicio2() {
 function Block1() {
     return (
         <div className="block1 boxBlock">
-            <div id= "videoContainer">
+            <div id="videoContainer">
                 <div className="boxRight tecnologia">
                     <div className="boxLeft c7h">
-                        <video  autoplay="true" controls loop muted defaultMuted playsinline id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
+                        <video autoplay="true" controls loop muted defaultMuted playsinline id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
                     </div>
                 </div>
                 <div className="overlayBox">
@@ -124,7 +124,7 @@ function Block1() {
                 </div>
             </div>
             <div className="imgContainerHeader imgHeader1">
-                
+
                 <div className="overlayBox">
                     <p className="titleBox"><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
                     <div className="linksBox">
@@ -133,9 +133,9 @@ function Block1() {
                         <NavLink src="">CALCULADORA DE RENDIMIENTO</NavLink>
                     </div>
                 </div>
-            </div> 
+            </div>
             <div className="imgContainerHeader imgHeader2">
-  
+
                 <div className="overlayBox">
                     <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
                     <div className="linksBox">
@@ -233,9 +233,11 @@ function Block3() {
 
 
                     <div className="bottomContainer"><div className="bannerTec"><img src="../images/home/tecnologia-alemana.webp" width="590" height="170" alt="Tecnologia Alemana" /></div>
-                        <div className="boxPlayerMotor audiohome">
-                            <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
-                        </div>
+                        <a>
+                            <p className="boxPlayerMotor audiohome">
+                                <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
+                            </p>
+                        </a>
                         <div className="linksBox">
                             <a className="line2" src="">ESCUCHA TU MOTOR</a>
                         </div>
@@ -291,7 +293,7 @@ function Block4() {
     return (
         <div className="block4 boxBlock boxesIni posRelative content3">
             <div className="boxLeft playMotor colorLinksSobreTexto">
-                <img src="../images/home/sunward-banner.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395"  />
+                <img src="../images/home/sunward-banner.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395" />
                 <div className="boxText flex-table row">
                     <div className="flex-row textMain">Sunward</div>
                     <div className="flex-row imgMain"><img src="./images/arrow-rojo.png" alt="arrow" width="31" height="22" /></div>
