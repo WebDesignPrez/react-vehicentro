@@ -40,7 +40,7 @@ function Inicio2() {
     return (
         <>
             <NavBar />
-            <div className="mensaje">Gracias por contactarnos, un asesor se comunicará con usted.</div>  
+            <div className="mensaje">Gracias por contactarnos, muy pronto uno de nuestros asesores se comunicará con usted.</div>  
             <Menu2 />
             
 
