@@ -46,7 +46,7 @@ function App() {
           <Route path="/mixer/:id" element={<Mixer />} />
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/serie/:id" element={<Serie />} />
-          <Route path="/mensaje" element={<Mensaje />} />
+          <Route path="/gracias-por-contactarnos" element={<Mensaje />} />
           <Route path="/experiencia" element={<Experiencia />} />
         
         </Routes>
