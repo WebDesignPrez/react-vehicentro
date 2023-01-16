@@ -647,6 +647,6 @@ export default function NavBar() {
             <li className="item-level-8 linkContact">
             </li>
         </ul>
-        <img className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="275" height="69" alt="Sinotruk" />
+        <img className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="663" height="163" alt="Sinotruk" />
     </nav>
 } 

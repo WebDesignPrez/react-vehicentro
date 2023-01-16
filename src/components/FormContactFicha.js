@@ -6,7 +6,7 @@ import 'react-notifications/lib/notifications.css';
 
 function FormContactFicha(props) {
 
-  let redireccion = "https://vehicentro.com/mensaje"
+  let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
   let url = props.url
   let nomCamion = props.camion
   let listSerie = (props.serie=="")?'':props.serie
