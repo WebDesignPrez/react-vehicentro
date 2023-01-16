@@ -14,7 +14,7 @@ let audio_motor = "../images/10-toneladas/motor.mp3"
 function Inicio2() {
 
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
-   
+
     useEffect(() => {
 
         const motorPlayer = document.getElementById('audioMotorHome')
@@ -29,30 +29,30 @@ function Inicio2() {
 
         const videoContainer = document.getElementById('videoContainer')
         const imgContainer = document.querySelectorAll('.imgContainerHeader')
-        const mouseOverHandler = event =>{
-            if(!videoContainer.classList.contains("video50"))
+        const mouseOverHandler = event => {
+            if (!videoContainer.classList.contains("video50"))
                 videoContainer.classList.add("video50");
-            
-            imgContainer.forEach(a=>{
-                if(!a.classList.contains("img25")){
+
+            imgContainer.forEach(a => {
+                if (!a.classList.contains("img25")) {
                     a.classList.add("img25")
                     a.querySelector('.linksBox').classList.add("imgHidden")
                 }
             })
         }
 
-        const mouseLeaveHandler = event =>{
-            if(videoContainer.classList.contains("video50")){
+        const mouseLeaveHandler = event => {
+            if (videoContainer.classList.contains("video50")) {
                 videoContainer.classList.remove("video50");
             }
-            imgContainer.forEach(a=>{
-                if(a.classList.contains("img25")){
+            imgContainer.forEach(a => {
+                if (a.classList.contains("img25")) {
                     a.classList.remove("img25")
                     a.querySelector('.linksBox').classList.remove("imgHidden")
                 }
             })
         }
-        
+
         videoContainer.addEventListener('mouseenter', mouseOverHandler);
         videoContainer.addEventListener('mouseleave', mouseLeaveHandler);
 
@@ -281,7 +281,7 @@ function Block4() {
     return (
         <div className="block4 boxBlock boxesIni posRelative content3">
             <div className="boxLeft playMotor colorLinksSobreTexto">
-                <img src="../images/home/sunward-banner.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395"  />
+                <img src="../images/home/sunward-banner.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395" />
                 <div className="boxText flex-table row">
                     <div className="flex-row textMain">Sunward</div>
                     <div className="flex-row imgMain"><img src="./images/arrow-rojo.png" alt="arrow" width="31" height="22" /></div>
