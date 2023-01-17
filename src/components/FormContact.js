@@ -23,7 +23,7 @@ function FormContact(props) {
   let [escoge_tu_concesionario_mas_cercano, setCon] = useState('Concesionario');
 
   const handleChange = (e) => {
-    setName(e.target.value);
+    setName((e.target.value));
   }
 
   const handleChangeCity = (e) => {
@@ -72,7 +72,8 @@ function FormContact(props) {
   }
 
   const validateName = (e) => {
-    if (e == "" || e.length < 3)
+    let auxNom = e.trim()
+    if (auxNom == "" || auxNom.length < 5)
       return true
     else
       return false
@@ -107,7 +108,7 @@ function FormContact(props) {
   }
 
   const validateTel = (e) => {
-    if (e === "" || !(/^\d+$/.test(e)) || e.length < 6 || e.length > 10)
+    if (e === "" || !(/^\d+$/.test(e)) || e.length < 8 || e.length > 10)
       return true
     else
       return false
@@ -136,8 +137,9 @@ function FormContact(props) {
 
     if (!validateName(e.target[0].value) && !validateName(e.target[1].value) && !validateEmail(e.target[2].value) && !validateTel(e.target[3].value) && !validateCed(e.target[4].value)) {
       const form = $(e.target);
+      console.log("Valid")
      // alert(form.attr("action"));
-      $.ajax({
+     /* $.ajax({
         type: "POST",
         url: form.attr("action"),
         data: form.serialize(),
@@ -153,7 +155,7 @@ function FormContact(props) {
           setCed('')
           window.location.href = redireccion;
         }
-      })
+      })*/
     } else {
       NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
     }
@@ -272,7 +274,6 @@ function FormContact(props) {
                       <option value="Especiales">Especiales</option>
                       <option value="Excavadora">Excavadora</option>
                       <option value="Furgoneta">Furgoneta</option>
-                      Furgoneta
                     </select>
                   </div>
 
