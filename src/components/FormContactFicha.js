@@ -7,7 +7,7 @@ import 'react-notifications/lib/notifications.css';
 function FormContactFicha(props) {
 
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
-  let url = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
+  let url = props.url
   let nomCamion = props.camion
   let listSerie = (props.serie=="")?'':props.serie
   let listCamion = (props.camionSerie=="")?'':props.camionSerie

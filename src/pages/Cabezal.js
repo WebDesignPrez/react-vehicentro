@@ -40,7 +40,7 @@ let bdc
 let camionSerie
 let nombreSerie
 let cuotas
-
+let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
 
 function Camion() {
 
@@ -620,7 +620,7 @@ function Camion() {
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             </div>
         </div>
-        <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
+        <BannerContacto url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
         <Footer />
     </>
 }
