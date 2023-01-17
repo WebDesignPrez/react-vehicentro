@@ -620,7 +620,7 @@ function Camion() {
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             </div>
         </div>
-        <BannerContacto url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
+        <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
         <Footer />
     </>
 }
