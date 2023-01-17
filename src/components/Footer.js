@@ -19,7 +19,7 @@ export default function Footer() {
                         <a href="https://www.instagram.com/vehicentroec"><img src="../images/instagram.png" alt="instagram" width="32" height="32" /></a>
                         <a href="https://www.youtube.com/channel/UCW8gGawovE35cXcJ3P2kryQ"><img src="../images/youtube.png" alt="youtube" width="32" height="32" /></a>
                         <a href="https://www.tiktok.com/@sinotrukeros"><img src="../images/tiktok.webp" alt="tiktok" width="32" height="32" /></a>
-                        <a href="#"><img src="../images/linkdin.png" alt="linkdin" width="32" height="32" /></a>
+                        <a href="https://www.linkedin.com/company/vehicentroecu/?originalSubdomain=ec"><img src="../images/linkdin.png" alt="linkdin" width="32" height="32" /></a>
                     </div>
 
                 </div>
