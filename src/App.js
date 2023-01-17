@@ -19,7 +19,7 @@ import Mensaje from "./pages/Mensaje"
 import Experiencia from "./pages/Experiencia"
 import Requisitos_de_calidad from "./pages/Requisitos_de_calidad"
 import Cabina from "./pages/Cabina"
-
+import Motor_mc from "./pages/Motor_mc"
 function App() {
   /*   
     <BrowserRouter basename="/reactjs/">
@@ -51,6 +51,7 @@ function App() {
           <Route path="/experiencia" element={<Experiencia />} />
           <Route path="/requisitos-de-calidad" element={<Requisitos_de_calidad/>} />
           <Route path="/cabina" element={<Cabina/>} />
+          <Route path="/motor-mc" element={<Motor_mc/>} />
         </Routes>
       </main>
     </BrowserRouter>

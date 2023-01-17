@@ -18,7 +18,8 @@ function Content1() {
         <div className="requisitos">
             <div className="requisitosUno">
                 <h1>Cabina C7H</h1>
-            </div><div className="fotoCabina">
+            </div>
+            <div className="fotoCabina">
                 <img src="./images/cabina.webp" />
             </div>
             <div className="requisitosDos">
