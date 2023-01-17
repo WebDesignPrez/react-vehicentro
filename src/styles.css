@@ -1847,3 +1847,7 @@ a.colItem.meniu.negro {
 .textoTec{
     line-height: 30px;
 }
+
+#sinoLink{
+    cursor: pointer;
+}

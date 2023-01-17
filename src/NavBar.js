@@ -10,6 +10,11 @@ export default function NavBar() {
         const navSlideClickH = () => {
             const burger = document.querySelector(".burger");
             const navLinks = document.querySelectorAll(".nav-links-h a");
+            const sinoLink = document.querySelector("#sinoLink");
+            
+            sinoLink.addEventListener("click", (ev) => {
+                window.location = "https://www.sinotruk.com.ec"
+            })
 
             navLinks.forEach((link, index) => {
                 link.addEventListener("click", (ev) => {
@@ -648,7 +653,7 @@ export default function NavBar() {
             <li className="item-level-8 linkContact">
             </li>
         </ul>
-            <img className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="663" height="163" alt="Sinotruk" />
+            <img id="sinoLink" className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="663" height="163" alt="Sinotruk" />
         
     </nav>
 } 
