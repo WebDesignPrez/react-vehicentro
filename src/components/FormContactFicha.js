@@ -158,7 +158,7 @@ function FormContactFicha(props) {
     if (!validateName(e.target[0].value) && !validateName(e.target[1].value) && !validateEmail(e.target[2].value) && !validateTel(e.target[3].value) && !validateCed(e.target[4].value) && !validateCon(e.target[5].value)) {
       const form = $(e.target);
      // alert(form.attr("action"));
-     /* $.ajax({
+     $.ajax({
         type: "POST",
         url: form.attr("action"),
         data: form.serialize(),
@@ -175,7 +175,7 @@ function FormContactFicha(props) {
           setCed('')       
           window.location.href = redireccion;
         }
-      })*/
+      })
     } else {
       NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
     }

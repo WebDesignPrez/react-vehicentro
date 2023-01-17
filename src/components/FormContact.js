@@ -156,7 +156,7 @@ function FormContact(props) {
       const form = $(e.target);
       console.log("Valid")
      // alert(form.attr("action"));
-     /* $.ajax({
+      $.ajax({
         type: "POST",
         url: form.attr("action"),
         data: form.serialize(),
@@ -172,7 +172,7 @@ function FormContact(props) {
           setCed('')
           window.location.href = redireccion;
         }
-      })*/
+      })
     } else {
       NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
     }
