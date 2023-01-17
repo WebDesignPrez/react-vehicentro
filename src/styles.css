@@ -1521,7 +1521,7 @@ li.mouseA:hover {
     right: 30px;
     width: 20vw;
     height: auto;
-    
+
 }
 
 .telefonoInicio {
@@ -1820,4 +1820,30 @@ a.titleBox2:hover {
 
 a.colItem.meniu.negro {
     color: #000;
+}
+
+.requisitos {
+    margin: 5% 8%;
+}
+
+.requisitosUno {
+    font-size: 35px;
+}
+
+.requisitosDos {
+    margin: 3% 3%;
+    font-size: 25px;
+}
+
+.espacioSubtitulo{
+    margin: 3% 0;
+}
+
+.fotoCabina{
+    text-align: center;
+    margin: 3% 0;
+}
+
+.textoTec{
+    line-height: 30px;
 }

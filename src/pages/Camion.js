@@ -544,8 +544,8 @@ function Camion() {
         //3.6 toneladas
         case "camion-de-3-6-toneladas":
             console.log('3.6 toneladas')
-            nombreCamion = "Camion de 3.6 toneladas | 1057"
-            camionSerie = "1057 / 3.6 TON"
+            nombreCamion = "Camion de 3.6 toneladas | 1047"
+            camionSerie = "1047 / 3.6 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
             images = [
@@ -553,7 +553,7 @@ function Camion() {
                 "../images/3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "100% Aire"
-            textoMotor2 = "Modelo 1057 - 3.6 Ton"
+            textoMotor2 = "Modelo 1047 - 3.6 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$23.990"
             cuotas = 'Cuotas desde: $447.00'
