@@ -132,10 +132,27 @@ function FormContact(props) {
       return false
   }
 
+  const handleFocusCon = (e) => {
+    let aux = e.target.closest('.input-group');
+    if (validateCon(e.target.value)) {
+      aux.classList.add("errorClass")
+      NotificationManager.error('Seleccionar concesionario.', '');
+    } else {
+      aux.classList.remove("errorClass")
+    }
+  }
+
+  const validateCon = (e) => {
+    if (e === "" || e === "Concesionario" )
+      return true
+    else
+      return false
+  }
+
   function handleSumbit(e) {
     e.preventDefault();
 
-    if (!validateName(e.target[0].value) && !validateName(e.target[1].value) && !validateEmail(e.target[2].value) && !validateTel(e.target[3].value) && !validateCed(e.target[4].value)) {
+    if (!validateName(e.target[0].value) && !validateName(e.target[1].value) && !validateEmail(e.target[2].value) && !validateTel(e.target[3].value) && !validateCed(e.target[4].value) && !validateCon(e.target[5].value)) {
       const form = $(e.target);
       console.log("Valid")
      // alert(form.attr("action"));
@@ -244,7 +261,7 @@ function FormContact(props) {
                   <label className="input_title">*Escoge tu concesionario más cercano</label>
                   <div className="input-group">
                     <span className="userIcon"><img src="../images/map-marker-solid.png" /></span>
-                    <select name="escoge_tu_concesionario_mas_cercano" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeCon(e) }} value={escoge_tu_concesionario_mas_cercano}>
+                    <select name="escoge_tu_concesionario_mas_cercano" onBlur={(e) => { handleFocusCon(e) }} onChange={(e) => { handleChangeCon(e) }} value={escoge_tu_concesionario_mas_cercano}>
                       <option value="Concesionario">Concesionario</option>
                       <option value="Ambato - Av. Indoamérica Sector Izamba">Ambato - Av. Indoamérica Sector Izamba</option>
                       <option value="Ambato - Av. Guaytambos Sector Ficoa">Ambato - Av. Guaytambos Sector Ficoa</option>

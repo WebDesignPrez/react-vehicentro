@@ -8,7 +8,7 @@ import { Slide } from 'react-slideshow-image';
 
 let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBSINOHOME"
 let nombreCamion = ""
-let nombreSerie = ""
+let nombreSerie = "Serie 100"
 let camionSerie = ""
 let audio_motor = "../images/10-toneladas/motor.mp3"
 function Inicio2() {
