@@ -92,7 +92,7 @@ export default function NavBar() {
 
                     document.querySelector(".item-level-3").classList.remove("nav-header-s")
                     document.querySelector(".item-level-3").classList.add("nav-header-h")
-                    break;                    
+                    break;
 
             }
 
@@ -286,33 +286,33 @@ export default function NavBar() {
                 }
             });
 
-           /* compania.addEventListener("click", () => {
-                nav.classList.toggle("nav-active");
-                navSearch[0].classList.toggle("nav-search-active");
-
-                document.querySelector('nav > .logo').classList.toggle("logoNav");
-                navh.classList.toggle("nav-inactive");
-
-                navLinks.forEach((link, index) => {
-                    if (link.style.animation) {
-                        link.style.animation = "";
-                    } else {
-                        link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
-                    }
-                });
-
-                document.querySelector(".menu1").classList.add("logob")
-
-                if (auxMovil == 0)
-                    resetMenu();
-
-                burger.classList.toggle("toggle");
-                if (burger.classList.contains('toggle')) {
-
-                } else {
-                    document.querySelector(".menu1").classList.remove("logob")
-                }
-            });*/
+            /* compania.addEventListener("click", () => {
+                 nav.classList.toggle("nav-active");
+                 navSearch[0].classList.toggle("nav-search-active");
+ 
+                 document.querySelector('nav > .logo').classList.toggle("logoNav");
+                 navh.classList.toggle("nav-inactive");
+ 
+                 navLinks.forEach((link, index) => {
+                     if (link.style.animation) {
+                         link.style.animation = "";
+                     } else {
+                         link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
+                     }
+                 });
+ 
+                 document.querySelector(".menu1").classList.add("logob")
+ 
+                 if (auxMovil == 0)
+                     resetMenu();
+ 
+                 burger.classList.toggle("toggle");
+                 if (burger.classList.contains('toggle')) {
+ 
+                 } else {
+                     document.querySelector(".menu1").classList.remove("logob")
+                 }
+             });*/
             //INI PARAMS
 
 
@@ -351,44 +351,44 @@ export default function NavBar() {
                 case "6":
                     document.querySelector(".item-level-6").classList.toggle("nav-header-h")
                     document.querySelector(".item-level-6").classList.toggle("nav-header-s")
-                    break;    
+                    break;
                 default:
                     break;
             }
         }
 
-      /*  const modalVideo = (vid, poster) => {
-            const para = document.createElement("div");
-            para.classList.add("modal");
-            document.querySelector("body").appendChild(para);
-
-            para.addEventListener('click', () => {
-                para.remove()
-            })
-
-            //CLOSE BTN
-            var img = document.createElement('img');
-            img.src = './images/close-icon.png';
-            img.addEventListener("click", () => {
-                para.remove()
-            })
-            img.classList.add("modalClose");
-            para.appendChild(img);
-
-            //VIDEO ELEMENT
-            var video = document.createElement('video');
-            video.classList.add("modalVideo");
-            video.src = './images/' + vid;
-            video.poster = './images/' + poster
-            video.autoplay = true;
-            video.controls = true;
-            video.muted = false;
-            para.appendChild(video);
-
-            video.addEventListener('click', (event) => {
-                event.stopPropagation();
-            })
-        }*/
+        /*  const modalVideo = (vid, poster) => {
+              const para = document.createElement("div");
+              para.classList.add("modal");
+              document.querySelector("body").appendChild(para);
+  
+              para.addEventListener('click', () => {
+                  para.remove()
+              })
+  
+              //CLOSE BTN
+              var img = document.createElement('img');
+              img.src = './images/close-icon.png';
+              img.addEventListener("click", () => {
+                  para.remove()
+              })
+              img.classList.add("modalClose");
+              para.appendChild(img);
+  
+              //VIDEO ELEMENT
+              var video = document.createElement('video');
+              video.classList.add("modalVideo");
+              video.src = './images/' + vid;
+              video.poster = './images/' + poster
+              video.autoplay = true;
+              video.controls = true;
+              video.muted = false;
+              para.appendChild(video);
+  
+              video.addEventListener('click', (event) => {
+                  event.stopPropagation();
+              })
+          }*/
 
         const navSlideClick = () => {
             const navLinks = document.querySelectorAll(".nav-links a");
@@ -408,7 +408,7 @@ export default function NavBar() {
                             break;
                         case "compania":
                             menuSelect("compania")
-                            break;    
+                            break;
                     }
                 })
             })
@@ -485,7 +485,7 @@ export default function NavBar() {
         </div>
         <ul className="nav-links">
 
-          
+
             <li>
                 <a className="" href="#" option="sinotruk">SINOTRUK</a>
                 <div className="item-level-0 nav-header nav-header-h" >
@@ -647,6 +647,7 @@ export default function NavBar() {
             <li className="item-level-8 linkContact">
             </li>
         </ul>
-        <img className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="663" height="163" alt="Sinotruk" />
+            <img className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="663" height="163" alt="Sinotruk" />
+        
     </nav>
 } 

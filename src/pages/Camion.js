@@ -540,6 +540,104 @@ function Camion() {
             contenedorVidaUtil = <div className="banner"><img src="../images/3.5-toneladas/homologado.webp" /></div>
             break;
 
+
+        //3.6 toneladas
+        case "camion-de-3-6-toneladas":
+            console.log('3.6 toneladas')
+            nombreCamion = "Camion de 3.6 toneladas | 1057"
+            camionSerie = "1057 / 3.6 TON"
+            nombreSerie = "Serie 100"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
+            images = [
+                "../images/3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-ecuador.webp",
+                "../images/3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-de-frente-ecuador.webp"
+            ];
+            textoMotor1 = "100% Aire"
+            textoMotor2 = "Modelo 1057 - 3.6 Ton"
+            textoMotor3 = "Ficha técnica"
+            precio = "$23.990"
+            cuotas = 'Cuotas desde: $447.00'
+            motor = "../images/3.6-toneladas/motor-sinotruk-de-camion-de-3.6-toneladas-ecuador.webp"
+            garantia = "../images/3.6-toneladas/5-anos-de-garantia.webp"
+            tecnologia = "../images/3.6-toneladas/serie-100.webp"
+
+            caracteristicas = [
+                "../images/3.6-toneladas/camion-de-3.6-toneladas-potencia-87hp.webp",
+                "../images/3.6-toneladas/camion-de-3.6-toneladas-cilindraje.webp",
+                "../images/3.6-toneladas/camion-de-3.6-toneladas-freno-de-aire.webp",
+                "../images/3.6-toneladas/camion-de-3.6-toneladas-inyeccion-common-rail.webp"
+            ]
+            cabina = "../images/3.6-toneladas/cabina-de-camion-de-3.6-toneladas-sinotruk.webp"
+            marcas = ""
+            internas1 = [
+                "../images/3.6-toneladas/volante-deportivo.webp",
+                "../images/3.6-toneladas/ventilacion.webp"
+            ];
+            internas2 = [
+                "../images/3.6-toneladas/palanca-de-cambios.webp",
+                "../images/3.6-toneladas/bloqueo.webp"
+            ];
+            internas1b = [
+                "../images/3.6-toneladas/radio-mp5.webp",
+                "../images/3.6-toneladas/vidrios-electricos.webp"
+            ];
+            internas2b = [
+                "../images/3.6-toneladas/cabina.webp"
+            ];
+            medidas = "../images/3.6-toneladas/dimensiones-de-camion-de-3.6-toneladas-sinotruk.webp"
+            medidasMovil = "../images/3.6-toneladas/dimensiones-de-camion-de-3.6-toneladas-sinotruk-responsive.webp"
+            audio_motor = "../images/3.6-toneladas/motor.mp3"
+
+
+            internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
+            //loop slider
+
+            slide3 = internas1b.map((interna) =>
+                <div className="each-slide-effect" >
+                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+                    </div>
+                </div>
+            );
+
+            slide3b = internas2b.map((interna) =>
+                <div className="each-slide-effect" >
+                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+                    </div>
+                </div>
+            );
+
+            contenedorMarcas = <div style={{ display: `contents` }} >
+                {internas1b.length > 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <Fade >
+                            {slide3}
+                        </Fade>
+                    </div>
+                }
+                {internas1b.length == 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <img src={internas1b[0]} alt="" />
+                    </div>
+                }
+
+                {internas2b.length > 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <Fade >
+                            {slide3b}
+                        </Fade>
+                    </div>
+                }
+                {internas2b.length == 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <img src={internas2b[0]} alt="" />
+                    </div>
+                }
+            </div>
+
+            contenedorVidaUtil = <div className="banner"><img src="../images/3.6-toneladas/homologado.webp" /></div>
+            break;
+
+
         //5 toneladas
         case "camion-de-5-toneladas-1067":
             console.log('5 toneladas')
@@ -840,6 +938,10 @@ function Camion() {
 
         case "camion-de-3-5-toneladas-1057":
             imagen = "../images/3.5-toneladas/camion-de-3.5-toneladas-en-la-carretera-sinotruk.webp"
+            break;
+
+        case "camion-de-3-6-toneladas":
+            imagen = "../images/3.6-toneladas/camion-de-3.6-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
         case "camion-de-5-toneladas-1067":
