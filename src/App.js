@@ -17,7 +17,8 @@ import Serie from "./pages/Serie"
 import { Helmet } from "react-helmet"
 import Mensaje from "./pages/Mensaje"
 import Experiencia from "./pages/Experiencia"
-
+import Requisitos_de_calidad from "./pages/Requisitos_de_calidad"
+import Cabina from "./pages/Cabina"
 
 function App() {
   /*   
@@ -48,7 +49,8 @@ function App() {
           <Route path="/serie/:id" element={<Serie />} />
           <Route path="/gracias-por-contactarnos" element={<Mensaje />} />
           <Route path="/experiencia" element={<Experiencia />} />
-        
+          <Route path="/requisitos-de-calidad" element={<Requisitos_de_calidad/>} />
+          <Route path="/cabina" element={<Cabina/>} />
         </Routes>
       </main>
     </BrowserRouter>
