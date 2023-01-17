@@ -43,7 +43,7 @@ let medidasDos
 let camionSerie
 let nombreSerie
 let cuotas
-
+let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
 
 
 function Camion() {
@@ -423,7 +423,7 @@ function Camion() {
     <Footer />
 
     {modalFormIsOpen &&
-      <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
+      <FormContactFicha url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
     }
   </>
 }
