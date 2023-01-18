@@ -305,7 +305,8 @@ function Menu2() {
                 <li className="companiaCss"><NavLink to="/compania">COMPAÑÍA</NavLink></li>
                 <li className="tecnologiaCss"><a>TECNOLOGÍA</a></li>
             </ul>
-            <span className="telefonoInicio">032994740 - 0992048229</span>
+            <span className="telefonoInicio">0992048229</span>
+            <img className="imgMenu2" src="./images/home/logo-sinotruk-negro.png" alt="" />
         </nav>
     )
 }
