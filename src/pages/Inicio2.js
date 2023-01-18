@@ -92,10 +92,10 @@ function Inicio2() {
 function Block1() {
     return (
         <div className="block1 boxBlock" height="1080">
-            <div id= "videoContainer">
+            <div id="videoContainer">
                 <div className="boxRight tecnologia" height="1080">
                     <div className="boxLeft c7h">
-                        <video  autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
+                        <video autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
                     </div>
                 </div>
                 <div className="overlayBox" height="200">
@@ -109,14 +109,14 @@ function Block1() {
                 </div>
             </div>
             <div className="imgContainerHeader imgHeader1" height="600">
-                
+
                 <div className="overlayBox" height="200">
-                    <p className="titleBox"><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
+                    <p className="titleBox "><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
                     <div className="linksBox">
                         <NavLink to="/concesionarios" src="">LA MEJOR GARANTIA DEL PAÍS</NavLink>
                     </div>
                 </div>
-            </div> 
+            </div>
             <div className="imgContainerHeader imgHeader2" height="600">
                 <div className="overlayBox" height="200">
                     <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
