@@ -519,6 +519,10 @@
   .cuotas {
     font-size: 4.2vw;
   }
+
+  .tituloMenu{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
