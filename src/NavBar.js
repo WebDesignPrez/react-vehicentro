@@ -549,7 +549,7 @@ export default function NavBar() {
                             <p className="colTitle">Serie T5G</p>
 
                             <p className="colItem meniu"><NavLink to="/camiones/camion-de-9-toneladas">T5G-1167 / 9 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-10-toneladas-t5g-1167">T5G-1167 / 10.8 ton</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/camiones/camion-10-toneladas-t5g-1167">T5G-1167 / 10 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-12-toneladas-t5g-1167">T5G-1167 / 12 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167">T5G-1167 / 13 ton <b>(280HP)</b></NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167-330hp">T5G-1167 / 13 ton <b>(330HP)</b></NavLink></p>

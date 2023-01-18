@@ -146,7 +146,7 @@ function Block3() {
                     <img src="../images/home/serie-100.webp" width="500" height="389" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <p className="titleBox2 sbold">100</p>
+                        <NavLink className="titleBox2" to="/serie/200">100</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" >3.5 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink><span>/</span>
@@ -162,7 +162,7 @@ function Block3() {
                         <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/camiones/camion-de-9-toneladas">9 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-10-toneladas-t5g-1167">10.8 TON</NavLink><span>/</span>
+                            <NavLink className="line2" to="/camiones/camion-10-toneladas-t5g-1167">10 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-12-toneladas-t5g-1167">12 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167">13 TON 280 HP</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167-330hp">13 TON 330 HP</NavLink><span>/</span>
