@@ -22,6 +22,20 @@ function Experiencia() {
 function Content1() {
     return (
         <div className="block4 boxBlock boxesIni posRelative content3">
+
+
+            <div className="boxRight tecnologia">
+                <div className="boxLeft c7h">
+                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/experiencia/3.mp4" className="videoWidth" />
+                </div>
+            </div>
+
+            <div className="boxRight tecnologia">
+                <div className="boxLeft c7h">
+                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/experiencia/6.mp4" className="videoWidth" />
+                </div>
+            </div>
+
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
                     <video width="320" height="240" controls autoPlay={true} muted loop src="./images/experiencia/1.mp4" className="videoWidth" />
@@ -36,22 +50,10 @@ function Content1() {
 
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/experiencia/3.mp4" className="videoWidth" />
-                </div>
-            </div>
-            
-            <div className="boxRight tecnologia">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/experiencia/6.mp4" className="videoWidth" />
-                </div>
-            </div>
-
-
-            <div className="boxRight tecnologia">
-                <div className="boxLeft c7h">
                     <video width="320" height="240" controls autoPlay={true} muted loop src="./images/experiencia/7.mp4" className="videoWidth" />
                 </div>
             </div>
+
         </div>
     )
 }

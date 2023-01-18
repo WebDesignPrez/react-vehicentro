@@ -244,9 +244,11 @@ function Block3() {
                 <div>
                     <img src="../images/home/mixer.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
-                        <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">ESPECIALES</p>
+                        <p className="titleBox"></p>
+                        <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
+                            <NavLink className="line2" src="" to="">A7 8-9 m3</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="">C7H 12 m3</NavLink>
                         </div>
                     </div>
                 </div>
