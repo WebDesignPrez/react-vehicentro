@@ -71,7 +71,7 @@ function Serie() {
     //Comparacion paginas
     switch ((useParams("id").id)) {
 
-        //10 toneladas
+        //t5g
         case "t5g":
             video = "../images/t5g/video.webm"
             imagen = "../images/t5g/contacto.webp"
@@ -150,7 +150,7 @@ function Serie() {
 
             break;
 
-        //9 toneladas
+        //t7h
         case "t7h":
             video = "../images/t7h/video.webm"
             imagen = "../images/t7h/contacto.webp"
@@ -208,7 +208,7 @@ function Serie() {
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             break;
 
-        //12 toneladas
+        //c7h
         case "c7h":
             console.log('12 toneladas')
             video = "../images/c7h/video.webm"
@@ -307,7 +307,7 @@ function Serie() {
         <NavBarTop />
         <div className="boxesIni posRelative content2 fondonegro">
             <div className="boxRight tecnologia">
-            <div className="boxLeft c7h">
+                <div className="boxLeft c7h">
                     <video width="320" height="240" controls autoPlay={true} muted loop src={video} className="videoWidth" />
                 </div>
             </div>
