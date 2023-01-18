@@ -110,7 +110,7 @@ function FormContactFicha(props) {
   }
 
   const validateTel = (e) => {
-    if (e === "" || !(/^\d+$/.test(e)) || e.length < 8 || e.length > 10)
+    if (e === "" || !(/^\d+$/.test(e)) || e.length < 10 || e.length > 10)
       return true
     else
       return false
