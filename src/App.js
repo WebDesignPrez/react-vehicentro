@@ -24,6 +24,7 @@ import Bastidor_o_chasis from "./pages/Bastidor_o_chasis"
 import Ejes_man from "./pages/Ejes_man"
 import Sistema_evb from "./pages/Sistema_evb"
 import Serie_100 from "./pages/Serie_100"
+import Especiales from "./pages/Especiales"
 function App() {
   /*   
     <BrowserRouter basename="/reactjs/">
@@ -60,6 +61,7 @@ function App() {
           <Route path="/ejes-man" element={<Ejes_man/>} />
           <Route path="/sistema-evb" element={<Sistema_evb/>} />
           <Route path="/serie/100" element={<Serie_100/>} />
+          <Route path="/serie/especiales" element={<Especiales/>} />
         </Routes>
       </main>
     </BrowserRouter>
