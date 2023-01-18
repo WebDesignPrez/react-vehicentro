@@ -105,8 +105,6 @@ function Block1() {
                         <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
                         <NavLink src="" to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
                         <NavLink src="" to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
-                        <NavLink src="" to="/serie/especiales">ESPECIALES</NavLink>
-                        <NavLink src="" option="sunward">ESCAVADORAS</NavLink>
                     </div>
                 </div>
             </div>
@@ -115,9 +113,7 @@ function Block1() {
                 <div className="overlayBox" height="200">
                     <p className="titleBox"><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
                     <div className="linksBox">
-                        <NavLink to="/concesionarios" src="">CONCESIONARIOS</NavLink>
-                        <NavLink to="/concesionarios" src="">REPUESTOS Y TALLERES</NavLink>
-                        <NavLink src="">CALCULADORA DE RENDIMIENTO</NavLink>
+                        <NavLink to="/concesionarios" src="">LA MEJOR GARANTIA DEL PAÍS</NavLink>
                     </div>
                 </div>
             </div> 
@@ -125,7 +121,7 @@ function Block1() {
                 <div className="overlayBox" height="200">
                     <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
                     <div className="linksBox">
-                        <a href="/experiencia" className="line2" src="">EXPERIENCIA DE<br></br> NUESTROS CLIENTES</a>
+                        <a href="/experiencia" className="line2" src="">EXPERIENCIA SINOTRUK</a>
                     </div>
                 </div>
             </div>
