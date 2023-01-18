@@ -304,7 +304,7 @@ function Menu2() {
             <ul className="nav-links-h">
                 <li ><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
                 <li ><a className="sinotruk mouseA" option="sunward">EXCAVADORAS</a></li>
-                <li ><a className="concesionarios mouseA" option="concesionarios">CONCESIONARIOS</a></li>
+                <li ><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
                 <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
                 <li className="companiaCss"><NavLink to="/compania">COMPAÑÍA</NavLink></li>
                 <li className="tecnologiaCss"><a>TECNOLOGÍA</a></li>

@@ -1,3 +1,10 @@
+@media only screen and (max-width: 950px) {
+  .menuHome {
+    width: 85%;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   .searchIcon {
     display: none;
@@ -523,7 +530,16 @@
   .tituloMenu{
     display: none;
   }
+
+  .menuHome .titleHome{
+    display: none;
+  }
+
+  .menuHome {
+    width: 65%;
+  }
 }
+
 
 @media only screen and (min-width: 768px) {
   .movilImg{

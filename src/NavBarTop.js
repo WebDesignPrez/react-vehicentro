@@ -35,6 +35,10 @@ export default function NavBarTop() {
                         case "compania":
                             menuSelect("compania")
                             break;    
+                        case "tecnologia":
+                            menuSelect("tecnologia")
+                            break;    
+            
                     }
                 })
             })
@@ -56,6 +60,9 @@ export default function NavBarTop() {
 
                     document.querySelector(".item-level-6").classList.remove("nav-header-s")
                     document.querySelector(".item-level-6").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
                     break;
                 case "sunward":
                     document.querySelector(".item-level-1").classList.remove("nav-header-h")
@@ -70,6 +77,9 @@ export default function NavBarTop() {
 
                     document.querySelector(".item-level-6").classList.remove("nav-header-s")
                     document.querySelector(".item-level-6").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
                     break;
                 case "concesionarios":
                     document.querySelector(".item-level-3").classList.remove("nav-header-h")
@@ -84,6 +94,9 @@ export default function NavBarTop() {
 
                     document.querySelector(".item-level-6").classList.remove("nav-header-s")
                     document.querySelector(".item-level-6").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
                     break;
                 case "compania":
                     document.querySelector(".item-level-6").classList.remove("nav-header-h")
@@ -98,6 +111,26 @@ export default function NavBarTop() {
 
                     document.querySelector(".item-level-3").classList.remove("nav-header-s")
                     document.querySelector(".item-level-3").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
+                    break;       
+                case "tecnologia":
+                    document.querySelector(".item-level-7").classList.remove("nav-header-h")
+                    document.querySelector(".item-level-7").classList.add("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-s-i")
+
+                    document.querySelector(".item-level-0").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-0").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-1").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-1").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-3").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-3").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-6").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-6").classList.add("nav-header-h")
                     break;           
 
             }
@@ -111,6 +144,8 @@ export default function NavBarTop() {
             document.querySelector(".item-level-1").classList.add("nav-header-h")
             document.querySelector(".item-level-6").classList.remove("nav-header-s")
             document.querySelector(".item-level-6").classList.add("nav-header-h")
+            document.querySelector(".item-level-7").classList.remove("nav-header-s")
+            document.querySelector(".item-level-7").classList.add("nav-header-h")
         }
 
         const navSlide = () => {
@@ -214,6 +249,10 @@ export default function NavBarTop() {
                     document.querySelector(".item-level-6").classList.toggle("nav-header-h")
                     document.querySelector(".item-level-6").classList.toggle("nav-header-s")
                     break;
+                case "7":
+                    document.querySelector(".item-level-7").classList.toggle("nav-header-h")
+                    document.querySelector(".item-level-7").classList.toggle("nav-header-s")
+                    break;
                 default:
                     break;
             }
@@ -237,6 +276,9 @@ export default function NavBarTop() {
                             break;
                         case "compania":
                             menuSelect("compania")
+                            break;  
+                        case "tecnologia":
+                            menuSelect("tecnologia")
                             break;    
                     }
                 })
@@ -415,10 +457,23 @@ export default function NavBarTop() {
                     </div>
                 </div>
             </li>
-            <li className="item-level-7">
-                <a href="#">TECNOLOGÍA</a>
+            <li>
+                <a href="#" option="tecnologia">TECNOLOGÍA</a>
                 <div className="item-level-7 nav-header nav-header-h" >
-
+                    <div className="headerSubMenu">
+                        <div className="closeMovil" data-id="7"></div>
+                        <p>TECNOLOGÍA</p>
+                    </div>
+                    <div className="rowMenu">
+                        <div className="colMenu">
+                            <p className="colItem meniu"><NavLink to="/requisitos-de-calidad">Requisitos de calidad</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/cabina">Cabina</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/motor-mc">Motor MC</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/bastidor-o-chasis">Bastidor o Chasis</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/ejes-man">Ejes Man</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/sistema-evb">Sistema Evb</NavLink></p>
+                        </div>
+                    </div>
                 </div>
             </li>
 

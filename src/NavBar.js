@@ -10,11 +10,7 @@ export default function NavBar() {
         const navSlideClickH = () => {
             const burger = document.querySelector(".burger");
             const navLinks = document.querySelectorAll(".nav-links-h a");
-            const sinoLink = document.querySelector("#sinoLink");
-            
-            sinoLink.addEventListener("click", (ev) => {
-                window.location = "https://www.sinotruk.com.ec"
-            })
+
 
             navLinks.forEach((link, index) => {
                 link.addEventListener("click", (ev) => {
@@ -32,6 +28,9 @@ export default function NavBar() {
                             break;
                         case "compania":
                             menuSelect("compania")
+                            break;
+                        case "tecnologia":
+                            menuSelect("tecnologia")
                             break;
                     }
                 })
@@ -54,6 +53,9 @@ export default function NavBar() {
 
                     document.querySelector(".item-level-6").classList.remove("nav-header-s")
                     document.querySelector(".item-level-6").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
                     break;
                 case "sunward":
                     document.querySelector(".item-level-1").classList.remove("nav-header-h")
@@ -68,6 +70,9 @@ export default function NavBar() {
 
                     document.querySelector(".item-level-6").classList.remove("nav-header-s")
                     document.querySelector(".item-level-6").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
                     break;
 
                 case "concesionarios":
@@ -83,6 +88,9 @@ export default function NavBar() {
 
                     document.querySelector(".item-level-6").classList.remove("nav-header-s")
                     document.querySelector(".item-level-6").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
                     break;
                 case "compania":
                     document.querySelector(".item-level-6").classList.remove("nav-header-h")
@@ -97,6 +105,26 @@ export default function NavBar() {
 
                     document.querySelector(".item-level-3").classList.remove("nav-header-s")
                     document.querySelector(".item-level-3").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
+                    break;
+                case "tecnologia":
+                    document.querySelector(".item-level-7").classList.remove("nav-header-h")
+                    document.querySelector(".item-level-7").classList.add("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-s-i")
+
+                    document.querySelector(".item-level-0").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-0").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-1").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-1").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-3").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-3").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-6").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-6").classList.add("nav-header-h")
                     break;
 
             }
@@ -110,6 +138,8 @@ export default function NavBar() {
             document.querySelector(".item-level-1").classList.add("nav-header-h")
             document.querySelector(".item-level-6").classList.remove("nav-header-s")
             document.querySelector(".item-level-6").classList.add("nav-header-h")
+            document.querySelector(".item-level-7").classList.remove("nav-header-s")
+            document.querySelector(".item-level-7").classList.add("nav-header-h")
         }
 
         const navSlide = () => {
@@ -130,7 +160,7 @@ export default function NavBar() {
                 nav.classList.toggle("nav-active");
                 navSearch[0].classList.toggle("nav-search-active");
 
-                document.querySelector('nav > .logo').classList.toggle("logoNav");
+                document.querySelector('.logoHome').classList.toggle("logoNav");
                 navh.classList.toggle("nav-inactive");
 
                 navLinks.forEach((link, index) => {
@@ -157,7 +187,7 @@ export default function NavBar() {
                 nav.classList.toggle("nav-active");
                 navSearch[0].classList.toggle("nav-search-active");
 
-                document.querySelector('nav > .logo').classList.toggle("logoNav");
+                document.querySelector('.logoHome').classList.toggle("logoNav");
                 navh.classList.toggle("nav-inactive");
 
                 navLinks.forEach((link, index) => {
@@ -185,7 +215,7 @@ export default function NavBar() {
                 nav.classList.toggle("nav-active");
                 navSearch[0].classList.toggle("nav-search-active");
 
-                document.querySelector('nav > .logo').classList.toggle("logoNav");
+                document.querySelector('.logoHome').classList.toggle("logoNav");
                 navh.classList.toggle("nav-inactive");
 
                 navLinks.forEach((link, index) => {
@@ -267,7 +297,7 @@ export default function NavBar() {
                 nav.classList.toggle("nav-active");
                 navSearch[0].classList.toggle("nav-search-active");
 
-                document.querySelector('nav > .logo').classList.toggle("logoNav");
+                document.querySelector('.logoHome').classList.toggle("logoNav");
                 navh.classList.toggle("nav-inactive");
 
                 navLinks.forEach((link, index) => {
@@ -357,6 +387,10 @@ export default function NavBar() {
                     document.querySelector(".item-level-6").classList.toggle("nav-header-h")
                     document.querySelector(".item-level-6").classList.toggle("nav-header-s")
                     break;
+                case "7":
+                    document.querySelector(".item-level-7").classList.toggle("nav-header-h")
+                    document.querySelector(".item-level-7").classList.toggle("nav-header-s")
+                    break;
                 default:
                     break;
             }
@@ -413,6 +447,9 @@ export default function NavBar() {
                             break;
                         case "compania":
                             menuSelect("compania")
+                            break;
+                        case "tecnologia":
+                            menuSelect("tecnologia")
                             break;
                     }
                 })
@@ -471,9 +508,7 @@ export default function NavBar() {
             <div className="line2"></div>
             <div className="line3"></div>
         </div>
-        <div className="logo">
-            <a href="/"><img src="./images/vehicentro-logo-blanco.png" width="230" height="80" alt="Vehicentro" /></a>
-        </div>
+
         <div className="navSearch">
             <input className="search-nav-input" data-testid="search-input" type="search" title="Search" placeholder="Buscar..." id="global-search-input" onChange={handleChange} />
             {menuBusqueda.length > 0 &&
@@ -585,7 +620,7 @@ export default function NavBar() {
                             <p className="colTitle2">Ficoa</p>
                             <p className="colItem">Av. Los Guaytambos</p>
                             <p className="colTitle">Machala</p>
-                            <p className="colItem">Av 25 de junio km 3 y medio vía a pasajemax)</p>
+                            <p className="colItem">Av 25 de junio km 3 y medio vía a pasajemax</p>
                             <p className="colTitle">Ibarra</p>
                             <p className="colItem">Panamericana Sur Km1 y calle los Andes</p>
                             <p className="colTitle">Manta</p>
@@ -634,7 +669,7 @@ export default function NavBar() {
                 <div className="item-level-6 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="6"></div>
-                        <p>COMPAÑÍA</p>
+                            <p>COMPAÑÍA</p>
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -644,16 +679,36 @@ export default function NavBar() {
                     </div>
                 </div>
             </li>
-            <li className="item-level-7">
-                <a href="#">TECNOLOGÍA</a>
+            <li>
+                <a href="#" option="tecnologia">TECNOLOGÍA</a>
                 <div className="item-level-7 nav-header nav-header-h" >
-
+                <div className="headerSubMenu">
+                    <div className="closeMovil" data-id="7"></div>
+                        <p>TECNOLOGÍA</p>
+                    </div>
+                    <div className="rowMenu">
+                        <div className="colMenu">
+                            <p className="colItem meniu"><NavLink to="/requisitos-de-calidad">Requisitos de calidad</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/cabina">Cabina</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/motor-mc">Motor MC</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/bastidor-o-chasis">Bastidor o Chasis</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/ejes-man">Ejes Man</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/sistema-evb">Sistema Evb</NavLink></p>
+                        </div>
+                    </div>
                 </div>
             </li>
             <li className="item-level-8 linkContact">
             </li>
         </ul>
-            <img id="sinoLink" className="sinoIcon" src="./images/home/logo-sinotruk-leon.webp" width="663" height="163" alt="Sinotruk" />
+
+<div className="menuHome">
+    <div className="titleHome"><NavLink to="/compania">COMPAÑIA</NavLink></div>
+    <div className="logoHome">
+            <NavLink to="/"><img src="./images/vehicentro-logo-blanco.png" width="230" height="80" alt="Vehicentro" /></NavLink>
+    </div>
+    <div className="titleHome"><NavLink to="/concesionarios">CONCESIONARIOS</NavLink></div>
+</div>
         
     </nav>
 } 

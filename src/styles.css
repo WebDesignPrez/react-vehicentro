@@ -121,10 +121,18 @@ svg {
 }
 
 .logoNav {
-    width: 18vw;
+  /*   width: 18vw; */
 }
 
 .logo img {
+    max-width: 100%;
+
+    height: auto;
+    aspect-ratio: attr(width) / attr(height);
+
+}
+
+.logoHome img {
     max-width: 100%;
 
     height: auto;
@@ -1850,4 +1858,32 @@ a.colItem.meniu.negro {
 
 #sinoLink{
     cursor: pointer;
+}
+
+.menuHome{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 90%;
+}
+
+.menuHome a{
+    text-decoration: none;
+}
+
+.menuHome a:visited{
+    color: #fff;
+}
+
+.menuHome a:hover{
+    color: #f44331;
+}
+
+.menuHome .active{
+    border-bottom-style: none;
+}
+
+.menuHome > div{
+    align-items: center;
+    display: flex;
 }
