@@ -899,6 +899,10 @@ p.titleFooter {
     max-width: 60%;
 }
 
+.boxNews.companiaimg2.gar img {
+    max-width: 85%;
+}
+
 .companiatexto2 {
     color: #fff;
     text-align: center;
@@ -1843,6 +1847,7 @@ a.colItem.meniu.negro {
 .requisitosDos {
     margin: 3% 3%;
     font-size: 25px;
+    display: flex;
 }
 
 .espacioSubtitulo{
@@ -1922,4 +1927,16 @@ a.colItem.meniu.negro {
 
 .menu2 .imgMenu2{
     width: 14vw;
+}
+
+.textoModificado.a{
+    margin: 0 0 5% 0;
+    display: block;
+}
+
+.textoModificado.c{
+    margin: 0px 0 0 0;
+    font-size: 1.21vw;
+    letter-spacing: -0.8px;
+    display: block;
 }

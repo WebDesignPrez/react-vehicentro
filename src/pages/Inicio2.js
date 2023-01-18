@@ -121,7 +121,7 @@ function Block1() {
                 <div className="overlayBox" height="200">
                     <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
                     <div className="linksBox">
-                        <a href="/experiencia" className="line2" src="">EXPERIENCIA SINOTRUK</a>
+                        <a href="/experiencia" className="line2" src="">TESTIMONIOS</a>
                     </div>
                 </div>
             </div>

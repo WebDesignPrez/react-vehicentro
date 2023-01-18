@@ -732,7 +732,11 @@ function Camion() {
                     </div>
                 }
             </div>
-            contenedorVidaUtil = "Chasis corto\n Chasis largo"
+            contenedorVidaUtil = <div>
+                <span className="textoModificado a">Chasis corto<br></br></span>
+                <span className="textoModificado b">Chasis largo<br></br></span>
+                <span className="textoModificado c">Cabina normal - Cabina 1/2</span>
+            </div>
 
 
             break;
