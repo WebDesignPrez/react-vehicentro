@@ -117,7 +117,7 @@ export default function NavBarTop() {
             const burger = document.querySelector(".burger");
             const sinotruk = document.querySelector(".sinotruk");
             const sunward = document.querySelector(".sunward");
-            const keyton = document.querySelector(".keyton");
+           // const keyton = document.querySelector(".keyton");
             const concesionarios = document.querySelector(".concesionarios");
 
             const nav = document.querySelector(".nav-links");
@@ -160,7 +160,7 @@ export default function NavBarTop() {
             burger.addEventListener("click", burgerEvent);
             sinotruk.addEventListener("click", burgerEvent);
             sunward.addEventListener("click", burgerEvent);
-            keyton.addEventListener("click", burgerEvent);
+           // keyton.addEventListener("click", burgerEvent);
             concesionarios.addEventListener("click", burgerEvent);
 
             //INI PARAMS
@@ -270,7 +270,7 @@ export default function NavBarTop() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="0"></div>
                         <p>CAMIONES</p>
-                        <img className="imgnMenu" src="../images/logoSinotruck.png" alt="Sinotruck" />
+                        <img className="imgnMenu" src="../images/home/logo-sinotruk-negro.png" alt="Sinotruck" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -429,14 +429,15 @@ export default function NavBarTop() {
 
         <ul className="nav-links-h">
             <li><NavLink to="/">INICIO</NavLink></li>
-            <li ><a className="sinotruk mouseA" option="sinotruk">SINOTRUK</a></li>
-            <li ><a className="sunward mouseA" option="sunward">SUNWARD</a></li>
-            <li ><a className="keyton mouseA" option="keyton">KEYTON</a></li>
+            <li ><a className="sinotruk mouseA" option="sinotruk">CAMIONES</a></li>
+            <li ><a className="sunward mouseA" option="sunward">EXCAVADORAS</a></li>
+
             <li ><a className="concesionarios mouseA" option="concesionarios">CONCESIONARIOS</a></li>
             <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
             <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
             <li className="tecnologiaCss">TECNOLOGÍA</li>
         </ul>
+        
         <div className="navSearch">
             <input className="search-nav-input" data-testid="search-input" type="search" title="Search" placeholder="Buscar..." id="global-search-input" aria-controls="searchNavSuggestions" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="search-suggestion-null" role="combobox" aria-describedby="searchBoxHelpText" />
         </div>

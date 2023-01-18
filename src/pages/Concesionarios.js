@@ -187,7 +187,7 @@ function Concesionarios() {
         <a className='btn6' option="Manta" href='#'>Manta</a>
       </div>
       <div className="boxConcesionarios">
-        <span className='spanText'>Selecciona el concesionario en la ciudad mas cercana</span>
+        <span className='spanText'>Selecciona el concesionario en la ciudad más cercana</span>
       </div>
       <BannerContacto />
       <Footer />

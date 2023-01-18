@@ -95,7 +95,7 @@ function Block1() {
             <div id= "videoContainer">
                 <div className="boxRight tecnologia" height="1080">
                     <div className="boxLeft c7h">
-                        <video  autoPlay={true} width="930" height="1080" controls loop muted id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
+                        <video  autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
                     </div>
                 </div>
                 <div className="overlayBox" height="200">
@@ -136,7 +136,7 @@ function Block1() {
 function Block2() {
     return (
         <div className="block2">
-            <video width="1920" height="1076" controls autoPlay={true} muted loop src="./images/home/vehinstein-tv.mp4" className="videoWidth" />
+            <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="./images/home/vehinstein-tv.mp4" className="videoWidth" />
         </div>
     )
 }
@@ -206,7 +206,7 @@ function Block3() {
                 <div>
 
 
-                    <Slide>
+                    <Slide duration={2000}>
 
                         <div className="each-slide-effect">
                             <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
@@ -291,10 +291,9 @@ function Block4() {
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted loop src="./images/home/tamara2.mp4" className="videoWidth" />
+                    <video width="320" height="240" controls autoPlay={true} playsInline={true} muted loop src="./images/home/tamara2.mp4" className="videoWidth" />
                 </div>
             </div>
-
         </div>
     )
 }

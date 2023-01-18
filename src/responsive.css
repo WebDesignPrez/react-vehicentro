@@ -465,7 +465,7 @@
   }
 
   .imgContainerHeader, #videoContainer {
-    min-height: 70vh;
+    min-height: 60vh;
   }
 
   .logo::after{
@@ -514,6 +514,10 @@
   .boxPlayerMotor.audiohome {
     left: 130px;
     bottom: 10px;
+  }
+
+  .cuotas {
+    font-size: 4.2vw;
   }
 }
 

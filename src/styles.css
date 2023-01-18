@@ -421,8 +421,8 @@ ul.nav-links-h>li>a:hover,
 }
 
 .imgnMenu {
-    max-width: 100px;
-    height: -webkit-fill-available;
+    max-width: 170px;
+    height: auto;
 }
 
 .footer .info .list {
