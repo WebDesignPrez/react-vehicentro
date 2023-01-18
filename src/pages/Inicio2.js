@@ -113,14 +113,14 @@ function Block1() {
                 <div className="overlayBox" height="200">
                     <p className="titleBox "><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
                     <div className="linksBox">
-                        <NavLink to="/concesionarios" src="">LA MEJOR GARANTIA DEL PAÍS</NavLink>
+                        <NavLink to="/garantia" src="">LA MEJOR GARANTIA DEL PAÍS</NavLink>
                     </div>
                 </div>
             </div>
             <div className="imgContainerHeader imgHeader2" height="600">
                 <div className="overlayBox" height="200">
                     <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
-                    <div className="linksBox">
+                    <div className="linksBox testimonio">
                         <a href="/experiencia" className="line2" src="">TESTIMONIOS</a>
                     </div>
                 </div>
