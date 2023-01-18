@@ -1887,3 +1887,21 @@ a.colItem.meniu.negro {
     align-items: center;
     display: flex;
 }
+
+.icon_center.series, .text_icon_center.series, .icon_right.series{
+    width: 33.3%;
+}
+
+.slideMain.logoSerie{
+    max-width: 40%;
+}
+
+.boxLeft.logoCenter{
+    text-align-last: center;
+    width: 100%;
+}
+
+.serieTitle.serieBox.especiales{
+
+    padding: 9vh 11vw;
+}

@@ -548,7 +548,7 @@ function Camion() {
             nombreCamion = "Camion de 3.6 toneladas | 1047"
             camionSerie = "1047 / 3.6 TON"
             nombreSerie = "Serie 100"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH3.6T"
             images = [
                 "../images/3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-ecuador.webp",
                 "../images/3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-de-frente-ecuador.webp"

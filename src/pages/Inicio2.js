@@ -101,11 +101,11 @@ function Block1() {
                 <div className="overlayBox" height="200">
                     <p className="titleBox">PORTAFOLIO / PRODUCTOS</p>
                     <div className="linksBox">
-                        <NavLink src="" option="sinotruk">SERIE <span className="boldserie">100</span></NavLink>
+                        <NavLink src="" to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
                         <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
                         <NavLink src="" to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
                         <NavLink src="" to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
-                        <NavLink src="" option="sinotruk">ESPECIALES</NavLink>
+                        <NavLink src="" to="/serie/especiales">ESPECIALES</NavLink>
                         <NavLink src="" option="sunward">ESCAVADORAS</NavLink>
                     </div>
                 </div>

@@ -29,11 +29,11 @@ export default function Footer() {
                 <p className="title">PRODUCTOS</p>
                 <ul className="list">
                     <li><p className="subTitle">SINOTRUK</p></li>
-                    <li><p className="itemMenu">Serie 100</p></li>
+                    <li><p className="itemMenu"><a href="/serie/100">Serie 100</a></p></li>
                     <li><p className="itemMenu"><a href="/serie/t5g">Serie T5G</a></p></li>
                     <li><p className="itemMenu"><a href="/serie/t7h">Serie T7H</a></p></li>
                     <li><p className="itemMenu"><a href="/serie/c7h">Serie C7H</a></p></li>
-                    <li><p className="itemMenu">Especiales</p></li>
+                    <li><p className="itemMenu"><a href="/serie/especiales">Especiales</a></p></li>
                 </ul>
                 <ul className="list">
                     <li><p className="subTitle">SUNWARD</p></li>
