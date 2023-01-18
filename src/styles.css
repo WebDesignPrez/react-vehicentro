@@ -1542,8 +1542,9 @@ li.mouseA:hover {
 .telefonoInicio::before {
     content: url(../public/images/home/icono-telefono.webp);
     position: absolute;
-    left: -45px;
+    left: -3vw;
     top: -10px;
+    transform: scale(0.8);
 }
 
 .home2 ul.nav-links-h {
@@ -1880,6 +1881,10 @@ a.colItem.meniu.negro {
     color: #f44331;
 }
 
+.menuHome a:link{
+    color: #fff;
+} 
+
 .menuHome .active{
     border-bottom-style: none;
 }
@@ -1913,4 +1918,8 @@ a.colItem.meniu.negro {
     padding: 0;
     display: inline-block;
     text-decoration: none;
+}
+
+.menu2 .imgMenu2{
+    width: 14vw;
 }
