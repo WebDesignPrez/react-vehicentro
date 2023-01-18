@@ -1880,6 +1880,10 @@ a.colItem.meniu.negro {
     color: #f44331;
 }
 
+.menuHome a:link{
+    color: #fff;
+} 
+
 .menuHome .active{
     border-bottom-style: none;
 }
