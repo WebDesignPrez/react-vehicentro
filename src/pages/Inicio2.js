@@ -254,7 +254,7 @@ function Block3() {
                     <img src="../images/home/sector-ganadero.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">SECTOR GANADERÍA</p>
+                        <p className="titleBox2">ESPECIALES</p>
                         <div className="linksBox">
                         </div>
                     </div>
@@ -263,7 +263,7 @@ function Block3() {
                     <img src="../images/home/sector-publico.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">SECTOR PÚBLICO</p>
+                        <p className="titleBox2">ESPECIALES</p>
                         <div className="linksBox">
                         </div>
                     </div>

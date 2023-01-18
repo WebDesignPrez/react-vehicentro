@@ -153,7 +153,7 @@ export default function NavBarTop() {
             const sinotruk = document.querySelector(".sinotruk");
             const sunward = document.querySelector(".sunward");
            // const keyton = document.querySelector(".keyton");
-            const concesionarios = document.querySelector(".concesionarios");
+            //const concesionarios = document.querySelector(".concesionarios");
 
             const nav = document.querySelector(".nav-links");
             const navh = document.querySelector(".nav-links-h");
@@ -196,7 +196,7 @@ export default function NavBarTop() {
             sinotruk.addEventListener("click", burgerEvent);
             sunward.addEventListener("click", burgerEvent);
            // keyton.addEventListener("click", burgerEvent);
-            concesionarios.addEventListener("click", burgerEvent);
+           // concesionarios.addEventListener("click", burgerEvent);
 
             //INI PARAMS
             /*         const playBtn = document.querySelector(".boxesIni .c7h");
@@ -384,7 +384,7 @@ export default function NavBarTop() {
                 </div>
             </li>
             <li>
-                <a href="/concesionarios" option="concesionarios">CONCESIONARIOS</a>
+                <a href="/concesionarios">CONCESIONARIOS</a>
                 <div className="item-level-3 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="3"></div>
@@ -487,7 +487,7 @@ export default function NavBarTop() {
             <li ><a className="sinotruk mouseA" option="sinotruk">CAMIONES</a></li>
             <li ><a className="sunward mouseA" option="sunward">EXCAVADORAS</a></li>
 
-            <li ><a className="concesionarios mouseA" option="concesionarios">CONCESIONARIOS</a></li>
+            <li className="concesionarios camionesCss"><NavLink to="/concesionarios">CONCESIONARIOS</NavLink></li>
             <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
             <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
             <li className="tecnologiaCss">TECNOLOGÍA</li>
