@@ -57,7 +57,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "E35 y Av. General Pintag",
       url: "https://goo.gl/maps/qme9UhY53gyYueKd6",
-      img: "../images/VEHI-1.jpg",
+      img: "../images/colibri.webp",
       alt: ""
     }, {
       nombre: "QUITO, GALO PLAZA",

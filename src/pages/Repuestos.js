@@ -54,7 +54,7 @@ function Content2() {
 function Content3() {
   return (
     <div className="boxesIni posRelative news repuesto grad">
-      <div className="boxLeft c7h">
+      <div className="boxLeft c7h repuestos">
         <video  controls autoPlay={true} muted loop src="./images/repuestos/repuestos.webm" className="videoWidthRepuesto" />
       </div>
     </div>
