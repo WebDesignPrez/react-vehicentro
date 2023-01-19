@@ -152,6 +152,7 @@ export default function NavBarTop() {
             const burger = document.querySelector(".burger");
             const sinotruk = document.querySelector(".sinotruk");
             const sunward = document.querySelector(".sunward");
+            const tecnologia = document.querySelector(".tecnologia");
             // const keyton = document.querySelector(".keyton");
             //const concesionarios = document.querySelector(".concesionarios");
 
@@ -195,6 +196,7 @@ export default function NavBarTop() {
             burger.addEventListener("click", burgerEvent);
             sinotruk.addEventListener("click", burgerEvent);
             sunward.addEventListener("click", burgerEvent);
+            tecnologia.addEventListener("click", burgerEvent);
             // keyton.addEventListener("click", burgerEvent);
             // concesionarios.addEventListener("click", burgerEvent);
 

@@ -30,6 +30,7 @@ export default function NavBar() {
                             menuSelect("compania")
                             break;
                         case "tecnologia":
+                            burger.click()
                             menuSelect("tecnologia")
                             break;
                     }
@@ -149,6 +150,8 @@ export default function NavBar() {
             /*const keyton = document.querySelector(".keyton"); */
             const concesionarios = document.querySelector(".concesionarios");
             const compania = document.querySelector(".compania");
+            const tecnologia = document.querySelector(".tecnologia");
+
 
             const nav = document.querySelector(".nav-links");
             const navh = document.querySelector(".nav-links-h");
@@ -238,62 +241,37 @@ export default function NavBar() {
                     document.querySelector(".menu1").classList.remove("logob")
                 }
             });
-            /*sunward.addEventListener("click", () => {
-                nav.classList.toggle("nav-active");
-                navSearch[0].classList.toggle("nav-search-active");
-
-                document.querySelector('nav > .logo').classList.toggle("logoNav");
-                navh.classList.toggle("nav-inactive");
-
-                navLinks.forEach((link, index) => {
-                    if (link.style.animation) {
-                        link.style.animation = "";
-                    } else {
-                        link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
-                    }
-                });
-
-                document.querySelector(".menu1").classList.add("logob")
-
-                if (auxMovil == 0)
-                    resetMenu();
-
-                burger.classList.toggle("toggle");
-                if (burger.classList.contains('toggle')) {
-
-                } else {
-                    document.querySelector(".menu1").classList.remove("logob")
-                }
-            });
-            keyton.addEventListener("click", () => {
-                nav.classList.toggle("nav-active");
-                navSearch[0].classList.toggle("nav-search-active");
-
-                document.querySelector('nav > .logo').classList.toggle("logoNav");
-                navh.classList.toggle("nav-inactive");
-
-                navLinks.forEach((link, index) => {
-                    if (link.style.animation) {
-                        link.style.animation = "";
-                    } else {
-                        link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
-                    }
-                });
-
-                document.querySelector(".menu1").classList.add("logob")
-
-                if (auxMovil == 0)
-                    resetMenu();
-
-                burger.classList.toggle("toggle");
-                if (burger.classList.contains('toggle')) {
-
-                } else {
-                    document.querySelector(".menu1").classList.remove("logob")
-                }
-            });
-            */
+          
             concesionarios.addEventListener("click", () => {
+                nav.classList.toggle("nav-active");
+                navSearch[0].classList.toggle("nav-search-active");
+
+                document.querySelector('.logoHome').classList.toggle("logoNav");
+                navh.classList.toggle("nav-inactive");
+
+                navLinks.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = "";
+                    } else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
+                    }
+                });
+
+                document.querySelector(".menu1").classList.add("logob")
+
+                if (auxMovil == 0)
+                    resetMenu();
+
+                burger.classList.toggle("toggle");
+                if (burger.classList.contains('toggle')) {
+
+                } else {
+                    document.querySelector(".menu1").classList.remove("logob")
+                }
+            });
+
+            tecnologia.addEventListener("click", () => {
+                console.log("Tecnologia")
                 nav.classList.toggle("nav-active");
                 navSearch[0].classList.toggle("nav-search-active");
 
@@ -615,8 +593,8 @@ export default function NavBar() {
             <li>
                 <a href="#" option="tecnologia">TECNOLOGÍA</a>
                 <div className="item-level-7 nav-header nav-header-h" >
-                <div className="headerSubMenu">
-                    <div className="closeMovil" data-id="7"></div>
+                    <div className="headerSubMenu">
+                        <div className="closeMovil" data-id="7"></div>
                         <p>TECNOLOGÍA</p>
                     </div>
                     <div className="rowMenu">
@@ -718,7 +696,7 @@ export default function NavBar() {
     <div className="logoHome">
             <NavLink to="/"><img src="./images/vehicentro-logo-blanco.png" width="230" height="80" alt="Vehicentro" /></NavLink>
     </div>
-    <div className="titleHome"></div>
+    <div className="searchHome"><img src="./images/search.png" alt="Buscar" /></div>
 </div>
         
     </nav>

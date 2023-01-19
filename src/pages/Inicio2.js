@@ -300,12 +300,12 @@ function Menu2() {
     return (
         <nav className="menu2 home2">
             <ul className="nav-links-h">
-                <li ><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
-                <li ><a className="sinotruk mouseA" option="sunward">EXCAVADORAS</a></li>
-                <li ><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
-                <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
-                <li className="companiaCss"><NavLink to="/compania">COMPAÑÍA</NavLink></li>
-                <li className="tecnologiaCss"><a>TECNOLOGÍA</a></li>
+                <li><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
+                <li><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
+                <li><a className="mouseA">VEHICULOS</a></li>
+                <li><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
+                <li><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
+                <li><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
             </ul>
             <span className="telefonoInicio">032994740</span>
             <a href="https://sinotruk.com.ec/" target="_blank"><img className="imgMenu2" src="./images/home/logo-sinotruk-negro.png" alt="" /></a>
