@@ -1997,3 +1997,7 @@ a.colItem.meniu.negro {
 .searchHome img{
     max-width: 50%;
 }
+
+.searchHome{
+    justify-content: end;
+}
