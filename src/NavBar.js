@@ -527,7 +527,7 @@ export default function NavBar() {
 
 
             <li>
-                <a className="" href="#" option="sinotruk">SINOTRUK</a>
+                <a className="" href="#" option="sinotruk">CAMIONES</a>
                 <div className="item-level-0 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="0"></div>
@@ -588,11 +588,11 @@ export default function NavBar() {
                 </div>
             </li>
             <li>
-                <a className="" href="#" option="sunward">EXCAVADORAS SUNWARD</a>
+                <a className="" href="#" option="sunward">MAQUINARIA</a>
                 <div className="item-level-1 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="1"></div>
-                        <p className="tituloMenu">EXCAVADORAS</p>
+                        <p className="tituloMenu">MAQUINARIA</p>
                         <img className="imgnMenu" src="../images/logo-sunward.webp" alt="sunward" width="100" height="32" />
                     </div>
                     <div className="rowMenu">
@@ -605,6 +605,39 @@ export default function NavBar() {
                     </div>
                 </div>
             </li>
+            
+            <li className="item-level-5">
+                <a href="/vehiculos">VEHÍCULOS</a>
+                <div className="item-level-5 nav-header nav-header-h" >
+                </div>
+            </li>
+
+            <li>
+                <a href="#" option="tecnologia">TECNOLOGÍA</a>
+                <div className="item-level-7 nav-header nav-header-h" >
+                <div className="headerSubMenu">
+                    <div className="closeMovil" data-id="7"></div>
+                        <p>TECNOLOGÍA</p>
+                    </div>
+                    <div className="rowMenu">
+                        <div className="colMenu">
+                            <p className="colItem meniu"><NavLink to="/requisitos-de-calidad">Requisitos de calidad</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/cabina">Cabina</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/motor-mc">Motor MC</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/bastidor-o-chasis">Bastidor o Chasis</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/ejes-man">Ejes Man</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/sistema-evb">Sistema Evb</NavLink></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li className="item-level-5">
+                <a href="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</a>
+                <div className="item-level-5 nav-header nav-header-h" >
+                </div>
+            </li>
+            
             <li>
                 <a href="/concesionarios" >CONCESIONARIOS</a>
                 <div className="item-level-3 nav-header nav-header-h" >
@@ -658,12 +691,7 @@ export default function NavBar() {
                     </div>
                 </div>
             </li>
-            <li className="item-level-5">
-                <a href="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</a>
-                <div className="item-level-5 nav-header nav-header-h" >
-
-                </div>
-            </li>
+            
             <li>
                 <a href="#" option="compania">COMPAÑÍA</a>
                 <div className="item-level-6 nav-header nav-header-h" >
@@ -680,35 +708,17 @@ export default function NavBar() {
                     </div>
                 </div>
             </li>
-            <li>
-                <a href="#" option="tecnologia">TECNOLOGÍA</a>
-                <div className="item-level-7 nav-header nav-header-h" >
-                <div className="headerSubMenu">
-                    <div className="closeMovil" data-id="7"></div>
-                        <p>TECNOLOGÍA</p>
-                    </div>
-                    <div className="rowMenu">
-                        <div className="colMenu">
-                            <p className="colItem meniu"><NavLink to="/requisitos-de-calidad">Requisitos de calidad</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabina">Cabina</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/motor-mc">Motor MC</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/bastidor-o-chasis">Bastidor o Chasis</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/ejes-man">Ejes Man</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/sistema-evb">Sistema Evb</NavLink></p>
-                        </div>
-                    </div>
-                </div>
-            </li>
+            
             <li className="item-level-8 linkContact">
             </li>
         </ul>
 
 <div className="menuHome">
-    <div className="titleHome"><NavLink to="/compania">COMPAÑIA</NavLink></div>
+    <div className="titleHome"></div>
     <div className="logoHome">
             <NavLink to="/"><img src="./images/vehicentro-logo-blanco.png" width="230" height="80" alt="Vehicentro" /></NavLink>
     </div>
-    <div className="titleHome"><NavLink to="/concesionarios">CONCESIONARIOS</NavLink></div>
+    <div className="titleHome"></div>
 </div>
         
     </nav>

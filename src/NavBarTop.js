@@ -34,11 +34,11 @@ export default function NavBarTop() {
                             break;
                         case "compania":
                             menuSelect("compania")
-                            break;    
+                            break;
                         case "tecnologia":
                             menuSelect("tecnologia")
-                            break;    
-            
+                            break;
+
                     }
                 })
             })
@@ -114,7 +114,7 @@ export default function NavBarTop() {
 
                     document.querySelector(".item-level-7").classList.remove("nav-header-s")
                     document.querySelector(".item-level-7").classList.add("nav-header-h")
-                    break;       
+                    break;
                 case "tecnologia":
                     document.querySelector(".item-level-7").classList.remove("nav-header-h")
                     document.querySelector(".item-level-7").classList.add("nav-header-s")
@@ -131,7 +131,7 @@ export default function NavBarTop() {
 
                     document.querySelector(".item-level-6").classList.remove("nav-header-s")
                     document.querySelector(".item-level-6").classList.add("nav-header-h")
-                    break;           
+                    break;
 
             }
 
@@ -152,7 +152,7 @@ export default function NavBarTop() {
             const burger = document.querySelector(".burger");
             const sinotruk = document.querySelector(".sinotruk");
             const sunward = document.querySelector(".sunward");
-           // const keyton = document.querySelector(".keyton");
+            // const keyton = document.querySelector(".keyton");
             //const concesionarios = document.querySelector(".concesionarios");
 
             const nav = document.querySelector(".nav-links");
@@ -195,8 +195,8 @@ export default function NavBarTop() {
             burger.addEventListener("click", burgerEvent);
             sinotruk.addEventListener("click", burgerEvent);
             sunward.addEventListener("click", burgerEvent);
-           // keyton.addEventListener("click", burgerEvent);
-           // concesionarios.addEventListener("click", burgerEvent);
+            // keyton.addEventListener("click", burgerEvent);
+            // concesionarios.addEventListener("click", burgerEvent);
 
             //INI PARAMS
             /*         const playBtn = document.querySelector(".boxesIni .c7h");
@@ -276,10 +276,10 @@ export default function NavBarTop() {
                             break;
                         case "compania":
                             menuSelect("compania")
-                            break;  
+                            break;
                         case "tecnologia":
                             menuSelect("tecnologia")
-                            break;    
+                            break;
                     }
                 })
             })
@@ -307,7 +307,7 @@ export default function NavBarTop() {
         <ul className="nav-links">
             <li><NavLink className="" to="/">INICIO</NavLink></li>
             <li>
-                <a className="" href="#" option="sinotruk">SINOTRUK</a>
+                <a className="" href="#" option="sinotruk">CAMIONES</a>
                 <div className="item-level-0 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="0"></div>
@@ -368,11 +368,11 @@ export default function NavBarTop() {
                 </div>
             </li>
             <li>
-                <a className="" href="#" option="sunward">EXCAVADORAS SUNWARD</a>
+                <a className="" href="#" option="sunward">MAQUINARIA</a>
                 <div className="item-level-1 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="1"></div>
-                        <p>EXCAVADORAS</p>
+                        <p>MAQUINARIA</p>
                         <img className="imgnMenu" src="../images/logo-sunward.webp" alt="sunward" />
                     </div>
                     <div className="rowMenu">
@@ -383,6 +383,39 @@ export default function NavBarTop() {
                     </div>
                 </div>
             </li>
+
+            <li className="item-level-5">
+                <a href="/vehiculos">VEHÍCULOS</a>
+                <div className="item-level-5 nav-header nav-header-h" >
+                </div>
+            </li>
+
+            <li>
+                <a href="#" option="tecnologia">TECNOLOGÍA</a>
+                <div className="item-level-7 nav-header nav-header-h" >
+                    <div className="headerSubMenu">
+                        <div className="closeMovil" data-id="7"></div>
+                        <p>TECNOLOGÍA</p>
+                    </div>
+                    <div className="rowMenu">
+                        <div className="colMenu">
+                            <p className="colItem meniu"><NavLink to="/requisitos-de-calidad">Requisitos de calidad</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/cabina">Cabina</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/motor-mc">Motor MC</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/bastidor-o-chasis">Bastidor o Chasis</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/ejes-man">Ejes Man</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/sistema-evb">Sistema Evb</NavLink></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            
+            <li className="item-level-5">
+                <a href="#">CAMIONES EN USO</a>
+                <div className="item-level-5 nav-header nav-header-h" >
+                </div>
+            </li>
+
             <li>
                 <a href="/concesionarios">CONCESIONARIOS</a>
                 <div className="item-level-3 nav-header nav-header-h" >
@@ -436,12 +469,7 @@ export default function NavBarTop() {
                     </div>
                 </div>
             </li>
-            <li className="item-level-5">
-                <a href="#">CAMIONES EN USO</a>
-                <div className="item-level-5 nav-header nav-header-h" >
 
-                </div>
-            </li>
             <li>
                 <a href="#" option="compania">COMPAÑÍA</a>
                 <div className="item-level-6 nav-header nav-header-h" >
@@ -458,25 +486,6 @@ export default function NavBarTop() {
                     </div>
                 </div>
             </li>
-            <li>
-                <a href="#" option="tecnologia">TECNOLOGÍA</a>
-                <div className="item-level-7 nav-header nav-header-h" >
-                    <div className="headerSubMenu">
-                        <div className="closeMovil" data-id="7"></div>
-                        <p>TECNOLOGÍA</p>
-                    </div>
-                    <div className="rowMenu">
-                        <div className="colMenu">
-                            <p className="colItem meniu"><NavLink to="/requisitos-de-calidad">Requisitos de calidad</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabina">Cabina</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/motor-mc">Motor MC</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/bastidor-o-chasis">Bastidor o Chasis</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/ejes-man">Ejes Man</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/sistema-evb">Sistema Evb</NavLink></p>
-                        </div>
-                    </div>
-                </div>
-            </li>
 
             <li className="item-level-8 linkContact">
             </li>
@@ -486,14 +495,14 @@ export default function NavBarTop() {
         <ul className="nav-links-h">
             <li><NavLink to="/">INICIO</NavLink></li>
             <li ><a className="sinotruk mouseA" option="sinotruk">CAMIONES</a></li>
-            <li ><a className="sunward mouseA" option="sunward">EXCAVADORAS</a></li>
-
-            <li className="concesionarios camionesCss"><NavLink to="/concesionarios">CONCESIONARIOS</NavLink></li>
-            <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
-            <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
+            <li ><a className="sunward mouseA" option="sunward">MAQUINARIA</a></li>
+            <li className="concesionarios camionesCss"><NavLink to="/vehiculos">VEHÍCULOS</NavLink></li>
             <li className="tecnologiaCss">TECNOLOGÍA</li>
+            <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
+            <li className="concesionarios camionesCss"><NavLink to="/concesionarios">CONCESIONARIOS</NavLink></li>
+            <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
         </ul>
-        
+
         <div className="navSearch">
             <input className="search-nav-input" data-testid="search-input" type="search" title="Search" placeholder="Buscar..." id="global-search-input" aria-controls="searchNavSuggestions" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="search-suggestion-null" role="combobox" aria-describedby="searchBoxHelpText" />
         </div>
