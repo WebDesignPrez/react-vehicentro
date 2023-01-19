@@ -1966,3 +1966,21 @@ a.colItem.meniu.negro {
 .videoWidthRepuesto{
     width: 100%;
 }
+
+.repuestoBtn{
+    color: white;
+    background-color: #a21d21;
+    padding: 14px 54px 14px 54px;
+    margin-bottom: 3%;
+}
+.repuestoBtn a{
+    color: white;
+}
+
+.repuestoBtn:hover{
+    background-color: #000;
+}
+
+.boxNews.companiatext2.btn{
+    text-align: center;
+}

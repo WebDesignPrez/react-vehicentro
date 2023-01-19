@@ -733,11 +733,7 @@ function Camion() {
                     </div>
                 }
             </div>
-            contenedorVidaUtil = <div>
-                <span className="textoModificado a">Chasis corto<br></br></span>
-                <span className="textoModificado b">Chasis largo<br></br></span>
-                <span className="textoModificado c">Cabina normal - Cabina 1/2</span>
-            </div>
+            contenedorVidaUtil = <div className="banner"><img src="../images/5-toneladas/chasis.webp" /></div>
 
 
             break;

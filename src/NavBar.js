@@ -682,6 +682,7 @@ export default function NavBar() {
                             <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
                             <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">BDC</a>
                             <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
+                            <a href="repuestos" className="colItem meniu negro">Repuestos</a>
                         </div>
                     </div>
                 </div>

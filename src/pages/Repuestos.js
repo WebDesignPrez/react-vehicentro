@@ -35,6 +35,10 @@ function Content2() {
   return (
 
     <div className="boxesIni posRelative news repuesto">
+      
+      <div className="boxNews companiatext2 btn">
+        <button className="repuestoBtn" ><a href="https://api.whatsapp.com/send?phone=593991374302&amp;text=Hola,%20necesito%20m%C3%A1s%20informaci%C3%B3n.">Comunícate con un asesor - Link directo de Whatsapp</a> </button>
+      </div>
       <div className="boxNews companiaimg2">
         <img src="./images/repuestos/logo-sinotruk.webp" width="1000" height="760" className="slideMain" alt="Series100" />
       </div>
