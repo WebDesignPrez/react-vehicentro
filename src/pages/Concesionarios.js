@@ -10,18 +10,18 @@ function Concesionarios() {
     id: "Ambato",
     datos: [{
       nombre: "AMBATO, MATRIZ",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
-      direccion: "Av. Indoamérica Km 3-1/2",
-      url: "https://goo.gl/maps/jg9s15HNPskvzUSt5",
+      direccion: "Av. Indoamérica Km 3 1/2 Vía a Quito",
+      url: "https://goo.gl/maps/WSq8jBoHRTN9fcgu7",
       img: "../images/vehicentro-ambato-matriz-indoamerica.webp",
       alt: ""
     }, {
       nombre: "AMBATO, FICOA",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta",
       telefono: "032-994740 | 0992048229",
-      direccion: "Av. Los Guaytambos",
-      url: "https://goo.gl/maps/QPYEJBw4bpuxwid77",
+      direccion: "Av. Los Guaytambos 04-156 y La Delicia",
+      url: "https://goo.gl/maps/pBWeoKpyen13WrWR6",
       img: "../images/vehicentro-ambato-ficoa.webp",
       alt: ""
     }]
@@ -29,31 +29,31 @@ function Concesionarios() {
     id: "Quito",
     datos: [{
       nombre: "QUITO, CARAPUNGO",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
-      direccion: "Av. Simón Bolivar S/N diagonal al Supermercado Santa María.",
-      url: "https://goo.gl/maps/SLyLD262Q3wtb3oVA",
+      direccion: "Av. Simón Bolívar S/N diagonal al Supermercado Santa María",
+      url: "https://goo.gl/maps/UXSBqmZsCpRUTC6G6",
       img: "../images/vehicentro-quito-carapungo-800x711.webp",
       alt: ""
     }, {
       nombre: "QUITO, LOS CHILLOS",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "Av. General Rumiñahui 8-40 y Av. San Luis (frente al San Luis Shopping)",
-      url: "https://goo.gl/maps/KVrF8Vbvo2GMbN3h7",
+      url: "https://goo.gl/maps/V8uKKDkRgmuqeLP79",
       img: "../images/vehicentro-quito-los-chillos.webp",
       alt: ""
     }, {
       nombre: "QUITO, SUR",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta",
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Maldonado y Romero Barberis",
-      url: "https://goo.gl/maps/b1SRumCdPk5y2f7w8",
+      url: "https://goo.gl/maps/UZTTED3ThUqRJsTEA",
       img: "../images/CONCESIONARIOS-780X600-QUITO-SUR.jpg",
       alt: ""
     }, {
       nombre: "QUITO, EL COLIBRÍ",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "E35 y Av. General Pintag",
       url: "https://goo.gl/maps/qme9UhY53gyYueKd6",
@@ -61,29 +61,29 @@ function Concesionarios() {
       alt: ""
     }, {
       nombre: "QUITO, GALO PLAZA",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Galo Plaza Lasso N66-106 y De las Avellanas",
-      url: "https://goo.gl/maps/8XCYvKJZcq5BxhhV9",
+      url: "https://goo.gl/maps/uhWzLJFXVygm1TSt9",
       img: "../images/VEHI-1.jpg",
       alt: ""
     }]
   }, {
     id: "Guayaquil",
     datos: [{
-      nombre: "GUAYAQUIL,  SAMBORONDÓN",
-      descripcion: "Punto de venta, talleres y repuestos",
+      nombre: "GUAYAQUIL, SAMBORONDÓN",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
-      direccion: "Samborondón, vía el puente alterno norte, Ofc. Almax 2",
-      url: "https://goo.gl/maps/WcLQRnYsvZr5DH1C8",
+      direccion: "Samborondón, vía al Puente Alterno Norte, Ofc. Almax 2",
+      url: "https://goo.gl/maps/rwwwz9xkhsmyKN659",
       img: "../images/vehicentro-guayaquil.webp",
       alt: ""
     }, {
       nombre: "GUAYAQUIL, NORTE",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
-      direccion: "Autopista. Narcisa. De Jesús km1. Junto. A ATM. Agencia de tránsito municipal",
-      url: "https://goo.gl/maps/tUbPjM7GZxoPJieF6",
+      direccion: "Autopista Narcisa De Jesús km1 junto a la ATM. (Agencia de Tránsito Municipal)",
+      url: "https://goo.gl/maps/y2rXLQNZamPz3rtm9",
       img: "../images/GYE-NORTE-1551X1187-800x612.jpg",
       alt: ""
     }]
@@ -91,10 +91,10 @@ function Concesionarios() {
     id: "Riobamba",
     datos: [{
       nombre: "RIOBAMBA",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Lizarzaburu entre Monseñor L. Proaño y Padre M. Orozco",
-      url: "https://goo.gl/maps/N5SY8tibit4eXBWN9",
+      url: "https://goo.gl/maps/dqkVXAErCdD3PN4z9",
       img: "../images/vehicentro-riobamba.webp",
       alt: ""
     }]
@@ -102,10 +102,10 @@ function Concesionarios() {
     id: "Cuenca",
     datos: [{
       nombre: "CUENCA",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Gil Ramírez Dávalos 3-80 y Mario Rizzini (Junto a la Gasolinera Primax)",
-      url: "https://goo.gl/maps/s5rHpuF5EibNxDMH9",
+      url: "https://goo.gl/maps/GkZgUEPmYVZHw8Ez5",
       img: "../images/CUENCA-780X600-1.jpg",
       alt: ""
     }]
@@ -113,10 +113,10 @@ function Concesionarios() {
     id: "Machala",
     datos: [{
       nombre: "MACHALA",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
-      direccion: "Av 25 de junio km 3 y medio vía a pasaje",
-      url: "https://goo.gl/maps/vrKzqkH8BMC9KDXM9",
+      direccion: "Av 25 de Junio km 3 1/2 Vía a Pasaje",
+      url: "https://goo.gl/maps/ia5uLKucpSos4mSp7",
       img: "../images/vehicentro-machala.webp",
       alt: ""
     }]
@@ -124,10 +124,10 @@ function Concesionarios() {
     id: "Ibarra",
     datos: [{
       nombre: "IBARRA",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta",
       telefono: "032-994740 | 0992048229",
       direccion: "Panamericana Sur Km1 y calle los Andes",
-      url: "https://goo.gl/maps/zbkchTzEG1bXTH1dA",
+      url: "https://goo.gl/maps/FgVLPgUjqta9LqJ49",
       img: "../images/IBARRA-2.jpg",
       alt: ""
     }]
@@ -135,10 +135,10 @@ function Concesionarios() {
     id: "Manta",
     datos: [{
       nombre: "MANTA",
-      descripcion: "Punto de venta, talleres y repuestos",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "Vía Manta- Rocafuerte - Sin Calle Secundaria, Vía al Aeropuerto",
-      url: "https://goo.gl/maps/WXDrtH7Ugk7E8MRA6",
+      url: "https://goo.gl/maps/mXS7LLaZqfMj4NDv6",
       img: "../images/WhatsApp-Image-2022-09-23-at-6.12.42-PM-800x612.jpeg",
       alt: ""
     }]
