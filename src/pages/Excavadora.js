@@ -86,7 +86,7 @@ function Camion() {
         "../images/swe210/vehicentro-excavadora-ecuador.webp"
       ];
       textoMotor1 = "SUNWARD"
-      textoMotor2 = "Swe210"
+      textoMotor2 = "SWE210"
       textoMotor3 = "Excavadora"
       precio = "$161.280"
       cuotas = 'Cuotas desde: $3.565,00'
@@ -176,7 +176,7 @@ function Camion() {
         "../images/swe365e/vehicentro-excavadora-ecuador.webp"
       ];
       textoMotor1 = "SUNWARD"
-      textoMotor2 = "swe365e"
+      textoMotor2 = "SWE365E"
       textoMotor3 = "Excavadora"
       precio = "$257.600"
       cuotas = 'Cuotas desde: $5.675,00'
@@ -331,7 +331,7 @@ function Camion() {
         <div className="boxText flex-table row textoSobrepuesto">
           <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
           <div onClick={openFormContact} className="flex-row  textoMotor2">{textoMotor2}</div>
-          <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
+          <div onClick={openFormContact} className="flex-row  textoMotor3">Ficha técnica</div>
           <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src="../images/arrow-rojo.png" alt="arrow" /></div>
         </div>
       </div>
