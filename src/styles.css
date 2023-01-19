@@ -1447,6 +1447,10 @@ li.mouseA:hover {
     margin-right: -23px;
 }
 
+.block1 .linksBox.testimonio.test>a {
+    margin-right: -8px;
+}
+
 .block1 .linksBox>a:hover {
     color: red;
     cursor: pointer;

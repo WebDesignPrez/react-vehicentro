@@ -99,7 +99,7 @@ function Block1() {
                     </div>
                 </div>
                 <div className="overlayBox" height="200">
-                    <p className="titleBox">PORTAFOLIO / PRODUCTOS</p>
+                    <p className="titleBox">PRODUCTOS</p>
                     <div className="linksBox">
                         <NavLink src="" to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
                         <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
@@ -111,8 +111,8 @@ function Block1() {
             <div className="imgContainerHeader imgHeader1" height="600">
 
                 <div className="overlayBox" height="200">
-                    <p className="titleBox "><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
-                    <div className="linksBox">
+                    <p className="titleBox "><span className="rojo">R</span>ESPALDO - <span className="rojo">R</span>EPUESTOS</p>
+                    <div className="linksBox testimonio test">
                         <NavLink to="/garantia" src="">LA MEJOR GARANTIA DEL PAÍS</NavLink>
                     </div>
                 </div>

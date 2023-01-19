@@ -156,10 +156,10 @@ function Camion() {
                 <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
             </div>
 
-            contenedorVidaUtil = "Disponible con retardador"
+            contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             break;
 
-            //28 toneladas retardador
+        //28 toneladas retardador
         case "cabezal-28-toneladas-retardador":
             console.log('28 ton retardador')
             nombreCamion = "Camion de 28 toneladas | T7H-390"
@@ -173,8 +173,8 @@ function Camion() {
             textoMotor1 = "390 HP"
             textoMotor2 = "Modelo T7H-390"
             textoMotor3 = "Ficha técnica"
-            precio = "$69.990"
-            cuotas = 'Cuotas desde: $1.258,00'
+            precio = "$76.990"
+            cuotas = 'Cuotas desde: $1.381,00'
             motor = "../images/28-toneladas-retardador/motor-sinotruk-de-camion-de-28-toneladas-ecuador.webp"
             garantia = "../images/28-toneladas-retardador/5-anos-de-garantia.webp"
             tecnologia = "../images/28-toneladas-retardador/tecnologia-alemana.webp"
@@ -210,7 +210,7 @@ function Camion() {
                 <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
             </div>
 
-            contenedorVidaUtil = "Disponible con retardador"
+            contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             break;
 
         //42 toneladas
