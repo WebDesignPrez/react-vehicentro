@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
-export default function Footer() {
 
-    window.scrollTo(0, 0)
+export default function Footer() {
+    
     return (
         <div className="footer posRelative">
             <div className="info">
