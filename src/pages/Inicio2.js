@@ -149,6 +149,7 @@ function Block3() {
                         <NavLink className="titleBox2" to="/serie/200">100</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" >3.5 TON</NavLink><span>/</span>
+                            <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-de-6-toneladas-1067">6 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-8-toneladas-1147">8 TON</NavLink>
@@ -307,7 +308,7 @@ function Menu2() {
                 <li><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
                 <li><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
             </ul>
-            <span className="telefonoInicio">032994740</span>
+            <a href="tel:+59332994740" className="telefonoInicio">032994740</a>
             <a href="https://sinotruk.com.ec/" target="_blank"><img className="imgMenu2" src="./images/home/logo-sinotruk-negro.png" alt="" /></a>
         </nav>
     )
