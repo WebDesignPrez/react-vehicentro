@@ -196,6 +196,8 @@ export default function NavBarTop() {
             burger.addEventListener("click", burgerEvent);
             sinotruk.addEventListener("click", burgerEvent);
             sunward.addEventListener("click", burgerEvent);
+
+            if(tecnologia!=null)
             tecnologia.addEventListener("click", burgerEvent);
             // keyton.addEventListener("click", burgerEvent);
             // concesionarios.addEventListener("click", burgerEvent);
