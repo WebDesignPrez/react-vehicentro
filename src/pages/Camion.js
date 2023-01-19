@@ -45,6 +45,7 @@ let camionSerie
 let cuotas
 
 function Camion() {
+    
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
 
@@ -80,7 +81,7 @@ function Camion() {
         //10 toneladas
         case "camion-10-toneladas-t5g-1167":
             nombreCamion = "Camion de 10 toneladas | T5G-1167"
-            camionSerie = "T5G 1167 / 10.8 TON"
+            camionSerie = "T5G 1167 / 10 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
             console.log('10 Toneladas')
@@ -89,7 +90,7 @@ function Camion() {
                 "../images/10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador-de-frente.webp"
             ];
             textoMotor1 = "240 HP"
-            textoMotor2 = "Modelo T5G-1167 - 10.8 Ton"
+            textoMotor2 = "Modelo T5G-1167 - 10 Ton"
             textoMotor3 = "Ficha Técnica"
             precio = "$53.890"
             cuotas = 'Cuotas desde: $973.00'
@@ -732,7 +733,11 @@ function Camion() {
                     </div>
                 }
             </div>
-            contenedorVidaUtil = "Chasis corto\n Chasis largo"
+            contenedorVidaUtil = <div>
+                <span className="textoModificado a">Chasis corto<br></br></span>
+                <span className="textoModificado b">Chasis largo<br></br></span>
+                <span className="textoModificado c">Cabina normal - Cabina 1/2</span>
+            </div>
 
 
             break;

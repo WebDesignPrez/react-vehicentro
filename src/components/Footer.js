@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom"
+
 export default function Footer() {
+    
     return (
         <div className="footer posRelative">
             <div className="info">
@@ -48,7 +50,7 @@ export default function Footer() {
                     <li><p className="itemMenu"><a href="/concesionarios">Concesionarios</a></p></li>
                     <li><p className="itemMenu"><a href="/repuestos">Repuestos</a></p></li>
                     <li><p className="itemMenu">Mantenimiento</p></li>
-                    <li><p className="itemMenu">Garantía</p></li>
+                    <li><p className="itemMenu"><a href="/garantia">Garantia</a></p></li>
                 </ul>
             </div>
             <div className="col1 colTech">

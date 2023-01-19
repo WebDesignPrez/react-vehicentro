@@ -121,7 +121,7 @@ svg {
 }
 
 .logoNav {
-  /*   width: 18vw; */
+    /*   width: 18vw; */
 }
 
 .logo img {
@@ -899,6 +899,10 @@ p.titleFooter {
     max-width: 60%;
 }
 
+.boxNews.companiaimg2.gar img {
+    max-width: 85%;
+}
+
 .companiatexto2 {
     color: #fff;
     text-align: center;
@@ -1439,6 +1443,10 @@ li.mouseA:hover {
     margin-right: 10px;
 }
 
+.block1 .linksBox.testimonio>a {
+    margin-right: -23px;
+}
+
 .block1 .linksBox>a:hover {
     color: red;
     cursor: pointer;
@@ -1843,76 +1851,78 @@ a.colItem.meniu.negro {
 .requisitosDos {
     margin: 3% 3%;
     font-size: 25px;
+    display: flex;
 }
 
-.espacioSubtitulo{
+.espacioSubtitulo {
     margin: 3% 0;
 }
 
-.fotoCabina{
+.fotoCabina {
     text-align: center;
     margin: 3% 0;
 }
 
-.textoTec{
+.textoTec {
     line-height: 30px;
 }
 
-#sinoLink{
+#sinoLink {
     cursor: pointer;
 }
 
-.menuHome{
+.menuHome {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     width: 90%;
 }
 
-.menuHome a{
+.menuHome a {
     text-decoration: none;
 }
 
-.menuHome a:visited{
+.menuHome a:visited {
     color: #fff;
 }
 
-.menuHome a:hover{
+.menuHome a:hover {
     color: #f44331;
 }
 
-.menuHome a:link{
+.menuHome a:link {
     color: #fff;
-} 
+}
 
-.menuHome .active{
+.menuHome .active {
     border-bottom-style: none;
 }
 
-.menuHome > div{
+.menuHome>div {
     align-items: center;
     display: flex;
 }
 
-.icon_center.series, .text_icon_center.series, .icon_right.series{
+.icon_center.series,
+.text_icon_center.series,
+.icon_right.series {
     width: 33.3%;
 }
 
-.slideMain.logoSerie{
+.slideMain.logoSerie {
     max-width: 40%;
 }
 
-.boxLeft.logoCenter{
+.boxLeft.logoCenter {
     text-align-last: center;
     width: 100%;
 }
 
-.serieTitle.serieBox.especiales{
-
+.serieTitle.serieBox.especiales {
     padding: 9vh 11vw;
 }
 
-.block1 .titleBox.tresr{
+.block1 .titleBox.tresr {
     font-size: 1.3vw;
     color: #fff;
     padding: 0;
@@ -1920,6 +1930,31 @@ a.colItem.meniu.negro {
     text-decoration: none;
 }
 
-.menu2 .imgMenu2{
+.menu2 .imgMenu2 {
     width: 14vw;
+}
+
+.textoModificado.a {
+    margin: 0 0 5% 0;
+    display: block;
+}
+
+.textoModificado.c {
+    margin: 0px 0 0 0;
+    font-size: 1.21vw;
+    letter-spacing: -0.8px;
+    display: block;
+}
+
+.textoTec.gar {
+    font-size: 20px;
+}
+
+.requisitosDos.gara {
+    margin: 3% 0 3% 0;
+    align-items: flex-start;
+}
+
+.requisitosDos.gara .boxNews.companiaimg2{
+    justify-content: start;
 }

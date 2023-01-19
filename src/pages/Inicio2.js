@@ -113,15 +113,15 @@ function Block1() {
                 <div className="overlayBox" height="200">
                     <p className="titleBox "><span className="rojo">R</span>ESPALDO, <span className="rojo">R</span>ENTABILIDAD Y <span className="rojo">R</span>EPUESTOS</p>
                     <div className="linksBox">
-                        <NavLink to="/concesionarios" src="">LA MEJOR GARANTIA DEL PAÍS</NavLink>
+                        <NavLink to="/garantia" src="">LA MEJOR GARANTIA DEL PAÍS</NavLink>
                     </div>
                 </div>
             </div>
             <div className="imgContainerHeader imgHeader2" height="600">
                 <div className="overlayBox" height="200">
                     <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
-                    <div className="linksBox">
-                        <a href="/experiencia" className="line2" src="">EXPERIENCIA SINOTRUK</a>
+                    <div className="linksBox testimonio">
+                        <a href="/experiencia" className="line2" src="">TESTIMONIOS</a>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@ function Block3() {
                     <img src="../images/home/serie-100.webp" width="500" height="389" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <p className="titleBox2 sbold">100</p>
+                        <NavLink className="titleBox2" to="/serie/200">100</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" >3.5 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink><span>/</span>
@@ -162,7 +162,7 @@ function Block3() {
                         <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/camiones/camion-de-9-toneladas">9 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-10-toneladas-t5g-1167">10.8 TON</NavLink><span>/</span>
+                            <NavLink className="line2" to="/camiones/camion-10-toneladas-t5g-1167">10 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-12-toneladas-t5g-1167">12 TON</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167">13 TON 280 HP</NavLink><span>/</span>
                             <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167-330hp">13 TON 330 HP</NavLink><span>/</span>
@@ -244,9 +244,11 @@ function Block3() {
                 <div>
                     <img src="../images/home/mixer.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
-                        <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">ESPECIALES</p>
+                        <p className="titleBox"></p>
+                        <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
+                            <NavLink className="line2" src="" to="">A7 8-9 m3</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="">C7H 12 m3</NavLink>
                         </div>
                     </div>
                 </div>
@@ -254,7 +256,7 @@ function Block3() {
                     <img src="../images/home/sector-ganadero.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">SECTOR GANADERÍA</p>
+                        <p className="titleBox2">ESPECIALES</p>
                         <div className="linksBox">
                         </div>
                     </div>
@@ -263,7 +265,7 @@ function Block3() {
                     <img src="../images/home/sector-publico.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">SECTOR PÚBLICO</p>
+                        <p className="titleBox2">ESPECIALES</p>
                         <div className="linksBox">
                         </div>
                     </div>

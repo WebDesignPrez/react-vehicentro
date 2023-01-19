@@ -85,7 +85,7 @@ function Camion() {
                 "../images/volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
                 "../images/volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
             ];
-            textoMotor1 = "340 HP"
+            textoMotor1 = "330 HP"
             textoMotor2 = "Modelo T5G-330"
             textoMotor3 = "Ficha técnica"
 
