@@ -235,7 +235,8 @@ function Block3() {
                         <p className="titleBox2">VOLQUETAS</p>
                         <div className="linksBox">
                             <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink><span>/</span>
-                            <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
+                            <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="/proximamente">20 m3</NavLink>
                         </div>
                     </div>
                 </div>
@@ -249,7 +250,7 @@ function Block3() {
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
                             <NavLink className="line2" src="" to="">A7 8-9 m3</NavLink><span>/</span>
-                            <NavLink className="line2" src="" to="">C7H 12 m3</NavLink>
+                            <NavLink className="line2" src="" to="/proximamente">C7H 12 m3</NavLink>
                         </div>
                     </div>
                 </div>
@@ -303,7 +304,7 @@ function Menu2() {
             <ul className="nav-links-h">
                 <li><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
                 <li><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
-                <li><a className="mouseA">VEHICULOS</a></li>
+                <li><a className="mouseA" href="/vehiculos">VEHÍCULOS</a></li>
                 <li><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
                 <li><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
                 <li><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>

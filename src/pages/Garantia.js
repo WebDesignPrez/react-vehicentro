@@ -32,6 +32,21 @@ function Content1() {
             <p  className="textoTec gar">Los componentes del tren motriz están cubiertos contra defectos de fabricación por un período de 5 AÑOS y/o 100,000 Km, lo que ocurra primero a partir de la fecha de entrega del vehículo. Los componentes del tren motriz que están cubiertos son los siguientes: </p><br></br>
             <h3>VEHICULOS DE TRANSPORTE CARGA PESADA (TECNOLOGIA ALEMANA)</h3><br></br>
             <p className="textoTec gar">Los componentes del tren motriz están cubiertos contra defectos de fabricación por un periodo de 5 AÑOS y/o KILOMETRAJE ILIMITADO, lo que ocurra primero a partir de la fecha de entrega del vehículo. Los componentes del tren motriz que están cubiertos son los siguientes: </p><br></br>
+
+            <div className="requisitosDos">
+                <div className="boxNews companiaimg2 gar">
+                    <img src="./images/garantia/garantia_uno.webp" />
+                </div>
+                <div className="boxNews companiaimg2 gar">
+                    <img src="./images/garantia/garantia_dos.webp" />
+                </div>
+                <div className="boxNews companiaimg2 gar">
+                    <img src="./images/garantia/garantia_tres.webp" />
+                </div>
+                <div className="boxNews companiaimg2 gar">
+                    <img src="./images/garantia/garantia-cuatro.webp" />
+                </div>
+            </div>
             <div className="requisitosDos gara">
                 <div className="boxNews companiaimg2 ">
                     <span> <h3>Motor</h3>
@@ -52,17 +67,6 @@ function Content1() {
                 </div>
             </div>
 
-            <div className="requisitosDos">
-                <div className="boxNews companiaimg2 gar">
-                    <img src="./images/garantia/garantia_uno.webp" />
-                </div>
-                <div className="boxNews companiaimg2 gar">
-                    <img src="./images/garantia/garantia_dos.webp" />
-                </div>
-                <div className="boxNews companiaimg2 gar">
-                    <img src="./images/garantia/garantia_tres.webp" />
-                </div>
-            </div>
         </div>
     )
 }

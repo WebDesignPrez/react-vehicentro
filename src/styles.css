@@ -1955,32 +1955,37 @@ a.colItem.meniu.negro {
     align-items: flex-start;
 }
 
-.requisitosDos.gara .boxNews.companiaimg2{
+.requisitosDos.gara .boxNews.companiaimg2 {
     justify-content: start;
 }
 
-.boxLeft.c7h.repuestos{
+.boxLeft.c7h.repuestos {
     width: 100%;
 }
 
-.videoWidthRepuesto{
+.videoWidthRepuesto {
     width: 100%;
 }
 
-.repuestoBtn{
+.repuestoBtn {
     color: white;
     background-color: #a21d21;
     padding: 14px 54px 14px 54px;
     margin-bottom: 3%;
 }
-.repuestoBtn a{
+
+.repuestoBtn a {
     color: white;
 }
 
-.repuestoBtn:hover{
+.repuestoBtn:hover {
     background-color: #000;
 }
 
-.boxNews.companiatext2.btn{
+.boxNews.companiatext2.btn {
     text-align: center;
+}
+
+.requisitosDos.gara .boxNews.companiaimg2 {
+    margin: 0 2% 0 0;
 }

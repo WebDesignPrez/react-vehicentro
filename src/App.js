@@ -26,6 +26,7 @@ import Sistema_evb from "./pages/Sistema_evb"
 import Serie_100 from "./pages/Serie_100"
 import Especiales from "./pages/Especiales"
 import Garantia from "./pages/Garantia"
+import Proximamente from "./pages/Proximamente"
 import React from 'react';
 
 
@@ -66,6 +67,7 @@ function App() {
           <Route path="/serie/100" element={<Serie_100 />} />
           <Route path="/serie/especiales" element={<Especiales />} />
           <Route path="/garantia" element={<Garantia />} />
+          <Route path="/proximamente" element={<Proximamente />} />
         </Routes>
       </main>
     </BrowserRouter>
