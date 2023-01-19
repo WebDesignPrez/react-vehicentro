@@ -1993,3 +1993,7 @@ a.colItem.meniu.negro {
 .requisitosDos.gara .boxNews.companiaimg2 {
     margin: 0 2% 0 0;
 }
+
+.searchHome img{
+    max-width: 50%;
+}
