@@ -2008,3 +2008,7 @@ a.colItem.meniu.negro {
 .searchHome{
     justify-content: end;
 }
+
+.block3 .bottomContainer .linksBox.tresColumneitor{
+    flex-wrap: nowrap;
+}

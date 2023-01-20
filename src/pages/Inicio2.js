@@ -148,10 +148,10 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/200">100</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" >3.5 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-de-6-toneladas-1067">6 TON</NavLink><span>/</span>
+                            <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" >3.5 TON</NavLink>
+                            <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink>
+                            <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink>
+                            <NavLink className="line2" to="/camiones/camion-de-6-toneladas-1067">6 TON</NavLink>
                             <NavLink className="line2" to="/camiones/camion-8-toneladas-1147">8 TON</NavLink>
                         </div>
                     </div>
@@ -161,15 +161,24 @@ function Block3() {
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
-                        <div className="linksBox">
-                            <NavLink className="line2" to="/camiones/camion-de-9-toneladas">9 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-10-toneladas-t5g-1167">10 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-12-toneladas-t5g-1167">12 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167">13 TON 280 HP</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167-330hp">13 TON 330 HP</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-de-18-toneladas-t5g-1257">18 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/camiones/camion-de-19-toneladas-t5g-1257">19.5 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/cabezales/cabezal-t5g-4187">24 TON</NavLink>
+                        <div className="linksBox tresColumneitor">
+                            <div className="">
+                                <NavLink className="line2" to="/camiones/camion-de-9-toneladas">9 TON</NavLink><br></br>
+                                <NavLink className="line2" to="/camiones/camion-10-toneladas-t5g-1167">10 TON</NavLink><br></br>
+                                <NavLink className="line2" to="/camiones/camion-12-toneladas-t5g-1167">12 TON</NavLink>
+
+                            </div>
+                            <div className="textConcesionario">
+                                <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167">13 TON 280HP</NavLink><br></br>
+                                <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167-330hp">13 TON 330HP</NavLink>
+
+                            </div>
+                            <div className="imgConcesionario">
+                                <NavLink className="line2" to="/camiones/camion-de-18-toneladas-t5g-1257">18 TON</NavLink><br></br>
+                                <NavLink className="line2" to="/camiones/camion-de-19-toneladas-t5g-1257">19.5 TON</NavLink><br></br>
+                                <NavLink className="line2" to="/cabezales/cabezal-t5g-4187">24 TON</NavLink>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -179,8 +188,8 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas">28 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas">42 TON</NavLink><span>/</span>
+                            <NavLink className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas">28 TON</NavLink>
+                            <NavLink className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas">42 TON</NavLink>
                             <NavLink className="line2" to="/cabezales/cabezal-t7h-430-45-toneladas">45 TON</NavLink>
                         </div>
                     </div>
@@ -194,9 +203,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/camiones/camion-20-toneladas-1256">20 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink><span>/</span>
-                            <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON (CATALINAS)</NavLink>
+                            <NavLink className="line2" to="/camiones/camion-20-toneladas-1256">20 TON</NavLink>
+                            <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>
+                            <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON - CATALINAS</NavLink>
                         </div>
                     </div>
                 </div>
@@ -234,8 +243,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">VOLQUETAS</p>
                         <div className="linksBox">
-                            <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink><span>/</span>
-                            <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink>
+                            <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
                             <NavLink className="line2" src="" to="/proximamente">20 m3</NavLink>
                         </div>
                     </div>
@@ -248,11 +257,17 @@ function Block3() {
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <NavLink className="titleBox2" to="/proximamente">HIDROMEK</NavLink>
-                        <div className="linksBox">
-                            <NavLink className="line2" src="" to="/proximamente">Retroexcavadora</NavLink><span>/</span>
-                            <NavLink className="line2" src="" to="/proximamente">Excavadora</NavLink><span>/</span>
-                            <NavLink className="line2" src="" to="/proximamente">Rodillo</NavLink><span>/</span>
-                            <NavLink className="line2" src="" to="/proximamente">Mini Excavadora</NavLink>
+                        <div className="linksBox tresColumneitor">
+                            <div>
+                                <NavLink className="line2" src="" to="/proximamente">RETROEXCAVADORA</NavLink><br></br>
+                                <NavLink className="line2" src="" to="/proximamente">MINI EXCAVADORA</NavLink>
+
+                            </div>
+                            <div>
+                                <NavLink className="line2" src="" to="/proximamente">RODILLO</NavLink><br></br>
+                                <NavLink className="line2" src="" to="/proximamente">EXCAVADORA</NavLink>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -262,18 +277,18 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
-                            <NavLink className="line2" src="" to="">A7 8-9 m3</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="">A7 8-9 m3</NavLink>
                             <NavLink className="line2" src="" to="/proximamente">C7H 12 m3</NavLink>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <img src="../images/home/sector-publico.webp" width="900" height="700" alt="Vehicentro" />
+                    <img src="../images/home/sunward.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD</p>
                         <div className="linksBox">
-                            <NavLink className="line2" src="" to="/excavadoras/swe210">SWE210</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="/excavadoras/swe210">SWE210</NavLink>
                             <NavLink className="line2" src="" to="/excavadoras/swe365e">SWE365E</NavLink>
                         </div>
                         <div className="linksBox">

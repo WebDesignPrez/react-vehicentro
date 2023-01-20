@@ -83,44 +83,44 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
-                "../images/3.5-toneladas/camion-blanco-sinotruk-de-3.5-toneladas-ecuador.webp",
-                "../images/3.5-toneladas/camion-blanco-sinotruk-de-3.5-toneladas-de-frente-ecuador.webp"
+                "../images/a7/camion-blanco-sinotruk-de-3.5-toneladas-ecuador.webp",
+                "../images/a7/camion-blanco-sinotruk-de-3.5-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "87 HP"
             textoMotor2 = "Modelo 1047 - 3.5 Ton"
             textoMotor3 = "Ficha técnica"
             precio = <div className="banner"><img src="../images/volqueta-280/logo-sinotruk.webp" /></div>
             cuotas = 'Cuotas desde: $447.00'
-            motor = "../images/3.5-toneladas/motor-sinotruk-de-camion-de-3.5-toneladas-ecuador.webp"
-            garantia = "../images/3.5-toneladas/5-anos-de-garantia.webp"
-            tecnologia = "../images/3.5-toneladas/serie-100.webp"
+            motor = "../images/a7/motor-sinotruk-de-camion-de-3.5-toneladas-ecuador.webp"
+            garantia = "../images/a7/5-anos-de-garantia.webp"
+            tecnologia = "../images/a7/serie-100.webp"
 
             caracteristicas = [
-                "../images/3.5-toneladas/camion-de-3.5-toneladas-potencia-87hp.webp",
-                "../images/3.5-toneladas/camion-de-3.5-toneladas-cilindraje.webp",
-                "../images/3.5-toneladas/camion-de-3.5-toneladas-freno-de-aire.webp",
-                "../images/3.5-toneladas/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
+                "../images/a7/transmision-10-2.webp",
+                "../images/a7/camion-de-3.5-toneladas-cilindraje.webp",
+                "../images/a7/camion-de-3.5-toneladas-freno-de-aire.webp",
+                "../images/a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
             ]
-            cabina = "../images/3.5-toneladas/cabina-de-camion-de-3.5-toneladas-sinotruk.webp"
+            cabina = "../images/a7/cabina-de-camion-de-3.5-toneladas-sinotruk.webp"
             marcas = ""
             internas1 = [
-                "../images/3.5-toneladas/volante-deportivo.webp",
-                "../images/3.5-toneladas/ventilacion.webp"
+                "../images/a7/volante-deportivo.webp",
+                "../images/a7/ventilacion.webp"
             ];
             internas2 = [
-                "../images/3.5-toneladas/palanca-de-cambios.webp",
-                "../images/3.5-toneladas/bloqueo.webp"
+                "../images/a7/palanca-de-cambios.webp",
+                "../images/a7/bloqueo.webp"
             ];
             internas1b = [
-                "../images/3.5-toneladas/radio-mp5.webp",
-                "../images/3.5-toneladas/vidrios-electricos.webp"
+                "../images/a7/radio-mp5.webp",
+                "../images/a7/vidrios-electricos.webp"
             ];
             internas2b = [
-                "../images/3.5-toneladas/cabina.webp"
+                "../images/a7/cabina.webp"
             ];
-            medidas = "../images/3.5-toneladas/dimensiones-de-camion-de-3.5-toneladas-sinotruk.webp"
-            medidasMovil = "../images/3.5-toneladas/dimensiones-de-camion-de-3.5-toneladas-sinotruk-responsive.webp"
-            audio_motor = "../images/3.5-toneladas/motor.mp3"
+            medidas = "../images/a7/dimensiones-de-camion-de-3.5-toneladas-sinotruk.webp"
+            medidasMovil = "../images/a7/dimensiones-de-camion-de-3.5-toneladas-sinotruk-responsive.webp"
+            audio_motor = "../images/a7/motor.mp3"
 
 
             internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
@@ -179,8 +179,8 @@ function Mixer() {
 
     switch ((useParams("id").id)) {
 
-        case "volqueta-t5g-280":
-            imagen = "../images/volqueta-280/volqueta-en-la-carretera.webp"
+        case "mixer-a7-1257":
+            imagen = "../images/a7/volqueta-en-la-carretera.webp"
             break;
 
 
