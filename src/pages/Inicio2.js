@@ -244,6 +244,19 @@ function Block3() {
 
             <div className="block3 boxBlock row2">
                 <div>
+                    <img src="../images/home/sector-ganadero.webp" width="900" height="700" alt="Vehicentro" />
+                    <div className="bottomContainer">
+                        <p className="titleBox"></p>
+                        <NavLink className="titleBox2" to="/proximamente">HIDROMEK</NavLink>
+                        <div className="linksBox">
+                            <NavLink className="line2" src="" to="/proximamente">Retroexcavadora</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="/proximamente">Excavadora</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="/proximamente">Rodillo</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="/proximamente">Mini Excavadora</NavLink>
+                        </div>
+                    </div>
+                </div>
+                <div>
                     <img src="../images/home/mixer.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
@@ -255,19 +268,14 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src="../images/home/sector-ganadero.webp" width="900" height="700" alt="Vehicentro" />
-                    <div className="bottomContainer">
-                        <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">ESPECIALES</p>
-                        <div className="linksBox">
-                        </div>
-                    </div>
-                </div>
-                <div>
                     <img src="../images/home/sector-publico.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
-                        <p className="titleBox">VEHÍCULOS</p>
-                        <p className="titleBox2">ESPECIALES</p>
+                        <p className="titleBox"></p>
+                        <p className="titleBox2">SUNWARD</p>
+                        <div className="linksBox">
+                            <NavLink className="line2" src="" to="/excavadoras/swe210">SWE210</NavLink><span>/</span>
+                            <NavLink className="line2" src="" to="/excavadoras/swe365e">SWE365E</NavLink>
+                        </div>
                         <div className="linksBox">
                         </div>
                     </div>
@@ -282,12 +290,6 @@ function Block4() {
         <div className="block4 boxBlock boxesIni posRelative content3">
             <div className="boxLeft playMotor colorLinksSobreTexto">
                 <img src="../images/home/sunward-banner.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395" />
-                <div className="boxText flex-table row">
-                    <div className="flex-row textMain">Sunward</div>
-                    <div className="flex-row imgMain"><img src="./images/arrow-rojo.png" alt="arrow" width="31" height="22" /></div>
-                    <div className="flex-row textModel"><NavLink to="/excavadoras/swe210">SWE210</NavLink></div>
-                    <div className="flex-row textModel"><NavLink to="/excavadoras/swe365e">SWE365E</NavLink></div>
-                </div>
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
@@ -310,7 +312,6 @@ function Menu2() {
                 <li><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
             </ul>
             <a href="tel:+59332994740" className="telefonoInicio">032994740</a>
-            <a href="https://sinotruk.com.ec/" target="_blank"><img className="imgMenu2" src="./images/home/logo-sinotruk-negro.png" alt="" /></a>
         </nav>
     )
 }
