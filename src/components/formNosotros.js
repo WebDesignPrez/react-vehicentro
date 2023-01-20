@@ -138,13 +138,17 @@ function FormNosotros(props) {
       formData.append('celular', e.target[2].value);
       formData.append('cedula', e.target[3].value);
       formData.append('cv', $('#file')[0].files[0]);
-      formData.append('mensaje', e.target[4].value);
-      
+      formData.append('mensaje', e.target[5].value);
 
       $.ajax({
         type: "POST",
         url: form.attr("action"),
-        data: form.serialize(),
+        data: formData,
+        async: false,
+        cache: false,
+        contentType: false,
+        enctype: 'multipart/form-data',
+        processData: false,
         success(data) {
           NotificationManager.success('Datos enviados.', '');
         }, 
@@ -165,6 +169,7 @@ function FormNosotros(props) {
   useEffect(() => {
 
     }, []) 
+
 
 
   return <div>
@@ -208,7 +213,7 @@ function FormNosotros(props) {
                     <textarea placeholder="" name="mensaje" type="text" onBlur={(e) => { handleFocusMensaje(e) }} onChange={(e) => { handleChangeMensaje(e) }} value={mensaje} />
                   </div>
                 </div>
-                <button className="nextBtn" type="submit"> Cotizar </button>
+                <button className="nextBtn" type="submit"> Enviar </button>
                 <NotificationContainer />
               </form>
             </div>
