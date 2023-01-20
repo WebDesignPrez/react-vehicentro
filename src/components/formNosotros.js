@@ -131,6 +131,16 @@ function FormNosotros(props) {
     e.preventDefault();
     if (!validateName(e.target[0].value) && !validateEmail(e.target[1].value) && !validateTel(e.target[2].value) && !validateCed(e.target[3].value)) {
       const form = $(e.target);
+
+      var formData = new FormData();
+      formData.append('nombre', e.target[0].value);
+      formData.append('email', e.target[1].value);
+      formData.append('celular', e.target[2].value);
+      formData.append('cedula', e.target[3].value);
+      formData.append('cv', $('#file')[0].files[0]);
+      formData.append('mensaje', e.target[4].value);
+      
+
       $.ajax({
         type: "POST",
         url: form.attr("action"),
@@ -159,11 +169,10 @@ function FormNosotros(props) {
 
   return <div>
             <div className="form-box">
-              <h5 className="form-step"> ¿Necesitas información? </h5>
+              <h5 className="form-step"></h5>
               <form action={url} method="post" onSubmit={(ev) => handleSumbit(ev)}>
                 <div className="field1">
-                  <label> Cotizador Sinotruk Modelo </label>
-
+                  <label></label>
                   <label className="input_title">*Nombre y Apellido</label>
                   <div className="input-group">
                     <span className="userIcon"><img src="../images/user-solid.png" /></span>
@@ -191,7 +200,7 @@ function FormNosotros(props) {
                   <label className="input_title">*Cv</label>
                   <div className="input-group">
                     <span className="userIcon"><img src="../images/portrait-solid.png" /></span>
-                    <input placeholder="" name="cv" type="file" onBlur={(e) => { handleFocusCv(e) }} onChange={(e) => { handleChangeCv(e) }} value={cv} />
+                    <input id="file" placeholder="" name="cv" type="file" onBlur={(e) => { handleFocusCv(e) }} onChange={(e) => { handleChangeCv(e) }} value={cv} />
                   </div>
                   <label className="input_title">*Mensaje</label>
                   <div className="input-group">

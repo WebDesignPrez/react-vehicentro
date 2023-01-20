@@ -7,6 +7,7 @@ export default function NavBarTop() {
     var auxMovil = 0;
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const navSlideClickH = () => {
             const burger = document.querySelector(".burger");
             const navLinks = document.querySelectorAll(".nav-links-h a");

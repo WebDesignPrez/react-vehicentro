@@ -16,7 +16,6 @@ function Inicio2() {
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
     useEffect(() => {
-
         const motorPlayer = document.getElementById('audioMotorHome')
         motorPlayer.src = audio_motor
 

@@ -7,6 +7,7 @@ export default function NavBar() {
     var auxMovil = 0;
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const navSlideClickH = () => {
             const burger = document.querySelector(".burger");
             const navLinks = document.querySelectorAll(".nav-links-h a");
@@ -300,7 +301,7 @@ export default function NavBar() {
                     }
                 });
             }
-            
+
 
             /* compania.addEventListener("click", () => {
                  nav.classList.toggle("nav-active");
