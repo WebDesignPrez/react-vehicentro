@@ -2,7 +2,8 @@ import { Helmet } from "react-helmet"
 import BannerContacto from "../components/BannerContacto"
 import Footer from "../components/Footer"
 import NavBarTop from "../NavBarTop"
-import FormContact from "../components/FormContact";
+import FormContact from "../components/formNosotros";
+import FormNosotros from "../components/formNosotros";
 let bdc
 let nombreCamion
 let nombreSerie
@@ -30,7 +31,7 @@ function Content1() {
                 <img src="./images/trabaja-con-nosotros/trabaja-con-nosotros.webp"  />
             </div>
             <div className="" >
-                <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
+                <FormNosotros />
             </div>
         </div>
     </>

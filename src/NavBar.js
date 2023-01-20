@@ -270,34 +270,37 @@ export default function NavBar() {
                 }
             });
 
-            tecnologia.addEventListener("click", () => {
-                console.log("Tecnologia")
-                nav.classList.toggle("nav-active");
-                navSearch[0].classList.toggle("nav-search-active");
+            if(tecnologia!=null){
+                tecnologia.addEventListener("click", () => {
+                    console.log("Tecnologia")
+                    nav.classList.toggle("nav-active");
+                    navSearch[0].classList.toggle("nav-search-active");
 
-                document.querySelector('.logoHome').classList.toggle("logoNav");
-                navh.classList.toggle("nav-inactive");
+                    document.querySelector('.logoHome').classList.toggle("logoNav");
+                    navh.classList.toggle("nav-inactive");
 
-                navLinks.forEach((link, index) => {
-                    if (link.style.animation) {
-                        link.style.animation = "";
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = "";
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
+                        }
+                    });
+
+                    document.querySelector(".menu1").classList.add("logob")
+
+                    if (auxMovil == 0)
+                        resetMenu();
+
+                    burger.classList.toggle("toggle");
+                    if (burger.classList.contains('toggle')) {
+
                     } else {
-                        link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
+                        document.querySelector(".menu1").classList.remove("logob")
                     }
                 });
-
-                document.querySelector(".menu1").classList.add("logob")
-
-                if (auxMovil == 0)
-                    resetMenu();
-
-                burger.classList.toggle("toggle");
-                if (burger.classList.contains('toggle')) {
-
-                } else {
-                    document.querySelector(".menu1").classList.remove("logob")
-                }
-            });
+            }
+            
 
             /* compania.addEventListener("click", () => {
                  nav.classList.toggle("nav-active");
