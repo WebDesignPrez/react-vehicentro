@@ -396,7 +396,7 @@ export default function NavBarTop() {
             </li>
 
             <li className="item-level-5">
-                <a href="/vehiculos">VEHÍCULOS</a>
+                <a href="/proximamente">VEHÍCULOS</a>
                 <div className="item-level-5 nav-header nav-header-h" >
                 </div>
             </li>

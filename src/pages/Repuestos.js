@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet"
 import BannerContacto from "../components/BannerContacto"
 import Footer from "../components/Footer"
 import NavBarTop from "../NavBarTop"
+import { useEffect } from 'react';
 
 function Repuestos() {
   return (
@@ -35,9 +36,12 @@ function Content2() {
   return (
 
     <div className="boxesIni posRelative news repuesto">
-      
       <div className="boxNews companiatext2 btn">
-        <button className="repuestoBtn" ><a href="https://api.whatsapp.com/send?phone=593991374302&amp;text=Hola,%20necesito%20m%C3%A1s%20informaci%C3%B3n.">Comunícate con un asesor - Link directo de Whatsapp</a> </button>
+        <p></p>
+        <p className="tituloConcesionario">COTIZA TUS REPUESTOS</p>
+      <div className="btnConcesionarios">
+        <a className='btn6' option="Ambato" href='#'>WhatsApp</a>
+      </div>
       </div>
       <div className="boxNews companiaimg2">
         <img src="./images/repuestos/logo-sinotruk.webp" width="1000" height="760" className="slideMain" alt="Series100" />
@@ -59,7 +63,7 @@ function Content3() {
   return (
     <div className="boxesIni posRelative news repuesto grad">
       <div className="boxLeft c7h repuestos">
-        <video  controls autoPlay={true} muted loop src="./images/repuestos/repuestos.webm" className="videoWidthRepuesto" />
+        <video controls autoPlay={true} muted loop src="./images/repuestos/repuestos.webm" className="videoWidthRepuesto" />
       </div>
     </div>
   )
