@@ -168,7 +168,7 @@ function Mixer() {
                 }
             </div>
 
-            contenedorVidaUtil = <div className="banner"><img src="../images/3.5-toneladas/homologado.webp" /></div>
+            contenedorVidaUtil = 'Vida útil de más de 1.5 MILLONES de kilómetros'
             break;
 
         default:

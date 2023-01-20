@@ -13,8 +13,8 @@ function Especiales() {
     return (
         <>
             <Helmet>
-                <title>Especiales - Vehicentro</title>
-                <meta name="description" content="Especiales 100" />
+                <title>Volquetas - Vehicentro</title>
+                <meta name="description" content="Volquetas" />
             </Helmet>
             <NavBarTop />
             <Content1 />
@@ -50,11 +50,8 @@ function Content1() {
 
 function Content2() {
 
-    series = [{
-        serie: "A7 1257",
-        modelo: "MIXER",
-        url: "#"
-    }, {
+    series = [
+        {
         serie: <p>T5G-330 <br></br>8-9 m3</p>,
         modelo: "VOLQUETA",
         url: "/volquetas/volqueta-t5g-280"
@@ -65,7 +62,7 @@ function Content2() {
     }, {
         serie: <p>C7H-540 <br></br>20 m3</p>,
         modelo: "VOLQUETA",
-        url: "#"
+        url: "/proximamente"
     }
     ]
 
@@ -75,8 +72,8 @@ function Content2() {
 
                 <div className="boxRight nomSeries">
                     <div className="serieTitle serieBox especiales">
-                        <p className="serieTitle1">VEHÍCULOS</p>
-                        <p>ESPECIALES</p>
+                        <p className="serieTitle1"></p>
+                        <p>VOLQUETAS</p>
                     </div>
 
                     <div className="serieList serieBox">
@@ -148,7 +145,7 @@ function Content5() {
                     <img src="../images/especiales/especiales-lateral.webp" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
                 <div>
-                    <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHESPECIALES" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
+                    <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHVOLQUETAS" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
                 </div>
             </div>
         </>

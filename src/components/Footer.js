@@ -35,7 +35,7 @@ export default function Footer() {
                     <li><p className="itemMenu"><a href="/serie/t5g">Serie T5G</a></p></li>
                     <li><p className="itemMenu"><a href="/serie/t7h">Serie T7H</a></p></li>
                     <li><p className="itemMenu"><a href="/serie/c7h">Serie C7H</a></p></li>
-                    <li><p className="itemMenu"><a href="/serie/especiales">Especiales</a></p></li>
+                    <li><p className="itemMenu"><a href="/serie/volquetas">Volquetas</a></p></li>
                 </ul>
                 <ul className="list">
                     <li><p className="subTitle">SUNWARD</p></li>

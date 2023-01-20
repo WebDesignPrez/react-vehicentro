@@ -24,7 +24,7 @@ import Bastidor_o_chasis from "./pages/Bastidor_o_chasis"
 import Ejes_man from "./pages/Ejes_man"
 import Sistema_evb from "./pages/Sistema_evb"
 import Serie_100 from "./pages/Serie_100"
-import Especiales from "./pages/Especiales"
+import Volquetas from "./pages/Volquetas"
 import Garantia from "./pages/Garantia"
 import Proximamente from "./pages/Proximamente"
 import React from 'react';
@@ -65,7 +65,7 @@ function App() {
           <Route path="/ejes-man" element={<Ejes_man />} />
           <Route path="/sistema-evb" element={<Sistema_evb />} />
           <Route path="/serie/100" element={<Serie_100 />} />
-          <Route path="/serie/especiales" element={<Especiales />} />
+          <Route path="/serie/volquetas" element={<Volquetas />} />
           <Route path="/garantia" element={<Garantia />} />
           <Route path="/proximamente" element={<Proximamente />} />
         </Routes>

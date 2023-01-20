@@ -241,7 +241,7 @@ function Block3() {
                     <img src="../images/home/serie-volquetas.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
-                        <p className="titleBox2">VOLQUETAS</p>
+                        <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink>
                             <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
