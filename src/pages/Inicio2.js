@@ -304,7 +304,7 @@ function Block4() {
     return (
         <div className="block4 boxBlock boxesIni posRelative content3">
             <div className="boxLeft playMotor colorLinksSobreTexto">
-                <img src="../images/home/sunward-banner.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395" />
+                <img src="../images/home/camion-sinotruk-basura.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395" />
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">

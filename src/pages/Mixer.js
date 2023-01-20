@@ -86,8 +86,8 @@ function Mixer() {
                 "../images/a7/camion-blanco-sinotruk-de-3.5-toneladas-ecuador.webp",
                 "../images/a7/camion-blanco-sinotruk-de-3.5-toneladas-de-frente-ecuador.webp"
             ];
-            textoMotor1 = "87 HP"
-            textoMotor2 = "Modelo 1047 - 3.5 Ton"
+            textoMotor1 = "380 HP"
+            textoMotor2 = "Modelo 1257 - 8m3"
             textoMotor3 = "Ficha técnica"
             precio = <div className="banner"><img src="../images/volqueta-280/logo-sinotruk.webp" /></div>
             cuotas = 'Cuotas desde: $447.00'
@@ -97,7 +97,7 @@ function Mixer() {
 
             caracteristicas = [
                 "../images/a7/transmision-10-2.webp",
-                "../images/a7/camion-de-3.5-toneladas-cilindraje.webp",
+                "../images/a7/cilindros.webp",
                 "../images/a7/camion-de-3.5-toneladas-freno-de-aire.webp",
                 "../images/a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
             ]
@@ -180,7 +180,7 @@ function Mixer() {
     switch ((useParams("id").id)) {
 
         case "mixer-a7-1257":
-            imagen = "../images/a7/volqueta-en-la-carretera.webp"
+            imagen = "../images/a7/mixer-en-la-carretera-sinotruk.webp"
             break;
 
 
