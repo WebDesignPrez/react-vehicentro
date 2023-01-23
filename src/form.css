@@ -48,6 +48,10 @@ select:focus {
     width: 85%;
 }
 
+textarea{
+    width: 95%;
+}
+
 /*
 .form-box select{
     height: 42px;

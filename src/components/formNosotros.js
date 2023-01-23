@@ -4,11 +4,9 @@ import "../form.css";
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 
-function FormNosotros(props) {
-
+function FormNosotros() {
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
   let url = "https://vehicentro.com/contactoWeb/envio.php"
-
 
   let [nombre_y_apellido, setName] = useState('');
   let [email, setEmail] = useState('');
@@ -16,7 +14,6 @@ function FormNosotros(props) {
   let [cedula, setCed] = useState('');
   let [cv, setCv] = useState('');
   let [mensaje, setMensaje] = useState('');
-
 
   const handleChange = (e) => {
     setName((e.target.value));
@@ -59,7 +56,6 @@ function FormNosotros(props) {
     else
       return false
   }
-
 
   const handleFocusEmail = (e) => {
     let aux = e.target.closest('.input-group');
@@ -105,7 +101,6 @@ function FormNosotros(props) {
     }
   }
 
-
   const validateCed = (e) => {
     if (e === "" || !(/^\d+$/.test(e)) || (e.length !== 10 && e.length !== 13))
       return true
@@ -122,11 +117,12 @@ function FormNosotros(props) {
   }
 
   function handleSumbit(e) {
-    e.preventDefault();
     if (!validateName(e.target[0].value) && !validateEmail(e.target[1].value) && !validateTel(e.target[2].value) && !validateCed(e.target[3].value)) {
       const form = $(e.target);
-
       if($('#file')[0].files[0]!==undefined){
+        document.getElementById("btnSend").disabled = true; 
+        document.getElementById("btnSend").style.display = "none"; 
+        e.preventDefault();
         var formData = new FormData();
         formData.append('nombre', e.target[0].value);
         formData.append('email', e.target[1].value);
@@ -150,28 +146,34 @@ function FormNosotros(props) {
               setEmail('')
               setTel('')
               setCed('')
-              NotificationManager.success('Datos enviados.', '');
+              NotificationManager.success('Datos enviados.', '')
               window.location.href = redireccion;
             }else{  
+              document.getElementById("btnSend").disabled = false
+              document.getElementById("btnSend").style.display = "block"; 
               NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
             }
           }, 
           error(data){
+            document.getElementById("btnSend").disabled = false
+            document.getElementById("btnSend").style.display = "block"; 
             NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
           }
         })
-      }else
-      NotificationManager.error('Obligatorio adjuntar hoja de vida.', '');
+      }else{
+        document.getElementById("btnSend").disabled = false
+        document.getElementById("btnSend").style.display = "block"; 
+        NotificationManager.error('Obligatorio adjuntar hoja de vida.', '');
+      }
     } else {
+      document.getElementById("btnSend").disabled = false
+      document.getElementById("btnSend").style.display = "block"; 
       NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
     }
   }
 
   useEffect(() => {
-
-    }, []) 
-
-
+  }, []) 
 
   return <div>
             <div className="form-box">
@@ -206,7 +208,7 @@ function FormNosotros(props) {
                   <label className="input_title">*Cv</label>
                   <div className="input-group">
                     <span className="userIcon"><img src="../images/portrait-solid.png" /></span>
-                    <input id="file" placeholder="" name="cv" type="file" onBlur={(e) => { handleFocusCv(e) }} onChange={(e) => { handleChangeCv(e) }} value={cv} />
+                    <input id="file" placeholder="" name="cv" accept=".pdf, .docx, .doc" type="file" onBlur={(e) => { handleFocusCv(e) }} onChange={(e) => { handleChangeCv(e) }} value={cv} />
                   </div>
                   <label className="input_title">*Mensaje</label>
                   <div className="input-group">
@@ -214,7 +216,7 @@ function FormNosotros(props) {
                     <textarea placeholder="" name="mensaje" type="text" onBlur={(e) => { handleFocusMensaje(e) }} onChange={(e) => { handleChangeMensaje(e) }} value={mensaje} />
                   </div>
                 </div>
-                <button className="nextBtn" type="submit"> Enviar </button>
+                <button id="btnSend" className="nextBtn" type="submit"> Enviar </button>
                 <NotificationContainer />
               </form>
             </div>
