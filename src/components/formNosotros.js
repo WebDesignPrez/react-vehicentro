@@ -119,12 +119,6 @@ function FormNosotros(props) {
 
   const handleFocusMensaje = (e) => {
     let aux = e.target.closest('.input-group');
-/*     if (validateTel(e.target.value)) {
-      aux.classList.add("errorClass")
-      NotificationManager.error('Numero telefonico incorrecto.', '');
-    } else {
-      aux.classList.remove("errorClass")
-    } */
   }
 
   function handleSumbit(e) {
@@ -132,35 +126,42 @@ function FormNosotros(props) {
     if (!validateName(e.target[0].value) && !validateEmail(e.target[1].value) && !validateTel(e.target[2].value) && !validateCed(e.target[3].value)) {
       const form = $(e.target);
 
-      var formData = new FormData();
-      formData.append('nombre', e.target[0].value);
-      formData.append('email', e.target[1].value);
-      formData.append('celular', e.target[2].value);
-      formData.append('cedula', e.target[3].value);
-      formData.append('cv', $('#file')[0].files[0]);
-      formData.append('mensaje', e.target[5].value);
+      if($('#file')[0].files[0]!==undefined){
+        var formData = new FormData();
+        formData.append('nombre', e.target[0].value);
+        formData.append('email', e.target[1].value);
+        formData.append('celular', e.target[2].value);
+        formData.append('cedula', e.target[3].value);
+        formData.append('cv', $('#file')[0].files[0]);
+        formData.append('mensaje', e.target[5].value);
 
-      $.ajax({
-        type: "POST",
-        url: form.attr("action"),
-        data: formData,
-        async: false,
-        cache: false,
-        contentType: false,
-        enctype: 'multipart/form-data',
-        processData: false,
-        success(data) {
-          NotificationManager.success('Datos enviados.', '');
-        }, 
-        error(data){
-          NotificationManager.success('Datos enviados.', '');
-          setName('')
-          setEmail('')
-          setTel('')
-          setCed('')
-         // window.location.href = redireccion;
-        }
-      })
+        $.ajax({
+          type: "POST",
+          url: form.attr("action"),
+          data: formData,
+          async: false,
+          cache: false,
+          contentType: false,
+          enctype: 'multipart/form-data',
+          processData: false,
+          success(data) {
+            if(data.enviado==="SI"){
+              setName('')
+              setEmail('')
+              setTel('')
+              setCed('')
+              NotificationManager.success('Datos enviados.', '');
+              window.location.href = redireccion;
+            }else{  
+              NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
+            }
+          }, 
+          error(data){
+            NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
+          }
+        })
+      }else
+      NotificationManager.error('Obligatorio adjuntar hoja de vida.', '');
     } else {
       NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
     }
