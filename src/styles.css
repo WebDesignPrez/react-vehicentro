@@ -1388,6 +1388,7 @@ li.mouseA:hover {
     flex-wrap: wrap;
     flex-direction: row;
     min-height: 30vw;
+    background-color: #000000ec;
 }
 
 .boxBlock>div {

@@ -83,17 +83,16 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
-                "../images/a7/camion-blanco-sinotruk-de-3.5-toneladas-ecuador.webp",
-                "../images/a7/camion-blanco-sinotruk-de-3.5-toneladas-de-frente-ecuador.webp"
+                "../images/a7/mixer-blanco-sinotruk.webp"
             ];
             textoMotor1 = "380 HP"
             textoMotor2 = "Modelo 1257 - 8m3"
             textoMotor3 = "Ficha técnica"
             precio = <div className="banner"><img src="../images/volqueta-280/logo-sinotruk.webp" /></div>
             cuotas = 'Cuotas desde: $447.00'
-            motor = "../images/a7/motor-sinotruk-de-camion-de-3.5-toneladas-ecuador.webp"
+            motor = "../images/a7/motor-mixer.webp"
             garantia = "../images/a7/5-anos-de-garantia.webp"
-            tecnologia = "../images/a7/serie-100.webp"
+            tecnologia = "../images/a7/mixer-serie.webp"
 
             caracteristicas = [
                 "../images/a7/transmision-10-2.webp",
@@ -101,22 +100,19 @@ function Mixer() {
                 "../images/a7/camion-de-3.5-toneladas-freno-de-aire.webp",
                 "../images/a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
             ]
-            cabina = "../images/a7/cabina-de-camion-de-3.5-toneladas-sinotruk.webp"
+            cabina = "../images/a7/cabina.webp"
             marcas = ""
             internas1 = [
-                "../images/a7/volante-deportivo.webp",
-                "../images/a7/ventilacion.webp"
+                "../images/a7/mandos.webp"
             ];
             internas2 = [
-                "../images/a7/palanca-de-cambios.webp",
-                "../images/a7/bloqueo.webp"
+                "../images/a7/tablero.webp"
             ];
             internas1b = [
-                "../images/a7/radio-mp5.webp",
-                "../images/a7/vidrios-electricos.webp"
+                "../images/a7/bloqueo.webp"
             ];
             internas2b = [
-                "../images/a7/cabina.webp"
+                "../images/a7/transmision.webp"
             ];
             medidas = "../images/a7/dimensiones-de-camion-de-3.5-toneladas-sinotruk.webp"
             medidasMovil = "../images/a7/dimensiones-de-camion-de-3.5-toneladas-sinotruk-responsive.webp"

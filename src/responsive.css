@@ -345,6 +345,14 @@
     height: 63px;
     line-height: 66px;
   }
+
+  .videoWidth.produ {
+    height: max-content;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
 }
 
 
@@ -383,7 +391,7 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
-    height: 45vw;
+    height: 29vw;
     background-color: rgba(0, 0, 0, 0.8);
   }
 
@@ -406,7 +414,7 @@
   .block1 .linksBox>a {
     display: inline-block;
     color: #fff;
-    font-size: 4.3vw;
+    font-size: 4.6vw;
     text-decoration: none;
     margin-right: 10px;
   }
@@ -432,12 +440,19 @@
   }
 
   .block3 .bottomContainer .linksBox {
-    font-size: 3.5vw;
-    margin-top: 2vw;
+    font-size: 4.6vw;
+    margin-top: 4vh;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-around;
+
   }
+
+  .block3 .bottomContainer .linksBox a {
+    margin: 0 2%;
+  }
+
 
   .sinoIcon {
     display: none;
@@ -464,18 +479,27 @@
   }
 
   .imgConcesionario {
-    text-align: center;
+    text-align: right;
+  }
+
+  .tresillo {
+    width: 30%;
+  }
+
+  .cuatrosillo {
+    width: 40%;
   }
 
   .concesionariosFlex {
     gap: 5vw;
   }
 
-  .imgContainerHeader, #videoContainer {
+  .imgContainerHeader,
+  #videoContainer {
     min-height: 60vh;
   }
 
-  .logo::after{
+  .logo::after {
     content: url(../public/images/leon-web.png);
     position: absolute;
     transform: scale(0.4);
@@ -483,18 +507,19 @@
     top: -38px;
   }
 
-  .desktopImg{
+  .desktopImg {
     display: none;
   }
 
-  .nomSeries{
+  .nomSeries {
     display: flex;
   }
 
-  .nomSeries > div.serieTitle{
+  .nomSeries>div.serieTitle {
     width: 40%;
-  } 
-  .nomSeries > div.serieList{
+  }
+
+  .nomSeries>div.serieList {
     width: 60%;
   }
 
@@ -503,7 +528,7 @@
     width: 25vw;
   }
 
-  .serieTitle1{
+  .serieTitle1 {
     font-size: 7.2vw;
     line-height: 4vw;
   }
@@ -519,19 +544,29 @@
   }
 
   .boxPlayerMotor.audiohome {
-    left: 130px;
-    bottom: 10px;
+
+    width: 100%;
+    left: 0;
+    bottom: 5vh;
+    text-align-last: center;
   }
 
+  .bannerTec {
+    text-align-last: center;
+  }
+
+  .bannerTec img{
+    max-width: 100%;
+  }
   .cuotas {
     font-size: 4.2vw;
   }
 
-  .tituloMenu{
+  .tituloMenu {
     display: none;
   }
 
-  .menuHome .titleHome{
+  .menuHome .titleHome {
     display: none;
   }
 
@@ -542,8 +577,7 @@
 
 
 @media only screen and (min-width: 768px) {
-  .movilImg{
+  .movilImg {
     display: none;
   }
 }
-

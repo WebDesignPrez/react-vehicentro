@@ -94,7 +94,7 @@ function Block1() {
             <div id="videoContainer">
                 <div className="boxRight tecnologia" height="1080">
                     <div className="boxLeft c7h">
-                        <video autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src="./images/home/camiones.mp4" className="videoWidth" />
+                        <video autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src="./images/home/camiones.mp4" className="videoWidth produ" />
                     </div>
                 </div>
                 <div className="overlayBox" height="200">
@@ -145,7 +145,7 @@ function Block3() {
                     <img src="../images/home/serie-100.webp" width="500" height="389" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <NavLink className="titleBox2" to="/serie/200">100</NavLink>
+                        <NavLink className="titleBox2" to="/serie/100">100</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" >3.5 TON</NavLink>
                             <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink>
@@ -161,18 +161,18 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
                         <div className="linksBox tresColumneitor">
-                            <div className="">
+                            <div className="tresillo">
                                 <NavLink className="line2" to="/camiones/camion-de-9-toneladas">9 TON</NavLink><br></br>
                                 <NavLink className="line2" to="/camiones/camion-10-toneladas-t5g-1167">10 TON</NavLink><br></br>
                                 <NavLink className="line2" to="/camiones/camion-12-toneladas-t5g-1167">12 TON</NavLink>
 
                             </div>
-                            <div className="textConcesionario">
+                            <div className="textConcesionario cuatrosillo">
                                 <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167">13 TON 280HP</NavLink><br></br>
                                 <NavLink className="line2" to="/camiones/camion-13-toneladas-t5g-1167-330hp">13 TON 330HP</NavLink>
 
                             </div>
-                            <div className="imgConcesionario">
+                            <div className="imgConcesionario tresillo">
                                 <NavLink className="line2" to="/camiones/camion-de-18-toneladas-t5g-1257">18 TON</NavLink><br></br>
                                 <NavLink className="line2" to="/camiones/camion-de-19-toneladas-t5g-1257">19.5 TON</NavLink><br></br>
                                 <NavLink className="line2" to="/cabezales/cabezal-t5g-4187">24 TON</NavLink>
@@ -262,7 +262,7 @@ function Block3() {
                                 <NavLink className="line2" src="" to="/proximamente">MINI EXCAVADORA</NavLink>
 
                             </div>
-                            <div>
+                            <div className="imgConcesionario">
                                 <NavLink className="line2" src="" to="/proximamente">RODILLO</NavLink><br></br>
                                 <NavLink className="line2" src="" to="/proximamente">EXCAVADORA</NavLink>
 
@@ -276,7 +276,7 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
-                            <NavLink className="line2" src="" to="">A7 8-9 m3</NavLink>
+                            <NavLink className="line2" src="" to="/mixer/mixer-a7-1257">A7 8-9 m3</NavLink>
                             <NavLink className="line2" src="" to="/proximamente">C7H 12 m3</NavLink>
                         </div>
                     </div>
@@ -304,6 +304,9 @@ function Block4() {
         <div className="block4 boxBlock boxesIni posRelative content3">
             <div className="boxLeft playMotor colorLinksSobreTexto">
                 <img src="../images/home/camion-sinotruk-basura.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395" />
+                <div className="boxText flex-table row">
+                    <a href="/proximamente"><div className="flex-row textMain textMain2">VEHÍCULOS ESPECIALES</div></a>
+                </div>
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
