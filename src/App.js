@@ -28,6 +28,7 @@ import Volquetas from "./pages/Volquetas"
 import Garantia from "./pages/Garantia"
 import Proximamente from "./pages/Proximamente"
 import React from 'react';
+import HelpDesk from "./pages/HelpDesk"
 
 
 
@@ -68,6 +69,7 @@ function App() {
           <Route path="/serie/volquetas" element={<Volquetas />} />
           <Route path="/garantia" element={<Garantia />} />
           <Route path="/proximamente" element={<Proximamente />} />
+          <Route path="/soporte" element={<HelpDesk />} />
         </Routes>
       </main>
     </BrowserRouter>

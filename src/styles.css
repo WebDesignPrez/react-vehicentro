@@ -2013,3 +2013,28 @@ a.colItem.meniu.negro {
 .block3 .bottomContainer .linksBox.tresColumneitor{
     flex-wrap: nowrap;
 }
+
+.containerHD {
+    background-image: url(../public/images/vehicentro-web-banner1.jpg);
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+.imageHD{
+    margin-top: 10vh;
+    width: 50%;
+    text-align: center;
+}
+
+.formHD{
+    width: 50%;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.titleHD{
+    font-size: 2vw;
+    color: #666;
+}
