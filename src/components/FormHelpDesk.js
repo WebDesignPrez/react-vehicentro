@@ -46,8 +46,8 @@ function FormHelpDesk() {
     if (!validateCed(e.target[0].value)) {
       const form = $(e.target);
       
-        document.getElementById("btnSend").disabled = true; 
-        document.getElementById("btnSend").style.display = "none"; 
+        /* document.getElementById("btnSend").disabled = true; 
+        document.getElementById("btnSend").style.display = "none";  */
         e.preventDefault();
         var formData = new FormData();
         formData.append('cedula', e.target[0].value);     
@@ -63,20 +63,14 @@ function FormHelpDesk() {
           enctype: 'multipart/form-data',
           processData: false,
           success(data) {
-            if(data.enviado==="SI"){
-              setCed('')
-              NotificationManager.success('Datos enviados.', '')
-              window.location.href = redireccion;
-            }else{  
-              document.getElementById("btnSend").disabled = false
-              document.getElementById("btnSend").style.display = "block"; 
-              NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
-            }
+            window.location.href = redireccion;
+            console.log("success");
           }, 
           error(data){
             document.getElementById("btnSend").disabled = false
             document.getElementById("btnSend").style.display = "block"; 
-            NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
+            window.location.href = redireccion;
+            console.log("error");
           }
         })
    
