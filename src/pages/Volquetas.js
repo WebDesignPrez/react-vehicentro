@@ -32,7 +32,7 @@ function Content1() {
     return (
         <>
             <div className="boxesIni posRelative content2 fondonegro">
-                <div className="boxRight tecnologia">
+                <div className="boxRight">
                     <div className="boxLeft c7h">
                     <video width="320" height="240" controls autoPlay={true} muted loop src="../images/especiales/volqueta.mp4" className="videoWidth" />
                     </div>

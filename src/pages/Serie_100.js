@@ -32,7 +32,7 @@ function Content1() {
     return (
         <>
             <div className="boxesIni posRelative content2 fondonegro">
-                <div className="boxRight tecnologia">
+                <div className="boxRight">
                     <div className="boxLeft c7h">
                         <img src="../images/serie-100/serie-100.webp" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     </div>

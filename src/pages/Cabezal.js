@@ -517,7 +517,7 @@ function Camion() {
         </Helmet>
         <NavBarTop />
         <div className="boxesIni posRelative content2">
-            <div className="boxRight tecnologia">
+            <div className="boxRight">
                 <Slide>
                     {slide1}
                 </Slide>

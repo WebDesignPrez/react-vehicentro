@@ -306,7 +306,7 @@ function Serie() {
 
         <NavBarTop />
         <div className="boxesIni posRelative content2 fondonegro">
-            <div className="boxRight tecnologia">
+            <div className="boxRight">
                 <div className="boxLeft c7h">
                     <video width="320" height="240" controls autoPlay={true} muted loop src={video} className="videoWidth" />
                 </div>

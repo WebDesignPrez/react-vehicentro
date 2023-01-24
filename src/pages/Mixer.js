@@ -223,7 +223,7 @@ function Mixer() {
         </Helmet>
         <NavBarTop />
         <div className="boxesIni posRelative content2">
-            <div className="boxRight tecnologia">
+            <div className="boxRight">
                 {images.length > 1 &&
                     <Slide>
                         {slide1}
