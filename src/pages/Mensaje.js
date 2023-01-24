@@ -247,14 +247,14 @@ function Menu2() {
     return (
         <nav className="menu2 home2">
             <ul className="nav-links-h">
-                <li ><a className="sunward mouseA" option="sinotruk">SINOTRUK</a></li>
-                <li ><a className="sinotruk mouseA" option="sunward">SUNWARD</a></li>
-                <li ><a className="concesionarios mouseA" option="concesionarios">CONCESIONARIOS</a></li>
-                <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
-                <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
-                <li className="tecnologiaCss"><a>TECNOLOGÍA</a></li>
+                <li><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
+                <li><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
+                <li><a className="mouseA" href="/proximamente">VEHÍCULOS</a></li>
+                <li><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
+                <li><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
+                <li><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
             </ul>
-            <span className="telefonoInicio">032994740 - 0992048229</span>
+            <a href="tel:+59332994740" className="telefonoInicio">032994740</a>
         </nav>
     )
 }
