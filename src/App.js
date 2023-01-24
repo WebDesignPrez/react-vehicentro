@@ -29,6 +29,7 @@ import Garantia from "./pages/Garantia"
 import Proximamente from "./pages/Proximamente"
 import React from 'react';
 import HelpDesk from "./pages/HelpDesk"
+import Vehiculos_especiales from "./pages/Vehiculos_especiales"
 
 
 
@@ -70,6 +71,7 @@ function App() {
           <Route path="/garantia" element={<Garantia />} />
           <Route path="/proximamente" element={<Proximamente />} />
           <Route path="/soporte" element={<HelpDesk />} />
+          <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
         </Routes>
       </main>
     </BrowserRouter>

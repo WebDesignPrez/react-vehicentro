@@ -1525,6 +1525,11 @@ li.mouseA:hover {
     margin-left: 10px;
 }
 
+.block4 .linksBox::after{
+    content: url(../public/images/arrow2.png);
+    margin: 1% 0 0 0;
+}
+
 .block3.row2 {
     padding-top: 0vw;
 }
@@ -2037,4 +2042,9 @@ a.colItem.meniu.negro {
 .titleHD{
     font-size: 2vw;
     color: #666;
+}
+
+.flex-row.textMain.textMain2{
+    color: #fff;
+
 }

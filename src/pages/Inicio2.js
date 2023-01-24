@@ -303,8 +303,22 @@ function Block4() {
     return (
         <div className="block4 boxBlock boxesIni posRelative content3">
             <div className="boxLeft playMotor colorLinksSobreTexto">
-                <img src="../images/home/camion-sinotruk-basura.webp" alt="Vehicentro venta de excavadoras" height="1200" width="1395" />
-                <div className="boxText flex-table row">
+
+                <Slide>
+                    <div className="each-slide-effect">
+                        <div style={{ 'backgroundImage': `url(../images/home/camion-sinotruk-basura.webp)`, height: `43vw` }}>
+                        </div>
+                    </div>
+                    <div className="each-slide-effect">
+                        <div style={{ 'backgroundImage': `url(../images/home/camion-con-balde.webp)`, height: `43vw` }}>
+                        </div>
+                    </div>
+                    <div className="each-slide-effect">
+                        <div style={{ 'backgroundImage': `url(../images/home/camion-verde-basura.webp)`, height: `43vw` }}>
+                        </div>
+                    </div>
+                </Slide>
+                <div className="boxText flex-table row linksBox">
                     <a href="/proximamente"><div className="flex-row textMain textMain2">VEHÍCULOS ESPECIALES</div></a>
                 </div>
             </div>
