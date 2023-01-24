@@ -117,8 +117,8 @@ function Camion() {
                 "../images/volqueta-280/palanca.webp"
             ];
 
-            medidas = "../images/volqueta-280/dimensiones-de-camion-de-24-toneladas-sinotruk.webp"
-            medidasMovil = "../images/volqueta-280/dimensiones-de-camion-de-24-toneladas-sinotruk-responsive.webp"
+            medidas = "../images/volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk.webp"
+            medidasMovil = "../images/volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk-responsive.webp"
             audio_motor = "../images/volqueta-280/motor.wav"
 
             internas = internas1.concat(internas2)
@@ -140,7 +140,7 @@ function Camion() {
                 "../images/volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
             ];
             textoMotor1 = "340 HP"
-            textoMotor2 = "Modelo T5G-280-330"
+            textoMotor2 = "Modelo T7H-430"
             textoMotor3 = "Ficha técnica"
 
             precio = <div className="banner"><img src="../images/volqueta-430/logo-sinotruk.webp" /></div>
@@ -171,8 +171,8 @@ function Camion() {
                 "../images/volqueta-430/palanca.webp"
             ];
 
-            medidas = "../images/volqueta-430/dimensiones-de-camion-de-24-toneladas-sinotruk.webp"
-            medidasMovil = "../images/volqueta-430/dimensiones-de-camion-de-24-toneladas-sinotruk-responsive.webp"
+            medidas = "../images/volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk.webp"
+            medidasMovil = "../images/volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk-responsive.webp"
             audio_motor = "../images/volqueta-430/motor.wav"
 
             internas = internas1.concat(internas2)
@@ -351,6 +351,9 @@ function Camion() {
 
 
             </div>
+
+            <div className="bannerMedidas noResponsive"><img src={medidas} /></div>
+            <div className="bannerMedidas responsive"><img src={medidasMovil} /></div>
         </div>
         <div className="boxesIni posRelative">
             <div className="centrado">

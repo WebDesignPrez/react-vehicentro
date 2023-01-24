@@ -83,7 +83,8 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
-                "../images/a7/mixer-blanco-sinotruk.webp"
+                "../images/a7/mixer-blanco-sinotruk.webp",
+                "../images/a7/mixer-blanco-sinotruk-de-frente.webp"
             ];
             textoMotor1 = "380 HP"
             textoMotor2 = "Modelo 1257 - 8m3"
@@ -114,8 +115,8 @@ function Mixer() {
             internas2b = [
                 "../images/a7/transmision.webp"
             ];
-            medidas = "../images/a7/dimensiones-de-camion-de-3.5-toneladas-sinotruk.webp"
-            medidasMovil = "../images/a7/dimensiones-de-camion-de-3.5-toneladas-sinotruk-responsive.webp"
+            medidas = "../images/a7/dimensiones-de-mixer-de-8-m3-sinotruk.webp"
+            medidasMovil = "../images/a7/dimensiones-de-mixer-de-8-m3-sinotruk-responsive.webp"
             audio_motor = "../images/a7/motor.mp3"
 
 
@@ -332,6 +333,9 @@ function Mixer() {
 
 
             </div>
+
+            <div className="bannerMedidas noResponsive"><img src={medidas} /></div>
+            <div className="bannerMedidas responsive"><img src={medidasMovil} /></div>
         </div>
         <div className="boxesIni posRelative">
             <div className="centrado">
