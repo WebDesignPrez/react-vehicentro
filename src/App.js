@@ -30,7 +30,7 @@ import Proximamente from "./pages/Proximamente"
 import React from 'react';
 import HelpDesk from "./pages/HelpDesk"
 import Vehiculos_especiales from "./pages/Vehiculos_especiales"
-
+import Proximamente_hidromek from "./pages/Proximamente-hidromek"
 
 
 function App() {
@@ -72,6 +72,9 @@ function App() {
           <Route path="/proximamente" element={<Proximamente />} />
           <Route path="/soporte" element={<HelpDesk />} />
           <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
+          <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
+          <Route path="/proximamente-hidromek" element={<Proximamente_hidromek />} />
+          
         </Routes>
       </main>
     </BrowserRouter>

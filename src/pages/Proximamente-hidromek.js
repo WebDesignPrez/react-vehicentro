@@ -16,7 +16,7 @@ function Proximamente() {
 function Content1() {
     return (
         <div className="posRelative banner">
-            <img className=" slideMain" src="./images/proximamente.webp" alt="Punto de Venta" />
+            <img className=" slideMain" src="./images/proximamente-2.webp" alt="Punto de Venta" />
         </div>
     )
 }

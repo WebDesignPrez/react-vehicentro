@@ -255,16 +255,16 @@ function Block3() {
                     <img src="../images/home/sector-ganadero.webp" width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
-                        <NavLink className="titleBox2" to="/proximamente">HIDROMEK</NavLink>
+                        <NavLink className="titleBox2" to="/proximamente-hidromek">HIDROMEK</NavLink>
                         <div className="linksBox tresColumneitor">
                             <div>
-                                <NavLink className="line2" src="" to="/proximamente">RETROEXCAVADORA</NavLink><br></br>
-                                <NavLink className="line2" src="" to="/proximamente">MINI EXCAVADORA</NavLink>
+                                <NavLink className="line2" src="" to="/proximamente-hidromek">RETROEXCAVADORA</NavLink><br></br>
+                                <NavLink className="line2" src="" to="/proximamente-hidromek">MINI EXCAVADORA</NavLink>
 
                             </div>
                             <div className="imgConcesionario">
-                                <NavLink className="line2" src="" to="/proximamente">RODILLO</NavLink><br></br>
-                                <NavLink className="line2" src="" to="/proximamente">EXCAVADORA</NavLink>
+                                <NavLink className="line2" src="" to="/proximamente-hidromek">RODILLO</NavLink><br></br>
+                                <NavLink className="line2" src="" to="/proximamente-hidromek">EXCAVADORA</NavLink>
 
                             </div>
                         </div>
