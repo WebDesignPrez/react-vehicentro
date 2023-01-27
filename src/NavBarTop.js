@@ -3,8 +3,12 @@ import './responsive.css'
 import { NavLink } from "react-router-dom"
 import { useEffect } from "react";
 
+import env from './config';
+
 export default function NavBarTop() {
     var auxMovil = 0;
+
+    let urlMedia = env.url
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -307,7 +311,7 @@ export default function NavBarTop() {
             <div className="line3"></div>
         </div>
         <div className="logo">
-            <a href="/"><img src="../images/vehicentro-logo-blanco.png" width="230" height="80" /></a>
+            <a href="/"><img src={urlMedia+"vehicentro-logo-blanco.png"} width="230" height="80" /></a>
         </div>
         <ul className="nav-links">
             <li><NavLink className="" to="/">INICIO</NavLink></li>
@@ -317,7 +321,7 @@ export default function NavBarTop() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="0"></div>
                         <p className="tituloMenu">CAMIONES</p>
-                        <img className="imgnMenu" src="../images/home/logo-sinotruk-negro.png" alt="Sinotruck" />
+                        <img className="imgnMenu" src={urlMedia+"home/logo-sinotruk-negro.png"} alt="Sinotruck" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -393,7 +397,7 @@ export default function NavBarTop() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="1"></div>
                         <p>MAQUINARIA</p>
-                        <img className="imgnMenu" src="../images/logo-sunward.webp" alt="sunward" />
+                        <img className="imgnMenu" src={urlMedia+"logo-sunward.webp"} alt="sunward" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">

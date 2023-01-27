@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom"
 import { useEffect, useState } from "react";
 
-
+import env from './config';
 
 export default function NavBar() {
     var auxMovil = 0;
+
+    let urlMedia = env.url
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -514,7 +516,7 @@ export default function NavBar() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="0"></div>
                         <p className="tituloMenu">CAMIONES</p>
-                        <img className="imgnMenu" src="../images/home/logo-sinotruk-negro.png" width="663" height="163" alt="Sinotruck" />
+                        <img className="imgnMenu" src={urlMedia+"home/logo-sinotruk-negro.png"} width="663" height="163" alt="Sinotruck" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -583,7 +585,7 @@ export default function NavBar() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="1"></div>
                         <p className="tituloMenu">MAQUINARIA</p>
-                        <img className="imgnMenu" src="../images/logo-sunward.webp" alt="sunward" width="100" height="32" />
+                        <img className="imgnMenu" src={urlMedia+"logo-sunward.webp"} alt="sunward" width="100" height="32" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -707,9 +709,9 @@ export default function NavBar() {
 <div className="menuHome">
     <div className="titleHome"></div>
     <div className="logoHome">
-            <NavLink to="/"><img src="./images/vehicentro-logo-blanco.png" width="230" height="80" alt="Vehicentro" /></NavLink>
+            <NavLink to="/"><img src={urlMedia+"vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></NavLink>
     </div>
-    <div className="searchHome"><img src="./images/search.png" alt="Buscar" /></div>
+    <div className="searchHome"><img src={urlMedia+"search.png"} alt="Buscar" /></div>
 </div>
         
     </nav>
