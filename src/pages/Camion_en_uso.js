@@ -5,12 +5,14 @@ import Footer from '../components/Footer'
 import '../stylesIn.css';
 import { useParams } from "react-router"
 import { Helmet } from "react-helmet";
+import env from '../config';
 
 let bdc
 let imagen 
 let nombreCamion
 let nombreSerie
 let camionSerie
+let urlMedia = env.url
 
 function Camion_en_uso() {
 
@@ -21,7 +23,7 @@ function Camion_en_uso() {
 
         case "camion-de-48-toneladas":
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHUSO"
-            imagen = ["../images/camion-en-uso/48-ton/uso-3-camion-48-ton.webp", "../images/camion-en-uso/48-ton/uso-4-camion-48-ton.webp", "../images/camion-en-uso/48-ton/uso-1-camion-48-ton.webp", "../images/camion-en-uso/48-ton/uso-2-camion-48-ton.webp", "../images/camion-en-uso/48-ton/uso-5-camion-48-ton.webp"]
+            imagen = [urlMedia+"camion-en-uso/48-ton/uso-3-camion-48-ton.webp", urlMedia+"camion-en-uso/48-ton/uso-4-camion-48-ton.webp", urlMedia+"camion-en-uso/48-ton/uso-1-camion-48-ton.webp", urlMedia+"camion-en-uso/48-ton/uso-2-camion-48-ton.webp", urlMedia+"camion-en-uso/48-ton/uso-5-camion-48-ton.webp"]
             nombreCamion = "Camion de 48 toneladas | C7H-540"
             camionSerie = ""
             nombreSerie = "Serie C7H"

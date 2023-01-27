@@ -4,16 +4,19 @@ import Footer from '../components/Footer'
 import BannerContacto from '../components/BannerContacto'
 import { useEffect, useState } from "react";
 import { Slide } from 'react-slideshow-image';
-
+import env from '../config';
 
 let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBINICIO"
 let nombreCamion = ""
 let nombreSerie = "Serie 100"
 let camionSerie = ""
 let audio_motor = "../images/10-toneladas/motor.mp3"
-function Inicio2() {
+let urlMedia = env.url
 
+function Inicio2() {
+    
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
+    
 
     useEffect(() => {
         const motorPlayer = document.getElementById('audioMotorHome')
@@ -94,7 +97,7 @@ function Block1() {
             <div id="videoContainer">
                 <div className="boxRight tecnologia" height="1080">
                     <div className="boxLeft c7h">
-                        <video autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src="./images/home/camiones.mp4" className="videoWidth produ" />
+                        <video autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src={urlMedia+"home/camiones.mp4"} className="videoWidth produ" />
                     </div>
                 </div>
                 <div className="overlayBox" height="200">
@@ -131,7 +134,7 @@ function Block1() {
 function Block2() {
     return (
         <div className="block2">
-            <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="./images/home/vehinstein-tv.mp4" className="videoWidth" />
+            <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia+"home/vehinstein-tv.mp4"} className="videoWidth" />
         </div>
     )
 }
@@ -142,7 +145,7 @@ function Block3() {
         <>
             <div className="block3 boxBlock">
                 <div>
-                    <img src="../images/home/serie-100.webp" width="500" height="389" alt="Vehicentro" />
+                    <img src={urlMedia+"home/serie-100.webp"} width="500" height="389" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/100">100</NavLink>
@@ -156,7 +159,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src="../images/home/serie-t5g.webp" width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia+"home/serie-t5g.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
@@ -182,7 +185,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src="../images/home/serie-t7h.webp" width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia+"home/serie-t7h.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
@@ -197,7 +200,7 @@ function Block3() {
 
             <div className="block3 boxBlock row2">
                 <div>
-                    <img src="../images/home/serie-c7h.webp" width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia+"home/serie-c7h.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
@@ -226,7 +229,7 @@ function Block3() {
 
                     <div className="bottomContainer">
                         <div className="bannerTec">
-                            <img src="../images/home/tecnologia-alemana.webp" width="590" height="170" alt="Tecnologia Alemana" />
+                            <img src={urlMedia+"home/tecnologia-alemana.webp"} width="590" height="170" alt="Tecnologia Alemana" />
                         </div>
                         <div className="boxPlayerMotor audiohome">
                             <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
@@ -237,7 +240,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src="../images/home/serie-volquetas.webp" width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia+"home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS</NavLink>
@@ -252,7 +255,7 @@ function Block3() {
 
             <div className="block3 boxBlock row2">
                 <div>
-                    <img src="../images/home/sector-ganadero.webp" width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia+"home/sector-ganadero.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <NavLink className="titleBox2" to="/proximamente-hidromek">HIDROMEK</NavLink>
@@ -271,7 +274,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src="../images/home/mixer.webp" width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia+"home/mixer.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
@@ -282,7 +285,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src="../images/home/sunward.webp" width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia+"home/sunward.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD</p>
@@ -324,7 +327,7 @@ function Block4() {
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} playsInline={true} muted loop src="./images/home/tamara2.mp4" className="videoWidth" />
+                    <video width="320" height="240" controls autoPlay={true} playsInline={true} muted loop src={urlMedia+"home/tamara2.mp4"} className="videoWidth" />
                 </div>
             </div>
         </div>
@@ -350,8 +353,8 @@ function Menu2() {
 function Banner() {
     return (
         <div className="posRelative banner">
-            <img className="desktopImg slideMain" src="./images/home/vehicentro-en-ecuador-venta-de-camiones-cabezales-y-volquetas-sinotruk.webp" width="1790" height="590" alt="Punto de Venta" />
-            <img className="movilImg slideMain" src="./images/home/vehicentro-concesionarios-mobil.webp" width="2432" height="1675" alt="Punto de Venta" />
+            <img className="desktopImg slideMain" src={urlMedia+"home/vehicentro-en-ecuador-venta-de-camiones-cabezales-y-volquetas-sinotruk.webp"} width="1790" height="590" alt="Punto de Venta" />
+            <img className="movilImg slideMain" src={urlMedia+"home/vehicentro-concesionarios-mobil.webp"} width="2432" height="1675" alt="Punto de Venta" />
             <div className="boxText flex-table row">
                 <a href="/concesionarios"><div className="flex-row textMain textMain2">Puntos Vehicentro a nivel Nacional</div></a>
             </div>

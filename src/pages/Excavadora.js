@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import '../modalContact.css';
 import FormContactFicha from "../components/FormContactFicha";
 import { Helmet } from "react-helmet";
+import env from '../config';
 
 let imagen
 let images
@@ -44,7 +45,7 @@ let camionSerie
 let nombreSerie
 let cuotas
 let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
-
+let urlMedia = env.url
 
 function Camion() {
   const [modalFormIsOpen, setFormIsOpen] = useState(false);
@@ -83,46 +84,46 @@ function Camion() {
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
       images = [
-        "../images/swe210/vehicentro-excavadora-ecuador.webp"
+        urlMedia+"swe210/vehicentro-excavadora-ecuador.webp"
       ];
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE210"
       textoMotor3 = "Excavadora"
       precio = "$161.280"
       cuotas = 'Cuotas desde: $3.565,00'
-      motor = "../images/swe210/motor.webp"
-      garantia = "../images/swe210/5-anos-de-garantia.webp"
-      tecnologia = "../images/swe210/sunward.webp"
-      contenedorVidaUtil = <div className="banner"><img src="../images/swe210/isuzu.webp" /></div>
+      motor = urlMedia+"swe210/motor.webp"
+      garantia = urlMedia+"swe210/5-anos-de-garantia.webp"
+      tecnologia = urlMedia+"swe210/sunward.webp"
+      contenedorVidaUtil = <div className="banner"><img src={urlMedia+"swe210/isuzu.webp"} /></div>
 
       caracteristicas = [
-        "../images/swe210/camion-de-24-toneladas-potencia-340hp.webp",
-        "../images/swe210/camion-de-24-toneladas-cilindraje.webp",
-        "../images/swe210/camion-de-24-toneladas-freno-a-las-valvulas.webp",
-        "../images/swe210/inyeccion.webp"
+        urlMedia+"swe210/camion-de-24-toneladas-potencia-340hp.webp",
+        urlMedia+"swe210/camion-de-24-toneladas-cilindraje.webp",
+        urlMedia+"swe210/camion-de-24-toneladas-freno-a-las-valvulas.webp",
+        urlMedia+"swe210/inyeccion.webp"
       ]
-      cabina = "../images/swe210/cabina.webp"
-      marcas = "../images/swe210/asiento.webp"
+      cabina = urlMedia+"swe210/cabina.webp"
+      marcas = urlMedia+"swe210/asiento.webp"
       internas1 = [
-        "../images/swe210/motor-giro.webp",
-        "../images/swe210/sunroof.webp"
+        urlMedia+"swe210/motor-giro.webp",
+        urlMedia+"swe210/sunroof.webp"
       ];
       internas2 = [
-        "../images/swe210/cluster.webp",
-        "../images/swe210/asiento.webp"
+        urlMedia+"swe210/cluster.webp",
+        urlMedia+"swe210/asiento.webp"
       ];
       internas1b = [
-        "../images/swe210/bomba.webp"
+        urlMedia+"swe210/bomba.webp"
       ];
       internas2b = [
-        "../images/swe210/radio.webp"
+        urlMedia+"swe210/radio.webp"
       ];
 
-      medidas = "../images/swe210/medidas.webp"
-      medidasDos = "../images/swe210/medidas-2.webp"
-      medidasMovil = "../images/swe210/medidas-movil.webp"
-      medidasMovilDos = "../images/swe210/medidas-movil-2.webp"
-      audio_motor = "../images/swe210/motor.wav"
+      medidas = urlMedia+"swe210/medidas.webp"
+      medidasDos = urlMedia+"swe210/medidas-2.webp"
+      medidasMovil = urlMedia+"swe210/medidas-movil.webp"
+      medidasMovilDos = urlMedia+"swe210/medidas-movil-2.webp"
+      audio_motor = urlMedia+"swe210/motor.wav"
 
       internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
       //loop slider
@@ -173,46 +174,46 @@ function Camion() {
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
       images = [
-        "../images/swe365e/vehicentro-excavadora-ecuador.webp"
+        urlMedia+"swe365e/vehicentro-excavadora-ecuador.webp"
       ];
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE365E"
       textoMotor3 = "Excavadora"
       precio = "$257.600"
       cuotas = 'Cuotas desde: $5.675,00'
-      motor = "../images/swe365e/motor.webp"
-      garantia = "../images/swe365e/5-anos-de-garantia.webp"
-      tecnologia = "../images/swe365e/sunward.webp"
-      contenedorVidaUtil = <div className="banner"><img src="../images/swe365e/isuzu.webp" /></div>
+      motor = urlMedia+"swe365e/motor.webp"
+      garantia = urlMedia+"swe365e/5-anos-de-garantia.webp"
+      tecnologia = urlMedia+"swe365e/sunward.webp"
+      contenedorVidaUtil = <div className="banner"><img src={urlMedia+"swe365e/isuzu.webp"} /></div>
 
       caracteristicas = [
-        "../images/swe365e/camion-de-24-toneladas-potencia-340hp.webp",
-        "../images/swe365e/camion-de-24-toneladas-cilindraje.webp",
-        "../images/swe365e/camion-de-24-toneladas-freno-a-las-valvulas.webp",
-        "../images/swe365e/inyeccion.webp"
+        urlMedia+"swe365e/camion-de-24-toneladas-potencia-340hp.webp",
+        urlMedia+"swe365e/camion-de-24-toneladas-cilindraje.webp",
+        urlMedia+"swe365e/camion-de-24-toneladas-freno-a-las-valvulas.webp",
+        urlMedia+"swe365e/inyeccion.webp"
       ]
-      cabina = "../images/swe365e/cabina.webp"
-      marcas = "../images/swe365e/asiento.webp"
+      cabina = urlMedia+"swe365e/cabina.webp"
+      marcas = urlMedia+"swe365e/asiento.webp"
       internas1 = [
-        "../images/swe365e/motor-giro.webp",
-        "../images/swe365e/sunroof.webp"
+        urlMedia+"swe365e/motor-giro.webp",
+        urlMedia+"swe365e/sunroof.webp"
       ];
       internas2 = [
-        "../images/swe365e/cluster.webp",
-        "../images/swe365e/asiento.webp"
+        urlMedia+"swe365e/cluster.webp",
+        urlMedia+"swe365e/asiento.webp"
       ];
       internas1b = [
-        "../images/swe365e/bomba.webp"
+        urlMedia+"swe365e/bomba.webp"
       ];
       internas2b = [
-        "../images/swe365e/radio.webp"
+        urlMedia+"swe365e/radio.webp"
       ];
 
-      medidas = "../images/swe365e/medidas.webp"
-      medidasDos = "../images/swe365e/medidas-2.webp"
-      medidasMovil = "../images/swe365e/medidas-movil.webp"
-      medidasMovilDos = "../images/swe365e/medidas-movil-2.webp"
-      audio_motor = "../images/swe365e/motor.wav"
+      medidas = urlMedia+"swe365e/medidas.webp"
+      medidasDos = urlMedia+"swe365e/medidas-2.webp"
+      medidasMovil = urlMedia+"swe365e/medidas-movil.webp"
+      medidasMovilDos = urlMedia+"swe365e/medidas-movil-2.webp"
+      audio_motor = urlMedia+"swe365e/motor.wav"
 
       internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
       //loop slider
@@ -266,11 +267,11 @@ function Camion() {
   switch ((useParams("id").id)) {
 
     case "swe210":
-      imagen = "../images/swe210/excavadora-en-carretera-vehicentro-ecuador.webp"
+      imagen = urlMedia+"swe210/excavadora-en-carretera-vehicentro-ecuador.webp"
       break;
 
     case "swe365e":
-      imagen = "../images/swe365e/excavadora-en-carretera-vehicentro-ecuador.webp"
+      imagen = urlMedia+"swe365e/excavadora-en-carretera-vehicentro-ecuador.webp"
       break;
 
     default:
@@ -332,7 +333,7 @@ function Camion() {
           <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
           <div onClick={openFormContact} className="flex-row  textoMotor2">{textoMotor2}</div>
           <div onClick={openFormContact} className="flex-row  textoMotor3">Ficha técnica</div>
-          <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src="../images/arrow-rojo.png" alt="arrow" /></div>
+          <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia+"arrow-rojo.png"} alt="arrow" /></div>
         </div>
       </div>
 

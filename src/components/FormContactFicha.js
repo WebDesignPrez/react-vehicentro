@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react';
 import "../form.css";
 import { NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
+import env from '../config';
 
+let urlMedia = env.url
 function FormContactFicha(props) {
 
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
@@ -233,37 +235,37 @@ function FormContactFicha(props) {
 
                   <label className="input_title">*Nombre y Apellido</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/user-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"user-solid.png"} /></span>
                     <input placeholder="" name="nombre_y_apellido" type="text" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido} />
                   </div>
 
                   <label className="input_title">*Ciudad</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/address-card-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"address-card-solid.png"} /></span>
                     <input placeholder="" name="ciudad" type="text" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeCity(e) }} value={ciudad} />
                   </div>
 
                   <label className="input_title">*Email</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/envelope-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"envelope-solid.png"} /></span>
                     <input placeholder="" name="email" type="text" onBlur={(e) => { handleFocusEmail(e) }} onChange={(e) => { handleChangeEmail(e) }} value={email} />
                   </div>
 
                   <label className="input_title">*Celular</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/phone-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"phone-solid.png"} /></span>
                     <input placeholder="" name="celular" type="text" onBlur={(e) => { handleFocusTel(e) }} onChange={(e) => { handleChangeTel(e) }} value={celular} />
                   </div>
 
                   <label className="input_title">*Cédula</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/portrait-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
                     <input placeholder="" name="cedula" type="text" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
                   </div>
 
                   <label className="input_title">*Escoge tu concesionario más cercano</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/map-marker-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"map-marker-solid.png"} /></span>
                     <select name="escoge_tu_concesionario_mas_cercano" onBlur={(e) => { handleFocusCon(e) }} onChange={(e) => { handleChangeCon(e) }} value={escoge_tu_concesionario_mas_cercano}>
                       <option value="Concesionario">Concesionario</option>
                       <option value="Ambato - Av. Indoamérica Sector Izamba">Ambato - Av. Indoamérica Sector Izamba</option>
@@ -285,7 +287,7 @@ function FormContactFicha(props) {
 
                   <label className="input_title">*Serie</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/map-marker-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"map-marker-solid.png"} /></span>
                     <select name="serie" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeSerie(e) }} value={serie}>
                       <option value="Serie 100">Serie 100</option>
                       <option value="Serie T5G">Serie T5G</option>
@@ -299,7 +301,7 @@ function FormContactFicha(props) {
 
                   <label className="input_title">*Camión</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/map-marker-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"map-marker-solid.png"} /></span>
                     <select name="camionserie" onChange={(e) => { handleChangeSerieCamion(e) }} value={camionSerie}>
                       {options}
                     </select>

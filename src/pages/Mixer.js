@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import '../modalContact.css';
 import FormContactFicha from "../components/FormContactFicha";
 import { Helmet } from "react-helmet";
+import env from '../config';
 
 let cuotas
 let imagen
@@ -42,7 +43,7 @@ let bdc
 let camionSerie
 let nombreSerie
 let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
-
+let urlMedia = env.url
 
 function Mixer() {
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
@@ -83,41 +84,41 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
-                "../images/a7/mixer-blanco-sinotruk.webp",
-                "../images/a7/mixer-blanco-sinotruk-de-frente.webp"
+                urlMedia+"a7/mixer-blanco-sinotruk.webp",
+                urlMedia+"a7/mixer-blanco-sinotruk-de-frente.webp"
             ];
             textoMotor1 = "380 HP"
             textoMotor2 = "Modelo 1257 - 8m3"
             textoMotor3 = "Ficha técnica"
-            precio = <div className="banner"><img src="../images/volqueta-280/logo-sinotruk.webp" /></div>
+            precio = <div className="banner"><img src={urlMedia+"volqueta-280/logo-sinotruk.webp"} /></div>
             cuotas = 'Cuotas desde: $447.00'
-            motor = "../images/a7/motor-mixer.webp"
-            garantia = "../images/a7/5-anos-de-garantia.webp"
-            tecnologia = "../images/a7/mixer-serie.webp"
+            motor = urlMedia+"a7/motor-mixer.webp"
+            garantia = urlMedia+"a7/5-anos-de-garantia.webp"
+            tecnologia = urlMedia+"a7/mixer-serie.webp"
 
             caracteristicas = [
-                "../images/a7/transmision-10-2.webp",
-                "../images/a7/cilindros.webp",
-                "../images/a7/camion-de-3.5-toneladas-freno-de-aire.webp",
-                "../images/a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
+                urlMedia+"a7/transmision-10-2.webp",
+                urlMedia+"a7/cilindros.webp",
+                urlMedia+"a7/camion-de-3.5-toneladas-freno-de-aire.webp",
+                urlMedia+"a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
             ]
-            cabina = "../images/a7/cabina.webp"
+            cabina = urlMedia+"a7/cabina.webp"
             marcas = ""
             internas1 = [
-                "../images/a7/mandos.webp"
+                urlMedia+"a7/mandos.webp"
             ];
             internas2 = [
-                "../images/a7/tablero.webp"
+                urlMedia+"a7/tablero.webp"
             ];
             internas1b = [
-                "../images/a7/bloqueo.webp"
+                urlMedia+"a7/bloqueo.webp"
             ];
             internas2b = [
-                "../images/a7/transmision.webp"
+                urlMedia+"a7/transmision.webp"
             ];
-            medidas = "../images/a7/dimensiones-de-mixer-de-8-m3-sinotruk.webp"
-            medidasMovil = "../images/a7/dimensiones-de-mixer-de-8-m3-sinotruk-responsive.webp"
-            audio_motor = "../images/a7/motor.mp3"
+            medidas = urlMedia+"a7/dimensiones-de-mixer-de-8-m3-sinotruk.webp"
+            medidasMovil = urlMedia+"a7/dimensiones-de-mixer-de-8-m3-sinotruk-responsive.webp"
+            audio_motor = urlMedia+"a7/motor.mp3"
 
 
             internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
@@ -177,7 +178,7 @@ function Mixer() {
     switch ((useParams("id").id)) {
 
         case "mixer-a7-1257":
-            imagen = "../images/a7/mixer-en-la-carretera-sinotruk.webp"
+            imagen = urlMedia+"a7/mixer-en-la-carretera-sinotruk.webp"
             break;
 
 
@@ -239,7 +240,7 @@ function Mixer() {
                     <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
                     <div onClick={openFormContact} className="flex-row  textoMotor2">{textoMotor2}</div>
                     <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src="../images/arrow-rojo.png" alt="arrow" /></div>
+                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia+"arrow-rojo.png"} alt="arrow" /></div>
                     <div className="flex-row  textoMotor4">Escucha tu motor</div>
                 </div>
                 <div className="boxPlayerMotor ">

@@ -4,10 +4,11 @@ import NavBarTop from "../NavBarTop"
 import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
 import FormContact from "../components/FormContact";
-
+import env from '../config';
 let series
 let nombreCamion
 let camionSerie
+let urlMedia = env.url
 
 function Especiales() {
     return (
@@ -34,11 +35,11 @@ function Content1() {
             <div className="boxesIni posRelative content2 fondonegro">
                 <div className="boxRight">
                     <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted loop src="../images/especiales/volqueta.mp4" className="videoWidth" />
+                    <video width="320" height="240" controls autoPlay={true} muted loop src={urlMedia+"especiales/volqueta.mp4"} className="videoWidth" />
                     </div>
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src="../images/especiales/motor.webp" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia+"especiales/motor.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     <div className="boxPlayerMotor ">
                         <audio id="audioMotor" controls type="audio/mpeg"></audio>
                     </div>
@@ -91,7 +92,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src="../images/especiales/especiales.webp" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia+"especiales/especiales.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -107,7 +108,7 @@ function Content3() {
                 <div className="marcasbg textoImagenesProducto" >
 
                     <div className="boxRightHeader  half icon_center series" >
-                        <div className="banner"><img src="../images/especiales/tecnologia.webp" /></div>
+                        <div className="banner"><img src={urlMedia+"especiales/tecnologia.webp"} /></div>
                     </div>
 
                     <div className="boxRightHeader  half text_icon_center series" >
@@ -115,7 +116,7 @@ function Content3() {
                     </div>
 
                     <div className="boxRightHeader  half icon_right series">
-                        <div className="banner"><img src="../images/especiales/garantia.webp" /></div>
+                        <div className="banner"><img src={urlMedia+"especiales/garantia.webp"} /></div>
                     </div>
 
                 </div>
@@ -131,7 +132,7 @@ function Content4() {
         <>
             
         <div className="marcasSeries fondonegro">
-            <img src="../images/especiales/marcasSeries.webp" alt="Marcas Series" width="1532" height="355" />
+            <img src={urlMedia+"especiales/marcasSeries.webp"} alt="Marcas Series" width="1532" height="355" />
         </div>
         </>
     )
@@ -142,7 +143,7 @@ function Content5() {
         <>
             <div className="boxesIni posRelative centrado">
                 <div className="centrado">
-                    <img src="../images/especiales/especiales-lateral.webp" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia+"especiales/especiales-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
                 <div>
                     <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHVOLQUETAS" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />

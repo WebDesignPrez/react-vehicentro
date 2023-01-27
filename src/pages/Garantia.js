@@ -1,6 +1,8 @@
 import BannerContacto from "../components/BannerContacto"
 import Footer from "../components/Footer"
 import NavBarTop from "../NavBarTop"
+import env from '../config';
+let urlMedia = env.url
 
 function Garantia() {
     return (
@@ -35,16 +37,16 @@ function Content1() {
 
             <div className="requisitosDos gara">
                 <div className="boxNews companiaimg2 gar">
-                    <img src="./images/garantia/garantia_uno.webp" />
+                    <img src={urlMedia+"garantia/garantia_uno.webp"} />
                 </div>
                 <div className="boxNews companiaimg2 gar">
-                    <img src="./images/garantia/garantia_dos.webp" />
+                    <img src={urlMedia+"garantia/garantia_dos.webp"} />
                 </div>
                 <div className="boxNews companiaimg2 gar">
-                    <img src="./images/garantia/garantia_tres.webp" />
+                    <img src={urlMedia+"garantia/garantia_tres.webp"} />
                 </div>
                 <div className="boxNews companiaimg2 gar">
-                    <img src="./images/garantia/garantia-cuatro.webp" />
+                    <img src={urlMedia+"garantia/garantia-cuatro.webp"} />
                 </div>
             </div>
             <div className="requisitosDos gara">

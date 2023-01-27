@@ -1,6 +1,9 @@
 import BannerContacto from "../components/BannerContacto"
 import Footer from "../components/Footer"
 import NavBarTop from "../NavBarTop"
+import env from '../config';
+
+let urlMedia = env.url
 
 function Cabina() {
     return (
@@ -20,7 +23,7 @@ function Content1() {
                 <h1>Cabina C7H</h1>
             </div>
             <div className="fotoCabina">
-                <img src="./images/cabina.webp" />
+                <img src={urlMedia+"cabina.webp"} />
             </div>
             <div className="requisitosDos">
 

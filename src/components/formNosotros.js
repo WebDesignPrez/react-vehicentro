@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react';
 import "../form.css";
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
+import env from '../config';
 
+let urlMedia = env.url
 function FormNosotros() {
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
   let url = "https://vehicentro.com/contactoWeb/envio.php"
@@ -183,36 +185,36 @@ function FormNosotros() {
                   <label></label>
                   <label className="input_title">*Nombre y Apellido</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/user-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"user-solid.png"} /></span>
                     <input placeholder="" name="nombre_y_apellido" type="text" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido} />
                   </div>
 
                   <label className="input_title">*Email</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/envelope-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"envelope-solid.png"} /></span>
                     <input placeholder="" name="email" type="text" onBlur={(e) => { handleFocusEmail(e) }} onChange={(e) => { handleChangeEmail(e) }} value={email} />
                   </div>
 
                   <label className="input_title">*Celular</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/phone-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"phone-solid.png"} /></span>
                     <input placeholder="" name="celular" type="text" onBlur={(e) => { handleFocusTel(e) }} onChange={(e) => { handleChangeTel(e) }} value={celular} />
                   </div>
 
                   <label className="input_title">*Cédula</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/portrait-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
                     <input placeholder="" name="cedula" type="text" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
                   </div>
 
                   <label className="input_title">*Cv</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/portrait-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
                     <input id="file" placeholder="" name="cv" accept=".pdf, .docx, .doc" type="file" onBlur={(e) => { handleFocusCv(e) }} onChange={(e) => { handleChangeCv(e) }} value={cv} />
                   </div>
                   <label className="input_title">*Mensaje</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/portrait-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
                     <textarea placeholder="" name="mensaje" type="text" onBlur={(e) => { handleFocusMensaje(e) }} onChange={(e) => { handleChangeMensaje(e) }} value={mensaje} />
                   </div>
                 </div>

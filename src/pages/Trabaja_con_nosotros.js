@@ -4,6 +4,9 @@ import Footer from "../components/Footer"
 import NavBarTop from "../NavBarTop"
 import FormContact from "../components/formNosotros";
 import FormNosotros from "../components/formNosotros";
+import env from '../config';
+let urlMedia = env.url
+
 let bdc
 let nombreCamion
 let nombreSerie
@@ -28,7 +31,7 @@ function Content1() {
     return (<>
         <div className="boxesIni posRelative trabajanosotros">
             <div className="centrado">
-                <img src="./images/trabaja-con-nosotros/trabaja-con-nosotros.webp"  />
+                <img src={urlMedia+"trabaja-con-nosotros/trabaja-con-nosotros.webp"}  />
             </div>
             <div className="" >
                 <FormNosotros />

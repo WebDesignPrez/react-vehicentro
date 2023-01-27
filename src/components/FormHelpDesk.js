@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react';
 import "../form.css";
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
+import env from '../config';
 
+let urlMedia = env.url
 function FormHelpDesk() {
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
   let url = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/TICS"
@@ -91,13 +93,13 @@ function FormHelpDesk() {
                 <div className="field1">
                   <label className="input_title">*Cédula</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/portrait-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
                     <input placeholder="" name="cedula" type="text" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
                   </div>
 
                   <label className="input_title">*Mensaje</label>
                   <div className="input-group">
-                    <span className="userIcon"><img src="../images/portrait-solid.png" /></span>
+                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
                     <textarea placeholder="" name="nombre_y_apellido" type="text" onBlur={(e) => { handleFocusMensaje(e) }} onChange={(e) => { handleChangeMensaje(e) }} value={nombre_y_apellido} />
                   </div>
                 </div>

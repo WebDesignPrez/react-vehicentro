@@ -12,6 +12,8 @@ import '../modalContact.css';
 import FormContactFicha from "../components/FormContactFicha";
 import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
+import env from '../config';
+let urlMedia = env.url
 
 let imagen
 let imagen2
@@ -73,10 +75,10 @@ function Serie() {
 
         //t5g
         case "t5g":
-            video = "../images/t5g/video.webm"
-            imagen = "../images/t5g/contacto.webp"
-            imagen2 = "../images/t5g/camion.webp"
-            motor = "../images/t5g/motor.webp"
+            video = urlMedia+"t5g/video.webm"
+            imagen = urlMedia+"t5g/contacto.webp"
+            imagen2 = urlMedia+"t5g/camion.webp"
+            motor = urlMedia+"t5g/motor.webp"
             nombreSerie = "Serie T5G"
             nombreSerieInd = "T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
@@ -116,35 +118,35 @@ function Serie() {
 
             console.log('10 Toneladas')
             images = [
-                "../images/10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador.webp",
-                "../images/10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador-de-frente.webp"
+                urlMedia+"10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador.webp",
+                urlMedia+"10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador-de-frente.webp"
             ];
 
-            garantia = "../images/10-toneladas/5-anos-de-garantia.webp"
-            tecnologia = "../images/10-toneladas/tecnologia-alemana.webp"
+            garantia = urlMedia+"10-toneladas/5-anos-de-garantia.webp"
+            tecnologia = urlMedia+"10-toneladas/tecnologia-alemana.webp"
 
-            cabina = "../images/10-toneladas/cabina-de-camion-de-10-toneladas-sinotruk.webp"
-            marcas = "../images/10-toneladas/marcas-vehicentro.webp"
+            cabina = urlMedia+"10-toneladas/cabina-de-camion-de-10-toneladas-sinotruk.webp"
+            marcas = urlMedia+"10-toneladas/marcas-vehicentro.webp"
             internas1 = [
-                "../images/10-toneladas/volante-deportivo-de-camion-de-10-toneladas.webp",
-                "../images/10-toneladas/palanca-de-cambios-de-camion-de-10-toneladas.webp",
-                "../images/10-toneladas/asiento-neumatico-dos.webp"
+                urlMedia+"10-toneladas/volante-deportivo-de-camion-de-10-toneladas.webp",
+                urlMedia+"10-toneladas/palanca-de-cambios-de-camion-de-10-toneladas.webp",
+                urlMedia+"10-toneladas/asiento-neumatico-dos.webp"
             ];
             internas2 = [
-                "../images/10-toneladas/climatizador.webp",
-                "../images/10-toneladas/radio-touch-mp5.webp"
+                urlMedia+"10-toneladas/climatizador.webp",
+                urlMedia+"10-toneladas/radio-touch-mp5.webp"
             ];
             internas3 = [
-                "../images/10-toneladas/eleva-vidrios-electricos.webp",
-                "../images/10-toneladas/radio-touch-mp5.webp"
+                urlMedia+"10-toneladas/eleva-vidrios-electricos.webp",
+                urlMedia+"10-toneladas/radio-touch-mp5.webp"
             ];
 
             internas4 = [
-                "../images/10-toneladas/cabina.webp",
-                "../images/10-toneladas/portavasos.webp"
+                urlMedia+"10-toneladas/cabina.webp",
+                urlMedia+"10-toneladas/portavasos.webp"
             ];
 
-            audio_motor = "../images/10-toneladas/motor.mp3"
+            audio_motor = urlMedia+"10-toneladas/motor.mp3"
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
 
 
@@ -152,10 +154,10 @@ function Serie() {
 
         //t7h
         case "t7h":
-            video = "../images/t7h/video.webm"
-            imagen = "../images/t7h/contacto.webp"
-            imagen2 = "../images/t7h/camion.webp"
-            motor = "../images/t7h/motor.webp"
+            video = urlMedia+"t7h/video.webm"
+            imagen = urlMedia+"t7h/contacto.webp"
+            imagen2 = urlMedia+"t7h/camion.webp"
+            motor = urlMedia+"t7h/motor.webp"
             nombreSerie = "Serie T7H"
             nombreSerieInd = "T7H"
             series = [{
@@ -176,45 +178,45 @@ function Serie() {
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHCR9T1167"
             console.log('9 toneladas')
             images = [
-                "../images/9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador.webp",
-                "../images/9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador-de-frente.webp"
+                urlMedia+"9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador.webp",
+                urlMedia+"9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador-de-frente.webp"
             ];
 
-            garantia = "../images/9-toneladas/5-anos-de-garantia.webp"
-            tecnologia = "../images/9-toneladas/tecnologia-alemana.webp"
+            garantia = urlMedia+"9-toneladas/5-anos-de-garantia.webp"
+            tecnologia = urlMedia+"9-toneladas/tecnologia-alemana.webp"
 
-            cabina = "../images/9-toneladas/cabina-de-camion-de-9-toneladas-sinotruk.webp"
-            marcas = "../images/9-toneladas/marcas-vehicentro.webp"
+            cabina = urlMedia+"9-toneladas/cabina-de-camion-de-9-toneladas-sinotruk.webp"
+            marcas = urlMedia+"9-toneladas/marcas-vehicentro.webp"
             internas1 = [
-                "../images/45-toneladas/volante-deportivo.webp",
-                "../images/45-toneladas/pantalla-android.webp",
-                "../images/45-toneladas/palanca.webp"
+                urlMedia+"45-toneladas/volante-deportivo.webp",
+                urlMedia+"45-toneladas/pantalla-android.webp",
+                urlMedia+"45-toneladas/palanca.webp"
             ];
             internas2 = [
-                "../images/45-toneladas/computadora-bosch.webp",
-                "../images/45-toneladas/wabco-dos.webp"
+                urlMedia+"45-toneladas/computadora-bosch.webp",
+                urlMedia+"45-toneladas/wabco-dos.webp"
             ];
             internas3 = [
-                "../images/45-toneladas/uneta.webp",
-                "../images/45-toneladas/wabco.webp"
+                urlMedia+"45-toneladas/uneta.webp",
+                urlMedia+"45-toneladas/wabco.webp"
             ];
 
             internas4 = [
-                "../images/45-toneladas/bloqueo.webp",
-                "../images/45-toneladas/control-hidraulico.webp"
+                urlMedia+"45-toneladas/bloqueo.webp",
+                urlMedia+"45-toneladas/control-hidraulico.webp"
             ];
 
-            audio_motor = "../images/9-toneladas/motor.mp3"
+            audio_motor = urlMedia+"9-toneladas/motor.mp3"
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             break;
 
         //c7h
         case "c7h":
             console.log('12 toneladas')
-            video = "../images/c7h/video.webm"
-            imagen = "../images/c7h/contacto.webp"
-            imagen2 = "../images/c7h/camion.webp"
-            motor = "../images/c7h/motor.webp"
+            video = urlMedia+"c7h/video.webm"
+            imagen = urlMedia+"c7h/contacto.webp"
+            imagen2 = urlMedia+"c7h/camion.webp"
+            motor = urlMedia+"c7h/motor.webp"
             nombreSerie = "Serie C7H"
             nombreSerieInd = "C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
@@ -234,33 +236,33 @@ function Serie() {
             }]
 
 
-            garantia = "../images/12-toneladas/5-anos-de-garantia.webp"
-            tecnologia = "../images/12-toneladas/tecnologia-alemana.webp"
+            garantia = urlMedia+"12-toneladas/5-anos-de-garantia.webp"
+            tecnologia = urlMedia+"12-toneladas/tecnologia-alemana.webp"
 
-            cabina = "../images/20-toneladas/cabina-de-camion-de-20-toneladas-sinotruk.webp"
-            marcas = "../images/20-toneladas/marcas-vehicentro.webp"
+            cabina = urlMedia+"20-toneladas/cabina-de-camion-de-20-toneladas-sinotruk.webp"
+            marcas = urlMedia+"20-toneladas/marcas-vehicentro.webp"
             internas1 = [
-                "../images/20-toneladas/palanca-de-cambios.webp",
-                "../images/20-toneladas/litera-de-descanso.webp",
-                "../images/20-toneladas/asiento-neumatico.webp"
+                urlMedia+"20-toneladas/palanca-de-cambios.webp",
+                urlMedia+"20-toneladas/litera-de-descanso.webp",
+                urlMedia+"20-toneladas/asiento-neumatico.webp"
             ];
             internas2 = [
-                "../images/20-toneladas/volante-deportivo.webp",
-                "../images/20-toneladas/radio-touch-mp5.webp",
-                "../images/20-toneladas/componentes-wabco.webp"
+                urlMedia+"20-toneladas/volante-deportivo.webp",
+                urlMedia+"20-toneladas/radio-touch-mp5.webp",
+                urlMedia+"20-toneladas/componentes-wabco.webp"
 
             ];
             internas3 = [
-                "../images/20-toneladas/comportamiento-en-el-panel.webp",
-                "../images/20-toneladas/climatizador-y-mandos.webp"
+                urlMedia+"20-toneladas/comportamiento-en-el-panel.webp",
+                urlMedia+"20-toneladas/climatizador-y-mandos.webp"
             ];
 
             internas4 = [
-                "../images/20-toneladas/retardador.webp",
-                "../images/20-toneladas/bodega.webp"
+                urlMedia+"20-toneladas/retardador.webp",
+                urlMedia+"20-toneladas/bodega.webp"
             ];
 
-            audio_motor = "../images/12-toneladas/motor.mp3"
+            audio_motor = urlMedia+"12-toneladas/motor.mp3"
 
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             break;
@@ -343,7 +345,7 @@ function Serie() {
             </div>
         </div>
         <div className="marcasSeries fondonegro">
-            <img src="../images/marcasSeries.webp" alt="Marcas Series" width="1532" height="355" />
+            <img src={urlMedia+"marcasSeries.webp"} alt="Marcas Series" width="1532" height="355" />
         </div>
 
         <div className="boxesIni posRelative fondonegro">

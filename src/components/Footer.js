@@ -1,11 +1,14 @@
 import { NavLink } from "react-router-dom"
+import env from '../config';
+
+let urlMedia = env.url
 
 export default function Footer() {
     
     return (
         <div className="footer posRelative">
             <div className="info">
-                <img src="../images/vehicentro-logo-blanco.png" width="230" height="80" alt="Vehicentro" />
+                <img src={urlMedia+"vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" />
                 <ul className="list">
                     <li><p className="titleFooter"><a href="/compania">NOSOTROS</a></p></li>
                     <li><p className="titleFooter"><a href="/concesionarios">CONCESIONARIOS</a></p></li>
@@ -17,11 +20,11 @@ export default function Footer() {
                 <p className="title titleContacto">CONTACTO DIRECTO</p>
                 <div className="social row">
                     <div className="flex-row imgMain">
-                        <a href="https://www.facebook.com/Vehicentro"><img src="../images/facebook.png" alt="facebook" width="32" height="32" /></a>
-                        <a href="https://www.instagram.com/vehicentroec"><img src="../images/instagram.png" alt="instagram" width="32" height="32" /></a>
-                        <a href="https://www.youtube.com/channel/UCW8gGawovE35cXcJ3P2kryQ"><img src="../images/youtube.png" alt="youtube" width="32" height="32" /></a>
-                        <a href="https://www.tiktok.com/@sinotrukeros"><img src="../images/tiktok.webp" alt="tiktok" width="32" height="32" /></a>
-                        <a href="https://www.linkedin.com/company/vehicentroecu/?originalSubdomain=ec"><img src="../images/linkdin.png" alt="linkdin" width="32" height="32" /></a>
+                        <a href="https://www.facebook.com/Vehicentro"><img src={urlMedia+"facebook.png"} alt="facebook" width="32" height="32" /></a>
+                        <a href="https://www.instagram.com/vehicentroec"><img src={urlMedia+"instagram.png"} alt="instagram" width="32" height="32" /></a>
+                        <a href="https://www.youtube.com/channel/UCW8gGawovE35cXcJ3P2kryQ"><img src={urlMedia+"youtube.png"} alt="youtube" width="32" height="32" /></a>
+                        <a href="https://www.tiktok.com/@sinotrukeros"><img src={urlMedia+"tiktok.webp"} alt="tiktok" width="32" height="32" /></a>
+                        <a href="https://www.linkedin.com/company/vehicentroecu/?originalSubdomain=ec"><img src={urlMedia+"linkdin.png"} alt="linkdin" width="32" height="32" /></a>
                     </div>
 
                 </div>
@@ -63,7 +66,7 @@ export default function Footer() {
                 
             </div>
             <a href="https://api.whatsapp.com/send?phone=593988593279" className="btn-wsp" target="_blank">
-                    <img className="imgWpp" width="60" height="60" src="../images/wpp.gif" alt="Whatsapp"></img>
+                    <img className="imgWpp" width="60" height="60" src={urlMedia+"wpp.gif"} alt="Whatsapp"></img>
                 </a>
         </div>
     )
