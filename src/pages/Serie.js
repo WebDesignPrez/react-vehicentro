@@ -81,7 +81,7 @@ function Serie() {
             motor = urlMedia+"t5g/motor.webp"
             nombreSerie = "Serie T5G"
             nombreSerieInd = "T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIET5G"
             series = [{
                 serie: "T5G 1167",
                 modelo: "9 TON",
@@ -175,7 +175,7 @@ function Serie() {
             }]
 
 
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHCR9T1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIET7H"
             console.log('9 toneladas')
             images = [
                 urlMedia+"9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador.webp",
@@ -219,7 +219,7 @@ function Serie() {
             motor = urlMedia+"c7h/motor.webp"
             nombreSerie = "Serie C7H"
             nombreSerieInd = "C7H"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEC7H"
 
             series = [{
                 serie: "C7H 1256",

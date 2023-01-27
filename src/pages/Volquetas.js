@@ -146,7 +146,7 @@ function Content5() {
                     <img src={urlMedia+"especiales/especiales-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
                 <div>
-                    <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHVOLQUETAS" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
+                    <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBSERIEVOLQUETAS" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
                 </div>
             </div>
         </>
