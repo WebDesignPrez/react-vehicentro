@@ -270,7 +270,7 @@ function Camion() {
       break;
 
     case "swe365e":
-      imagen = "../images/swe210/excavadora-en-carretera-vehicentro-ecuador.webp"
+      imagen = "../images/swe365e/excavadora-en-carretera-vehicentro-ecuador.webp"
       break;
 
     default:
