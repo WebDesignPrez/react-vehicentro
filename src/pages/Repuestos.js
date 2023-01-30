@@ -65,7 +65,7 @@ function Content3() {
   return (
     <div className="boxesIni posRelative news repuesto grad">
       <div className="boxLeft c7h repuestos">
-        <video controls autoPlay={true} muted loop src={urlMedia+"repuestos/repuestos.webm"} className="videoWidthRepuesto" />
+        <video preload="none" playsInline={true} controls loop muted src={urlMedia+"repuestos/repuestos.webm"} className="videoWidthRepuesto" />
       </div>
     </div>
   )
