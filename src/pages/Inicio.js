@@ -85,7 +85,7 @@ function Content1() {
             <div className="boxRight tecnologia">
 
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted poster="./images/home/vehicentro-vehinstein-sinotruk-ecuador.webp" src="./images/home/c7h.mp4" className="videoWidth" />
+                    <video width="320" height="240" preload="none" playsInline={true} controls loop muted poster="./images/home/vehicentro-vehinstein-sinotruk-ecuador.webp" src="./images/home/c7h.mp4" className="videoWidth" />
                 </div>
             </div>
             <div className="boxLeft playMotor colorLinksSobreTexto">
@@ -116,7 +116,7 @@ function Content2() {
             <div className="boxRight tecnologia">
 
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted poster="./images/home/vehicentro-vehinstein-sinotruk-ecuador.webp" src="./images/home/vehinstein.mp4" className="videoWidth" />
+                    <video width="320" height="240" preload="none" playsInline={true} controls loop muted poster="./images/home/vehicentro-vehinstein-sinotruk-ecuador.webp" src="./images/home/vehinstein.mp4" className="videoWidth" />
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@ function Content3() {
             <div className="boxLeft t5g">
 
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted poster="./images/home/vehicentro-serie-t5g-camiones-de-venta-en-ecuador-sinotruk.webp" src="./images/home/t5g.mp4" className="videoWidth" />
+                    <video width="320" height="240" preload="none" playsInline={true} controls loop muted poster="./images/home/vehicentro-serie-t5g-camiones-de-venta-en-ecuador-sinotruk.webp" src="./images/home/t5g.mp4" className="videoWidth" />
                 </div>
             </div>
             <div>
