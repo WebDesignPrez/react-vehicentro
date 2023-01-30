@@ -75,7 +75,7 @@ function Serie() {
 
         //t5g
         case "t5g":
-            video = urlMedia + "t5g/video.webm"
+            video = urlMedia + "t5g/video.mp4"
             imagen = urlMedia + "t5g/contacto.webp"
             imagen2 = urlMedia + "t5g/camion.webp"
             motor = urlMedia + "t5g/motor.webp"
@@ -154,7 +154,7 @@ function Serie() {
 
         //t7h
         case "t7h":
-            video = urlMedia + "t7h/video.webm"
+            video = urlMedia + "t7h/video.mp4"
             imagen = urlMedia + "t7h/contacto.webp"
             imagen2 = urlMedia + "t7h/camion.webp"
             motor = urlMedia + "t7h/motor.webp"
@@ -213,7 +213,7 @@ function Serie() {
         //c7h
         case "c7h":
             console.log('12 toneladas')
-            video = urlMedia + "c7h/video.webm"
+            video = urlMedia + "c7h/video.mp4"
             imagen = urlMedia + "c7h/contacto.webp"
             imagen2 = urlMedia + "c7h/camion.webp"
             motor = urlMedia + "c7h/motor.webp"
