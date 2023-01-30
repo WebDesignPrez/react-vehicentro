@@ -1120,8 +1120,8 @@ p.titleFooter {
 }
 
 .boxPlayerMotor.audiohome {
-    left: 40px;
-    bottom: 42px;
+    left: 5vh;
+    bottom: 2.4vw;
     position: absolute;
 }
 
@@ -1501,7 +1501,7 @@ li.mouseA:hover {
 }
 
 .block3 .bottomContainer .linksBox {
-    justify-content: center;
+    justify-content: left;
     font-size: 1.3vw;
     margin-top: 2vw;
     display: flex;
@@ -1518,6 +1518,10 @@ li.mouseA:hover {
     cursor: pointer;
 }
 
+.linksBox.iniciocentrado{
+
+    justify-content: center !important;
+}
 
 
 .block3 .bottomContainer .titleBox2::after {
