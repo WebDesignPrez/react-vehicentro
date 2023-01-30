@@ -36,11 +36,11 @@ function Content1() {
             <div className="boxesIni posRelative content2 fondonegro">
                 <div className="boxRight">
                     <div className="boxLeft c7h">
-                        <img src={urlMedia+"serie-100/serie-100.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                        <img src={urlMedia + "serie-100/serie-100.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     </div>
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia+"serie-100/motor-serie-100.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "serie-100/motor-serie-100.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     <div className="boxPlayerMotor ">
                         <audio id="audioMotor" controls type="audio/mpeg"></audio>
                     </div>
@@ -80,6 +80,7 @@ function Content2() {
             <div className="boxesIni posRelative content2 fondonegro">
 
                 <div className="boxRight nomSeries">
+
                     <div className="serieTitle serieBox">
                         <p className="serieTitle1">SERIE</p>
                         <p>100</p>
@@ -100,7 +101,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia+"serie-100/serie-100-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "serie-100/serie-100-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -116,7 +117,7 @@ function Content3() {
                 <div className="marcasbg textoImagenesProducto" >
 
                     <div className="boxRightHeader  half icon_center series" >
-                        <div className="banner"><img src={urlMedia+"serie-100/serie-100-texto.webp"} /></div>
+                        <div className="banner"><img src={urlMedia + "serie-100/serie-100-texto.webp"} /></div>
                     </div>
 
                     <div className="boxRightHeader  half text_icon_center series" >
@@ -124,7 +125,7 @@ function Content3() {
                     </div>
 
                     <div className="boxRightHeader  half icon_right series">
-                        <div className="banner"><img src={urlMedia+"serie-100/garantia.webp"} /></div>
+                        <div className="banner"><img src={urlMedia + "serie-100/garantia.webp"} /></div>
                     </div>
 
                 </div>
@@ -139,9 +140,9 @@ function Content4() {
     return (
         <>
             <div className="boxesIni posRelative content2 fondonegro">
-                
+
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto logoCenter">
-                    <img src={urlMedia+"serie-100/cumins-logo.webp"} width="1400" height="1000" className="slideMain logoSerie" alt="Punto de Venta" />
+                    <img src={urlMedia + "serie-100/cumins-logo.webp"} width="1400" height="1000" className="slideMain logoSerie" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -153,7 +154,7 @@ function Content5() {
         <>
             <div className="boxesIni posRelative centrado">
                 <div className="centrado">
-                    <img src={urlMedia+"serie-100/serie-100-en-carretera.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "serie-100/serie-100-en-carretera.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
                 <div>
                     <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIE100" camion={nombreCamion} serie="Serie 100" camionSerie={camionSerie} />

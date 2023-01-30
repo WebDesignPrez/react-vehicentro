@@ -28,6 +28,7 @@ export default function Footer() {
                     </div>
 
                 </div>
+                <p className="title titleContacto">Realizado por Agencia Prez</p>
                 
             </div>
             <div className="col1 colProd">

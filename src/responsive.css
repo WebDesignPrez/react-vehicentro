@@ -353,6 +353,34 @@
     overflow: hidden;
   }
 
+  .serieList {
+
+    align-content: center;
+  }
+
+
+  .bannerTec.responsive img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  
+  .serieTitle.serieBox.seriecompletomovil {
+    width: 80%;
+    padding: 8vh 10vw 3vh 10vw
+
+  }
+
+  .boxRight.nomSeries.responsive{
+    justify-content: center;
+    background-color: #fff;
+  }
+  .boxRight.nomSeries.responsive p{
+    color:#2d2d2d;
+    text-align: -webkit-center;
+    font-size: 7.2vw;
+    line-height: 7vw;
+    margin: 10% 0;
+  }
 }
 
 
@@ -479,7 +507,7 @@
   }
 
   .imgConcesionario {
-    text-align: right;
+    text-align: left;
   }
 
   .tresillo {
@@ -552,12 +580,20 @@
   }
 
   .bannerTec {
+    display: flex;
     text-align-last: center;
-  }
-
-  .bannerTec img{
     max-width: 100%;
   }
+
+  .textConcesionario {
+    text-align: left !important;
+  }
+
+  .bannerTec img {
+    max-width: 50%;
+    margin-left: 25%;
+  }
+
   .cuotas {
     font-size: 4.2vw;
   }
