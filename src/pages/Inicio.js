@@ -85,7 +85,7 @@ function Content1() {
             <div className="boxRight tecnologia">
 
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" preload="none" playsInline={true} controls loop muted poster="./images/home/vehicentro-vehinstein-sinotruk-ecuador.webp" src="./images/home/c7h.mp4" className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted poster="./images/home/vehicentro-vehinstein-sinotruk-ecuador.webp" src="./images/home/c7h.mp4" className="videoWidth" />
                 </div>
             </div>
             <div className="boxLeft playMotor colorLinksSobreTexto">

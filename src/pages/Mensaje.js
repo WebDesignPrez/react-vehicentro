@@ -236,7 +236,7 @@ function Block4() {
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" controls autoPlay={true} muted loop src={urlMedia+"home/tamara.webm"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"home/tamara.webm"} className="videoWidth" />
                 </div>
             </div>
 
