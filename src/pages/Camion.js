@@ -644,7 +644,6 @@ function Camion() {
         //5 toneladas
         case "camion-de-5-toneladas-1067":
             console.log('5 toneladas')
-            console.log("AQUI")
             nombreCamion = "Camion de 5 toneladas | 1067"
             camionSerie = "1067 / 5 TON"
             nombreSerie = "Serie 100"
@@ -671,19 +670,19 @@ function Camion() {
             cabina = urlMedia+"5-toneladas/cabina-de-camion-de-5-toneladas-sinotruk.webp"
             marcas = ""
             internas1 = [
-                urlMedia+"5-toneladas/volante-deportivo.webp",
-                urlMedia+"5-toneladas/ventilacion.webp"
+                urlMedia+"5-toneladas/cabina-media.webp",
+                urlMedia+"5-toneladas/cabina-amplia.webp"
             ];
             internas2 = [
-                urlMedia+"5-toneladas/palanca-de-cambios.webp",
-                urlMedia+"5-toneladas/bloqueo.webp"
+                urlMedia+"5-toneladas/radio.webp",
+                urlMedia+"5-toneladas/palanca.webp"
             ];
             internas1b = [
-                urlMedia+"5-toneladas/radio-mp5.webp",
-                urlMedia+"5-toneladas/vidrios-electricos.webp"
+                urlMedia+"5-toneladas/mandos-al-volante.webp",
+                urlMedia+"5-toneladas/ventilacion.webp"
             ];
             internas2b = [
-                urlMedia+"5-toneladas/cabina.webp"
+                urlMedia+"5-toneladas/bloqueo.webp"
             ];
             medidas = urlMedia+"5-toneladas/dimensiones-de-camion-de-5-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"5-toneladas/dimensiones-de-camion-de-5-toneladas-sinotruk-responsive.webp"
