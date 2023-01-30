@@ -1122,11 +1122,11 @@ function Camion() {
                             {slide2b}
                         </Fade>
                     </div>
-                    {/*                     <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
+                                        <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
                         <Fade >
                             {slide2c}
                         </Fade>
-                    </div> */}
+                    </div> 
                     {contenedorMarcas}
 
                 </div>
