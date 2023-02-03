@@ -133,9 +133,9 @@ function Block1() {
 
 function Block2() {
     return (
-        <div className="block2">
-            <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
-        </div>
+        < div className = "block2" >
+        <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
+        </div >
     )
 }
 
@@ -252,10 +252,10 @@ function Block3() {
                         <p className="titleBox"></p>
                         <NavLink className="titleBox2" to="/proximamente-hidromek">HIDROMEK</NavLink>
                         <div className="linksBox">
-                                <NavLink className="line2" src="" to="/proximamente-hidromek">EXCAVADORA</NavLink>
-                                <NavLink className="line2" src="" to="/proximamente-hidromek">RETROEXCAVADORA</NavLink>
-                                <NavLink className="line2" src="" to="/proximamente-hidromek">MINI EXCAVADORA</NavLink>
-                                <NavLink className="line2" src="" to="/proximamente-hidromek">RODILLO</NavLink>
+                            <NavLink className="line2" src="" to="/proximamente-hidromek">EXCAVADORA</NavLink>
+                            <NavLink className="line2" src="" to="/proximamente-hidromek">RETROEXCAVADORA</NavLink>
+                            <NavLink className="line2" src="" to="/proximamente-hidromek">MINI EXCAVADORA</NavLink>
+                            <NavLink className="line2" src="" to="/proximamente-hidromek">RODILLO</NavLink>
                         </div>
                     </div>
                 </div>

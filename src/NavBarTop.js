@@ -202,8 +202,8 @@ export default function NavBarTop() {
             sinotruk.addEventListener("click", burgerEvent);
             sunward.addEventListener("click", burgerEvent);
 
-            if(tecnologia!=null)
-            tecnologia.addEventListener("click", burgerEvent);
+            if(tecnologia!=null){
+            tecnologia.addEventListener("click", burgerEvent);}
             // keyton.addEventListener("click", burgerEvent);
             // concesionarios.addEventListener("click", burgerEvent);
 
@@ -376,7 +376,7 @@ export default function NavBarTop() {
                             <p className="colTitle">Volquetas</p>
                             <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">T5G-330 8-9m3</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430">T7H-430 10-14m3</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/">C7H-540 20m3</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/proximamente">C7H-540 20m3</NavLink></p>
                             <div>
                             </div>
                         </div>
@@ -522,7 +522,7 @@ export default function NavBarTop() {
             <li ><a className="sinotruk mouseA" option="sinotruk">CAMIONES</a></li>
             <li ><a className="sunward mouseA" option="sunward">MAQUINARIA</a></li>
             <li className="concesionarios camionesCss"><NavLink to="/proximamente">VEHÍCULOS</NavLink></li>
-            <li className="tecnologiaCss">TECNOLOGÍA</li>
+            <li className="tecnologia tecnologiaCss">TECNOLOGÍA</li>
             <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
             <li className="concesionarios camionesCss"><NavLink to="/concesionarios">CONCESIONARIOS</NavLink></li>
             <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
