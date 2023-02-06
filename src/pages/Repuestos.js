@@ -42,7 +42,7 @@ function Content2() {
         <p></p>
         <p className="tituloConcesionario">COTIZA TUS REPUESTOS</p>
       <div className="btnConcesionarios">
-        <a className='btn6' option="Ambato" href='#'>WhatsApp</a>
+        <a className='btn6' option="Ambato" href='https://api.whatsapp.com/send?phone=593991374302&text=Hola,%20necesito%20m%C3%A1s%20informaci%C3%B3n.'>WhatsApp</a>
       </div>
       </div>
       <div className="boxNews companiaimg2">

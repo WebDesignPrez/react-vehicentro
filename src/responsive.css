@@ -473,7 +473,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
+    justify-content: flex-start;
 
   }
 
@@ -607,7 +607,10 @@
   }
 
   .menuHome {
-    width: 65%;
+    width: 70%;
+  }
+  .internal .burger {
+    width: 25%;
   }
 }
 
