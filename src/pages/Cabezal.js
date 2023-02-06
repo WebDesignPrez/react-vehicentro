@@ -64,7 +64,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-4187 - 24 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$61.990"
-            cuotas = 'Cuotas desde: $1.117,00'
+            cuotas = 'Cuotas desde: $756,00'
             motor = urlMedia+"24-toneladas/motor-sinotruk-de-camion-de-24-toneladas-ecuador.webp"
             garantia = urlMedia+"24-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"24-toneladas/tecnologia-alemana.webp"
@@ -122,7 +122,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-390"
             textoMotor3 = "Ficha técnica"
             precio = "$69.990"
-            cuotas = 'Cuotas desde: $1.258,00'
+            cuotas = 'Cuotas desde: $852,00'
             motor = urlMedia+"28-toneladas/motor-sinotruk-de-camion-de-28-toneladas-ecuador.webp"
             garantia = urlMedia+"28-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"28-toneladas/tecnologia-alemana.webp"
@@ -176,7 +176,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-390"
             textoMotor3 = "Ficha técnica"
             precio = "$76.990"
-            cuotas = 'Cuotas desde: $1.381,00'
+            cuotas = 'Cuotas desde: $936,00'
             motor = urlMedia+"28-toneladas-retardador/motor-sinotruk-de-camion-de-28-toneladas-ecuador.webp"
             garantia = urlMedia+"28-toneladas-retardador/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"28-toneladas-retardador/tecnologia-alemana.webp"
@@ -230,7 +230,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-390"
             textoMotor3 = "Ficha técnica"
             precio = "$81.990"
-            cuotas = 'Cuotas desde: $1.469,00'
+            cuotas = 'Cuotas desde: $996,00'
             motor = urlMedia+"42-toneladas/motor-sinotruk-de-camion-de-42-toneladas-ecuador.webp"
             garantia = urlMedia+"42-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"42-toneladas/tecnologia-alemana.webp"
@@ -284,7 +284,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-430"
             textoMotor3 = "Ficha técnica"
             precio = "$89.990"
-            cuotas = 'Cuotas desde: $1.610,00'
+            cuotas = 'Cuotas desde: $1.092,00'
             motor = urlMedia+"45-toneladas/motor-sinotruk-de-camion-de-45-toneladas-ecuador.webp"
             garantia = urlMedia+"45-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"45-toneladas/tecnologia-alemana.webp"
@@ -338,7 +338,7 @@ function Camion() {
             textoMotor2 = "Modelo C7H-540"
             textoMotor3 = "Ficha técnica"
             precio = "102.990"
-            cuotas = 'Cuotas desde: $1.840,00'
+            cuotas = 'Cuotas desde: $1.247,00'
             motor = urlMedia+"48-toneladas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
             garantia = urlMedia+"48-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"48-toneladas/tecnologia-alemana.webp"
@@ -394,7 +394,7 @@ function Camion() {
             textoMotor2 = "Modelo C7H-540"
             textoMotor3 = "Ficha técnica"
             precio = "106.990"
-            cuotas = 'Cuotas desde: $1.910,00'
+            cuotas = 'Cuotas desde: $1.295,00'
             motor = urlMedia+"48-toneladas-catalinas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
             garantia = urlMedia+"48-toneladas-catalinas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"48-toneladas-catalinas/tecnologia-alemana.webp"

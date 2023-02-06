@@ -133,8 +133,8 @@ function Block1() {
 
 function Block2() {
     return (
-        < div className = "block2" >
-        <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
+        < div className="block2" >
+            <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
         </div >
     )
 }
@@ -145,7 +145,7 @@ function Block3() {
         <>
             <div className="block3 boxBlock">
                 <div>
-                    <img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Vehicentro" />
+                    <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Vehicentro" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/100">100</NavLink>
@@ -159,7 +159,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src={urlMedia + "home/serie-t5g.webp"} width="900" height="700" alt="Vehicentro" />
+                    <a href="/serie/t5g"><img src={urlMedia + "home/serie-t5g.webp"} width="900" height="700" alt="Vehicentro" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
@@ -177,7 +177,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Vehicentro" />
+                    <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Vehicentro" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
@@ -192,7 +192,7 @@ function Block3() {
 
             <div className="block3 boxBlock row2">
                 <div>
-                    <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Vehicentro" />
+                    <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Vehicentro" /> </a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
@@ -232,16 +232,16 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" />
-                    <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS</NavLink>
-                        <div className="linksBox">
-                            <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink>
-                            <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
-                            <NavLink className="line2" src="" to="/proximamente">20 m3</NavLink>
+                    <a href="/serie/volquetas"><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" /></a>
+                        <div className="bottomContainer">
+                            <p className="titleBox"></p>
+                            <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS</NavLink>
+                            <div className="linksBox">
+                                <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink>
+                                <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
+                                <NavLink className="line2" src="" to="/proximamente">20 m3</NavLink>
+                            </div>
                         </div>
-                    </div>
                 </div>
             </div>
 

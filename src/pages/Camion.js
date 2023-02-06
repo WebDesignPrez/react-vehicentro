@@ -94,7 +94,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 10 Ton"
             textoMotor3 = "Ficha Técnica"
             precio = "$53.890"
-            cuotas = 'Cuotas desde: $973.00'
+            cuotas = 'Cuotas desde: $659.00'
             motor = urlMedia+"10-toneladas/motor-sinotruk-de-camion-de-10-toneladas-ecuador.webp"
             garantia = urlMedia+"10-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"10-toneladas/tecnologia-alemana.webp"
@@ -148,7 +148,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 9 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$49.990"
-            cuotas = 'Cuotas desde: $905.00'
+            cuotas = 'Cuotas desde: $612.00'
             motor = urlMedia+"9-toneladas/motor-sinotruk-de-camion-de-9-toneladas-ecuador.webp"
             garantia = urlMedia+"9-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"9-toneladas/tecnologia-alemana.webp"
@@ -200,7 +200,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 12 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$57.990"
-            cuotas = 'Cuotas desde: $1,046.00'
+            cuotas = 'Cuotas desde: $709.00'
             motor = urlMedia+"12-toneladas/motor-sinotruk-de-camion-de-12-toneladas-ecuador.webp"
             garantia = urlMedia+"12-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"12-toneladas/tecnologia-alemana.webp"
@@ -253,7 +253,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 13 Ton"
             textoMotor3 = "Ficha Técnica"
             precio = "$62.990"
-            cuotas = 'Cuotas desde: $1,134.00'
+            cuotas = 'Cuotas desde: $769.00'
             motor = urlMedia+"13-toneladas/motor-sinotruk-de-camion-de-13-toneladas-ecuador.webp"
             garantia = urlMedia+"13-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"13-toneladas/tecnologia-alemana.webp"
@@ -306,7 +306,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 13 Ton"
             textoMotor3 = "Ficha Técnica"
             precio = "$67.990"
-            cuotas = 'Cuotas desde: $1,222.00'
+            cuotas = 'Cuotas desde: $828.00'
             motor = urlMedia+"13-toneladas-330/motor-sinotruk-de-camion-de-13-toneladas-ecuador.webp"
             garantia = urlMedia+"13-toneladas-330/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"13-toneladas-330/tecnologia-alemana.webp"
@@ -357,7 +357,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1257 - 18 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$74.990"
-            cuotas = 'Cuotas desde: $1,346.00'
+            cuotas = 'Cuotas desde: $912.00'
             motor = urlMedia+"18-toneladas/motor-sinotruk-de-camion-de-18-toneladas-ecuador.webp"
             garantia = urlMedia+"18-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"18-toneladas/tecnologia-alemana.webp"
@@ -410,7 +410,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1257"
             textoMotor3 = "19.5 Ton"
             precio = "$80.990"
-            cuotas = 'Cuotas desde: $1,452.00'
+            cuotas = 'Cuotas desde: $984.00'
             motor = urlMedia+"19-toneladas/motor-sinotruk-de-camion-de-19-toneladas-ecuador.webp"
             garantia = urlMedia+"19-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"19-toneladas/tecnologia-alemana.webp"
@@ -462,7 +462,7 @@ function Camion() {
             textoMotor2 = "Modelo 1057 - 3.5 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$23.990"
-            cuotas = 'Cuotas desde: $447.00'
+            cuotas = 'Cuotas desde: $301.00'
             motor = urlMedia+"3.5-toneladas/motor-sinotruk-de-camion-de-3.5-toneladas-ecuador.webp"
             garantia = urlMedia+"3.5-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"3.5-toneladas/serie-100.webp"
@@ -559,7 +559,7 @@ function Camion() {
             textoMotor2 = "Modelo 1047 - 3.6 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$23.990"
-            cuotas = 'Cuotas desde: $447.00'
+            cuotas = 'Cuotas desde: $301.00'
             motor = urlMedia+"3.6-toneladas/motor-sinotruk-de-camion-de-3.6-toneladas-ecuador.webp"
             garantia = urlMedia+"3.6-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"3.6-toneladas/serie-100.webp"
@@ -656,7 +656,7 @@ function Camion() {
             textoMotor2 = "Modelo 1067 - 5 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$27.990"
-            cuotas = 'Cuotas desde: $517.00'
+            cuotas = 'Cuotas desde: $349.00'
             motor = urlMedia+"5-toneladas/motor-sinotruk-de-camion-de-5-toneladas-ecuador.webp"
             garantia = urlMedia+"5-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"5-toneladas/serie-100.webp"
@@ -754,7 +754,7 @@ function Camion() {
             textoMotor2 = "Modelo 1067 - 6 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$30.890"
-            cuotas = 'Cuotas desde: $568.00'
+            cuotas = 'Cuotas desde: $383.00'
             motor = urlMedia+"6-toneladas/motor-sinotruk-de-camion-de-6-toneladas-ecuador.webp"
             garantia = urlMedia+"6-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"6-toneladas/serie-100.webp"
@@ -838,7 +838,7 @@ function Camion() {
             textoMotor2 = "Modelo 1147 - 8 Ton"
             textoMotor3 = "Ficha técnica"
             precio = "$42.990"
-            cuotas = 'Cuotas desde: $782.00'
+            cuotas = 'Cuotas desde: $529.00'
             motor = urlMedia+"8-toneladas/motor-sinotruk-de-camion-de-8-toneladas-ecuador.webp"
             garantia = urlMedia+"8-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"8-toneladas/tecnologia-alemana.webp"
@@ -888,7 +888,7 @@ function Camion() {
             textoMotor2 = "Modelo C7H-1256"
             textoMotor3 = "20 Ton"
             precio = "$96.990"
-            cuotas = 'Cuotas desde: $1,734.00'
+            cuotas = 'Cuotas desde: $1,303.00'
             motor = urlMedia+"20-toneladas/motor-sinotruk-de-camion-de-20-toneladas-ecuador.webp"
             garantia = urlMedia+"20-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia+"20-toneladas/tecnologia-alemana.webp"
