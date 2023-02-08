@@ -2013,6 +2013,8 @@ a.colItem.meniu.negro {
 
 .searchHome img{
     max-width: 50%;
+    width: 6rem;
+    height: auto;
 }
 
 .searchHome{
