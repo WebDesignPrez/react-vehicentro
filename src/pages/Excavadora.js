@@ -172,7 +172,7 @@ function Camion() {
       nombreCamion = "Excavadora SWE365E"
       camionSerie = "SWE365E"
       nombreSerie = "Excavadora"
-      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB365SUNWARD"
       images = [
         urlMedia+"swe365e/vehicentro-excavadora-ecuador.webp"
       ];
