@@ -76,7 +76,6 @@ function Inicio2() {
             <Block4 />
             <Banner />
             <Modal />
-            <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             <Landingfooter />
 
         </div>
@@ -610,7 +609,7 @@ function Menu2() {
 
 function Banner() {
     return (
-        <div className="posRelative banner">
+        <div className="posRelative banner landingbanner">
             <img className="desktopImg slideMain" src={urlMedia + "home/vehicentro-en-ecuador-venta-de-camiones-cabezales-y-volquetas-sinotruk.webp"} width="1790" height="590" alt="Punto de Venta" />
             <img className="movilImg slideMain" src={urlMedia + "home/vehicentro-concesionarios-mobil.webp"} width="2432" height="1675" alt="Punto de Venta" />
             <div className="boxText flex-table row">

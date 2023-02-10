@@ -2074,10 +2074,7 @@ a.colItem.meniu.negro {
     font-size: 22px;
 }
 
-.formulariolanding{
 
-    color: white;
-}
 
 
 .formulariolanding.boxesIni
@@ -2087,4 +2084,16 @@ a.colItem.meniu.negro {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+}
+
+.formulariolanding .boxLeft{
+    background-color: white;
+}
+
+.formulariolanding .boxLeft.c7h{
+    background-color: #131313;
+}
+
+.posRelative.banner.landingbanner{
+    background-color: #131313;
 }
