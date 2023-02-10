@@ -2073,3 +2073,18 @@ a.colItem.meniu.negro {
     color: white;
     font-size: 22px;
 }
+
+.formulariolanding{
+
+    color: white;
+}
+
+
+.formulariolanding.boxesIni
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}

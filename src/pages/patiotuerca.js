@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Slide } from 'react-slideshow-image';
 import env from '../config';
 import FormContactFicha from "../components/FormContactFicha";
+import FormContact from "../components/FormContact";
 
 let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBINICIO"
 let nombreCamion = ""
@@ -101,14 +102,6 @@ function Landingfooter() {
                 <div className="logoHome">
                     <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" />
                 </div>
-            </div>
-            <div className="social row">
-                <div className="flex-row imgMain">
-                    <p>AMBATO, MATRIZ<br></br>
-                        Av. Indoamérica Km 3 1/2 Vía a Quito<br></br>
-                        Línea directa 032-994740 | 0992048229
-                    </p></div>
-
             </div>
         </>
     )
@@ -582,26 +575,13 @@ function Block3() {
 
 function Block4() {
     return (
-        <div className="block4 boxBlock boxesIni posRelative content3">
-            <div className="boxLeft playMotor colorLinksSobreTexto">
+        <div className="formulariolanding block4 boxBlock boxesIni posRelative content3">
+            <div className="boxLeft playMotor colorLinksSobreTexto ">
 
-                <Slide>
-                    <div className="each-slide-effect">
-                        <div style={{ 'backgroundImage': `url(../images/home/camion-sinotruk-basura.webp)`, height: `43vw` }}>
-                        </div>
-                    </div>
-                    <div className="each-slide-effect">
-                        <div style={{ 'backgroundImage': `url(../images/home/camion-con-balde.webp)`, height: `43vw` }}>
-                        </div>
-                    </div>
-                    <div className="each-slide-effect">
-                        <div style={{ 'backgroundImage': `url(../images/home/camion-verde-basura.webp)`, height: `43vw` }}>
-                        </div>
-                    </div>
-                </Slide>
-                <div className="boxText flex-table row linksBox">
-                    <a><div className="flex-row textMain textMain2">VEHÍCULOS ESPECIALES</div></a>
-                </div>
+                
+            <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
+                
+
             </div>
             <div className="boxRight tecnologia">
                 <div className="boxLeft c7h">
