@@ -2074,7 +2074,10 @@ a.colItem.meniu.negro {
     font-size: 22px;
 }
 
-
+.block3.boxBlock.landing {
+    padding-top: 0vw;
+    padding-bottom: 3vw;
+}
 
 
 .formulariolanding.boxesIni

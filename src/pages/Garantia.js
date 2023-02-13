@@ -20,14 +20,9 @@ function Content1() {
     return (
         <div className="requisitos garantia">
 
-
             <div>
                 <h1 className="requisitosUno"><strong>Garantia</strong></h1><br></br>
             </div>
-
-
-            
-
 
             <h2>TIEMPO DE VIGENCIA DE LA GARANTÍA Y COBERTURA</h2><br></br>
             <h3>VEHICULOS DE TRANSPORTE CARGA LIVIANA (HASTA 8 TON)</h3><br></br>

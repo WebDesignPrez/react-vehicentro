@@ -115,7 +115,7 @@ function Block1() {
                 <div className="overlayBox" height="200">
                     <p className="titleBox "><span className="rojo">R</span>ESPALDO - <span className="rojo">R</span>EPUESTOS</p>
                     <div className="linksBox testimonio test">
-                        <NavLink to="/garantia" src="">LA MEJOR GARANTIA DEL PAÍS</NavLink>
+                        <NavLink to="/garantia" src="">LA MEJOR GARANTÍA DEL PAÍS</NavLink>
                     </div>
                 </div>
             </div>

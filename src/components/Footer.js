@@ -28,7 +28,7 @@ export default function Footer() {
                     </div>
 
                 </div>
-                <p className="title titleContacto">Realizado por Agencia Prez</p>
+                {/*<p className="title titleContacto">Realizado por Agencia Prez</p>*/}
                 
             </div>
             <div className="col1 colProd">
@@ -49,12 +49,12 @@ export default function Footer() {
 
             </div>
             <div className="col1 colSell">
-                <p className="title">POST VENTA</p>
+                <p className="title">POSVENTA</p>
                 <ul className="list listNonTitle">
                     <li><p className="itemMenu"><a href="/concesionarios">Concesionarios</a></p></li>
                     <li><p className="itemMenu"><a href="/repuestos">Repuestos</a></p></li>
                     <li><p className="itemMenu">Mantenimiento</p></li>
-                    <li><p className="itemMenu"><a href="/garantia">Garantia</a></p></li>
+                    <li><p className="itemMenu"><a href="/garantia">Garantía</a></p></li>
                 </ul>
             </div>
             <div className="col1 colTech">
