@@ -32,7 +32,7 @@ import HelpDesk from "./pages/HelpDesk"
 import Vehiculos_especiales from "./pages/Vehiculos_especiales"
 import Proximamente_hidromek from "./pages/Proximamente-hidromek"
 import Patiotuerca from "./pages/patiotuerca"
-
+import Rendimiento from "./pages/rendimiento"
 
 function App() {
 
@@ -76,7 +76,7 @@ function App() {
           <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
           <Route path="/proximamente-hidromek" element={<Proximamente_hidromek />} />
           <Route path="/landing/patiotuerca" element={<Patiotuerca />} />
-          
+          <Route path="/rendimiento" element={<Rendimiento/>} />
         </Routes>
       </main>
     </BrowserRouter>

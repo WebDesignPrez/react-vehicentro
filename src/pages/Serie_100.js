@@ -5,13 +5,22 @@ import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
 import FormContact from "../components/FormContact";
 import env from '../config';
+import { useEffect, useState } from "react";
 
 let series
 let nombreCamion
 let camionSerie
 let urlMedia = env.url
+let audio_motor = "../images/10-toneladas/motor.mp3"
 
 function Serie_100() {
+
+    useEffect(() => {
+        const motorPlayer = document.getElementById('audioMotor')
+        motorPlayer.src = audio_motor
+
+    }, []);
+    
     return (
         <>
             <Helmet>

@@ -2100,3 +2100,179 @@ a.colItem.meniu.negro {
 .posRelative.banner.landingbanner{
     background-color: #131313;
 }
+
+.rendimiento .repuestosuno{
+    margin: 0% 0% 0 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rendimiento .repuestosdos{
+    display: flex;
+    padding: 2% 3%;
+}
+
+.rendimiento .tercio{
+    margin: 0 1%;
+    display: flex;
+    width: 33.33%;
+    gap: 18px;
+    flex-direction: column;
+}
+
+
+/*Estilos rendimiento*/
+
+.rendimiento .titulo {
+    background-color: #75170E;
+    padding: 3.5% 15px 4%;
+}
+
+.rendimiento .titulo h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.rendimiento .titulo p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.rendimiento .titulo .control-label {
+    font-size: 18px;
+    color: #fff;
+}
+
+.rendimiento .titulo input {
+    width: 38%;
+    padding: 20px 15px;
+    background: transparent;
+    border-radius: 7px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Blatant';
+}
+
+.rendimiento .titulo input:focus {
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    
+}
+
+.rendimiento .titulo input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: .71;
+    /* Firefox */
+    text-align: center;
+}
+
+.rendimiento .plan {
+    background: #fff;
+    box-shadow: 0px 0px 15px #00000029;
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.rendimiento .plan h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2f2f2f;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding-bottom: 20px;
+}
+
+.rendimiento .plan h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+    width: 100%;
+  
+}
+
+.rendimiento .plan h4 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #333333;
+   
+}
+
+.rendimiento .plan p{
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+padding-bottom: 15px;
+}
+
+.rendimiento .resultados {
+    background-color: #2a2a2a;
+    padding: 50px 15px;
+}
+
+.rendimiento .resultados h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.rendimiento .resultados h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.rendimiento .resultados p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.rendimiento .btnCalculo{
+    margin-top: 25px;
+    color: #fff;
+}
+
+.rendimiento .btnCalculo:hover{
+    background-color: #000 !important;
+}
+
+.rendimiento .inputCalculo{
+    margin: 1% 0;
+}
+
+.rendimiento #resultadosDiv{
+    
+}
+
+
+
+.rendimiento .container.titulo{
+    line-height: 40px;
+    text-align: center;
+}
+
+.rendimiento .btn6{
+    font-family: 'Blatant';
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 7px;
+    width: 10%;
+}
+
+.rendimiento .ingreso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tercio.plan.resultadosDiv{
+    box-shadow:none;
+    padding-top: 0;
+}
