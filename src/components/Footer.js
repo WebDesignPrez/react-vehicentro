@@ -61,7 +61,7 @@ export default function Footer() {
                 <p className="title">TECNOLOGÍA</p>
                 <ul className="list listNonTitle">
                     <li><p className="itemMenu"><a href="/motor-mc">Componentes</a></p></li>
-                    <li><p className="itemMenu"><a href="/rendimiento">Medición de rendimiento</a></p></li>
+                    <li><p className="itemMenu"><a href="/rendimiento/100">Medición de rendimiento</a></p></li>
                 </ul>
 
                 
