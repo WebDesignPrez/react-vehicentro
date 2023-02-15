@@ -33,6 +33,9 @@ import Vehiculos_especiales from "./pages/Vehiculos_especiales"
 import Proximamente_hidromek from "./pages/Proximamente-hidromek"
 import Patiotuerca from "./pages/patiotuerca"
 import Rendimiento from "./pages/rendimiento"
+import Rendimiento100 from "./pages/rendimiento100"
+import Rendimientoc7h from "./pages/rendimientoc7h"
+import Rendimientot7h from "./pages/rendimientot7h"
 
 function App() {
 
@@ -76,7 +79,10 @@ function App() {
           <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
           <Route path="/proximamente-hidromek" element={<Proximamente_hidromek />} />
           <Route path="/landing/patiotuerca" element={<Patiotuerca />} />
-          <Route path="/rendimiento" element={<Rendimiento/>} />
+          <Route path="/rendimiento/t5g" element={<Rendimiento/>} />
+          <Route path="/rendimiento/100" element={<Rendimiento100/>} />
+          <Route path="/rendimiento/c7h" element={<Rendimientoc7h/>} />
+          <Route path="/rendimiento/t7h" element={<Rendimientot7h/>} />
         </Routes>
       </main>
     </BrowserRouter>

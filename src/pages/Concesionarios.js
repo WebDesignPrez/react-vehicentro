@@ -16,7 +16,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Indoamérica Km 3 1/2 Vía a Quito",
       url: "https://goo.gl/maps/WSq8jBoHRTN9fcgu7",
-      img: urlMedia+"vehicentro-ambato-matriz-indoamerica.webp",
+      img: urlMedia + "vehicentro-ambato-matriz-indoamerica.webp",
       alt: ""
     }, {
       nombre: "AMBATO, FICOA",
@@ -24,7 +24,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Los Guaytambos 04-156 y La Delicia",
       url: "https://goo.gl/maps/pBWeoKpyen13WrWR6",
-      img: urlMedia+"vehicentro-ambato-ficoa.webp",
+      img: urlMedia + "vehicentro-ambato-ficoa.webp",
       alt: ""
     }]
   }, {
@@ -35,7 +35,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Simón Bolívar S/N diagonal al Supermercado Santa María",
       url: "https://goo.gl/maps/UXSBqmZsCpRUTC6G6",
-      img: urlMedia+"vehicentro-quito-carapungo-800x711.webp",
+      img: urlMedia + "vehicentro-quito-carapungo-800x711.webp",
       alt: ""
     }, {
       nombre: "QUITO, LOS CHILLOS",
@@ -43,7 +43,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. General Rumiñahui 8-40 y Av. San Luis (frente al San Luis Shopping)",
       url: "https://goo.gl/maps/V8uKKDkRgmuqeLP79",
-      img: urlMedia+"vehicentro-quito-los-chillos.webp",
+      img: urlMedia + "vehicentro-quito-los-chillos.webp",
       alt: ""
     }, {
       nombre: "QUITO, SUR",
@@ -51,7 +51,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Maldonado y Romero Barberis",
       url: "https://goo.gl/maps/UZTTED3ThUqRJsTEA",
-      img: urlMedia+"CONCESIONARIOS-780X600-QUITO-SUR.jpg",
+      img: urlMedia + "CONCESIONARIOS-780X600-QUITO-SUR.jpg",
       alt: ""
     }, {
       nombre: "QUITO, EL COLIBRÍ",
@@ -59,7 +59,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "E35 y Av. General Pintag",
       url: "https://goo.gl/maps/qme9UhY53gyYueKd6",
-      img: urlMedia+"colibri.webp",
+      img: urlMedia + "colibri.webp",
       alt: ""
     }, {
       nombre: "QUITO, GALO PLAZA",
@@ -67,7 +67,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Galo Plaza Lasso N66-106 y De las Avellanas",
       url: "https://goo.gl/maps/uhWzLJFXVygm1TSt9",
-      img: urlMedia+"VEHI-1.jpg",
+      img: urlMedia + "VEHI-1.jpg",
       alt: ""
     }]
   }, {
@@ -78,7 +78,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Samborondón, vía al Puente Alterno Norte, Ofc. Almax 2",
       url: "https://goo.gl/maps/rwwwz9xkhsmyKN659",
-      img: urlMedia+"vehicentro-guayaquil.webp",
+      img: urlMedia + "vehicentro-guayaquil.webp",
       alt: ""
     }, {
       nombre: "GUAYAQUIL, NORTE",
@@ -86,7 +86,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Autopista Narcisa De Jesús km1 junto a la ATM. (Agencia de Tránsito Municipal)",
       url: "https://goo.gl/maps/y2rXLQNZamPz3rtm9",
-      img: urlMedia+"GYE-NORTE-1551X1187-800x612.jpg",
+      img: urlMedia + "GYE-NORTE-1551X1187-800x612.jpg",
       alt: ""
     }]
   }, {
@@ -97,7 +97,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Lizarzaburu entre Monseñor L. Proaño y Padre M. Orozco",
       url: "https://goo.gl/maps/dqkVXAErCdD3PN4z9",
-      img: urlMedia+"vehicentro-riobamba.webp",
+      img: urlMedia + "vehicentro-riobamba.webp",
       alt: ""
     }]
   }, {
@@ -108,7 +108,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Gil Ramírez Dávalos 3-80 y Mario Rizzini (Junto a la Gasolinera Primax)",
       url: "https://goo.gl/maps/GkZgUEPmYVZHw8Ez5",
-      img: urlMedia+"CUENCA-780X600-1.jpg",
+      img: urlMedia + "CUENCA-780X600-1.jpg",
       alt: ""
     }]
   }, {
@@ -119,7 +119,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av 25 de Junio km 3 1/2 Vía a Pasaje",
       url: "https://goo.gl/maps/ia5uLKucpSos4mSp7",
-      img: urlMedia+"vehicentro-machala.webp",
+      img: urlMedia + "vehicentro-machala.webp",
       alt: ""
     }]
   }, {
@@ -130,7 +130,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Panamericana Sur Km1 y calle los Andes",
       url: "https://goo.gl/maps/FgVLPgUjqta9LqJ49",
-      img: urlMedia+"IBARRA-2.jpg",
+      img: urlMedia + "IBARRA-2.jpg",
       alt: ""
     }]
   }, {
@@ -141,7 +141,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Vía Manta- Rocafuerte - Sin Calle Secundaria, Vía al Aeropuerto",
       url: "https://goo.gl/maps/mXS7LLaZqfMj4NDv6",
-      img: urlMedia+"WhatsApp-Image-2022-09-23-at-6.12.42-PM-800x612.jpeg",
+      img: urlMedia + "WhatsApp-Image-2022-09-23-at-6.12.42-PM-800x612.jpeg",
       alt: ""
     }]
   }]

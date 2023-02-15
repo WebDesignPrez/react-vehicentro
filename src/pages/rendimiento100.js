@@ -32,10 +32,10 @@ function Block1() {
         //valor de entrada
         let kmRec = document.getElementById("kmRec").value;
         //valores fijos
-        var kmSinotruk = 11;
-        var kmOtros = 8;
-        var precioDies = 1.75;
-        var precioGas = 1.75;
+        var kmSinotruk = 20;
+        var kmOtros = 14;
+        var precioDies = 1.90;
+        var precioGas = 1.90;
         //km anuales
         var kmAnua = kmRec * 12;
         //litros mensuales
@@ -82,7 +82,7 @@ function Block1() {
                 <div className="row">
                     <div className="col-md-6 offset-md-3 text-center">
                         <h2>Calcula tu ahorro</h2>
-                        <p>La serie T5G puede ofrecer un ahorro de hasta el 28% en combustible</p>
+                        <p>La serie 100 puede ofrecer un ahorro de hasta el 30% en combustible</p>
                     </div>
                     <div className="ingreso">
                         <label className="control-label">
@@ -102,7 +102,7 @@ function Block1() {
 
         <div className="repuestosdos">
             <div className="tercio  plan">
-                <h2>Sinotruk Serie T5G</h2>
+                <h2>Sinotruk Serie 100</h2>
                 <h3 className="kmAnua formateado" id="kmAnua">-</h3>
                 <p>Kilometraje anual</p>
                 <h3 className="kmSinotruk ">11</h3>
