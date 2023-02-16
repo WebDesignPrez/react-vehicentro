@@ -31,11 +31,17 @@ import React from 'react';
 import HelpDesk from "./pages/HelpDesk"
 import Vehiculos_especiales from "./pages/Vehiculos_especiales"
 import Proximamente_hidromek from "./pages/Proximamente-hidromek"
-import Patiotuerca from "./pages/patiotuerca"
 import Rendimiento from "./pages/rendimiento"
 import Rendimiento100 from "./pages/rendimiento100"
 import Rendimientoc7h from "./pages/rendimientoc7h"
 import Rendimientot7h from "./pages/rendimientot7h"
+import Patiotuerca from "./pages/patiotuerca"
+import El_universo from "./pages/el-universo"
+import El_extra from "./pages/el-extra"
+import Comercio from "./pages/comercio"
+import Buen_viaje from "./pages/buen-viaje"
+import Ecdf from "./pages/ecdf"
+import Primicias from "./pages/primicias"
 
 function App() {
 
@@ -78,11 +84,17 @@ function App() {
           <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
           <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
           <Route path="/proximamente-hidromek" element={<Proximamente_hidromek />} />
-          <Route path="/landing/patiotuerca" element={<Patiotuerca />} />
           <Route path="/rendimiento/t5g" element={<Rendimiento/>} />
           <Route path="/rendimiento/100" element={<Rendimiento100/>} />
           <Route path="/rendimiento/c7h" element={<Rendimientoc7h/>} />
           <Route path="/rendimiento/t7h" element={<Rendimientot7h/>} />
+          <Route path="/landing/patiotuerca" element={<Patiotuerca />} />
+          <Route path="/landing/el-universo" element={<El_universo />} />
+          <Route path="/landing/el-extra" element={<El_extra />} />
+          <Route path="/landing/comercio" element={<Comercio />} />
+          <Route path="/landing/buen-viaje" element={<Buen_viaje />} />
+          <Route path="/landing/ecdf" element={<Ecdf />} />
+          <Route path="/landing/primicias" element={<Primicias />} />
         </Routes>
       </main>
     </BrowserRouter>

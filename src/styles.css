@@ -2146,7 +2146,7 @@ a.colItem.meniu.negro {
 }
 
 .rendimiento .titulo input {
-    width: 38%;
+    width: 62%;
     padding: 20px 15px;
     background: transparent;
     border-radius: 7px;
@@ -2247,11 +2247,6 @@ padding-bottom: 15px;
     margin: 1% 0;
 }
 
-.rendimiento #resultadosDiv{
-    
-}
-
-
 
 .rendimiento .container.titulo{
     line-height: 40px;
@@ -2263,7 +2258,7 @@ padding-bottom: 15px;
     font-weight: 600;
     font-size: 15px;
     border-radius: 7px;
-    width: 10%;
+    width: 15%;
 }
 
 .rendimiento .ingreso{
@@ -2275,4 +2270,25 @@ padding-bottom: 15px;
 .tercio.plan.resultadosDiv{
     box-shadow:none;
     padding-top: 0;
+}
+
+.btnConcesionarios.rendimiento{
+    margin: 0;
+    width: 100%;
+}
+
+.btnConcesionarios.rendimiento .btn6{
+    color: white;
+    width: 15%;
+    padding: 0px 0px;
+}
+
+
+.btnConcesionarios.rendimiento .btn6:hover {
+    border-color: #000;
+    color: #000000;
+}
+
+.btnConcesionarios.rendimiento .btn6::after {
+    background: #000;
 }

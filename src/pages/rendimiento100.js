@@ -8,14 +8,8 @@ function rendimiento() {
     return (
         <div className="rendimiento">
             <NavBarTop />
-            
+
             <Block1 />
-            <div className="btnConcesionarios">
-                <a className='btn6' option="100" href='/rendimiento/100'>SERIE 100</a>
-                <a className='btn6' option="t5g" href='/rendimiento/t5g'>SERIE T5G</a>
-                <a className='btn6' option="t7h" href='/rendimiento/t7h'>SERIE T7H</a>
-                <a className='btn6' option="c7h" href='/rendimiento/c7h'>SERIE C7H</a>
-            </div>
             <BannerContacto />
             <Footer />
         </div>
@@ -90,6 +84,15 @@ function Block1() {
                         </label>
 
                         <input className="form-control inputCalculo" name="kmRec" id="kmRec" type="number" placeholder="Ingresa tu kilometraje mensual" ></input>
+
+
+                        <div className="btnConcesionarios rendimiento">
+                            <a className='btn6' option="100" href='/rendimiento/100'>SERIE 100</a>
+                            <a className='btn6' option="t5g" href='/rendimiento/t5g'>SERIE T5G</a>
+                            <a className='btn6' option="t7h" href='/rendimiento/t7h'>SERIE T7H</a>
+                            <a className='btn6' option="c7h" href='/rendimiento/c7h'>SERIE C7H</a>
+                        </div>
+
 
                         <button className="btn6" onClick={clickBtnCalculo}> Calcular</button>
                     </div>
