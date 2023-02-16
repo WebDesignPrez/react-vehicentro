@@ -2292,3 +2292,12 @@ padding-bottom: 15px;
 .btnConcesionarios.rendimiento .btn6::after {
     background: #000;
 }
+
+.boxesContact p.fixed{
+    position: fixed;
+    bottom: 25px;
+    margin-bottom: 0px !important;
+    right: 5vw;
+    z-index: 5;
+    background-color: red;
+}
