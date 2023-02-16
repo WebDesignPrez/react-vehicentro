@@ -109,11 +109,16 @@ function FormContact(props) {
     }
   }
 
-  const validateTel = (e) => {
+/*   const validateTel = (e) => {
     if (e === "" || !(/^\d+$/.test(e)) || e.length < 10 || e.length > 10)
       return true
     else
       return false
+  } */
+
+  const validateTel = (phoneNumber) => {
+    const phoneRegex = /^0[1-9][0-9]{8}$/;
+    return !phoneRegex.test(phoneNumber);
   }
 
   const handleFocusCed = (e) => {
