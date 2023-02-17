@@ -2295,9 +2295,12 @@ padding-bottom: 15px;
 
 .boxesContact p.fixed{
     position: fixed;
-    bottom: 25px;
+    bottom: 30px;
     margin-bottom: 0px !important;
     right: 5vw;
     z-index: 5;
-    background-color: red;
+    background-color: #a52a2a;
+    font-size: 18px;
+    border-width: 0.4px;
 }
+

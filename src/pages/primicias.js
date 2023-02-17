@@ -412,7 +412,6 @@ function Block3() {
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
 
                 break;
-
                 
             default:
                 break;
