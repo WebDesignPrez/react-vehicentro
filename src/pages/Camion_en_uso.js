@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 import env from '../config';
 
 let bdc
-let imagen 
+let imagen
 let nombreCamion
 let nombreSerie
 let camionSerie
@@ -23,7 +23,7 @@ function Camion_en_uso() {
 
         case "camion-de-48-toneladas":
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHUSO"
-            imagen = [urlMedia+"camion-en-uso/48-ton/uso-3-camion-48-ton.webp", urlMedia+"camion-en-uso/48-ton/uso-4-camion-48-ton.webp", urlMedia+"camion-en-uso/48-ton/uso-1-camion-48-ton.webp", urlMedia+"camion-en-uso/48-ton/uso-2-camion-48-ton.webp", urlMedia+"camion-en-uso/48-ton/uso-5-camion-48-ton.webp"]
+            imagen = [urlMedia + "camion-en-uso/48-ton/uso-3-camion-48-ton.webp", urlMedia + "camion-en-uso/48-ton/uso-4-camion-48-ton.webp", urlMedia + "camion-en-uso/48-ton/uso-1-camion-48-ton.webp", urlMedia + "camion-en-uso/48-ton/uso-2-camion-48-ton.webp", urlMedia + "camion-en-uso/48-ton/uso-5-camion-48-ton.webp"]
             nombreCamion = "Camion de 48 toneladas | C7H-540"
             camionSerie = ""
             nombreSerie = "Serie C7H"
@@ -43,6 +43,7 @@ function Camion_en_uso() {
         <NavBarTop />
         <PrimeraSeccion />
         <SegundaSeccion />
+        <TerceraSeccion />
         <BannerContacto />
         <Footer />
 
@@ -60,17 +61,17 @@ function PrimeraSeccion() {
 
         <div className="boxesIniHeader main fondonegro">
             <div className="boxLeftHeader">
-                <img className="complete"  src={imagen[4]} />
+                <img className="complete" src={imagen[4]} />
             </div>
             <div className="boxRightHeader inside" >
                 <div className="boxLeftHeader complete" >
-                    <img className="complete"  src={imagen[1]} />
+                    <img className="complete" src={imagen[1]} />
                 </div>
                 <div className="boxRightHeader  half contenedorTextoSobrepuesto" >
-                    <img className="complete"  src={imagen[2]} />
+                    <img className="complete" src={imagen[2]} />
                 </div>
                 <div className="boxRightHeader  half contenedorTextoSobrepuesto">
-                    <img className="complete"  src={imagen[3]} />
+                    <img className="complete" src={imagen[3]} />
                 </div>
             </div>
 
@@ -89,6 +90,31 @@ function SegundaSeccion() {
                 <img className="complete contact" src={imagen[0]} />
             </div>
         </div>
+    )
+}
+
+function TerceraSeccion() {
+    return (
+        <>
+
+            <div className="boxesIniHeader main fondonegro">
+                <div className="boxLeftHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/48-ton/camion-amarillo.webp"} />
+                </div>
+                <div className="boxRightHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/48-ton/camion-nevado.webp"} />
+                </div>
+            </div>
+            <div className="boxesIniHeader main fondonegro">
+                <div className="boxLeftHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/48-ton/camion-uso-blanco.webp"} />
+                </div>
+                <div className="boxRightHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/48-ton/camion-azul.webp"} />
+                </div>
+            </div>
+
+        </>
     )
 }
 
