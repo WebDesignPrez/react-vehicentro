@@ -42,6 +42,8 @@ import Comercio from "./pages/comercio"
 import Buen_viaje from "./pages/buen-viaje"
 import Ecdf from "./pages/ecdf"
 import Primicias from "./pages/primicias"
+import Serie_mixer from "./pages/Serie-mixer"
+import Serie_excavadora from "./pages/Serie-excavadora"
 
 function App() {
 
@@ -95,6 +97,8 @@ function App() {
           <Route path="/landing/buen-viaje" element={<Buen_viaje />} />
           <Route path="/landing/ecdf" element={<Ecdf />} />
           <Route path="/landing/primicias" element={<Primicias />} />
+          <Route path="/serie/mixer" element={<Serie_mixer />} />
+          <Route path="/serie/excavadora" element={<Serie_excavadora />} />
         </Routes>
       </main>
     </BrowserRouter>

@@ -15,6 +15,7 @@ function Experiencia() {
             </Helmet>
             <NavBarTop />
             <Content1 />
+            <Block2 />
             <BannerContacto />
             <Footer />
         </>
@@ -28,101 +29,113 @@ function Content1() {
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/1.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/1.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/2.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/2.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/3.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/3.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/4.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/4.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/5.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/5.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/7.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/7.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/8.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/8.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/9.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/9.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/10.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/10.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/11.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/11.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/12.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/12.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/13.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/13.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/14.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/14.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/15.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/15.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/16.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/16.mp4"} className="videoWidth" />
                 </div>
             </div>
 
             <div className="boxRight">
                 <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"experiencia/17.mp4"} className="videoWidth" />
+                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/17.mp4"} className="videoWidth" />
                 </div>
             </div>
+
+
+
 
         </div>
+    )
+}
+
+
+function Block2() {
+    return (
+        < div className="block2 responsive" >
+            <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
+        </div >
     )
 }
 

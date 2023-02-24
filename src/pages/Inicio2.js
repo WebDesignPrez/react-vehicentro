@@ -123,7 +123,7 @@ function Block1() {
                 <div className="overlayBox" height="200">
                     <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
                     <div className="linksBox testimonio">
-                        <a href="/experiencia" className="line2" src="">TESTIMONIOS</a>
+                        <a href="/experiencia" className="line2" src="">VIDEOS TESTIMONIALES</a>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@ function Block1() {
 
 function Block2() {
     return (
-        < div className="block2" >
+        < div className="block2 noResponsive" >
             <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
         </div >
     )

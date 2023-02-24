@@ -1684,7 +1684,13 @@ a .flex-row {
     text-align: center;
     font-weight: 100;
     font-size: 3vw;
-    padding: 10vw 18vw;
+    padding: 0vw 0vw 0vw 0vw;
+    display: flex;
+    align-items: center;
+}
+
+.mensaje p{
+    margin: 0 7%;
 }
 
 .movil {
@@ -2304,3 +2310,12 @@ padding-bottom: 15px;
     border-width: 0.4px;
 }
 
+.fotoGracias{
+    max-width: 50%;
+}
+
+.serieTitle.serieBox.excavadora{
+    
+    padding: 15vh 4vw 14vh 4vw;
+    text-align: center;
+}
