@@ -177,7 +177,7 @@ function FormContact(props) {
           setEmail('')
           setTel('')
           setCed('')
-          window.location.href = redireccion;
+          //window.location.href = redireccion;
         }
       })
     } else {

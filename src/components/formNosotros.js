@@ -6,6 +6,7 @@ import 'react-notifications/lib/notifications.css';
 import env from '../config';
 
 let urlMedia = env.url
+
 function FormNosotros() {
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
   let url = "https://vehicentro.com/contactoWeb/envio.php"

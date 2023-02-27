@@ -44,6 +44,11 @@ import Ecdf from "./pages/ecdf"
 import Primicias from "./pages/primicias"
 import Serie_mixer from "./pages/Serie-mixer"
 import Serie_excavadora from "./pages/Serie-excavadora"
+import Camion_landing_extra from "./pages/Camion-landing-extra"
+import Camion_landing_comercio from "./pages/Camion-landing-comercio"
+import Camion_landing_universo from "./pages/Camion-landing-universo"
+import Camion_landing_primicias from "./pages/Camion-landing-primicias"
+import Camion_landing_ecdf from "./pages/Camion-landing-ecdf"
 
 function App() {
 
@@ -99,6 +104,11 @@ function App() {
           <Route path="/landing/primicias" element={<Primicias />} />
           <Route path="/serie/mixer" element={<Serie_mixer />} />
           <Route path="/serie/excavadora" element={<Serie_excavadora />} />
+          <Route path="/landing/el-extra/:id" element={<Camion_landing_extra />} />
+          <Route path="/landing/comercio/:id" element={<Camion_landing_comercio />} />
+          <Route path="/landing/el-universo/:id" element={<Camion_landing_universo />} />
+          <Route path="/landing/primicias/:id" element={<Camion_landing_primicias />} />
+          <Route path="/landing/ecdf/:id" element={<Camion_landing_ecdf />} />
         </Routes>
       </main>
     </BrowserRouter>
