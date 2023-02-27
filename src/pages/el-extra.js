@@ -435,9 +435,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/100">100</a>
                         <div className="linksBox">
-                            <a className="line2"  href="/landing/el-extra/camion/3-5-ton">3.5 TON</a>
-                            <a className="line2" to="/camiones/camion-de-3-6-toneladas" onClick={() => { openFormContact("camion-de-3-6-toneladas") }}>3.6 TON</a>
-                            <a className="line2" to="/camiones/camion-de-5-toneladas-1067" onClick={() => { openFormContact("camion-de-5-toneladas-1067") }}>5 TON</a>
+                            <a className="line2" href="/landing/el-extra/camion/3-5-ton">3.5 TON</a>
+                            <a className="line2" href="/landing/el-extra/camion/3-6-ton">3.6 TON</a>
+                            <a className="line2" href="/landing/el-extra/camion/5-ton">5 TON</a>
                             <a className="line2" to="/camiones/camion-de-6-toneladas-1067" onClick={() => { openFormContact("camion-de-6-toneladas-1067") }}>6 TON</a>
                             <a className="line2" to="/camiones/camion-8-toneladas-1147" onClick={() => { openFormContact("camion-8-toneladas-1147") }}>8 TON</a>
                         </div>

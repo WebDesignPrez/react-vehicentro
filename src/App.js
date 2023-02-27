@@ -113,10 +113,10 @@ function App() {
           <Route path="/landing/el-extra/excavadora/:id" element={<Excavadora_landing_extra />} />
           <Route path="/landing/el-extra/volqueta/:id" element={<Volqueta_landing_extra />} />
           <Route path="/landing/el-extra/mixer/:id" element={<Mixer_landing_extra />} />
-          <Route path="/landing/comercio/:id" element={<Camion_landing_comercio />} />
-          <Route path="/landing/el-universo/:id" element={<Camion_landing_universo />} />
-          <Route path="/landing/primicias/:id" element={<Camion_landing_primicias />} />
-          <Route path="/landing/ecdf/:id" element={<Camion_landing_ecdf />} />
+          <Route path="/landing/comercio/camion/:id" element={<Camion_landing_comercio />} />
+          <Route path="/landing/el-universo/camion/:id" element={<Camion_landing_universo />} />
+          <Route path="/landing/primicias/camion/:id" element={<Camion_landing_primicias />} />
+          <Route path="/landing/ecdf/camion/:id" element={<Camion_landing_ecdf />} />
         </Routes>
       </main>
     </BrowserRouter>
