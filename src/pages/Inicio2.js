@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { Slide } from 'react-slideshow-image';
 import env from '../config';
 
-let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBINICIO"
+let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHBOTONCOT"
 let nombreCamion = ""
 let nombreSerie = "Serie 100"
 let camionSerie = ""
