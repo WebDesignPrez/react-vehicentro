@@ -8,7 +8,7 @@ import env from '../config';
 import FormContactFicha from "../components/FormContactFicha";
 import FormContact from "../components/FormContact";
 
-let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 let nombreCamion = ""
 let nombreSerie = "Serie 100"
 let camionSerie = ""
@@ -123,7 +123,7 @@ function Block3() {
                 nombreCamion = "Camion de 10 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 10 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -132,7 +132,7 @@ function Block3() {
                 nombreCamion = "Camion de 9 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 9 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
 
                 break;
@@ -143,7 +143,7 @@ function Block3() {
                 nombreCamion = "Camion de 12 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 12 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -153,7 +153,7 @@ function Block3() {
                 nombreCamion = "Camion de 13 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 13 TON (280HP)"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -163,7 +163,7 @@ function Block3() {
                 nombreCamion = "Camion de 13 toneladas 330Hp | T5G-1167"
                 camionSerie = "T5G 1167 / 13 TON (330HP)"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -173,7 +173,7 @@ function Block3() {
                 nombreCamion = "Camion de 18 toneladas | T5G-1257"
                 camionSerie = "T5G 1257 / 18 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -183,7 +183,7 @@ function Block3() {
                 nombreCamion = "Camion de 19 toneladas | T5G-1257"
                 camionSerie = "T5G 1257 / 19.5 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -193,7 +193,7 @@ function Block3() {
                 nombreCamion = "Camion de 3.5 toneladas | 1057"
                 camionSerie = "1057 / 3.5 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -203,7 +203,7 @@ function Block3() {
                 nombreCamion = "Camion de 3.6 toneladas | 1047"
                 camionSerie = "1047 / 3.6 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -214,7 +214,7 @@ function Block3() {
                 nombreCamion = "Camion de 5 toneladas | 1067"
                 camionSerie = "1067 / 5 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -224,7 +224,7 @@ function Block3() {
                 nombreCamion = "Camion de 6 toneladas | 1067"
                 camionSerie = "1067 / 6 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -234,7 +234,7 @@ function Block3() {
                 nombreCamion = "Camion de 8 toneladas | 1147"
                 camionSerie = "1147 / 8 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -244,7 +244,7 @@ function Block3() {
                 nombreCamion = "Camion de 20 toneladas | C7H-1256"
                 camionSerie = "C7H 1256 / 20 TON"
                 nombreSerie = "Serie C7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -253,7 +253,7 @@ function Block3() {
                 nombreCamion = "Excavadora SWE210"
                 camionSerie = "SWE210"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -262,7 +262,7 @@ function Block3() {
                 nombreCamion = "Excavadora SWE365E"
                 camionSerie = "SWE365E"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -271,7 +271,7 @@ function Block3() {
                 nombreCamion = "Camion de 24 toneladas | T5G-4187"
                 camionSerie = "T5G 4187 / 24 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -281,7 +281,7 @@ function Block3() {
                 nombreCamion = "Camion de 28 toneladas | T7H-390"
                 camionSerie = "T7H 390 / 28 TON"
                 nombreSerie = "Serie T7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -291,7 +291,7 @@ function Block3() {
                 nombreCamion = "Camion de 28 toneladas | T7H-390"
                 camionSerie = "T7H 390 / 28 TON con retardador"
                 nombreSerie = "Serie T7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -301,7 +301,7 @@ function Block3() {
                 nombreCamion = "Camion de 42 toneladas | T7H-390"
                 camionSerie = "T7H 390 / 42 TON"
                 nombreSerie = "Serie T7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -311,7 +311,7 @@ function Block3() {
                 nombreCamion = "Camion de 45 toneladas | T7H-430"
                 camionSerie = "T7H 430 / 45 TON"
                 nombreSerie = "Serie T7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -321,7 +321,7 @@ function Block3() {
                 nombreCamion = "Camion de 48 toneladas | C7H-540"
                 camionSerie = "C7H 540 / 48 TON"
                 nombreSerie = "Serie C7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -331,7 +331,7 @@ function Block3() {
                 nombreCamion = "Camion de 48 toneladas con Catalinas | C7H-540"
                 camionSerie = "C7H 540 / 48 TON con Catalinas"
                 nombreSerie = "Serie C7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -340,7 +340,7 @@ function Block3() {
                 nombreCamion = "Volqueta | T5G-330"
                 camionSerie = "VOLQUETA T5G-330 8-9M2"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -350,7 +350,7 @@ function Block3() {
                 nombreCamion = "Volqueta | T7H-430"
                 camionSerie = "VOLQUETA T5G 430-330 10-14M2"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -359,7 +359,7 @@ function Block3() {
                 nombreCamion = "Mixer A7 1257"
                 camionSerie = "A7 1257 / MIXER"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -368,7 +368,7 @@ function Block3() {
                 nombreCamion = "Volqueta 20 m3"
                 camionSerie = "VOLQUETA 20M2"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -376,7 +376,7 @@ function Block3() {
                 nombreCamion = "EXCAVADORA"
                 camionSerie = "EXCAVADORA"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -384,7 +384,7 @@ function Block3() {
                 nombreCamion = "RETROEXCAVADORA"
                 camionSerie = "RETROEXCAVADORA"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -393,7 +393,7 @@ function Block3() {
                 nombreCamion = "MINI EXCAVADORA"
                 camionSerie = "MINI EXCAVADORA"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -401,7 +401,7 @@ function Block3() {
                 nombreCamion = "RODILLO"
                 camionSerie = "RODILLO"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
 
@@ -409,9 +409,10 @@ function Block3() {
                 nombreCamion = "C7H 12M3 / MIXER"
                 camionSerie = "C7H 12M3 / MIXER"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPRIMICIAS"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDEXTRA"
 
                 break;
+
                 
             default:
                 break;
@@ -434,11 +435,11 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/100">100</a>
                         <div className="linksBox">
-                            <a className="line2" to="/camiones/camion-de-3-5-toneladas-1057" onClick={() => { openFormContact("camion-de-3-5-toneladas-1057") }}>3.5 TON</a>
-                            <a className="line2" to="/camiones/camion-de-3-6-toneladas" onClick={() => { openFormContact("camion-de-3-6-toneladas") }}>3.6 TON</a>
-                            <a className="line2" to="/camiones/camion-de-5-toneladas-1067" onClick={() => { openFormContact("camion-de-5-toneladas-1067") }}>5 TON</a>
-                            <a className="line2" to="/camiones/camion-de-6-toneladas-1067" onClick={() => { openFormContact("camion-de-6-toneladas-1067") }}>6 TON</a>
-                            <a className="line2" to="/camiones/camion-8-toneladas-1147" onClick={() => { openFormContact("camion-8-toneladas-1147") }}>8 TON</a>
+                            <a className="line2" href="/landing/primicias/camion/3-5-ton">3.5 TON</a>
+                            <a className="line2" href="/landing/primicias/camion/3-6-ton">3.6 TON</a>
+                            <a className="line2" href="/landing/primicias/camion/5-ton">5 TON</a>
+                            <a className="line2" href="/landing/primicias/camion/6-ton">6 TON</a>
+                            <a className="line2" href="/landing/primicias/camion/8-ton">8 TON</a>
                         </div>
                     </div>
                 </div>
@@ -448,14 +449,14 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/t5g">T5G</a>
                         <div className="linksBox">
-                            <a className="line2" to="/camiones/camion-de-9-toneladas" onClick={() => { openFormContact("camion-de-9-toneladas") }}>9 TON</a><br></br>
-                            <a className="line2" to="/camiones/camion-10-toneladas-t5g-1167" onClick={() => { openFormContact("camion-10-toneladas-t5g-1167") }}>10 TON</a><br></br>
-                            <a className="line2" to="/camiones/camion-12-toneladas-t5g-1167" onClick={() => { openFormContact("camion-12-toneladas-t5g-1167") }}>12 TON</a>
-                            <a className="line2" to="/camiones/camion-13-toneladas-t5g-1167" onClick={() => { openFormContact("camion-13-toneladas-t5g-1167") }}>13 TON 280HP</a><br></br>
-                            <a className="line2" to="/camiones/camion-13-toneladas-t5g-1167-330hp" onClick={() => { openFormContact("camion-13-toneladas-t5g-1167-330hp") }}>13 TON 330HP</a>
-                            <a className="line2" to="/camiones/camion-de-18-toneladas-t5g-1257" onClick={() => { openFormContact("camion-de-18-toneladas-t5g-1257") }}>18 TON</a><br></br>
-                            <a className="line2" to="/camiones/camion-de-19-toneladas-t5g-1257" onClick={() => { openFormContact("camion-de-19-toneladas-t5g-1257") }}>19.5 TON</a><br></br>
-                            <a className="line2" to="/cabezales/cabezal-t5g-4187" onClick={() => { openFormContact("cabezal-t5g-4187") }}>24 TON</a>
+                            <a className="line2" href="/landing/primicias/camion/9-ton">9 TON</a><br></br>
+                            <a className="line2" href="/landing/primicias/camion/10-ton">10 TON</a><br></br>
+                            <a className="line2" href="/landing/primicias/camion/12-ton">12 TON</a>
+                            <a className="line2" href="/landing/primicias/camion/13-ton">13 TON 280HP</a><br></br>
+                            <a className="line2" href="/landing/primicias/camion/13-ton-330">13 TON 330HP</a>
+                            <a className="line2" href="/landing/primicias/camion/18-ton">18 TON</a><br></br>
+                            <a className="line2" href="/landing/primicias/camion/19-ton">19.5 TON</a><br></br>
+                            <a className="line2" href="/landing/primicias/cabezal/24-ton">24 TON</a>
 
                         </div>
                     </div>
@@ -466,9 +467,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/t7h">T7H</a>
                         <div className="linksBox">
-                            <a className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas" onClick={() => { openFormContact("cabezal-t7h-390-28-toneladas") }}>28 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas" onClick={() => { openFormContact("cabezal-t7h-390-42-toneladas") }}>42 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-t7h-430-45-toneladas" onClick={() => { openFormContact("cabezal-t7h-430-45-toneladas") }}>45 TON</a>
+                            <a className="line2" href="/landing/primicias/cabezal/28-ton">28 TON</a>
+                            <a className="line2" href="/landing/primicias/cabezal/42-ton">42 TON</a>
+                            <a className="line2" href="/landing/primicias/cabezal/45-ton">45 TON</a>
                         </div>
                     </div>
                 </div>
@@ -481,9 +482,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/c7h">C7H</a>
                         <div className="linksBox">
-                            <a className="line2" to="/camiones/camion-20-toneladas-1256" onClick={() => { openFormContact("camion-20-toneladas-1256") }}>20 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-c7h-540" onClick={() => { openFormContact("cabezal-c7h-540") }}>48 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas" onClick={() => { openFormContact("cabezal-c7h-540-catalinas-48-toneladas") }}>48 TON - CATALINAS</a>
+                            <a className="line2" href="/landing/primicias/camion/20-ton">20 TON</a>
+                            <a className="line2" href="/landing/primicias/cabezal/48-ton">48 TON</a>
+                            <a className="line2" href="/landing/primicias/cabezal/48-ton-catalinas">48 TON - CATALINAS</a>
                         </div>
                     </div>
                 </div>
@@ -521,8 +522,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/volquetas/volqueta-t5g-280" onClick={() => { openFormContact("volqueta-t5g-280") }}>8-9 m3</a>
-                            <a className="line2" src="" to="/volquetas/volqueta-t7h-430" onClick={() => { openFormContact("volqueta-t7h-430") }}>10-14 m3</a>
+                            <a className="line2" href="/landing/primicias/volqueta/volqueta-t5g-280">8-9 m3</a>
+                            <a className="line2" href="/landing/primicias/volqueta/volqueta-t7h-430">10-14 m3</a>
                             <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("volqueta-20-m3") }}>20 m3</a>
                         </div>
                     </div>
@@ -549,7 +550,7 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/mixer/mixer-a7-1257" onClick={() => { openFormContact("mixer-a7-1257") }}>A7 8-9 m3</a>
+                            <a className="line2" href="/landing/primicias/mixer/mixer-a7-1257">A7 8-9 m3</a>
                             <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("mixer-c7h-12m3") }}>C7H 12 m3</a>
                         </div>
                     </div>
@@ -560,8 +561,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD</p>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/excavadoras/swe210" onClick={() => { openFormContact("swe210") }}>SWE210</a>
-                            <a className="line2" src="" to="/excavadoras/swe365e" onClick={() => { openFormContact("swe365e") }}>SWE365E</a>
+                            <a className="line2" href="/landing/primicias/excavadora/swe210">SWE210</a>
+                            <a className="line2" href="/landing/primicias/excavadora/swe365e">SWE365E</a>
                         </div>
                         <div className="linksBox">
                         </div>

@@ -455,8 +455,8 @@ function Block3() {
                             <a className="line2" href="/landing/el-extra/camion/13-ton">13 TON 280HP</a><br></br>
                             <a className="line2" href="/landing/el-extra/camion/13-ton-330">13 TON 330HP</a>
                             <a className="line2" href="/landing/el-extra/camion/18-ton">18 TON</a><br></br>
-                            <a className="line2" href="/landing/el-extra/camion/19-ton-330">19.5 TON</a><br></br>
-                            <a className="line2" href="/landing/el-extra/cabezal/24">24 TON</a>
+                            <a className="line2" href="/landing/el-extra/camion/19-ton">19.5 TON</a><br></br>
+                            <a className="line2" href="/landing/el-extra/cabezal/24-ton">24 TON</a>
 
                         </div>
                     </div>
@@ -550,7 +550,7 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
-                            <a className="line2" href="landing/el-extra/mixer/mixer-a7-1257">A7 8-9 m3</a>
+                            <a className="line2" href="/landing/el-extra/mixer/mixer-a7-1257">A7 8-9 m3</a>
                             <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("mixer-c7h-12m3") }}>C7H 12 m3</a>
                         </div>
                     </div>

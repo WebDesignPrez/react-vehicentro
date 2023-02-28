@@ -80,7 +80,7 @@ function Camion() {
     switch ((useParams("id").id)) {
 
         //10 toneladas
-        case "camion-10-toneladas-t5g-1167":
+        case "10-ton":
             nombreCamion = "Camion de 10 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 10 TON"
             nombreSerie = "Serie T5G"
@@ -186,7 +186,7 @@ function Camion() {
             break;
 
         //12 toneladas
-        case "camion-12-toneladas-t5g-1167":
+        case "12-ton":
             console.log('12 toneladas')
             nombreCamion = "Camion de 12 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 12 TON"
@@ -239,7 +239,7 @@ function Camion() {
             break;
 
         //13 toneladas
-        case "camion-13-toneladas-t5g-1167":
+        case "13-ton":
             console.log('13 toneladas')
             nombreCamion = "Camion de 13 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 13 TON (280HP)"
@@ -292,7 +292,7 @@ function Camion() {
             break;
 
         //13 toneladas 330hp
-        case "camion-13-toneladas-t5g-1167-330hp":
+        case "13-ton-330":
             console.log('13 toneladas 330Hp')
             nombreCamion = "Camion de 13 toneladas 330Hp | T5G-1167"
             camionSerie = "T5G 1167 / 13 TON (330HP)"
@@ -344,7 +344,7 @@ function Camion() {
             break;
 
         //18 toneladas
-        case "camion-de-18-toneladas-t5g-1257":
+        case "18-ton":
             console.log('18 toneladas')
             nombreCamion = "Camion de 18 toneladas | T5G-1257"
             camionSerie = "T5G 1257 / 18 TON"
@@ -396,7 +396,7 @@ function Camion() {
             break;
 
         //19 toneladas
-        case "camion-de-19-toneladas-t5g-1257":
+        case "19-ton":
             console.log('19 toneladas')
             nombreCamion = "Camion de 19 toneladas | T5G-1257"
             camionSerie = "T5G 1257 / 19.5 TON"
@@ -448,7 +448,7 @@ function Camion() {
             break;
 
         //3.5 toneladas
-        case "camion-de-3-5-toneladas-1057":
+        case "3-5-ton":
             console.log('3.5 toneladas')
             nombreCamion = "Camion de 3.5 toneladas | 1057"
             camionSerie = "1057 / 3.5 TON"
@@ -545,7 +545,7 @@ function Camion() {
 
 
         //3.6 toneladas
-        case "camion-de-3-6-toneladas":
+        case "3-6-ton":
             console.log('3.6 toneladas')
             nombreCamion = "Camion de 3.6 toneladas | 1047"
             camionSerie = "1047 / 3.6 TON"
@@ -642,7 +642,7 @@ function Camion() {
 
 
         //5 toneladas
-        case "camion-de-5-toneladas-1067":
+        case "5-ton":
             console.log('5 toneladas')
             nombreCamion = "Camion de 5 toneladas | 1067"
             camionSerie = "1067 / 5 TON"
@@ -739,7 +739,7 @@ function Camion() {
             break;
 
         //6 toneladas
-        case "camion-de-6-toneladas-1067":
+        case "6-ton":
             console.log('6 toneladas')
             nombreCamion = "Camion de 6 toneladas | 1067"
             camionSerie = "1067 / 6 TON"
@@ -824,7 +824,7 @@ function Camion() {
             break;
 
         //8 toneladas
-        case "camion-8-toneladas-1147":
+        case "8-ton":
             console.log('8 toneladas')
             nombreCamion = "Camion de 8 toneladas | 1147"
             camionSerie = "1147 / 8 TON"
@@ -874,7 +874,7 @@ function Camion() {
             break;
 
         //20 toneladas
-        case "camion-20-toneladas-1256":
+        case "20-ton":
             console.log('20 toneladas')
             nombreCamion = "Camion de 20 toneladas | C7H-1256"
             camionSerie = "C7H 1256 / 20 TON"
@@ -938,23 +938,23 @@ function Camion() {
 
     switch ((useParams("id").id)) {
 
-        case "camion-de-3-5-toneladas-1057":
+        case "3-5-ton":
             imagen = urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-de-3-6-toneladas":
+        case "3-6-ton":
             imagen = urlMedia + "3.6-toneladas/camion-de-3.6-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-de-5-toneladas-1067":
+        case "5-ton":
             imagen = urlMedia + "5-toneladas/camion-de-5-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-de-6-toneladas-1067":
+        case "6-ton":
             imagen = urlMedia + "6-toneladas/camion-de-6-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-8-toneladas-1147":
+        case "8-ton":
             imagen = urlMedia + "8-toneladas/camion-de-8-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
@@ -962,31 +962,31 @@ function Camion() {
             imagen = urlMedia + "9-toneladas/camion-de-9-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-10-toneladas-t5g-1167":
+        case "10-ton":
             imagen = urlMedia + "10-toneladas/camion-de-10-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-12-toneladas-t5g-1167":
+        case "12-ton":
             imagen = urlMedia + "12-toneladas/camion-de-12-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-13-toneladas-t5g-1167":
+        case "13-ton":
             imagen = urlMedia + "13-toneladas/camion-de-13-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-13-toneladas-t5g-1167-330hp":
+        case "13-ton-330":
             imagen = urlMedia + "13-toneladas-330/camion-de-13-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-de-18-toneladas-t5g-1257":
+        case "18-ton":
             imagen = urlMedia + "18-toneladas/camion-de-18-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-de-19-toneladas-t5g-1257":
+        case "19-ton":
             imagen = urlMedia + "19-toneladas/camion-de-19-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
-        case "camion-20-toneladas-1256":
+        case "20-ton":
             imagen = urlMedia + "20-toneladas/camion-de-20-toneladas-en-la-carretera-sinotruk.webp"
             break;
 
@@ -1147,7 +1147,7 @@ function Camion() {
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             </div>
         </div>
-            <Landingfooter />
+        <Landingfooter />
 
         {modalFormIsOpen &&
             <FormContactFicha url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
@@ -1160,7 +1160,7 @@ function Landingmenu() {
         <>
             <div className="menuHome">
                 <div className="logoHome">
-                   <a href="/landing/primicias/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a> 
+                    <a href="/landing/primicias/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
                 </div>
             </div>
         </>
@@ -1171,7 +1171,7 @@ function Landingfooter() {
         <>
             <div className="menuHome">
                 <div className="logoHome">
-                   <a href="/landing/primicias/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+                    <a href="/landing/primicias/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
                 </div>
             </div>
         </>

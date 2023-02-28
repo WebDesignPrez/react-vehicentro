@@ -52,15 +52,19 @@ import Camion_landing_ecdf from "./pages/Camion-landing-ecdf"
 import Cabezal_landing_extra from "./pages/Cabezal-landing-extra"
 import Cabezal_landing_comercio from "./pages/Cabezal-landing-comercio"
 import Cabezal_landing_universo from "./pages/Cabezal-landing-universo"
+import Cabezal_landing_primicias from "./pages/Cabezal-landing-primicias"
 import Excavadora_landing_extra from "./pages/Excavadora-landing-extra"
 import Excavadora_landing_comercio from "./pages/Excavadora-landing-comercio"
 import Excavadora_landing_universo from "./pages/Excavadora-landing-universo"
+import Excavadora_landing_primicias from "./pages/Excavadora-landing-primicias"
 import Volqueta_landing_extra from "./pages/Volqueta-landing-extra"
 import Volqueta_landing_comercio from "./pages/Volqueta-landing-comercio"
 import Volqueta_landing_universo from "./pages/Volqueta-landing-universo"
+import Volqueta_landing_primicias from "./pages/Volqueta-landing-primicias"
 import Mixer_landing_extra from "./pages/Mixer-landing-extra"
 import Mixer_landing_comercio from "./pages/Mixer-landing-comercio"
 import Mixer_landing_universo from "./pages/Mixer-landing-universo"
+import Mixer_landing_primicias from "./pages/Mixer-landing-primicias"
 
 function App() {
 
@@ -132,6 +136,10 @@ function App() {
           <Route path="/landing/el-universo/volqueta/:id" element={<Volqueta_landing_universo />} />
           <Route path="/landing/el-universo/mixer/:id" element={<Mixer_landing_universo />} />
           <Route path="/landing/primicias/camion/:id" element={<Camion_landing_primicias />} />
+          <Route path="/landing/primicias/cabezal/:id" element={<Cabezal_landing_primicias />} />
+          <Route path="/landing/primicias/excavadora/:id" element={<Excavadora_landing_primicias />} />
+          <Route path="/landing/primicias/volqueta/:id" element={<Volqueta_landing_primicias />} />
+          <Route path="/landing/primicias/mixer/:id" element={<Mixer_landing_primicias />} />
           <Route path="/landing/ecdf/camion/:id" element={<Camion_landing_ecdf />} />
         </Routes>
       </main>
