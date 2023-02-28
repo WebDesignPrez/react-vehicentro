@@ -1166,6 +1166,7 @@ function Landingmenu() {
         </>
     )
 }
+
 function Landingfooter() {
     return (
         <>
@@ -1177,4 +1178,5 @@ function Landingfooter() {
         </>
     )
 }
+
 export default Camion
