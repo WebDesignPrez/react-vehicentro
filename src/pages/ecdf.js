@@ -435,11 +435,11 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/100">100</a>
                         <div className="linksBox">
-                            <a className="line2" href="/landing/el-universo/camion/3-5-ton">3.5 TON</a>
-                            <a className="line2" href="/landing/el-universo/camion/3-6-ton">3.6 TON</a>
-                            <a className="line2" href="/landing/el-universo/camion/5-ton">5 TON</a>
-                            <a className="line2" href="/landing/el-universo/camion/6-ton">6 TON</a>
-                            <a className="line2" href="/landing/el-universo/camion/8-ton">8 TON</a>
+                            <a className="line2" href="/landing/ecdf/camion/3-5-ton">3.5 TON</a>
+                            <a className="line2" href="/landing/ecdf/camion/3-6-ton">3.6 TON</a>
+                            <a className="line2" href="/landing/ecdf/camion/5-ton">5 TON</a>
+                            <a className="line2" href="/landing/ecdf/camion/6-ton">6 TON</a>
+                            <a className="line2" href="/landing/ecdf/camion/8-ton">8 TON</a>
                         </div>
                     </div>
                 </div>
@@ -449,14 +449,14 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/t5g">T5G</a>
                         <div className="linksBox">
-                            <a className="line2" href="/landing/el-universo/camion/9-ton">9 TON</a><br></br>
-                            <a className="line2" href="/landing/el-universo/camion/10-ton">10 TON</a><br></br>
-                            <a className="line2" href="/landing/el-universo/camion/12-ton">12 TON</a>
-                            <a className="line2" href="/landing/el-universo/camion/13-ton">13 TON 280HP</a><br></br>
-                            <a className="line2" href="/landing/el-universo/camion/13-ton-330">13 TON 330HP</a>
-                            <a className="line2" href="/landing/el-universo/camion/18-ton">18 TON</a><br></br>
-                            <a className="line2" href="/landing/el-universo/camion/19-ton">19.5 TON</a><br></br>
-                            <a className="line2" href="/landing/el-universo/cabezal/24-ton">24 TON</a>
+                            <a className="line2" href="/landing/ecdf/camion/9-ton">9 TON</a><br></br>
+                            <a className="line2" href="/landing/ecdf/camion/10-ton">10 TON</a><br></br>
+                            <a className="line2" href="/landing/ecdf/camion/12-ton">12 TON</a>
+                            <a className="line2" href="/landing/ecdf/camion/13-ton">13 TON 280HP</a><br></br>
+                            <a className="line2" href="/landing/ecdf/camion/13-ton-330">13 TON 330HP</a>
+                            <a className="line2" href="/landing/ecdf/camion/18-ton">18 TON</a><br></br>
+                            <a className="line2" href="/landing/ecdf/camion/19-ton">19.5 TON</a><br></br>
+                            <a className="line2" href="/landing/ecdf/cabezal/24-ton">24 TON</a>
 
                         </div>
                     </div>
@@ -467,9 +467,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/t7h">T7H</a>
                         <div className="linksBox">
-                            <a className="line2" href="/landing/el-universo/cabezal/28-ton">28 TON</a>
-                            <a className="line2" href="/landing/el-universo/cabezal/42-ton">42 TON</a>
-                            <a className="line2" href="/landing/el-universo/cabezal/45-ton">45 TON</a>
+                            <a className="line2" href="/landing/ecdf/cabezal/28-ton">28 TON</a>
+                            <a className="line2" href="/landing/ecdf/cabezal/42-ton">42 TON</a>
+                            <a className="line2" href="/landing/ecdf/cabezal/45-ton">45 TON</a>
                         </div>
                     </div>
                 </div>
@@ -482,9 +482,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/c7h">C7H</a>
                         <div className="linksBox">
-                            <a className="line2" href="/landing/el-universo/camion/20-ton">20 TON</a>
-                            <a className="line2" href="/landing/el-universo/cabezal/48-ton">48 TON</a>
-                            <a className="line2" href="/landing/el-universo/cabezal/48-ton-catalinas">48 TON - CATALINAS</a>
+                            <a className="line2" href="/landing/ecdf/camion/20-ton">20 TON</a>
+                            <a className="line2" href="/landing/ecdf/cabezal/48-ton">48 TON</a>
+                            <a className="line2" href="/landing/ecdf/cabezal/48-ton-catalinas">48 TON - CATALINAS</a>
                         </div>
                     </div>
                 </div>
@@ -522,8 +522,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
                         <div className="linksBox">
-                            <a className="line2" src="" href="/landing/el-universo/volqueta/volqueta-t5g-280">8-9 m3</a>
-                            <a className="line2" src="" href="/landing/el-universo/volqueta/volqueta-t7h-430">10-14 m3</a>
+                            <a className="line2" src="" href="/landing/ecdf/volqueta/volqueta-t5g-280">8-9 m3</a>
+                            <a className="line2" src="" href="/landing/ecdf/volqueta/volqueta-t7h-430">10-14 m3</a>
                             <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("volqueta-20-m3") }}>20 m3</a>
                         </div>
                     </div>
@@ -550,7 +550,7 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
-                            <a className="line2" src="" href="/landing/el-universo/mixer/mixer-a7-1257">A7 8-9 m3</a>
+                            <a className="line2" src="" href="/landing/ecdf/mixer/mixer-a7-1257">A7 8-9 m3</a>
                             <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("mixer-c7h-12m3") }}>C7H 12 m3</a>
                         </div>
                     </div>
@@ -561,8 +561,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD</p>
                         <div className="linksBox">
-                            <a className="line2" src="" href="/landing/el-universo/excavadora/swe210">SWE210</a>
-                            <a className="line2" src="" href="/landing/el-universo/excavadora/swe365e">SWE365E</a>
+                            <a className="line2" src="" href="/landing/ecdf/excavadora/swe210">SWE210</a>
+                            <a className="line2" src="" href="/landing/ecdf/excavadora/swe365e">SWE365E</a>
                         </div>
                         <div className="linksBox">
                         </div>
