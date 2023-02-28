@@ -84,7 +84,7 @@ function Camion() {
             nombreCamion = "Camion de 10 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 10 TON"
             nombreSerie = "Serie T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX10TON"
             console.log('10 Toneladas')
             images = [
                 urlMedia + "10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador.webp",
@@ -138,7 +138,7 @@ function Camion() {
             nombreCamion = "Camion de 9 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 9 TON"
             nombreSerie = "Serie T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHCR9T1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX9TON"
             console.log('9 toneladas')
             images = [
                 urlMedia + "9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador.webp",
@@ -191,7 +191,7 @@ function Camion() {
             nombreCamion = "Camion de 12 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 12 TON"
             nombreSerie = "Serie T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB12TT5G1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX12TON"
             images = [
                 urlMedia + "12-toneladas/camion-blanco-sinotruk-de-12-toneladas-ecuador.webp",
                 urlMedia + "12-toneladas/camion-blanco-sinotruk-de-12-toneladas-ecuador-de-frente.webp"
@@ -244,7 +244,7 @@ function Camion() {
             nombreCamion = "Camion de 13 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 13 TON (280HP)"
             nombreSerie = "Serie T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB13T1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX13TON280"
             images = [
                 urlMedia + "13-toneladas/camion-blanco-sinotruk-de-13-toneladas-ecuador.webp",
                 urlMedia + "13-toneladas/camion-blanco-sinotruk-de-13-toneladas-ecuador-de-frente.webp"
@@ -297,7 +297,7 @@ function Camion() {
             nombreCamion = "Camion de 13 toneladas 330Hp | T5G-1167"
             camionSerie = "T5G 1167 / 13 TON (330HP)"
             nombreSerie = "Serie T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web13TOVDT5G1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX13TON330"
             images = [
                 urlMedia + "13-toneladas-330/camion-blanco-sinotruk-de-13-toneladas-ecuador.webp",
                 urlMedia + "13-toneladas-330/camion-blanco-sinotruk-de-13-toneladas-de-frente-ecuador.webp"
@@ -349,7 +349,7 @@ function Camion() {
             nombreCamion = "Camion de 18 toneladas | T5G-1257"
             camionSerie = "T5G 1257 / 18 TON"
             nombreSerie = "Serie T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB18T1257"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX18TON"
             images = [
                 urlMedia + "18-toneladas/camion-blanco-sinotruk-de-18-toneladas-ecuador.webp"
             ];
@@ -401,7 +401,7 @@ function Camion() {
             nombreCamion = "Camion de 19 toneladas | T5G-1257"
             camionSerie = "T5G 1257 / 19.5 TON"
             nombreSerie = "Serie T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB19T1257"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX19.5TON"
             images = [
                 urlMedia + "19-toneladas/camion-blanco-sinotruk-de-19-toneladas-ecuador.webp",
                 urlMedia + "19-toneladas/camion-amarillo-sinotruk-de-19-toneladas-ecuador.webp"
@@ -453,7 +453,7 @@ function Camion() {
             nombreCamion = "Camion de 3.5 toneladas | 1057"
             camionSerie = "1057 / 3.5 TON"
             nombreSerie = "Serie 100"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX3.5TON"
             images = [
                 urlMedia + "3.5-toneladas/camion-blanco-sinotruk-de-3.5-toneladas-ecuador.webp",
                 urlMedia + "3.5-toneladas/camion-blanco-sinotruk-de-3.5-toneladas-de-frente-ecuador.webp"
@@ -550,7 +550,7 @@ function Camion() {
             nombreCamion = "Camion de 3.6 toneladas | 1047"
             camionSerie = "1047 / 3.6 TON"
             nombreSerie = "Serie 100"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH3.6T"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX3.6TON"
             images = [
                 urlMedia + "3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-ecuador.webp",
                 urlMedia + "3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-de-frente-ecuador.webp"
@@ -647,7 +647,7 @@ function Camion() {
             nombreCamion = "Camion de 5 toneladas | 1067"
             camionSerie = "1067 / 5 TON"
             nombreSerie = "Serie 100"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB5T1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX5TON"
             images = [
                 urlMedia + "5-toneladas/camion-blanco-sinotruk-de-5-toneladas-ecuador.webp",
                 urlMedia + "5-toneladas/camion-blanco-sinotruk-de-5-toneladas-de-frente-ecuador.webp"
@@ -744,7 +744,7 @@ function Camion() {
             nombreCamion = "Camion de 6 toneladas | 1067"
             camionSerie = "1067 / 6 TON"
             nombreSerie = "Serie 100"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB6T1167"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX6TON"
             images = [
                 urlMedia + "6-toneladas/camion-blanco-sinotruk-de-6-toneladas-ecuador.webp",
                 urlMedia + "6-toneladas/camion-blanco-sinotruk-de-6-toneladas-de-frente-ecuador.webp"
@@ -829,7 +829,7 @@ function Camion() {
             nombreCamion = "Camion de 8 toneladas | 1147"
             camionSerie = "1147 / 8 TON"
             nombreSerie = "Serie 100"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB8T1147"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX8TON"
             images = [
                 urlMedia + "8-toneladas/camion-blanco-sinotruk-de-8-toneladas-ecuador.webp",
                 urlMedia + "8-toneladas/camion-blanco-sinotruk-de-8-toneladas-de-frente-ecuador.webp"
@@ -879,7 +879,7 @@ function Camion() {
             nombreCamion = "Camion de 20 toneladas | C7H-1256"
             camionSerie = "C7H 1256 / 20 TON"
             nombreSerie = "Serie C7H"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX20TON"
             images = [
                 urlMedia + "20-toneladas/camion-blanco-sinotruk-de-20-toneladas-ecuador.webp",
                 urlMedia + "20-toneladas/camion-blanco-sinotruk-de-20-toneladas-de-frente-ecuador.webp"

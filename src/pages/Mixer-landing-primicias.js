@@ -82,7 +82,7 @@ function Mixer() {
             nombreCamion = "Mixer A7 1257"
             camionSerie = "A7 1257 / MIXER"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPMMX89M3"
             images = [
                 urlMedia + "a7/mixer-blanco-sinotruk.webp",
                 urlMedia + "a7/mixer-blanco-sinotruk-de-frente.webp"

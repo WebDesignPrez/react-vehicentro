@@ -76,13 +76,13 @@ function Mixer() {
     //Comparacion paginas
     switch ((useParams("id").id)) {
 
-        //M ixer A7 1257
+        //Mixer A7 1257
         case "mixer-a7-1257":
             console.log('mixer 1257')
             nombreCamion = "Mixer A7 1257"
             camionSerie = "A7 1257 / MIXER"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXMX89M3"
             images = [
                 urlMedia + "a7/mixer-blanco-sinotruk.webp",
                 urlMedia + "a7/mixer-blanco-sinotruk-de-frente.webp"

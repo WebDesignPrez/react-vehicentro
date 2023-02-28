@@ -55,7 +55,7 @@ function Camion() {
             nombreCamion = "Camion de 24 toneladas | T5G-4187"
             camionSerie = "T5G 4187 / 24 TON"
             nombreSerie = "Serie T5G"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDF24TON"
             images = [
                 urlMedia+"24-toneladas/camion-blanco-sinotruk-de-24-toneladas-ecuador.webp",
                 urlMedia+"24-toneladas/camion-sinotruk-de-24-toneladas-de-frente-ecuador.webp"
@@ -113,7 +113,7 @@ function Camion() {
             nombreCamion = "Camion de 28 toneladas | T7H-390"
             camionSerie = "T7H 390 / 28 TON"
             nombreSerie = "Serie T7H"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDF28TON"
             images = [
                 urlMedia+"28-toneladas/camion-blanco-sinotruk-de-28-toneladas-ecuador.webp",
                 urlMedia+"28-toneladas/camion-blanco-sinotruk-de-28-toneladas-de-frente-ecuador.webp"
@@ -221,7 +221,7 @@ function Camion() {
             nombreCamion = "Camion de 42 toneladas | T7H-390"
             camionSerie = "T7H 390 / 42 TON"
             nombreSerie = "Serie T7H"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB42TT7H390"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDF42TON"
             images = [
                 urlMedia+"42-toneladas/camion-blanco-sinotruk-de-42-toneladas-ecuador.webp",
                 urlMedia+"42-toneladas/camion-blanco-sinotruk-de-42-toneladas-de-frente-ecuador.webp"
@@ -275,7 +275,7 @@ function Camion() {
             nombreCamion = "Camion de 45 toneladas | T7H-430"
             camionSerie = "T7H 430 / 45 TON"
             nombreSerie = "Serie T7H"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB45TT7H430"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDF45TON"
             images = [
                 urlMedia+"45-toneladas/camion-blanco-sinotruk-de-45-toneladas-ecuador.webp",
                 urlMedia+"45-toneladas/camion-blanco-sinotruk-de-45-toneladas-de-frente-ecuador.webp"
@@ -329,7 +329,7 @@ function Camion() {
             nombreCamion = "Camion de 48 toneladas | C7H-540"
             camionSerie = "C7H 540 / 48 TON"
             nombreSerie = "Serie C7H"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDF48TON"
             images = [
                 urlMedia+"48-toneladas/camion-amarillo-sinotruk-de-48-toneladas-ecuador.webp",
                 urlMedia+"48-toneladas/camion-amarillo-sinotruk-de-48-toneladas-de-frente-ecuador.webp"
@@ -385,7 +385,7 @@ function Camion() {
             nombreCamion = "Camion de 48 toneladas con Catalinas | C7H-540"
             camionSerie = "C7H 540 / 48 TON con Catalinas"
             nombreSerie = "Serie C7H"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540OFFROAD"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDF48TONCAT"
             images = [
                 urlMedia+"48-toneladas-catalinas/camion-blanco-sinotruk-de-48-toneladas-ecuador.webp",
                 urlMedia+"48-toneladas-catalinas/camion-blanco-sinotruk-de-48-toneladas-de-frente-ecuador.webp"

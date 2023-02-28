@@ -80,7 +80,7 @@ function Camion() {
             nombreCamion = "Volqueta | T5G-330"
             camionSerie = "VOLQUETA T5G-330 8-9M2"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA330"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXVOLQ89M3"
             images = [
                 urlMedia+"volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
                 urlMedia+"volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
@@ -135,7 +135,7 @@ function Camion() {
             nombreCamion = "Volqueta | T7H-430"
             camionSerie = "VOLQUETA T5G 430-330 10-14M2"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXVOLQ1014M3"
             images = [
                 urlMedia+"volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
             ];
