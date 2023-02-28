@@ -50,9 +50,13 @@ import Camion_landing_universo from "./pages/Camion-landing-universo"
 import Camion_landing_primicias from "./pages/Camion-landing-primicias"
 import Camion_landing_ecdf from "./pages/Camion-landing-ecdf"
 import Cabezal_landing_extra from "./pages/Cabezal-landing-extra"
+import Cabezal_landing_comercio from "./pages/Cabezal-landing-comercio"
 import Excavadora_landing_extra from "./pages/Excavadora-landing-extra"
+import Excavadora_landing_comercio from "./pages/Excavadora-landing-comercio"
 import Volqueta_landing_extra from "./pages/Volqueta-landing-extra"
+import Volqueta_landing_comercio from "./pages/Volqueta-landing-comercio"
 import Mixer_landing_extra from "./pages/Mixer-landing-extra"
+import Mixer_landing_comercio from "./pages/Mixer-landing-comercio"
 
 function App() {
 
@@ -114,6 +118,10 @@ function App() {
           <Route path="/landing/el-extra/volqueta/:id" element={<Volqueta_landing_extra />} />
           <Route path="/landing/el-extra/mixer/:id" element={<Mixer_landing_extra />} />
           <Route path="/landing/comercio/camion/:id" element={<Camion_landing_comercio />} />
+          <Route path="/landing/comercio/cabezal/:id" element={<Cabezal_landing_comercio />} />
+          <Route path="/landing/comercio/excavadora/:id" element={<Excavadora_landing_comercio />} />
+          <Route path="/landing/comercio/volqueta/:id" element={<Volqueta_landing_comercio />} />
+          <Route path="/landing/comercio/mixer/:id" element={<Mixer_landing_comercio />} />
           <Route path="/landing/el-universo/camion/:id" element={<Camion_landing_universo />} />
           <Route path="/landing/primicias/camion/:id" element={<Camion_landing_primicias />} />
           <Route path="/landing/ecdf/camion/:id" element={<Camion_landing_ecdf />} />

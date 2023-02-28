@@ -435,11 +435,11 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/100">100</a>
                         <div className="linksBox">
-                            <a className="line2" to="/camiones/camion-de-3-5-toneladas-1057" onClick={() => { openFormContact("camion-de-3-5-toneladas-1057") }}>3.5 TON</a>
-                            <a className="line2" to="/camiones/camion-de-3-6-toneladas" onClick={() => { openFormContact("camion-de-3-6-toneladas") }}>3.6 TON</a>
-                            <a className="line2" to="/camiones/camion-de-5-toneladas-1067" onClick={() => { openFormContact("camion-de-5-toneladas-1067") }}>5 TON</a>
-                            <a className="line2" to="/camiones/camion-de-6-toneladas-1067" onClick={() => { openFormContact("camion-de-6-toneladas-1067") }}>6 TON</a>
-                            <a className="line2" to="/camiones/camion-8-toneladas-1147" onClick={() => { openFormContact("camion-8-toneladas-1147") }}>8 TON</a>
+                            <a className="line2" href="/landing/comercio/camion/3-5-ton">3.5 TON</a>
+                            <a className="line2" href="/landing/comercio/camion/3-6-ton">3.6 TON</a>
+                            <a className="line2" href="/landing/comercio/camion/5-ton">5 TON</a>
+                            <a className="line2" href="/landing/comercio/camion/6-ton">6 TON</a>
+                            <a className="line2" href="/landing/comercio/camion/8-ton">8 TON</a>
                         </div>
                     </div>
                 </div>
@@ -449,13 +449,13 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/t5g">T5G</a>
                         <div className="linksBox">
-                            <a className="line2" to="/camiones/camion-de-9-toneladas" onClick={() => { openFormContact("camion-de-9-toneladas") }}>9 TON</a><br></br>
-                            <a className="line2" to="/camiones/camion-10-toneladas-t5g-1167" onClick={() => { openFormContact("camion-10-toneladas-t5g-1167") }}>10 TON</a><br></br>
-                            <a className="line2" to="/camiones/camion-12-toneladas-t5g-1167" onClick={() => { openFormContact("camion-12-toneladas-t5g-1167") }}>12 TON</a>
-                            <a className="line2" to="/camiones/camion-13-toneladas-t5g-1167" onClick={() => { openFormContact("camion-13-toneladas-t5g-1167") }}>13 TON 280HP</a><br></br>
-                            <a className="line2" to="/camiones/camion-13-toneladas-t5g-1167-330hp" onClick={() => { openFormContact("camion-13-toneladas-t5g-1167-330hp") }}>13 TON 330HP</a>
-                            <a className="line2" to="/camiones/camion-de-18-toneladas-t5g-1257" onClick={() => { openFormContact("camion-de-18-toneladas-t5g-1257") }}>18 TON</a><br></br>
-                            <a className="line2" to="/camiones/camion-de-19-toneladas-t5g-1257" onClick={() => { openFormContact("camion-de-19-toneladas-t5g-1257") }}>19.5 TON</a><br></br>
+                            <a className="line2" href="landing/comercio/camion/9-ton">9 TON</a><br></br>
+                            <a className="line2" href="/landing/comercio/camion/10-ton">10 TON</a><br></br>
+                            <a className="line2" href="/landing/comercio/camion/12-ton">12 TON</a>
+                            <a className="line2" href="/landing/comercio/camion/13-ton">13 TON 280HP</a><br></br>
+                            <a className="line2" href="/landing/comercio/camion/13-ton-330">13 TON 330HP</a>
+                            <a className="line2" href="/landing/comercio/camion/18-ton">18 TON</a><br></br>
+                            <a className="line2" href="/landing/comercio/camion/19-ton">19.5 TON</a><br></br>
                             <a className="line2" to="/cabezales/cabezal-t5g-4187" onClick={() => { openFormContact("cabezal-t5g-4187") }}>24 TON</a>
 
                         </div>
@@ -467,9 +467,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/t7h">T7H</a>
                         <div className="linksBox">
-                            <a className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas" onClick={() => { openFormContact("cabezal-t7h-390-28-toneladas") }}>28 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas" onClick={() => { openFormContact("cabezal-t7h-390-42-toneladas") }}>42 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-t7h-430-45-toneladas" onClick={() => { openFormContact("cabezal-t7h-430-45-toneladas") }}>45 TON</a>
+                            <a className="line2" href="/landing/comercio/cabezal/28-ton">28 TON</a>
+                            <a className="line2" href="/landing/comercio/cabezal/42-ton">42 TON</a>
+                            <a className="line2" href="/landing/comercio/cabezal/45-ton">45 TON</a>
                         </div>
                     </div>
                 </div>
@@ -482,9 +482,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/c7h">C7H</a>
                         <div className="linksBox">
-                            <a className="line2" to="/camiones/camion-20-toneladas-1256" onClick={() => { openFormContact("camion-20-toneladas-1256") }}>20 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-c7h-540" onClick={() => { openFormContact("cabezal-c7h-540") }}>48 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas" onClick={() => { openFormContact("cabezal-c7h-540-catalinas-48-toneladas") }}>48 TON - CATALINAS</a>
+                            <a className="line2" href="/landing/comercio/camion/20-ton">20 TON</a>
+                            <a className="line2" href="/landing/comercio/cabezal/48-ton">48 TON</a>
+                            <a className="line2" href="/landing/comercio/cabezal/48-ton-catalinas">48 TON - CATALINAS</a>
                         </div>
                     </div>
                 </div>
@@ -522,8 +522,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/volquetas/volqueta-t5g-280" onClick={() => { openFormContact("volqueta-t5g-280") }}>8-9 m3</a>
-                            <a className="line2" src="" to="/volquetas/volqueta-t7h-430" onClick={() => { openFormContact("volqueta-t7h-430") }}>10-14 m3</a>
+                            <a className="line2" src="" href="/landing/comercio/volqueta/volqueta-t5g-280">8-9 m3</a>
+                            <a className="line2" src="" href="/landing/comercio/volqueta/volqueta-t7h-430">10-14 m3</a>
                             <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("volqueta-20-m3") }}>20 m3</a>
                         </div>
                     </div>
@@ -550,7 +550,7 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/mixer/mixer-a7-1257" onClick={() => { openFormContact("mixer-a7-1257") }}>A7 8-9 m3</a>
+                            <a className="line2" src="" href="/landing/comercio/mixer/mixer-a7-1257">A7 8-9 m3</a>
                             <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("mixer-c7h-12m3") }}>C7H 12 m3</a>
                         </div>
                     </div>
@@ -561,8 +561,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD</p>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/excavadoras/swe210" onClick={() => { openFormContact("swe210") }}>SWE210</a>
-                            <a className="line2" src="" to="/excavadoras/swe365e" onClick={() => { openFormContact("swe365e") }}>SWE365E</a>
+                            <a className="line2" src="" href="/landing/comercio/excavadora/swe210">SWE210</a>
+                            <a className="line2" src="" href="/landing/comercio/excavadora/swe365e">SWE365E</a>
                         </div>
                         <div className="linksBox">
                         </div>
