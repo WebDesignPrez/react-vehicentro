@@ -449,14 +449,14 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <a className="titleBox2" to="/serie/t5g">T5G</a>
                         <div className="linksBox">
-                            <a className="line2" href="landing/comercio/camion/9-ton">9 TON</a><br></br>
+                            <a className="line2" href="/landing/comercio/camion/9-ton">9 TON</a><br></br>
                             <a className="line2" href="/landing/comercio/camion/10-ton">10 TON</a><br></br>
                             <a className="line2" href="/landing/comercio/camion/12-ton">12 TON</a>
                             <a className="line2" href="/landing/comercio/camion/13-ton">13 TON 280HP</a><br></br>
                             <a className="line2" href="/landing/comercio/camion/13-ton-330">13 TON 330HP</a>
                             <a className="line2" href="/landing/comercio/camion/18-ton">18 TON</a><br></br>
                             <a className="line2" href="/landing/comercio/camion/19-ton">19.5 TON</a><br></br>
-                            <a className="line2" to="/cabezales/cabezal-t5g-4187" onClick={() => { openFormContact("cabezal-t5g-4187") }}>24 TON</a>
+                            <a className="line2" href="/landing/comercio/cabezal/24-ton">24 TON</a>
 
                         </div>
                     </div>

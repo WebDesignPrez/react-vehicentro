@@ -456,7 +456,7 @@ function Block3() {
                             <a className="line2" href="/landing/el-universo/camion/13-ton-330">13 TON 330HP</a>
                             <a className="line2" href="/landing/el-universo/camion/18-ton">18 TON</a><br></br>
                             <a className="line2" href="/landing/el-universo/camion/19-ton">19.5 TON</a><br></br>
-                            <a className="line2" to="/cabezales/cabezal-t5g-4187" onClick={() => { openFormContact("cabezal-t5g-4187") }}>24 TON</a>
+                            <a className="line2" href="/landing/el-universo/cabezal/24-ton">24 TON</a>
 
                         </div>
                     </div>
