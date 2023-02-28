@@ -12,8 +12,6 @@ import '../modalContact.css';
 import FormContactFicha from "../components/FormContactFicha";
 import { Helmet } from "react-helmet";
 import env from '../config';
-
-let cuotas
 let imagen
 let images
 let motor
@@ -45,7 +43,7 @@ let nombreSerie
 let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
 let urlMedia = env.url
 
-function Mixer() {
+function Camion() {
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
     useEffect(() => {
@@ -76,97 +74,113 @@ function Mixer() {
     //Comparacion paginas
     switch ((useParams("id").id)) {
 
-        //M ixer A7 1257
-        case "mixer-a7-1257":
-            console.log('mixer 1257')
-            nombreCamion = "Mixer A7 1257"
-            camionSerie = "A7 1257 / MIXER"
+        //volqueta 280 330
+        case "volqueta-t5g-280":
+            console.log('volqueta 330')
+            nombreCamion = "Volqueta | T5G-330"
+            camionSerie = "VOLQUETA T5G-330 8-9M2"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA330"
             images = [
-                urlMedia + "a7/mixer-blanco-sinotruk.webp",
-                urlMedia + "a7/mixer-blanco-sinotruk-de-frente.webp"
+                urlMedia+"volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
+                urlMedia+"volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
             ];
-            textoMotor1 = "380 HP"
-            textoMotor2 = "Modelo 1257 - 8m3"
+            textoMotor1 = "330 HP"
+            textoMotor2 = "Modelo T5G-330"
             textoMotor3 = "Ficha técnica"
-            precio = <div className="banner"><img src={urlMedia + "volqueta-280/logo-sinotruk.webp"} /></div>
-            cuotas = 'Cuotas desde: $447.00'
-            motor = urlMedia + "a7/motor-mixer.webp"
-            garantia = urlMedia + "a7/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "a7/mixer-serie.webp"
 
+            precio = <div className="banner"><img src={urlMedia+"volqueta-280/logo-sinotruk.webp"} /></div>
+            motor = urlMedia+"volqueta-280/motor-sinotruk-de-volqueta-ecuador.webp"
+            garantia = urlMedia+"volqueta-280/5-anos-de-garantia.webp"
+            tecnologia = urlMedia+"volqueta-280/tecnologia-alemana.webp"
             caracteristicas = [
-                urlMedia + "a7/transmision-10-2.webp",
-                urlMedia + "a7/cilindros.webp",
-                urlMedia + "a7/camion-de-3.5-toneladas-freno-de-aire.webp",
-                urlMedia + "a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
+                urlMedia+"volqueta-280/volqueta-con-potencia-340hp.webp",
+                urlMedia+"volqueta-280/volqueta-cilindraje.webp",
+                urlMedia+"volqueta-280/volqueta-con-freno-a-las-valvulas.webp",
+                urlMedia+"volqueta-280/inyeccion.webp"
             ]
-            cabina = urlMedia + "a7/cabina.webp"
-            marcas = ""
+            cabina = urlMedia+"volqueta-280/cabina-de-volqueta-sinotruk-ecuador.webp"
+            marcas = urlMedia+"volqueta-280/marcas-vehicentro.webp"
             internas1 = [
-                urlMedia + "a7/mandos.webp"
+                urlMedia+"volqueta-280/volante-deportivo.webp",
+                urlMedia+"volqueta-280/wabco.webp",
+                urlMedia+"volqueta-280/control-en-cabina.webp",
+                urlMedia+"volqueta-280/hidraulico.webp",
+                urlMedia+"volqueta-280/portavasos.webp",
+                urlMedia+"volqueta-280/cabina-con-litera.webp"
             ];
             internas2 = [
-                urlMedia + "a7/tablero.webp"
+                urlMedia+"volqueta-280/climatizador.webp",
+                urlMedia+"volqueta-280/radio-mp5.webp",
+                urlMedia+"volqueta-280/asiento-neumatico.webp",
+                urlMedia+"volqueta-280/elevavidrios-electrico.webp",
+                urlMedia+"volqueta-280/palanca.webp"
             ];
-            internas1b = [
-                urlMedia + "a7/bloqueo.webp"
-            ];
-            internas2b = [
-                urlMedia + "a7/transmision.webp"
-            ];
-            medidas = urlMedia + "a7/dimensiones-de-mixer-de-8-m3-sinotruk.webp"
-            medidasMovil = urlMedia + "a7/dimensiones-de-mixer-de-8-m3-sinotruk-responsive.webp"
-            audio_motor = urlMedia + "a7/motor.mp3"
 
+            medidas = urlMedia+"volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk.webp"
+            medidasMovil = urlMedia+"volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk-responsive.webp"
+            audio_motor = urlMedia+"volqueta-280/motor.wav"
 
-            internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
-            //loop slider
+            internas = internas1.concat(internas2)
 
-            slide3 = internas1b.map((interna) =>
-                <div className="each-slide-effect" >
-                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
-                    </div>
-                </div>
-            );
-
-            slide3b = internas2b.map((interna) =>
-                <div className="each-slide-effect" >
-                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
-                    </div>
-                </div>
-            );
-
-            contenedorMarcas = <div style={{ display: `contents` }} >
-                {internas1b.length > 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <Fade >
-                            {slide3}
-                        </Fade>
-                    </div>
-                }
-                {internas1b.length == 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas1b[0]} alt="" />
-                    </div>
-                }
-
-                {internas2b.length > 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <Fade >
-                            {slide3b}
-                        </Fade>
-                    </div>
-                }
-                {internas2b.length == 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas2b[0]} alt="" />
-                    </div>
-                }
+            contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
             </div>
 
-            contenedorVidaUtil = 'Vida útil de más de 1.5 MILLONES de kilómetros'
+            break;
+
+        //volqueta 430
+        case "volqueta-t7h-430":
+            console.log('volqueta T7H-430')
+            nombreCamion = "Volqueta | T7H-430"
+            camionSerie = "VOLQUETA T5G 430-330 10-14M2"
+            nombreSerie = "Especiales"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
+            images = [
+                urlMedia+"volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
+            ];
+            textoMotor1 = "340 HP"
+            textoMotor2 = "Modelo T7H-430"
+            textoMotor3 = "Ficha técnica"
+
+            precio = <div className="banner"><img src={urlMedia+"volqueta-430/logo-sinotruk.webp"} /></div>
+            motor = urlMedia+"volqueta-430/motor-sinotruk-de-volqueta-ecuador.webp"
+            garantia = urlMedia+"volqueta-430/5-anos-de-garantia.webp"
+            tecnologia = urlMedia+"volqueta-430/tecnologia-alemana.webp"
+            caracteristicas = [
+                urlMedia+"volqueta-430/volqueta-con-potencia-430hp.webp",
+                urlMedia+"volqueta-430/volqueta-cilindraje.webp",
+                urlMedia+"volqueta-430/volqueta-con-freno-a-las-valvulas.webp",
+                urlMedia+"volqueta-430/inyeccion.webp"
+            ]
+            cabina = urlMedia+"volqueta-430/cabina-de-volqueta-sinotruk-ecuador.webp"
+            marcas = urlMedia+"volqueta-430/marcas-vehicentro.webp"
+            internas1 = [
+                urlMedia+"volqueta-430/volante.webp",
+                urlMedia+"volqueta-430/vidrios-electricos.webp",
+                urlMedia+"volqueta-430/control-en-tablero-dos.webp",
+                urlMedia+"volqueta-430/control-en-tablero.webp",
+                urlMedia+"volqueta-430/nevera.webp",
+                urlMedia+"volqueta-430/cabina-amplia.webp"
+            ];
+            internas2 = [
+                urlMedia+"volqueta-430/compartimentos.webp",
+                urlMedia+"volqueta-430/componente.webp",
+                urlMedia+"volqueta-430/wabco-dos.webp",
+                urlMedia+"volqueta-430/wabco.webp",
+                urlMedia+"volqueta-430/palanca.webp"
+            ];
+
+            medidas = urlMedia+"volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk.webp"
+            medidasMovil = urlMedia+"volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk-responsive.webp"
+            audio_motor = urlMedia+"volqueta-430/motor.wav"
+
+            internas = internas1.concat(internas2)
+
+            contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+            </div>
+
             break;
 
         default:
@@ -177,10 +191,13 @@ function Mixer() {
 
     switch ((useParams("id").id)) {
 
-        case "mixer-a7-1257":
-            imagen = urlMedia + "a7/mixer-en-la-carretera-sinotruk.webp"
+        case "volqueta-t5g-280":
+            imagen = urlMedia+"volqueta-280/volqueta-en-la-carretera.webp"
             break;
 
+        case "volqueta-t7h-430":
+            imagen = urlMedia+"volqueta-430/volqueta-en-la-carretera.webp"
+            break;
 
         default:
             break;
@@ -221,8 +238,8 @@ function Mixer() {
         <Helmet>
             <title>{nombreCamion} - Vehicentro</title>
             <meta name="description" content={nombreCamion} />
-            <meta name="robots" content="noindex" />
-            <meta name="googlebot" content="noindex" />
+      <meta name="robots" content="noindex" />
+      <meta name="googlebot" content="noindex" />
         </Helmet>
         <Landingmenu />
         <div className="boxesIni posRelative content2">
@@ -242,7 +259,7 @@ function Mixer() {
                     <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
                     <div onClick={openFormContact} className="flex-row  textoMotor2">{textoMotor2}</div>
                     <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt="arrow" /></div>
+                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia+"arrow-rojo.png"} alt="arrow" /></div>
                     <div className="flex-row  textoMotor4">Escucha tu motor</div>
                 </div>
                 <div className="boxPlayerMotor ">
@@ -348,7 +365,8 @@ function Mixer() {
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             </div>
         </div>
-        <Landingfooter />
+        
+    <Landingfooter />
 
         {modalFormIsOpen &&
             <FormContactFicha url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
@@ -361,23 +379,22 @@ function Landingmenu() {
       <>
         <div className="menuHome">
           <div className="logoHome">
-            <a href="/landing/comercio/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+            <a href="/landing/ecdf/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
           </div>
         </div>
       </>
     )
   }
-function Landingfooter() {
+  function Landingfooter() {
     return (
-        <>
-            <div className="menuHome">
-                <div className="logoHome">
-                    <a href="/landing/comercio/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
-                </div>
-            </div>
-        </>
+      <>
+        <div className="menuHome">
+          <div className="logoHome">
+            <a href="/landing/ecdf/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+          </div>
+        </div>
+      </>
     )
-}
+  }
 
-
-export default Mixer
+export default Camion

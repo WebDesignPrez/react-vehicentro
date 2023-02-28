@@ -633,7 +633,7 @@ function Landingmenu() {
         <>
             <div className="menuHome">
                 <div className="logoHome">
-                    <a href="/landing/comercio/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+                    <a href="/landing/ecdf/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
                 </div>
             </div>
         </>
@@ -644,7 +644,7 @@ function Landingfooter() {
         <>
             <div className="menuHome">
                 <div className="logoHome">
-                    <a href="/landing/comercio/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+                    <a href="/landing/ecdf/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
                 </div>
             </div>
         </>
