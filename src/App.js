@@ -51,12 +51,16 @@ import Camion_landing_primicias from "./pages/Camion-landing-primicias"
 import Camion_landing_ecdf from "./pages/Camion-landing-ecdf"
 import Cabezal_landing_extra from "./pages/Cabezal-landing-extra"
 import Cabezal_landing_comercio from "./pages/Cabezal-landing-comercio"
+import Cabezal_landing_universo from "./pages/Cabezal-landing-universo"
 import Excavadora_landing_extra from "./pages/Excavadora-landing-extra"
 import Excavadora_landing_comercio from "./pages/Excavadora-landing-comercio"
+import Excavadora_landing_universo from "./pages/Excavadora-landing-universo"
 import Volqueta_landing_extra from "./pages/Volqueta-landing-extra"
 import Volqueta_landing_comercio from "./pages/Volqueta-landing-comercio"
+import Volqueta_landing_universo from "./pages/Volqueta-landing-universo"
 import Mixer_landing_extra from "./pages/Mixer-landing-extra"
 import Mixer_landing_comercio from "./pages/Mixer-landing-comercio"
+import Mixer_landing_universo from "./pages/Mixer-landing-universo"
 
 function App() {
 
@@ -123,6 +127,10 @@ function App() {
           <Route path="/landing/comercio/volqueta/:id" element={<Volqueta_landing_comercio />} />
           <Route path="/landing/comercio/mixer/:id" element={<Mixer_landing_comercio />} />
           <Route path="/landing/el-universo/camion/:id" element={<Camion_landing_universo />} />
+          <Route path="/landing/el-universo/cabezal/:id" element={<Cabezal_landing_universo />} />
+          <Route path="/landing/el-universo/excavadora/:id" element={<Excavadora_landing_universo />} />
+          <Route path="/landing/el-universo/volqueta/:id" element={<Volqueta_landing_universo />} />
+          <Route path="/landing/el-universo/mixer/:id" element={<Mixer_landing_universo />} />
           <Route path="/landing/primicias/camion/:id" element={<Camion_landing_primicias />} />
           <Route path="/landing/ecdf/camion/:id" element={<Camion_landing_ecdf />} />
         </Routes>
