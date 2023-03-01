@@ -239,7 +239,7 @@ function Block3() {
                             <div className="linksBox">
                                 <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink>
                                 <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
-                                <NavLink className="line2" src="" to="/proximamente">20 m3</NavLink>
+                                <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540">20 m3</NavLink>
                             </div>
                         </div>
                 </div>

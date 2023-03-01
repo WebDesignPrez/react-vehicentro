@@ -35,11 +35,11 @@ function Content1() {
             <div className="boxesIni posRelative content2 fondonegro">
                 <div className="boxRight">
                     <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia+"especiales/volqueta.mp4"} className="videoWidth" />
+                        <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "especiales/volqueta.mp4"} className="videoWidth" />
                     </div>
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia+"especiales/motor.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "especiales/motor.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     <div className="boxPlayerMotor ">
                         <audio id="audioMotor" controls type="audio/mpeg"></audio>
                     </div>
@@ -53,18 +53,18 @@ function Content2() {
 
     series = [
         {
-        serie: <p>T5G-330 <br></br>8-9 m3</p>,
-        modelo: "VOLQUETA",
-        url: "/volquetas/volqueta-t5g-280"
-    }, {
-        serie: <p>T5G-430 <br></br>10-14 m3</p>,
-        modelo: "VOLQUETA",
-        url: "/volquetas/volqueta-t7h-430"
-    }, {
-        serie: <p>C7H-540 <br></br>20 m3</p>,
-        modelo: "VOLQUETA",
-        url: "/proximamente"
-    }
+            serie: <p>T5G-330 <br></br>8-9 m3</p>,
+            modelo: "VOLQUETA",
+            url: "/volquetas/volqueta-t5g-280"
+        }, {
+            serie: <p>T5G-430 <br></br>10-14 m3</p>,
+            modelo: "VOLQUETA",
+            url: "/volquetas/volqueta-t7h-430"
+        }, {
+            serie: <p>C7H-540 <br></br>20 m3</p>,
+            modelo: "VOLQUETA",
+            url: "/volquetas/volqueta-c7h-540"
+        }
     ]
 
     return (
@@ -92,7 +92,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia+"especiales/especiales.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "especiales/especiales.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -108,7 +108,7 @@ function Content3() {
                 <div className="marcasbg textoImagenesProducto" >
 
                     <div className="boxRightHeader  half icon_center series" >
-                        <div className="banner"><img src={urlMedia+"especiales/tecnologia.webp"} /></div>
+                        <div className="banner"><img src={urlMedia + "especiales/tecnologia.webp"} /></div>
                     </div>
 
                     <div className="boxRightHeader  half text_icon_center series" >
@@ -116,7 +116,7 @@ function Content3() {
                     </div>
 
                     <div className="boxRightHeader  half icon_right series">
-                        <div className="banner"><img src={urlMedia+"especiales/garantia.webp"} /></div>
+                        <div className="banner"><img src={urlMedia + "especiales/garantia.webp"} /></div>
                     </div>
 
                 </div>
@@ -130,10 +130,9 @@ function Content3() {
 function Content4() {
     return (
         <>
-            
-        <div className="marcasSeries fondonegro">
-            <img src={urlMedia+"especiales/marcasSeries.webp"} alt="Marcas Series" width="1532" height="355" />
-        </div>
+            <div className="marcasSeries fondonegro">
+                <img src={urlMedia + "especiales/marcasSeries.webp"} alt="Marcas Series" width="1532" height="355" />
+            </div>
         </>
     )
 }
@@ -143,7 +142,7 @@ function Content5() {
         <>
             <div className="boxesIni posRelative centrado">
                 <div className="centrado">
-                    <img src={urlMedia+"especiales/especiales-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "especiales/especiales-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
                 <div>
                     <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBSERIEVOLQUETAS" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />

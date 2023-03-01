@@ -531,7 +531,7 @@ export default function NavBar() {
                             <p className="colTitle">Volquetas</p>
                             <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">T5G-330 8-9m3</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430">T7H-430 10-14m3</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/proximamente">C7H-540 20m3</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/volquetas/volqueta-c7h-540">C7H-540 20m3</NavLink></p>
                             <div>
                             </div>
                         </div>
