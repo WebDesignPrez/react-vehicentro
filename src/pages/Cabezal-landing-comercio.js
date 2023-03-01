@@ -625,6 +625,9 @@ function Camion() {
             </div>
         </div>
         <Landingfooter />
+        {modalFormIsOpen &&
+            <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
+        }
     </div>
 }
 
