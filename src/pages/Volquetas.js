@@ -63,7 +63,7 @@ function Content2() {
     }, {
         serie: <p>C7H-540 <br></br>20 m3</p>,
         modelo: "VOLQUETA",
-        url: "/proximamente"
+        url: "/volquetas/volqueta-c7h-540"
     }
     ]
 
