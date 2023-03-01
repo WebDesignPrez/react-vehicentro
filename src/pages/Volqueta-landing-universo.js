@@ -81,6 +81,7 @@ function Camion() {
             camionSerie = "VOLQUETA T5G-330 8-9M2"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNVOLQ89M3"
+            //bdcFicha = bdc;
             images = [
                 urlMedia+"volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
                 urlMedia+"volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
@@ -369,7 +370,7 @@ function Camion() {
     <Landingfooter />
 
         {modalFormIsOpen &&
-            <FormContactFicha url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
+            <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
         }
     </div>
 }
