@@ -139,7 +139,7 @@ function Camion() {
             images = [
                 urlMedia+"volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
             ];
-            textoMotor1 = "340 HP"
+            textoMotor1 = "430 HP"
             textoMotor2 = "Modelo T7H-430"
             textoMotor3 = "Ficha técnica"
 
@@ -369,7 +369,7 @@ function Camion() {
     <Landingfooter />
 
         {modalFormIsOpen &&
-            <FormContactFicha url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
+            <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
         }
     </div>
 }

@@ -351,7 +351,7 @@ function Mixer() {
         <Landingfooter />
 
         {modalFormIsOpen &&
-            <FormContactFicha url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
+            <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
         }
     </div>
 }

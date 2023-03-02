@@ -413,7 +413,7 @@ function Block3() {
 
                 break;
 
-                
+
             default:
                 break;
         }
@@ -492,13 +492,12 @@ function Block3() {
 
 
                     <Slide duration={2000}>
-
                         <div className="each-slide-effect">
-                            <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
+                            <div style={{ 'backgroundImage': `url(${urlMedia}home/motor.webp)`, height: `23.2vw` }}>
                             </div>
                         </div>
                         <div className="each-slide-effect">
-                            <div style={{ 'backgroundImage': `url(../images/home/veinstein.webp)`, height: `23.2vw` }}>
+                            <div style={{ 'backgroundImage': `url(${urlMedia}home/veinstein.webp)`, height: `23.2vw` }}>
                             </div>
                         </div>
                     </Slide>

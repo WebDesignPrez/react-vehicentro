@@ -139,7 +139,7 @@ function Camion() {
             images = [
                 urlMedia + "volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
             ];
-            textoMotor1 = "340 HP"
+            textoMotor1 = "430 HP"
             textoMotor2 = "Modelo T7H-430"
             textoMotor3 = "Ficha técnica"
 
@@ -188,7 +188,7 @@ function Camion() {
         case "volqueta-c7h-540":
             console.log('volqueta C7H')
             nombreCamion = "Volqueta | C7H-540"
-            camionSerie = "VOLQUETA T5G 430-330 10-14M2"
+            camionSerie = "VOLQUETA 20M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
             images = [
