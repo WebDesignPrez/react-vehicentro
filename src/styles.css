@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.inputDisplay{
+    display: block !important;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -1359,10 +1363,22 @@ li.mouseA:hover {
 .result {
     z-index: 100000;
     position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 8.5vh;
+    width: 80vw;
     color: #000;
     background-color: #fff;
+}
+
+.result li{
+    list-style: none;
+    padding: 2vh 3vw;
+    background-color: #fff;
+    transition: background-color 300ms ;
+}
+
+.result li:hover{
+    background-color: #ccc;
+    transition: background-color 300ms ;
 }
 
 .trabajanosotros {
@@ -2025,6 +2041,7 @@ a.colItem.meniu.negro {
 
 .searchHome{
     justify-content: end;
+    cursor: pointer;
 }
 
 .block3 .bottomContainer .linksBox.tresColumneitor{

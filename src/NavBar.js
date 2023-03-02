@@ -11,10 +11,17 @@ export default function NavBar() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
+        
+
         const navSlideClickH = () => {
             const burger = document.querySelector(".burger");
             const navLinks = document.querySelectorAll(".nav-links-h a");
 
+            document.querySelector(".searchHome").addEventListener('click', function(){
+                console.log("Click")
+                document.querySelector(".navSearch").classList.toggle("inputDisplay");
+            })
+            
 
             navLinks.forEach((link, index) => {
                 link.addEventListener("click", (ev) => {

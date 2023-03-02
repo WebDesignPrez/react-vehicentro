@@ -24,15 +24,17 @@ function SearchBar(){
             indexData.forEach(a => {
                 s = a.tags
 
-                console.log(s)
+                //console.log(s)
 
-               /*  if (s.includes(event.target.value)) {
-                    a.resultados.forEach(res => {
-                        //console.log(res.url)
-                        setMenu($menuBusqueda => [...menuBusqueda, { url: res.url, desc: res.descripcion }])
-                    })
+                 if (s.includes(event.target.value)) {
+                    //a.resultados.forEach(res => {
+                        //console.log(a.url)
 
-                } */
+                        setMenu(menuBusqueda => [...menuBusqueda, { url: a.url, desc: a.descripcion }])
+                        
+                   //})
+
+                } 
             })
         }
     }
@@ -43,7 +45,7 @@ function SearchBar(){
             {menuBusqueda.length > 0 &&
                 <div className="result">
                     {menuBusqueda.map((item, index) => (
-                        <li>
+                        <li key={item.url}>
                             <NavLink to={item.url}>
                                 {item.desc}
                             </NavLink>
