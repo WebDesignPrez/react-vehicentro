@@ -1381,6 +1381,12 @@ li.mouseA:hover {
     transition: background-color 300ms ;
 }
 
+.result li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color:#000;
+}
+
 .trabajanosotros {
     padding: 3%;
 }
