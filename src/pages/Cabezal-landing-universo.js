@@ -125,7 +125,7 @@ function Camion() {
 
             medidas = urlMedia+"24-toneladas/dimensiones-de-camion-de-24-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"24-toneladas/dimensiones-de-camion-de-24-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"24-toneladas/motor.wav"
+            audio_motor = urlMedia+"24-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -180,7 +180,7 @@ function Camion() {
 
             medidas = urlMedia+"28-toneladas/dimensiones-de-camion-de-28-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"28-toneladas/dimensiones-de-camion-de-28-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"28-toneladas/motor.wav"
+            audio_motor = urlMedia+"28-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -234,7 +234,7 @@ function Camion() {
 
             medidas = urlMedia+"28-toneladas-retardador/dimensiones-de-camion-de-28-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"28-toneladas-retardador/dimensiones-de-camion-de-28-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"28-toneladas-retardador/motor.wav"
+            audio_motor = urlMedia+"28-toneladas-retardador/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -288,7 +288,7 @@ function Camion() {
 
             medidas = urlMedia+"42-toneladas/dimensiones-de-camion-de-42-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"42-toneladas/dimensiones-de-camion-de-42-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"42-toneladas/motor.wav"
+            audio_motor = urlMedia+"42-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -342,7 +342,7 @@ function Camion() {
 
             medidas = urlMedia+"45-toneladas/dimensiones-de-camion-de-45-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"45-toneladas/dimensiones-de-camion-de-45-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"45-toneladas/motor.wav"
+            audio_motor = urlMedia+"45-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -398,7 +398,7 @@ function Camion() {
 
             medidas = urlMedia+"48-toneladas/dimensiones-de-camion-de-48-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"48-toneladas/dimensiones-de-camion-de-48-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"48-toneladas/motor.wav"
+            audio_motor = urlMedia+"48-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -454,7 +454,7 @@ function Camion() {
 
             medidas = urlMedia+"48-toneladas-catalinas/dimensiones-de-camion-de-48-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"48-toneladas-catalinas/dimensiones-de-camion-de-48-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"48-toneladas-catalinas/motor.wav"
+            audio_motor = urlMedia+"48-toneladas-catalinas/motor.mp3"
 
             internas = internas1.concat(internas2)
 

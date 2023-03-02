@@ -4,11 +4,12 @@ import BannerContacto from "../components/BannerContacto";
 import Footer from "../components/Footer";
 import '../stylesIn.css';
 import { useParams } from "react-router";
-import { Slide } from 'react-slideshow-image';
+import { Slide, Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import '../slider.css';
-import { useEffect } from "react";
-import { nodeName } from "jquery";
+import { useEffect, useState } from "react";
+import '../modalContact.css';
+import FormContactFicha from "../components/FormContactFicha";
 import { Helmet } from "react-helmet";
 import env from '../config';
 
@@ -45,6 +46,36 @@ let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexione
 let urlMedia = env.url
 
 function Camion() {
+
+    const [modalFormIsOpen, setFormIsOpen] = useState(false);
+
+
+    useEffect(() => {
+        const motorPlayer = document.getElementById('audioMotor')
+        motorPlayer.src = audio_motor
+
+        const keyDownHandler = event => {
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                closeFormContact()
+            }
+        };
+
+        document.addEventListener('keydown', keyDownHandler);
+        return () => {
+            document.removeEventListener('keydown', keyDownHandler);
+        };
+    }, []);
+
+
+    function openFormContact() {
+        setFormIsOpen(true)
+    }
+
+    function closeFormContact() {
+        setFormIsOpen(false)
+    }
+
 
     //Comparacion paginas
     switch ((useParams("id").id)) {
@@ -95,7 +126,7 @@ function Camion() {
 
             medidas = urlMedia+"24-toneladas/dimensiones-de-camion-de-24-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"24-toneladas/dimensiones-de-camion-de-24-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"24-toneladas/motor.wav"
+            audio_motor = urlMedia+"24-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -150,7 +181,7 @@ function Camion() {
 
             medidas = urlMedia+"28-toneladas/dimensiones-de-camion-de-28-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"28-toneladas/dimensiones-de-camion-de-28-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"28-toneladas/motor.wav"
+            audio_motor = urlMedia+"28-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -204,7 +235,7 @@ function Camion() {
 
             medidas = urlMedia+"28-toneladas-retardador/dimensiones-de-camion-de-28-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"28-toneladas-retardador/dimensiones-de-camion-de-28-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"28-toneladas-retardador/motor.wav"
+            audio_motor = urlMedia+"28-toneladas-retardador/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -258,7 +289,7 @@ function Camion() {
 
             medidas = urlMedia+"42-toneladas/dimensiones-de-camion-de-42-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"42-toneladas/dimensiones-de-camion-de-42-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"42-toneladas/motor.wav"
+            audio_motor = urlMedia+"42-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -312,7 +343,7 @@ function Camion() {
 
             medidas = urlMedia+"45-toneladas/dimensiones-de-camion-de-45-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"45-toneladas/dimensiones-de-camion-de-45-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"45-toneladas/motor.wav"
+            audio_motor = urlMedia+"45-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -368,7 +399,7 @@ function Camion() {
 
             medidas = urlMedia+"48-toneladas/dimensiones-de-camion-de-48-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"48-toneladas/dimensiones-de-camion-de-48-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"48-toneladas/motor.wav"
+            audio_motor = urlMedia+"48-toneladas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -424,7 +455,7 @@ function Camion() {
 
             medidas = urlMedia+"48-toneladas-catalinas/dimensiones-de-camion-de-48-toneladas-sinotruk.webp"
             medidasMovil = urlMedia+"48-toneladas-catalinas/dimensiones-de-camion-de-48-toneladas-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"48-toneladas-catalinas/motor.wav"
+            audio_motor = urlMedia+"48-toneladas-catalinas/motor.mp3"
 
             internas = internas1.concat(internas2)
 
@@ -475,12 +506,6 @@ function Camion() {
             break;
     }
 
-
-    useEffect(() => {
-        const motorPlayer = document.getElementById('audioMotor')
-        motorPlayer.src = audio_motor
-    })
-
     //loop primer slide
     let slide1 = images.map((image) =>
         <div className="each-slide-effect">
@@ -516,29 +541,36 @@ function Camion() {
         <Helmet>
             <title>{nombreCamion} - Vehicentro</title>
             <meta name="description" content={nombreCamion} />
+
         </Helmet>
         <NavBarTop />
         <div className="boxesIni posRelative content2">
             <div className="boxRight">
-                <Slide>
-                    {slide1}
-                </Slide>
+                {images.length > 1 &&
+                    <Slide>
+                        {slide1}
+                    </Slide>
+                }
+                {images.length == 1 &&
+                    <img src={images[0]} alt="" />
+                }
             </div>
             <div className="boxLeft playMotor contenedorTextoSobrepuesto">
                 <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 <div className="boxText flex-table row textoSobrepuesto">
-                    <div className="flex-row  textoMotor1">{textoMotor1}</div>
-                    <div className="flex-row  textoMotor2">{textoMotor2}</div>
-                    <div className="flex-row  textoMotor3">{textoMotor3}</div>
-                    <div className="flex-row textoMotorFlecha"><img src={urlMedia+"arrow-rojo.png"} alt="arrow" /></div>
-                    <div className="flex-row  textoMotor4">Escucha tu motor</div>
+                    <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
+                    <div onClick={openFormContact} className="flex-row textoMotor2">{textoMotor2}</div>
+                    <div onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</div>
+                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia+"arrow-rojo.png"} alt="arrow" /></div>
+                    <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
                 </div>
                 <div className="boxPlayerMotor ">
-                    <audio id="audioMotor" controls></audio>
+                    <audio id="audioMotor" controls type="audio/mpeg"></audio>
                 </div>
             </div>
 
         </div>
+
         <div className="contentProduct">
 
             <div className="marcasbg textoImagenesProducto" >
@@ -591,20 +623,20 @@ function Camion() {
 
                 <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <Slide >
+                        <Fade >
                             {slide2}
-                        </Slide>
+                        </Fade>
                     </div>
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
-                        <Slide >
+                        <Fade >
                             {slide2b}
-                        </Slide>
+                        </Fade>
                     </div>
-                    <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
-                        <Slide >
+                                        <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
+                        <Fade >
                             {slide2c}
-                        </Slide>
-                    </div>
+                        </Fade>
+                    </div> 
                     {contenedorMarcas}
 
                 </div>
@@ -614,7 +646,9 @@ function Camion() {
             <div className="bannerMedidas noResponsive"><img src={medidas} /></div>
             <div className="bannerMedidas responsive"><img src={medidasMovil} /></div>
         </div>
-        <div className="boxesIni posRelative">
+
+
+        <div className="boxesIni posRelative centrado">
             <div className="centrado">
                 <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
@@ -624,7 +658,12 @@ function Camion() {
         </div>
         <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
         <Footer />
+
+        {modalFormIsOpen &&
+            <FormContactFicha url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
+        }
     </>
 }
 
 export default Camion
+   
