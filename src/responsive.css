@@ -75,7 +75,7 @@
   }
 
   .navSearch {
-    display: none !important;
+    display: none;
   }
 
   .boxesIni {
@@ -627,8 +627,15 @@
     transform: translate(-50%);
     width: 80%;
   }
-}
 
+  .internal .navSearch {
+      left: 2vw !important;
+  }
+
+  .result {
+    top: 13vh !important;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .movilImg {

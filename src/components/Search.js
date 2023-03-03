@@ -5,51 +5,51 @@ function SearchBar(){
 
     let indexData = [{
         url: "camiones/camion-de-3-5-toneladas-1057",
-        descripcion: "Camion de 3.5 toneladas 1057",
+        descripcion: "Camión de 3.5 toneladas 1057",
         tags: ['3.5 ton', 'camion', '3.5 toneladas', '1057']
     }, {
         url: "camiones/camion-de-3-6-toneladas",
-        descripcion: "Camion de 3.6 toneladas",
+        descripcion: "Camión de 3.6 toneladas",
         tags: ['3.6 ton', 'camion', '3.6 toneladas']
     }, {
         url: "camiones/camion-de-5-toneladas-1067",
-        descripcion: "Camion de 5 toneladas",
+        descripcion: "Camión de 5 toneladas",
         tags: ['5 ton', 'camion', '5 toneladas', '1067']
     }, {
         url: "camiones/camion-de-6-toneladas-1067",
-        descripcion: "Camion de 6 toneladas",
+        descripcion: "Camión de 6 toneladas",
         tags: ['6 ton', 'camion', '6 toneladas', '1067']
     }, {
         url: "camiones/camion-8-toneladas-1147",
-        descripcion: "Camion de 8 toneladas 1147",
+        descripcion: "Camión de 8 toneladas 1147",
         tags: ['8 ton', 'camion', '8 toneladas', '1147']
     }, {
         url: "camiones/camion-de-9-toneladas",
-        descripcion: "Camion de 9 toneladas",
+        descripcion: "Camión de 9 toneladas",
         tags: ['9 ton', 'camion', '9 toneladas']
     }, {
         url: "camiones/camion-10-toneladas-t5g-1167",
-        descripcion: "Camion de 10 toneladas T5G 1167",
+        descripcion: "Camión de 10 toneladas T5G 1167",
         tags: ['10 ton', 'camion', '10 toneladas', 't5g', '1167']
     }, {
         url: "camiones/camion-12-toneladas-t5g-1167",
-        descripcion: "Camion de 12 toneladas T5G 1167",
+        descripcion: "Camión de 12 toneladas T5G 1167",
         tags: ['12 ton', 'camion', '12 toneladas', 't5g', '1167']
     }, {
         url: "camiones/camion-13-toneladas-t5g-1167",
-        descripcion: "Camion de 13 toneladas T5G 1167",
+        descripcion: "Camión de 13 toneladas T5G 1167",
         tags: ['13 ton', 'camion', '13 toneladas', 't5g', '1167']
     }, {
         url: "camiones/camion-13-toneladas-t5g-1167-330hp",
-        descripcion: "Camion de 13 toneladas T5G 1167 330HP",
+        descripcion: "Camión de 13 toneladas T5G 1167 330HP",
         tags: ['13 ton', 'camion', '13 toneladas', '330HP']
     }, {
         url: "camiones/camion-de-18-toneladas-t5g-1257",
-        descripcion: "Camion de 18 toneladas T5G 1257",
+        descripcion: "Camión de 18 toneladas T5G 1257",
         tags: ['18 ton', 'camion', '18 toneladas']
     }, {
         url: "camiones/camion-de-19-toneladas-t5g-1257",
-        descripcion: "Camion de 19 toneladas T5G 1257",
+        descripcion: "Camión de 19 toneladas T5G 1257",
         tags: ['19 ton', '19 toneladas', 'camion']
     }, {
         url: "cabezales/cabezal-t5g-4187",
@@ -73,7 +73,7 @@ function SearchBar(){
         tags: ['cabezal', 't7h', '45 toneladas', '45 ton']
     }, {
         url: "camiones/camion-20-toneladas-1256",
-        descripcion: "Camion de 20 toneladas 1256",
+        descripcion: "Camión de 20 toneladas 1256",
         tags: ['20 ton', 'camion', '1256']
     }, {
         url: "cabezales/cabezal-c7h-540",
@@ -113,27 +113,15 @@ function SearchBar(){
         tags: ['quito', 'ambato', 'guayaquil', 'riobamaba', 'machala', 'cuenca', 'ibarra', 'manta', 'contacto', 'direccion', 'telefono', 'telefonos', 'ciudad']
     }]
 
-    const [message, setMessage] = useState('');
     const [menuBusqueda, setMenu] = useState([]);
-
-    var obj
     const handleChange = (event) => {
         setMenu([])
         let s
         if (event.target.value.length > 0) {
             indexData.forEach(a => {
                 s = a.tags
-
-                //console.log(s)
-
                  if (s.includes(event.target.value)) {
-                    //a.resultados.forEach(res => {
-                        //console.log(a.url)
-
-                        setMenu(menuBusqueda => [...menuBusqueda, { url: a.url, desc: a.descripcion }])
-                        
-                   //})
-
+                       setMenu(menuBusqueda => [...menuBusqueda, { url: a.url, desc: a.descripcion }])
                 } 
             })
         }
