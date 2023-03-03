@@ -408,7 +408,7 @@ function Camion() {
             ];
             textoMotor1 = "340 HP"
             textoMotor2 = "Modelo T5G-1257"
-            textoMotor3 = "19.5 Ton"
+            textoMotor3 = "Ficha técnica"
             precio = "$80.990"
             cuotas = 'Cuotas desde: $984.00'
             motor = urlMedia+"19-toneladas/motor-sinotruk-de-camion-de-19-toneladas-ecuador.webp"

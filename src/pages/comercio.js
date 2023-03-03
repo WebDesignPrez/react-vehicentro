@@ -523,7 +523,7 @@ function Block3() {
                         <div className="linksBox">
                             <a className="line2" src="" href="/landing/comercio/volqueta/volqueta-t5g-280">8-9 m3</a>
                             <a className="line2" src="" href="/landing/comercio/volqueta/volqueta-t7h-430">10-14 m3</a>
-                            <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("volqueta-20-m3") }}>20 m3</a>
+                            <a className="line2" href="/landing/comercio/volqueta/volqueta-c7h-540">20 m3</a>
                         </div>
                     </div>
                 </div>

@@ -190,7 +190,7 @@ function Camion() {
             nombreCamion = "Volqueta | C7H-540"
             camionSerie = "VOLQUETA 20M3"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540"
             images = [
                 urlMedia + "volqueta-540/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
             ];

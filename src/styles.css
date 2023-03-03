@@ -2058,7 +2058,6 @@ a.colItem.meniu.negro {
 
 .flex-row.textMain.textMain2{
     color: #fff;
-
 }
 
 .landing .menuHome{
@@ -2088,7 +2087,6 @@ a.colItem.meniu.negro {
 
 .formulariolanding.boxesIni
 {
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -2315,7 +2313,6 @@ padding-bottom: 15px;
 }
 
 .serieTitle.serieBox.excavadora{
-    
     padding: 15vh 4vw 14vh 4vw;
     text-align: center;
 }

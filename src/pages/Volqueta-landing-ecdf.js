@@ -82,44 +82,44 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDFVOLQ89M3"
             images = [
-                urlMedia+"volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
-                urlMedia+"volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
+                urlMedia + "volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
+                urlMedia + "volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
             ];
             textoMotor1 = "330 HP"
             textoMotor2 = "Modelo T5G-330"
             textoMotor3 = "Ficha técnica"
 
-            precio = <div className="banner"><img src={urlMedia+"volqueta-280/logo-sinotruk.webp"} /></div>
-            motor = urlMedia+"volqueta-280/motor-sinotruk-de-volqueta-ecuador.webp"
-            garantia = urlMedia+"volqueta-280/5-anos-de-garantia.webp"
-            tecnologia = urlMedia+"volqueta-280/tecnologia-alemana.webp"
+            precio = <div className="banner"><img src={urlMedia + "volqueta-280/logo-sinotruk.webp"} /></div>
+            motor = urlMedia + "volqueta-280/motor-sinotruk-de-volqueta-ecuador.webp"
+            garantia = urlMedia + "volqueta-280/5-anos-de-garantia.webp"
+            tecnologia = urlMedia + "volqueta-280/tecnologia-alemana.webp"
             caracteristicas = [
-                urlMedia+"volqueta-280/volqueta-con-potencia-340hp.webp",
-                urlMedia+"volqueta-280/volqueta-cilindraje.webp",
-                urlMedia+"volqueta-280/volqueta-con-freno-a-las-valvulas.webp",
-                urlMedia+"volqueta-280/inyeccion.webp"
+                urlMedia + "volqueta-280/volqueta-con-potencia-340hp.webp",
+                urlMedia + "volqueta-280/volqueta-cilindraje.webp",
+                urlMedia + "volqueta-280/volqueta-con-freno-a-las-valvulas.webp",
+                urlMedia + "volqueta-280/inyeccion.webp"
             ]
-            cabina = urlMedia+"volqueta-280/cabina-de-volqueta-sinotruk-ecuador.webp"
-            marcas = urlMedia+"volqueta-280/marcas-vehicentro.webp"
+            cabina = urlMedia + "volqueta-280/cabina-de-volqueta-sinotruk-ecuador.webp"
+            marcas = urlMedia + "volqueta-280/marcas-vehicentro.webp"
             internas1 = [
-                urlMedia+"volqueta-280/volante-deportivo.webp",
-                urlMedia+"volqueta-280/wabco.webp",
-                urlMedia+"volqueta-280/control-en-cabina.webp",
-                urlMedia+"volqueta-280/hidraulico.webp",
-                urlMedia+"volqueta-280/portavasos.webp",
-                urlMedia+"volqueta-280/cabina-con-litera.webp"
+                urlMedia + "volqueta-280/volante-deportivo.webp",
+                urlMedia + "volqueta-280/wabco.webp",
+                urlMedia + "volqueta-280/control-en-cabina.webp",
+                urlMedia + "volqueta-280/hidraulico.webp",
+                urlMedia + "volqueta-280/portavasos.webp",
+                urlMedia + "volqueta-280/cabina-con-litera.webp"
             ];
             internas2 = [
-                urlMedia+"volqueta-280/climatizador.webp",
-                urlMedia+"volqueta-280/radio-mp5.webp",
-                urlMedia+"volqueta-280/asiento-neumatico.webp",
-                urlMedia+"volqueta-280/elevavidrios-electrico.webp",
-                urlMedia+"volqueta-280/palanca.webp"
+                urlMedia + "volqueta-280/climatizador.webp",
+                urlMedia + "volqueta-280/radio-mp5.webp",
+                urlMedia + "volqueta-280/asiento-neumatico.webp",
+                urlMedia + "volqueta-280/elevavidrios-electrico.webp",
+                urlMedia + "volqueta-280/palanca.webp"
             ];
 
-            medidas = urlMedia+"volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk.webp"
-            medidasMovil = urlMedia+"volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"volqueta-280/motor.wav"
+            medidas = urlMedia + "volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk.webp"
+            medidasMovil = urlMedia + "volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk-responsive.webp"
+            audio_motor = urlMedia + "volqueta-280/motor.wav"
 
             internas = internas1.concat(internas2)
 
@@ -137,43 +137,92 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDFVOLQ1014M3"
             images = [
-                urlMedia+"volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
+                urlMedia + "volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
             ];
             textoMotor1 = "430 HP"
             textoMotor2 = "Modelo T7H-430"
             textoMotor3 = "Ficha técnica"
 
-            precio = <div className="banner"><img src={urlMedia+"volqueta-430/logo-sinotruk.webp"} /></div>
-            motor = urlMedia+"volqueta-430/motor-sinotruk-de-volqueta-ecuador.webp"
-            garantia = urlMedia+"volqueta-430/5-anos-de-garantia.webp"
-            tecnologia = urlMedia+"volqueta-430/tecnologia-alemana.webp"
+            precio = <div className="banner"><img src={urlMedia + "volqueta-430/logo-sinotruk.webp"} /></div>
+            motor = urlMedia + "volqueta-430/motor-sinotruk-de-volqueta-ecuador.webp"
+            garantia = urlMedia + "volqueta-430/5-anos-de-garantia.webp"
+            tecnologia = urlMedia + "volqueta-430/tecnologia-alemana.webp"
             caracteristicas = [
-                urlMedia+"volqueta-430/volqueta-con-potencia-430hp.webp",
-                urlMedia+"volqueta-430/volqueta-cilindraje.webp",
-                urlMedia+"volqueta-430/volqueta-con-freno-a-las-valvulas.webp",
-                urlMedia+"volqueta-430/inyeccion.webp"
+                urlMedia + "volqueta-430/volqueta-con-potencia-430hp.webp",
+                urlMedia + "volqueta-430/volqueta-cilindraje.webp",
+                urlMedia + "volqueta-430/volqueta-con-freno-a-las-valvulas.webp",
+                urlMedia + "volqueta-430/inyeccion.webp"
             ]
-            cabina = urlMedia+"volqueta-430/cabina-de-volqueta-sinotruk-ecuador.webp"
-            marcas = urlMedia+"volqueta-430/marcas-vehicentro.webp"
+            cabina = urlMedia + "volqueta-430/cabina-de-volqueta-sinotruk-ecuador.webp"
+            marcas = urlMedia + "volqueta-430/marcas-vehicentro.webp"
             internas1 = [
-                urlMedia+"volqueta-430/volante.webp",
-                urlMedia+"volqueta-430/vidrios-electricos.webp",
-                urlMedia+"volqueta-430/control-en-tablero-dos.webp",
-                urlMedia+"volqueta-430/control-en-tablero.webp",
-                urlMedia+"volqueta-430/nevera.webp",
-                urlMedia+"volqueta-430/cabina-amplia.webp"
+                urlMedia + "volqueta-430/volante.webp",
+                urlMedia + "volqueta-430/vidrios-electricos.webp",
+                urlMedia + "volqueta-430/control-en-tablero-dos.webp",
+                urlMedia + "volqueta-430/control-en-tablero.webp",
+                urlMedia + "volqueta-430/nevera.webp",
+                urlMedia + "volqueta-430/cabina-amplia.webp"
             ];
             internas2 = [
-                urlMedia+"volqueta-430/compartimentos.webp",
-                urlMedia+"volqueta-430/componente.webp",
-                urlMedia+"volqueta-430/wabco-dos.webp",
-                urlMedia+"volqueta-430/wabco.webp",
-                urlMedia+"volqueta-430/palanca.webp"
+                urlMedia + "volqueta-430/compartimentos.webp",
+                urlMedia + "volqueta-430/componente.webp",
+                urlMedia + "volqueta-430/wabco-dos.webp",
+                urlMedia + "volqueta-430/wabco.webp",
+                urlMedia + "volqueta-430/palanca.webp"
             ];
 
-            medidas = urlMedia+"volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk.webp"
-            medidasMovil = urlMedia+"volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk-responsive.webp"
-            audio_motor = urlMedia+"volqueta-430/motor.wav"
+            medidas = urlMedia + "volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk.webp"
+            medidasMovil = urlMedia + "volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk-responsive.webp"
+            audio_motor = urlMedia + "volqueta-430/motor.wav"
+
+            internas = internas1.concat(internas2)
+
+            contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+            </div>
+
+            break;
+
+        //volqueta 540
+        case "volqueta-c7h-540":
+            console.log('volqueta C7H')
+            nombreCamion = "Volqueta | C7H-540"
+            camionSerie = "VOLQUETA 20M3"
+            nombreSerie = "Especiales"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540"
+            images = [
+                urlMedia + "volqueta-540/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
+            ];
+            textoMotor1 = "20 m3"
+            textoMotor2 = "Modelo C7H-540"
+            textoMotor3 = "Ficha técnica"
+
+            precio = <div className="banner"><img src={urlMedia + "volqueta-540/logo-sinotruk.webp"} /></div>
+            motor = urlMedia + "volqueta-540/motor-sinotruk-de-volqueta-ecuador.webp"
+            garantia = urlMedia + "volqueta-540/5-anos-de-garantia.webp"
+            tecnologia = urlMedia + "volqueta-540/tecnologia-alemana.webp"
+            caracteristicas = [
+                urlMedia + "volqueta-540/volqueta-con-potencia-430hp.webp",
+                urlMedia + "volqueta-540/volqueta-cilindraje.webp",
+                urlMedia + "volqueta-540/volqueta-con-freno-a-las-valvulas.webp",
+                urlMedia + "volqueta-540/inyeccion.webp"
+            ]
+            cabina = urlMedia + "volqueta-540/ventilacion.webp"
+            marcas = urlMedia + "volqueta-540/marcas-vehicentro.webp"
+            internas1 = [
+                urlMedia + "volqueta-540/asiento.webp",
+                urlMedia + "volqueta-540/litera.webp",
+                urlMedia + "volqueta-540/camara.webp"
+            ];
+            internas2 = [
+                urlMedia + "volqueta-540/emergencia-540.webp",
+                urlMedia + "volqueta-540/caracteristicas-540.webp",
+                urlMedia + "volqueta-540/volante-deportivo.webp"
+            ];
+
+            medidas = urlMedia + "volqueta-540/dimensiones-de-volqueta-de-10-14-m3-sinotruk.webp"
+            medidasMovil = urlMedia + "volqueta-540/dimensiones-de-volqueta-de-10-14-m3-sinotruk-responsive.webp"
+            audio_motor = urlMedia + "volqueta-540/motor.wav"
 
             internas = internas1.concat(internas2)
 
@@ -192,12 +241,18 @@ function Camion() {
     switch ((useParams("id").id)) {
 
         case "volqueta-t5g-280":
-            imagen = urlMedia+"volqueta-280/volqueta-en-la-carretera.webp"
+            imagen = urlMedia + "volqueta-280/volqueta-en-la-carretera.webp"
             break;
 
         case "volqueta-t7h-430":
-            imagen = urlMedia+"volqueta-430/volqueta-en-la-carretera.webp"
+            imagen = urlMedia + "volqueta-430/volqueta-en-la-carretera.webp"
             break;
+
+        case "volqueta-c7h-540":
+            imagen = urlMedia + "volqueta-540/volqueta-en-la-carretera.webp"
+            break;
+
+
 
         default:
             break;
@@ -238,8 +293,8 @@ function Camion() {
         <Helmet>
             <title>{nombreCamion} - Vehicentro</title>
             <meta name="description" content={nombreCamion} />
-      <meta name="robots" content="noindex" />
-      <meta name="googlebot" content="noindex" />
+            <meta name="robots" content="noindex" />
+            <meta name="googlebot" content="noindex" />
         </Helmet>
         <Landingmenu />
         <div className="boxesIni posRelative content2">
@@ -259,7 +314,7 @@ function Camion() {
                     <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
                     <div onClick={openFormContact} className="flex-row  textoMotor2">{textoMotor2}</div>
                     <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia+"arrow-rojo.png"} alt="arrow" /></div>
+                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt="arrow" /></div>
                     <div className="flex-row  textoMotor4">Escucha tu motor</div>
                 </div>
                 <div className="boxPlayerMotor ">
@@ -365,8 +420,8 @@ function Camion() {
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             </div>
         </div>
-        
-    <Landingfooter />
+
+        <Landingfooter />
 
         {modalFormIsOpen &&
             <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
@@ -376,25 +431,25 @@ function Camion() {
 
 function Landingmenu() {
     return (
-      <>
-        <div className="menuHome">
-          <div className="logoHome">
-            <a href="/landing/ecdf/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
-          </div>
-        </div>
-      </>
+        <>
+            <div className="menuHome">
+                <div className="logoHome">
+                    <a href="/landing/ecdf/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+                </div>
+            </div>
+        </>
     )
-  }
-  function Landingfooter() {
+}
+function Landingfooter() {
     return (
-      <>
-        <div className="menuHome">
-          <div className="logoHome">
-            <a href="/landing/ecdf/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
-          </div>
-        </div>
-      </>
+        <>
+            <div className="menuHome">
+                <div className="logoHome">
+                    <a href="/landing/ecdf/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+                </div>
+            </div>
+        </>
     )
-  }
+}
 
 export default Camion
