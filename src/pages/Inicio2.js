@@ -119,7 +119,20 @@ function Block1() {
                     </div>
                 </div>
             </div>
-            <div className="imgContainerHeader imgHeader2" height="600">
+            <div id="videoContainer" className="responsive">
+                <div className="boxRight tecnologia" height="1080">
+                    <div className="boxLeft c7h">
+                        <video autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" />
+                    </div>
+                </div>
+                <div className="overlayBox" height="200">
+                    <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
+                    <div className="linksBox testimonio">
+                        <a href="/experiencia" className="line2" src="">VIDEOS TESTIMONIALES</a>
+                    </div>
+                </div>
+            </div>
+            <div className="imgContainerHeader imgHeader2 noResponsive" height="600">
                 <div className="overlayBox" height="200">
                     <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
                     <div className="linksBox testimonio">
@@ -233,15 +246,15 @@ function Block3() {
                 </div>
                 <div>
                     <a href="/serie/volquetas"><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" /></a>
-                        <div className="bottomContainer">
-                            <p className="titleBox"></p>
-                            <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS</NavLink>
-                            <div className="linksBox">
-                                <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink>
-                                <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
-                                <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540">20 m3</NavLink>
-                            </div>
+                    <div className="bottomContainer">
+                        <p className="titleBox"></p>
+                        <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS</NavLink>
+                        <div className="linksBox">
+                            <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink>
+                            <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
+                            <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540">20 m3</NavLink>
                         </div>
+                    </div>
                 </div>
             </div>
 
