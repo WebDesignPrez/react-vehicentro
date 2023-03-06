@@ -273,9 +273,8 @@ color:red;
 }
 
 .internal .nav-search-active{
-    display: flex;
+  
 }
-
 
 @font-face {
   font-family: Blatant;
