@@ -54,7 +54,7 @@ function Concesionarios() {
       img: urlMedia + "CONCESIONARIOS-780X600-QUITO-SUR.jpg",
       alt: ""
     }, {
-      nombre: "QUITO, EL COLIBRÍ",
+      nombre: "QUITO, SANGOLQUÍ EL COLIBRÍ",
       descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "E35 y Av. General Pintag",
