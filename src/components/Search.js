@@ -8,7 +8,7 @@ function SearchBar() {
             url: "serie/100",
             descripcion: "Serie 100",
             tags: ['Serie', '100', 'serie 100', 'serie']
-        },        
+        },
         {
             url: "serie/t5g",
             descripcion: "Serie T5G",
@@ -200,13 +200,17 @@ function SearchBar() {
         }]
 
     const [menuBusqueda, setMenu] = useState([]);
+
     const handleChange = (event) => {
         setMenu([])
         let s
+        let com = event.target.value
+        let com2= com.toString().toLowerCase()
+
         if (event.target.value.length > 0) {
             indexData.forEach(a => {
                 s = a.tags
-                if (s.includes(event.target.value)) {
+                if (s.includes(com2)) {
                     setMenu(menuBusqueda => [...menuBusqueda, { url: a.url, desc: a.descripcion }])
                 }
             })

@@ -6,21 +6,23 @@ import SearchBar from "./components/Search";
 
 export default function NavBar() {
     var auxMovil = 0;
-
+    let control = 0;
     let urlMedia = env.url
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        
+
 
         const navSlideClickH = () => {
             const burger = document.querySelector(".burger");
             const navLinks = document.querySelectorAll(".nav-links-h a");
 
-            document.querySelector(".searchHome").addEventListener('click', function(){
+            document.querySelector(".searchHome").addEventListener('click', function () {
                 document.querySelector(".navSearch").classList.toggle("inputDisplay");
+                document.getElementById("global-search-input").focus();
+                document.getElementById("global-search-input").select();
             })
-            
+
 
             navLinks.forEach((link, index) => {
                 link.addEventListener("click", (ev) => {
@@ -251,7 +253,7 @@ export default function NavBar() {
                     document.querySelector(".menu1").classList.remove("logob")
                 }
             });
-          
+
             concesionarios.addEventListener("click", () => {
                 nav.classList.toggle("nav-active");
                 navSearch[0].classList.toggle("nav-search-active");
@@ -280,7 +282,7 @@ export default function NavBar() {
                 }
             });
 
-            if(tecnologia!=null){
+            if (tecnologia != null) {
                 tecnologia.addEventListener("click", () => {
                     console.log("Tecnologia")
                     nav.classList.toggle("nav-active");
@@ -455,6 +457,16 @@ export default function NavBar() {
 
         // make sure to catch any error
 
+        const keyDownHandler = event => {
+            if (event.key === 'Escape' ) {
+                document.getElementsByClassName('navSearch')[0].classList.remove("inputDisplay");
+            }
+        };
+
+        document.addEventListener('keydown', keyDownHandler);
+        return () => {
+            document.removeEventListener('keydown', keyDownHandler);
+        };
 
     });
 
@@ -467,7 +479,7 @@ export default function NavBar() {
         </div>
         <SearchBar />
 
-{/*         <div className="navSearch">
+        {/*         <div className="navSearch">
             <input className="search-nav-input" data-testid="search-input" type="search" title="Search" placeholder="Buscar..." id="global-search-input" onChange={handleChange} />
             {menuBusqueda.length > 0 &&
                 <div className="result">
@@ -490,7 +502,7 @@ export default function NavBar() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="0"></div>
                         <p className="tituloMenu">CAMIONES</p>
-                        <img className="imgnMenu" src={urlMedia+"home/logo-sinotruk-negro.png"} width="637" height="147" alt="Sinotruck" />
+                        <img className="imgnMenu" src={urlMedia + "home/logo-sinotruk-negro.png"} width="637" height="147" alt="Sinotruck" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -550,7 +562,7 @@ export default function NavBar() {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </li>
             <li>
@@ -559,7 +571,7 @@ export default function NavBar() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="1"></div>
                         <p className="tituloMenu">MAQUINARIA</p>
-                        <img className="imgnMenu" src={urlMedia+"logo-sunward.webp"} alt="sunward" width="100" height="32" />
+                        <img className="imgnMenu" src={urlMedia + "logo-sunward.webp"} alt="sunward" width="100" height="32" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -571,7 +583,7 @@ export default function NavBar() {
                     </div>
                 </div>
             </li>
-            
+
             <li className="item-level-5">
                 <a href="/proximamente">VEHÍCULOS</a>
                 <div className="item-level-5 nav-header nav-header-h" >
@@ -603,7 +615,7 @@ export default function NavBar() {
                 <div className="item-level-5 nav-header nav-header-h" >
                 </div>
             </li>
-            
+
             <li>
                 <a href="/concesionarios" >CONCESIONARIOS</a>
                 <div className="item-level-3 nav-header nav-header-h" >
@@ -657,13 +669,13 @@ export default function NavBar() {
                     </div>
                 </div>
             </li>
-            
+
             <li>
                 <a href="#" option="compania">COMPAÑÍA</a>
                 <div className="item-level-6 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="6"></div>
-                            <p>COMPAÑÍA</p>
+                        <p>COMPAÑÍA</p>
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -675,18 +687,18 @@ export default function NavBar() {
                     </div>
                 </div>
             </li>
-            
+
             <li className="item-level-8 linkContact">
             </li>
         </ul>
 
-<div className="menuHome">
-    <div className="titleHome"></div>
-    <div className="logoHome">
-            <NavLink to="/"><img src={urlMedia+"vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></NavLink>
-    </div>
-    <div className="searchHome"><img src={urlMedia+"search.png"} alt="Buscar" width="100" height="100" /></div>
-</div>
-        
+        <div className="menuHome">
+            <div className="titleHome"></div>
+            <div className="logoHome">
+                <NavLink to="/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></NavLink>
+            </div>
+            <div className="searchHome"><img src={urlMedia + "search.png"} alt="Buscar" width="100" height="100" /></div>
+        </div>
+
     </nav>
 } 
