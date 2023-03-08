@@ -18,7 +18,6 @@ export default function NavBar() {
             const navLinks = document.querySelectorAll(".nav-links-h a");
 
             document.querySelector(".searchHome").addEventListener('click', function(){
-                console.log("Click")
                 document.querySelector(".navSearch").classList.toggle("inputDisplay");
             })
             
