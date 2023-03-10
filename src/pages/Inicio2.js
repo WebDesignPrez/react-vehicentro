@@ -5,6 +5,7 @@ import BannerContacto from '../components/BannerContacto'
 import { useEffect, useState } from "react";
 import { Slide } from 'react-slideshow-image';
 import env from '../config';
+import { Helmet } from "react-helmet";
 
 let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHBOTONCOT"
 let nombreCamion = ""
@@ -77,6 +78,12 @@ function Inicio2() {
 
     return (
         <>
+            <Helmet>
+                <title>Vehicentro | El camión perfecto para su negocio en Ecuador</title>
+                <meta name="description" content="Camiones de venta en Ecuador · Puntos vehicentro a nivel nacional · VISÍTANOS EN AMBATO, QUITO, GUAYAQUIL, RIOBAMBA, CUENCA Y MACHALA." />
+                <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
+                <meta name="robots" content="index, follow"></meta>
+            </Helmet>
             <NavBar />
             <Block1 />
             <Menu2 />
@@ -158,7 +165,7 @@ function Block3() {
         <>
             <div className="block3 boxBlock">
                 <div>
-                    <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Vehicentro" /></a>
+                    <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/100">100</NavLink>
@@ -172,7 +179,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <a href="/serie/t5g"><img src={urlMedia + "home/serie-t5g.webp"} width="900" height="700" alt="Vehicentro" /></a>
+                    <a href="/serie/t5g"><img src={urlMedia + "home/serie-t5g.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
@@ -190,7 +197,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Vehicentro" /></a>
+                    <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
@@ -205,7 +212,7 @@ function Block3() {
 
             <div className="block3 boxBlock row2">
                 <div>
-                    <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Vehicentro" /> </a>
+                    <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador"/> </a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
@@ -222,7 +229,7 @@ function Block3() {
                     <Slide duration={2000}>
 
                         <div className="each-slide-effect">
-                            <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
+                            <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw`  }}>
                             </div>
                         </div>
                         <div className="each-slide-effect">
@@ -245,7 +252,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <a href="/serie/volquetas"><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" /></a>
+                    <a href="/serie/volquetas"><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS</NavLink>
@@ -260,7 +267,7 @@ function Block3() {
 
             <div className="block3 boxBlock row2">
                 <div>
-                    <img src={urlMedia + "home/sector-ganadero.webp"} width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia + "home/sector-ganadero.webp"} width="900" height="700" alt="Maquinaria para el sector ganadero" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <NavLink className="titleBox2" to="/proximamente-hidromek">HIDROMEK</NavLink>
@@ -273,7 +280,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Mixer o mezcladoras de venta en Ecuador" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
@@ -284,7 +291,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src={urlMedia + "home/sunward.webp"} width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia + "home/sunward.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD</p>
@@ -352,7 +359,7 @@ function Menu2() {
 function Banner() {
     return (
         <div className="posRelative banner">
-            <a href="/concesionarios"><img className="desktopImg slideMain" src={urlMedia + "home/vehicentro-en-ecuador-venta-de-camiones-cabezales-y-volquetas-sinotruk.webp"} width="1790" height="590" alt="Punto de Venta" /></a>
+            <a href="/concesionarios"><img className="desktopImg slideMain" src={urlMedia + "home/vehicentro-en-ecuador-venta-de-camiones-cabezales-y-volquetas-sinotruk.webp"} width="1790" height="590" alt="Puntos de Venta de Camiones Sinotruk en Ecuador" /></a>
             <img className="movilImg slideMain" src={urlMedia + "home/vehicentro-concesionarios-mobil.webp"} width="2432" height="1675" alt="Punto de Venta" />
             <div className="boxText flex-table row">
                 <a href="/concesionarios"><div className="flex-row textMain textMain2 noResponsive">Puntos Vehicentro a nivel Nacional</div></a>
