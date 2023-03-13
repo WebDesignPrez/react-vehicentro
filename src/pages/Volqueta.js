@@ -249,9 +249,9 @@ function Camion() {
             imagen = urlMedia + "volqueta-430/volqueta-en-la-carretera.webp"
             break;
 
-            case "volqueta-c7h-540":
-                imagen = urlMedia + "volqueta-540/volqueta-en-la-carretera.webp"
-                break;
+        case "volqueta-c7h-540":
+            imagen = urlMedia + "volqueta-540/volqueta-en-la-carretera.webp"
+            break;
 
         default:
             break;
@@ -291,7 +291,9 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Vehicentro</title>
-            <meta name="description" content={nombreCamion} />
+            <meta name="description" content={'Venta de la ' + nombreCamion + ' Sinotruk de la serie ' + nombreSerie + ' en Ecuador'} />
+            <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
+            <meta name="robots" content="index, follow"></meta>
         </Helmet>
         <NavBarTop />
         <div className="boxesIni posRelative content2">

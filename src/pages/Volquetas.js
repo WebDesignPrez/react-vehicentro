@@ -14,8 +14,10 @@ function Especiales() {
     return (
         <>
             <Helmet>
-                <title>Volquetas - Vehicentro</title>
-                <meta name="description" content="Volquetas" />
+                <title>Volquetas | Vehicentro</title>
+                <meta name="description" content="La mejor volqueta del mercado. Cuando precio y calidad se juntan, no existe competencia" />
+                <meta name="keywords" content="volqueta, volquetas, venta de volquetas, volquetas en ecuador"></meta>
+                <meta name="robots" content="index, follow"></meta>
             </Helmet>
             <NavBarTop />
             <Content1 />

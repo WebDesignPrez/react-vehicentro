@@ -79,7 +79,7 @@ function Inicio2() {
     return (
         <>
             <Helmet>
-                <title>Vehicentro | El camión perfecto para su negocio en Ecuador</title>
+                <title>Vehicentro | Importadores de la marca SINOTRUK. Venta de camiones</title>
                 <meta name="description" content="Camiones de venta en Ecuador · Puntos vehicentro a nivel nacional · VISÍTANOS EN AMBATO, QUITO, GUAYAQUIL, RIOBAMBA, CUENCA Y MACHALA." />
                 <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
                 <meta name="robots" content="index, follow"></meta>

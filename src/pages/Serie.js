@@ -39,7 +39,7 @@ let nombreCamion
 let bdc
 let nombreSerie
 let camionSerie
-
+let desx
 function Serie() {
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
@@ -148,7 +148,7 @@ function Serie() {
 
             audio_motor = urlMedia + "10-toneladas/motor.mp3"
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
-
+            desx = "Aumenta la rentabilidad de tu negocio y reduce el costo de mantenimiento con los camiones T5G. Pura eficiciencia y garantía."
 
             break;
 
@@ -208,6 +208,8 @@ function Serie() {
 
             audio_motor = urlMedia + "9-toneladas/motor.mp3"
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
+            desx = "Conoce la Serie T7H. Camiones #Sinotruk con carga de alto rendimiento. ¡Somos la potencia que levanta al Ecuador!"
+
             break;
 
         //c7h
@@ -265,6 +267,8 @@ function Serie() {
             audio_motor = urlMedia + "12-toneladas/motor.mp3"
 
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
+            desx = "Conoce la Serie T7H. Camiones #Sinotruk con carga de alto rendimiento. ¡Somos la potencia que levanta al Ecuador!"
+            
             break;
 
         default:
@@ -302,8 +306,10 @@ function Serie() {
     // ---- PÁGINA ----
     return <>
         <Helmet>
-            <title>{nombreSerie} - Vehicentro</title>
-            <meta name="description" content={nombreSerie} />
+            <title>Camiones {nombreSerie} | Vehicentro</title>
+            <meta name="description" content={desx} />
+            <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
+            <meta name="robots" content="index, follow"></meta>
         </Helmet>
 
         <NavBarTop />

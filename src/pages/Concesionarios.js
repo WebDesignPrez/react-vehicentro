@@ -173,8 +173,10 @@ function Concesionarios() {
   return (
     <>
       <Helmet>
-        <title>Concesionarios | Vehicentro</title>
-        <meta name="description" content="Concesionarios" />
+        <title>Concesionarios en Ecuador | Vehicentro</title>
+        <meta name="description" content="Tenemos concesionarios en todo el Ecuador: Ambato, Quito, Guayaquil, Riobamba, Machala, Cuenca, Ibarra, Manta" />
+        <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
+        <meta name="robots" content="index, follow"></meta>
       </Helmet>
       <NavBarTop />
       <p className="tituloConcesionario">ENCUENTRA TU CONCESIONARIO MÁS CERCANO</p>

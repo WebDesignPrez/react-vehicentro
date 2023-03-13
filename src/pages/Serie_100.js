@@ -20,12 +20,14 @@ function Serie_100() {
         motorPlayer.src = audio_motor
 
     }, []);
-    
+
     return (
         <>
             <Helmet>
-                <title>Serie 100 - Vehicentro</title>
-                <meta name="description" content="Serie 100" />
+                <title>Camiones Serie 100 | Vehicentro</title>
+                <meta name="description" content="Camiones de la Serie 100 de Sinotruk, diseñados para máxima seguridad, confianza y comodidad." />
+                <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador, serie 100"></meta>
+                <meta name="robots" content="index, follow"></meta>
             </Helmet>
             <NavBarTop />
             <Content1 />
