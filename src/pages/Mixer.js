@@ -238,7 +238,7 @@ function Mixer() {
                 <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 <div className="boxText flex-table row textoSobrepuesto">
                     <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
-                    <div onClick={openFormContact} className="flex-row  textoMotor2">{textoMotor2}</div>
+                    <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Mixer ${textoMotor2}`}</h1></div>
                     <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
                     <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia+"arrow-rojo.png"} alt="arrow" /></div>
                     <div className="flex-row  textoMotor4">Escucha tu motor</div>

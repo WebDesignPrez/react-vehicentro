@@ -12,6 +12,25 @@ export default function NavBar() {
     useEffect(() => {
         window.scrollTo(0, 0);
 
+        //pop up politicas
+        let the_button = document.getElementById('js-btn')
+        let modaldos = document.getElementById("modaldos")
+        let closeBtn = document.getElementById("closedos")
+        console.log(the_button)
+
+
+        the_button.addEventListener("click", handleClick)
+
+
+        function handleClick(event) {
+            modaldos.style.display = "block";
+            closeBtn.addEventListener("click", () => {
+                modaldos.style.display = "none"
+            })
+        }
+
+
+
 
         const navSlideClickH = () => {
             const burger = document.querySelector(".burger");
@@ -458,7 +477,7 @@ export default function NavBar() {
         // make sure to catch any error
 
         const keyDownHandler = event => {
-            if (event.key === 'Escape' ) {
+            if (event.key === 'Escape') {
                 document.getElementsByClassName('navSearch')[0].classList.remove("inputDisplay");
             }
         };
@@ -468,7 +487,14 @@ export default function NavBar() {
             document.removeEventListener('keydown', keyDownHandler);
         };
 
+
+
+
     });
+
+
+
+
 
 
     return <nav className="menu1 internal">
@@ -493,9 +519,8 @@ export default function NavBar() {
                 </div>
             }
         </div> */}
+
         <ul className="nav-links">
-
-
             <li>
                 <a className="" href="#" option="sinotruk">CAMIONES</a>
                 <div className="item-level-0 nav-header nav-header-h" >
@@ -682,7 +707,8 @@ export default function NavBar() {
                             <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
                             <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">BDC</a>
                             <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
-                            <a href="repuestos" className="colItem meniu negro">Repuestos</a>
+                            <a href="repuestos" className="colItem meniu negro">Repuestos</a><br></br>
+                            <a className="colItem meniu negro" id="js-btn">Políticas</a>
                         </div>
                     </div>
                 </div>
@@ -700,5 +726,23 @@ export default function NavBar() {
             <div className="searchHome"><img src={urlMedia + "search.png"} alt="Buscar" width="100" height="100" /></div>
         </div>
 
+        <div class="modaldos" id="modaldos">
+            <div class="modaldos_content">
+                <span class="closedos" id="closedos">&times;</span>
+                <b><h2>Vehicentro Ecuador</h2> - <h2>Comercialización de camiones Sinotruk</h2> - <h2>Sinotruk Ecuador</h2></b><br></br><br></br>
+                <h3>Venta de Camiones Sinotruk a nivel Nacional</h3><br></br><br></br>
+                <p>En Vehicentro tenemos el camión que necesitas</p><br></br><br></br>
+                <p>Los precios de nuestros <h4>camiones</h4>, <h4>volquetas</h4>, <h4>mixer</h4>, <h4>excavadoras</h4>, <h4>volquetas</h4> incluyen IVA y cualquier otro impuesto aplicable y están sujetos a cambios sin previo aviso.</p> <br></br><br></br>
+                <p>Vehicentro con sus sucurales en Ecuador de dedica a la <h2>venta de Camiones en Ambato</h2>, <h2>venta de Camiones en Quito</h2>, <h2>venta de Camiones en Guayaguil</h2>, <h2>venta de Camiones en Riobamba</h2>, <h2>venta de Camiones en Machala</h2>, <h2>venta de Camiones en Ibarra</h2> y <h2>venta de Camiones en Manta</h2></p>
+                <br></br><br></br>
+                <p>Vehicentro no será responsable de los retrasos en la entrega causados por circunstancias imprevistas o que esten fuera de control.</p><br></br><br></br>
+                <p>Vehicentro no será responsable de los daños directos, indirectos, incidentales o consecuentes causados el uso del camión después de la venta.</p><br></br><br></br>
+                <p>Vehicentro se compromete a proteger la privacidad de los clientes y sus datos personales.</p><br></br>
+                <p>Los datos personales del cliente se utilizarán solo para fines relacionados con la venta del camión.</p>
+            </div>
+        </div>
+
     </nav>
-} 
+
+
+}

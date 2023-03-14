@@ -76,6 +76,8 @@ function Inicio2() {
         setFormIsOpen(false)
     }
 
+
+
     return (
         <>
             <Helmet>
@@ -138,6 +140,8 @@ function Block1() {
                         <a href="/experiencia" className="line2" src="">VIDEOS TESTIMONIALES</a>
                     </div>
                 </div>
+                <h1>Venta de camiones en Ecuador</h1>
+                <h2>En vehicentro encuentra camiones Sinotruk</h2>
             </div>
             <div className="imgContainerHeader imgHeader2 noResponsive" height="600">
                 <div className="overlayBox" height="200">
@@ -212,7 +216,7 @@ function Block3() {
 
             <div className="block3 boxBlock row2">
                 <div>
-                    <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador"/> </a>
+                    <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /> </a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
@@ -229,7 +233,7 @@ function Block3() {
                     <Slide duration={2000}>
 
                         <div className="each-slide-effect">
-                            <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw`  }}>
+                            <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
                             </div>
                         </div>
                         <div className="each-slide-effect">
