@@ -58,7 +58,7 @@ function Concesionarios() {
       descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "E35 y Av. General Pintag",
-      url: "https://goo.gl/maps/qme9UhY53gyYueKd6",
+      url: "https://goo.gl/maps/GBPxe4h3yWRy58qZ8",
       img: urlMedia + "colibri.webp",
       alt: ""
     }, {
@@ -129,7 +129,7 @@ function Concesionarios() {
       descripcion: "Punto de Venta",
       telefono: "032-994740 | 0992048229",
       direccion: "Panamericana Sur Km1 y calle los Andes",
-      url: "https://goo.gl/maps/FgVLPgUjqta9LqJ49",
+      url: "https://goo.gl/maps/G2Z3U7WHDspnpNNM8",
       img: urlMedia + "IBARRA-2.jpg",
       alt: ""
     }]
