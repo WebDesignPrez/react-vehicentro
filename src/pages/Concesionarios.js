@@ -69,6 +69,14 @@ function Concesionarios() {
       url: "https://goo.gl/maps/uhWzLJFXVygm1TSt9",
       img: urlMedia + "VEHI-1.jpg",
       alt: ""
+    }, {
+      nombre: "QUITO, PIFO",
+      descripcion: "Punto de Venta y Repuestos",
+      telefono: "032-994740 | 0992048229",
+      direccion: "Av. Interoceánica Km 8 (Vía Aeropuerto).",
+      url: "https://goo.gl/maps/LTqZkCCed9DpdY949",
+      img: urlMedia + "/contactanos/pifo.webp",
+      alt: ""
     }]
   }, {
     id: "Guayaquil",
