@@ -90,7 +90,7 @@ function Camion() {
       textoMotor2 = "SWE210"
       textoMotor3 = "Excavadora"
       precio = "$161.280"
-      cuotas = 'Cuotas desde: $3.565,00'
+      cuotas = 'Cuotas desde: $2968,00'
       motor = urlMedia + "swe210/motor.webp"
       garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "swe210/sunward.webp"
@@ -180,7 +180,7 @@ function Camion() {
       textoMotor2 = "SWE365E"
       textoMotor3 = "Excavadora"
       precio = "$257.600"
-      cuotas = 'Cuotas desde: $5.675,00'
+      cuotas = 'Cuotas desde: $4710,00'
       motor = urlMedia + "swe365e/motor.webp"
       garantia = urlMedia + "swe365e/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "swe365e/sunward.webp"
