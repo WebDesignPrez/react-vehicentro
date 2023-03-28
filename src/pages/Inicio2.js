@@ -270,7 +270,7 @@ function Block3() {
             </div>
 
             <div className="block3 boxBlock row2">
-                <div>
+{/*                <div>
                     <img src={urlMedia + "home/sector-ganadero.webp"} width="900" height="700" alt="Maquinaria para el sector ganadero" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
@@ -282,7 +282,7 @@ function Block3() {
                             <NavLink className="line2" src="" to="/proximamente-hidromek">RODILLO</NavLink>
                         </div>
                     </div>
-                </div>
+    </div>*/}
                 <div>
                     <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Mixer o mezcladoras de venta en Ecuador" />
                     <div className="bottomContainer">

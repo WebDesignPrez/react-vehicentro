@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import env from './config';
 import SearchBar from "./components/Search";
 
+
 export default function NavBar() {
     var auxMovil = 0;
     let control = 0;

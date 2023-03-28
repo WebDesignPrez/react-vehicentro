@@ -12,6 +12,7 @@ import '../modalContact.css';
 import FormContactFicha from "../components/FormContactFicha";
 import { Helmet } from "react-helmet";
 import env from '../config';
+import precios from '../precios';
 
 let imagen
 let images
@@ -89,8 +90,8 @@ function Camion() {
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE210"
       textoMotor3 = "Excavadora"
-      precio = "$161.280"
-      cuotas = 'Cuotas desde: $2968,00'
+      precio = precios.e_210
+      cuotas = `Cuotas desde: ${precios.e_210_cuota}`
       motor = urlMedia + "swe210/motor.webp"
       garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "swe210/sunward.webp"
@@ -179,8 +180,8 @@ function Camion() {
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE365E"
       textoMotor3 = "Excavadora"
-      precio = "$257.600"
-      cuotas = 'Cuotas desde: $4710,00'
+      precio = precios.e_365
+      cuotas = `Cuotas desde: ${precios.e_365_cuota}`
       motor = urlMedia + "swe365e/motor.webp"
       garantia = urlMedia + "swe365e/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "swe365e/sunward.webp"
