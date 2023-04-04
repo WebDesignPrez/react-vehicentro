@@ -88,7 +88,7 @@ function Serie() {
                 url: "/camiones/camion-de-9-toneladas"
             }, {
                 serie: "T5G 1167",
-                modelo: "10.8 TON",
+                modelo: "10 TON",
                 url: "/camiones/camion-10-toneladas-t5g-1167"
             }, {
                 serie: "T5G 1167",

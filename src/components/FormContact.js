@@ -181,6 +181,8 @@ function FormContact(props) {
         }
       })
     } else {
+      let form = $(e.target);
+      console.log(form.serializeArray())
       NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
     }
   }

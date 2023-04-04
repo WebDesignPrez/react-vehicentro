@@ -65,8 +65,8 @@ function Content2() {
         url: "/excavadoras/swe210"
     }, {
         serie: "",
-        modelo: "SWE365E",
-        url: "/excavadoras/swe365e"
+        modelo: "SWE370E",
+        url: "/excavadoras/swe370e"
     }
     ]
 
