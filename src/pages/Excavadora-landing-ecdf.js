@@ -168,17 +168,17 @@ function Camion() {
 
       break;
 
-    case "swe365e":
+    case "swe370e":
       console.log('24 ton')
-      nombreCamion = "Excavadora SWE365E"
-      camionSerie = "SWE365E"
+      nombreCamion = "Excavadora SWE370E"
+      camionSerie = "SWE370E"
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDFSW365E"
       images = [
         urlMedia + "swe365e/vehicentro-excavadora-ecuador.webp"
       ];
       textoMotor1 = "SUNWARD"
-      textoMotor2 = "SWE365E"
+      textoMotor2 = "SWE370E"
       textoMotor3 = "Excavadora"
       precio = precios.e_365
       cuotas = `Cuotas desde: ${precios.e_365_cuota}`
@@ -269,7 +269,7 @@ function Camion() {
       imagen = urlMedia + "swe210/excavadora-en-carretera-vehicentro-ecuador.webp"
       break;
 
-    case "swe365e":
+    case "swe370e":
       imagen = urlMedia + "swe365e/excavadora-en-carretera-vehicentro-ecuador.webp"
       break;
 

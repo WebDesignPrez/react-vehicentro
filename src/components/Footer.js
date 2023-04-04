@@ -44,7 +44,7 @@ export default function Footer() {
                 <ul className="list">
                     <li><p className="subTitle">SUNWARD</p></li>
                     <li><p className="titleFooter"><a href="/excavadoras/swe210">Excavadora SWE210</a></p></li>
-                    <li><p className="titleFooter"><a href="/excavadoras/swe365e">Excavadora SWE365E</a></p></li>
+                    <li><p className="titleFooter"><a href="/excavadoras/swe370e">Excavadora SWE370E</a></p></li>
                 </ul>
 
             </div>

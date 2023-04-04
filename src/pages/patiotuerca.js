@@ -257,10 +257,10 @@ function Block3() {
 
                 break;
 
-            case "swe365e":
+            case "swe370e":
                 console.log('24 ton')
-                nombreCamion = "Excavadora SWE365E"
-                camionSerie = "SWE365E"
+                nombreCamion = "Excavadora SWE370E"
+                camionSerie = "SWE370E"
                 nombreSerie = "Excavadora"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
 
@@ -562,7 +562,7 @@ function Block3() {
                         <p className="titleBox2">SUNWARD</p>
                         <div className="linksBox">
                             <a className="line2" src="" to="/excavadoras/swe210" onClick={() => { openFormContact("swe210") }}>SWE210</a>
-                            <a className="line2" src="" to="/excavadoras/swe365e" onClick={() => { openFormContact("swe365e") }}>SWE365E</a>
+                            <a className="line2" src="" to="/excavadoras/swe370e" onClick={() => { openFormContact("swe370e") }}>SWE370E</a>
                         </div>
                         <div className="linksBox">
                         </div>

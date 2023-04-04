@@ -190,9 +190,9 @@ function SearchBar() {
             descripcion: "Excavadora SWE210",
             tags: ['excavadora', 'excavadoras', 'swe', '210']
         }, {
-            url: "excavadoras/swe365e",
-            descripcion: "Excavadora SWE365e",
-            tags: ['excavadora', 'excavadoras', 'swe', '365e']
+            url: "excavadoras/swe370e",
+            descripcion: "Excavadora SWE370e",
+            tags: ['excavadora', 'excavadoras', 'swe', '370e']
         }, {
             url: "concesionarios",
             descripcion: "Concesionarios a nivel nacional",

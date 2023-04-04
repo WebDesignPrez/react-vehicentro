@@ -196,7 +196,7 @@ function FormContactFicha(props) {
   const serieT7H = ['T7H 390 / 28 TON', 'T7H 390 / 28 TON con retardador', 'T7H 390 / 42 TON', 'T7H 430 / 45 TON'];
   const serieC7H = ['C7H 1256 / 20 TON', 'C7H 540 / 48 TON', 'C7H 540 / 48 TON con Catalinas'];
   const especiales = ['VOLQUETA T5G-330 8-9M2', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M2', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER'];
-  const excavadora = ['SWE210', 'SWE365E', 'EXCAVADORA', 'RETROEXCAVADORA', 'MINI EXCAVADORA', 'RODILLO'];
+  const excavadora = ['SWE210', 'SWE370E', 'EXCAVADORA', 'RETROEXCAVADORA', 'MINI EXCAVADORA', 'RODILLO'];
   const furgoneta = ['M70L'];
 
   let type = null;

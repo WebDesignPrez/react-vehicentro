@@ -106,7 +106,7 @@ function Block1() {
             <div id="videoContainer">
                 <div className="boxRight tecnologia" height="1080">
                     <div className="boxLeft c7h">
-                        <video preload="none" autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/camiones.mp4"} className="videoWidth produ" />
+                        <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/camiones.mp4"} className="videoWidth produ" />
                     </div>
                 </div>
                 <div className="overlayBox" height="200">
@@ -301,7 +301,7 @@ function Block3() {
                         <p className="titleBox2">SUNWARD</p>
                         <div className="linksBox">
                             <NavLink className="line2" src="" to="/excavadoras/swe210">SWE210</NavLink>
-                            <NavLink className="line2" src="" to="/excavadoras/swe365e">SWE365E</NavLink>
+                            <NavLink className="line2" src="" to="/excavadoras/swe370e">SWE370E</NavLink>
                         </div>
                         <div className="linksBox">
                         </div>
