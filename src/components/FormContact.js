@@ -109,12 +109,12 @@ function FormContact(props) {
     }
   }
 
-/*   const validateTel = (e) => {
-    if (e === "" || !(/^\d+$/.test(e)) || e.length < 10 || e.length > 10)
-      return true
-    else
-      return false
-  } */
+  /*   const validateTel = (e) => {
+      if (e === "" || !(/^\d+$/.test(e)) || e.length < 10 || e.length > 10)
+        return true
+      else
+        return false
+    } */
 
   const validateTel = (phoneNumber) => {
     const phoneRegex = /^0[1-9][0-9]{8}$/;
@@ -156,17 +156,130 @@ function FormContact(props) {
       return false
   }
 
+  function codigodecamion(x) {
+    let a
+    switch (x) {
+      case serie100[0]:
+        a = "34"
+        break;
+      case serie100[1]:
+        a = "19"
+        break;
+      case serie100[2]:
+        a = "59"
+        break;
+      case serie100[3]:
+        a = "28"
+        break;
+      case serie100[4]:
+        a = "10"
+        break;
+      case serieT5G[0]:
+        a = "51"
+        break;
+      case serieT5G[1]:
+        a = "68"
+        break;
+      case serieT5G[2]:
+        a = "14"
+        break;
+      case serieT5G[3]:
+        a = "61"
+        break;
+      case serieT5G[4]:
+        a = "62"
+        break;
+      case serieT5G[5]:
+        a = "63"
+        break;
+      case serieT5G[6]:
+        a = "3"
+        break;
+      case serieT5G[7]:
+        a = "24"
+        break;
+      case serieT7H[0]:
+        a = "36"
+        break;
+      case serieT7H[1]:
+        a = "64"
+        break;
+      case serieT7H[2]:
+        a = "29"
+        break;
+      case serieT7H[3]:
+        a = "27"
+        break;
+      case serieC7H[0]:
+        a = "2"
+        break;
+      case serieC7H[1]:
+        a = "9"
+        break;
+      case serieC7H[2]:
+        a = "57"
+        break;
+      case especiales[0]:
+        a = "6"
+        break;
+      case especiales[1]:
+        a = "65"
+        break;
+      case especiales[2]:
+        a = "43"
+        break;
+      case especiales[3]:
+        a = "72"
+        break;
+      case especiales[4]:
+        a = "47"
+        break;
+      case excavadora[0]:
+        a = "55"
+        break;
+      case excavadora[1]:
+        a = "56"
+        break;
+      case furgoneta[0]:
+        a = "24"
+        break;
+      default:
+        a = ""
+        break;
+    }
+    return a
+  }
+
+  function cadena(data) {
+    var queryString = data.map(function(obj) {
+      return encodeURIComponent(obj.name) +
+             '=' + encodeURIComponent(obj.value);
+    }).join('&');
+    return queryString
+  }
+
   function handleSumbit(e) {
     e.preventDefault();
 
+    let form = $(e.target);
+    let datosaenviar = form.serializeArray()
+    let cod = codigodecamion(datosaenviar[7].value)
+    datosaenviar[7].value = cod;
+
+    let arraryfinal = cadena(datosaenviar)
+
+    console.log(arraryfinal)
+    console.log(form.serialize())
+
+
     if (!validateName(e.target[0].value) && !validateName(e.target[1].value) && !validateEmail(e.target[2].value) && !validateTel(e.target[3].value) && !validateCed(e.target[4].value) && !validateCon(e.target[5].value)) {
-      const form = $(e.target);
       console.log("Valid")
       // alert(form.attr("action"));
       $.ajax({
         type: "POST",
         url: form.attr("action"),
-        data: form.serialize(),
+       // data: form.serialize(),
+        data: arraryfinal,
         success(data) {
           NotificationManager.success('Datos enviados.', '');
         },
@@ -181,8 +294,6 @@ function FormContact(props) {
         }
       })
     } else {
-      let form = $(e.target);
-      console.log(form.serializeArray())
       NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
     }
   }
@@ -197,12 +308,12 @@ function FormContact(props) {
     setCam(nomCamion)
   }
 
-  const serie100 = ['1057 / 3.5 TON', '1047 / 3.6 TON', '1047 / 3.6 TON', '1067 / 5 TON', '1067 / 6 TON', '1147 / 8 TON'];
+  const serie100 = ['1057 / 3.5 TON', '1047 / 3.6 TON', '1067 / 5 TON', '1067 / 6 TON', '1147 / 8 TON'];
   const serieT5G = ['T5G 1167 / 9 TON', 'T5G 1167 / 10 TON', 'T5G 1167 / 12 TON', 'T5G 1167 / 13 TON (280HP)', 'T5G 1167 / 13 TON (330HP)', 'T5G 1257 / 18 TON', 'T5G 1257 / 19.5 TON', 'T5G 4187 / 24 TON'];
   const serieT7H = ['T7H 390 / 28 TON', 'T7H 390 / 28 TON con retardador', 'T7H 390 / 42 TON', 'T7H 430 / 45 TON'];
   const serieC7H = ['C7H 1256 / 20 TON', 'C7H 540 / 48 TON', 'C7H 540 / 48 TON con Catalinas'];
   const especiales = ['VOLQUETA T5G-330 8-9M2', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M2', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER'];
-  const excavadora = ['SWE210', 'SWE365E', 'EXCAVADORA', 'RETROEXCAVADORA', 'MINI EXCAVADORA', 'RODILLO'];
+  const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
 
   let type = null;
@@ -224,7 +335,7 @@ function FormContact(props) {
     type = furgoneta;
   }
 
-  
+
   if (type) {
     options = type.map((el) => <option key={el}>{el}</option>);
   }
