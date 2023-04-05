@@ -251,9 +251,9 @@ function FormContact(props) {
   }
 
   function cadena(data) {
-    var queryString = data.map(function(obj) {
+    var queryString = data.map(function (obj) {
       return encodeURIComponent(obj.name) +
-             '=' + encodeURIComponent(obj.value);
+        '=' + encodeURIComponent(obj.value);
     }).join('&');
     return queryString
   }
@@ -278,7 +278,7 @@ function FormContact(props) {
       $.ajax({
         type: "POST",
         url: form.attr("action"),
-       // data: form.serialize(),
+        // data: form.serialize(),
         data: arraryfinal,
         success(data) {
           NotificationManager.success('Datos enviados.', '');
