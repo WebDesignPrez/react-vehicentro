@@ -42,6 +42,7 @@ import Comercio from "./pages/comercio"
 import Buen_viaje from "./pages/buen-viaje"
 import Ecdf from "./pages/ecdf"
 import Primicias from "./pages/primicias"
+import Expresso from "./pages/expresso"
 import Serie_mixer from "./pages/Serie-mixer"
 import Serie_excavadora from "./pages/Serie-excavadora"
 import Camion_landing_extra from "./pages/Camion-landing-extra"
@@ -49,26 +50,31 @@ import Camion_landing_comercio from "./pages/Camion-landing-comercio"
 import Camion_landing_universo from "./pages/Camion-landing-universo"
 import Camion_landing_primicias from "./pages/Camion-landing-primicias"
 import Camion_landing_ecdf from "./pages/Camion-landing-ecdf"
+import Camion_landing_expresso from "./pages/Camion-landing-expresso"
 import Cabezal_landing_extra from "./pages/Cabezal-landing-extra"
 import Cabezal_landing_comercio from "./pages/Cabezal-landing-comercio"
 import Cabezal_landing_universo from "./pages/Cabezal-landing-universo"
 import Cabezal_landing_primicias from "./pages/Cabezal-landing-primicias"
 import Cabezal_landing_ecdf from "./pages/Cabezal-landing-ecdf"
+import Cabezal_landing_expresso from "./pages/Cabezal-landing-expresso"
 import Excavadora_landing_extra from "./pages/Excavadora-landing-extra"
 import Excavadora_landing_comercio from "./pages/Excavadora-landing-comercio"
 import Excavadora_landing_universo from "./pages/Excavadora-landing-universo"
 import Excavadora_landing_primicias from "./pages/Excavadora-landing-primicias"
 import Excavadora_landing_ecdf from "./pages/Excavadora-landing-ecdf"
+import Excavadora_landing_expresso from "./pages/Excavadora-landing-expresso"
 import Volqueta_landing_extra from "./pages/Volqueta-landing-extra"
 import Volqueta_landing_comercio from "./pages/Volqueta-landing-comercio"
 import Volqueta_landing_universo from "./pages/Volqueta-landing-universo"
 import Volqueta_landing_primicias from "./pages/Volqueta-landing-primicias"
 import Volqueta_landing_ecdf from "./pages/Volqueta-landing-ecdf"
+import Volqueta_landing_expresso from "./pages/Volqueta-landing-expresso"
 import Mixer_landing_extra from "./pages/Mixer-landing-extra"
 import Mixer_landing_comercio from "./pages/Mixer-landing-comercio"
 import Mixer_landing_universo from "./pages/Mixer-landing-universo"
 import Mixer_landing_primicias from "./pages/Mixer-landing-primicias"
 import Mixer_landing_ecdf from "./pages/Mixer-landing-ecdf"
+import Mixer_landing_expresso from "./pages/Mixer-landing-expresso"
 
 function App() {
 
@@ -122,6 +128,7 @@ function App() {
           <Route path="/landing/buen-viaje" element={<Buen_viaje />} />
           <Route path="/landing/ecdf" element={<Ecdf />} />
           <Route path="/landing/primicias" element={<Primicias />} />
+          <Route path="/landing/expresso" element={<Expresso />} />
           <Route path="/serie/mixer" element={<Serie_mixer />} />
           <Route path="/serie/excavadora" element={<Serie_excavadora />} />
           <Route path="/landing/el-extra/camion/:id" element={<Camion_landing_extra />} />
@@ -149,6 +156,11 @@ function App() {
           <Route path="/landing/ecdf/excavadora/:id" element={<Excavadora_landing_ecdf />} />
           <Route path="/landing/ecdf/volqueta/:id" element={<Volqueta_landing_ecdf />} />
           <Route path="/landing/ecdf/mixer/:id" element={<Mixer_landing_ecdf />} />
+          <Route path="/landing/expresso/camion/:id" element={<Camion_landing_expresso />} />
+          <Route path="/landing/expresso/cabezal/:id" element={<Cabezal_landing_expresso />} />
+          <Route path="/landing/expresso/excavadora/:id" element={<Excavadora_landing_expresso />} />
+          <Route path="/landing/expresso/volqueta/:id" element={<Volqueta_landing_expresso />} />
+          <Route path="/landing/expresso/mixer/:id" element={<Mixer_landing_expresso />} />
         </Routes>
       </main>
     </BrowserRouter>
