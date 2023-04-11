@@ -531,19 +531,7 @@ function Block3() {
             </div>
 
             <div className="block3 boxBlock row2">
-                <div>
-                    <img src={urlMedia + "home/sector-ganadero.webp"} width="900" height="700" alt="Vehicentro" />
-                    <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <a className="titleBox2" to="/proximamente-hidromek">HIDROMEK</a>
-                        <div className="linksBox">
-                            <a className="line2" src="" to="/proximamente-hidromek" onClick={() => { openFormContact("EXCAVADORA") }}>EXCAVADORA</a>
-                            <a className="line2" src="" to="/proximamente-hidromek" onClick={() => { openFormContact("RETROEXCAVADORA") }}>RETROEXCAVADORA</a>
-                            <a className="line2" src="" to="/proximamente-hidromek" onClick={() => { openFormContact("MINI-EXCAVADORA") }}>MINI EXCAVADORA</a>
-                            <a className="line2" src="" to="/proximamente-hidromek" onClick={() => { openFormContact("RODILLO") }}>RODILLO</a>
-                        </div>
-                    </div>
-                </div>
+                
                 <div>
                     <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
