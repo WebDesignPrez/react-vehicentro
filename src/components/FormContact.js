@@ -169,7 +169,7 @@ function FormContact(props) {
         a = "59"
         break;
       case serie100[3]:
-        a = "28"
+        a = "67"
         break;
       case serie100[4]:
         a = "10"
@@ -269,7 +269,6 @@ function FormContact(props) {
     let arraryfinal = cadena(datosaenviar)
 
     console.log(arraryfinal)
-    console.log(form.serialize())
 
 
     if (!validateName(e.target[0].value) && !validateName(e.target[1].value) && !validateEmail(e.target[2].value) && !validateTel(e.target[3].value) && !validateCed(e.target[4].value) && !validateCon(e.target[5].value)) {
