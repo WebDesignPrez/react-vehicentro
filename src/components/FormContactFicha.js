@@ -165,7 +165,7 @@ function FormContactFicha(props) {
         a = "59"
         break;
       case serie100[3]:
-        a = "28"
+        a = "67"
         break;
       case serie100[4]:
         a = "10"
