@@ -336,7 +336,11 @@ function FormContactFicha(props) {
     options = type.map((el) => <option key={el}>{el}</option>);
   }
 
+  const [isChecked, setIsChecked] = useState(false);
 
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
 
   return <div className="modalForm">
     <span className="closeBtnForm" onClick={closeBtn}><img src="https://vehicentro.com/images/close-icon.png" alt="close" /></span>
@@ -427,7 +431,21 @@ function FormContactFicha(props) {
 
           <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos-sobre-camiones/" type="hidden" />
         </div>
-        <button className="nextBtn" type="submit"> Cotizar </button>
+
+        <div className="contenedorTerminos">
+        <input
+            className="inputTerminos"
+            type="checkbox"
+            checked={isChecked}
+            onChange={handleCheckboxChange}
+          />
+          <label>
+            Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
+          </label>
+        </div>
+        <button className="nextBtn" type="submit" disabled={!isChecked}>
+          Cotizar
+        </button>
 
       </form>
     </div>

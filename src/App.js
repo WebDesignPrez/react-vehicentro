@@ -81,6 +81,7 @@ import Mixer_landing_primicias from "./pages/Mixer-landing-primicias"
 import Mixer_landing_ecdf from "./pages/Mixer-landing-ecdf"
 import Mixer_landing_expresso from "./pages/Mixer-landing-expresso"
 import Mixer_landing_revista_motors from "./pages/Mixer-landing-revista-motors"
+import PoliticaPrivacidad from "./pages/PoliticaPrivacidad"
 
 function App() {
 
@@ -173,6 +174,7 @@ function App() {
           <Route path="/landing/revista-motors/excavadora/:id" element={<Excavadora_landing_revista_motors />} />
           <Route path="/landing/revista-motors/volqueta/:id" element={<Volqueta_landing_revista_motors />} />
           <Route path="/landing/revista-motors/mixer/:id" element={<Mixer_landing_revista_motors />} />
+          <Route path="/politicaprivacidad" element={<PoliticaPrivacidad/>} />
         </Routes>
       </main>
     </BrowserRouter>
