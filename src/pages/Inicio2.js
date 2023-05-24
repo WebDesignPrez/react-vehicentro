@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import { Slide } from 'react-slideshow-image';
 import env from '../config';
 import { Helmet } from "react-helmet";
+import PopUp from "../components/PopUp";
+
 
 let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHBOTONCOT"
 let nombreCamion = ""
@@ -86,6 +88,7 @@ function Inicio2() {
                 <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
                 <meta name="robots" content="index, follow"></meta>
             </Helmet>
+            {/* <PopUp /> */}
             <NavBar />
             <Block1 />
             <Menu2 />
@@ -131,7 +134,7 @@ function Block1() {
             <div id="videoContainer" className="responsive">
                 <div className="boxRight tecnologia" height="1080">
                     <div className="boxLeft c7h">
-                        <video preload="none" autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" />
+                        <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" />
                     </div>
                 </div>
                 <div className="overlayBox" height="200">
