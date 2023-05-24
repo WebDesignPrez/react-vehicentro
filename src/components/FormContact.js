@@ -391,8 +391,8 @@ function FormContact(props) {
               <option value="Quito - Los Chillos">Quito - Los Chillos</option>
               <option value="Quito - Galo Plaza">Quito - Galo Plaza</option>
               <option value="Quito - El Colibrí ">Quito - El Colibrí </option>
-              <option value="Guayaquil - Samborondón">Guayaquil - Samborondón</option>
               <option value="Guayaquil - Norte">Guayaquil - Norte</option>
+              <option value="Guayaquil - Samborondón">Guayaquil - Samborondón</option>
               <option value="Cuenca">Cuenca</option>
               <option value="Machala">Machala</option>
               <option value="Ibarra">Ibarra</option>

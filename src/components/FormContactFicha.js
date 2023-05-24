@@ -393,8 +393,8 @@ function FormContactFicha(props) {
               <option value="Quito - Los Chillos">Quito - Los Chillos</option>
               <option value="Quito - Galo Plaza">Quito - Galo Plaza</option>
               <option value="Quito - El Colibrí ">Quito - El Colibrí </option>
-              <option value="Guayaquil - Samborondón">Guayaquil - Samborondón</option>
               <option value="Guayaquil - Norte">Guayaquil - Norte</option>
+              <option value="Guayaquil - Samborondón">Guayaquil - Samborondón</option>
               <option value="Cuenca">Cuenca</option>
               <option value="Machala">Machala</option>
               <option value="Ibarra">Ibarra</option>
@@ -432,7 +432,7 @@ function FormContactFicha(props) {
           <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos-sobre-camiones/" type="hidden" />
         </div>
 
-        <div className="contenedorTerminos">
+       {/*  <div className="contenedorTerminos">
         <input
             className="inputTerminos"
             type="checkbox"
@@ -442,7 +442,7 @@ function FormContactFicha(props) {
           <label>
             Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
           </label>
-        </div>
+        </div> */}
         <button className="nextBtn" type="submit" disabled={!isChecked}>
           Cotizar
         </button>
