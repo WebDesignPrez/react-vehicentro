@@ -4,10 +4,9 @@ import "../form.css";
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import env from '../config';
-
+//Este formulario es de los camiones
 let urlMedia = env.url
 function FormContact(props) {
-
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
   let url = props.url
   let nomCamion = props.camion
@@ -339,7 +338,11 @@ function FormContact(props) {
     options = type.map((el) => <option key={el}>{el}</option>);
   }
 
+  const [isChecked, setIsChecked] = useState(true);
 
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
 
   return <div>
     <div className="form-box">
@@ -430,7 +433,18 @@ function FormContact(props) {
 
           <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos-sobre-camiones/" type="hidden" />
         </div>
-        <button className="nextBtn" type="submit"> Cotizar </button>
+        <div className="contenedorTerminos">
+        <input
+            className="inputTerminos"
+            type="checkbox"
+            checked={isChecked}
+            onChange={handleCheckboxChange}
+          />
+          <label>
+            * Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
+          </label>
+        </div>
+        <button  className="nextBtn" type="submit" disabled={!isChecked}> Cotizar </button>
         <NotificationContainer />
       </form>
     </div>

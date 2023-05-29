@@ -86,8 +86,27 @@ textarea{
     font-size: 17px;
 }
 
+.nextBtnDisabled {
+    display: inline-block;
+    width: 100%;
+    height: 2rem;
+    color: red;
+    border: 0;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 1rem 8rem 1rem 8rem;
+    border-radius: 5px;
+    background-color: #fff;
+    color: gray;
+    margin: 1rem 0 1rem 0;
+    display: inline-block;
+}
+
+
 
 .nextBtn {
+    
     margin: 1rem 8rem 1rem 8rem;
     border-radius: 5px;
     background-color: #c41a2f;
