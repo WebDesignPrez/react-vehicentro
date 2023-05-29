@@ -444,7 +444,9 @@ function FormContact(props) {
             * Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
           </label>
         </div>
-        <button  className="nextBtn" type="submit" disabled={!isChecked}> Cotizar </button>
+        <button className={isChecked? 'nextBtn':'nextBtnDisabled'} type="submit" disabled={!isChecked}>
+          Cotizar
+        </button>
         <NotificationContainer />
       </form>
     </div>
