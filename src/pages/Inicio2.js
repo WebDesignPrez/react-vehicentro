@@ -19,7 +19,7 @@ let urlMedia = env.url
 function Inicio2() {
 
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
-
+    /* const [modal2FormIsOpen, setForm2IsOpen] = useState(false); */
 
     useEffect(() => {
         const motorPlayer = document.getElementById('audioMotorHome')
@@ -31,6 +31,14 @@ function Inicio2() {
                 closeFormContact()
             }
         };
+
+        /* const keyDown2Handler = event => {
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                closeFormCon2tact()
+            }
+        };
+ */
 
         const videoContainer = document.getElementById('videoContainer')
         const imgContainer = document.querySelectorAll('.imgContainerHeader')
@@ -67,6 +75,12 @@ function Inicio2() {
             document.removeEventListener('keydown', keyDownHandler);
         };
 
+      /*   document.addEventListener('keydown', keyDown2Handler);
+        return () => {
+            document.removeEventListener('keydown', keyDown2Handler);
+        };
+ */
+
     }, []);
 
 
@@ -78,6 +92,14 @@ function Inicio2() {
         setFormIsOpen(false)
     }
 
+   /*  function openForm2Contact() {
+        setForm2IsOpen(true)
+    }
+
+    function closeForm2Contact() {
+        setForm2IsOpen(false)
+    }
+ */
 
 
     return (
@@ -99,6 +121,7 @@ function Inicio2() {
             <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             <Footer />
             <Modal />
+            {/* <Modal2 /> */}
         </>
     )
 }
@@ -380,5 +403,11 @@ function Modal() {
         <div id="modalContainer"></div>
     )
 }
+
+/* function Modal2() {
+    return (
+        <div id="modal2Container"></div>
+    )
+} */
 
 export default Inicio2
