@@ -232,4 +232,5 @@ input[type=text] {
 
 .texto{
     margin: 2vw;
+    text-align: justify;
 }

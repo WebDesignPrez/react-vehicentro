@@ -43,9 +43,27 @@ import '../popUp.css';
 const PopUp = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const lockScroll = () => {
+    document.body.style.overflow = 'hidden';
+    document.body.style.paddingRight = '17px';
+  };
+
+  const unlockScroll = () => {
+    document.body.style.overflow = '';
+    document.body.style.paddingRight = '';
+  };
+
   useEffect(() => {
     setIsOpen(true); // Abrir el pop-up al iniciar la aplicación
   }, []);
+
+  useEffect(() => {
+    if (isOpen) {
+      lockScroll(); // Bloquear el desplazamiento al abrir el pop-up
+    } else {
+      unlockScroll(); // Desbloquear el desplazamiento al cerrar el pop-up
+    }
+  }, [isOpen]);
 
   const togglePopup = () => {
     setIsOpen(!isOpen);
@@ -57,7 +75,7 @@ const PopUp = () => {
 
   return (
     <div>
-      {isOpen && (
+      {isOpen  &&(
         <div className="popup-overlay">
           <div className="popup-content">
             <div className='vhContainer'>
@@ -70,7 +88,7 @@ const PopUp = () => {
             <div className="containerBanderas">
               <div className="popup-left" onClick={togglePopup}>
                 <img
-                  src="https://vehicentro.com/images/mapa-ecuador-prendido.png"
+                  src="https://vehicentro.com/images/mapa-ecuador-prendido-nuevo.png"
                   alt="Imagen izquierda 1"
                   className="popup-left-image1"
                 />
@@ -82,7 +100,7 @@ const PopUp = () => {
               </div>
               <div className="popup-right" onClick={handleRedirect}>
                 <img
-                  src="https://vehicentro.com/images/mapa-colombia-prendido.png"
+                  src="https://vehicentro.com/images/mapa-colombia-prendido-nuevo.png"
                   alt="Imagen derecha 1"
                   className="popup-right-image1"
                 />
