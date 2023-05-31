@@ -8,8 +8,8 @@ function PoliticaPrivacidad() {
     return (
         <>
             <Helmet>
-                <title>Repuestos | Vehicentro</title>
-                <meta name="description" content="Repuestos" />
+                <title>Politica-Privacidad  | Vehicentro</title>
+                <meta name="description" content="Politica de uso de datos" />
             </Helmet>
             <NavBarTop />
             <div className="privaty">
