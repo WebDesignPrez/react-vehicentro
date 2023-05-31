@@ -8,7 +8,7 @@ function PoliticaPrivacidad() {
     return (
         <>
             <Helmet>
-                <title>Politica-Privacidad  | Vehicentro</title>
+                <title>Política | Vehicentro</title>
                 <meta name="description" content="Politica de uso de datos" />
             </Helmet>
             <NavBarTop />
