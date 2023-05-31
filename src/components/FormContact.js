@@ -441,7 +441,7 @@ function FormContact(props) {
             onChange={handleCheckboxChange}
           />
           <label>
-            * Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
+            Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
           </label>
         </div>
         <button className={isChecked? 'nextBtn':'nextBtnDisabled'} type="submit" disabled={!isChecked}>

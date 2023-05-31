@@ -187,11 +187,11 @@ input[type=text] {
 }
 
 .linkTerminos{
-    color: #373737;
+    color: #373737 !important;
 }
 
 .linkTerminos:hover{
-    color: #c41a2f;
+    color: #c41a2f !important;
     text-decoration: underline;
 }
 
