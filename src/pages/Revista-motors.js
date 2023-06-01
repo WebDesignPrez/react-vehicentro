@@ -8,7 +8,7 @@ import env from '../config';
 import FormContactFicha from "../components/FormContactFicha";
 import FormContact from "../components/FormContact";
 
-let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNIVERSO"
+let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDMOTORS"
 let nombreCamion = ""
 let nombreSerie = "Serie 100"
 let camionSerie = ""
@@ -123,7 +123,7 @@ function Block3() {
                 nombreCamion = "Camion de 10 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 10 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN10TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM10TON"
 
                 break;
 
@@ -132,7 +132,7 @@ function Block3() {
                 nombreCamion = "Camion de 9 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 9 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN9TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM9TON"
 
 
                 break;
@@ -143,7 +143,7 @@ function Block3() {
                 nombreCamion = "Camion de 12 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 12 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN12TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM12TON"
 
                 break;
 
@@ -153,7 +153,7 @@ function Block3() {
                 nombreCamion = "Camion de 13 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 13 TON (280HP)"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN13TON280"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM13TON280"
 
                 break;
 
@@ -163,7 +163,7 @@ function Block3() {
                 nombreCamion = "Camion de 13 toneladas 330Hp | T5G-1167"
                 camionSerie = "T5G 1167 / 13 TON (330HP)"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN13TON330"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM13TON330"
 
                 break;
 
@@ -173,7 +173,7 @@ function Block3() {
                 nombreCamion = "Camion de 18 toneladas | T5G-1257"
                 camionSerie = "T5G 1257 / 18 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN18TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM18TON"
 
                 break;
 
@@ -183,7 +183,7 @@ function Block3() {
                 nombreCamion = "Camion de 19 toneladas | T5G-1257"
                 camionSerie = "T5G 1257 / 19.5 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN19.5TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM19.5TON"
 
                 break;
 
@@ -193,7 +193,7 @@ function Block3() {
                 nombreCamion = "Camion de 3.5 toneladas | 1057"
                 camionSerie = "1057 / 3.5 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN3.5TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM3.5TON"
 
                 break;
 
@@ -203,7 +203,7 @@ function Block3() {
                 nombreCamion = "Camion de 3.6 toneladas | 1047"
                 camionSerie = "1047 / 3.6 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN3.6TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM3.6TON"
 
                 break;
 
@@ -214,7 +214,7 @@ function Block3() {
                 nombreCamion = "Camion de 5 toneladas | 1067"
                 camionSerie = "1067 / 5 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN5TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM5TON"
 
                 break;
 
@@ -224,7 +224,7 @@ function Block3() {
                 nombreCamion = "Camion de 6 toneladas | 1067"
                 camionSerie = "1067 / 6 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN6TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM6TON"
 
                 break;
 
@@ -234,7 +234,7 @@ function Block3() {
                 nombreCamion = "Camion de 8 toneladas | 1147"
                 camionSerie = "1147 / 8 TON"
                 nombreSerie = "Serie 100"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN8TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM8TON"
 
                 break;
 
@@ -244,7 +244,7 @@ function Block3() {
                 nombreCamion = "Camion de 20 toneladas | C7H-1256"
                 camionSerie = "C7H 1256 / 20 TON"
                 nombreSerie = "Serie C7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN20TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM20TON"
 
                 break;
 
@@ -253,7 +253,7 @@ function Block3() {
                 nombreCamion = "Excavadora SWE210"
                 camionSerie = "SWE210"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNSWE210"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMSWE210"
 
                 break;
 
@@ -262,16 +262,17 @@ function Block3() {
                 nombreCamion = "Excavadora SWE370E"
                 camionSerie = "SWE370E"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNSW365E"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMSW370E"
 
                 break;
 
+            //24 toneladas    
             case "cabezal-t5g-4187":
                 console.log('24 ton')
                 nombreCamion = "Camion de 24 toneladas | T5G-4187"
                 camionSerie = "T5G 4187 / 24 TON"
                 nombreSerie = "Serie T5G"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN24TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM24TON"
 
                 break;
 
@@ -281,17 +282,17 @@ function Block3() {
                 nombreCamion = "Camion de 28 toneladas | T7H-390"
                 camionSerie = "T7H 390 / 28 TON"
                 nombreSerie = "Serie T7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN28TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM28TON"
 
                 break;
 
-            //28 toneladas retardador
+            //28 toneladas retardador //falta
             case "cabezal-28-toneladas-retardador":
                 console.log('28 ton retardador')
                 nombreCamion = "Camion de 28 toneladas | T7H-390"
                 camionSerie = "T7H 390 / 28 TON con retardador"
                 nombreSerie = "Serie T7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDUNIVERSO"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM28TON"
 
                 break;
 
@@ -301,7 +302,7 @@ function Block3() {
                 nombreCamion = "Camion de 42 toneladas | T7H-390"
                 camionSerie = "T7H 390 / 42 TON"
                 nombreSerie = "Serie T7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN42TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM42TON"
 
                 break;
 
@@ -311,7 +312,7 @@ function Block3() {
                 nombreCamion = "Camion de 45 toneladas | T7H-430"
                 camionSerie = "T7H 430 / 45 TON"
                 nombreSerie = "Serie T7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN45TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM45TON"
 
                 break;
 
@@ -321,7 +322,7 @@ function Block3() {
                 nombreCamion = "Camion de 48 toneladas | C7H-540"
                 camionSerie = "C7H 540 / 48 TON"
                 nombreSerie = "Serie C7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN48TON"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM48TON"
 
                 break;
 
@@ -331,7 +332,7 @@ function Block3() {
                 nombreCamion = "Camion de 48 toneladas con Catalinas | C7H-540"
                 camionSerie = "C7H 540 / 48 TON con Catalinas"
                 nombreSerie = "Serie C7H"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUN48TONCAT"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM48TONCAT"
 
                 break;
 
@@ -340,7 +341,7 @@ function Block3() {
                 nombreCamion = "Volqueta | T5G-330"
                 camionSerie = "VOLQUETA T5G-330 8-9M2"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNVOLQ89M3"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMVOLQ89M3"
 
                 break;
 
@@ -350,16 +351,16 @@ function Block3() {
                 nombreCamion = "Volqueta | T7H-430"
                 camionSerie = "VOLQUETA T5G 430-330 10-14M2"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNVOLQ1014M3"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMVOLQ1014M3"
 
                 break;
-
+            //mixer 8-9m3
             case "mixer-a7-1257":
                 console.log('mixer 1257')
                 nombreCamion = "Mixer A7 1257"
                 camionSerie = "A7 1257 / MIXER"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNMX89M3"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMMX89M3"
 
                 break;
 
@@ -368,7 +369,7 @@ function Block3() {
                 nombreCamion = "Volqueta 20 m3"
                 camionSerie = "VOLQUETA 20M2"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNVOLQ20M3"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMVOLQ20M3"
 
                 break;
 
@@ -376,7 +377,7 @@ function Block3() {
                 nombreCamion = "EXCAVADORA"
                 camionSerie = "EXCAVADORA"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNHDEXCA"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMHDEXCA"
 
                 break;
 
@@ -393,7 +394,7 @@ function Block3() {
                 nombreCamion = "MINI EXCAVADORA"
                 camionSerie = "MINI EXCAVADORA"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNHDMINIEXCA"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMHDMINIEXCA"
 
                 break;
 
@@ -401,15 +402,15 @@ function Block3() {
                 nombreCamion = "RODILLO"
                 camionSerie = "RODILLO"
                 nombreSerie = "Excavadora"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNHDRO"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMHDRO"
 
                 break;
-
+            //12m3
             case "mixer-c7h-12m3":
                 nombreCamion = "C7H 12M3 / MIXER"
                 camionSerie = "C7H 12M3 / MIXER"
                 nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDUNMX12M3"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMMX12M3"
 
                 break;
 
