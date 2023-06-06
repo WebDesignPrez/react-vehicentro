@@ -349,7 +349,7 @@ function Block3() {
             case "volqueta-t7h-430":
                 console.log('volqueta T7H-430')
                 nombreCamion = "Volqueta | T7H-430"
-                camionSerie = "VOLQUETA T5G 430-330 10-14M2"
+                camionSerie = "VOLQUETA T5G 430-330 10-14M3"
                 nombreSerie = "Especiales"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMVOLQ1014M3"
 
@@ -367,7 +367,7 @@ function Block3() {
             //Nuevas variables
             case "volqueta-20-m3":
                 nombreCamion = "Volqueta 20 m3"
-                camionSerie = "VOLQUETA 20M2"
+                camionSerie = "VOLQUETA 20M3"
                 nombreSerie = "Especiales"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMVOLQ20M3"
 
