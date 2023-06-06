@@ -78,7 +78,7 @@ function Camion() {
         case "volqueta-t5g-280":
             console.log('volqueta 330')
             nombreCamion = "Volqueta | T5G-330"
-            camionSerie = "VOLQUETA T5G-330 8-9M2"
+            camionSerie = "VOLQUETA T5G-330 8-9M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXVOLQ89M3"
             images = [
