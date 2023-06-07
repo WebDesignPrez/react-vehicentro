@@ -9,7 +9,13 @@
   .searchIcon {
     display: none;
   }
+  .bombaKawa{
+    transform: translate(0%, -75%);
+}
 
+  .tecJaponesa {
+    transform: translate(20%, -75%);
+}
   .closeMovil::before {
     content: url(../public/images/back.png);
     position: absolute;

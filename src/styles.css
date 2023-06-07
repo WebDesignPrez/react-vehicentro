@@ -928,6 +928,62 @@ p.titleFooter {
     flex-wrap: wrap;
 }
 
+
+
+@media only screen and (min-width: 1024px) {
+    .bombaKawa{
+        transform: translate(20%, -70%);
+    }
+    .tecJaponesa {
+        transform: translate(15%, -70%);
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .bombaKawa{
+        transform: translate(1%, -120%);
+    }
+    .tecJaponesa {
+        transform: translate(1%, -150%);
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .bombaKawa{
+        transform: translate(1%, -120%);
+    }
+    .tecJaponesa {
+        transform: translate(1%, -150%);
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    .bombaKawa{
+        transform: translate(5%, -117%);
+    }
+    .tecJaponesa {
+        transform: translate(5%, -150%);
+    }
+}
+
+@media only screen and (min-width: 2048px) {
+    .bombaKawa{
+        transform: translate(16%, -180%);
+    }
+    .tecJaponesa {
+        transform: translate(17%, -200%);
+    }
+}
+
+
+@media only screen and (min-width: 2140px) {
+    .bombaKawa{
+        transform: translate(18%, -170%);
+    }
+    .tecJaponesa {
+        transform: translate(18%, -200%);
+    }
+}
 .boxRightHeader .row {
     display: flex;
 }
