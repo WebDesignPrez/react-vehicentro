@@ -330,11 +330,8 @@ color:red;
   display: none !important;
 }
 
-@media only screen and (min-width: 820px) {
-  .navSearch{
-    display:none;
-  }
-}
+
+
 
 @media only screen and (min-width: 2000px) {
   .internal .nav-links > li > a {

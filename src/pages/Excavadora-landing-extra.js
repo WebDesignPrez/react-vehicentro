@@ -351,10 +351,12 @@ function Camion() {
 
         <div className="boxRightHeader  half icon_center" >
           <div className="banner"><img src={tecnologia} /></div>
+          <p className="tecJaponesa">Tecnología Japonesa</p>
         </div>
 
         <div className="boxRightHeader  half text_icon_center" >
           <p className='vidaUtil'>{contenedorVidaUtil}</p>
+          <p className="bombaKawa">Bombas Kawasaki</p>
         </div>
 
         <div className="boxRightHeader  half icon_right">
