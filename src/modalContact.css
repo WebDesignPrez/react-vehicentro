@@ -1,0 +1,79 @@
+.modalContact{
+    width: 310px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 5;
+    border-radius: 15px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+}
+
+.headerModalContact{
+    background-color: #000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px 50px;
+}
+
+.headerModalContact img{
+    width: 100%;
+}
+
+.bodyModalContact{
+    padding: 35px 30px;
+}
+
+.btnModalContact{
+    border-color: #c92e2a;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 15px 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    position: relative;
+}
+
+.btnModalContact:hover{
+    border-color: #fff;
+    background-color: #c92e2a;
+    color:#fff;
+}
+
+.btnModalContact span.wa::after {
+    position: absolute;
+    top:12px;
+    content: url(../public/images/wasap.png);
+    margin-left: 10px;
+  }
+
+  .btnModalContact span.ca::after {
+    position: absolute;
+    top:12px;
+    content: url(../public/images/call.png);
+    margin-left: 10px;
+  }
+
+  .ReactModal__Overlay--after-open{
+    position: static !important;
+  }
+
+
+  .modalForm{
+    width: 50vw;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);  
+    z-index: 100;
+    border-radius: 15px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 3%;
+    overflow-y: scroll;
+  }

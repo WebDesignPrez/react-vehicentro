@@ -1,0 +1,359 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+  background: #fff;
+/*  font-family: Oxanium;*/
+  font-family: Blatant;
+  overflow-y: auto;
+  font-display: swap;
+}
+
+div{
+/*     border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+nav.internal{
+  background: #131313;
+  display: flex;
+  /*justify-content:space-around;*/
+ /*  flex-wrap: wrap; */
+  align-items: center;
+  color: #fff;
+  min-height: 100px;
+
+}
+
+.internal .nav-links {
+    justify-content:space-around;
+    text-transform: uppercase;
+    position: absolute;
+    left:0;
+    top:80px;
+    min-height:52vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;   
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transform: translateX(-100%);
+    transition:All 0.5s ease-in;
+    
+}
+
+.internal .nav-inactive{
+    display: none !important;
+}
+
+.internal .nav-links > li{
+    background: #101113;
+}
+
+.internal .nav-links a{
+  /*display: block;*/
+
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border-bottom:2px solid transparent;
+  /*transition:0.5s ease;
+  transform: translateX(0%);*/
+  opacity: 0;
+  font-size: 1em;
+}
+
+.internal .nav-links .nav-header a{
+  display: inline-block;
+}
+
+
+.internal .nav-links .nav-header a:hover::after{
+  content: url(../public/images/arrow2.png);
+  margin-left: 5px;
+}
+
+.internal .nav-links a:hover{
+  color:#f44331;
+ 
+}
+
+.internal .burger{
+    display: block;
+    padding: 25px;
+}
+.internal .burger div{
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin: 5px;
+  transition:all 0.5s ease;
+  
+}
+
+svg{
+color:red;
+}
+
+.internal .logo{
+    padding-right: 25px;
+}
+
+.internal .logo img{
+      max-width: 100%;
+  
+  height: auto;
+  aspect-ratio: attr(width) / attr(height);
+
+}
+
+.internal .nav-active{
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.toggle .line1{
+   transform: rotate(-45deg) translate(-5px,6px );
+}
+
+.toggle .line2{
+   opacity: 0;
+}
+
+.toggle .line3{
+   transform: rotate(45deg) translate(-5px,-6px );
+}
+
+.internal .nav-links-h li{
+  display: inline;
+}
+
+.internal .nav-links-h .subMenu{
+    display: none;
+}
+
+.internal ul.nav-links-h {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.internal ul.nav-links-h >li > a{
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 5px;
+    font-size: 15px;
+}
+
+.internal ul.nav-links-h >li > a:hover{
+    color: #f44331;
+    border-bottom-color: #f44331;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    
+}
+
+.internal .nav-header{
+    background-color:#fff;
+    width: 73vw;
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 20px 45px;
+    overflow-y: scroll;
+    height: -webkit-fill-available;
+    height: 100%;
+}
+
+.internal .nav-header-h{
+    display:none;
+}
+
+.internal .nav-header-s{
+    display: block;
+}
+
+.internal .nav-header-h-i{
+    z-index:-1 !important;
+}
+
+.internal .nav-header-s-i{
+    z-index:1 !important;
+}
+
+.internal .nav-links > li {
+  width: 27vw;
+}
+
+.colorSvg { color: white; }
+
+.internal .nav-links > li > a::after {
+
+    content: url("data:image/svg+xml;charset=UTF-8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='16' height='16' class='bi bi-chevron-right colorSvg' viewBox='0 0 16 16'><path  fill='red' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+    width: 15px;
+    color:white;
+    float: right;
+    display: inline-block;
+
+}
+
+.internal .nav-links > li > a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1.7rem;
+  padding-bottom: 3.1vh;
+}
+
+
+.internal .imgMenu{
+    width: 150px;
+    height: 127px;
+}
+
+.internal .imgContainer {
+    display: inline;
+}
+
+.internal .imgContainer img{
+
+
+  width: 100%;
+  height: auto;
+  max-width: 100%; 
+}
+
+.internal .navSearch {
+  display: none;
+  background:#f0f0f0;
+  position: absolute;
+  width: 80vw;
+  left: 10vw;
+  height: 80px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  z-index: 5;
+  -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
+    transition: -webkit-box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+}
+
+.internal .navSearch input{
+    width: 100%;
+    height: 100%;
+    padding-left: 3rem;
+    padding-right: 1.5em;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    display: table-cell;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.internal .navSearch input:focus{
+    outline: none;
+}
+
+.internal .nav-search-active{
+  
+}
+
+@font-face {
+  font-family: Blatant;
+  src: url(./fonts/Blatant.otf);
+}
+  
+.headerSubMenu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cfd4d3;
+    padding-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerSubMenu p{
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 21px;
+}
+
+.rowMenu{
+    color:#000;
+    display: flex;
+    justify-content: flex-start;
+}
+.colMenu{
+    width: 25%;
+    margin: 0 10px 0 0;
+}
+.colTitle{
+    
+    font-size: 1.4vw;
+}
+
+.item-level-3 .colTitle2{
+    font-size: 17px;
+    margin-bottom: 0px !important;
+}
+
+.item-level-3 .colItem{
+    font-size: 13px;
+    margin-right: 50px;
+    margin-top: 0px !important;
+}
+
+.inputCamionInt{
+  display: none !important;
+}
+
+@media only screen and (min-width: 820px) {
+  .navSearch{
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .internal .nav-links > li > a {
+    padding-bottom: 3.5vh;
+  }
+
+  .internal .nav-links a{
+    font-size: 1.1vw
+  }
+
+}
+
+@media only screen and (min-width: 2800px) {
+  .internal .nav-links > li > a {
+    padding-bottom: 4.1vh;
+  }
+
+  .internal .nav-links a{
+    font-size: 1.1vw
+  }
+
+}

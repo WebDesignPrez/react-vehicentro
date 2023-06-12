@@ -1,0 +1,99 @@
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 40vw;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+.boxesIni{
+    display: flex;
+}
+
+.posRelative{
+    position: relative;
+    /* top: -83px; */
+    top: 0px;
+}
+
+.boxesIni > div{
+    width: 50%;
+
+}
+
+.boxesIni img{
+    width: 100%;
+    height: auto;
+}
+
+.boxInfo{
+    background-color: #343534;
+    color: #fff;
+}
+
+.boxInfo p{
+    margin: 0;
+}
+
+.boxInfo .desc{
+    padding: 4vw 0px 0px 3vw;
+    font-size: 20px;
+    width: 30vw;
+}
+
+.boxInfo .link{
+    padding: 10px 3vw 0px;
+    font-size: 18px;
+}
+
+.boxInfo a:link, .boxInfo a:visited{
+    color: #fff;
+}
+
+.boxesContact{
+    background: rgb(234,75,56);
+    background: linear-gradient(90deg, rgba(234,75,56,1) 0%, rgba(186,31,35,1) 35%, rgba(125,28,30,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 8vh 30vw;
+}
+.boxesContact.fix{
+    
+    padding: 8vh 25vw;
+}
+
+.boxesContact .buttonContact{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 5%;
+    font-size:25px;
+}
+
+.boxesContact .buttonContact.f{
+    margin: 0 6% 3% 6%;
+}
+
+.colMenu img{
+    width:85%;
+    height:auto;
+}
+
+.colMenu > div{
+    margin-top: auto;
+}
+
+.boxesIni .boxPlayer {
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+    bottom: 15px;
+  }
