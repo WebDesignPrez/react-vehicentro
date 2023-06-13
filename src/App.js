@@ -8,6 +8,7 @@ import Camion from "./pages/Camion"
 import Cabezal from "./pages/Cabezal"
 import Concesionarios from "./pages/Concesionarios"
 import Excavadora from "./pages/Excavadora"
+import Minicargadoras from "./pages/Minicargadoras"
 import Volqueta from "./pages/Volqueta"
 import Camion_en_uso from "./pages/Camion_en_uso"
 import Compania from "./pages/Compania"
@@ -82,6 +83,13 @@ import Mixer_landing_ecdf from "./pages/Mixer-landing-ecdf"
 import Mixer_landing_expresso from "./pages/Mixer-landing-expresso"
 import Mixer_landing_revista_motors from "./pages/Mixer-landing-revista-motors"
 import PoliticaPrivacidad from "./pages/PoliticaPrivacidad"
+import Minicargadoras_landing_comercio from "./pages/Minicargadoras-landing-comercio"
+import Minicargadoras_landing_ecdf from "./pages/Minicargadoras-landing-ecdf"
+import Minicargadoras_landing_expresso from "./pages/Minicargadoras-landing-expresso"
+import Minicargadoras_landing_extra from "./pages/Minicargadoras-landing-extra"
+import Minicargadoras_landing_primicias from "./pages/Minicargadoras-landing-primicias"
+import Minicargadoras_landing_revista_motors from "./pages/Minicargadoras-landing-revista-motors"
+import Minicargadoras_landing_universo from "./pages/Minicargadoras-landing-universo"
 
 function App() {
 
@@ -99,6 +107,7 @@ function App() {
           <Route path="/camiones/:id" element={<Camion />} />
           <Route path="/cabezales/:id" element={<Cabezal />} />
           <Route path="/excavadoras/:id" element={<Excavadora />} />
+          <Route path="/minicargadoras/:id" element={<Minicargadoras />} />
           <Route path="/tecnologia" element={<Tecnologia />} />
           <Route path="/concesionarios" element={<Concesionarios />} />
           <Route path="/volquetas/:id" element={<Volqueta />} />
@@ -144,6 +153,8 @@ function App() {
           <Route path="/landing/el-extra/excavadora/:id" element={<Excavadora_landing_extra />} />
           <Route path="/landing/el-extra/volqueta/:id" element={<Volqueta_landing_extra />} />
           <Route path="/landing/el-extra/mixer/:id" element={<Mixer_landing_extra />} />
+          <Route path="/landing/el-extra/minicargadoras/:id" element={<Minicargadoras_landing_extra />} />
+          <Route path="/landing/comercio/minicargadoras/:id" element={<Minicargadoras_landing_comercio />} />
           <Route path="/landing/comercio/camion/:id" element={<Camion_landing_comercio />} />
           <Route path="/landing/comercio/cabezal/:id" element={<Cabezal_landing_comercio />} />
           <Route path="/landing/comercio/excavadora/:id" element={<Excavadora_landing_comercio />} />
@@ -154,14 +165,17 @@ function App() {
           <Route path="/landing/el-universo/excavadora/:id" element={<Excavadora_landing_universo />} />
           <Route path="/landing/el-universo/volqueta/:id" element={<Volqueta_landing_universo />} />
           <Route path="/landing/el-universo/mixer/:id" element={<Mixer_landing_universo />} />
+          <Route path="/landing/el-universo/minicargadoras/:id" element={<Minicargadoras_landing_universo />} />
           <Route path="/landing/primicias/camion/:id" element={<Camion_landing_primicias />} />
           <Route path="/landing/primicias/cabezal/:id" element={<Cabezal_landing_primicias />} />
           <Route path="/landing/primicias/excavadora/:id" element={<Excavadora_landing_primicias />} />
           <Route path="/landing/primicias/volqueta/:id" element={<Volqueta_landing_primicias />} />
           <Route path="/landing/primicias/mixer/:id" element={<Mixer_landing_primicias />} />
+          <Route path="/landing/primicias/minicargadoras/:id" element={<Minicargadoras_landing_primicias />} />
           <Route path="/landing/ecdf/camion/:id" element={<Camion_landing_ecdf />} />
           <Route path="/landing/ecdf/cabezal/:id" element={<Cabezal_landing_ecdf />} />
           <Route path="/landing/ecdf/excavadora/:id" element={<Excavadora_landing_ecdf />} />
+          <Route path="/landing/ecdf/minicargadoras/:id" element={<Minicargadoras_landing_ecdf />} />
           <Route path="/landing/ecdf/volqueta/:id" element={<Volqueta_landing_ecdf />} />
           <Route path="/landing/ecdf/mixer/:id" element={<Mixer_landing_ecdf />} />
           <Route path="/landing/expresso/camion/:id" element={<Camion_landing_expresso />} />
@@ -169,11 +183,13 @@ function App() {
           <Route path="/landing/expresso/excavadora/:id" element={<Excavadora_landing_expresso />} />
           <Route path="/landing/expresso/volqueta/:id" element={<Volqueta_landing_expresso />} />
           <Route path="/landing/expresso/mixer/:id" element={<Mixer_landing_expresso />} />
+          <Route path="/landing/expresso/minicargadoras/:id" element={<Minicargadoras_landing_expresso />} />
           <Route path="/landing/revista-motors/camion/:id" element={<Camion_landing_revista_motors />} />
           <Route path="/landing/revista-motors/cabezal/:id" element={<Cabezal_landing_revista_motors />} />
           <Route path="/landing/revista-motors/excavadora/:id" element={<Excavadora_landing_revista_motors />} />
           <Route path="/landing/revista-motors/volqueta/:id" element={<Volqueta_landing_revista_motors />} />
           <Route path="/landing/revista-motors/mixer/:id" element={<Mixer_landing_revista_motors />} />
+          <Route path="/landing/revista-motors/minicargadoras/:id" element={<Minicargadoras_landing_revista_motors />} />
           <Route path="/politicaprivacidad" element={<PoliticaPrivacidad/>} />
         </Routes>
       </main>
