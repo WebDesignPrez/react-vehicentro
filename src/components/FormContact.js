@@ -23,6 +23,8 @@ function FormContact(props) {
   let [camion, setCam] = useState(nomCamion);
   let [escoge_tu_concesionario_mas_cercano, setCon] = useState('Concesionario');
 
+  
+
   const handleChange = (e) => {
     setName((e.target.value));
   }
@@ -257,6 +259,7 @@ function FormContact(props) {
     return queryString
   }
 
+
   function handleSumbit(e) {
     e.preventDefault();
 
@@ -313,6 +316,7 @@ function FormContact(props) {
   const especiales = ['VOLQUETA T5G-330 8-9M3', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M3', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER'];
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
+  const miniCargadora = ['SWL3220'];
 
   let type = null;
   let options = null;
@@ -331,11 +335,13 @@ function FormContact(props) {
     type = excavadora;
   } else if (serie === "Furgoneta") {
     type = furgoneta;
-  }
+  } else if (serie === "miniCargadoras")
+    type = miniCargadora;
 
 
   if (type) {
     options = type.map((el) => <option key={el}>{el}</option>);
+    console.log(options);
   }
 
   const [isChecked, setIsChecked] = useState(true);
@@ -414,6 +420,7 @@ function FormContact(props) {
               <option value="Especiales">Especiales</option>
               <option value="Excavadora">Excavadora</option>
               <option value="Furgoneta">Furgoneta</option>
+              <option value="miniCargadoras">Minicargadora</option>
             </select>
           </div>
 

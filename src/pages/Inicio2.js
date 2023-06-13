@@ -324,10 +324,22 @@ function Block3() {
                     <img src={urlMedia + "home/sunward.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
-                        <p className="titleBox2">SUNWARD</p>
+                        <p className="titleBox2">SUNWARD EXCAVADORAS</p>
                         <div className="linksBox">
-                            <NavLink className="line2" src="" to="/excavadoras/swe210">SWE210</NavLink>
-                            <NavLink className="line2" src="" to="/excavadoras/swe370e">SWE370E</NavLink>
+                            <NavLink className="line2" src="" to="/excavadoras/swe210">SW210 21 Ton</NavLink>
+                            <NavLink className="line2" src="" to="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</NavLink>
+                        </div>
+                        <div className="linksBox">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src={urlMedia + "home/minicargadora.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
+                    <div className="bottomContainer">
+                        <p className="titleBox"></p>
+                        <p className="titleBox2">SUNWARD MINICARGADORAS</p>
+                        <div className="linksBox">
+                            <NavLink className="line2" src="" to="/minicargadoras/swl3220">SWL3220</NavLink>
                         </div>
                         <div className="linksBox">
                         </div>

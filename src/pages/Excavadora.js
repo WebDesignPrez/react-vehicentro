@@ -104,7 +104,7 @@ function Camion() {
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
       images = [
-        urlMedia + "swe210/vehicentro-excavadora-ecuador.webp"
+        urlMedia + "swe210/excavadora.webp"
       ];
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE210"
@@ -113,7 +113,7 @@ function Camion() {
       cuotas = `Cuotas desde: ${precios.e_210_cuota}`
       motor = urlMedia + "swe210/motor.webp"
       garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
-      tecnologia = urlMedia + "swe210/sunward.webp"
+      tecnologia = urlMedia + "swe210/jpn.png"
       contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swe210/isuzu.webp"} /></div>
 
       caracteristicas = [
@@ -194,7 +194,7 @@ function Camion() {
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB365SUNWARD"
       images = [
-        urlMedia + "swe365e/vehicentro-excavadora-ecuador.webp"
+        urlMedia + "swe365e/vehicentroExcavadoraEcuador.webp"
       ];
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE370E"
@@ -203,7 +203,7 @@ function Camion() {
       cuotas = `Cuotas desde: ${precios.e_365_cuota}`
       motor = urlMedia + "swe365e/motor.webp"
       garantia = urlMedia + "swe365e/5-anos-de-garantia.webp"
-      tecnologia = urlMedia + "swe365e/sunward.webp"
+      tecnologia = urlMedia + "swe365e/japonesa.png"
       contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swe365e/isuzu.webp"} /></div>
 
       caracteristicas = [
@@ -372,7 +372,7 @@ function Camion() {
 
         <div className="boxRightHeader  half icon_center" >
           <div className="banner"><img src={tecnologia} /></div>
-          <p className="tecJaponesa">Tecnología Japonesa</p>
+        {/*           <p className="tecJaponesa">Tecnología Japonesa</p> */}
         </div>
 
         <div className="boxRightHeader  half text_icon_center" >
@@ -385,9 +385,7 @@ function Camion() {
         </div>
 
       </div>
-
-
-
+    
       <div className="boxesIni posRelative">
         <div className="marcasbg">
           <img src={cabina} width="1500" height="1500" className="slideMain" alt="Punto de Venta" />

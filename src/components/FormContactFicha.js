@@ -313,6 +313,7 @@ function FormContactFicha(props) {
   const especiales = ['VOLQUETA T5G-330 8-9M3', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M3', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER'];
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
+  const miniCargadora = ['SWL3220'];
 
   let type = null;
   let options = null;
@@ -331,7 +332,8 @@ function FormContactFicha(props) {
     type = excavadora;
   } else if (serie === "Furgoneta") {
     type = furgoneta;
-  }
+  } else if (serie === "miniCargadora")
+    type = miniCargadora;
 
 
   if (type) {
@@ -418,6 +420,7 @@ function FormContactFicha(props) {
               <option value="Especiales">Especiales</option>
               <option value="Excavadora">Excavadora</option>
               <option value="Furgoneta">Furgoneta</option>
+              <option value="miniCargadora">Minicargadora</option>
             </select>
           </div>
 
