@@ -125,13 +125,13 @@ function Camion() {
             cabina = urlMedia + "swl3220/MiniInterna.webp"
             marcas = urlMedia + "swe210/asiento.webp"
             internas1 = [
-                urlMedia + "swl3220/internaMini.webp",
+                urlMedia + "swl3220/miniInterna1.webp",
             ];
             internas2 = [
-                urlMedia + "swl3220/internaMini2.webp"
+                urlMedia + "swl3220/miniInterna2.webp"
             ];
             internas1b = [
-                urlMedia + "swl3220/internaMini3.webp"
+                urlMedia + "swl3220/miniInterna3.webp"
             ];
             internas2b = [
                 urlMedia + "swl3220/internaMini4.webp"
