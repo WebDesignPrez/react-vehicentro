@@ -556,12 +556,12 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src={urlMedia + "home/sunward.webp"} width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia + "home/minicargadora.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD MINICARGADORAS</p>
                         <div className="linksBox">
-                            <a className="line2" src="" href="/landing/comercio/excavadora/swe210">SWL3220</a>
+                        <a className="line2" src="" href="/landing/comercio/minicargadoras/swl3220">SWL3220</a>
                         </div>
                         <div className="linksBox">
                         </div>

@@ -523,7 +523,7 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src={urlMedia + "home/sunward.webp"} width="900" height="700" alt="Vehicentro" />
+                    <img src={urlMedia + "home/minicargadora.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD Minicargadoras</p>

@@ -547,10 +547,22 @@ function Block3() {
                     <img src={urlMedia + "home/sunward.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
-                        <p className="titleBox2">SUNWARD</p>
+                        <p className="titleBox2">SUNWARD Excavadoras</p>
                         <div className="linksBox">
                             <a className="line2" src="" href="/landing/revista-motors/excavadora/swe210">SWE210</a>
                             <a className="line2" src="" href="/landing/revista-motors/excavadora/swe370e">SWE370E</a>
+                        </div>
+                        <div className="linksBox">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src={urlMedia + "home/minicargadora.webp"} width="900" height="700" alt="Vehicentro" />
+                    <div className="bottomContainer">
+                        <p className="titleBox"></p>
+                        <p className="titleBox2">SUNWARD Minicargadoras</p>
+                        <div className="linksBox">
+                            <a className="line2" src="" href="/landing/revista-motors/minicargadoras/swl3220">SWL3220</a>
                         </div>
                         <div className="linksBox">
                         </div>
