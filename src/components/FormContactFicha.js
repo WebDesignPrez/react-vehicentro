@@ -397,7 +397,7 @@ function FormContactFicha(props) {
               <option value="Riobamba">Riobamba</option>
               <option value="Quito - Carapungo">Quito - Carapungo</option>
               <option value="Quito - Sur">Quito - Sur</option>
-              <option value="Quito - Los Chillos">Quito - Los Chillos</option>
+              {/* <option value="Quito - Los Chillos">Quito - Los Chillos</option> */}
               <option value="Quito - Galo Plaza">Quito - Galo Plaza</option>
               <option value="Quito - El Colibrí ">Quito - El Colibrí </option>
               <option value="Guayaquil - Norte">Guayaquil - Norte</option>
