@@ -466,7 +466,7 @@ export default function NavBarTop() {
                             <p className="colTitle">Quito</p>
                             <p className="colTitle2">Carapungo</p>
                             <p className="colItem">Av. Simón Bolivar S/N diagonal al Supermercado Santa María.</p>
-                            <p className="colTitle2">Los Chillos</p>
+                            {/* <p className="colTitle2">Los Chillos</p> */}
                             <p className="colItem">Av. General Rumiñahui 8-40 y Av. San Luis (frente al San Luis Shopping)</p>
                             <p className="colTitle2">Sur</p>
                             <p className="colItem">Av. Maldonado y Romero Barberis</p>
