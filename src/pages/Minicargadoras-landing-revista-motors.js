@@ -101,7 +101,7 @@ function Camion() {
             console.log('swl3220')
             nombreCamion = "MINICARGADORA SWL3220"
             camionSerie = "SWL3220"
-            nombreSerie = "MINICARGADORA"
+            nombreSerie = "miniCargadoras"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMSWL3220"
             images = [
                 urlMedia + "swl3220/WEB-MINICARGADOR-1.webp"
