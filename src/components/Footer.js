@@ -42,11 +42,10 @@ export default function Footer() {
                     <li><p className="itemMenu"><a href="/serie/volquetas">Volquetas</a></p></li>
                 </ul>
                 <ul className="list">
-                    <li><p className="subTitle">SUNWARD</p></li>
-                    <li><p className="titleFooter"><a href="/excavadoras/swe210">Excavadora SWE210</a></p></li>
-                    <li><p className="titleFooter"><a href="/excavadoras/swe370e">Excavadora SWE370E</a></p></li>
+                    <li><p className="subTitle">SUNWARD EXCAVADORAS</p></li>
+                    <li><p className="titleFooter"><a href="/excavadoras/swe210">SW210 21 Ton</a></p></li>
+                    <li><p className="titleFooter"><a href="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</a></p></li>
                 </ul>
-
             </div>
             <div className="col1 colSell">
                 <p className="title">POSVENTA</p>
@@ -55,6 +54,13 @@ export default function Footer() {
                     <li><p className="itemMenu"><a href="/repuestos">Repuestos</a></p></li>
                     <li><p className="itemMenu">Mantenimiento</p></li>
                     <li><p className="itemMenu"><a href="/garantia">Garantía</a></p></li>
+                    <br/>
+                    <br/>
+                    <br/>   
+                </ul>
+                <ul className="list">
+                    <li><p className="subTitle">SUNWARD MINICARGADORAS</p></li>
+                    <li><p className="titleFooter"><a href="/minicargadoras/swl3220">SWL3220</a></p></li>
                 </ul>
             </div>
             <div className="col1 colTech">
