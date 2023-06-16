@@ -400,9 +400,17 @@ export default function NavBarTop() {
                         <img className="imgnMenu" src={urlMedia+"logo-sunward.webp"} alt="sunward" />
                     </div>
                     <div className="rowMenu">
+                    <div className="colMenu">
+                            <p className="colTitle">EXCAVADORAS</p>
+                            <p className="colItem meniu"><NavLink to="/excavadoras/swe210">SW210 21 Ton</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</NavLink></p>
+
+                        </div>
                         <div className="colMenu">
-                            <p className="colItem meniu"><NavLink to="/excavadoras/swe210">Excavadora SWE210</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/excavadoras/sw370e">Excavadora SWE370E</NavLink></p>
+                            <p className="colTitle">MINICARGADORAS</p>
+                            <p className="colItem meniu"><NavLink to="/minicargadoras/swl3220">SWL3220</NavLink></p>
+                            <div>
+                            </div>
                         </div>
                     </div>
                 </div>
