@@ -1,9 +1,11 @@
 import React from 'react'
+import Interior from './componentes/Interior'
 
 function VehiculosPage() {
   return (
     <>
-    <p>Vehiculos</p>
+      <p>Vehiculos</p>
+      <Interior />
     </>
   )
 }
