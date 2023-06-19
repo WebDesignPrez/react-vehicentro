@@ -10,10 +10,10 @@ function Hero() {
     <>
     <div className='vehiculosBox'>
         <div className='tituloVehiculos'>
-          <p>Polestar</p>
+          <p>Sinotruk</p>
         </div>
        <div className='headHero'>
-         <p className='tituloHeadHero'>Polestar1</p>
+         <p className='tituloHeadHero'>U 70 Pro</p>
          <p>____</p>
          <p className='tituloHeadHero mas'>El automóvil con prestaciones de alta gama</p>
          <p className='tituloHeadHero2 mas'>Descubra qué hizo de este automóvil de edicion limitada un artículo de colección instantáneo</p>
