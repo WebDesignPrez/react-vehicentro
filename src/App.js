@@ -192,7 +192,7 @@ function App() {
           <Route path="/landing/revista-motors/mixer/:id" element={<Mixer_landing_revista_motors />} />
           <Route path="/landing/revista-motors/minicargadoras/:id" element={<Minicargadoras_landing_revista_motors />} />
           <Route path="/politicaprivacidad" element={<PoliticaPrivacidad/>} />
-          <Route path="/vehiculos" element={<VehiculosPage/>} />
+          <Route path="/sinotruck/autos/u70pro" element={<VehiculosPage/>} />
 
         </Routes>
       </main>
