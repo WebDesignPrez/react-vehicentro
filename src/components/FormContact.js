@@ -4,10 +4,9 @@ import "../form.css";
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import env from '../config';
-
+//Este formulario es de los camiones
 let urlMedia = env.url
 function FormContact(props) {
-
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
   let url = props.url
   let nomCamion = props.camion
@@ -23,6 +22,8 @@ function FormContact(props) {
   let [camionSerie, setSerieCamion] = useState(listCamion);
   let [camion, setCam] = useState(nomCamion);
   let [escoge_tu_concesionario_mas_cercano, setCon] = useState('Concesionario');
+
+  
 
   const handleChange = (e) => {
     setName((e.target.value));
@@ -258,6 +259,7 @@ function FormContact(props) {
     return queryString
   }
 
+
   function handleSumbit(e) {
     e.preventDefault();
 
@@ -311,9 +313,10 @@ function FormContact(props) {
   const serieT5G = ['T5G 1167 / 9 TON', 'T5G 1167 / 10 TON', 'T5G 1167 / 12 TON', 'T5G 1167 / 13 TON (280HP)', 'T5G 1167 / 13 TON (330HP)', 'T5G 1257 / 18 TON', 'T5G 1257 / 19.5 TON', 'T5G 4187 / 24 TON'];
   const serieT7H = ['T7H 390 / 28 TON', 'T7H 390 / 28 TON con retardador', 'T7H 390 / 42 TON', 'T7H 430 / 45 TON'];
   const serieC7H = ['C7H 1256 / 20 TON', 'C7H 540 / 48 TON', 'C7H 540 / 48 TON con Catalinas'];
-  const especiales = ['VOLQUETA T5G-330 8-9M2', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M2', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER'];
+  const especiales = ['VOLQUETA T5G-330 8-9M3', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M3', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER'];
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
+  const miniCargadora = ['SWL3220'];
 
   let type = null;
   let options = null;
@@ -332,14 +335,20 @@ function FormContact(props) {
     type = excavadora;
   } else if (serie === "Furgoneta") {
     type = furgoneta;
-  }
+  } else if (serie === "miniCargadoras")
+    type = miniCargadora;
 
 
   if (type) {
     options = type.map((el) => <option key={el}>{el}</option>);
+    console.log(options);
   }
 
+  const [isChecked, setIsChecked] = useState(true);
 
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
 
   return <div>
     <div className="form-box">
@@ -388,11 +397,11 @@ function FormContact(props) {
               <option value="Riobamba">Riobamba</option>
               <option value="Quito - Carapungo">Quito - Carapungo</option>
               <option value="Quito - Sur">Quito - Sur</option>
-              <option value="Quito - Los Chillos">Quito - Los Chillos</option>
+              {/* <option value="Quito - Los Chillos">Quito - Los Chillos</option> */}
               <option value="Quito - Galo Plaza">Quito - Galo Plaza</option>
               <option value="Quito - El Colibrí ">Quito - El Colibrí </option>
-              <option value="Guayaquil - Samborondón">Guayaquil - Samborondón</option>
               <option value="Guayaquil - Norte">Guayaquil - Norte</option>
+              <option value="Guayaquil - Samborondón">Guayaquil - Samborondón</option>
               <option value="Cuenca">Cuenca</option>
               <option value="Machala">Machala</option>
               <option value="Ibarra">Ibarra</option>
@@ -411,6 +420,7 @@ function FormContact(props) {
               <option value="Especiales">Especiales</option>
               <option value="Excavadora">Excavadora</option>
               <option value="Furgoneta">Furgoneta</option>
+              <option value="miniCargadoras">Minicargadora</option>
             </select>
           </div>
 
@@ -430,7 +440,20 @@ function FormContact(props) {
 
           <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos-sobre-camiones/" type="hidden" />
         </div>
-        <button className="nextBtn" type="submit"> Cotizar </button>
+        <div className="contenedorTerminos">
+        <input
+            className="inputTerminos"
+            type="checkbox"
+            checked={isChecked}
+            onChange={handleCheckboxChange}
+          />
+          <label>
+            Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
+          </label>
+        </div>
+        <button className={isChecked? 'nextBtn':'nextBtnDisabled'} type="submit" disabled={!isChecked}>
+          Cotizar
+        </button>
         <NotificationContainer />
       </form>
     </div>
