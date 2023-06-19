@@ -1,9 +1,12 @@
 import React from 'react'
+import "../../../vehiculos.css";
 
 function Hero() {
   return (
     <>
-    <p>Hero</p>
+    <div className='vehiculosBox'>
+        <img src="" alt="" />
+    </div>
     </>
   )
 }
