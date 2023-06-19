@@ -1,8 +1,13 @@
+.page {
+  background-color: black;
+  color: white;
+}
+
 .title {
   font-size: 2.5rem;
   font-weight: bold;
-  margin: 0.5rem 0;
   padding-left: 2rem;
+  margin: 0;
 }
 
 .imagenes {
