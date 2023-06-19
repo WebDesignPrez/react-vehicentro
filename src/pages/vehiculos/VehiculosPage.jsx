@@ -1,12 +1,14 @@
 import React from 'react'
 import Hero from './componentes/Hero'
+import NavBarTop from '../../NavBarTop'
 
 function VehiculosPage() {
   return (
     <>
-    <Hero/>
+      <NavBarTop/>
+      <Hero/>
     </>
   )
 }
 
-export default VehiculosPage
+export default VehiculosPage 
