@@ -12,9 +12,10 @@ function VehiculosPage() {
   return (
     <>
       <NavBarTop />
+
       <Hero />
-      <Vehiculo />
       <CompraMenu />
+      <Vehiculo />
       <Interior />
       <Galeria />
       <Detalles />

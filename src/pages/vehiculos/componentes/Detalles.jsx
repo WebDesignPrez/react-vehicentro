@@ -6,7 +6,7 @@ const Detalles = () => {
   const urlMedia = env.url + "vehiculos/"
 
   return (
-    <div>
+    <div className='page'>
       <h3 className='title'>Detalles</h3>
 
       <div className='imagenes'>

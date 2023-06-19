@@ -6,7 +6,7 @@ const Galeria = () => {
   const urlMedia = env.url + "vehiculos/"
 
   return (
-    <div className='galeria'>
+    <div className='galeria page'>
 
       <h3 className='title'>Descubre la emoción de conducir tu propio sueño</h3>
 
