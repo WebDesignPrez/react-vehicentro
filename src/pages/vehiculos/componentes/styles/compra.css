@@ -1,0 +1,61 @@
+.compraBox{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.option{
+    display: grid;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    justify-items: stretch;
+    align-content: stretch;
+    text-align: center;
+}
+.option p{
+    color: #fff;
+    font-size: 2.5rem;
+    
+}
+
+.option img{
+    width: 50%;
+    animation-duration: 0.5s;
+}
+.uno{
+    display:  flex;
+    
+}   
+
+.dos{   
+    display: flex;
+
+}
+
+.izquierda{
+    width: 50%;
+    height: 50%;
+}
+.derecha{
+    width: 50%;
+    height: 50%;
+}
+
+.izquierda2{
+    width: 50%;
+    height: 50%;
+    
+}
+.derecha2{
+    width: 50%;
+    height: 50%;
+}
+
+.image{
+    width: 50%;
+}
+
+.image img{
+    width: 100%;
+}
+

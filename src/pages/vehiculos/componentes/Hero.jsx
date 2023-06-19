@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../../vehiculos.css";
+import "../../vehiculos/componentes/styles/hero.css";
 import env from '../../../config';
 
 let urlMedia = env.url +"/vehiculos/"
@@ -9,7 +9,16 @@ function Hero() {
   return (
     <>
     <div className='vehiculosBox'>
-        <img src={urlMedia + "fondoVehiculo.webp"} alt="" />
+        <div className='tituloVehiculos'>
+          <p>Polestar</p>
+        </div>
+       <div className='headHero'>
+         <p className='tituloHeadHero'>Polestar1</p>
+         <p>____</p>
+         <p className='tituloHeadHero mas'>El automóvil con prestaciones de alta gama</p>
+         <p className='tituloHeadHero2 mas'>Descubra qué hizo de este automóvil de edicion limitada un artículo de colección instantáneo</p>
+         <p className='tituloHeadHero3'>Todas las unidades de esta serie limitada están vendidas.</p>
+       </div>
     </div>
 
     </>
