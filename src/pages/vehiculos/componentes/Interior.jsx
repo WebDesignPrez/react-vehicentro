@@ -8,13 +8,13 @@ const Interior = () => {
 
   console.log(urlMedia);
   return (
-    <div>
+    <div className='interior'>
 
-      <h3>Upscale interior</h3>
+      <h3 className='title'> Upscale interior</h3>
+
 
       {/* Caracteristicas */}
-      <div>
-
+      <div className='caracteristicas'>
         <div>
           <h4>Pantalla multimedia</h4>
           <p>The available 12.3-inch Dual Panoramic Displays
