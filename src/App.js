@@ -90,6 +90,7 @@ import Minicargadoras_landing_extra from "./pages/Minicargadoras-landing-extra"
 import Minicargadoras_landing_primicias from "./pages/Minicargadoras-landing-primicias"
 import Minicargadoras_landing_revista_motors from "./pages/Minicargadoras-landing-revista-motors"
 import Minicargadoras_landing_universo from "./pages/Minicargadoras-landing-universo"
+import VehiculosPage from "./pages/vehiculos/VehiculosPage"
 
 function App() {
 
@@ -191,6 +192,8 @@ function App() {
           <Route path="/landing/revista-motors/mixer/:id" element={<Mixer_landing_revista_motors />} />
           <Route path="/landing/revista-motors/minicargadoras/:id" element={<Minicargadoras_landing_revista_motors />} />
           <Route path="/politicaprivacidad" element={<PoliticaPrivacidad/>} />
+          <Route path="/vehiculos" element={<VehiculosPage/>} />
+
         </Routes>
       </main>
     </BrowserRouter>
