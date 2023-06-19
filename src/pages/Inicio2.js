@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import { Slide } from 'react-slideshow-image';
 import env from '../config';
 import { Helmet } from "react-helmet";
+import PopUp from "../components/PopUp";
+
 
 let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHBOTONCOT"
 let nombreCamion = ""
@@ -17,7 +19,7 @@ let urlMedia = env.url
 function Inicio2() {
 
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
-
+    /* const [modal2FormIsOpen, setForm2IsOpen] = useState(false); */
 
     useEffect(() => {
         const motorPlayer = document.getElementById('audioMotorHome')
@@ -29,6 +31,14 @@ function Inicio2() {
                 closeFormContact()
             }
         };
+
+        /* const keyDown2Handler = event => {
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                closeFormCon2tact()
+            }
+        };
+ */
 
         const videoContainer = document.getElementById('videoContainer')
         const imgContainer = document.querySelectorAll('.imgContainerHeader')
@@ -65,6 +75,12 @@ function Inicio2() {
             document.removeEventListener('keydown', keyDownHandler);
         };
 
+      /*   document.addEventListener('keydown', keyDown2Handler);
+        return () => {
+            document.removeEventListener('keydown', keyDown2Handler);
+        };
+ */
+
     }, []);
 
 
@@ -76,6 +92,14 @@ function Inicio2() {
         setFormIsOpen(false)
     }
 
+   /*  function openForm2Contact() {
+        setForm2IsOpen(true)
+    }
+
+    function closeForm2Contact() {
+        setForm2IsOpen(false)
+    }
+ */
 
 
     return (
@@ -86,6 +110,7 @@ function Inicio2() {
                 <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
                 <meta name="robots" content="index, follow"></meta>
             </Helmet>
+            {/* <PopUp /> */}
             <NavBar />
             <Block1 />
             <Menu2 />
@@ -96,6 +121,7 @@ function Inicio2() {
             <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             <Footer />
             <Modal />
+            {/* <Modal2 /> */}
         </>
     )
 }
@@ -131,7 +157,7 @@ function Block1() {
             <div id="videoContainer" className="responsive">
                 <div className="boxRight tecnologia" height="1080">
                     <div className="boxLeft c7h">
-                        <video preload="none" autoPlay={true} width="930" height="1080" preload="none" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" />
+                        <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" />
                     </div>
                 </div>
                 <div className="overlayBox" height="200">
@@ -295,13 +321,25 @@ function Block3() {
                     </div>
                 </div>
                 <div>
-                    <img src={urlMedia + "home/sunward.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
+                    <img src={urlMedia + "home/sunwardNueva.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
-                        <p className="titleBox2">SUNWARD</p>
+                        <p className="titleBox2">SUNWARD EXCAVADORAS</p>
                         <div className="linksBox">
-                            <NavLink className="line2" src="" to="/excavadoras/swe210">SWE210</NavLink>
-                            <NavLink className="line2" src="" to="/excavadoras/swe370e">SWE370E</NavLink>
+                            <NavLink className="line2" src="" to="/excavadoras/swe210">SW210 21 Ton</NavLink>
+                            <NavLink className="line2" src="" to="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</NavLink>
+                        </div>
+                        <div className="linksBox">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src={urlMedia + "home/minicargadora.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
+                    <div className="bottomContainer">
+                        <p className="titleBox"></p>
+                        <p className="titleBox2">SUNWARD MINICARGADORAS</p>
+                        <div className="linksBox">
+                            <NavLink className="line2" src="" to="/minicargadoras/swl3220">SWL3220</NavLink>
                         </div>
                         <div className="linksBox">
                         </div>
@@ -377,5 +415,11 @@ function Modal() {
         <div id="modalContainer"></div>
     )
 }
+
+/* function Modal2() {
+    return (
+        <div id="modal2Container"></div>
+    )
+} */
 
 export default Inicio2

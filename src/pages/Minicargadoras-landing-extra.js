@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import NavBarTop from "../NavBarTop"
 import FormContact from "../components/FormContact";
 import BannerContacto from "../components/BannerContacto";
@@ -7,13 +8,12 @@ import { useParams } from "react-router";
 import { Slide, Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import '../slider.css';
-import { useEffect, useState } from "react";
 import '../modalContact.css';
 import FormContactFicha from "../components/FormContactFicha";
 import { Helmet } from "react-helmet";
 import env from '../config';
+import precios from '../precios';
 
-let cuotas
 let imagen
 let images
 let motor
@@ -40,18 +40,37 @@ let slide3b
 let contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
 let nombreCamion
 let bdc
+let medidasMovilDos
+let medidasDos
 let camionSerie
 let nombreSerie
+let cuotas
 let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
 let urlMedia = env.url
 
-function Mixer() {
+function Camion() {
+
+
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+    const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenWidth(window.innerWidth);
+            setScreenHeight(window.innerHeight);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        // Limpieza del evento al desmontar el componente
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
     useEffect(() => {
-        const motorPlayer = document.getElementById('audioMotor')
-        motorPlayer.src = audio_motor
-
         const keyDownHandler = event => {
             if (event.key === 'Escape') {
                 event.preventDefault();
@@ -73,53 +92,56 @@ function Mixer() {
     function closeFormContact() {
         setFormIsOpen(false)
     }
+
     //Comparacion paginas
     switch ((useParams("id").id)) {
 
-        //M ixer A7 1257 8-9m3
-        case "mixer-a7-1257":
-            console.log('mixer 1257')
-            nombreCamion = "Mixer A7 1257"
-            camionSerie = "A7 1257 / MIXER"
-            nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMMX89M3"
+        //SWL3220
+        case "swl3220":
+            console.log('swl3220')
+            nombreCamion = "MINICARGADORA SWL3220"
+            camionSerie = "SWL3220"
+            nombreSerie = "miniCargadoras"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXSWL3220"
             images = [
-                urlMedia + "a7/mixer-blanco-sinotruk.webp",
-                urlMedia + "a7/mixer-blanco-sinotruk-de-frente.webp"
+                urlMedia + "swl3220/WEB-MINICARGADOR-1.webp"
             ];
-            textoMotor1 = "380 HP"
-            textoMotor2 = "Modelo 1257 - 8m3"
-            textoMotor3 = "Ficha técnica"
-            precio = <div className="banner"><img src={urlMedia + "volqueta-280/logo-sinotruk.webp"} /></div>
-            cuotas = 'Cuotas desde: $447.00'
-            motor = urlMedia + "a7/motor-mixer.webp"
-            garantia = urlMedia + "a7/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "a7/mixer-serie.webp"
+            textoMotor1 = "SUNWARD"
+            textoMotor2 = "SWL3220"
+            textoMotor3 = "MINICARGADORA"
+            precio = precios.me_SWL3220
+            cuotas = `Cuotas desde: ${precios.me_SWL3220_cuota}`
+            motor = urlMedia + "swl3220/motorMinicargadora.webp"
+            garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
+            tecnologia = urlMedia + "swl3220/WEB-LOGO-SUNWARD-1.png"
+            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swl3220/kubotaBomba.png"} /></div>
 
             caracteristicas = [
-                urlMedia + "a7/transmision-10-2.webp",
-                urlMedia + "a7/cilindros.webp",
-                urlMedia + "a7/camion-de-3.5-toneladas-freno-de-aire.webp",
-                urlMedia + "a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
+                urlMedia + "swe210/camion-de-24-toneladas-potencia-340hp.webp",
+                urlMedia + "swe210/camion-de-24-toneladas-cilindraje.webp",
+                urlMedia + "swe210/camion-de-24-toneladas-freno-a-las-valvulas.webp",
+                urlMedia + "swe210/inyeccion.webp"
             ]
-            cabina = urlMedia + "a7/cabina.webp"
-            marcas = ""
+            cabina = urlMedia + "swl3220/MiniInterna.webp"
+            marcas = urlMedia + "swe210/asiento.webp"
             internas1 = [
-                urlMedia + "a7/mandos.webp"
+                urlMedia + "swl3220/miniInterna1.webp",
             ];
             internas2 = [
-                urlMedia + "a7/tablero.webp"
+                urlMedia + "swl3220/miniInterna2.webp"
             ];
             internas1b = [
-                urlMedia + "a7/bloqueo.webp"
+                urlMedia + "swl3220/miniInterna3.webp"
             ];
             internas2b = [
-                urlMedia + "a7/transmision.webp"
+                urlMedia + "swl3220/internaMini4.webp"
             ];
-            medidas = urlMedia + "a7/dimensiones-de-mixer-de-8-m3-sinotruk.webp"
-            medidasMovil = urlMedia + "a7/dimensiones-de-mixer-de-8-m3-sinotruk-responsive.webp"
-            audio_motor = urlMedia + "a7/motor.mp3"
 
+            medidas = urlMedia + "swl3220/medidasPc.webp"
+            medidasDos = urlMedia + "swl3220/medidasMinicargadorResponsive2.webp"
+            medidasMovil = urlMedia + "swl3220/medidasResposive.webp"
+            medidasMovilDos = urlMedia + "swl3220/medidasMinicargador2.webp"
+            audio_motor = urlMedia + "swe210/motor.wav"
 
             internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
             //loop slider
@@ -139,52 +161,43 @@ function Mixer() {
             );
 
             contenedorMarcas = <div style={{ display: `contents` }} >
-                {internas1b.length > 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <Fade >
+                <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                    {internas1b.length > 1 &&
+                        <Fade>
                             {slide3}
                         </Fade>
-                    </div>
-                }
-                {internas1b.length == 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                    }
+                    {internas1b.length == 1 &&
                         <img src={internas1b[0]} alt="" />
-                    </div>
-                }
-
-                {internas2b.length > 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <Fade >
+                    }
+                </div>
+                <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                    {internas2b.length > 1 &&
+                        <Fade>
                             {slide3b}
                         </Fade>
-                    </div>
-                }
-                {internas2b.length == 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                    }
+                    {internas2b.length == 1 &&
                         <img src={internas2b[0]} alt="" />
-                    </div>
-                }
+                    }
+                </div>
             </div>
-
-            contenedorVidaUtil = 'Vida útil de más de 1.5 MILLONES de kilómetros'
             break;
-
         default:
             break;
     }
-
-
 
     switch ((useParams("id").id)) {
 
-        case "mixer-a7-1257":
-            imagen = urlMedia + "a7/mixer-en-la-carretera-sinotruk.webp"
+        case "swl3220":
+            imagen = urlMedia + "swl3220/minicargadorForm.webp"
             break;
-
 
         default:
             break;
     }
+
+
 
     //loop primer slide
     let slide1 = images.map((image) =>
@@ -217,14 +230,14 @@ function Mixer() {
     );
 
     // ---- PÁGINA ----
-    return <div className="landing">
+    return <>
         <Helmet>
             <title>{nombreCamion} - Vehicentro</title>
-            <meta name="description" content={nombreCamion} />
-            <meta name="robots" content="noindex" />
-            <meta name="googlebot" content="noindex" />
+            <meta name="description" content={'Venta de la ' + nombreCamion + ' Sinotruk de la serie Maquinaria en Ecuador'} />
+            <meta name="keywords" content="minicargadora, minicargadoraw, venta de minicargadoras, minicargadoras en ecuador"></meta>
+            <meta name="robots" content="index, follow"></meta>
         </Helmet>
-        <Landingmenu />
+        <NavBarTop />
         <div className="boxesIni posRelative content2">
             <div className="boxRight">
                 {images.length > 1 &&
@@ -240,13 +253,9 @@ function Mixer() {
                 <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 <div className="boxText flex-table row textoSobrepuesto">
                     <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
-                    <div onClick={openFormContact} className="flex-row  textoMotor2">{textoMotor2}</div>
-                    <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
+                    <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Minicargadora ${textoMotor2}`}</h1></div>
+                    <div onClick={openFormContact} className="flex-row  textoMotor3">Ficha técnica</div>
                     <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt="arrow" /></div>
-                    <div className="flex-row  textoMotor4">Escucha tu motor</div>
-                </div>
-                <div className="boxPlayerMotor ">
-                    <audio id="audioMotor" controls></audio>
                 </div>
             </div>
 
@@ -256,15 +265,19 @@ function Mixer() {
             <div className="marcasbg textoImagenesProducto" >
 
                 <div className="boxRightHeader  half text_icon_left" >
-                    <p className='precioCamiones' >{precio}</p>
+                    <p className='vidaUtil'>DESDE</p>
+                    <p className='precioExcavadora' >{precio}</p>
+                    <p className='cuotas'>{cuotas}</p>
                 </div>
 
                 <div className="boxRightHeader  half icon_center" >
                     <div className="banner"><img src={tecnologia} /></div>
+                    {/*           <p className="tecJaponesa">Tecnología Japonesa</p> */}
                 </div>
 
                 <div className="boxRightHeader  half text_icon_center" >
                     <p className='vidaUtil'>{contenedorVidaUtil}</p>
+                {/*     <p className="bombaKawa">Bombas Rexroth (Bosch)</p> */}
                 </div>
 
                 <div className="boxRightHeader  half icon_right">
@@ -274,25 +287,6 @@ function Mixer() {
             </div>
 
 
-            <div className="boxesIni posRelative partesbg">
-
-                <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
-                </div>
-
-                <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
-                </div>
-
-                <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
-                </div>
-
-                <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
-                </div>
-
-            </div>
 
             <div className="boxesIni posRelative">
                 <div className="marcasbg">
@@ -329,6 +323,7 @@ function Mixer() {
                         {internas.length == 1 &&
                             <img src={internas[0]} alt="" />
                         }
+
                     </div>
                     {contenedorMarcas}
 
@@ -336,11 +331,12 @@ function Mixer() {
 
 
             </div>
-
             <div className="bannerMedidas noResponsive"><img src={medidas} /></div>
+            {/* <div className="bannerMedidas noResponsive mini"><img src={medidasDos} /></div> */}
             <div className="bannerMedidas responsive"><img src={medidasMovil} /></div>
+            {/* <div className="bannerMedidas responsive"><img src={medidasMovilDos} /></div> */}
         </div>
-        <div className="boxesIni posRelative">
+         <div className="boxesIni posRelative">
             <div className="centrado">
                 <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
@@ -348,36 +344,13 @@ function Mixer() {
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             </div>
         </div>
-        <Landingfooter />
+        <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
+        <Footer />
 
         {modalFormIsOpen &&
-            <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
+            <FormContactFicha url={bdcFicha} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
         }
-    </div>
+    </>
 }
 
-function Landingmenu() {
-    return (
-      <>
-        <div className="menuHome">
-          <div className="logoHome">
-            <a href="/landing/revista-motors/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
-          </div>
-        </div>
-      </>
-    )
-  }
-function Landingfooter() {
-    return (
-        <>
-            <div className="menuHome">
-                <div className="logoHome">
-                    <a href="/landing/revista-motors/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
-                </div>
-            </div>
-        </>
-    )
-}
-
-
-export default Mixer
+export default Camion

@@ -38,14 +38,6 @@ function Concesionarios() {
       img: urlMedia + "vehicentro-quito-carapungo-800x711.webp",
       alt: ""
     }, {
-      nombre: "QUITO, LOS CHILLOS",
-      descripcion: "Punto de Venta y Repuestos",
-      telefono: "032-994740 | 0992048229",
-      direccion: "Av. General Rumiñahui 8-40 y Av. San Luis (frente al San Luis Shopping)",
-      url: "https://goo.gl/maps/V8uKKDkRgmuqeLP79",
-      img: urlMedia + "vehicentro-quito-los-chillos.webp",
-      alt: ""
-    }, {
       nombre: "QUITO, SUR",
       descripcion: "Punto de Venta",
       telefono: "032-994740 | 0992048229",
@@ -203,6 +195,15 @@ function Concesionarios() {
       </div>
       <BannerContacto />
       <Footer />
+      {/* , {
+      nombre: "QUITO, LOS CHILLOS",
+      descripcion: "Punto de Venta y Repuestos",
+      telefono: "032-994740 | 0992048229",
+      direccion: "Av. General Rumiñahui 8-40 y Av. San Luis (frente al San Luis Shopping)",
+      url: "https://goo.gl/maps/V8uKKDkRgmuqeLP79",
+      img: urlMedia + "vehicentro-quito-los-.webp",
+      alt: ""
+    }, */}
     </>
   )
 
