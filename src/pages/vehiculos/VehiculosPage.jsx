@@ -5,6 +5,8 @@ import NavBarTop from '../../NavBarTop'
 import Galeria from './componentes/Galeria'
 import Detalles from './componentes/Detalles'
 import Vehiculo from './componentes/Vehiculo'
+import CompraMenu from './componentes/CompraMenu'
+
 
 function VehiculosPage() {
   return (
@@ -12,6 +14,7 @@ function VehiculosPage() {
       <NavBarTop />
       <Hero />
       <Vehiculo />
+      <CompraMenu />
       <Interior />
       <Galeria />
       <Detalles />
