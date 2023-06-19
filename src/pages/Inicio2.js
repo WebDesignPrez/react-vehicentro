@@ -401,8 +401,8 @@ function Menu2() {
 function Banner() {
     return (
         <div className="posRelative banner">
-            <a href="/concesionarios"><img className="desktopImg slideMain" src={urlMedia + "home/vehicentro-en-ecuador-venta-de-camiones-cabezales-y-volquetas-sinotruk.webp"} width="1790" height="590" alt="Puntos de Venta de Camiones Sinotruk en Ecuador" /></a>
-            <img className="movilImg slideMain" src={urlMedia + "home/vehicentro-concesionarios-mobil.webp"} width="2432" height="1675" alt="Punto de Venta" />
+            <a href="/concesionarios"><img className="desktopImg slideMain" src={urlMedia + "webMapa.jpg"} width="1790" height="590" alt="Puntos de Venta de Camiones Sinotruk en Ecuador" /></a>
+            <img className="movilImg slideMain" src={urlMedia + "mobilMapa.jpg"} width="2432" height="1675" alt="Punto de Venta" />
             <div className="boxText flex-table row">
                 <a href="/concesionarios"><div className="flex-row textMain textMain2 noResponsive">Puntos Vehicentro a nivel Nacional</div></a>
             </div>
