@@ -1,25 +1,15 @@
-import env from './../../../config'
-import CarouselMultiItem from './CarouselMultiItem'
-
+import env from '../../../config'
+import MultiItemCarousel from './MultiItemCarousel'
 import './styles/interior.css'
 
 
 
 
-
-const Caracteristica = ({ titulo, descripcion }) => {
-  return (
-    <div className='caracteristica'>
-      <h4>{titulo}</h4>
-      <p>{descripcion}</p>
-    </div>
-  )
-}
-
 const Interior = () => {
   const urlMedia = env.url + "vehiculos/"
 
-  console.log(urlMedia);
+
+
   return (
     <div className='interior'>
 
@@ -27,8 +17,7 @@ const Interior = () => {
 
 
 
-
-      <CarouselMultiItem />
+      {/* <MultiItemCarousel /> */}
 
 
 
