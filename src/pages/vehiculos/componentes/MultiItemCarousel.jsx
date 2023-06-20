@@ -1,22 +1,23 @@
 import React from 'react'
 
-const MultiItemCarousel = () => {
+const MultiItemCarousel = ({ caracteristicas, setItem }) => {
+
+
   return (
-    <div className='flex bg-red-200 w-11/12'>
+    <div className='flex '>
 
-      <div className='w-[300px] bg-blue-300'>
-        <p>Pantalla multimedia</p>
-        <p>The available 12.3-inch Dual Panoramic Displays with navigation offer over a combined 24-inches of touchscreen for entertainment, convenience, and more.</p>
-      </div>
-
-      <div className='w-[300px] bg-blue-300'>
-        <p>Pantalla multimedia</p>
-        <p>The available 12.3-inch Dual Panoramic Displays with navigation offer over a combined 24-inches of touchscreen for entertainment, convenience, and more.</p>
-      </div>
-
-
-
-
+      {
+        caracteristicas.map((caracteristica, index) => (
+          <div
+            key={index}
+            className='w-[400px] mb-10 cursor-pointer p-5'
+            onClick={() => setItem(index)}
+          >
+            <p className='font-bold text-2xl'>{caracteristica.titulo}</p>
+            <p>{caracteristica.descripcion}</p>
+          </div>
+        ))
+      }
 
 
     </div>
