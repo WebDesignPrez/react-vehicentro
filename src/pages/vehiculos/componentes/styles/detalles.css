@@ -3,6 +3,8 @@
   color: white;
 }
 
+
+
 .title {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -18,8 +20,14 @@
   justify-content: center;
 }
 
+.imagenes img {
+  width: 50%;
+  height: 50%;
+
+}
+
 @media only screen and (max-width: 780px) {
-  .imagenes{
+  .imagenes {
     flex-direction: column;
   }
 }
