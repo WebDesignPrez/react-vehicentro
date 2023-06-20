@@ -6,6 +6,7 @@ import Galeria from './componentes/Galeria'
 import Detalles from './componentes/Detalles'
 import Vehiculo from './componentes/Vehiculo'
 import CompraMenu from './componentes/CompraMenu'
+import Footer from '../../components/Footer'
 
 
 function VehiculosPage() {
@@ -15,10 +16,12 @@ function VehiculosPage() {
 
       <Hero />
       <CompraMenu />
+      <Galeria />
       <Vehiculo />
       <Interior />
-      <Galeria />
       <Detalles />
+
+      <Footer />
     </>
   )
 }
