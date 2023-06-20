@@ -25,3 +25,18 @@ h4 {
 .description ul {
   font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 780px) {
+  .vehiculos{
+    flex-direction: column;
+  }
+
+  .vehiculos img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .description {
+    padding: 2rem;
+  }
+}
