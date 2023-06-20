@@ -17,7 +17,7 @@ const Interior = () => {
 
 
 
-      <MultiItemCarousel />
+      {/* <MultiItemCarousel /> */}
 
 
 
