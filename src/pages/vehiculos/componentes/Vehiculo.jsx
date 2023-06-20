@@ -7,7 +7,7 @@ const Vehiculo = () => {
   return (
     <div className='vehiculos'>
 
-      <img src={urlMedia + 'vehiculo.jpeg'} alt="" />
+      <img src={urlMedia + 'blancoCuadrado-.jpg'} alt="" />
 
       <div className='description'>
         <h4>Stand up to the elements.</h4>

@@ -13,16 +13,16 @@ const Galeria = () => {
       <div className='images'>
 
         <div className='image-container'>
-          <img src={urlMedia + 'galeria1.jpeg'} alt="" />
+          <img src={urlMedia + 'emocion1.jpg'} alt="" />
         </div>
 
         <div className='image-container'>
 
-          <img src={urlMedia + 'galeria2.jpeg'} alt="" />
+          <img src={urlMedia + 'emocion2.jpg'} alt="" />
         </div>
 
         <div className='image-container'>
-          <img src={urlMedia + 'galeria3.jpeg'} alt="" />
+          <img src={urlMedia + 'emocion4.jpg'} alt="" />
         </div>
 
       </div>

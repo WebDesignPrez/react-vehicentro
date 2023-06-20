@@ -45,7 +45,7 @@ function CompraMenu() {
             </div>
         </div>
         <div className='image'>
-            <img src={urlMedia + "banner.jpg"}/>
+            <img src={urlMedia + "Motor.jpg"}/>
         </div>
     </div>
     <div className='compraBox responsive'>
@@ -90,7 +90,7 @@ function CompraMenu() {
             </div>
         </div>
         <div className='image'>
-            <img src={urlMedia + "banner.jpg"}/>
+            <img src={urlMedia + "Motor.jpg"}/>
         </div>
     </div>
     </>

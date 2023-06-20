@@ -13,7 +13,7 @@ const Interior = () => {
   return (
     <div className='interior'>
 
-      <h3 className='title'> Upscale interior</h3>
+      <h3 className='title'> Interior</h3>
 
 
 
@@ -22,7 +22,10 @@ const Interior = () => {
 
 
 
-      <img src={urlMedia + "imagenInterior.webp"} alt="" />
+      <div className='flex justify-center'>
+        <img className='w-[1900px]' src={urlMedia + "intermedias.jpg"} alt="" />
+
+      </div>
 
     </div>
 
