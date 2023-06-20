@@ -46,3 +46,40 @@
     justify-content: center;
     padding-left: 1rem;
 }
+
+
+@media only screen and (max-width: 780px) {
+    .vehiculosBox .headHero{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
+        padding-right: 1rem;
+    }
+
+    .tituloVehiculos p{
+        font-size: 1.5rem;
+    }
+
+    .tituloHeadHero{
+        font-size: 1.6rem;
+    
+    }
+
+    .tituloHeadHero.mas{
+        margin-top: 3rem;
+    
+    }
+    
+    .tituloHeadHero2{
+        font-size: 1.2rem;
+    }
+    .tituloHeadHero2.mas{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .tituloHeadHero.mas{
+        padding-top: 1rem;
+        padding-bottom: 25rem;
+    }
+}

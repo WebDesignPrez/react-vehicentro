@@ -59,3 +59,27 @@
     width: 100%;
 }
 
+.compraBox.responsive{
+    display: none;
+}
+
+@media only screen and (max-width: 780px) {
+    .compraBox{
+        flex-direction: column;
+    }
+    .option{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+
+    .compraBox{
+        display: none;
+    }
+
+    .compraBox.responsive{
+        display: grid;
+    }
+}
+
