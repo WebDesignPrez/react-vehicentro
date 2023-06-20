@@ -1,7 +1,20 @@
 import env from './../../../config'
+import CarouselMultiItem from './CarouselMultiItem'
 
 import './styles/interior.css'
 
+
+
+
+
+const Caracteristica = ({ titulo, descripcion }) => {
+  return (
+    <div className='caracteristica'>
+      <h4>{titulo}</h4>
+      <p>{descripcion}</p>
+    </div>
+  )
+}
 
 const Interior = () => {
   const urlMedia = env.url + "vehiculos/"
@@ -13,36 +26,12 @@ const Interior = () => {
       <h3 className='title'> Upscale interior</h3>
 
 
-      {/* Caracteristicas */}
-      <div className='caracteristicas'>
-        <div>
-          <h4>Pantalla multimedia</h4>
-          <p>The available 12.3-inch Dual Panoramic Displays
-            with navigation offer over a combined 24-inches of
-            touchscreen for entertainment, convenience, and
-            more.
-          </p>
-        </div>
 
-        <div>
-          <h4>Premium Seating Trim</h4>
-          <p>The available 12.3-inch Dual Panoramic Displays
-            with navigation offer over a combined 24-inches of
-            touchscreen for entertainment, convenience, and
-            more.
-          </p>
-        </div>
 
-        <div>
-          <h4>A first class Second row</h4>
-          <p>The available 12.3-inch Dual Panoramic Displays
-            with navigation offer over a combined 24-inches of
-            touchscreen for entertainment, convenience, and
-            more.
-          </p>
-        </div>
+      <CarouselMultiItem />
 
-      </div>
+
+
 
       <img src={urlMedia + "imagenInterior.webp"} alt="" />
 
