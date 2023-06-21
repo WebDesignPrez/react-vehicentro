@@ -134,8 +134,27 @@
   color: #7b7b7b;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 780px) {
   .web {
     display: none;
   }
+
+  .mobile .info {
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .mobile img {
+    width: 100%;
+  }
+}
+
+
+
+@media(width >780px) {
+  .mobile {
+    display: none;
+  }
+
 }

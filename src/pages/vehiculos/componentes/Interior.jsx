@@ -252,6 +252,10 @@ const Interior = () => {
         {/* info col right */}
         <div className='info'>
 
+          {
+            // TODO: Los items de abajo se deben renderizar con un map
+          }
+
           <h3 className='title-info'>{interiores[caracteristica].titulo}</h3>
 
           <h4 className='subtitle-info' >{interiores[caracteristica].subCategorias[subCaracteristica].titulo}</h4>
