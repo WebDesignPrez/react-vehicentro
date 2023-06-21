@@ -21,15 +21,28 @@
 .caracteristicas {
   display: flex;
   align-items: start;
-  justify-items: ;
   width: 90%;
-
 }
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .menu {
   width: 20%;
   padding-top: 1rem;
 }
+
+.mobile .menu {
+  display: flex;
+  width: ;
+
+  padding: 0;
+  margin: 0;
+}
+
 
 .info {
   width: 80%;
@@ -43,9 +56,24 @@
   padding-top: 5px;
 }
 
+.mobile .caracteristica {
+  border-top: 0;
+  border-bottom: 1px solid white;
+  padding: 5px 0;
+  margin: 0 5px;
+}
+
+
+.mobile .titulo-caracteristica {
+  width: 80px;
+  margin: 1px;
+}
+
 .caracteristica:last-child {
   border-bottom: 0.5px solid white;
 }
+
+
 
 .titulo-caracteristica {
   font-weight: bold;
@@ -53,6 +81,8 @@
   width: 100%;
   cursor: pointer;
 }
+
+
 
 .titulo-caracteristica:hover {
   color: #ff0000;
@@ -63,6 +93,10 @@
   padding: 2px 10px;
 }
 
+.mobile .sub-caracteristica {
+  display: none;
+}
+
 .sub-caracteristica:hover {
   color: #ff0000;
 }
@@ -70,6 +104,7 @@
 .sub-caracteristica:last-child {
   padding-bottom: 10px;
 }
+
 
 
 .title-info {
@@ -102,43 +137,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .caracteristicas {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .menu {
-    display: flex;
-    width: 100%;
-    overflow-x: scroll;
-  }
-
-  .caracteristica {
-    margin: 1px;
-    border-top: 0;
-
-  }
-
-  .titulo-caracteristica {
-    width: 175px;
-    border-bottom: 0.5px solid white;
-  }
-
-  .sub-caracteristica {
-    width: 200px;
-    margin: 1px;
-  }
-
-
-  .info {
-    width: 100%;
-    margin-top: 1rem;
-    padding: 0;
-    overflow: hidden;
-  }
-
-  .info img {
-    width: 100%;
-
+  .web {
+    display: none;
   }
 }

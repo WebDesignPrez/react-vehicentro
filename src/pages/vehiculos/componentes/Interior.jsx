@@ -158,7 +158,7 @@ const Interior = () => {
 
       <h3 className='title'> Interior</h3>
 
-      <div className='caracteristicas'>
+      <div className='caracteristicas web'>
 
 
         {/* menu col left */}
@@ -212,6 +212,7 @@ const Interior = () => {
       <br />
       <br />
       <br />
+
 
       <div className='caracteristicas mobile'>
 
