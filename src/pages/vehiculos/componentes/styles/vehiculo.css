@@ -1,42 +1,56 @@
 .vehiculos {
   display: flex;
+  width: 100%
+}
+.contenedorVehiculos{
+    background-image: url(https://vehicentro.com/images/vehiculos/fondoscolores.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
 }
 
-.vehiculos img {
+.carImage{
+  width: 100%;
+}
+
+
+.description{
+  display: flex;
+  background-color: #000;
   width: 50%;
-  object-fit: cover;
+  align-items: center;
+    justify-content: space-around;
 }
 
-h4 {
-  font-size: 3rem;
-  font-weight: bold;
-  margin: 0.5rem 0;
+.buttons {
+  display: flex;
 }
 
-.description {
-  padding: 10rem;
+.buttons button {
+  border-radius: 50%; /* Hace que los botones sean redondos */
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  cursor: pointer;
 }
 
-.description p {
-  font-size: 1.5rem;
-  margin: 0.5rem 0;
+/* Estilos para cada botón */
+.buttons button.blanco {
+  background-color: white;
 }
 
-.description ul {
-  font-size: 1.2rem;
+.buttons button.bluesky {
+  background-color: #083959;
 }
 
-@media only screen and (max-width: 780px) {
-  .vehiculos{
-    flex-direction: column;
-  }
+.buttons button.conchevino {
+  background-color: #730000;
+  color: white;
+}
 
-  .vehiculos img {
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .description {
-    padding: 2rem;
-  }
+.buttons button.gris {
+  background-color: #898484;
+  color: white;
 }
