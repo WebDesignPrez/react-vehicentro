@@ -273,10 +273,10 @@ function Block3() {
                         </div>
                     </Slide> */}
                     <div>
-                    <a href="/serie/volquetas"><img src={urlMedia + "home/u70pro.png"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
+                    <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/u70pro.png"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
-                        <NavLink className="titleBox2" to="/serie/volquetas">SUV'S</NavLink>
+                        <NavLink className="titleBox2" to="/sinotruk/autos/u70pro">SUV'S</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
                         </div>
