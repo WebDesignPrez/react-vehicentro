@@ -18,130 +18,82 @@ const Interior = () => {
   const interiores = [
     {
       id: 0,
-      titulo: 'Tablero',
+      titulo: 'Asientos',
       subCategorias: [
         {
-          titulo: 'Pantalla multimedia',
-          descripcion: 'Pantalla multimedia de 7 pulgadas con conectividad Apple CarPlay y Android Auto.',
-          img: urlMedia + 'intermedias.jpg'
+          titulo: '3 Filas de Asientos',
+          descripcion: '',
+          img: urlMedia + 'Asientos1.webp'
         },
         {
-          titulo: 'Pantalla multimedia 2',
-          descripcion: 'Pantalla multimedia de 124 pulgadas con conectividad Apple CarPlay y Android Auto.',
-          img: urlMedia + 'intermedias2.jpg'
-        },
-        {
-          titulo: 'Pantalla multimedia 3',
-          descripcion: 'Pantalla multimedia de 3425326 pulgadas con conectividad Apple CarPlay y Android Auto.',
-          img: urlMedia + 'intermedias3.jpg'
-        },
-        {
-          titulo: 'Pantalla multimedia 4',
-          descripcion: 'Pantalla multimedia de 24353256 pulgadas con conectividad Apple CarPlay y Android Auto.',
-          img: urlMedia + 'intermedias4.jpg'
-        },
-
-
-
+          titulo: 'Amplio Espacio',
+          descripcion: '',
+          img: urlMedia + 'asientos2.webp'
+        }
       ]
     },
     {
       id: 1,
-      titulo: 'Volante',
+      titulo: 'Sistema Multimedia',
       subCategorias: [
 
         {
-          titulo: 'Suspension',
-          descripcion: 'Volante multifunción con ajuste en altura y profundidad.',
+          titulo: 'Radio de 12 pulgadas',
+          descripcion: '',
           img: urlMedia + 'intermedias.jpg'
         },
 
         {
-          titulo: 'Suspension2',
-          descripcion: 'Volante multifunción con ajuste en altura y profundidad.',
-          img: urlMedia + 'intermedias2.jpg'
+          titulo: 'Tweeters',
+          descripcion: '',
+          img: urlMedia + 'tweeters.webp'
         },
-
-        {
-          titulo: 'Suspension3',
-          descripcion: 'Volante multifunción con ajuste en altura y profundidad.',
-          img: urlMedia + 'intermedias3.jpg'
-        },
-
-        {
-          titulo: 'Suspension4',
-          descripcion: 'Volante multifunción con ajuste en altura y profundidad.',
-          img: urlMedia + 'intermedias4.jpg'
-        },
-
-
       ]
     },
     {
       id: 2,
-      titulo: 'Interior 3 ',
+      titulo: 'Aire Acondicionado',
       subCategorias: [
 
         {
           titulo: 'Aire acondicionado',
-          descripcion: 'Aire acondicionado manual.',
-          img: urlMedia + 'intermedias.jpg'
+          descripcion: '',
+          img: urlMedia + 'aC.webp'
         },
         {
-          titulo: 'Aire acondicionado 2',
-          descripcion: 'Aire acondicionado manual.',
-          img: urlMedia + 'intermedias2.jpg'
+          titulo: 'Aire acondicionado parte posterior',
+          descripcion: '',
+          img: urlMedia + 'acTrasero.webp'
         },
-        {
-          titulo: 'Aire acondicionado 3',
-          descripcion: 'Aire acondicionado manual.',
-          img: urlMedia + 'intermedias3.jpg'
-        },
-        {
-          titulo: 'Aire acondicionado 4',
-          descripcion: 'Aire acondicionado manual.',
-          img: urlMedia + 'intermedias4.jpg'
-        },
-        {
-          titulo: 'Aire acondicionado 5',
-          descripcion: 'Aire acondicionado manual.',
-          img: urlMedia + 'intermedias.jpg'
-        },
-
-
       ]
     },
     {
       id: 3,
-      titulo: 'Interior 4 ',
+      titulo: 'Volante',
       subCategorias: [
 
         {
-          titulo: 'Asientos',
-          descripcion: 'Asientos tapizados en tela.',
-          img: urlMedia + 'intermedias4.jpg'
+          titulo: 'Control Multimedia',
+          descripcion: '',
+          img: urlMedia + 'volante1.webp'
         },
         {
-          titulo: 'Asientos 2',
-          descripcion: 'Asientos tapizados en tela.',
-          img: urlMedia + 'intermedias3.jpg'
-        },
-        {
-          titulo: 'Asientos 3',
-          descripcion: 'Asientos tapizados en tela.',
-          img: urlMedia + 'intermedias2.jpg'
-        },
-        {
-          titulo: 'Asientos 4',
-          descripcion: 'Asientos tapizados en tela.',
-          img: urlMedia + 'intermedias.jpg'
-        },
-        {
-          titulo: 'Asientos 5',
-          descripcion: 'Asientos tapizados en tela.',
-          img: urlMedia + 'intermedias4.jpg'
-        },
+          titulo: 'Velocidad Crucero',
+          descripcion: '',
+          img: urlMedia + 'volante2.webp'
+        }
+      ]
+    },
+    {
+      id: 4,
+      titulo: 'Almacenamiento',
+      subCategorias: [
 
+        {
+          titulo: 'Consola Central',
+          descripcion: '',
+          img: urlMedia + 'cCentral.webp'
+        },
       ]
     },
 
