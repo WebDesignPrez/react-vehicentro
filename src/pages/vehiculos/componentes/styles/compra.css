@@ -4,32 +4,41 @@
     display: flex;
 }
 .option{
+    padding-right: 5%;
+    padding-left: 5%;
     display: grid;
-    align-items: center;
     width: 50%;
-    justify-content: center;
-    justify-items: stretch;
-    align-content: stretch;
     text-align: center;
+    align-content: center;
 }
+
 .option p{
     color: #fff;
-    font-size: 2.5rem;   
+    font-size: 1.5rem;   
 }
 
 .option img{
-    width: 50%;
-    animation-duration: 0.5s;
+    width: 45%;
 }
 .uno{
     display:  flex;
+    margin-bottom: 2rem;
     
 }   
 
 .dos{   
+    margin-top: 2rem;
     display: flex;
-
 }
+
+.dos img{   
+    width: 35%;
+}
+
+
+
+
+
 
 .izquierda{
     width: 50%;
