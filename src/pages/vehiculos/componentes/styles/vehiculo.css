@@ -1,39 +1,48 @@
 .vehiculos {
-  display: flex;
-  width: 100%
-}
-.contenedorVehiculos{
-    background-image: url(https://vehicentro.com/images/vehiculos/fondoscolores.jpg);
+  background-image: url(https://vehicentro.com/images/vehiculos/fondoscolores.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
     width: 50%;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
 }
 
 .carImage{
+  margin-top: -10%;
+  margin-bottom: -10%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 
 .description{
   display: flex;
-  background-color: #000;
   width: 50%;
   align-items: center;
     justify-content: space-around;
+    color: #fff;
+    flex-direction: column;
+    font-size: 2rem;
 }
 
 .buttons {
   display: flex;
+  padding: 2rem;
 }
 
 .buttons button {
   border-radius: 50%; /* Hace que los botones sean redondos */
   margin-right: 10px;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   border: none;
   cursor: pointer;
+  
 }
 
 /* Estilos para cada botón */
@@ -53,4 +62,40 @@
 .buttons button.gris {
   background-color: #898484;
   color: white;
+}
+.textoVehiculos{
+  width: 50%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textoVehiculos p{
+  font-size: 3rem;
+}
+.textoVehiculos .frase{
+  margin-top: 3rem;
+  font-size: 1.7rem;
+}
+
+.todo{
+  width: 100%;
+  display: flex;
+}
+
+.boxtexto{
+  width: 80%;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 780px) {
+ 
+  .carImage{
+    margin-top: -10%;
+    margin-bottom: -10%;
+    width: 100%;
+  }
 }
