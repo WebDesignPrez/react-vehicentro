@@ -22,8 +22,8 @@ function Inicio2() {
     /* const [modal2FormIsOpen, setForm2IsOpen] = useState(false); */
 
     useEffect(() => {
-        const motorPlayer = document.getElementById('audioMotorHome')
-        motorPlayer.src = audio_motor
+       /*  const motorPlayer = document.getElementById('audioMotorHome')
+        motorPlayer.src = audio_motor */
 
         const keyDownHandler = event => {
             if (event.key === 'Escape') {
@@ -75,11 +75,11 @@ function Inicio2() {
             document.removeEventListener('keydown', keyDownHandler);
         };
 
-      /*   document.addEventListener('keydown', keyDown2Handler);
-        return () => {
-            document.removeEventListener('keydown', keyDown2Handler);
-        };
- */
+        /*   document.addEventListener('keydown', keyDown2Handler);
+          return () => {
+              document.removeEventListener('keydown', keyDown2Handler);
+          };
+   */
 
     }, []);
 
@@ -92,14 +92,14 @@ function Inicio2() {
         setFormIsOpen(false)
     }
 
-   /*  function openForm2Contact() {
-        setForm2IsOpen(true)
-    }
-
-    function closeForm2Contact() {
-        setForm2IsOpen(false)
-    }
- */
+    /*  function openForm2Contact() {
+         setForm2IsOpen(true)
+     }
+ 
+     function closeForm2Contact() {
+         setForm2IsOpen(false)
+     }
+  */
 
 
     return (
@@ -183,9 +183,14 @@ function Block1() {
 
 function Block2() {
     return (
-        < div className="block2 noResponsive" >
+        <>        {/* < div className="block2 noResponsive" >
             <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
-        </div >
+        </div > */}
+            < div className="block2 noResponsive" >
+                <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "vehiculos/autos.mp4"} className="videoWidth" />
+            </div >
+        </>
+
     )
 }
 
@@ -256,7 +261,7 @@ function Block3() {
                 <div>
 
 
-                    <Slide duration={2000}>
+                   {/*  <Slide duration={2000}>
 
                         <div className="each-slide-effect">
                             <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
@@ -266,20 +271,29 @@ function Block3() {
                             <div style={{ 'backgroundImage': `url(../images/home/veinstein.webp)`, height: `23.2vw` }}>
                             </div>
                         </div>
-                    </Slide>
-
-
+                    </Slide> */}
+                    <div>
+                    <a href="/serie/volquetas"><img src={urlMedia + "home/u70pro.png"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
                     <div className="bottomContainer">
-                        <div className="bannerTec">
-                            <img src={urlMedia + "home/tecnologia-alemana.webp"} width="590" height="170" alt="Tecnologia Alemana" />
+                        <p className="titleBox"></p>
+                        <NavLink className="titleBox2" to="/serie/volquetas">SUV'S</NavLink>
+                        <div className="linksBox">
+                            <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
                         </div>
+                    </div>
+                </div>
+
+                    {/* <div className="bottomContainer">
+                        <div className="bannerTec">
+                             <img src={urlMedia + "home/tecnologia-alemana.webp"} width="590" height="170" alt="Tecnologia Alemana" />
+                       </div>
                         <div className="boxPlayerMotor audiohome">
                             <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
                         </div>
                         <div className="linksBox iniciocentrado">
                             <a className="line2" src="">ESCUCHA TU MOTOR</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div>
                     <a href="/serie/volquetas"><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
@@ -296,7 +310,7 @@ function Block3() {
             </div>
 
             <div className="block3 boxBlock row2">
-{/*                <div>
+                {/*                <div>
                     <img src={urlMedia + "home/sector-ganadero.webp"} width="900" height="700" alt="Maquinaria para el sector ganadero" />
                     <div className="bottomContainer">
                         <p className="titleBox"></p>

@@ -18,7 +18,7 @@ function VehiculosPage() {
       <CompraMenu />
 
       <Vehiculo />
-      {/* <Galeria /> */}
+      <Galeria />
       <Interior />
       <Detalles />
 
