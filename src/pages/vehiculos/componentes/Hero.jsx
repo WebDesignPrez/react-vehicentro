@@ -7,14 +7,9 @@ let urlMedia = env.url + "/vehiculos/"
 function Hero() {
 
   return (
-    <>
-      <div className='vehiculosBox'>
-        <div className='imagenesLogos'>
-          <div className='headHero'>
-          </div>
-        </div>
-      </div>
-    </>
+    <div className='hero'>
+      <img src="https://vehicentro.com/images/vehiculos/bannerNuevoAutos2.webp" alt="" />
+    </div>
   )
 }
 
