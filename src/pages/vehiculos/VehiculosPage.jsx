@@ -9,6 +9,7 @@ import CompraMenu from './componentes/CompraMenu'
 import Footer from '../../components/Footer'
 
 import { Helmet } from "react-helmet";
+import FormularioMenu from '../../pages/vehiculos/componentes/FormularioMenu'
 
 
 
@@ -32,9 +33,10 @@ function VehiculosPage() {
       <Galeria />
      
       <Interior />
-      <VehiculosPage/>
+      <FormularioMenu/>
       <Detalles />
 
+      
       <Footer />
     </>
   )
