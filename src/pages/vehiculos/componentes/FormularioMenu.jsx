@@ -15,66 +15,65 @@ let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexione
 
 const Vehiculo = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-    const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+  const [screenHeight, setScreenHeight] = useState(window.innerHeight);
 
-    useEffect(() => {
-        const handleResize = () => {
-            setScreenWidth(window.innerWidth);
-            setScreenHeight(window.innerHeight);
-        };
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+      setScreenHeight(window.innerHeight);
+    };
 
-        window.addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize);
 
-        // Limpieza del evento al desmontar el componente
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
+    // Limpieza del evento al desmontar el componente
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
-    const [modalFormIsOpen, setFormIsOpen] = useState(false);
+  const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
-    useEffect(() => {
-        const keyDownHandler = event => {
-            if (event.key === 'Escape') {
-                event.preventDefault();
-                closeFormContact()
-            }
-        };
+  useEffect(() => {
+    const keyDownHandler = event => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        closeFormContact()
+      }
+    };
 
-        document.addEventListener('keydown', keyDownHandler);
-        return () => {
-            document.removeEventListener('keydown', keyDownHandler);
-        };
-    }, []);
+    document.addEventListener('keydown', keyDownHandler);
+    return () => {
+      document.removeEventListener('keydown', keyDownHandler);
+    };
+  }, []);
 
 
-    function openFormContact() {
-        setFormIsOpen(true)
-    }
+  function openFormContact() {
+    setFormIsOpen(true)
+  }
 
-    function closeFormContact() {
-        setFormIsOpen(false)
-    }
+  function closeFormContact() {
+    setFormIsOpen(false)
+  }
 
-    //Comparacion paginas
-    switch ((useParams("id").id)) {
+  //Comparacion paginas
+  switch ((useParams("id").id)) {
 
-        //U70PRO
-        case "U70PRO":
-            console.log('U70PRO')
-            nombreCamion = "U70PRO"
-            camionSerie = "U70PRO"
-            nombreSerie = "autos"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3220SUNWARD"
-    }
+    //U70PRO
+    case "U70PRO":
+      nombreCamion = "U70PRO"
+      camionSerie = "U70PRO"
+      nombreSerie = "autos"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBAUTU70P"
+  }
 
-    switch ((useParams("id").id)) {
+  switch ((useParams("id").id)) {
 
-        case "U70PRO":
-            break;
-        default:
-            break;
-    }
+    case "U70PRO":
+      break;
+    default:
+      break;
+  }
 
 
 
@@ -88,13 +87,13 @@ const Vehiculo = () => {
 
   return (
     <div className="boxesIni posRelative">
-    <div className="centrado">
+      <div className="centrado">
         <img src={urlMedia + "imgForm.png"} width="1400" height="1000" className="slideMain" alt="SUV" />
+      </div>
+      <div>
+        <FormContact url={"https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBAUTU70P"} camion={'U70PRO'} serie={'autos'} camionSerie={'U70PRO'} />
+      </div>
     </div>
-    <div>
-        <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
-    </div>
-</div>
 
   );
 };
