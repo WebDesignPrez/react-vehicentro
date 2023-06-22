@@ -30,10 +30,10 @@ const Galeria = () => {
                 <img width="100%" src={urlMedia + 'llantas.jpg'} alt="" />
             </Carousel.Item>
             <Carousel.Item>
-                <img width="100%" src={urlMedia + 'faro.jpg'} alt="" />
+                <img width="100%" src={urlMedia + 'emocion4.jpg'} alt="" />
             </Carousel.Item>  
             <Carousel.Item>
-                <img width="100%" src={urlMedia + 'emocion4.jpg'} alt="" />
+                <img width="100%" src={urlMedia + 'faro.jpg'} alt="" />
             </Carousel.Item>
             <Carousel.Item>
                 <img width="100%" src={urlMedia + 'sinLlave.jpg'} alt="" />
