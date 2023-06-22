@@ -6,15 +6,11 @@ import precios from '../../../precios';
 import FormContact from '../../../components/FormContact';
 
 
-let precio
-let textoMotor1
-let textoMotor2
-let textoMotor3
+
 let nombreCamion
 let bdc
 let camionSerie
 let nombreSerie
-let cuotas
 let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
 
 const Vehiculo = () => {
@@ -70,20 +66,12 @@ const Vehiculo = () => {
             camionSerie = "U70PRO"
             nombreSerie = "autos"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3220SUNWARD"
-           
-            textoMotor1 = "SINOTRUK"
-            textoMotor2 = "U70 PRO"
-            textoMotor3 = "AUTOS"
-    /*         precio = precios.me_SWL3220
-            cuotas = `Cuotas desde: ${precios.me_SWL3220_cuota}` */
     }
 
     switch ((useParams("id").id)) {
 
         case "U70PRO":
-            
             break;
-
         default:
             break;
     }
@@ -101,7 +89,7 @@ const Vehiculo = () => {
   return (
     <div className="boxesIni posRelative">
     <div className="centrado">
-        <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+        <img src={urlMedia + "imgForm.png"} width="1400" height="1000" className="slideMain" alt="SUV" />
     </div>
     <div>
         <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
