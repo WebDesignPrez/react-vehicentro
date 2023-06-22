@@ -4,7 +4,9 @@ import "../form.css";
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import env from '../config';
+
 //Este formulario es de los camiones
+
 let urlMedia = env.url
 function FormContact(props) {
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos"
@@ -23,7 +25,7 @@ function FormContact(props) {
   let [camion, setCam] = useState(nomCamion);
   let [escoge_tu_concesionario_mas_cercano, setCon] = useState('Concesionario');
 
-  
+
 
   const handleChange = (e) => {
     setName((e.target.value));
@@ -244,6 +246,19 @@ function FormContact(props) {
       case furgoneta[0]:
         a = "24"
         break;
+      case miniCargadora[0]:
+        a = "74";
+        break;
+      case autos[0]:
+        a = "77"
+        break;
+      case autos[1]:
+        a = "78"
+        break;
+      case autos[2]:
+        a = "80"
+        break;
+
       default:
         a = ""
         break;
@@ -291,7 +306,9 @@ function FormContact(props) {
           setEmail('')
           setTel('')
           setCed('')
-          window.location.href = redireccion;
+
+          //TODO
+          // window.location.href = redireccion;
         }
       })
     } else {
@@ -317,7 +334,7 @@ function FormContact(props) {
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
   const miniCargadora = ['SWL3220'];
-  const autos = ['U70PRO', 'U70'];
+  const autos = ['U70PRO', 'U70', 'U75PLUS'];
 
   let type = null;
   let options = null;
@@ -336,15 +353,15 @@ function FormContact(props) {
     type = excavadora;
   } else if (serie === "Furgoneta") {
     type = furgoneta;
-  } else if (serie === "miniCargadoras") { 
+  } else if (serie === "miniCargadoras") {
     type = miniCargadora;
   } else if (serie === "autos")
-  type = autos;
+    type = autos;
 
 
   if (type) {
     options = type.map((el) => <option key={el}>{el}</option>);
-    console.log(options);
+    // console.log(options);
   }
 
   const [isChecked, setIsChecked] = useState(true);
@@ -428,7 +445,7 @@ function FormContact(props) {
             </select>
           </div>
 
-          <label className="input_title">*Camión</label>
+          <label className="input_title">*Modelo</label>
           <div className="input-group">
             <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
             <select name="modelo_sinotruk" onChange={(e) => { handleChangeSerieCamion(e) }} value={camionSerie} >
@@ -445,7 +462,7 @@ function FormContact(props) {
           <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos-sobre-camiones/" type="hidden" />
         </div>
         <div className="contenedorTerminos">
-        <input
+          <input
             className="inputTerminos"
             type="checkbox"
             checked={isChecked}
@@ -455,7 +472,7 @@ function FormContact(props) {
             Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
           </label>
         </div>
-        <button className={isChecked? 'nextBtn':'nextBtnDisabled'} type="submit" disabled={!isChecked}>
+        <button className={isChecked ? 'nextBtn' : 'nextBtnDisabled'} type="submit" disabled={!isChecked}>
           Cotizar
         </button>
         <NotificationContainer />
