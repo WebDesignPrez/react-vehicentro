@@ -29,6 +29,9 @@
   flex-direction: column;
 }
 
+.items {
+  margin-top: 25px;
+}
 
 .menu {
   width: 15%;
@@ -138,6 +141,10 @@
 @media (min-width: 320px) and (max-width: 780px) {
   .web {
     display: none;
+  }
+
+  .titulo-caracteristica {
+    font-size: 1rem;
   }
 
   .mobile .info {
