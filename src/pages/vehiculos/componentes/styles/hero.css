@@ -1,114 +1,133 @@
-.vehiculosBox{
-    background-image: url(https://vehicentro.com/images/vehiculos/bannerNuevoAutos.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    
+.vehiculosBox {
+  background-image: url(https://vehicentro.com/images/vehiculos/bannerNuevoAutos.jpg);
+  background-size: cover;
+  padding: ;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+
 }
 
-.tituloVehiculos{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+.tituloVehiculos {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .tituloVehiculos p {
-    font-size: 2rem;
-    padding: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
-.tituloHeadHero{
-    font-size: 3rem;
+.tituloHeadHero {
+  font-size: 3rem;
 }
 
-.tituloHeadHero2{
-    font-size: 1.3rem;
-}
-.tituloHeadHero2.mas{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.tituloHeadHero.mas{
-    font-size: 2rem;
-    padding-top: 10rem;
-}
-.vehiculosBox p{
-    color: #fff;
+.tituloHeadHero2 {
+  font-size: 1.3rem;
 }
 
-.imagenesLogos{
-    height: 100%;
-    justify-items: end;
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    padding-bottom: 8rem;
-}
-.u70{
-    margin-left: -4%;
+.tituloHeadHero2.mas {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.imagenesLogos img{
-    width: 15%;
-    height: 10%;
+.tituloHeadHero.mas {
+  font-size: 2rem;
+  padding-top: 10rem;
 }
 
-.vehiculosBox .headHero{
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-    
-}
-.headHero{
-    margin-left: 50%;
-    text-align: right;
+.vehiculosBox p {
+  color: #fff;
 }
 
-.headHero p{
-    font-size: 6rem;
-}
-.headHero .mas{
-    font-size: 4rem;
+.imagenesLogos {
+  height: 100%;
+  justify-items: end;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  padding-bottom: 8rem;
 }
 
-.headHero{
+.u70 {
+  margin-left: -4%;
+}
+
+.imagenesLogos img {
+  width: 15%;
+  height: 10%;
+}
+
+.vehiculosBox .headHero {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
 
 }
+
+.headHero {
+  margin-left: 50%;
+  text-align: right;
+}
+
+.headHero p {
+  font-size: 6rem;
+}
+
+.headHero .mas {
+  font-size: 4rem;
+}
+
+.headHero {}
+
+
 
 @media only screen and (max-width: 780px) {
-    .vehiculosBox .headHero{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: start;
-        padding-right: 1rem;
-    }
 
-    .tituloVehiculos p{
-        font-size: 1.5rem;
-    }
+  .vehiculosBox {
 
-    .tituloHeadHero{
-        font-size: 1.6rem;
-    
-    }
+    background-repeat: no-repeat;
+    width: 100%;
 
-    .tituloHeadHero.mas{
-        margin-top: 3rem;
-    
-    }
-    
-    .tituloHeadHero2{
-        font-size: 1.2rem;
-    }
-    .tituloHeadHero2.mas{
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .tituloHeadHero.mas{
-        padding-top: 1rem;
-        padding-bottom: 25rem;
-    }
+    position: cover;
+
+  }
+
+  .vehiculosBox .headHero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: start;
+    padding-right: 1rem;
+  }
+
+  .tituloVehiculos p {
+    font-size: 1.5rem;
+  }
+
+  .tituloHeadHero {
+    font-size: 1.6rem;
+
+  }
+
+  .tituloHeadHero.mas {
+    margin-top: 3rem;
+
+  }
+
+  .tituloHeadHero2 {
+    font-size: 1.2rem;
+  }
+
+  .tituloHeadHero2.mas {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .tituloHeadHero.mas {
+    padding-top: 1rem;
+    padding-bottom: 25rem;
+  }
 }
