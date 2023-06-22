@@ -45,7 +45,7 @@ function CompraMenu() {
             </div>
         </div>
         <div className='image'>
-        <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "animacionAsientos.mp4"} className="videoWidth produ" />
+        <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} loop muted id="myVideo" src={urlMedia + "animacionAsientos.mp4"} className="videoWidth produ" />
         </div>
     </div>
     <div className='compraBox responsive'>
