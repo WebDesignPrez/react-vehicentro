@@ -1,4 +1,4 @@
-import React from 'react'
+import { useEffect, useState, React } from "react";
 import Interior from './componentes/Interior'
 import Hero from './componentes/Hero'
 import NavBarTop from '../../NavBarTop'
@@ -8,10 +8,21 @@ import Vehiculo from './componentes/Vehiculo'
 import CompraMenu from './componentes/CompraMenu'
 import Footer from '../../components/Footer'
 
+import { Helmet } from "react-helmet";
+
+
 
 function VehiculosPage() {
   return (
     <>
+    <Helmet>
+            <title> U70PRO - Vehicentro</title>
+            <meta name="description" content={'Venta del suv mas largo de Ecuador'} />
+            <meta name="keywords" content="autos, SUV, venta de SUV, suv en ecuador"></meta>
+            <meta name="robots" content="index, follow"></meta>
+        </Helmet>
+
+
       <NavBarTop />
 
       <Hero />
@@ -19,7 +30,9 @@ function VehiculosPage() {
 
       <Vehiculo />
       <Galeria />
+     
       <Interior />
+      <VehiculosPage/>
       <Detalles />
 
       <Footer />
