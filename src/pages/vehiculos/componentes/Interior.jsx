@@ -159,11 +159,6 @@ const Interior = () => {
 
       </div>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
 
       <div className='caracteristicas mobile'>
@@ -173,7 +168,7 @@ const Interior = () => {
         <div className='menu'>
           {
             interiores.map((interior, index) => (
-              <div key={index} className={`caracteristica `}>
+              <div key={index} className={`caracteristica`}>
                 <p
                   className={`titulo-caracteristica ${interior.id === caracteristica && 'color-selected'}`}
                   onClick={() => handleCaracteristica(index)}
@@ -182,7 +177,6 @@ const Interior = () => {
 
                 <div>
                   {
-
                     interior.id === caracteristica &&
                     interior.subCategorias.map((subCategoria, index) => (
                       <div
@@ -204,15 +198,23 @@ const Interior = () => {
         {/* info col right */}
         <div className='info'>
 
-          {
-            // TODO: Los items de abajo se deben renderizar con un map
-          }
-
           <h3 className='title-info'>{interiores[caracteristica].titulo}</h3>
 
-          <h4 className='subtitle-info' >{interiores[caracteristica].subCategorias[subCaracteristica].titulo}</h4>
-          <p className=' subtitle-description' >{interiores[caracteristica].subCategorias[subCaracteristica].descripcion}</p>
-          <img src={interiores[caracteristica].subCategorias[subCaracteristica].img} alt="" />
+          {
+            // TODO: Los items de abajo se deben renderizar con un map
+
+
+            interiores[caracteristica].subCategorias.map((subCategoria, index) => (
+              // console.log(subCategoria)
+              <div key={index} className='items'>
+                <h4 className='subtitle-info' >{subCategoria.titulo}</h4>
+                <p className=' subtitle-description' >{subCategoria.descripcion}</p>
+                <img src={subCategoria.img} alt="" />
+              </div>
+            ))
+
+          }
+
 
         </div>
 
