@@ -23,7 +23,7 @@ const Interior = () => {
         {
           titulo: '3 Filas de Asientos',
           descripcion: '',
-          img: urlMedia + 'Asientos1.webp'
+          img: urlMedia + 'asientos1.webp'
         },
         {
           titulo: 'Amplio Espacio',
@@ -40,7 +40,7 @@ const Interior = () => {
         {
           titulo: 'Radio de 12 pulgadas',
           descripcion: '',
-          img: urlMedia + 'intermedias.jpg'
+          img: urlMedia + 'radio.webp'
         },
 
         {
@@ -58,12 +58,12 @@ const Interior = () => {
         {
           titulo: 'Aire acondicionado',
           descripcion: '',
-          img: urlMedia + 'aC.webp'
+          img: urlMedia + 'aire1.webp'
         },
         {
           titulo: 'Aire acondicionado parte posterior',
           descripcion: '',
-          img: urlMedia + 'acTrasero.webp'
+          img: urlMedia + 'aire2.webp'
         },
       ]
     },
@@ -72,6 +72,11 @@ const Interior = () => {
       titulo: 'Volante',
       subCategorias: [
 
+        {
+          titulo: 'Acabados en cuero',
+          descripcion: '',
+          img: urlMedia + 'volante3.webp'
+        },
         {
           titulo: 'Control Multimedia',
           descripcion: '',
@@ -92,7 +97,19 @@ const Interior = () => {
         {
           titulo: 'Consola Central',
           descripcion: '',
-          img: urlMedia + 'cCentral.webp'
+          img: urlMedia + 'consola.webp'
+        },
+      ]
+    },
+    {
+      id: 4,
+      titulo: 'Palanca',
+      subCategorias: [
+
+        {
+          titulo: 'Palanca de cambios 6 + 1',
+          descripcion: '',
+          img: urlMedia + 'aire1.webp'
         },
       ]
     },
@@ -148,13 +165,16 @@ const Interior = () => {
         {/* info col right */}
         <div className='info'>
 
-          <div>
+          <div className='container'>
 
             <h3 className='title-info'>{interiores[caracteristica].titulo}</h3>
 
             <h4 className='subtitle-info' >{interiores[caracteristica].subCategorias[subCaracteristica].titulo}</h4>
             <p className=' subtitle-description' >{interiores[caracteristica].subCategorias[subCaracteristica].descripcion}</p>
-            <img src={interiores[caracteristica].subCategorias[subCaracteristica].img} alt="" />
+
+            <div className='img-container'>
+              <img src={interiores[caracteristica].subCategorias[subCaracteristica].img} alt="" />
+            </div>
 
           </div>
         </div>
