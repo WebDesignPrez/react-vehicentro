@@ -30,7 +30,7 @@ function CompraMenu() {
             <div className='dos'>
                 <div className='izquierda2'>
                     <img className='suvCarro' src={urlMedia + "icono5.png"} />
-                    <p>4825mm</p>
+                    <p>4825 mm</p>
                 </div>
                 <div className='derecha2'>
                     <img src={urlMedia + "icono6.png"} />
@@ -71,7 +71,7 @@ function CompraMenu() {
             <div className='dos'>
                 <div className='izquierda2'>
                     <img src={urlMedia + "icono5.png"} />
-                    <p>4825mm</p>
+                    <p>4825 mm</p>
                 </div>
                 <div className='derecha2'>
                     <img src={urlMedia + "icono6.png"} />
