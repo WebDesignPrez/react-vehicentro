@@ -29,7 +29,7 @@ const Vehiculo = () => {
            </div>
         </div>
     <div className='textoVehiculos'>
-      <img src={urlMedia + 'fondo3.webp'}/>
+      <img src={urlMedia + 'marca2.jpg'}/>
     </div>
     
     </div>

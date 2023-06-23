@@ -58,6 +58,9 @@ export default function NavBar() {
                         case "sunward":
                             menuSelect("sunward")
                             break;
+                            case "vehiculos":
+                            menuSelect("vehiculos")
+                            break;
                         case "compania":
                             menuSelect("compania")
                             break;
@@ -617,9 +620,20 @@ export default function NavBar() {
                 </div>
             </li>
 
-            <li className="item-level-5">
-                <a href="/proximamente">VEHÍCULOS</a>
-                <div className="item-level-5 nav-header nav-header-h" >
+            <li>
+            <a className="" href="#" option="vehiculos">Vehiculos</a>
+                <div className="item-level-1 nav-header nav-header-h" >
+                    <div className="headerSubMenu">
+                        <div className="closeMovil" data-id="1"></div>
+                        <p className="tituloMenu">Vehiculos</p>
+                    </div>
+                    <div className="rowMenu">
+                        <div className="colMenu">
+                            <p className="colTitle">SUV'S</p>
+                            <p className="colItem meniu"><NavLink to="/excavadoras/swe210">U70 PRO</NavLink></p>
+                        </div>
+                    </div>
+                    
                 </div>
             </li>
 

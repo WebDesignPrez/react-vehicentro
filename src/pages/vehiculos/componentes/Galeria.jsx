@@ -11,7 +11,7 @@ const Galeria = () => {
   
     <div className='galeria'>
 
-      <h3 className='title'>Descubre la emoción de conducir tu propio sueño</h3>
+      <h3 className='title'>Exterior</h3>
 
     </div>
     
