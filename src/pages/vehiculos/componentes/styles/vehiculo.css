@@ -1,0 +1,93 @@
+.vehiculos {
+    display: flex;
+    width: 50%;
+    height: max-content;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+}
+
+.carImage{
+  margin-top: -10%;
+  margin-bottom: -10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.description{
+  display: flex;
+  width: 50%;
+  align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.buttons {
+  display: flex;
+  padding: 2rem;
+}
+
+.buttons button {
+  border-radius: 50%; /* Hace que los botones sean redondos */
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+/* Estilos para cada botón */
+.buttons button.blanco {
+  background-color: white;
+}
+
+.buttons button.bluesky {
+  background-color: #083959;
+}
+
+.buttons button.conchevino {
+  background-color: #730000;
+  color: white;
+}
+
+.buttons button.gris {
+  background-color: #898484;
+  color: white;
+}
+.textoVehiculos{
+  width: 50%;
+}
+.textoVehiculos img{
+  width: 100%;
+  height: 100%;
+}
+.textoVehiculos p{
+  font-size: 3rem;
+}
+
+.todo{
+  width: 100%;
+  display: flex;
+  background-color: #b8b8b8;
+}
+
+.boxtexto{
+  width: 80%;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 780px) {
+ 
+  .carImage{
+    margin-top: -10%;
+    margin-bottom: -10%;
+    width: 100%;
+  }
+}

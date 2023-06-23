@@ -1,0 +1,189 @@
+.interior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.title {
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  width: 100%;
+  padding-left: 2rem;
+}
+
+
+.caracteristicas {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 90%;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  margin-top: 25px;
+}
+
+.menu {
+  width: 15%;
+  padding-top: 1rem;
+}
+
+.mobile .menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+
+.info {
+  width: 90%;
+  padding-left: 2rem;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.info div {
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.caracteristica {
+  border-top: 1px solid white;
+  padding-top: 5px;
+}
+
+.mobile .caracteristica {
+  border-top: 0;
+  border-bottom: 1px solid white;
+  padding: 5px 0;
+  margin: 0 5px;
+}
+
+
+.mobile .titulo-caracteristica {
+  width: 70px;
+  margin: 1px;
+}
+
+.caracteristica:last-child {
+  border-bottom: 0.5px solid white;
+}
+
+
+
+.titulo-caracteristica {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
+.titulo-caracteristica:hover {
+  color: #ff0000;
+}
+
+.sub-caracteristica {
+  cursor: pointer;
+  padding: 2px 10px;
+}
+
+.mobile .sub-caracteristica {
+  display: none;
+}
+
+.sub-caracteristica:hover {
+  color: #ff0000;
+}
+
+.sub-caracteristica:last-child {
+  padding-bottom: 10px;
+}
+
+
+
+.title-info {
+  font-size: 2rem;
+
+}
+
+.subtitle-info {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 0.5rem 0;
+}
+
+.subtitle-description {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+
+
+
+/* Generales */
+
+.hidden {
+  display: none;
+}
+
+.color-selected {
+  color: #7b7b7b;
+}
+
+@media (min-width: 320px) and (max-width: 780px) {
+  .web {
+    display: none;
+  }
+
+  .menu {
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 1rem;
+  }
+
+  .titulo-caracteristica {
+    font-size: 1rem;
+  }
+
+  .mobile .info {
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .mobile .titulo-caracteristica {
+    width: 150px;
+    margin: 1px;
+    text-align: center;
+  }
+
+  .mobile img {
+    width: 100%;
+  }
+}
+
+
+
+@media(width >780px) {
+  .mobile {
+    display: none;
+  }
+
+}
