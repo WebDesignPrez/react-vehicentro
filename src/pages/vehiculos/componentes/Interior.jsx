@@ -148,12 +148,15 @@ const Interior = () => {
         {/* info col right */}
         <div className='info'>
 
-          <h3 className='title-info'>{interiores[caracteristica].titulo}</h3>
+          <div>
 
-          <h4 className='subtitle-info' >{interiores[caracteristica].subCategorias[subCaracteristica].titulo}</h4>
-          <p className=' subtitle-description' >{interiores[caracteristica].subCategorias[subCaracteristica].descripcion}</p>
-          <img src={interiores[caracteristica].subCategorias[subCaracteristica].img} alt="" />
+            <h3 className='title-info'>{interiores[caracteristica].titulo}</h3>
 
+            <h4 className='subtitle-info' >{interiores[caracteristica].subCategorias[subCaracteristica].titulo}</h4>
+            <p className=' subtitle-description' >{interiores[caracteristica].subCategorias[subCaracteristica].descripcion}</p>
+            <img src={interiores[caracteristica].subCategorias[subCaracteristica].img} alt="" />
+
+          </div>
         </div>
 
 
