@@ -314,6 +314,7 @@ function FormContactFicha(props) {
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
   const miniCargadora = ['SWL3220'];
+  const autos = ['U70PRO'];
 
   let type = null;
   let options = null;
@@ -332,8 +333,10 @@ function FormContactFicha(props) {
     type = excavadora;
   } else if (serie === "Furgoneta") {
     type = furgoneta;
-  } else if (serie === "miniCargadora")
+  } else if (serie === "miniCargadora") {
     type = miniCargadora;
+  } else if (serie === "autos")
+  type = autos;
 
 
   if (type) {
@@ -421,6 +424,7 @@ function FormContactFicha(props) {
               <option value="Excavadora">Excavadora</option>
               <option value="Furgoneta">Furgoneta</option>
               <option value="miniCargadora">Minicargadora</option>
+              <option value="autos">Autos</option>
             </select>
           </div>
 

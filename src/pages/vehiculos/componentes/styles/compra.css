@@ -1,0 +1,93 @@
+.compraBox{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.option{
+    padding-right: 5%;
+    padding-left: 5%;
+    display: grid;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.option p{
+    color: #fff;
+    font-size: 1.5rem;   
+}
+
+.option img{
+    width: 45%;
+}
+.uno{
+    display:  flex;
+    margin-bottom: 2rem;
+    
+}   
+
+.dos{   
+    margin-top: 2rem;
+    display: flex;
+}
+
+.dos img{   
+    width: 35%;
+}
+
+
+
+
+
+
+.izquierda{
+    width: 50%;
+    height: 50%;
+}
+.derecha{
+    width: 50%;
+    height: 50%;
+}
+
+.izquierda2{
+    width: 50%;
+    height: 50%;
+    
+}
+.derecha2{
+    width: 50%;
+    height: 50%;
+}
+
+.image{
+    width: 50%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.compraBox.responsive{
+    display: none;
+}
+
+@media only screen and (max-width: 780px) {
+    .compraBox{
+        flex-direction: column;
+    }
+    .option{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+
+    .compraBox{
+        display: none;
+    }
+
+    .compraBox.responsive{
+        display: grid;
+    }
+}
+
