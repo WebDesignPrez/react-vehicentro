@@ -143,6 +143,12 @@
     display: none;
   }
 
+  .menu {
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 1rem;
+  }
+
   .titulo-caracteristica {
     font-size: 1rem;
   }
@@ -151,6 +157,12 @@
     margin-top: 20px;
     width: 100%;
     padding-left: 0;
+  }
+
+  .mobile .titulo-caracteristica {
+    width: 150px;
+    margin: 1px;
+    text-align: center;
   }
 
   .mobile img {
