@@ -16,12 +16,12 @@ import FormularioMenu from '../../pages/vehiculos/componentes/FormularioMenu'
 function VehiculosPage() {
   return (
     <>
-    <Helmet>
-            <title> U70PRO - Vehicentro</title>
-            <meta name="description" content={'Venta del suv mas largo de Ecuador'} />
-            <meta name="keywords" content="autos, SUV, venta de SUV, suv en ecuador"></meta>
-            <meta name="robots" content="index, follow"></meta>
-        </Helmet>
+      <Helmet>
+        <title> U70PRO - Vehicentro</title>
+        <meta name="description" content={'Venta del suv mas largo de Ecuador'} />
+        <meta name="keywords" content="autos, SUV, venta de SUV, suv en ecuador"></meta>
+        <meta name="robots" content="index, follow"></meta>
+      </Helmet>
 
 
       <NavBarTop />
@@ -31,12 +31,12 @@ function VehiculosPage() {
 
       <Vehiculo />
       <Galeria />
-     
-      <Interior />
-      <FormularioMenu/>
-      <Detalles />
 
-      
+      <Interior />
+      <FormularioMenu />
+      {/* <Detalles /> */}
+
+
       <Footer />
     </>
   )

@@ -6,6 +6,7 @@
   width: 100%;
   background-color: black;
   color: white;
+  padding-bottom: 40px;
 }
 
 .title {
@@ -21,6 +22,7 @@
 .caracteristicas {
   display: flex;
   align-items: start;
+  justify-content: center;
   width: 90%;
 }
 
@@ -49,6 +51,13 @@
   width: 90%;
   padding-left: 2rem;
   overflow: hidden;
+  padding: 5px;
+}
+
+.info div {
+  width: 85%;
+  margin: 0 auto;
+  display: block;
 }
 
 
