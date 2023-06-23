@@ -34,6 +34,7 @@ function VehiculosPage() {
 
       <Interior />
       <FormularioMenu />
+      
       {/* <Detalles /> */}
 
 
