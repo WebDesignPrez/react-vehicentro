@@ -37,13 +37,15 @@ export default function NavBarTop() {
                         case "sunward":
                             menuSelect("sunward")
                             break;
+                            case "vehiculos":
+                                menuSelect("vehiculos")
+                                break;    
                         case "compania":
                             menuSelect("compania")
                             break;
                         case "tecnologia":
                             menuSelect("tecnologia")
                             break;
-
                     }
                 })
             })
@@ -60,6 +62,9 @@ export default function NavBarTop() {
                     document.querySelector(".item-level-1").classList.remove("nav-header-s")
                     document.querySelector(".item-level-1").classList.add("nav-header-h")
 
+                    document.querySelector(".item-level-10").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-10").classList.add("nav-header-h")
+
                     document.querySelector(".item-level-3").classList.remove("nav-header-s")
                     document.querySelector(".item-level-3").classList.add("nav-header-h")
 
@@ -73,6 +78,30 @@ export default function NavBarTop() {
                     document.querySelector(".item-level-1").classList.remove("nav-header-h")
                     document.querySelector(".item-level-1").classList.add("nav-header-s")
                     document.querySelector(".item-level-1").classList.add("nav-header-s-i")
+
+                    document.querySelector(".item-level-10").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-10").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-0").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-0").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-3").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-3").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-6").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-6").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-7").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-7").classList.add("nav-header-h")
+                    break;
+
+                    case "vehiculos":
+                    document.querySelector(".item-level-10").classList.remove("nav-header-h")
+                    document.querySelector(".item-level-10").classList.add("nav-header-s")
+                    document.querySelector(".item-level-10").classList.add("nav-header-s-i")
+
+                    document.querySelector(".item-level-1").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-1").classList.add("nav-header-h")
 
                     document.querySelector(".item-level-0").classList.remove("nav-header-s")
                     document.querySelector(".item-level-0").classList.add("nav-header-h")
@@ -97,6 +126,9 @@ export default function NavBarTop() {
                     document.querySelector(".item-level-1").classList.remove("nav-header-s")
                     document.querySelector(".item-level-1").classList.add("nav-header-h")
 
+                    document.querySelector(".item-level-10").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-10").classList.add("nav-header-h")
+
                     document.querySelector(".item-level-6").classList.remove("nav-header-s")
                     document.querySelector(".item-level-6").classList.add("nav-header-h")
 
@@ -113,6 +145,9 @@ export default function NavBarTop() {
 
                     document.querySelector(".item-level-1").classList.remove("nav-header-s")
                     document.querySelector(".item-level-1").classList.add("nav-header-h")
+
+                    document.querySelector(".item-level-10").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-10").classList.add("nav-header-h")
 
                     document.querySelector(".item-level-3").classList.remove("nav-header-s")
                     document.querySelector(".item-level-3").classList.add("nav-header-h")
@@ -131,6 +166,9 @@ export default function NavBarTop() {
                     document.querySelector(".item-level-1").classList.remove("nav-header-s")
                     document.querySelector(".item-level-1").classList.add("nav-header-h")
 
+                    document.querySelector(".item-level-10").classList.remove("nav-header-s")
+                    document.querySelector(".item-level-10").classList.add("nav-header-h")
+
                     document.querySelector(".item-level-3").classList.remove("nav-header-s")
                     document.querySelector(".item-level-3").classList.add("nav-header-h")
 
@@ -147,6 +185,8 @@ export default function NavBarTop() {
             document.querySelector(".item-level-0").classList.add("nav-header-s")
             document.querySelector(".item-level-1").classList.remove("nav-header-s")
             document.querySelector(".item-level-1").classList.add("nav-header-h")
+            document.querySelector(".item-level-10").classList.remove("nav-header-s")
+            document.querySelector(".item-level-10").classList.add("nav-header-h")
             document.querySelector(".item-level-6").classList.remove("nav-header-s")
             document.querySelector(".item-level-6").classList.add("nav-header-h")
             document.querySelector(".item-level-7").classList.remove("nav-header-s")
@@ -262,6 +302,10 @@ export default function NavBarTop() {
                     document.querySelector(".item-level-7").classList.toggle("nav-header-h")
                     document.querySelector(".item-level-7").classList.toggle("nav-header-s")
                     break;
+                    case "10":
+                    document.querySelector(".item-level-10").classList.toggle("nav-header-h")
+                    document.querySelector(".item-level-10").classList.toggle("nav-header-s")
+                    break;
                 default:
                     break;
             }
@@ -282,6 +326,10 @@ export default function NavBarTop() {
                             break;
                         case "sunward":
                             menuSelect("sunward")
+                            break;
+
+                            case "vehiculos":
+                            menuSelect("vehiculos")
                             break;
                         case "compania":
                             menuSelect("compania")
@@ -416,9 +464,20 @@ export default function NavBarTop() {
                 </div>
             </li>
 
-            <li className="item-level-5">
-                <a href="/proximamente">VEHÍCULOS</a>
-                <div className="item-level-5 nav-header nav-header-h" >
+            <li>
+            <a className="" href="#" option="vehiculos">Vehiculos</a>
+                <div className="item-level-10 nav-header nav-header-h" >
+                    <div className="headerSubMenu">
+                        <div className="closeMovil" data-id="10"></div>
+                        <p className="tituloMenu">Vehiculos</p>
+                    </div>
+                    <div className="rowMenu">
+                        <div className="colMenu">
+                            <p className="colTitle">SUV'S</p>
+                            <p className="colItem meniu"><NavLink to="/sinotruk/autos/u70pro">U70 PRO</NavLink></p>
+                        </div>
+                    </div>
+                    
                 </div>
             </li>
 

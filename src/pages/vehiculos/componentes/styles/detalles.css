@@ -1,9 +1,12 @@
+.todo{
+  background-color: black;
+  color: #fff;
+}
 .page {
   background-color: black;
   color: white;
+  display: flex;
 }
-
-
 
 .title {
   padding-top: 2rem;
@@ -12,26 +15,83 @@
   font-weight: bold;
   padding-left: 2rem;
   margin: 0;
+  background-color: black;
+  color: #fff;
 }
 
-.imagenes {
+.imagenes{
+  width: 50%;
+}
+
+.imagenes img{
+  width: 100%;
+}
+.seguridadBoxes{
+  width: 50%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
-.imagenes img {
-  width: 50%;
-  height: 50%;
+.seguridadBoxes p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.arriba{
+  display: flex;
+}
+
+.arriba img{
+  width: 30%;
+}
+
+.abajo{
+  display: flex;
+}
+
+.abajo img{
+  width: 30%;
+}
+
+.centrado{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 
-
 @media only screen and (max-width: 780px) {
-  .imagenes {
+  .page{
     flex-direction: column;
   }
-  .imagenes img {
+
+  .imagenes{
     width: 100%;
   }
+  .seguridadBoxes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .arriba{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abajo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arriba img{
+    width: 20%;
+  }
+
+  .abajo img{
+    width: 20%;
+  }
+  
 }
