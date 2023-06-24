@@ -163,9 +163,9 @@ function Block1() {
           </div>
         </div>
         <div className="overlayBox" height="200">
-          <a href="/experiencia" className="titleBox">SINOTRUK AUTOS</a>
+          <a href="/sinotruk/autos/u70pro" className="titleBox">SINOTRUK AUTOS</a>
           <div className="linksBox testimonio">
-            <a href="/experiencia" className="line2" src="">U70PRO</a>
+            <a href="/sinotruk/autos/u70pro" className="line2" src="">U70PRO</a>
           </div>
         </div>
         {/* <h1>Venta de camiones en Ecuador</h1>
@@ -404,7 +404,7 @@ function Menu2() {
       <ul className="nav-links-h">
         <li><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
         <li><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
-        <li><a className="mouseA" href="/proximamente">VEHÍCULOS</a></li>
+        <li><a className="mouseA" href="/sinotruk/autos/u70pro">VEHÍCULOS</a></li>
         <li><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
         <li><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
         <li><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
