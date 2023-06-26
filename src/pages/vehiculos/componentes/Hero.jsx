@@ -8,7 +8,7 @@ function Hero() {
 
   return (
     <div className='hero'>
-      <img src="https://vehicentro.com/images/vehiculos/bannerNuevoAutos2.webp" alt="" />
+      <img src="https://vehicentro.com/images/vehiculos/heroU70Pro.jpg" alt="U70PRO" />
     </div>
   )
 }
