@@ -5,7 +5,7 @@ import './styles/vehiculo.css';
 const Vehiculo = () => {
   const urlMedia = env.url + 'vehiculos/';
 
-  const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.png');
+  const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.webp');
 
   const handleButtonClick = (newImage) => {
     setSelectedImage(urlMedia + newImage + '.webp');
@@ -28,8 +28,9 @@ const Vehiculo = () => {
           </div>
         </div>
       </div>
+
       <div className='textoVehiculos'>
-        <img src={urlMedia + 'marca2.jpg'} />
+        <img src={urlMedia + 'marca2.jpg'} alt='' />
       </div>
 
     </div>
