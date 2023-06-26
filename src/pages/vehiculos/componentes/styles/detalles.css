@@ -1,14 +1,15 @@
-.todo{
+.todo {
   background-color: black;
   color: #fff;
 }
+
 .page {
   background-color: black;
   color: white;
   display: flex;
 }
 
-.title {
+.title-section {
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 2.5rem;
@@ -19,42 +20,43 @@
   color: #fff;
 }
 
-.imagenes{
+.imagenes {
   width: 50%;
 }
 
-.imagenes img{
+.imagenes img {
   width: 100%;
 }
-.seguridadBoxes{
+
+.seguridadBoxes {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.seguridadBoxes p{
+.seguridadBoxes p {
   text-align: center;
   font-size: 1.2rem;
 }
 
-.arriba{
+.arriba {
   display: flex;
 }
 
-.arriba img{
+.arriba img {
   width: 30%;
 }
 
-.abajo{
+.abajo {
   display: flex;
 }
 
-.abajo img{
+.abajo img {
   width: 30%;
 }
 
-.centrado{
+.centrado {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -62,36 +64,37 @@
 
 
 @media only screen and (max-width: 780px) {
-  .page{
+  .page {
     flex-direction: column;
   }
 
-  .imagenes{
+  .imagenes {
     width: 100%;
   }
-  .seguridadBoxes{
+
+  .seguridadBoxes {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .arriba{
+  .arriba {
     display: flex;
     flex-direction: column;
   }
 
-  .abajo{
+  .abajo {
     display: flex;
     flex-direction: column;
   }
 
-  .arriba img{
+  .arriba img {
     width: 20%;
   }
 
-  .abajo img{
+  .abajo img {
     width: 20%;
   }
-  
+
 }

@@ -232,7 +232,7 @@ const Interior = () => {
               <div key={index} className='items'>
                 <h4 className='subtitle-info' >{subCategoria.titulo}</h4>
                 <p className=' subtitle-description' >{subCategoria.descripcion}</p>
-                <img src={subCategoria.img} alt="" />
+                <img src={subCategoria.img} alt="Galeria U70PRO" />
               </div>
             ))
 
