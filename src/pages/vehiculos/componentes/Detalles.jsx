@@ -10,8 +10,8 @@ const Detalles = () => {
       <h3 className='title'>Detalles</h3>
 
       <div className='imagenes'>
-        <img src={urlMedia + "detalles.jpg"} alt="" />
-        <img src={urlMedia + "detalle2.jpg"} alt="" />
+        <img src={urlMedia + "detalles.jpg"} alt="Detalles U70PRO" />
+        <img src={urlMedia + "detalle2.jpg"} alt="Detalles U70PRO" />
       </div>
     </div>
   )
