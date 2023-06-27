@@ -589,7 +589,7 @@ export default function NavBarTop() {
             <li ><a className="sinotruk mouseA" option="sinotruk">CAMIONES</a></li>
             <li ><a className="sunward mouseA" option="sunward">MAQUINARIA</a></li>
             <li className="concesionarios camionesCss"><NavLink to="/proximamente">VEHÍCULOS</NavLink></li>
-            <li className="tecnologia tecnologiaCss">TECNOLOGÍA</li>
+            <li ><a className="tecnologia tecnologiaCss" option="tecnologia">TECNOLOGÍA</a></li>
             <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
             <li className="concesionarios camionesCss"><NavLink to="/concesionarios">CONCESIONARIOS</NavLink></li>
             <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
