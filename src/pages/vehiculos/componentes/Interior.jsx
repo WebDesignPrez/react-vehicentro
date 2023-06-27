@@ -83,7 +83,7 @@ const Interior = () => {
           img: urlMedia + 'volante1.webp'
         },
         {
-          titulo: 'Velocidad Crucero',
+          titulo: 'Computadora a bordo',
           descripcion: '',
           img: urlMedia + 'volante2.webp'
         }
