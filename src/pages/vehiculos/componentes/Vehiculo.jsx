@@ -25,12 +25,14 @@ const Vehiculo = () => {
             <button className='bluesky' onClick={() => handleButtonClick('bluesky')}></button>
             <button className='conchevino' onClick={() => handleButtonClick('conchevino')}></button>
             <button className='gris' onClick={() => handleButtonClick('gris')}></button>
+            <button className='negro' onClick={() => handleButtonClick('negro')}></button>
+            <button className='plateado' onClick={() => handleButtonClick('plateado')}></button>
           </div>
         </div>
       </div>
 
       <div className='textoVehiculos'>
-        <img src={urlMedia + 'marca2.jpg'} alt='' />
+        <img src={urlMedia + 'tecnologia.jpg'} alt='' />
       </div>
 
     </div>
