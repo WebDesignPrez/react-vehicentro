@@ -46,7 +46,7 @@ const Interior = () => {
         {
           titulo: 'Tweeters',
           descripcion: '',
-          img: urlMedia + 'tweeters.webp'
+          img: urlMedia + 'tweters.webp'
         },
       ]
     },

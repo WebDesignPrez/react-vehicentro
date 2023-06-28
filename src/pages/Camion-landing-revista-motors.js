@@ -189,7 +189,7 @@ function Camion() {
         //12 toneladas
         case "12-ton":
             console.log('12 toneladas')
-            nombreCamion = "Camion de 12 toneladas | T5G-1167"
+            nombreCamion = "Camión de 12 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 12 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM12TON"
@@ -242,7 +242,7 @@ function Camion() {
         //13 toneladas
         case "13-ton":
             console.log('13 toneladas')
-            nombreCamion = "Camion de 13 toneladas | T5G-1167"
+            nombreCamion = "Camión de 13 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 13 TON (280HP)"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM13TON280"
@@ -295,7 +295,7 @@ function Camion() {
         //13 toneladas 330hp
         case "13-ton-330":
             console.log('13 toneladas 330Hp')
-            nombreCamion = "Camion de 13 toneladas 330Hp | T5G-1167"
+            nombreCamion = "Camión de 13 toneladas 330Hp | T5G-1167"
             camionSerie = "T5G 1167 / 13 TON (330HP)"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM13TON330"
@@ -347,7 +347,7 @@ function Camion() {
         //18 toneladas
         case "18-ton":
             console.log('18 toneladas')
-            nombreCamion = "Camion de 18 toneladas | T5G-1257"
+            nombreCamion = "Camión de 18 toneladas | T5G-1257"
             camionSerie = "T5G 1257 / 18 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM18TON"
@@ -399,7 +399,7 @@ function Camion() {
         //19 toneladas
         case "19-ton":
             console.log('19 toneladas')
-            nombreCamion = "Camion de 19 toneladas | T5G-1257"
+            nombreCamion = "Camión de 19 toneladas | T5G-1257"
             camionSerie = "T5G 1257 / 19.5 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM19.5TON"
@@ -451,7 +451,7 @@ function Camion() {
         //3.5 toneladas
         case "3-5-ton":
             console.log('3.5 toneladas')
-            nombreCamion = "Camion de 3.5 toneladas | 1057"
+            nombreCamion = "Camión de 3.5 toneladas | 1057"
             camionSerie = "1057 / 3.5 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM3.5TON"
@@ -548,7 +548,7 @@ function Camion() {
         //3.6 toneladas
         case "3-6-ton":
             console.log('3.6 toneladas')
-            nombreCamion = "Camion de 3.6 toneladas | 1047"
+            nombreCamion = "Camión de 3.6 toneladas | 1047"
             camionSerie = "1047 / 3.6 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM3.6TON"
@@ -645,7 +645,7 @@ function Camion() {
         //5 toneladas
         case "5-ton":
             console.log('5 toneladas')
-            nombreCamion = "Camion de 5 toneladas | 1067"
+            nombreCamion = "Camión de 5 toneladas | 1067"
             camionSerie = "1067 / 5 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM5TON"
@@ -742,7 +742,7 @@ function Camion() {
         //6 toneladas
         case "6-ton":
             console.log('6 toneladas')
-            nombreCamion = "Camion de 6 toneladas | 1067"
+            nombreCamion = "Camión de 6 toneladas | 1067"
             camionSerie = "1067 / 6 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM6TON"
@@ -827,7 +827,7 @@ function Camion() {
         //8 toneladas
         case "8-ton":
             console.log('8 toneladas')
-            nombreCamion = "Camion de 8 toneladas | 1147"
+            nombreCamion = "Camión de 8 toneladas | 1147"
             camionSerie = "1147 / 8 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM8TON"
@@ -877,7 +877,7 @@ function Camion() {
         //20 toneladas
         case "20-ton":
             console.log('20 toneladas')
-            nombreCamion = "Camion de 20 toneladas | C7H-1256"
+            nombreCamion = "Camión de 20 toneladas | C7H-1256"
             camionSerie = "C7H 1256 / 20 TON"
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM20TON"

@@ -165,7 +165,8 @@ function Block1() {
         <div className="overlayBox" height="200">
           <a href="/sinotruk/autos/u70pro" className="titleBox">SINOTRUK AUTOS</a>
           <div className="linksBox testimonio">
-            <a href="/sinotruk/autos/u70pro" className="line2" src="">U70PRO</a>
+            <a href="/sinotruk/autos/u70pro" className="line2" src="">U70PRO</a> 
+            <a href="/sinotruk/autos/u70pro" className="line2" src="">U70</a>
           </div>
         </div>
         {/* <h1>Venta de camiones en Ecuador</h1>
@@ -281,6 +282,7 @@ function Block3() {
               <NavLink className="titleBox2" to="/sinotruk/autos/u70pro">SUV'S</NavLink>
               <div className="linksBox">
                 <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
+                {/* <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70</NavLink> */}
               </div>
             </div>
           </div>

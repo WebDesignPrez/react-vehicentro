@@ -48,24 +48,39 @@
 }
 
 .buttons button.bluesky {
-  background-color: #083959;
+  background-color: #083a5a;
 }
 
 .buttons button.conchevino {
-  background-color: #730000;
+  background-color: #7b160e;
   color: white;
 }
 
 .buttons button.gris {
-  background-color: #898484;
+  background-color: #888483;
+  color: white;
+}
+
+.buttons button.negro {
+  background-color: #1d1d1b;
+  color: white;
+}
+
+.buttons button.plateado {
+  background-color: #c7c6c6 ;
   color: white;
 }
 .textoVehiculos{
+  display: flex;
+  background-color: #000;
   width: 50%;
+  align-items: center;
+  justify-content: center;
+  
 }
 .textoVehiculos img{
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: auto;
 }
 
 .todo{

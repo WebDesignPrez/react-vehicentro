@@ -21,13 +21,13 @@ function Content1() {
         <div className="requisitos garantia">
 
             <div>
-                <h1 className="requisitosUno"><strong>Garantia</strong></h1><br></br>
+                <h1 className="requisitosUno"><strong>Garantía</strong></h1><br></br>
             </div>
 
             <h2>TIEMPO DE VIGENCIA DE LA GARANTÍA Y COBERTURA</h2><br></br>
-            <h3>VEHICULOS DE TRANSPORTE CARGA LIVIANA (HASTA 8 TON)</h3><br></br>
+            <h3>VEHÍCULOS DE TRANSPORTE CARGA LIVIANA (HASTA 8 TON)</h3><br></br>
             <p  className="textoTec gar">Los componentes del tren motriz están cubiertos contra defectos de fabricación por un período de 5 AÑOS y/o 100,000 Km, lo que ocurra primero a partir de la fecha de entrega del vehículo. Los componentes del tren motriz que están cubiertos son los siguientes: </p><br></br>
-            <h3>VEHICULOS DE TRANSPORTE CARGA PESADA (TECNOLOGIA ALEMANA)</h3><br></br>
+            <h3>VEHÍCULOS DE TRANSPORTE CARGA PESADA (TECNOLOGÍA ALEMANA)</h3><br></br>
             <p className="textoTec gar">Los componentes del tren motriz están cubiertos contra defectos de fabricación por un periodo de 5 AÑOS y/o KILOMETRAJE ILIMITADO, lo que ocurra primero a partir de la fecha de entrega del vehículo. Los componentes del tren motriz que están cubiertos son los siguientes: </p><br></br>
 
             <div className="requisitosDos gara">
@@ -47,7 +47,7 @@ function Content1() {
             <div className="requisitosDos gara">
                 <div className="boxNews companiaimg2 ">
                     <span> <h3>Motor</h3>
-                        <p className="textoTec gar">•Monoblock del motor y sus piezas <br></br>•Cabeza de motor, balancines <br></br>•Múltiples de admisión y escape <br></br>•Engranes de distribución <br></br>•Volante de motor <br></br>•Damper <br></br>•Tapa de punterías <br></br>•Cárter de motor aomba de aceite <br></br>•Soporte de montaje de motor <br></br>•Sellos y empaques <br></br>•Bomba de agua <br></br>•Turbo </p>
+                        <p className="textoTec gar">•Monoblock del motor y sus piezas <br></br>•Cabeza de motor, balancines <br></br>•Múltiples de admisión y escape <br></br>•Engranes de distribución <br></br>•Volante de motor <br></br>•Damper <br></br>•Tapa de punterías <br></br>•Cárter de motor bomba de aceite <br></br>•Soporte de montaje de motor <br></br>•Sellos y empaques <br></br>•Bomba de agua <br></br>•Turbo </p>
                     </span>
                 </div>
                 <div className="boxNews companiaimg2 ">

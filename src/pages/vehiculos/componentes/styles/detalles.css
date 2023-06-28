@@ -36,8 +36,9 @@
 }
 
 .seguridadBoxes p {
+  width: 75%;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .arriba {
@@ -62,6 +63,10 @@
   flex-direction: column;
 }
 
+.celular{
+  display: none;
+}
+
 
 @media only screen and (max-width: 780px) {
   .page {
@@ -72,29 +77,51 @@
     width: 100%;
   }
 
-  .seguridadBoxes {
-    width: 100%;
+  .seguridadBoxes{
+    display: none;
+  }
+
+  .celular {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 4rem;
   }
 
-  .arriba {
+  .celular p {
+    width: 75%;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+
+  .celular p {
+    width: 55%;
+  }
+
+  .arribaCelular {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  .abajo {
+  .abajoCelular {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  .arriba img {
-    width: 20%;
+  .arribaCelular img {
+    width: 50%;
   }
 
-  .abajo img {
-    width: 20%;
+  .abajoCelular img {
+    width: 50%;
   }
+
+  .abajoCelular.ultimo{
+    width: 50%;
+  }
+
+  
 
 }
