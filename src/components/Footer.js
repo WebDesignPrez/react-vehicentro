@@ -39,11 +39,22 @@ export default function Footer() {
           <li><p className="itemMenu"><a href="/serie/t7h">Serie T7H</a></p></li>
           <li><p className="itemMenu"><a href="/serie/c7h">Serie C7H</a></p></li>
           <li><p className="itemMenu"><a href="/serie/volquetas">Volquetas</a></p></li>
+          <li><p className="itemMenu"><a href="/serie/mixer">Mixer</a></p></li>
         </ul>
         <ul className="list">
-          <li><p className="subTitle">SUNWARD EXCAVADORAS</p></li>
-          <li><p className="titleFooter"><a href="/excavadoras/swe210">SW210 21 Ton</a></p></li>
-          <li><p className="titleFooter"><a href="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</a></p></li>
+          <li><p className="subTitle">SUNWARD </p></li>
+
+
+          {/* <li><p className="titleFooter"><a href="/excavadoras/swe210">SW210 21 Ton</a></p></li> */}
+          {/* <li><p className="titleFooter"><a href="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</a></p></li> */}
+
+          {/* <li><p className="titleFooter"><a href="/minicargadoras/swl3220">SWL3220</a></p></li> */}
+
+          <li><p className="titleFooter"><a href="/excavadoras/swe370e">Escavadora</a></p></li>
+          <li><p className="titleFooter"><a href="/excavadoras/swe370e">Miniescavadora</a></p></li>
+
+
+
         </ul>
       </div>
       <div className="col1 colSell">
@@ -56,11 +67,19 @@ export default function Footer() {
           <br />
           <br />
           <br />
+          <br />
+          <br />
         </ul>
-        <ul className="list">
-          <li><p className="subTitle">SUNWARD MINICARGADORAS</p></li>
-          <li><p className="titleFooter"><a href="/minicargadoras/swl3220">SWL3220</a></p></li>
+
+
+        <ul className="list listNonTitle">
+          <li><p className="itemMenu"><a href="/#">SINOTRUK AUTOS</a></p></li>
+          <li><p className="itemMenu"><a href="/sinotruk/autos/u70pro">SUVS</a></p></li>
+
+          {/* <li><p className="itemMenu"><a href="/sinotruk/autos/u70pro">U70PRO</a></p></li> */}
         </ul>
+
+
       </div>
       <div className="col1 colTech">
 
@@ -78,10 +97,7 @@ export default function Footer() {
         <br />
         <br />
 
-        <ul className="list listNonTitle">
-          <li><p className="itemMenu"><a href="/#">SUVS</a></p></li>
-          <li><p className="itemMenu"><a href="/sinotruk/autos/u70pro">U70PRO</a></p></li>
-        </ul>
+
 
 
       </div>
