@@ -662,11 +662,11 @@ export default function NavBar() {
             </li>
 
             <li>
-            <a className="" href="#" option="vehiculos">Vehiculos</a>
+            <a className="" href="#" option="vehiculos">Vehículos</a>
                 <div className="item-level-10 nav-header nav-header-h" >
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="10"></div>
-                        <p className="tituloMenu">Vehiculos</p>
+                        <p className="tituloMenu">Vehículos</p>
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">

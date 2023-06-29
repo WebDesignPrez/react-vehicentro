@@ -50,8 +50,8 @@ export default function Footer() {
 
           {/* <li><p className="titleFooter"><a href="/minicargadoras/swl3220">SWL3220</a></p></li> */}
 
-          <li><p className="titleFooter"><a href="/excavadoras/swe370e">Escavadora</a></p></li>
-          <li><p className="titleFooter"><a href="/excavadoras/swe370e">Miniescavadora</a></p></li>
+          <li><p className="titleFooter"><a href="/excavadoras/swe370e">Excavadora</a></p></li>
+          <li><p className="titleFooter"><a href="/excavadoras/swe370e">Minicargadora</a></p></li>
 
 
 

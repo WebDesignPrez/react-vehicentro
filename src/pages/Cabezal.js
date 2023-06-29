@@ -363,7 +363,7 @@ function Camion() {
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540"
             images = [
-                urlMedia + "48-toneladas/camion-amarillo-sinotruk-de-48-toneladas-ecuador.webp",
+                urlMedia + "48-toneladas/portadac7h48.jpg",
                 urlMedia + "48-toneladas/camion-amarillo-sinotruk-de-48-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "540 HP"
