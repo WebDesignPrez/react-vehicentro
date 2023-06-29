@@ -91,6 +91,7 @@ import Minicargadoras_landing_primicias from "./pages/Minicargadoras-landing-pri
 import Minicargadoras_landing_revista_motors from "./pages/Minicargadoras-landing-revista-motors"
 import Minicargadoras_landing_universo from "./pages/Minicargadoras-landing-universo"
 import VehiculosPage from "./pages/vehiculos/VehiculosPage"
+import U70Autos from "./pages/vehiculos/U70Autos"
 
 function App() {
 
@@ -193,6 +194,7 @@ function App() {
           <Route path="/landing/revista-motors/minicargadoras/:id" element={<Minicargadoras_landing_revista_motors />} />
           <Route path="/politicaprivacidad" element={<PoliticaPrivacidad/>} />
           <Route path="/sinotruk/autos/u70pro" element={<VehiculosPage/>} />
+          <Route path="/sinotruk/autos/u70" element={<U70Autos/>} />
 
         </Routes>
       </main>
