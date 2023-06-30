@@ -43,11 +43,11 @@ function Content1() {
             <div className="boxesIni posRelative content2 fondonegro">
                 <div className="boxRight">
                     <div className="boxLeft c7h">
-                        <img src={urlMedia + "serie-100/serie-100.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                        <img src={urlMedia + "a7/mixer-blanco-sinotruk-de-frente.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     </div>
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia + "serie-100/motor-serie-100.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "a7/motor-mixer.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     <div className="boxPlayerMotor ">
                         <audio id="audioMotor" controls type="audio/mpeg"></audio>
                     </div>
@@ -63,10 +63,6 @@ function Content2() {
         serie: "A7",
         modelo: "8-9 m3",
         url: "/mixer/mixer-a7-1257"
-    }, {
-        serie: "C7H",
-        modelo: "12 m3",
-        url: "/proximamente"
     }
     ]
 
@@ -96,7 +92,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia + "serie-100/serie-100-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "a7/mixer-blanco-sinotruk.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -147,14 +143,14 @@ function Content4() {
 function Content5() {
     return (
         <>
-            <div className="boxesIni posRelative centrado">
-                <div className="centrado">
-                    <img src={urlMedia + "a7/mixer-en-la-carretera-sinotruk.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
-                </div>
-                <div>
-                    <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIE100" camion={nombreCamion} serie="Serie 100" camionSerie={camionSerie} />
-                </div>
+            <div className="boxesIni posRelative">
+            <div className="centrado">
+                <img src={urlMedia + "a7/mixer-en-la-carretera-sinotruk.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
+            <div>
+                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEMIXER" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
+            </div>
+        </div>
         </>
     )
 }
