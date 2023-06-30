@@ -94,8 +94,7 @@ import Minicargadoras_landing_universo from "./pages/Minicargadoras-landing-univ
 
 import Excavadoralanding from "./pages/Excavadora-landing"
 import MinicargadorasLanding from "./pages/MinicargadorasLanding"
-import AutosLanding from "./pages/AutosLanding"
-
+import AutosLanding from "./pages/vehiculos/AutosLanding"
 import U70Pro from "./pages/vehiculos/U70Pro"
 import U70 from "./pages/vehiculos/U70"
 
@@ -111,7 +110,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Inicio2 />} />
-          <Route path="/autos" element={<AutosLanding />} />
+      
           <Route path="/repuestos" element={<Repuestos />} />
           <Route path="/camiones/:id" element={<Camion />} />
           <Route path="/cabezales/:id" element={<Cabezal />} />
@@ -205,6 +204,7 @@ function App() {
 
 
 
+          <Route path="/sinotruk/autos" element={<AutosLanding />} />
           <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
           <Route path="/sinotruk/autos/u70" element={<U70 />} />
 
