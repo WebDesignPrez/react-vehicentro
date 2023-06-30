@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import env from './../../../config';
 import './styles/vehiculo.css';
 
-const Vehiculo = () => {
-  const urlMedia = env.url + 'vehiculos/';
+const Vehiculo = ({ path }) => {
+  const urlMedia = env.url + path;
+
+  console.log(urlMedia);
+  console.log(env.url + path);
 
   const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.webp');
 
