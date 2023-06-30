@@ -90,16 +90,14 @@ import Minicargadoras_landing_extra from "./pages/Minicargadoras-landing-extra"
 import Minicargadoras_landing_primicias from "./pages/Minicargadoras-landing-primicias"
 import Minicargadoras_landing_revista_motors from "./pages/Minicargadoras-landing-revista-motors"
 import Minicargadoras_landing_universo from "./pages/Minicargadoras-landing-universo"
-<<<<<<< HEAD
-import U70Pro from "./pages/vehiculos/U70Pro"
-import U70 from "./pages/vehiculos/U70"
-=======
-import VehiculosPage from "./pages/vehiculos/VehiculosPage"
-import U70Autos from "./pages/vehiculos/U70Autos"
+
+
 import Excavadoralanding from "./pages/Excavadora-landing"
 import MinicargadorasLanding from "./pages/MinicargadorasLanding"
 import AutosLanding from "./pages/AutosLanding"
->>>>>>> 2edd83d4c7a4caf35c275c8beec01796d1e2b74c
+
+import U70Pro from "./pages/vehiculos/U70Pro"
+import U70 from "./pages/vehiculos/U70"
 
 function App() {
 
@@ -203,17 +201,15 @@ function App() {
           <Route path="/landing/revista-motors/volqueta/:id" element={<Volqueta_landing_revista_motors />} />
           <Route path="/landing/revista-motors/mixer/:id" element={<Mixer_landing_revista_motors />} />
           <Route path="/landing/revista-motors/minicargadoras/:id" element={<Minicargadoras_landing_revista_motors />} />
-<<<<<<< HEAD
           <Route path="/politicaprivacidad" element={<PoliticaPrivacidad />} />
+
+
+
           <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
           <Route path="/sinotruk/autos/u70" element={<U70 />} />
 
 
-=======
-          <Route path="/politicaprivacidad" element={<PoliticaPrivacidad/>} />
-          <Route path="/sinotruk/autos/u70pro" element={<VehiculosPage/>} />
-          <Route path="/sinotruk/autos/u70" element={<U70Autos/>} />
->>>>>>> 2edd83d4c7a4caf35c275c8beec01796d1e2b74c
+ 
         </Routes>
       </main>
     </BrowserRouter>
