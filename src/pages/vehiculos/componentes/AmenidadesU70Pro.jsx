@@ -4,10 +4,11 @@ import env from '../../../config';
 
 let urlMedia = env.url + "/vehiculos/"
 
-function CompraMenu() {
+function AmenidadesU70Pro() {
   return (
     <>
       <div className='compraBox'>
+
         <div className='option'>
           <div className='uno'>
             <div className='izquierda'>
@@ -87,12 +88,18 @@ function CompraMenu() {
             </div>
           </div>
         </div>
+
+
+
+
         <div className='image'>
           <img src={urlMedia + "emocion1.webp"} />
         </div>
+
+
       </div>
     </>
   )
 }
 
-export default CompraMenu
+export default AmenidadesU70Pro

@@ -1,11 +1,11 @@
-import BannerContacto from "../components/BannerContacto"
-import Footer from "../components/Footer"
-import NavBarTop from "../NavBarTop"
+import BannerContacto from "../../components/BannerContacto"
+import Footer from "../../components/Footer"
+import NavBarTop from "../../NavBarTop"
 import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
-import FormContact from "../components/FormContact";
-import env from '../config';
-import { useEffect, useState } from "react";
+import FormContact from "../../components/FormContact";
+import env from '../../config';
+import { useEffect } from "react";
 
 let series
 let nombreCamion
@@ -65,11 +65,11 @@ function Content2() {
     series = [{
         serie: "SUV",
         modelo: "U70",
-        url: "/sinotruk/autos/u70pro"
+        url: "/sinotruk/autos/u70"
     }, {
         serie: "SUV",
         modelo: "U70 Pro",
-        url: "/excavadoras/swe370e"
+        url: "/sinotruk/autos/u70pro"
     }
     ]
 

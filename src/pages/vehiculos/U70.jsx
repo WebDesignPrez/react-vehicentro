@@ -5,15 +5,16 @@ import NavBarTop from '../../NavBarTop'
 import Galeria from './componentes/Galeria'
 import Detalles from './componentes/Detalles'
 import Vehiculo from './componentes/Vehiculo'
-import CompraMenu from './componentes/CompraMenu'
+import AmenidadesU70 from './componentes/AmenidadesU70'
 import Footer from '../../components/Footer'
 
 import { Helmet } from "react-helmet";
-import FormularioMenu from '../../pages/vehiculos/componentes/FormularioMenu'
+import FormularioMenu from './componentes/FormularioMenu'
 
 
 
-function u70() {
+function U70() {
+  const path = 'u70/'
   return (
     <>
       <Helmet>
@@ -26,15 +27,15 @@ function u70() {
 
       <NavBarTop />
 
-      <Hero />
-      <CompraMenu />
+      <Hero path={path} />
+      <AmenidadesU70 />
 
-      <Vehiculo />
+      <Vehiculo path={path} />
       <Galeria />
 
       <Interior />
       <FormularioMenu />
-      
+
       <Detalles />
 
 
@@ -43,4 +44,4 @@ function u70() {
   )
 }
 
-export default u70 
+export default U70
