@@ -92,6 +92,9 @@ import Minicargadoras_landing_revista_motors from "./pages/Minicargadoras-landin
 import Minicargadoras_landing_universo from "./pages/Minicargadoras-landing-universo"
 import VehiculosPage from "./pages/vehiculos/VehiculosPage"
 import U70Autos from "./pages/vehiculos/U70Autos"
+import Excavadoralanding from "./pages/Excavadora-landing"
+import MinicargadorasLanding from "./pages/MinicargadorasLanding"
+import AutosLanding from "./pages/AutosLanding"
 
 function App() {
 
@@ -105,10 +108,13 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Inicio2 />} />
+          <Route path="/autos" element={<AutosLanding />} />
           <Route path="/repuestos" element={<Repuestos />} />
           <Route path="/camiones/:id" element={<Camion />} />
           <Route path="/cabezales/:id" element={<Cabezal />} />
+          <Route path="/excavadoras" element={<Excavadoralanding />} />
           <Route path="/excavadoras/:id" element={<Excavadora />} />
+          <Route path="/minicargadoras" element={<MinicargadorasLanding />} />
           <Route path="/minicargadoras/:id" element={<Minicargadoras />} />
           <Route path="/tecnologia" element={<Tecnologia />} />
           <Route path="/concesionarios" element={<Concesionarios />} />
@@ -195,7 +201,6 @@ function App() {
           <Route path="/politicaprivacidad" element={<PoliticaPrivacidad/>} />
           <Route path="/sinotruk/autos/u70pro" element={<VehiculosPage/>} />
           <Route path="/sinotruk/autos/u70" element={<U70Autos/>} />
-
         </Routes>
       </main>
     </BrowserRouter>
