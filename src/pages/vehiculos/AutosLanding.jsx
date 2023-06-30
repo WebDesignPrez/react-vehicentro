@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
 import FormContact from "../../components/FormContact";
 import env from '../../config';
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 let series
 let nombreCamion
