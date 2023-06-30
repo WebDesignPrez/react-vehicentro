@@ -99,7 +99,6 @@ import AutosLanding from "./pages/AutosLanding"
 function App() {
 
   return (
-
     <BrowserRouter >
       <Helmet>
         <title>Vehicentro</title>
