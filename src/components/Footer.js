@@ -40,7 +40,15 @@ export default function Footer() {
           <li><p className="itemMenu"><a href="/serie/c7h">Serie C7H</a></p></li>
           <li><p className="itemMenu"><a href="/serie/volquetas">Volquetas</a></p></li>
           <li><p className="itemMenu"><a href="/serie/mixer">Mixer</a></p></li>
+          <br/>
+          <li><p className="itemMenu"><a href="/autos">AUTOS</a></p></li>
+          <li><p className="itemMenu"><a href="/autos">Suvs</a></p></li>
         </ul>
+
+        {/* <ul className="list">
+          <li><p className="subTitle">AUTOS</p></li>
+          <li><p className="itemMenu"><a href="/serie/100">SUVS</a></p></li>
+        </ul> */}
         <ul className="list">
           <li><p className="subTitle">SUNWARD </p></li>
 
@@ -50,8 +58,8 @@ export default function Footer() {
 
           {/* <li><p className="titleFooter"><a href="/minicargadoras/swl3220">SWL3220</a></p></li> */}
 
-          <li><p className="titleFooter"><a href="/excavadoras/swe370e">Excavadora</a></p></li>
-          <li><p className="titleFooter"><a href="/excavadoras/swe370e">Minicargadora</a></p></li>
+          <li><p className="titleFooter"><a href="/excavadoras">Excavadoras</a></p></li>
+          <li><p className="titleFooter"><a href="/minicargadoras">Minicargadoras</a></p></li>
 
 
 
@@ -72,12 +80,12 @@ export default function Footer() {
         </ul>
 
 
-        <ul className="list listNonTitle">
+     {/*    <ul className="list listNonTitle">
           <li><p className="itemMenu"><a href="/#">SINOTRUK AUTOS</a></p></li>
           <li><p className="itemMenu"><a href="/sinotruk/autos/u70pro">SUVS</a></p></li>
 
-          {/* <li><p className="itemMenu"><a href="/sinotruk/autos/u70pro">U70PRO</a></p></li> */}
-        </ul>
+          <li><p className="itemMenu"><a href="/sinotruk/autos/u70pro">U70PRO</a></p></li>
+        </ul> */}
 
 
       </div>
