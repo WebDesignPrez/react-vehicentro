@@ -158,6 +158,7 @@ function Serie() {
             imagen = urlMedia + "t7h/contacto.webp"
             imagen2 = urlMedia + "t7h/camion.webp"
             motor = urlMedia + "t7h/motor.webp"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIET7H"
             nombreSerie = "Serie T7H"
             nombreSerieInd = "T7H"
             series = [{
@@ -399,8 +400,7 @@ function Serie() {
                 </div>
             </div>
         </div>
-
-        <div className="boxesIni posRelative centrado">
+        <div className="boxesIni posRelative">
             <div className="centrado">
                 <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>

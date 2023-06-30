@@ -5,27 +5,36 @@ import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
 import FormContact from "../components/FormContact";
 import env from '../config';
+import { useEffect, useState } from "react";
+
 let series
 let nombreCamion
 let camionSerie
 let urlMedia = env.url
+let audio_motor = "../images/10-toneladas/motor.mp3"
 
-function Especiales() {
+function Excavadora() {
+
+    useEffect(() => {
+        const motorPlayer = document.getElementById('audioMotor')
+        motorPlayer.src = audio_motor
+
+    }, []);
+
     return (
         <>
             <Helmet>
-                <title>Volquetas | Vehicentro</title>
-                <meta name="description" content="La mejor volqueta del mercado. Cuando precio y calidad se juntan, no existe competencia" />
-                <meta name="keywords" content="volqueta, volquetas, venta de volquetas, volquetas en ecuador"></meta>
+                <title>Autos | Vehicentro</title>
+                <meta name="description" content="Autos Sinotruk." />
+                <meta name="keywords" content="autos, suv, venta de suv, carros en ecuador, carros, sinotruk"></meta>
                 <meta name="robots" content="index, follow"></meta>
             </Helmet>
             <NavBarTop />
             <Content1 />
             <Content2 />
             <Content3 />
-            <Content4 />
+           {/*  <Content4 /> */}
             <Content5 />
-            <BannerContacto />
             <Footer />
         </>
     )
@@ -37,11 +46,11 @@ function Content1() {
             <div className="boxesIni posRelative content2 fondonegro">
                 <div className="boxRight">
                     <div className="boxLeft c7h">
-                        <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "especiales/volqueta.mp4"} className="videoWidth" />
+                        <img src={urlMedia + "swe210/excavadora.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     </div>
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia + "especiales/motor.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "swe210/motor.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     <div className="boxPlayerMotor ">
                         <audio id="audioMotor" controls type="audio/mpeg"></audio>
                     </div>
@@ -53,20 +62,15 @@ function Content1() {
 
 function Content2() {
 
-    series = [
-        {
-            serie: <p>T5G-330 <br></br>8-9 m3</p>,
-            modelo: "VOLQUETA",
-            url: "/volquetas/volqueta-t5g-280"
-        }, {
-            serie: <p>T5G-430 <br></br>10-14 m3</p>,
-            modelo: "VOLQUETA",
-            url: "/volquetas/volqueta-t7h-430"
-        }, {
-            serie: <p>C7H-540 <br></br>20 m3</p>,
-            modelo: "VOLQUETA",
-            url: "/volquetas/volqueta-c7h-540"
-        }
+    series = [{
+        serie: "SUV",
+        modelo: "U70",
+        url: "/sinotruk/autos/u70pro"
+    }, {
+        serie: "SUV",
+        modelo: "U70 Pro",
+        url: "/excavadoras/swe370e"
+    }
     ]
 
     return (
@@ -74,9 +78,10 @@ function Content2() {
             <div className="boxesIni posRelative content2 fondonegro">
 
                 <div className="boxRight nomSeries">
-                    <div className="serieTitle serieBox especiales">
-                        <p className="serieTitle1"></p>
-                        <p>VOLQUETAS</p>
+
+                    <div className="serieTitle serieBox">
+                        <p className="serieTitle1">SUV</p>
+                        <p>SINOTRUK</p>
                     </div>
 
                     <div className="serieList serieBox">
@@ -94,7 +99,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia + "especiales/especiales.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "swe365e/vehicentroExcavadoraEcuador.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -110,15 +115,15 @@ function Content3() {
                 <div className="marcasbg textoImagenesProducto" >
 
                     <div className="boxRightHeader  half icon_center series" >
-                        <div className="banner"><img src={urlMedia + "especiales/tecnologia.webp"} /></div>
+                        <div className="banner"><img src={urlMedia + "swe210/jpn.png"} /></div>
                     </div>
 
                     <div className="boxRightHeader  half text_icon_center series" >
-                        <p className='vidaUtil'>Vida útil de más de 1.5 MILLONES de kilómetros</p>
+                        <div className="banner"><img src={urlMedia + "swe210/isuzu.webp"} /></div>
                     </div>
 
                     <div className="boxRightHeader  half icon_right series">
-                        <div className="banner"><img src={urlMedia + "especiales/garantia.webp"} /></div>
+                        <div className="banner"><img src={urlMedia + "swe210/5-anos-de-garantia.webp"} /></div>
                     </div>
 
                 </div>
@@ -129,29 +134,18 @@ function Content3() {
     )
 }
 
-function Content4() {
-    return (
-        <>
-            <div className="marcasSeries fondonegro">
-                <img src={urlMedia + "especiales/marcasSeries.webp"} alt="Marcas Series" width="1532" height="355" />
-            </div>
-        </>
-    )
-}
 
 function Content5() {
     return (
-        <>
-            <div className="boxesIni posRelative">
-            <div className="centrado">
-                <img src={urlMedia + "especiales/especiales-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
-            </div>
-            <div>
-                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBSERIEVOLQUETAS" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
-            </div>
+        <div className="boxesIni posRelative">
+        <div className="centrado">
+            <img src={urlMedia + "vehiculos/imgForm.png"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
         </div>
-        </>
+        <div>
+            <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEMINICAR" camion={nombreCamion} serie="autos" camionSerie={camionSerie} />
+        </div>
+    </div>
     )
 }
 
-export default Especiales
+export default Excavadora
