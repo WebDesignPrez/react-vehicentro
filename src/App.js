@@ -90,11 +90,13 @@ import Minicargadoras_landing_extra from "./pages/Minicargadoras-landing-extra"
 import Minicargadoras_landing_primicias from "./pages/Minicargadoras-landing-primicias"
 import Minicargadoras_landing_revista_motors from "./pages/Minicargadoras-landing-revista-motors"
 import Minicargadoras_landing_universo from "./pages/Minicargadoras-landing-universo"
-import VehiculosPage from "./pages/vehiculos/VehiculosPage"
-import U70Autos from "./pages/vehiculos/U70Autos"
+
+
 import Excavadoralanding from "./pages/Excavadora-landing"
 import MinicargadorasLanding from "./pages/MinicargadorasLanding"
-import AutosLanding from "./pages/AutosLanding"
+import AutosLanding from "./pages/vehiculos/AutosLanding"
+import U70Pro from "./pages/vehiculos/U70Pro"
+import U70 from "./pages/vehiculos/U70"
 
 function App() {
 
@@ -107,7 +109,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Inicio2 />} />
-          <Route path="/autos" element={<AutosLanding />} />
+      
           <Route path="/repuestos" element={<Repuestos />} />
           <Route path="/camiones/:id" element={<Camion />} />
           <Route path="/cabezales/:id" element={<Cabezal />} />
@@ -140,10 +142,10 @@ function App() {
           <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
           <Route path="/serie/especiales" element={<Vehiculos_especiales />} />
           <Route path="/proximamente-hidromek" element={<Proximamente_hidromek />} />
-          <Route path="/rendimiento/t5g" element={<Rendimiento/>} />
-          <Route path="/rendimiento/100" element={<Rendimiento100/>} />
-          <Route path="/rendimiento/c7h" element={<Rendimientoc7h/>} />
-          <Route path="/rendimiento/t7h" element={<Rendimientot7h/>} />
+          <Route path="/rendimiento/t5g" element={<Rendimiento />} />
+          <Route path="/rendimiento/100" element={<Rendimiento100 />} />
+          <Route path="/rendimiento/c7h" element={<Rendimientoc7h />} />
+          <Route path="/rendimiento/t7h" element={<Rendimientot7h />} />
           <Route path="/landing/patiotuerca" element={<Patiotuerca />} />
           <Route path="/landing/el-universo" element={<El_universo />} />
           <Route path="/landing/el-extra" element={<El_extra />} />
@@ -197,9 +199,16 @@ function App() {
           <Route path="/landing/revista-motors/volqueta/:id" element={<Volqueta_landing_revista_motors />} />
           <Route path="/landing/revista-motors/mixer/:id" element={<Mixer_landing_revista_motors />} />
           <Route path="/landing/revista-motors/minicargadoras/:id" element={<Minicargadoras_landing_revista_motors />} />
-          <Route path="/politicaprivacidad" element={<PoliticaPrivacidad/>} />
-          <Route path="/sinotruk/autos/u70pro" element={<VehiculosPage/>} />
-          <Route path="/sinotruk/autos/u70" element={<U70Autos/>} />
+          <Route path="/politicaprivacidad" element={<PoliticaPrivacidad />} />
+
+
+
+          <Route path="/sinotruk/autos" element={<AutosLanding />} />
+          <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
+          <Route path="/sinotruk/autos/u70" element={<U70 />} />
+
+
+ 
         </Routes>
       </main>
     </BrowserRouter>

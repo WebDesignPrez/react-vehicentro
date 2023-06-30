@@ -5,15 +5,17 @@ import NavBarTop from '../../NavBarTop'
 import Galeria from './componentes/Galeria'
 import Detalles from './componentes/Detalles'
 import Vehiculo from './componentes/Vehiculo'
-import CompraMenu from './componentes/CompraMenu'
+import CompraMenu from './componentes/AmenidadesU70Pro'
 import Footer from '../../components/Footer'
 
 import { Helmet } from "react-helmet";
-import FormularioMenu from '../../pages/vehiculos/componentes/FormularioMenu'
+import FormularioMenu from './componentes/FormularioMenu'
 
 
 
-function VehiculosPage() {
+function U70Pro() {
+
+  const path = 'vehiculos/'
   return (
     <>
       <Helmet>
@@ -26,15 +28,15 @@ function VehiculosPage() {
 
       <NavBarTop />
 
-      <Hero />
+      <Hero path={path} />
       <CompraMenu />
 
-      <Vehiculo />
+      <Vehiculo path={path} />
       <Galeria />
 
       <Interior />
       <FormularioMenu />
-      
+
       <Detalles />
 
 
@@ -43,4 +45,4 @@ function VehiculosPage() {
   )
 }
 
-export default VehiculosPage 
+export default U70Pro 
