@@ -1,5 +1,4 @@
 import { useEffect, useState, React } from "react";
-import Interior from './componentes/Interior'
 import Hero from './componentes/Hero'
 import NavBarTop from '../../NavBarTop'
 import Galeria from './componentes/Galeria'
@@ -7,6 +6,7 @@ import Detalles from './componentes/Detalles'
 import Vehiculo from './componentes/Vehiculo'
 import CompraMenu from './componentes/AmenidadesU70Pro'
 import Footer from '../../components/Footer'
+import InteriorU70Pro from './componentes/InteriorU70Pro'
 
 import { Helmet } from "react-helmet";
 import FormularioMenu from './componentes/FormularioMenu'
@@ -41,7 +41,7 @@ function U70Pro() {
       <Galeria path={path} />
 
       {/* Component for interior images */}
-      <Interior />
+      <InteriorU70Pro />
 
       <FormularioMenu />
 
