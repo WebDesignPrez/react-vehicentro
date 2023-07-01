@@ -2,17 +2,14 @@ import env from './../../../config'
 import './styles/galeria.css'
 import Carousel from 'better-react-carousel'
 
-const Galeria = () => {
+const Galeria = ({ path }) => {
 
-  const urlMedia = env.url + "vehiculos/"
+  const urlMedia = env.url + path
 
   return (
     <>
-
       <div className='galeria'>
-
         <h3 className='title'>Exterior</h3>
-
       </div>
 
 
@@ -24,22 +21,22 @@ const Galeria = () => {
           loop
         >
           <Carousel.Item>
-            <img width="100%" src={urlMedia + 'emocion1.webp'} alt="U70PRO" />
+            <img width="100%" src={urlMedia + 'emocion1.webp'} alt="U70" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={urlMedia + 'llantas.webp'} alt="U70PRO" />
+            <img width="100%" src={urlMedia + 'llantas.webp'} alt="U70" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={urlMedia + 'emocion4.webp'} alt="U70PRO" />
+            <img width="100%" src={urlMedia + 'emocion4.webp'} alt="U70" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={urlMedia + 'faro.webp'} alt="U70PRO" />
+            <img width="100%" src={urlMedia + 'faro.webp'} alt="U70" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={urlMedia + 'sinLlave.webp'} alt="U70PRO" />
+            <img width="100%" src={urlMedia + 'sinLlave.webp'} alt="U70" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src={urlMedia + 'retro.webp'} alt="U70PRO" />
+            <img width="100%" src={urlMedia + 'retro.webp'} alt="U70" />
           </Carousel.Item>
         </Carousel>
       </div>

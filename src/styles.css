@@ -440,13 +440,9 @@ ul.nav-links-h>li>a:hover,
 }
 
 .footer .info .titleContacto {
-<<<<<<< Updated upstream
   margin-top: 10px;
   padding: 0;
   font-size: 1.5rem;
-=======
-  margin-top: 30px;
->>>>>>> Stashed changes
 }
 
 
@@ -454,10 +450,7 @@ ul.nav-links-h>li>a:hover,
 .footer .info .titleNumero {
   margin-top: 20px;
   font-size: 22px;
-<<<<<<< Updated upstream
   padding: 1rem 0;
-=======
->>>>>>> Stashed changes
 }
 
 .footer .info .titleNumero a {
@@ -496,11 +489,7 @@ p.titleFooter {
 }
 
 .footer .info .social img {
-<<<<<<< Updated upstream
   width: 10% !important;
-=======
-  width: 7% !important;
->>>>>>> Stashed changes
   height: auto;
 }
 
@@ -1688,6 +1677,10 @@ li.mouseA:hover {
   font-size: 2.2vw;
 }
 
+.serieTitle.serieBox.auto {
+  padding: 9vh 2vw !important;
+}
+
 .serieList {
   display: flex;
   justify-content: center;
@@ -1764,11 +1757,7 @@ li.mouseA:hover {
   text-align-last: center;
 }
 
-<<<<<<< Updated upstream
 a .flex-row {
-=======
-a .social2 {
->>>>>>> Stashed changes
   color: #000;
   text-decoration: none;
 }
@@ -1930,11 +1919,7 @@ a.titleBox2:hover {
 }
 
 .imgHeader1 {
-<<<<<<< Updated upstream
   background-image: url(../public/images/home/veinsteinRepuestos.jpg);
-=======
-  background-image: url(../public/images/home/repuestos.webp);
->>>>>>> Stashed changes
   background-size: cover;
 }
 
@@ -2168,11 +2153,7 @@ a.colItem.meniu.negro {
   color: #666;
 }
 
-<<<<<<< Updated upstream
 .flex-row.textMain.textMain2 {
-=======
-.social2.textMain.textMain2 {
->>>>>>> Stashed changes
   color: #fff;
 }
 

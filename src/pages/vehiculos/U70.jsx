@@ -14,7 +14,9 @@ import FormularioMenu from './componentes/FormularioMenu'
 
 
 function U70() {
-  const path = 'u70/'
+
+  const path = 'u70/' // ruta de imagenes del u70
+
   return (
     <>
       <Helmet>
@@ -28,14 +30,22 @@ function U70() {
       <NavBarTop />
 
       <Hero path={path} />
+
+      {/* Characteristics */}
       <AmenidadesU70 />
 
+      {/* Colors of car (Technologies) */}
       <Vehiculo path={path} />
+
+      {/* Two pages of three images */}
       <Galeria />
 
+      {/* Component for interior images */}
       <Interior />
+
       <FormularioMenu />
 
+      {/* Security */}
       <Detalles />
 
 
