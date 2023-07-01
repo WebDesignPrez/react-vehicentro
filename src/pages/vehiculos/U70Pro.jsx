@@ -15,7 +15,8 @@ import FormularioMenu from './componentes/FormularioMenu'
 
 function U70Pro() {
 
-  const path = 'vehiculos/'
+  const path = 'vehiculos/' //ruta de imagenes del u70pro
+
   return (
     <>
       <Helmet>
@@ -29,14 +30,22 @@ function U70Pro() {
       <NavBarTop />
 
       <Hero path={path} />
+
+      {/* Characteristics */}
       <CompraMenu />
 
+      {/* Colors of car (Tecnologies) */}
       <Vehiculo path={path} />
-      <Galeria />
 
+      {/* Two pages of three images */}
+      <Galeria path={path} />
+
+      {/* Component for interior images */}
       <Interior />
+
       <FormularioMenu />
 
+      {/* Security */}
       <Detalles />
 
 

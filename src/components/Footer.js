@@ -15,17 +15,10 @@ export default function Footer() {
           <li><p>TECNOLOGÍA ALEMANA</p></li>
         </ul>
         <br />
-<<<<<<< Updated upstream
         <p className="title titleContacto">CONTACTO DIRECTO</p>
         <p className="title titleNumero"><a href="tel:032294740">032 994 740</a></p>
         <div className="social row">
           <div className="flex-row imgMain">
-=======
-        <p className="title titleNumero"><a href="tel:032294740">032 994 740</a></p>
-        <p className="title titleContacto">CONTACTO DIRECTO</p>
-        <div className="social row">
-          <div className="social imgMain">
->>>>>>> Stashed changes
             <a href="https://www.facebook.com/Vehicentro"><img src={urlMedia + "facebook.png"} alt="facebook" width="32" height="32" /></a>
             <a href="https://www.instagram.com/vehicentroec"><img src={urlMedia + "instagram.png"} alt="instagram" width="32" height="32" /></a>
             <a href="https://www.youtube.com/channel/UCW8gGawovE35cXcJ3P2kryQ"><img src={urlMedia + "youtube.png"} alt="youtube" width="32" height="32" /></a>
@@ -46,12 +39,11 @@ export default function Footer() {
           <li><p className="itemMenu"><a href="/serie/t7h">Serie T7H</a></p></li>
           <li><p className="itemMenu"><a href="/serie/c7h">Serie C7H</a></p></li>
           <li><p className="itemMenu"><a href="/serie/volquetas">Volquetas</a></p></li>
-<<<<<<< Updated upstream
           <li><p className="itemMenu"><a href="/serie/mixer">Mixer</a></p></li>
-          <br/>
+          <br />
           <li><p className="itemMenu"><a href="#">AUTOS</a></p></li>
           <li><p className="itemMenu"><a href="/sinotruk/autos">Suvs</a></p></li>
-        </ul>
+        </ul >
 
         <ul className="list">
           <li><p className="subTitle">SUNWARD </p></li>
@@ -63,15 +55,8 @@ export default function Footer() {
 
 
 
-=======
         </ul>
-        <ul className="list">
-          <li><p className="subTitle">SUNWARD EXCAVADORAS</p></li>
-          <li><p className="titleFooter"><a href="/excavadoras/swe210">SW210 21 Ton</a></p></li>
-          <li><p className="titleFooter"><a href="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</a></p></li>
->>>>>>> Stashed changes
-        </ul>
-      </div>
+      </div >
       <div className="col1 colSell">
         <p className="title">POSVENTA</p>
         <ul className="list listNonTitle">
@@ -82,13 +67,12 @@ export default function Footer() {
           <br />
           <br />
           <br />
-<<<<<<< Updated upstream
           <br />
           <br />
-        </ul>
+        </ul >
 
 
-     {/*    <ul className="list listNonTitle">
+        {/*    <ul className="list listNonTitle">
           <li><p className="itemMenu"><a href="/#">SINOTRUK AUTOS</a></p></li>
           <li><p className="itemMenu"><a href="/sinotruk/autos/u70pro">SUVS</a></p></li>
 
@@ -96,25 +80,15 @@ export default function Footer() {
         </ul> */}
 
 
-      </div>
+      </div >
       <div className="col1 colTech">
 
-=======
-        </ul>
-        <ul className="list">
-          <li><p className="subTitle">SUNWARD MINICARGADORAS</p></li>
-          <li><p className="titleFooter"><a href="/minicargadoras/swl3220">SWL3220</a></p></li>
-        </ul>
-      </div>
-      <div className="col1 colTech">
->>>>>>> Stashed changes
         <p className="title">TECNOLOGÍA</p>
         <ul className="list listNonTitle">
           <li><p className="itemMenu"><a href="/motor-mc">Componentes</a></p></li>
           <li><p className="itemMenu"><a href="/rendimiento/100">Medición de rendimiento</a></p></li>
         </ul>
 
-<<<<<<< Updated upstream
         <br />
         <br />
         <br />
@@ -125,13 +99,11 @@ export default function Footer() {
 
 
 
-=======
->>>>>>> Stashed changes
 
-      </div>
+      </div >
       <a href="https://api.whatsapp.com/send?phone=593988593279" className="btn-wsp" target="_blank" rel="noreferrer">
         <img className="imgWpp" width="60" height="60" src={urlMedia + "wpp.gif"} alt="Whatsapp"></img>
       </a>
-    </div>
+    </div >
   )
 }
