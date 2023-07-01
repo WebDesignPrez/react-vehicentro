@@ -1,11 +1,11 @@
 import { useEffect, useState, React } from "react";
-import Interior from './componentes/Interior'
 import Hero from './componentes/Hero'
 import NavBarTop from '../../NavBarTop'
 import Galeria from './componentes/Galeria'
 import Detalles from './componentes/Detalles'
 import Vehiculo from './componentes/Vehiculo'
 import AmenidadesU70 from './componentes/AmenidadesU70'
+import InteriorU70 from './componentes/InteriorU70'
 import Footer from '../../components/Footer'
 
 import { Helmet } from "react-helmet";
@@ -35,13 +35,14 @@ function U70() {
       <AmenidadesU70 />
 
       {/* Colors of car (Technologies) */}
+      {/* TODO: Add path for u70 */}
       <Vehiculo path={path} />
 
       {/* Two pages of three images */}
-      <Galeria />
+      <Galeria path={path} />
 
       {/* Component for interior images */}
-      <Interior />
+      <InteriorU70 />
 
       <FormularioMenu />
 
