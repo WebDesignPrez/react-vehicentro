@@ -281,8 +281,8 @@ function Block3() {
               <p className="titleBox"></p>
               <NavLink className="titleBox2" to="/sinotruk/autos/u70pro">SUV'S</NavLink>
               <div className="linksBox">
+                <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70</NavLink>
                 <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
-                {/* <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70</NavLink> */}
               </div>
             </div>
           </div>

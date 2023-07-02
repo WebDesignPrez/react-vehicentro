@@ -23,13 +23,13 @@ const Interior = () => {
         {
           titulo: '3 Filas de Asientos',
           descripcion: '',
-          img: urlMedia + 'asientos.webp'
-        },
-        {
+          img: urlMedia + 'u701.jpg'
+        }
+        /* {
           titulo: 'Amplio Espacio',
           descripcion: '',
           img: urlMedia + 'asientos2.webp'
-        }
+        } */
       ]
     },
     {
@@ -38,15 +38,15 @@ const Interior = () => {
       subCategorias: [
 
         {
-          titulo: 'Radio de 12 pulgadas',
+          titulo: 'Radio',
           descripcion: '',
-          img: urlMedia + 'radio.webp'
+          img: urlMedia + 'u702.jpg'
         },
 
 
       ]
     },
-    {
+    /* {
       id: 2,
       titulo: 'Aire Acondicionado',
       subCategorias: [
@@ -62,17 +62,17 @@ const Interior = () => {
           img: urlMedia + 'aire2.webp'
         },
       ]
-    },
+    }, */
     {
       id: 3,
       titulo: 'Volante',
       subCategorias: [
 
         {
-          titulo: 'Acabados en cuero',
+          titulo: 'Volante',
           descripcion: '',
-          img: urlMedia + 'volante3.webp'
-        },
+          img: urlMedia + 'u704.jpg'
+        }/* ,
         {
           titulo: 'Control Multimedia',
           descripcion: '',
@@ -82,9 +82,9 @@ const Interior = () => {
           titulo: 'Computadora a bordo',
           descripcion: '',
           img: urlMedia + 'volante2.webp'
-        }
+        } */
       ]
-    },
+    }/* ,
     {
       id: 4,
       titulo: 'Almacenamiento',
@@ -96,7 +96,7 @@ const Interior = () => {
           img: urlMedia + 'consola.webp'
         },
       ]
-    },
+    } */,
     {
       id: 4,
       titulo: 'Palanca',
@@ -105,7 +105,7 @@ const Interior = () => {
         {
           titulo: 'Palanca de cambios 6 + 1',
           descripcion: '',
-          img: urlMedia + 'palanca.webp'
+          img: urlMedia + 'u705.jpg'
         },
       ]
     },
