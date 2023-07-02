@@ -17,6 +17,14 @@ body {
   font-display: swap;
 }
 
+.vehiculos.fondoautos{
+  background-color: #b8b8b8;
+}
+
+.magneti img{
+  width: 80%;
+}
+
 audio {
   height: 30px !important;
   width: 32vw !important;
@@ -664,6 +672,10 @@ p.titleFooter {
 /*BOX CONTENT*/
 .boxesIni .boxLeft,
 .boxesIni .boxRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   cursor: pointer;
   overflow: hidden;
@@ -1068,6 +1080,46 @@ p.titleFooter {
 }
 
 /*CONTENT PRODUCT*/
+
+.serieSinotruk{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 3rem;
+}
+
+.ad{
+  width: 100%;
+}
+
+.serieSinotruk img{
+  width: 75% !important;
+  height: auto;
+}
+
+.serieSinotruk img:hover{
+ scale: 1.2;
+ transition-duration: 500ms;
+}
+
+.boxRight .sinoLogo{
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.contentProduct .banner.autos1 img{
+  width: 80%;
+}
+
+
+.contentProduct .banner.autos2 img{
+  width: 70%;
+}
+
+
+.contentProduct .banner.autos3 img{
+  width: 60%;
+}
 
 .contentProduct .banner img,
 .contentProduct .bannerMedidas img {
@@ -1677,6 +1729,10 @@ li.mouseA:hover {
   font-size: 2.2vw;
 }
 
+.serieTitle.serieBox.auto{
+  padding: 9vh 2vw !important;
+}
+
 .serieList {
   display: flex;
   justify-content: center;
@@ -1689,10 +1745,14 @@ li.mouseA:hover {
   color: #fff;
 }
 
+
+.modeloSerie.autos{
+ font-size: 2rem;
+}
 .serieContainer {
   font-size: 1.3vw;
-  width: 9vw;
-  margin: 1.2vw 1vw;
+  width: max-content;
+  margin: 1.2vw 3vw;
   position: relative;
   color: #fff;
   text-decoration: none;
