@@ -1,5 +1,4 @@
 import { useEffect, useState, React } from "react";
-import Interior from './componentes/Interior'
 import Hero from './componentes/Hero'
 import NavBarTop from '../../NavBarTop'
 import Galeria from './componentes/Galeria'
@@ -7,6 +6,7 @@ import Detalles from './componentes/Detalles'
 import Vehiculo from './componentes/Vehiculo'
 import CompraMenu from './componentes/AmenidadesU70Pro'
 import Footer from '../../components/Footer'
+import InteriorU70Pro from './componentes/InteriorU70Pro'
 
 import { Helmet } from "react-helmet";
 import FormularioMenu from './componentes/FormularioMenu'
@@ -15,7 +15,8 @@ import FormularioMenu from './componentes/FormularioMenu'
 
 function U70Pro() {
 
-  const path = 'vehiculos/'
+  const path = 'vehiculos/' //ruta de imagenes del u70pro
+
   return (
     <>
       <Helmet>
@@ -29,14 +30,22 @@ function U70Pro() {
       <NavBarTop />
 
       <Hero path={path} />
+
+      {/* Characteristics */}
       <CompraMenu />
 
+      {/* Colors of car (Tecnologies) */}
       <Vehiculo path={path} />
-      <Galeria />
 
-      <Interior />
+      {/* Two pages of three images */}
+      <Galeria path={path} />
+
+      {/* Component for interior images */}
+      <InteriorU70Pro />
+
       <FormularioMenu />
 
+      {/* Security */}
       <Detalles />
 
 

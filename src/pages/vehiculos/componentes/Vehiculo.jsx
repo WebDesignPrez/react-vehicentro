@@ -5,9 +5,6 @@ import './styles/vehiculo.css';
 const Vehiculo = ({ path }) => {
   const urlMedia = env.url + path;
 
-  console.log(urlMedia);
-  console.log(env.url + path);
-
   const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.webp');
 
   const handleButtonClick = (newImage) => {

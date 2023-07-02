@@ -1677,6 +1677,10 @@ li.mouseA:hover {
   font-size: 2.2vw;
 }
 
+.serieTitle.serieBox.auto {
+  padding: 9vh 2vw !important;
+}
+
 .serieList {
   display: flex;
   justify-content: center;

@@ -40,10 +40,10 @@ export default function Footer() {
           <li><p className="itemMenu"><a href="/serie/c7h">Serie C7H</a></p></li>
           <li><p className="itemMenu"><a href="/serie/volquetas">Volquetas</a></p></li>
           <li><p className="itemMenu"><a href="/serie/mixer">Mixer</a></p></li>
-          <br/>
+          <br />
           <li><p className="itemMenu"><a href="#">AUTOS</a></p></li>
           <li><p className="itemMenu"><a href="/sinotruk/autos">Suvs</a></p></li>
-        </ul>
+        </ul >
 
         <ul className="list">
           <li><p className="subTitle">SUNWARD </p></li>
@@ -56,7 +56,7 @@ export default function Footer() {
 
 
         </ul>
-      </div>
+      </div >
       <div className="col1 colSell">
         <p className="title">POSVENTA</p>
         <ul className="list listNonTitle">
@@ -69,10 +69,10 @@ export default function Footer() {
           <br />
           <br />
           <br />
-        </ul>
+        </ul >
 
 
-     {/*    <ul className="list listNonTitle">
+        {/*    <ul className="list listNonTitle">
           <li><p className="itemMenu"><a href="/#">SINOTRUK AUTOS</a></p></li>
           <li><p className="itemMenu"><a href="/sinotruk/autos/u70pro">SUVS</a></p></li>
 
@@ -80,7 +80,7 @@ export default function Footer() {
         </ul> */}
 
 
-      </div>
+      </div >
       <div className="col1 colTech">
 
         <p className="title">TECNOLOGÍA</p>
@@ -100,10 +100,10 @@ export default function Footer() {
 
 
 
-      </div>
+      </div >
       <a href="https://api.whatsapp.com/send?phone=593988593279" className="btn-wsp" target="_blank" rel="noreferrer">
         <img className="imgWpp" width="60" height="60" src={urlMedia + "wpp.gif"} alt="Whatsapp"></img>
       </a>
-    </div>
+    </div >
   )
 }
