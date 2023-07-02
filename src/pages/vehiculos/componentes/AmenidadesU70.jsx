@@ -44,7 +44,7 @@ function AmenidadesU70() {
           </div>
         </div>
         <div className='image'>
-          <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} loop muted id="myVideo" src={urlMedia + "animacionAsientos.mp4"} className="videoWidth produ" />
+          <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} loop muted id="myVideo" src="https://vehicentro.com/images/vehiculos/atrasu70.mp4" className="videoWidth produ" />
         </div>
       </div>
       <div className='compraBox responsive'>
