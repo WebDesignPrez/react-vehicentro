@@ -600,7 +600,7 @@ function Menu2() {
             <ul className="nav-links-h">
                 <li><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
                 <li><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
-                <li><a className="mouseA">VEHÍCULOS</a></li>
+                <li><a className="mouseA" href="/sinotruk/autos">VEHÍCULOS</a></li>
                 <li><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
                 <li><a to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</a></li>
                 <li><a to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</a></li>

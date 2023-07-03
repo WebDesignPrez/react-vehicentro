@@ -58,7 +58,7 @@ function Menu2() {
             <ul className="nav-links-h">
                 <li><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
                 <li><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
-                <li><a className="mouseA" href="/proximamente">VEHÍCULOS</a></li>
+                <li><a className="mouseA" href="/sinotruk/autos">VEHÍCULOS</a></li>
                 <li><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
                 <li><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
                 <li><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>

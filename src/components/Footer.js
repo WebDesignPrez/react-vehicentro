@@ -33,7 +33,7 @@ export default function Footer() {
       <div className="col1 colProd">
         <p className="title">PRODUCTOS</p>
         <ul className="list">
-          <li><p className="subTitle">SINOTRUK</p></li>
+          <li><p className="subTitle">SINOTRUK CAMIONES</p></li>
           <li><p className="itemMenu"><a href="/serie/100">Serie 100</a></p></li>
           <li><p className="itemMenu"><a href="/serie/t5g">Serie T5G</a></p></li>
           <li><p className="itemMenu"><a href="/serie/t7h">Serie T7H</a></p></li>
@@ -41,7 +41,7 @@ export default function Footer() {
           <li><p className="itemMenu"><a href="/serie/volquetas">Volquetas</a></p></li>
           <li><p className="itemMenu"><a href="/serie/mixer">Mixer</a></p></li>
           <br />
-          <li><p className="itemMenu"><a href="#">AUTOS</a></p></li>
+          <li><p className="itemMenu">SINOTRUK AUTOS</p></li>
           <li><p className="itemMenu"><a href="/sinotruk/autos">Suvs</a></p></li>
         </ul >
 
