@@ -163,10 +163,10 @@ function Block1() {
           </div>
         </div>
         <div className="overlayBox" height="200">
-          <a href="/sinotruk/autos/u70pro" className="titleBox">SINOTRUK AUTOS</a>
-          <div className="linksBox testimonio">
-            <a href="/sinotruk/autos/u70pro" className="line2" src="">U70PRO</a> 
-            <a href="/sinotruk/autos/u70pro" className="line2" src="">U70</a>
+          <a href="/sinotruk/autos" className="titleBox">SINOTRUK AUTOS</a>
+          <div className="linksBox">
+            <NavLink src="" to="/sinotruk/autos/u70"><span className="boldserie">U70</span></NavLink>
+            <NavLink src="" to="/sinotruk/autos/u70pro"><span className="boldserie">U70PRO</span></NavLink>
           </div>
         </div>
         {/* <h1>Venta de camiones en Ecuador</h1>
@@ -279,7 +279,7 @@ function Block3() {
             <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/u70pro.png"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
             <div className="bottomContainer">
               <p className="titleBox"></p>
-              <NavLink className="titleBox2" to="/sinotruk/autos/u70pro">SUV'S</NavLink>
+              <NavLink className="titleBox2" to="/sinotruk/autos">SUV'S</NavLink>
               <div className="linksBox">
                 <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70</NavLink>
                 <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
@@ -406,7 +406,7 @@ function Menu2() {
       <ul className="nav-links-h">
         <li><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
         <li><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
-        <li><a className="mouseA" href="/sinotruk/autos/u70pro">VEHÍCULOS</a></li>
+        <li><a className="mouseA" href="/sinotruk/autos">VEHÍCULOS</a></li>
         <li><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
         <li><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
         <li><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>

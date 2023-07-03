@@ -63,31 +63,32 @@ function Content2() {
 
 
     const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.webp');
-  
+
     const handleButtonClick = (newImage) => {
-      setSelectedImage(urlMedia + newImage + '.webp');
+        setSelectedImage(urlMedia + newImage + '.webp');
     };
 
-   
+
 
     return (
         <>
-            <div className="boxesIni posRelative content2 fondonegro ">
+            <div className="serieContainerAutos">
 
-                <div className="boxRight nomSeries">
+                <div className="containerAutos">
+                    <div className="sinotrukContainer">
+                        <img src="https://www.vehicentro.com/images/sinotruk.webp" />
+                    </div>
 
-                    <img className="sinoLogo" src="https://www.vehicentro.com/images/sinotruk.webp"/>
-
-                    <div className="serieSinotruk">
-      <Link to="../sinotruk/autos/u70">
-        <img src="https://www.vehicentro.com/images/u70Logo2.webp" alt="" />
-      </Link>
-      <Link to="../sinotruk/autos/u70pro">
-        <img src="https://www.vehicentro.com/images/u70proLogo2.webp" alt="" />
-      </Link>
-    </div>
-
+                    <div className="serieSinotrukAutos">
+                        <Link to="../sinotruk/autos/u70">
+                            <img className="logos" src="https://www.vehicentro.com/images/u70Logo22.webp" alt="" />
+                        </Link>
+                        <Link to="../sinotruk/autos/u70pro">
+                            <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="" />
+                        </Link>
+                    </div>
                 </div>
+
                 <div className='vehiculos fondoautos'>
 
                     <img className='carImage' src={selectedImage} alt="U70PRO" />
@@ -146,7 +147,7 @@ function Content5() {
                 <img src={urlMedia + "vehiculos/imgForm.png"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
             <div>
-                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEMINICAR" camion={nombreCamion} serie="autos" camionSerie={camionSerie} />
+                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEAUTOS" camion={nombreCamion} serie="autos" camionSerie={camionSerie} />
             </div>
         </div>
     )

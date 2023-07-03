@@ -19,6 +19,7 @@ body {
 
 .vehiculos.fondoautos{
   background-color: #b8b8b8;
+  width: 50%;
 }
 
 .magneti img{
@@ -672,18 +673,70 @@ p.titleFooter {
 /*BOX CONTENT*/
 .boxesIni .boxLeft,
 .boxesIni .boxRight {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   position: relative;
   cursor: pointer;
   overflow: hidden;
 }
 
+.boxesIni .boxLeft,
+.boxesIni .boxRight.nomSeries.autos{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .boxesIni .boxRightText {
   position: relative;
 }
+
+.serieContainerAutos{
+  display: flex;
+  background-color: #000;
+}
+
+.containerAutos{
+  width: 50%;
+}
+
+.containerAutos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sinotrukContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sinotrukContainer img{
+  width: 40%;
+}
+
+.sinotrukContainer.menos{
+  width: 5%;
+}
+
+.serieSinotrukAutos{
+  margin-left: 7rem;
+  display: flex;
+}
+
+.serieSinotrukAutos .icons{
+  width: 20px;
+}
+
+.serieSinotrukAutos .logos{
+  width: 60%;
+}
+
+.serieSinotrukAutos .logosRojo{
+  width: 60%;
+}
+
 
 .boxesIni .boxLeft .boxPlay,
 .boxesIni .boxRight .boxPlay {
