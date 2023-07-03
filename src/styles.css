@@ -678,13 +678,6 @@ p.titleFooter {
   overflow: hidden;
 }
 
-.boxesIni .boxLeft,
-.boxesIni .boxRight.nomSeries.autos{
-   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
 .boxesIni .boxRightText {
   position: relative;
