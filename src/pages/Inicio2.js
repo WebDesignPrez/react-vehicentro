@@ -388,7 +388,7 @@ function Block4() {
           </div>
         </Slide>
         <div className="boxText flex-table row linksBox">
-          <a href="/proximamente"><div className="flex-row textMain textMain2">VEHÍCULOS ESPECIALES</div></a>
+          <div className="flex-row textMain textMain2">VEHÍCULOS ESPECIALES</div>
         </div>
       </div>
       <div className="boxRight tecnologia">
