@@ -656,14 +656,14 @@ function Camion() {
         </div>
 
 
-        <div className="boxesIni posRelative centrado">
-            <div className="centrado">
-                <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+        <div className="boxesIni posRelative">
+                <div className="centrado">
+                    <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                </div>
+                <div>
+                    <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
+                </div>
             </div>
-            <div>
-                <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
-            </div>
-        </div>
         <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
         <Footer />
 
