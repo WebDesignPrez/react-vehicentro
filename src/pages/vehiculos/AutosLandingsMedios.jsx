@@ -57,11 +57,11 @@ function Content2() {
     series = [{
         serie: "SUV",
         modelo: "U70",
-        url: "/sinotruk/autos/u70"
+        url: "./sinotruk/autos/u70"
     }, {
         serie: "SUV",
         modelo: "U70 Pro",
-        url: "/sinotruk/autos/u70pro"
+        url: "./sinotruk/autos/u70pro"
     }
     ]
 
@@ -75,7 +75,8 @@ function Content2() {
     };
 
 
-
+    let pathU70pro = window.location.href + "/u70pro"
+    let pathU70 = window.location.href + "/u70" 
     return (
         <>
             <div className="serieContainerAutos">
@@ -86,10 +87,10 @@ function Content2() {
                     </div>
 
                     <div className="serieSinotrukAutos">
-                        <Link to="../sinotruk/autos/u70">
+                        <Link to= {pathU70}>
                             <img className="logos" src="https://www.vehicentro.com/images/u70Logo22.webp" alt="" />
                         </Link>
-                        <Link to="../sinotruk/autos/u70pro">
+                        <Link to= {pathU70pro}>
                             <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="" />
                         </Link>
                     </div>
