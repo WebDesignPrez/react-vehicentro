@@ -111,7 +111,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Inicio2 />} />
-      
+
           <Route path="/repuestos" element={<Repuestos />} />
           <Route path="/camiones/:id" element={<Camion />} />
           <Route path="/cabezales/:id" element={<Cabezal />} />
@@ -219,7 +219,7 @@ function App() {
           <Route path="/landing/comercio/sinotruk/autos" element={<AutosLandingComercio />} />
           <Route path="/landing/el-extra/sinotruk/autos" element={<AutosLanding />} />
           <Route path="/landing/patiotuerca/sinotruk/autos" element={<AutosLanding />} />
-          
+
           <Route path="/landing/revista-motors/sinotruk/autos/u70" element={<AutosLanding />} />
           <Route path="/landing/expresso/sinotruk/autos/u70" element={<AutosLanding />} />
           <Route path="/landing/ecdf/sinotruk/autos/u70" element={<AutosLanding />} />
@@ -237,9 +237,9 @@ function App() {
           <Route path="/landing/comercio/sinotruk/autos/u70pro" element={<AutosLanding />} />
           <Route path="/landing/el-extra/sinotruk/autos/u70pro" element={<AutosLanding />} />
           <Route path="/landing/patiotuerca/sinotruk/autos/u70pro" element={<AutosLanding />} />
-          
 
- 
+
+
         </Routes>
       </main>
     </BrowserRouter>
