@@ -48,4 +48,5 @@ const dataLeads = [
         u70pro: "LDPTAUTU70P",
     }
 ]
+export default dataLeads;
 

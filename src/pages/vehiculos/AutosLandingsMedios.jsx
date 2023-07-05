@@ -9,16 +9,19 @@ import { useEffect, useState } from "react";
 import Detalles from './componentes/Detalles'
 import { Link } from 'react-router-dom';
 import HeaderFooterLanding from "../../components/HeaderFooterLanding";
-import data from "../../data/dataLeads"
+import dataLeads from "../../data/dataLeads"
 
 let series
 let nombreCamion
 let camionSerie
 let urlMedia = env.url
 
-
-function Excavadora() {
     
+
+
+function AutosLandingsMedios() {
+    
+   
     return (
         <>
             <Helmet>
@@ -171,16 +174,57 @@ function Landingmenu() {
 
 
 function Content5() {
+    const comercioObj = dataLeads.find((obj) => obj.name === "comercio");
+    const comercioAutos = comercioObj ? comercioObj.autos : "";
+    const revistaMotorObj = dataLeads.find((obj) => obj.name === "revista-motors");
+    const revistaMotorAutos = revistaMotorObj ? revistaMotorObj.autos : "";
+    const expressoObj = dataLeads.find((obj) => obj.name === "expresso");
+    const expressoAutos = expressoObj ? expressoObj.autos : "";
+    const ecdfObj = dataLeads.find((obj) => obj.name === "ecdf");
+    const ecdfAutos = ecdfObj ? ecdfObj.autos : "";
+    const primiciasObj = dataLeads.find((obj) => obj.name === "primicias");
+    const primiciasAutos = primiciasObj ? primiciasObj.autos : "";
+    const eluniversoObj = dataLeads.find((obj) => obj.name === "el-universo");
+    const eluniversoAutos = eluniversoObj ? eluniversoObj.autos : "";
+    const elExtraObj = dataLeads.find((obj) => obj.name === "el-extra");
+    const elExtraAutos = elExtraObj ? elExtraObj.autos : "";
+    const patiotuercaObj = dataLeads.find((obj) => obj.name === "patiotuerca");
+    const patiotuercaAutos = patiotuercaObj ? patiotuercaObj.autos : "";
+
+
+    let bdcAutos;
+   if(window.location.href.split('/')[4] === "comercio"){
+    bdcAutos= comercioAutos;
+   }else if(window.location.href.split('/')[4] === "revista-motors"){
+    bdcAutos = revistaMotorAutos;
+   }else if(window.location.href.split('/')[4] === "expresso"){
+    bdcAutos = expressoAutos;
+   }else if(window.location.href.split('/')[4] === "ecdf"){
+    bdcAutos = ecdfAutos;
+   }else if(window.location.href.split('/')[4] === "primicias"){
+    bdcAutos = primiciasAutos;
+   }else if(window.location.href.split('/')[4] === "el-universo"){
+    bdcAutos = eluniversoAutos;
+   }else if(window.location.href.split('/')[4] === "el-extra"){
+    bdcAutos = elExtraAutos;
+   }else if(window.location.href.split('/')[4] === "patiotuerca"){
+    bdcAutos = patiotuercaAutos;
+   }else if(window.location.href.split('/')[4] === "patiotuerca"){
+    bdcAutos = patiotuercaAutos;
+   }
+
+
+
     return (
         <div className="boxesIni posRelative">
             <div className="centrado">
                 <img src={urlMedia + "vehiculos/imgForm.png"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
             <div>
-                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEAUTOS" camion={nombreCamion} serie="autos" camionSerie={camionSerie} />
+                <FormContact url={`https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/${bdcAutos}`} camion={nombreCamion} serie="autos" camionSerie={camionSerie} />
             </div>
         </div>
     )
 }
 
-export default Excavadora
+export default AutosLandingsMedios

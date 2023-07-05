@@ -98,7 +98,6 @@ import AutosLanding from "./pages/vehiculos/AutosLanding"
 import U70Pro from "./pages/vehiculos/U70Pro"
 import U70 from "./pages/vehiculos/U70"
 
-import AutosLandingComercio from "./pages/vehiculos/AutosLandingComercio"
 
 function App() {
 
@@ -202,23 +201,20 @@ function App() {
           <Route path="/landing/revista-motors/mixer/:id" element={<Mixer_landing_revista_motors />} />
           <Route path="/landing/revista-motors/minicargadoras/:id" element={<Minicargadoras_landing_revista_motors />} />
           <Route path="/politicaprivacidad" element={<PoliticaPrivacidad />} />
-
-
-
           <Route path="/sinotruk/autos" element={<AutosLanding />} />
           <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
           <Route path="/sinotruk/autos/u70" element={<U70 />} />
           <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
           <Route path="/sinotruk/autos/u70" element={<U70 />} />
 
-          <Route path="/landing/revista-motors/sinotruk/autos" element={<AutosLanding />} />
-          <Route path="/landing/expresso/sinotruk/autos" element={<AutosLanding />} />
-          <Route path="/landing/ecdf/sinotruk/autos" element={<AutosLanding />} />
-          <Route path="/landing/primicias/sinotruk/autos" element={<AutosLanding />} />
-          <Route path="/landing/el-universo/sinotruk/autos" element={<AutosLanding />} />
-          <Route path="/landing/comercio/sinotruk/autos" element={<AutosLandingComercio />} />
-          <Route path="/landing/el-extra/sinotruk/autos" element={<AutosLanding />} />
-          <Route path="/landing/patiotuerca/sinotruk/autos" element={<AutosLanding />} />
+          <Route path="/landing/revista-motors/sinotruk/autos" element={<AutosLandingMedios />} />
+          <Route path="/landing/expresso/sinotruk/autos" element={<AutosLandingMedios />} />
+          <Route path="/landing/ecdf/sinotruk/autos" element={<AutosLandingMedios />} />
+          <Route path="/landing/primicias/sinotruk/autos" element={<AutosLandingMedios />} />
+          <Route path="/landing/el-universo/sinotruk/autos" element={<AutosLandingMedios />} />
+          <Route path="/landing/comercio/sinotruk/autos" element={<AutosLandingMedios />} />
+          <Route path="/landing/el-extra/sinotruk/autos" element={<AutosLandingMedios />} />
+          <Route path="/landing/patiotuerca/sinotruk/autos" element={<AutosLandingMedios />} />
           
           <Route path="/landing/revista-motors/sinotruk/autos/u70" element={<AutosLanding />} />
           <Route path="/landing/expresso/sinotruk/autos/u70" element={<AutosLanding />} />
@@ -228,7 +224,6 @@ function App() {
           <Route path="/landing/comercio/sinotruk/autos/u70" element={<AutosLandingMedios />} />
           <Route path="/landing/el-extra/sinotruk/autos/u70" element={<AutosLanding />} />
           <Route path="/landing/patiotuerca/sinotruk/autos/u70" element={<AutosLanding />} />
-
           <Route path="/landing/revista-motors/sinotruk/autos/u70pro" element={<AutosLanding />} />
           <Route path="/landing/expresso/sinotruk/autos/u70pro" element={<AutosLanding />} />
           <Route path="/landing/ecdf/sinotruk/autos/u70pro" element={<AutosLanding />} />
@@ -237,9 +232,6 @@ function App() {
           <Route path="/landing/comercio/sinotruk/autos/u70pro" element={<AutosLanding />} />
           <Route path="/landing/el-extra/sinotruk/autos/u70pro" element={<AutosLanding />} />
           <Route path="/landing/patiotuerca/sinotruk/autos/u70pro" element={<AutosLanding />} />
-          
-
- 
         </Routes>
       </main>
     </BrowserRouter>
