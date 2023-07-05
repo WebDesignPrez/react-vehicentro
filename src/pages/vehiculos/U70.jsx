@@ -9,7 +9,7 @@ import InteriorU70 from './componentes/InteriorU70'
 import Footer from '../../components/Footer'
 
 import { Helmet } from "react-helmet";
-import FormularioMenu from './componentes/FormularioMenu'
+import FormularioMenu from './componentes/FormularioU70Pro'
 import FormularioU70 from './componentes/FormularioU70'
 
 
@@ -45,7 +45,7 @@ function U70() {
       {/* Component for interior images */}
       <InteriorU70 />
 
-      <FormularioU70/>
+      <FormularioU70 />
 
       {/* Security */}
       <Detalles />
