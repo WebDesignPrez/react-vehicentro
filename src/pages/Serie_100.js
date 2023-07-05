@@ -164,13 +164,13 @@ function Content5() {
     return (
         <>
             <div className="boxesIni posRelative">
-            <div className="centrado">
-                <img src={urlMedia + "serie-100/serie-100-en-carretera.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <div className="centrado">
+                    <img src={urlMedia + "serie-100/serie-100-en-carretera.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                </div>
+                <div>
+                    <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIE100" camion={nombreCamion} serie="Serie 100" camionSerie={camionSerie} />
+                </div>
             </div>
-            <div>
-                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIE100" camion={nombreCamion} serie="Serie 100" camionSerie={camionSerie} />
-            </div>
-        </div>
         </>
     )
 }
