@@ -216,7 +216,7 @@ function Serie() {
         //c7h
         case "c7h":
             console.log('12 toneladas')
-            video = urlMedia + "c7h/video.mp4"
+            video = urlMedia + "c7h/540Amarillo.mp4"
             imagen = urlMedia + "c7h/contacto.webp"
             imagen2 = urlMedia + "c7h/camion.webp"
             motor = urlMedia + "c7h/motor.webp"

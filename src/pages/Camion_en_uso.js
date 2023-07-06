@@ -43,7 +43,10 @@ function Camion_en_uso() {
         <NavBarTop />
         <PrimeraSeccion />
         <SegundaSeccion />
-        <TerceraSeccion />
+        <Serie100/>
+        <SerieT5G/>
+        {/* <TerceraSeccion /> */}
+        <SerieT7H/>
         <BannerContacto />
         <Footer />
 
@@ -79,6 +82,81 @@ function PrimeraSeccion() {
         </div>
     )
 }
+
+
+function Serie100() {
+    return (
+        <>
+
+            <div className="boxesIniHeader main fondonegro">
+                <div className="boxLeftHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/serie100/serie1001.jpg"} />
+                </div>
+                <div className="boxRightHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/serie100/serie1002.jpg"} />
+                </div>
+            </div>
+            <div className="boxesIniHeader main fondonegro">
+                <div className="boxLeftHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/serie100/serie1003.jpg"} />
+                </div>
+                <div className="boxRightHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/serie100/serie1004.jpg"} />
+                </div>
+            </div>
+
+        </>
+        
+    )
+}
+
+function SerieT7H() {
+    return (
+        <>
+
+            <div className="boxesIniHeader main fondonegro">
+                <div className="boxLeftHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/T7H/serieT7H1.jpg"} />
+                </div>
+                <div className="boxRightHeader">
+                    <img className="complete" src={urlMedia + "camion-en-uso/T7H/serieT7H2.jpg"} />
+                </div>
+            </div>
+        </>
+        
+    )
+}
+
+function SerieT5G() {
+    return (
+        <>
+
+<div className="boxesIniHeader main fondonegro">
+            <div className="boxLeftHeader">
+                <img className="complete" src={urlMedia + "camion-en-uso/T5G/T5G1.jpg"} />
+            </div>
+            <div className="boxRightHeader inside" >
+                <div className="boxRightHeader half contenedorTextoSobrepuesto" >
+                    <img className="complete" src={urlMedia + "camion-en-uso/T5G/T5G2.jpg"} />
+                </div>
+                <div className="boxRightHeader half contenedorTextoSobrepuesto" >
+                    <img className="complete" src={urlMedia + "camion-en-uso/T5G/T5G3.jpg"} />
+                </div>
+                <div className="boxRightHeader  half contenedorTextoSobrepuesto" >
+                    <img className="complete" src={urlMedia + "camion-en-uso/T5G/T5G4.jpg"} />
+                </div>
+                <div className="boxRightHeader  half contenedorTextoSobrepuesto">
+                    <img className="complete" src={urlMedia + "camion-en-uso/T5G/T5G5.jpg"} />
+                </div>
+            </div>
+
+
+        </div>
+        </>
+        
+    )
+}
+
 
 function SegundaSeccion() {
     return (
