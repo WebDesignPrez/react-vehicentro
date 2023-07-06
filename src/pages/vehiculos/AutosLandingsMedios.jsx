@@ -75,8 +75,8 @@ function Content2() {
     };
 
 
-    let pathU70pro = window.location.href + "/u70pro"
-    let pathU70 = window.location.href + "/u70" 
+    const pathU70pro = window.location.href + "/u70pro"
+    const pathU70 = window.location.href + "/u70" 
     return (
         <>
             <div className="serieContainerAutos">
