@@ -97,6 +97,7 @@ import U70ProLandingMedios from "./pages/vehiculos/U70ProLandingMedios"
 
 
 import Excavadoralanding from "./pages/Excavadora-landing"
+import FurgonetasLanding from "./pages/FurgonetasLanding"
 import MinicargadorasLanding from "./pages/MinicargadorasLanding"
 import AutosLanding from "./pages/vehiculos/AutosLanding"
 import U70Pro from "./pages/vehiculos/U70Pro"
@@ -206,12 +207,15 @@ function App() {
           <Route path="/landing/revista-motors/mixer/:id" element={<Mixer_landing_revista_motors />} />
           <Route path="/landing/revista-motors/minicargadoras/:id" element={<Minicargadoras_landing_revista_motors />} />
           <Route path="/politicaprivacidad" element={<PoliticaPrivacidad />} />
+
+          {/* Autos */}
           <Route path="/sinotruk/autos" element={<AutosLanding />} />
           <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
           <Route path="/sinotruk/autos/u70" element={<U70 />} />
           <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
           <Route path="/sinotruk/autos/u70" element={<U70 />} />
 
+          {/* Autos Medios */}
           <Route path="/landing/revista-motors/sinotruk/autos" element={<AutosLandingMedios />} />
           <Route path="/landing/expresso/sinotruk/autos" element={<AutosLandingMedios />} />
           <Route path="/landing/ecdf/sinotruk/autos" element={<AutosLandingMedios />} />
@@ -220,7 +224,7 @@ function App() {
           <Route path="/landing/comercio/sinotruk/autos" element={<AutosLandingMedios />} />
           <Route path="/landing/el-extra/sinotruk/autos" element={<AutosLandingMedios />} />
           <Route path="/landing/patiotuerca/sinotruk/autos" element={<AutosLandingMedios />} />
-          
+
           <Route path="/landing/revista-motors/sinotruk/autos/u70" element={<U70LandingsMedios />} />
           <Route path="/landing/expresso/sinotruk/autos/u70" element={<U70LandingsMedios />} />
           <Route path="/landing/ecdf/sinotruk/autos/u70" element={<U70LandingsMedios />} />
@@ -238,6 +242,11 @@ function App() {
           <Route path="/landing/comercio/sinotruk/autos/u70pro" element={<U70ProLandingMedios />} />
           <Route path="/landing/el-extra/sinotruk/autos/u70pro" element={<U70ProLandingMedios />} />
           <Route path="/landing/patiotuerca/sinotruk/autos/u70pro" element={<U70ProLandingMedios />} />
+
+          {/* Furgonetas */}
+          <Route path="/keyton/furgonetas" element={<FurgonetasLanding />} />
+
+
         </Routes>
       </main>
     </BrowserRouter>
