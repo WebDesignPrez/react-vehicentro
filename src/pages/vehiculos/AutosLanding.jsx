@@ -22,6 +22,7 @@ function Excavadora() {
                 <title>Autos | Vehicentro</title>
                 <meta name="description" content="Autos Sinotruk." />
                 <meta name="keywords" content="autos, suv, venta de suv, carros en ecuador, carros, sinotruk"></meta>
+                <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
                 <meta name="robots" content="index, follow"></meta>
             </Helmet>
             <NavBarTop />

@@ -22,6 +22,7 @@ function Excavadora() {
                 <title>Minicargadoras | Vehicentro</title>
                 <meta name="description" content="Minicargadoras SUNWARD, Potencia superior, operación segura y excelente productividad para toda contrucción." />
                 <meta name="keywords" content="Minicargadora, Minicargadoras, venta de minicargadoras, minicargadoras en ecuador, SUNWARD, sunward"></meta>
+                <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
                 <meta name="robots" content="index, follow"></meta>
             </Helmet>
             <NavBarTop />
