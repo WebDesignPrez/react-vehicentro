@@ -12,33 +12,33 @@ function AmenidadesU70() {
         <div className='option'>
           <div className='uno'>
             <div className='izquierda'>
-              <img src={urlMedia + "icono1.png"} />
+              <img src={urlMedia + "icono1.png"} alt='Asiento de Pasajeros Auto U70' />
               <p>7 Pasajeros</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono2.png"} />
+              <img src={urlMedia + "icono2.png"} alt='Icono Motor U70 154HP' />
               <p>154 HP</p>
             </div>
             <div className='izquierda'>
-              <img src={urlMedia + "icono3.png"} />
+              <img src={urlMedia + "icono3.png"} alt='Rin 17 pulgadas' />
               <p>17 Pulgadas</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono4.png"} />
+              <img src={urlMedia + "icono4.png"} alt='Frenos de disco U70' />
               <p>Frenos de Disco</p>
             </div>
           </div>
           <div className='dos'>
             <div className='izquierda2'>
-              <img className='suvCarro' src={urlMedia + "icono5.png"} />
+              <img className='suvCarro' src={urlMedia + "icono5.png"} alt='Largo del auto u70' />
               <p>4825 mm</p>
             </div>
             <div className='derecha2'>
-              <img src={urlMedia + "iconoAC.png"} />
+              <img src={urlMedia + "iconoAC.png"} alt='Aire acondicionado eléctrico' />
               <p>A/C Eléctrico</p>
             </div>
             <div className='derecha2'>
-              <img src={urlMedia + "icono7.png"} />
+              <img src={urlMedia + "icono7.png"} alt='Gasolina Extra' />
               <p>Gasolina Extra</p>
             </div>
           </div>
@@ -51,37 +51,37 @@ function AmenidadesU70() {
         <div className='option'>
           <div className='uno'>
             <div className='izquierda'>
-              <img src={urlMedia + "icono1.png"} />
+              <img src={urlMedia + "icono1.png"} alt='Asiento de Pasajeros Auto U70' />
               <p>7 Pasajeros</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono2.png"} />
+              <img src={urlMedia + "icono2.png"} alt='Icono Motor U70 154HP' />
               <p>154 HP</p>
             </div>
           </div>
           <div className='uno'>
             <div className='izquierda'>
-              <img src={urlMedia + "icono3.png"} />
-              <p>18 Pulgadas</p>
+              <img src={urlMedia + "icono3.png"} alt='Rin 17 pulgadas' />
+              <p>17 Pulgadas</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono4.png"} />
+              <img src={urlMedia + "icono4.png"} alt='Frenos de disco U70' />
               <p>Frenos de Disco</p>
             </div>
           </div>
           <div className='dos'>
             <div className='izquierda2'>
-              <img src={urlMedia + "icono5.png"} />
+              <img src={urlMedia + "icono5.png"} alt='Largo del auto u70' />
               <p>4825 mm</p>
             </div>
             <div className='derecha2'>
-              <img src={urlMedia + "icono6.png"} />
-              <p>Techo Panorámico</p>
+              <img src={urlMedia + "iconoAC.png"} alt='Aire acondicionado eléctrico'  />
+              <p>A/C Eléctrico</p>
             </div>
           </div>
           <div className='dos'>
             <div className='derecha2'>
-              <img src={urlMedia + "icono7.png"} />
+              <img src={urlMedia + "icono7.png"} alt='Gasolina Extra' />
               <p>Gasolina Extra</p>
             </div>
             <div className='derecha2'>

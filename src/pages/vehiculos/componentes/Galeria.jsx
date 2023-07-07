@@ -25,23 +25,23 @@ const Galeria = ({ path = 'vehiculos/' }) => {
               loop
             >
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'emocion1.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'emocion1.webp'} alt="Faro delantero U70PRO" />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'retro.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'retro.webp'} alt="Direccionales U70PRO" />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'faro.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'faro.webp'} alt="Faro trasero U70PRO" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'llantas.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'llantas.webp'} alt="Rines de 18 pulgadasU70PRO" />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'emocion4.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'emocion4.webp'} alt="Techo Panoramico U70PRO" />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'sinLlave.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'sinLlave.webp'} alt="Apertura sin llave U70PRO" />
               </Carousel.Item>
 
 
@@ -56,13 +56,13 @@ const Galeria = ({ path = 'vehiculos/' }) => {
               loop
             >
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'emocion1.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'emocion1.webp'} alt="Faro delantero U70" />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'retro.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'retro.webp'} alt="Direccionales U70" />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'faro.webp'} alt="U70" />
+                <img width="100%" src={urlMedia + 'faro.webp'} alt="Faro trasero U70" />
               </Carousel.Item>
 
 

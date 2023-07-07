@@ -117,15 +117,15 @@ function Content3() {
                 <div className="marcasbg textoImagenesProducto" >
 
                     <div className="boxRightHeader  half icon_center series" >
-                        <div className="banner"><img src={urlMedia + "swe210/jpn.png"} /></div>
+                        <div className="banner"><img src={urlMedia + "swe210/jpn.png"} alt="Icono Tecnología Japonesa" /></div>
                     </div>
 
                     <div className="boxRightHeader  half text_icon_center series" >
-                        <div className="banner"><img src={urlMedia + "swe210/isuzu.webp"} /></div>
+                        <div className="banner"><img src={urlMedia + "swe210/isuzu.webp"} alt="Icono Izusu" /></div>
                     </div>
 
                     <div className="boxRightHeader  half icon_right series">
-                        <div className="banner"><img src={urlMedia + "swe210/5-anos-de-garantia.webp"} /></div>
+                        <div className="banner"><img src={urlMedia + "swe210/5-anos-de-garantia.webp"} alt="Garantia" /></div>
                     </div>
 
                 </div>
