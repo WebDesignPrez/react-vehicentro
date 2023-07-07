@@ -32,7 +32,7 @@ const Vehiculo = ({ path }) => {
       </div>
 
       <div className='textoVehiculos'>
-        <img src={urlMedia + 'tecnologia.jpg'} alt='' />
+        <img src={urlMedia + 'tecnologia.jpg'} alt='Suv colores' />
       </div>
 
     </div>

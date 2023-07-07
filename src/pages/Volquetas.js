@@ -18,6 +18,7 @@ function Especiales() {
                 <meta name="description" content="La mejor volqueta del mercado. Cuando precio y calidad se juntan, no existe competencia" />
                 <meta name="keywords" content="volqueta, volquetas, venta de volquetas, volquetas en ecuador"></meta>
                 <meta name="robots" content="index, follow"></meta>
+                <h1>Volquetas | Vehicentro</h1>
             </Helmet>
             <NavBarTop />
             <Content1 />

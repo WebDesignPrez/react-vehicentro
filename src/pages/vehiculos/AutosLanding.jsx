@@ -82,10 +82,10 @@ function Content2() {
 
                     <div className="serieSinotrukAutos">
                         <Link to="../sinotruk/autos/u70">
-                            <img className="logos" src="https://www.vehicentro.com/images/u70Logo22.webp" alt="" />
+                            <img className="logos" src="https://www.vehicentro.com/images/u70Logo22.webp" alt="Logo Sinotruk U70" />
                         </Link>
                         <Link to="../sinotruk/autos/u70pro">
-                            <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="" />
+                            <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="Logo Sinotruk U70PRO" />
                         </Link>
                     </div>
                 </div>
@@ -121,15 +121,15 @@ function Content3() {
                 <div className="marcasbg textoImagenesProducto" >
 
                     <div className="boxRightHeader  half icon_center series" >
-                        <div className="banner images autos1"><img src={urlMedia + "bosch.png"} /></div>
+                        <div className="banner images autos1"><img src={urlMedia + "bosch.png"} alt="Tecnología Bosch" /></div>
                     </div>
 
                     <div className="boxRightHeader  half text_icon_center series" >
-                        <div className="banner images autos2"><img src={urlMedia + "delphi.png"} /></div>
+                        <div className="banner images autos2"><img src={urlMedia + "delphi.png"} alt="Tecnología Delphi" /></div>
                     </div>
 
                     <div className="boxRightHeader  half icon_right series">
-                        <div className="banner images autos3"><img src={urlMedia + "magnettiAzul.png"} /></div>
+                        <div className="banner images autos3"><img src={urlMedia + "magnettiAzul.png"} alt="Tecnología Magnetti" /></div>
                     </div>
 
                 </div>

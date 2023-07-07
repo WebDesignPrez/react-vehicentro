@@ -129,7 +129,7 @@ const Vehiculo = () => {
   return (
     <div className="boxesIni posRelative">
       <div className="centrado">
-        <img src={urlMedia + "formu70.jpg"} width="1400" height="1000" className="slideMain" alt="SUV" />
+        <img src={urlMedia + "formu70.jpg"} width="1400" height="1000" className="slideMain" alt="SUV U70" />
       </div>
       <div>
         <FormContact url={`https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/${bdcAutos}`} camion={'U70'} serie={'autos'} camionSerie={'U70'} />
