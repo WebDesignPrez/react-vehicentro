@@ -24,6 +24,7 @@ function U70Pro() {
         <title> U70PRO - Vehicentro</title>
         <meta name="description" content={'Venta del suv mas largo de Ecuador'} />
         <meta name="keywords" content="autos, SUV, venta de SUV, suv en ecuador"></meta>
+        <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
         <meta name="robots" content="index, follow"></meta>
       </Helmet>
 

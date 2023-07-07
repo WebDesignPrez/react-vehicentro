@@ -19,6 +19,7 @@ function FurgonetasLanding() {
         <title>Furgoneta | Vehicentro</title>
         <meta name="description" content="Furgoneta KEYTON, Potencia superior, operación segura y excelente productividad para toda contrucción." />
         <meta name="keywords" content="furgoneta, furgonetas, venta de furgonetas, furgonetas en ecuador, KEYTON, keyton"></meta>
+        <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
         <meta name="robots" content="index, follow"></meta>
       </Helmet>
       <NavBarTop />
