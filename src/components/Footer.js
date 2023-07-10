@@ -12,7 +12,7 @@ export default function Footer() {
         <ul className="list">
           <li><p className="titleFooter"><a href="/compania">NOSOTROS</a></p></li>
           <li><p className="titleFooter"><a href="/concesionarios">CONCESIONARIOS</a></p></li>
-          <li><p className="titleFooter"><a href="/sistema-evb">TECNOLOGÍA</a></p></li>
+          <li><p className="titleFooter"><a href="/motor-mc">TECNOLOGÍA</a></p></li>
         </ul>
         <br />
         <p className="title titleContacto">CONTACTO DIRECTO</p>
