@@ -3,6 +3,7 @@ import env from '../config';
 let urlMedia = env.url
 
 export default function Footer() {
+  
 
   return (
     <div className="footer posRelative">
@@ -11,8 +12,7 @@ export default function Footer() {
         <ul className="list">
           <li><p className="titleFooter"><a href="/compania">NOSOTROS</a></p></li>
           <li><p className="titleFooter"><a href="/concesionarios">CONCESIONARIOS</a></p></li>
-          <li><p>VEINSTEIN</p></li>
-          <li><p>TECNOLOGÍA ALEMANA</p></li>
+          <li><p className="titleFooter"><a href="/sistema-evb">TECNOLOGÍA</a></p></li>
         </ul>
         <br />
         <p className="title titleContacto">CONTACTO DIRECTO</p>
