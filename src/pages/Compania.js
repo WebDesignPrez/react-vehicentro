@@ -30,9 +30,9 @@ function Content1() {
         <div className="boxesIniHeader main compania">
             <div className="boxLeftHeader">
                 <img src={urlMedia+"compania/conpania-vehicentro.webp"} />
-                <p className="companiatexto">Empresa Ecuatoriana con 14 años de experiencia en el
-                    mercado. Contamos con una red de 14 concesionarios a
-                    nivel nacional, 5 talleres de mantenimiento vehicular y el
+                <p className="companiatexto">Empresa Ecuatoriana con 15 años de experiencia en el
+                    mercado. Contamos con una red de 18 concesionarios a
+                    nivel nacional, 10 talleres de mantenimiento vehicular y el
                     stock de repuestos más amplio y completo de Sinotruk</p>
             </div>
             <div className="boxRightHeader inside" >
