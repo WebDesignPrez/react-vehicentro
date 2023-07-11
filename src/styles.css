@@ -2088,6 +2088,30 @@ a.colItem.meniu.negro {
   margin: 3% 0;
 }
 
+.newCContainerC7H{
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+}
+
+.videoContainerC7H{
+  width: 50%;
+
+}
+
+.videoContainerC7H video{
+  width: 100%;
+
+}
+
+.imagesContainerC7H{
+  width: 50%;
+}
+
+.imagesContainerC7H img{
+  width: 98%;
+}
+
 .textoTec {
   line-height: 30px;
 }

@@ -321,12 +321,23 @@ function Serie() {
                 </div>
             </div>
             <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src={motor} width="100%" className="slideMain" alt="Punto de Venta" />
                 <div className="boxPlayerMotor ">
                     <audio id="audioMotor" controls type="audio/mpeg"></audio>
                 </div>
             </div>
         </div>
+        {/* <div className="newCContainerC7H">
+            <div className="videoContainerC7H">
+            <video autoPlay={true} preload="none" playsInline={true} controls loop muted src={video} className="videoWidth" />
+            </div>
+            <div className="imagesContainerC7H">
+            <img src={motor} alt="Punto de Venta" />
+            <div className="boxPlayerMotor ">
+                    <audio id="audioMotor" controls type="audio/mpeg"></audio>
+                </div>
+            </div>
+        </div> */}
         <div className="boxesIni posRelative content2 fondonegro">
 
             <div className="boxRight nomSeries">
