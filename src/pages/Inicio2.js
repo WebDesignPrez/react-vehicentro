@@ -132,7 +132,7 @@ function Block1() {
       <div id="videoContainer">
         <div className="boxRight tecnologia" height="1080">
           <div className="boxLeft c7h">
-            <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/camiones.mp4"} className="videoWidth produ" />
+            <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src="vhttps://www.vehicentro.com/images/u70pro/u70proMAuto.mp4" className="videoWidth produ" />
           </div>
         </div>
         <div className="overlayBox" height="200">
@@ -190,7 +190,7 @@ function Block2() {
             <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
         </div > */}
       < div className="block2 noResponsive" >
-        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/u70pro2.mp4" className="videoWidth" />
+        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="" className="videoWidth" /> ///////////
       </div >
     </>
 
