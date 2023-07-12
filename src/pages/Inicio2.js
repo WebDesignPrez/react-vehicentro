@@ -158,7 +158,7 @@ function Block1() {
 
         <div className="boxRight tecnologia" height="1080">
           <div className="boxLeft c7h">
-            <img src="https://www.vehicentro.com/images/vehiculos/imgForm.png" alt="" />
+            <img src="https://www.vehicentro.com/images/home/u70Inicio.webp" alt="" />
             {/* <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" /> */}
           </div>
         </div>
@@ -190,7 +190,7 @@ function Block2() {
             <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
         </div > */}
       < div className="block2 noResponsive" >
-        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/cotizacion/images/u70pro/u70proM.mp4" className="videoWidth" />
+        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/u70pro2.mp4" className="videoWidth" />
       </div >
     </>
 
@@ -419,7 +419,7 @@ function Menu2() {
 function Banner() {
   return (
     <div className="posRelative banner">
-      <a href="/concesionarios"><img className="desktopImg slideMain" src={urlMedia + "/home/webNuevoMapa4.jpg"} width="1790" height="590" alt="Puntos de Venta de Camiones Sinotruk en Ecuador" /></a>
+      <a href="/concesionarios"><img className="desktopImg slideMain" src={urlMedia + "/home/webNuevoMapa4.webp"} width="1790" height="590" alt="Puntos de Venta de Camiones Sinotruk en Ecuador" /></a>
       <img className="movilImg slideMain" src={urlMedia + "mobilMapa.jpg"} width="2432" height="1675" alt="Punto de Venta" />
       <div className="boxText flex-table row">
         <a href="/concesionarios"><div className="flex-row textMain textMain2 noResponsive">Puntos Vehicentro a nivel Nacional</div></a>
