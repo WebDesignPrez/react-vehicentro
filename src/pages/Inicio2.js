@@ -138,6 +138,7 @@ function Block1() {
         <div className="overlayBox" height="200">
           <p className="titleBox">PRODUCTOS</p>
           <div className="linksBox">
+            
             <NavLink src="" to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
             <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
             <NavLink src="" to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
