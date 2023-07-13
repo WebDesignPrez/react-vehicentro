@@ -34,9 +34,8 @@
 
 .buttons button {
   border-radius: 50%; /* Hace que los botones sean redondos */
-  margin-right: 10px;
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   border: none;
   cursor: pointer;
   
@@ -45,24 +44,29 @@
 /* Estilos para cada botón */
 .buttons button.blanco {
   background-color: white;
+  margin-right: 1rem;
 }
 
 .buttons button.bluesky {
   background-color: #083a5a;
+  margin-right: 1rem;
 }
 
 .buttons button.conchevino {
   background-color: #7b160e;
+  margin-right: 1rem;
   color: white;
 }
 
 .buttons button.gris {
   background-color: #888483;
+  margin-right: 1rem;
   color: white;
 }
 
 .buttons button.negro {
   background-color: #1d1d1b;
+  margin-right: 1rem;
   color: white;
 }
 
@@ -115,5 +119,50 @@
       height: auto;
       
     }
+
+    .buttons {
+      display: flex;
+      padding: 1rem;
+    }
+
+    
+      .buttons button {
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+      }
+
+      .buttons button.blanco {
+        background-color: white;
+        margin-right: 0.5rem;
+      }
+      
+      .buttons button.bluesky {
+        background-color: #083a5a;
+        margin-right: 0.5rem;
+      }
+      
+      .buttons button.conchevino {
+        background-color: #7b160e;
+        margin-right: 0.5rem;
+        color: white;
+      }
+      
+      .buttons button.gris {
+        background-color: #888483;
+        margin-right: 1rem;
+        color: white;
+      }
+      
+      .buttons button.negro {
+        background-color: #1d1d1b;
+        margin-right: 1rem;
+        color: white;
+      }
+      
+      .buttons button.plateado {
+        background-color: #c7c6c6 ;
+        color: white;
+      }
 
 }
