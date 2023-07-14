@@ -79,7 +79,7 @@ function Content2() {
                     </div>
 
                     <div className="serieSinotrukAutos">
-                        <Link to="">
+                        <Link to="m70l">
                           <p className="modelosFurgonetas">M70L</p>
                         </Link>
                        {/*  <Link to="../sinotruk/autos/u70pro">
@@ -90,7 +90,7 @@ function Content2() {
 
                 <div className='vehiculos fondoautos'>
 
-                    <img className='hero34Furgoneta' src="https://vehicentro.com/images/keytonPrueba.webp" alt="U70PRO" />
+                    <img className='hero34Furgoneta' src="https://www.vehicentro.com/images/m70l/KeytonBlanca.png" alt="U70PRO" />
                 </div>
             </div>
         </>
@@ -98,23 +98,24 @@ function Content2() {
 }
 
 function Content3() {
+    const urlMedia2 = "https://www.vehicentro.com/images/m70l/";
     return (
         <>
-
+            
             <div className="contentProduct">
 
                 <div className="marcasbg textoImagenesProducto" >
 
                     <div className="boxRightHeader  half icon_center series" >
-                        <div className="banner images autos1"><img src={urlMedia + "bosch.png"} alt="Tecnología Bosch" /></div>
+                        <div className="banner images autos1"><img src={urlMedia2 + "LogoTecEuro.png"} alt="Tecnología Europea"/></div>
                     </div>
 
                     <div className="boxRightHeader  half text_icon_center series" >
-                        <div className="banner images autos2"><img src={urlMedia + "delphi.png"} alt="Tecnología Delphi" /></div>
+                        <div className="banner images autos2"><img src={urlMedia2 + "LogoKeyton.png"} alt="Tecnología Delphi" /></div>
                     </div>
 
                     <div className="boxRightHeader  half icon_right series">
-                        <div className="banner images autos3"><img src={urlMedia + "magnettiAzul.png"} alt="Tecnología Magnetti" /></div>
+                        <div className="banner images autos3"><img src={urlMedia2 + "Logo3.png"} alt="Garantia" /></div>
                     </div>
 
                 </div>
@@ -130,7 +131,7 @@ function Content5() {
     return (
         <div className="boxesIni posRelative">
             <div className="centrado">
-                <img src="https://www.vehicentro.com/images/keytoncuadrado.webp" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src="https://www.vehicentro.com/images/m70l/Keyton-1500X1500.jpg" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
             <div>
                 <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEAUTOS" camion={nombreCamion} serie="Furgoneta" camionSerie={camionSerie} />

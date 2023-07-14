@@ -15,6 +15,8 @@ import env from '../../config';
 
 import FormContact from '../../../src/components/FormContact';
 
+let urlMedia = env.url + "/vehiculos/"
+
 
 
 
@@ -39,16 +41,16 @@ function M70L() {
       <Hero/>
 
       {/* Characteristics */}
-      <CompraMenu />
+      <AmenidadesU70Pro />
 
       {/* Colors of car (Tecnologies) */}
-      <Vehiculo/>
+{/*       <Vehiculo/> */}
 
       {/* Two pages of three images */}
-      <Galeria/>
+      {/* <Galeria/> */}
 
       {/* Component for interior images */}
-      <InteriorU70Pro />
+
 
       <FormularioU70ProMedios />
 
@@ -74,6 +76,8 @@ function Hero() {
   }
   
   function AmenidadesU70Pro() {
+    let urlMedia = env.url + "/vehiculos/"
+    let urlMedia2 = "https://www.vehicentro.com/images/m70l/";
     return (
       <>
         <div className='compraBox'>
@@ -81,76 +85,76 @@ function Hero() {
           <div className='option'>
             <div className='uno'>
               <div className='izquierda'>
-                <img src= "icono1.png" alt='Asiento de Pasajeros Auto U70PRO' />
-                <p>7 Pasajeros</p>
+                <img src= {urlMedia + "icono1.png"} alt='Asiento de Pasajeros Autos M70L' />
+                <p>11 Pasajeros</p>
               </div>
               <div className='derecha'>
-                <img src= "icono2.png" alt='Icono Motor U70PRO 154HP' />
-                <p>154 HP</p>
+                <img src= {urlMedia + "icono2.png"} alt='Icono Motor U70PRO 154HP' />
+                <p>108 HP</p>
               </div>
               <div className='izquierda'>
-                <img src= "icono3.png" alt='Rin 18 pulgadas' />
-                <p>18 Pulgadas</p>
+                <img src= {urlMedia + "icono3.png"} alt='Rin 18 pulgadas' />
+                <p>14 Pulgadas</p>
               </div>
               <div className='derecha'>
-                <img src= "icono4.png" alt='Frenos de disco U70PRO' />
-                <p>Frenos de Disco</p>
+                <img src= {urlMedia + "icono4.png"} alt='Frenos de disco U70PRO' />
+                <p>Frenos de Disco Delanteros</p>
               </div>
             </div>
             <div className='dos'>
               <div className='izquierda2'>
-                <img className='suvCarro' src= "icono5.png" alt='Largo del auto U70PRO' />
-                <p>4825 mm</p>
+                <img className='suvCarro' src= {urlMedia2 + "IconoFurgoneta.png"} alt='Largo del auto U70PRO' />
+                <p>4421 mm</p>
               </div>
               <div className='derecha2'>
-                <img src= "icono6.png" alt='Techo panorámico U70PRO' />
-                <p>Techo Panorámico</p>
+                <img src= {urlMedia + "iconoAC.png"} alt='Techo panorámico U70PRO' />
+                <p>Aire Acondicionado</p>
               </div>
               <div className='derecha2'>
-                <img src= "icono7.png" alt='Gasolina Extra' />
+                <img src= {urlMedia + "icono7.png"} alt='Gasolina Extra' />
                 <p>Gasolina Extra</p>
               </div>
             </div>
           </div>
           <div className='image'>
-            <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} loop muted id="myVideo" src= "animacionAsientos.mp4" className="videoWidth produ" />
+            <img src= "https://www.vehicentro.com/images/m70l/keytonSinSombra.png" />
           </div>
         </div>
         <div className='compraBox responsive'>
           <div className='option'>
             <div className='uno'>
               <div className='izquierda'>
-                <img src="icono1.png" alt='Asiento de Pasajeros Auto U70PRO' />
-                <p>7 Pasajeros</p>
+                <img src={urlMedia + "icono1.png"} alt='Asiento de Pasajeros Auto U70PRO' />
+                <p>11 Pasajeros</p>
               </div>
               <div className='derecha'>
-                <img src= "icono2.png" alt='Icono Motor U70PRO 154HP' />
-                <p>154 HP</p>
+                <img src= {urlMedia + "icono2.png"} alt='Icono Motor U70PRO 154HP' />
+                <p>108 HP</p>
               </div>
             </div>
             <div className='uno'>
               <div className='izquierda'>
-                <img src= "icono3.png" alt='Rin 18 pulgadas' />
-                <p>18 Pulgadas</p>
+                <img src= {urlMedia + "icono3.png"} alt='Rin 18 pulgadas' />
+                <p>14 Pulgadas</p>
               </div>
               <div className='derecha'>
-                <img src= "icono4.png" alt='Frenos de disco U70PRO' />
-                <p>Frenos de Disco</p>
+                <img src= {urlMedia + "icono4.png"} alt='Frenos de disco U70PRO' />
+                <p>Frenos de Disco Delanteros</p>
               </div>
             </div>
             <div className='dos'>
               <div className='izquierda2'>
-                <img src= "icono5.png" alt='Largo del auto U70PRO' />
-                <p>4825 mm</p>
+                <img src= {urlMedia2 + "IconoFurgoneta.png"} alt='Largo del auto U70PRO' />
+                <p>4421 mm</p>
               </div>
               <div className='derecha2'>
-                <img src= "icono6.png" alt='Techo panorámico U70PRO' />
-                <p>Techo Panorámico</p>
+                <img src= {urlMedia + "iconoAC.png"} alt='Techo panorámico U70PRO' />
+                <p>Aire Acondicionado</p>
               </div>
             </div>
             <div className='dos'>
               <div className='derecha2'>
-                <img src="icono7.png" alt='Gasolina Extra' />
+                <img src={urlMedia + "icono7.png"} alt='Gasolina Extra' />
                 <p>Gasolina Extra</p>
               </div>
               <div className='derecha2'>
@@ -162,7 +166,7 @@ function Hero() {
   
   
           <div className='image'>
-            <img src= "emocion1.webp" />
+            <img src= "https://www.vehicentro.com/images/m70l/KeytonBlanca.png" />
           </div>
   
   
@@ -319,10 +323,10 @@ const FormularioU70ProMedios = () => {
   return (
     <div className="boxesIni posRelative">
       <div className="centrado">
-        <img src="" width="1400" height="1000" className="slideMain" alt="SUV U70" />
+        <img src="https://www.vehicentro.com/images/m70l/Keyton-1500X1500.jpg" width="1400" height="1000" className="slideMain" alt="SUV U70" />
       </div>
       <div>
-        <FormContact url={`https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/`} camion={'U70PRO'} serie={'autos'} camionSerie={'U70PRO'} />
+        <FormContact url={bdc} camion="M70L" serie="Furgoneta" camionSerie="M70L" />
       </div>
     </div>
 
