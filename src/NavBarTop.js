@@ -451,7 +451,7 @@ export default function NavBarTop() {
                     <div className="colMenu">
                             <p className="colTitle">EXCAVADORAS</p>
                             <p className="colItem meniu"><NavLink to="/excavadoras/swe210">SW210 21 Ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</NavLink></p>
 
                         </div>
                         <div className="colMenu">
@@ -476,6 +476,11 @@ export default function NavBarTop() {
                             <p className="colTitle">SUV'S</p>
                             <p className="colItem meniu"><NavLink to="/sinotruk/autos/u70">U70</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/sinotruk/autos/u70pro">U70 PRO</NavLink></p>
+                        </div>
+                        <div className="colMenu">
+                            <p className="colTitle">Furgonetas</p>
+                            
+                            <p className="colItem meniu"><NavLink to="/keyton/furgonetas/m70l">M70L</NavLink></p>
                         </div>
                     </div>
                     
