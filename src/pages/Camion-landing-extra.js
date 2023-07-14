@@ -404,7 +404,7 @@ function Camion() {
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX19.5TON"
             images = [
-                urlMedia + "19-toneladas/camion-blanco-sinotruk-de-19-toneladas-ecuador.webp",
+                urlMedia + "19-toneladas/19tonHeroR.jpeg",
                 urlMedia + "19-toneladas/camion-amarillo-sinotruk-de-19-toneladas-ecuador.webp"
             ];
             textoMotor1 = "340 HP"

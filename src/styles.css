@@ -722,6 +722,15 @@ p.titleFooter {
   display: flex;
 }
 
+.modelosFurgonetas{
+  color: #fff;
+  font-size: 3rem;
+}
+
+.modelosFurgonetas p{
+  size: 2rem;
+}
+
 .serieSinotrukAutos .icons{
   width: 20px;
 }

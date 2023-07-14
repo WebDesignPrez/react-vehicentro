@@ -336,7 +336,7 @@ function FormContactFicha(props) {
   } else if (serie === "miniCargadora") {
     type = miniCargadora;
   } else if (serie === "autos")
-  type = autos;
+    type = autos;
 
 
   if (type) {

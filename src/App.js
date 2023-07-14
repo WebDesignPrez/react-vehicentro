@@ -102,6 +102,7 @@ import MinicargadorasLanding from "./pages/MinicargadorasLanding"
 import AutosLanding from "./pages/vehiculos/AutosLanding"
 import U70Pro from "./pages/vehiculos/U70Pro"
 import U70 from "./pages/vehiculos/U70"
+import M70L from "./pages/vehiculos/M70L"
 
 
 
@@ -245,7 +246,8 @@ function App() {
 
           {/* Furgonetas */}
           <Route path="/keyton/furgonetas" element={<FurgonetasLanding />} />
-
+          <Route path="/keyton/furgonetas/m70l" element={<M70L />} />
+          
 
         </Routes>
       </main>

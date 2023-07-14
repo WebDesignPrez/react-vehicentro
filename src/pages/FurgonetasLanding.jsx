@@ -29,7 +29,7 @@ function Excavadora() {
             <Content3 />
             {/*  <Content4 /> */}
             <Content5 />
-            <Detalles />
+  {/*           <Detalles /> */}
             <Footer />
         </>
     )
@@ -38,8 +38,8 @@ function Excavadora() {
 function Content1() {
     return (
         <>
-            < div className="block2 noResponsive" >
-                <video preload width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/furgonetas/keitonVideo.mp4" className="videoWidth" />
+            < div className="block2" >
+                <video playsInline preload width="1920" height="1076" controls autoPlay muted loop src="https://www.vehicentro.com/images/furgonetas/keitonVideo.mp4" className="videoWidth" />
             </div >
         </>
     )
@@ -75,12 +75,12 @@ function Content2() {
 
                 <div className="containerAutos">
                     <div className="sinotrukContainer">
-                        <img src="https://www.vehicentro.com/images/compania/logo-keyton.webp" />
+                        <img src="https://www.vehicentro.com/images/compania/logo-keyton.webp"/>
                     </div>
 
                     <div className="serieSinotrukAutos">
-                        <Link to="../sinotruk/autos/u70">
-                          <p>M70L</p>
+                        <Link to="">
+                          <p className="modelosFurgonetas">M70L</p>
                         </Link>
                        {/*  <Link to="../sinotruk/autos/u70pro">
                             <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="Logo Sinotruk U70PRO" />
@@ -90,20 +90,7 @@ function Content2() {
 
                 <div className='vehiculos fondoautos'>
 
-                    <img className='carImage' src={selectedImage} alt="U70PRO" />
-
-
-                    <div className='description'>
-                        <p>COLORES</p>
-                        <div className='buttons'>
-                            <button className='blanco' onClick={() => handleButtonClick('blanco')}></button>
-                            <button className='bluesky' onClick={() => handleButtonClick('bluesky')}></button>
-                            <button className='conchevino' onClick={() => handleButtonClick('conchevino')}></button>
-                            <button className='gris' onClick={() => handleButtonClick('gris')}></button>
-                            <button className='negro' onClick={() => handleButtonClick('negro')}></button>
-                            <button className='plateado' onClick={() => handleButtonClick('plateado')}></button>
-                        </div>
-                    </div>
+                    <img className='hero34Furgoneta' src="https://vehicentro.com/images/keytonPrueba.webp" alt="U70PRO" />
                 </div>
             </div>
         </>
@@ -143,10 +130,10 @@ function Content5() {
     return (
         <div className="boxesIni posRelative">
             <div className="centrado">
-                <img src={urlMedia + "vehiculos/imgForm.png"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src="https://www.vehicentro.com/images/keytoncuadrado.webp" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
             <div>
-                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEAUTOS" camion={nombreCamion} serie="autos" camionSerie={camionSerie} />
+                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEAUTOS" camion={nombreCamion} serie="Furgoneta" camionSerie={camionSerie} />
             </div>
         </div>
     )
