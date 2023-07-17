@@ -138,7 +138,7 @@ function Block1() {
         <div className="overlayBox" height="200">
           <p className="titleBox">PRODUCTOS</p>
           <div className="linksBox">
-            
+
             <NavLink src="" to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
             <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
             <NavLink src="" to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
@@ -265,17 +265,7 @@ function Block3() {
         <div>
 
 
-          {/*  <Slide duration={2000}>
 
-                        <div className="each-slide-effect">
-                            <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
-                            </div>
-                        </div>
-                        <div className="each-slide-effect">
-                            <div style={{ 'backgroundImage': `url(../images/home/veinstein.webp)`, height: `23.2vw` }}>
-                            </div>
-                        </div>
-                    </Slide> */}
           <div>
             <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/u70pro.png"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
             <div className="bottomContainer">
@@ -301,6 +291,62 @@ function Block3() {
                     </div> */}
         </div>
         <div>
+          <a href="/serie/volquetas"><img src={urlMedia + "home/keytonHome.jpg"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
+          <div className="bottomContainer">
+            <p className="titleBox"></p>
+            <NavLink className="titleBox2" to="/keyton/furgonetas">FURGONETAS</NavLink>
+            <div className="linksBox">
+              <NavLink className="line2" src="" to="/keyton/furgonetas/m70l">M70L</NavLink>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div className="block3 boxBlock row2">
+        <div>
+          <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Mixer o mezcladoras de venta en Ecuador" />
+          <div className="bottomContainer">
+            <p className="titleBox"></p>
+            <p className="titleBox2">MIXER</p>
+            <div className="linksBox">
+              <NavLink className="line2" src="" to="/mixer/mixer-a7-1257">A7 8-9 m3</NavLink>
+              <NavLink className="line2" src="" to="/proximamente">C7H 12 m3</NavLink>
+            </div>
+          </div>
+        </div>
+        <div>
+
+
+
+
+          <div>
+
+
+            <Slide duration={2000}>
+
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
+                </div>
+              </div>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/veinstein.webp)`, height: `23.2vw` }}>
+                </div>
+              </div>
+            </Slide>
+
+
+            <div className="bottomContainer">
+              <div className="bannerTec">
+                <img src={urlMedia + "home/tecnologia-alemana.webp"} width="590" height="170" alt="Tecnologia Alemana" />
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div>
           <a href="/serie/volquetas"><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -313,6 +359,7 @@ function Block3() {
           </div>
         </div>
       </div>
+
 
       <div className="block3 boxBlock row2">
         {/*                <div>
@@ -328,17 +375,7 @@ function Block3() {
                         </div>
                     </div>
     </div>*/}
-        <div>
-          <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Mixer o mezcladoras de venta en Ecuador" />
-          <div className="bottomContainer">
-            <p className="titleBox"></p>
-            <p className="titleBox2">MIXER</p>
-            <div className="linksBox">
-              <NavLink className="line2" src="" to="/mixer/mixer-a7-1257">A7 8-9 m3</NavLink>
-              <NavLink className="line2" src="" to="/proximamente">C7H 12 m3</NavLink>
-            </div>
-          </div>
-        </div>
+
         <div>
           <img src={urlMedia + "home/sunwardNueva.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
           <div className="bottomContainer">
