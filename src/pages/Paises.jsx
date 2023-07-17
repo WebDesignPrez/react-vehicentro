@@ -36,6 +36,10 @@ const PopUp = () => {
     window.location.href = 'https://vehicentro.com/co/';
   };
 
+  const handleRedirectEcuador = () => {
+    window.location.href = 'https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login';
+  };
+
   return (
     <div>
       {isOpen  &&(
@@ -49,7 +53,7 @@ const PopUp = () => {
             />
             </div>
             <div className="containerBanderas">
-              <div className="popup-left" onClick={togglePopup}>
+              <div className="popup-left" onClick={handleRedirectEcuador}>
                 <img
                   src="https://vehicentro.com/images/mapa-ecuador-prendido-nuevo.png"
                   alt="Imagen izquierda 1"
@@ -61,7 +65,7 @@ const PopUp = () => {
                   className="popup-left-image2"
                 />
               </div>
-              <div className="popup-right" onClick={handleRedirect}>
+              <div className="popup-right">
                 <img
                   src="https://vehicentro.com/images/mapa-colombia-prendido-nuevo.png"
                   alt="Imagen derecha 1"

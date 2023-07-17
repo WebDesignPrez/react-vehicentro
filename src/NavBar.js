@@ -762,7 +762,6 @@ export default function NavBar() {
           </div>
         </div>
       </li>
-
       <li>
         <a href="#" option="compania">COMPAÑÍA</a>
         <div className="item-level-6 nav-header nav-header-h" >
@@ -773,7 +772,7 @@ export default function NavBar() {
           <div className="rowMenu">
             <div className="colMenu">
               <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
-              <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">BDC</a>
+              <a href="../bdc/paises" className="colItem meniu negro">BDC</a>
               <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
               <a href="repuestos" className="colItem meniu negro">Repuestos</a><br></br>
               <a className="colItem meniu negro" id="js-btn">Políticas</a>
@@ -793,7 +792,6 @@ export default function NavBar() {
       </div>
       <div className="searchHome"><img src={urlMedia + "search.png"} alt="Buscar" width="100" height="100" /></div>
     </div>
-
     <div class="modaldos" id="modaldos">
       <div class="modaldos_content">
         <span class="closedos" id="closedos">&times;</span>
@@ -809,7 +807,6 @@ export default function NavBar() {
         <p>Los datos personales del cliente se utilizarán solo para fines relacionados con la venta del camión.</p>
       </div>
     </div>
-
   </nav>
 
 
