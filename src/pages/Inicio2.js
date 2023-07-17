@@ -291,6 +291,42 @@ function Block3() {
                     </div> */}
         </div>
         <div>
+
+
+          <Slide duration={2000}>
+
+            <div className="each-slide-effect">
+              <div style={{ 'backgroundImage': `url(../images/home/mixer.webp)`, height: `23.2vw` }}>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ 'backgroundImage': `url(../images/home/serie-volquetas.webp)`, height: `23.2vw` }}>
+              </div>
+            </div>
+          </Slide>
+
+
+          <div className="bottomContainer">
+            <p className="titleBox"></p>
+            <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS / MIXER</NavLink>
+            <div className="linksBox">
+              <p>Volquetas:</p>
+              <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280"> 8-9 m3</NavLink>
+              <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430"> 10-14 m3</NavLink>
+              <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540"> 20 m3</NavLink>
+              <p>Mixer:</p>
+              <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280"> A7 8-9 m3</NavLink>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div className="block3 boxBlock row2">
+        <div>
           <a href="/serie/volquetas"><img src={urlMedia + "home/keytonHome.jpg"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -300,82 +336,6 @@ function Block3() {
             </div>
           </div>
         </div>
-      </div>
-
-      
-
-      <div className="block3 boxBlock row2">
-        <div>
-          <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Mixer o mezcladoras de venta en Ecuador" />
-          <div className="bottomContainer">
-            <p className="titleBox"></p>
-            <p className="titleBox2">MIXER</p>
-            <div className="linksBox">
-              <NavLink className="line2" src="" to="/mixer/mixer-a7-1257">A7 8-9 m3</NavLink>
-              <NavLink className="line2" src="" to="/proximamente">C7H 12 m3</NavLink>
-            </div>
-          </div>
-        </div>
-        <div>
-
-
-
-
-          <div>
-
-
-            <Slide duration={2000}>
-
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
-                </div>
-              </div>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/veinstein.webp)`, height: `23.2vw` }}>
-                </div>
-              </div>
-            </Slide>
-
-
-            <div className="bottomContainer">
-              <div className="bannerTec">
-                <img src={urlMedia + "home/tecnologia-alemana.webp"} width="590" height="170" alt="Tecnologia Alemana" />
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-        <div>
-          <a href="/serie/volquetas"><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
-          <div className="bottomContainer">
-            <p className="titleBox"></p>
-            <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS</NavLink>
-            <div className="linksBox">
-              <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">8-9 m3</NavLink>
-              <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">10-14 m3</NavLink>
-              <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540">20 m3</NavLink>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="block3 boxBlock row2">
-        {/*                <div>
-                    <img src={urlMedia + "home/sector-ganadero.webp"} width="900" height="700" alt="Maquinaria para el sector ganadero" />
-                    <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <NavLink className="titleBox2" to="/proximamente-hidromek">HIDROMEK</NavLink>
-                        <div className="linksBox">
-                            <NavLink className="line2" src="" to="/proximamente-hidromek">EXCAVADORA</NavLink>
-                            <NavLink className="line2" src="" to="/proximamente-hidromek">RETROEXCAVADORA</NavLink>
-                            <NavLink className="line2" src="" to="/proximamente-hidromek">MINI EXCAVADORA</NavLink>
-                            <NavLink className="line2" src="" to="/proximamente-hidromek">RODILLO</NavLink>
-                        </div>
-                    </div>
-    </div>*/}
-
         <div>
           <img src={urlMedia + "home/sunwardNueva.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
           <div className="bottomContainer">
@@ -402,6 +362,24 @@ function Block3() {
           </div>
         </div>
       </div>
+
+
+
+      {/*                <div>
+                    <img src={urlMedia + "home/sector-ganadero.webp"} width="900" height="700" alt="Maquinaria para el sector ganadero" />
+                    <div className="bottomContainer">
+                        <p className="titleBox"></p>
+                        <NavLink className="titleBox2" to="/proximamente-hidromek">HIDROMEK</NavLink>
+                        <div className="linksBox">
+                            <NavLink className="line2" src="" to="/proximamente-hidromek">EXCAVADORA</NavLink>
+                            <NavLink className="line2" src="" to="/proximamente-hidromek">RETROEXCAVADORA</NavLink>
+                            <NavLink className="line2" src="" to="/proximamente-hidromek">MINI EXCAVADORA</NavLink>
+                            <NavLink className="line2" src="" to="/proximamente-hidromek">RODILLO</NavLink>
+                        </div>
+                    </div>
+    </div>*/}
+
+
     </>
   )
 }
