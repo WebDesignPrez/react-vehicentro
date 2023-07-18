@@ -303,6 +303,14 @@ function Block3() {
               <div style={{ 'backgroundImage': `url(../images/home/serie-volquetas.webp)`, height: `23.2vw` }}>
               </div>
             </div>
+            <div className="each-slide-effect">
+              <div style={{ 'backgroundImage': `url(../images/home/vol7.jpg)`, height: `23.2vw` }}>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ 'backgroundImage': `url(../images/home/volquetaC7H.jpg)`, height: `23.2vw` }}>
+              </div>
+            </div>
           </Slide>
 
 
