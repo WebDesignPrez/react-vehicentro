@@ -89,7 +89,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia + "swe365e/vehicentroExcavadoraEcuador.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src="https://vehicentro.com/cotizacion/images/minicargadora/imgalado.jpg" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>

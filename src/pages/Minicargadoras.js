@@ -111,7 +111,7 @@ function Camion() {
             textoMotor3 = "MINICARGADORA"
             precio = precios.me_SWL3220
             cuotas = `Cuotas desde: ${precios.me_SWL3220_cuota}`
-            motor = urlMedia + "swl3220/motorMinicargadora.webp"
+            motor = "https://vehicentro.com/cotizacion/images/minicargadora/degradado.jpg"
             garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
             tecnologia = urlMedia + "swl3220/WEB-LOGO-SUNWARD-1.png"
             contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swl3220/kubotaBomba.png"} /></div>
