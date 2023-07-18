@@ -132,7 +132,7 @@ function Block1() {
       <div id="videoContainer">
         <div className="boxRight tecnologia" height="1080">
           <div className="boxLeft c7h">
-            <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src="https://www.vehicentro.com/images/home/camionesM.mp4" className="videoWidth produ" />
+            <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src="https://www.vehicentro.com/images/home/AmarilloInicio.mp4" className="videoWidth produ" />
           </div>
         </div>
         <div className="overlayBox" height="200">
