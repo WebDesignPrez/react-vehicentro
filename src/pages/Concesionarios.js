@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import NavBarTop from '../NavBarTop';
 import BannerContacto from '../components/BannerContacto';
 import Footer from '../components/Footer';
@@ -7,6 +7,21 @@ import env from '../config';
 let urlMedia = env.url
 
 function Concesionarios() {
+  const [concesionariosData, setConcesionariosData] = useState([]);
+
+  useEffect(() => {
+    // Leer el parámetro de la URL
+    const params = new URLSearchParams(window.location.search);
+    const ubicacion = params.get('ubicacion');
+
+    // Si se proporcionó una ubicación válida, buscar los datos del concesionario correspondiente
+    if (ubicacion) {
+      const buscarDatos = datosConcesionarios.find((dato) => dato.id === ubicacion);
+      if (buscarDatos) {
+        setConcesionariosData(buscarDatos.datos);
+      }
+    }
+  }, []);
 
   const datosConcesionarios = [{
     id: "Ambato",
@@ -146,30 +161,6 @@ function Concesionarios() {
     }]
   }]
 
-
-  useEffect(() => {
-    const navButtons = document.querySelectorAll(".btnConcesionarios");
-    navButtons.forEach((link, index) => {
-      link.addEventListener("click", (ev) => {
-        clickConcesionario(ev.target.getAttribute('option'))
-      })
-    })
-
-    const clickConcesionario = (val) => {
-      let container = document.querySelector(".boxConcesionarios")
-
-      let buscarDatos = datosConcesionarios.find((dato) => dato.id == val)
-      let datosGrid = buscarDatos.datos
-      let auxTable = ""
-
-      datosGrid.forEach((datos) => {
-        auxTable += "<div class='concesionariosFlex'><div class='concesionariosFlexText textConcesionario'><p class='nombreConcesionario'>" + datos.nombre + "</p><p class='descConcesionario'>" + datos.descripcion + "</p><span class='direccionConcesionario'>" + datos.direccion + "</span><p class='telefonoConcesionario'><span>Línea directa </span>" + datos.telefono + "</p><span class='linkConcesionario'><a href='" + datos.url + "' target='_blank'>UBICACIÓN</a></span></div><div class='concesionariosFlexImg imgConcesionario'><img src='" + datos.img + "' alt='" + datos.alt + "' /></div></div>"
-      })
-
-      container.innerHTML = auxTable
-    }
-
-  })
   return (
     <>
       <Helmet>
@@ -181,32 +172,41 @@ function Concesionarios() {
       <NavBarTop />
       <p className="tituloConcesionario">ENCUENTRA TU CONCESIONARIO MÁS CERCANO</p>
       <div className="btnConcesionarios">
-        <a className='btn6' option="Ambato" href='#'>Ambato</a>
-        <a className='btn6' option="Quito" href='#'>Quito</a>
-        <a className='btn6' option="Guayaquil" href='#'>Guayaquil</a>
-        <a className='btn6' option="Riobamba" href='#'>Riobamba</a>
-        <a className='btn6' option="Machala" href='#'>Machala</a>
-        <a className='btn6' option="Cuenca" href='#'>Cuenca</a>
-        <a className='btn6' option="Ibarra" href='#'>Ibarra</a>
-        <a className='btn6' option="Manta" href='#'>Manta</a>
+        <a className='btn6' href='?ubicacion=Ambato'>Ambato</a>
+        <a className='btn6' href='?ubicacion=Quito'>Quito</a>
+        <a className='btn6' href='?ubicacion=Guayaquil'>Guayaquil</a>
+        <a className='btn6' href='?ubicacion=Riobamba'>Riobamba</a>
+        <a className='btn6' href='?ubicacion=Machala'>Machala</a>
+        <a className='btn6' href='?ubicacion=Cuenca'>Cuenca</a>
+        <a className='btn6' href='?ubicacion=Ibarra'>Ibarra</a>
+        <a className='btn6' href='?ubicacion=Manta'>Manta</a>
       </div>
       <div className="boxConcesionarios">
-        <span className='spanText'>Selecciona el concesionario en la ciudad más cercana</span>
+        {concesionariosData.length > 0 ? (
+          concesionariosData.map((datos, index) => (
+            <div key={index} className='concesionariosFlex'>
+              <div className='concesionariosFlexText textConcesionario'>
+                <p className='nombreConcesionario'>{datos.nombre}</p>
+                <p className='descConcesionario'>{datos.descripcion}</p>
+                <span className='direccionConcesionario'>{datos.direccion}</span>
+                <p className='telefonoConcesionario'><span>Línea directa </span>{datos.telefono}</p>
+                <span className='linkConcesionario'>
+                  <a href={datos.url} target='_blank'>UBICACIÓN</a>
+                </span>
+              </div>
+              <div className='concesionariosFlexImg imgConcesionario'>
+                <img src={datos.img} alt={datos.alt} />
+              </div>
+            </div>
+          ))
+        ) : (
+          <span className='spanText'>Selecciona el concesionario en la ciudad más cercana</span>
+        )}
       </div>
       <BannerContacto />
       <Footer />
-      {/* , {
-      nombre: "QUITO, LOS CHILLOS",
-      descripcion: "Punto de Venta y Repuestos",
-      telefono: "032-994740 | 0992048229",
-      direccion: "Av. General Rumiñahui 8-40 y Av. San Luis (frente al San Luis Shopping)",
-      url: "https://goo.gl/maps/V8uKKDkRgmuqeLP79",
-      img: urlMedia + "vehicentro-quito-los-.webp",
-      alt: ""
-    }, */}
     </>
-  )
-
+  );
 }
 
-export default Concesionarios
+export default Concesionarios;
