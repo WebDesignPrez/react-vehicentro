@@ -45,6 +45,7 @@ let nombreSerie
 let camionSerie
 let cuotas
 let urlMedia = env.url
+let nombreBusqueda
 
 function Camion() {
 
@@ -83,6 +84,7 @@ function Camion() {
         //10 toneladas
         case "camion-10-toneladas-t5g-1167":
             nombreCamion = "Camión de 10 toneladas | T5G-1167"
+            nombreBusqueda = "Camión de 10 toneladas"
             camionSerie = "T5G 1167 / 10 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
@@ -137,6 +139,7 @@ function Camion() {
         //9 toneladas
         case "camion-de-9-toneladas":
             nombreCamion = "Camión de 9 toneladas | T5G-1167"
+            nombreBusqueda = "Camión de 9 toneladas"
             camionSerie = "T5G 1167 / 9 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHCR9T1167"
@@ -190,6 +193,7 @@ function Camion() {
         case "camion-12-toneladas-t5g-1167":
             console.log('12 toneladas')
             nombreCamion = "Camión de 12 toneladas | T5G-1167"
+            nombreBusqueda = "Camión de 12 toneladas"
             camionSerie = "T5G 1167 / 12 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB12TT5G1167"
@@ -243,6 +247,7 @@ function Camion() {
         case "camion-13-toneladas-t5g-1167":
             console.log('13 toneladas')
             nombreCamion = "Camión de 13 toneladas | T5G-1167"
+            nombreBusqueda = "Camión de 13 toneladas"
             camionSerie = "T5G 1167 / 13 TON (280HP)"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB13T1167"
@@ -296,6 +301,7 @@ function Camion() {
         case "camion-13-toneladas-t5g-1167-330hp":
             console.log('13 toneladas 330Hp')
             nombreCamion = "Camión de 13 toneladas 330Hp | T5G-1167"
+            nombreBusqueda = "Camión de 13 toneladas"
             camionSerie = "T5G 1167 / 13 TON (330HP)"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web13TOVDT5G1167"
@@ -348,6 +354,7 @@ function Camion() {
         case "camion-de-18-toneladas-t5g-1257":
             console.log('18 toneladas')
             nombreCamion = "Camión de 18 toneladas | T5G-1257"
+            nombreBusqueda = "Camión de 18 toneladas"
             camionSerie = "T5G 1257 / 18 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB18T1257"
@@ -400,6 +407,7 @@ function Camion() {
         case "camion-de-19-toneladas-t5g-1257":
             console.log('19 toneladas')
             nombreCamion = "Camión de 19 toneladas | T5G-1257"
+            nombreBusqueda = "Camión de 19 toneladas"
             camionSerie = "T5G 1257 / 19.5 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB19T1257"
@@ -452,6 +460,7 @@ function Camion() {
         case "camion-de-3-5-toneladas-1057":
             console.log('3.5 toneladas')
             nombreCamion = "Camión de 3.5 toneladas | 1057"
+            nombreBusqueda = "Camión de 3.5 toneladas"
             camionSerie = "1057 / 3.5 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
@@ -549,6 +558,7 @@ function Camion() {
         case "camion-de-3-6-toneladas":
             console.log('3.6 toneladas')
             nombreCamion = "Camión de 3.6 toneladas | 1047"
+            nombreBusqueda = "Camión de 3.6 toneladas"
             camionSerie = "1047 / 3.6 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH3.6T"
@@ -646,6 +656,7 @@ function Camion() {
         case "camion-de-5-toneladas-1067":
             console.log('5 toneladas')
             nombreCamion = "Camión de 5 toneladas | 1067"
+            nombreBusqueda = "Camión de 5 toneladas"
             camionSerie = "1067 / 5 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB5T1167"
@@ -743,6 +754,7 @@ function Camion() {
         case "camion-de-6-toneladas-1067":
             console.log('6 toneladas')
             nombreCamion = "Camión de 6 toneladas | 1067"
+            nombreBusqueda = "Camión de 6 toneladas"
             camionSerie = "1067 / 6 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB6T1167"
@@ -828,6 +840,7 @@ function Camion() {
         case "camion-8-toneladas-1147":
             console.log('8 toneladas')
             nombreCamion = "Camión de 8 toneladas | 1147"
+            nombreBusqueda = "Camión de 8 toneladas"
             camionSerie = "1147 / 8 TON"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB8T1147"
@@ -878,6 +891,7 @@ function Camion() {
         case "camion-20-toneladas-1256":
             console.log('20 toneladas')
             nombreCamion = "Camión de 20 toneladas | C7H-1256"
+            nombreBusqueda = "Camión de 20 toneladas"
             camionSerie = "C7H 1256 / 20 TON"
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
@@ -1026,9 +1040,10 @@ function Camion() {
     // ---- PÁGINA ----
     return <>
         <Helmet>
-            <title>{nombreCamion} - Vehicentro</title>
+            <title>{nombreCamion} - Venta de Camiones {nombreSerie} en Ecuador - Vehicentro</title>
             <meta name="description" content={'Venta del ' + nombreCamion + ' Sinotruk de la ' + nombreSerie + ' en Ecuador'} />
-            <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
+            <meta name="description" content={'Descubre la Venta del' + nombreCamion  + 'Sinotruk de la' + nombreSerie + 'en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'} />
+            <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador, camiones en venta Ecuador, venta camiones Sinotruk"></meta>
             <meta name="robots" content="index, follow"></meta>
         </Helmet>
         <NavBarTop />
@@ -1087,19 +1102,19 @@ function Camion() {
             <div className="boxesIni posRelative partesbg">
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt="Transmisión" />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt="Cilindros" />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt="Frenos" />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt="Inyección" />
                 </div>
 
             </div>
@@ -1131,8 +1146,8 @@ function Camion() {
 
 
             </div>
-            <div className="bannerMedidas noResponsive"><img src={medidas} /></div>
-            <div className="bannerMedidas responsive"><img src={medidasMovil} /></div>
+            <div className="bannerMedidas noResponsive"><img src={medidas} alt={'Medidas del' + nombreBusqueda}  /></div>
+            <div className="bannerMedidas responsive"><img src={medidasMovil} alt={'Medidas para dispositivos moviles del' + nombreBusqueda} /></div>
         </div>
 
 

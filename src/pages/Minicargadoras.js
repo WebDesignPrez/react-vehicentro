@@ -234,7 +234,7 @@ function Camion() {
         <Helmet>
             <title>{nombreCamion} - Vehicentro</title>
             <meta name="description" content={'Venta de la ' + nombreCamion + ' Sinotruk de la serie Maquinaria en Ecuador'} />
-            <meta name="keywords" content="minicargadora, minicargadoraw, venta de minicargadoras, minicargadoras en ecuador"></meta>
+            <meta name="keywords" content="minicargadora, minicargadora, venta de minicargadoras, minicargadoras en ecuador"></meta>
             <meta name="robots" content="index, follow"></meta>
         </Helmet>
         <NavBarTop />
