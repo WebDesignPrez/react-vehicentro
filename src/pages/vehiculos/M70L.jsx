@@ -315,7 +315,7 @@ const FormularioU70ProMedios = () => {
       let nombreCamion = "U70PRO"
       let camionSerie = "U70PRO"
       let nombreSerie = "autos"
-      let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBAUTU70P"
+      let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHFURM70L"
 
 
 

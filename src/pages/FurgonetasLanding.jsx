@@ -134,7 +134,7 @@ function Content5() {
                 <img src="https://www.vehicentro.com/images/m70l/Keyton-1500X1500.jpg" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
             <div>
-                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEAUTOS" camion={nombreCamion} serie="Furgoneta" camionSerie={camionSerie} />
+                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEFURGONETAS" camion={nombreCamion} serie="Furgoneta" camionSerie={camionSerie} />
             </div>
         </div>
     )
