@@ -290,11 +290,12 @@ function Camion() {
     // ---- PÁGINA ----
     return <>
         <Helmet>
-            <title>{nombreCamion} - Vehicentro</title>
-            <meta name="description" content={'Venta de la ' + nombreCamion + ' Sinotruk de la serie ' + nombreSerie + ' en Ecuador'} />
-            <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
-            <meta name="robots" content="index, follow"></meta>
-        </Helmet>
+                <title>Volquetas | Vehicentro</title>
+                <meta name="description" content="La mejor volqueta del mercado. Cuando precio y calidad se juntan, no existe competencia" />
+                <meta name="keywords" content="volqueta, volquetas, venta de volquetas, volquetas en ecuador, volqueta barata"></meta>
+                <meta name="robots" content="index, follow"></meta>
+                <h1>Volquetas | Vehicentro</h1>
+            </Helmet>
         <NavBarTop />
         <div className="boxesIni posRelative content2">
             <div className="boxRight">
