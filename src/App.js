@@ -103,6 +103,7 @@ import AutosLanding from "./pages/vehiculos/AutosLanding"
 import U70Pro from "./pages/vehiculos/U70Pro"
 import U70 from "./pages/vehiculos/U70"
 import M70L from "./pages/vehiculos/M70L"
+import M70L_EV from "./pages/vehiculos/M70L_EV"
 import Paises from "./pages/Paises"
 
 
@@ -248,6 +249,7 @@ function App() {
           {/* Furgonetas */}
           <Route path="/keyton/furgonetas" element={<FurgonetasLanding />} />
           <Route path="/keyton/furgonetas/m70l" element={<M70L />} />
+          <Route path="/keyton/furgonetas/m70l-EV" element={<M70L_EV />} />
                     
           <Route path="/bdc/paises" element={<Paises />} />
                     

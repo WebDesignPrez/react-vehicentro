@@ -20,7 +20,7 @@ let urlMedia = env.url + "/vehiculos/"
 
 
 
-function M70L() {
+function M70L_EV() {
 
   
 
@@ -29,14 +29,14 @@ function M70L() {
 
       <Helmet>
         <title> M70L-EV - Vehicentro</title>
-        <meta name="description" content={'Venta del furgonetas de Ecuador'} />
-        <meta name="keywords" content="autos, furgoneta, venta de furgonetas, furgonetas en ecuador, furgonetas"></meta>
+        <meta name="description" content={'Venta de furgonetas en Ecuador'} />
+        <meta name="keywords" content="autos, SUV, venta de SUV, suv en ecuador"></meta>
         <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
         <meta name="robots" content="index, follow"></meta>
       </Helmet>
 
 
-      <NavBarTop />
+<NavBarTop />
 
       <Hero/>
 
@@ -44,12 +44,16 @@ function M70L() {
       <AmenidadesU70Pro />
 
       {/* Colors of car (Tecnologies) */}
-      {/* <Vehiculo/> */}
+{/*       <Vehiculo/> */}
 
       {/* Two pages of three images */}
       {/* <Galeria/> */}
+
       {/* Component for interior images */}
+
+
       <FormularioU70ProMedios />
+
       {/* Security */}
       {/* <Detalles2 /> */}
 
@@ -73,7 +77,7 @@ function Hero() {
   
   function AmenidadesU70Pro() {
     let urlMedia = env.url + "/vehiculos/"
-    let urlMedia2 = "https://www.vehicentro.com/images/m70l/";
+    let urlMedia2 = "https://www.vehicentro.com/images/m70lev/";
     return (
       <>
         <div className='compraBox'>
@@ -113,7 +117,7 @@ function Hero() {
             </div>
           </div>
           <div className='image'>
-            <img src= "https://www.vehicentro.com/images/m70l/keytonSinSombra.png" />
+            <img src= "https://www.vehicentro.com/images/m70lev/M70LEVBLANCA.png" />
           </div>
         </div>
         <div className='compraBox responsive'>
@@ -306,11 +310,6 @@ const FormularioU70ProMedios = () => {
   function closeFormContact() {
     setFormIsOpen(false)
   }
-
-  
-      let nombreCamion = "U70PRO"
-      let camionSerie = "U70PRO"
-      let nombreSerie = "autos"
       let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHFURM70L"
 
 
@@ -319,10 +318,10 @@ const FormularioU70ProMedios = () => {
   return (
     <div className="boxesIni posRelative">
       <div className="centrado">
-        <img src="https://www.vehicentro.com/images/m70l/Keyton-1500X1500.jpg" width="1400" height="1000" className="slideMain" alt="SUV U70" />
+        <img src="https://www.vehicentro.com/images/m70lev/M70LEVFondo.jpg" width="1400" height="1000" className="slideMain" alt="SUV U70" />
       </div>
       <div>
-        <FormContact url={bdc} camion="M70L" serie="Furgoneta" camionSerie="M70L" />
+        <FormContact url={bdc} camion="M70L" serie="Furgoneta" camionSerie="M70L-EV" />
       </div>
     </div>
 
@@ -452,4 +451,4 @@ const Detalles2 = () => {
 
 
 
-export default M70L
+export default M70L_EV
