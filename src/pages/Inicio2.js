@@ -341,6 +341,7 @@ function Block3() {
             <NavLink className="titleBox2" to="/keyton/furgonetas">FURGONETAS</NavLink>
             <div className="linksBox">
               <NavLink className="line2" src="" to="/keyton/furgonetas/m70l">M70L</NavLink>
+              {/* <NavLink className="line2" src="" to="/keyton/furgonetas/m70l-EV">M70L-EV</NavLink> */}
             </div>
           </div>
         </div>

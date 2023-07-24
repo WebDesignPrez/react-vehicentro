@@ -79,9 +79,16 @@ function Content2() {
                     </div>
 
                     <div className="serieSinotrukAutos">
-                        <Link to="m70l">
-                          <p className="modelosFurgonetas">M70L</p>
-                        </Link>
+                        <div>
+                            <Link to="m70l">
+                              <p className="modelosFurgonetas">M70L</p>
+                            </Link>
+                        </div>
+                       {/*  <div>
+                          <Link to="m70l-EV">
+                            <p className="modelosFurgonetas">M70L-EV</p>
+                          </Link>
+                        </div> */}
                        {/*  <Link to="../sinotruk/autos/u70pro">
                             <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="Logo Sinotruk U70PRO" />
                         </Link> */}

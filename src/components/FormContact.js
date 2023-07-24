@@ -332,7 +332,7 @@ function FormContact(props) {
   const serieC7H = ['C7H 1256 / 20 TON', 'C7H 540 / 48 TON', 'C7H 540 / 48 TON con Catalinas'];
   const especiales = ['VOLQUETA T5G-330 8-9M3', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M3', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER'];
   const excavadora = ['SWE210', 'SWE370E'];
-  const furgoneta = ['M70L'];
+  const furgoneta = ['M70L', 'M70L-EV'];
   const miniCargadora = ['SWL3220'];
   const autos = ['U70PRO', 'U70', 'U75PLUS'];
 
