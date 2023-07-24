@@ -33,7 +33,7 @@ const PopUp = () => {
   };
 
   const handleRedirect = () => {
-    window.location.href = 'https://vehicentro.com/co/';
+    window.location.href = 'https://bdcco.vehicentro.com:8443/ords/ws_vehicentro/r/crm/login';
   };
 
   const handleRedirectEcuador = () => {
@@ -65,7 +65,7 @@ const PopUp = () => {
                   className="popup-left-image2"
                 />
               </div>
-              <div className="popup-right">
+              <div className="popup-right" onClick={handleRedirect}>
                 <img
                   src="https://vehicentro.com/images/mapa-colombia-prendido-nuevo.png"
                   alt="Imagen derecha 1"
