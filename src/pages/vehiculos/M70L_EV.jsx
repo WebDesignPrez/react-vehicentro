@@ -1,4 +1,4 @@
-import { useEffect, useState, React  } from "react";
+import { useEffect, useState, React } from "react";
 import NavBarTop from '../../NavBarTop'
 import './componentes/styles/galeria.css'
 import Carousel from 'better-react-carousel'
@@ -22,7 +22,7 @@ let urlMedia = env.url + "/vehiculos/"
 
 function M70L_EV() {
 
-  
+
 
   return (
     <>
@@ -31,20 +31,20 @@ function M70L_EV() {
         <title> M70L-EV - Vehicentro</title>
         <meta name="description" content={'Venta de furgonetas en Ecuador'} />
         <meta name="keywords" content="autos, SUV, venta de SUV, suv en ecuador"></meta>
-        <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
+        <meta name="author" content="Celimo Constante, Anthony Perez, Prez" />
         <meta name="robots" content="index, follow"></meta>
       </Helmet>
 
 
-<NavBarTop />
+      <NavBarTop />
 
-      <Hero/>
+      <Hero />
 
       {/* Characteristics */}
       <AmenidadesU70Pro />
 
       {/* Colors of car (Tecnologies) */}
-{/*       <Vehiculo/> */}
+      {/*       <Vehiculo/> */}
 
       {/* Two pages of three images */}
       {/* <Galeria/> */}
@@ -66,142 +66,142 @@ function M70L_EV() {
 
 function Hero() {
 
-  
-  
-    return (
-        < div className="block2" >
-        <video playsInline preload width="1920" height="1076" controls autoPlay muted loop src="https://www.vehicentro.com/images/furgonetas/keitonVideo.mp4" className="videoWidth" />
-        </div >
-    )
-  }
-  
-  function AmenidadesU70Pro() {
-    let urlMedia = env.url + "/vehiculos/"
-    let urlMedia2 = "https://www.vehicentro.com/images/m70lev/";
-    return (
-      <>
-        <div className='compraBox'>
-  
-          <div className='option'>
-            <div className='uno'>
-              <div className='izquierda'>
-                <img src= {urlMedia + "icono1.png"} alt='Asiento de Pasajeros Autos M70L' />
-                <p>11 Pasajeros</p>
-              </div>
-              <div className='derecha'>
-                <img src= {urlMedia + "icono2.png"} alt='Icono Motor U70PRO 154HP' />
-                <p>108 HP</p>
-              </div>
-              <div className='izquierda'>
-                <img src= {urlMedia + "icono3.png"} alt='Rin 18 pulgadas' />
-                <p>14 Pulgadas</p>
-              </div>
-              <div className='derecha'>
-                <img src= {urlMedia + "icono4.png"} alt='Frenos de disco U70PRO' />
-                <p>Frenos de Disco Delanteros</p>
-              </div>
-            </div>
-            <div className='dos'>
-              <div className='izquierda2'>
-                <img className='suvCarro' src= {urlMedia2 + "IconoFurgoneta.png"} alt='Largo del auto U70PRO' />
-                <p>4421 mm</p>
-              </div>
-              <div className='derecha2'>
-                <img src= {urlMedia + "iconoAC.png"} alt='Techo panorámico U70PRO' />
-                <p>Aire Acondicionado</p>
-              </div>
-              <div className='derecha2'>
-                <img src= {urlMedia + "icono7.png"} alt='Gasolina Extra' />
-                <p>Gasolina Extra</p>
-              </div>
-            </div>
-          </div>
-          <div className='image'>
-            <img src= "https://www.vehicentro.com/images/m70lev/M70LEVBLANCA.png" />
-          </div>
-        </div>
-        <div className='compraBox responsive'>
-          <div className='option'>
-            <div className='uno'>
-              <div className='izquierda'>
-                <img src={urlMedia + "icono1.png"} alt='Asiento de Pasajeros Auto U70PRO' />
-                <p>11 Pasajeros</p>
-              </div>
-              <div className='derecha'>
-                <img src= {urlMedia + "icono2.png"} alt='Icono Motor U70PRO 154HP' />
-                <p>108 HP</p>
-              </div>
-            </div>
-            <div className='uno'>
-              <div className='izquierda'>
-                <img src= {urlMedia + "icono3.png"} alt='Rin 18 pulgadas' />
-                <p>14 Pulgadas</p>
-              </div>
-              <div className='derecha'>
-                <img src= {urlMedia + "icono4.png"} alt='Frenos de disco U70PRO' />
-                <p>Frenos de Disco Delanteros</p>
-              </div>
-            </div>
-            <div className='dos'>
-              <div className='izquierda2'>
-                <img src= {urlMedia2 + "IconoFurgoneta.png"} alt='Largo del auto U70PRO' />
-                <p>4421 mm</p>
-              </div>
-              <div className='derecha2'>
-                <img src= {urlMedia + "iconoAC.png"} alt='Techo panorámico U70PRO' />
-                <p>Aire Acondicionado</p>
-              </div>
-            </div>
-            <div className='dos'>
-              <div className='derecha2'>
-                <img src={urlMedia + "icono7.png"} alt='Gasolina Extra' />
-                <p>Gasolina Extra</p>
-              </div>
-              <div className='derecha2'>
-              </div>
-            </div>
-          </div>
-  
-  
-  
-  
-          <div className='image'>
-            <img src= "https://www.vehicentro.com/images/m70l/KeytonBlanca.png" />
-          </div>
-  
-  
-        </div>
-      </>
-    )
-  }
-  
 
-  const Vehiculo = () => {
-    
-  
-    return (
-      <div className='todo'>
-        <div className='vehiculos'>
-  
-          <img className='carImage' src="" alt="U70PRO" />
-  
-  
-          <div className='description'>
-            <p>COLORES</p>
-            <div className='buttons'>
-             
+
+  return (
+    < div className="block2" >
+      <video playsInline preload width="1920" height="1076" controls autoPlay muted loop src="https://www.vehicentro.com/images/furgonetas/keitonVideo.mp4" className="videoWidth" />
+    </div >
+  )
+}
+
+function AmenidadesU70Pro() {
+  let urlMedia = env.url + "/vehiculos/"
+  let urlMedia2 = "https://www.vehicentro.com/images/m70lev/";
+  return (
+    <>
+      <div className='compraBox'>
+
+        <div className='option'>
+          <div className='uno'>
+            <div className='izquierda'>
+              <img src={urlMedia2 + "bateria.png"} alt='Batería CATL' />
+              <p>Batería CATL</p>
+            </div>
+            <div className='derecha'>
+              <img src={urlMedia2 + "controlEstabilidad.png"} alt='ESC -Control de Estabilidad' />
+              <p>Control de Estabilidad</p>
+            </div>
+            <div className='izquierda'>
+              <img src={urlMedia2 + "ac.png"} alt='Aire Acondicionado' />
+              <p>Aire Acondicionado</p>
+            </div>
+            <div className='derecha'>
+              <img src={urlMedia2 + "freanado.png"} alt='EBD - Distribución Electrónica de Frenado' />
+              <p>Distribución Electrónica de Frenado</p>
+            </div>
+          </div>
+          <div className='dos furgo'>
+            <div className='izquierda2'>
+              <img className='suvCarro' src={urlMedia2 + "abs.png"} alt='ABS - Sistema Antibloqueo de Frenos' />
+              <p>Sistema Antibloqueo de Frenos</p>
+            </div>
+            <div className='derecha2'>
+              <img src={urlMedia2 + "eps.png"} alt='EPS - Dirección Asistida Eléctricamente' />
+              <p>Dirección Asistida Eléctricamente</p>
+            </div>
+            <div className='derecha2'>
+              <img src={urlMedia2 + "carga.png"} alt='Carga Rápida y Lenta' />
+              <p>Carga Rápida y Lenta</p>
             </div>
           </div>
         </div>
-  
-        <div className='textoVehiculos'>
-          <img src='tecnologia.jpg' alt='Suv colores' />
+        <div className='image'>
+          <img src="https://www.vehicentro.com/images/m70lev/M70LEVBLANCA.png" />
         </div>
-  
       </div>
-  
-    );
-  };
+      <div className='compraBox responsive'>
+        <div className='option'>
+          <div className='uno'>
+            <div className='izquierda'>
+              <img src={urlMedia2 + "bateria.png"} alt='Batería CATL' />
+              <p>Batería CATL</p>
+            </div>
+            <div className='derecha'>
+              <img src={urlMedia2 + "controlEstabilidad.png"} alt='ESC -Control de Estabilidad' />
+              <p>Control de Estabilidad</p>
+            </div>
+          </div>
+          <div className='uno'>
+            <div className='izquierda'>
+              <img src={urlMedia2 + "ac.png"} alt='Aire Acondicionado' />
+              <p>Aire Acondicionado</p>
+            </div>
+            <div className='derecha'>
+              <img src={urlMedia2 + "freanado.png"} alt='EBD - Distribución Electrónica de Frenado' />
+              <p>Distribución Electrónica de Frenado</p>
+            </div>
+          </div>
+          <div className='dos'>
+            <div className='izquierda2'>
+              <img className='suvCarro' src={urlMedia2 + "abs.png"} alt='ABS - Sistema Antibloqueo de Frenos' />
+              <p>Sistema Antibloqueo de Frenos</p>
+            </div>
+            <div className='derecha2'>
+              <img src={urlMedia2 + "eps.png"} alt='EPS - Dirección Asistida Eléctricamente' />
+              <p>Dirección Asistida Eléctricamente</p>
+            </div>
+          </div>
+          <div className='dos'>
+            <div className='derecha2'>
+              <img src={urlMedia2 + "carga.png"} alt='Carga Rápida y Lenta' />
+              <p>Carga Rápida y Lenta</p>
+            </div>
+            <div className='derecha2'>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div className='image'>
+          <img src="https://www.vehicentro.com/images/m70l/KeytonBlanca.png" />
+        </div>
+
+
+      </div>
+    </>
+  )
+}
+
+
+const Vehiculo = () => {
+
+
+  return (
+    <div className='todo'>
+      <div className='vehiculos'>
+
+        <img className='carImage' src="" alt="U70PRO" />
+
+
+        <div className='description'>
+          <p>COLORES</p>
+          <div className='buttons'>
+
+          </div>
+        </div>
+      </div>
+
+      <div className='textoVehiculos'>
+        <img src='tecnologia.jpg' alt='Suv colores' />
+      </div>
+
+    </div>
+
+  );
+};
 
 
 
@@ -219,37 +219,37 @@ const Galeria = () => {
       </div>
 
       {
-        
-          <div className='carrousel'>
-            <Carousel
-              cols={3}
-              rows={1}
-              gap={30}
-              loop
-            >
-              <Carousel.Item>
-                <img width="100%" src="" alt="Faro delantero U70PRO" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img width="100%" src="" alt="Direccionales U70PRO" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img width="100%" src="" alt="Faro trasero U70PRO" />
-              </Carousel.Item>
 
-              <Carousel.Item>
-                <img width="100%" src="" alt="Rines de 18 pulgadasU70PRO" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img width="100%" src="" alt="Techo Panoramico U70PRO" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img width="100%" src="" alt="Apertura sin llave U70PRO" />
-              </Carousel.Item>
+        <div className='carrousel'>
+          <Carousel
+            cols={3}
+            rows={1}
+            gap={30}
+            loop
+          >
+            <Carousel.Item>
+              <img width="100%" src="" alt="Faro delantero U70PRO" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="" alt="Direccionales U70PRO" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="" alt="Faro trasero U70PRO" />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img width="100%" src="" alt="Rines de 18 pulgadasU70PRO" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="" alt="Techo Panoramico U70PRO" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img width="100%" src="" alt="Apertura sin llave U70PRO" />
+            </Carousel.Item>
 
 
-            </Carousel>
-          </div>
+          </Carousel>
+        </div>
       }
 
 
@@ -264,7 +264,7 @@ const Galeria = () => {
 const FormularioU70ProMedios = () => {
 
 
-  
+
 
 
 
@@ -310,7 +310,7 @@ const FormularioU70ProMedios = () => {
   function closeFormContact() {
     setFormIsOpen(false)
   }
-      let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHFURM70L"
+  let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHFURM70L"
 
 
 
@@ -347,7 +347,7 @@ const Detalles2 = () => {
           <h3 className='title'>Sistemas de Seguridad</h3>
           <div className='arriba'>
             <div className='centrado'>
-              <img src= "seguridad1.png"alt='2 Airbags' />
+              <img src="seguridad1.png" alt='2 Airbags' />
               <p>2 Airbags</p>
             </div>
             <div className='centrado'>
@@ -366,63 +366,63 @@ const Detalles2 = () => {
               <p>HAC Asistente de arranque en pendiente</p>
             </div>
             <div className='centrado'>
-              <img src=  "seguridad5.png" alt='Programa electrónico de estabilidad' />
+              <img src="seguridad5.png" alt='Programa electrónico de estabilidad' />
               <p>EPS Programa electrónico de estabilidad</p>
             </div>
             <div className='centrado'>
-              <img src=  "seguridad6.png" alt='Control electrónico de tracción' />
+              <img src="seguridad6.png" alt='Control electrónico de tracción' />
               <p>TCS Control electrónico de tracción</p>
             </div>
           </div>
           <div className='abajo'>
             <div className='centrado'>
-              <img src= "seguridad7.png" alt='Control de asistencia para descenso en pendiente' />
+              <img src="seguridad7.png" alt='Control de asistencia para descenso en pendiente' />
               <p>DAC Control de asistencia para descenso en pendiente</p>
             </div>
             <div className='centrado'>
-              <img src=  "seguridad8.png" alt='Sistema antivuelco' />
+              <img src="seguridad8.png" alt='Sistema antivuelco' />
               <p>ARP Sistema antivuelco</p>
             </div>
             <div className='centrado'>
-              <img src= "seguridad9.png" alt='Freno de estacionamiento electrónico' />
+              <img src="seguridad9.png" alt='Freno de estacionamiento electrónico' />
               <p>EPB Freno de estacionamiento electrónico</p>
             </div>
           </div>
         </div>
 
-       {/*  Celular */}
-       <div className='celular'>
+        {/*  Celular */}
+        <div className='celular'>
           <h3 className='title'>Sistemas de Seguridad</h3>
           <div className='arribaCelular'>
             <div className='centrado'>
-              <img src= "seguridad1.png" alt='2 Airbags' />
+              <img src="seguridad1.png" alt='2 Airbags' />
               <p>2 Airbags</p>
             </div>
             <div className='centrado'>
-              <img src= "seguridad2.png" alt='Sistema antibloqueo de frenos' />
+              <img src="seguridad2.png" alt='Sistema antibloqueo de frenos' />
               <p>Frenos ABS</p>
             </div>
-           
+
           </div>
 
           <div className='abajoCelular'>
-          <div className='centrado'>
-              <img src= "seguridad3.png" alt='Distribución electrónica fuerza de frenado' />
+            <div className='centrado'>
+              <img src="seguridad3.png" alt='Distribución electrónica fuerza de frenado' />
               <p>EBD Distribución electrónica fuerza de frenado</p>
             </div>
             <div className='centrado'>
-              <img src= "seguridad4.png" alt='Asistente de arranque en pendiente' />
+              <img src="seguridad4.png" alt='Asistente de arranque en pendiente' />
               <p>HAC Asistente de arranque en pendiente</p>
             </div>
-            
+
           </div>
           <div className='abajoCelular'>
             <div className='centrado'>
-              <img src= "seguridad5.png" alt='Programa electrónico de estabilidad' />
+              <img src="seguridad5.png" alt='Programa electrónico de estabilidad' />
               <p>EPS Programa electrónico de estabilidad</p>
             </div>
             <div className='centrado'>
-              <img src= "seguridad6.png" alt='Control electrónico de tracción' />
+              <img src="seguridad6.png" alt='Control electrónico de tracción' />
               <p>TCS Control electrónico de tracción</p>
             </div>
           </div>
@@ -432,13 +432,13 @@ const Detalles2 = () => {
               <p>DAC Control de asistencia para descenso en pendiente</p>
             </div>
             <div className='centrado'>
-              <img src= "seguridad8.png" alt='Sistema antivuelco' />
+              <img src="seguridad8.png" alt='Sistema antivuelco' />
               <p>ARP Sistema antivuelco</p>
             </div>
           </div>
           <div className='abajoCelular ultimo'>
             <div className='centrado'>
-              <img src= "seguridad9.png" alt='Freno de estacionamiento electrónico' />
+              <img src="seguridad9.png" alt='Freno de estacionamiento electrónico' />
               <p>EPB Freno de estacionamiento electrónico</p>
             </div>
           </div>

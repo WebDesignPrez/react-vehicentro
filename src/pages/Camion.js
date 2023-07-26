@@ -46,6 +46,7 @@ let camionSerie
 let cuotas
 let urlMedia = env.url
 let nombreBusqueda
+let pathUrl
 
 function Camion() {
 
@@ -83,6 +84,7 @@ function Camion() {
 
         //10 toneladas
         case "camion-10-toneladas-t5g-1167":
+            pathUrl = "camion-10-toneladas-t5g-1167"
             nombreCamion = "Camión de 10 toneladas | T5G-1167"
             nombreBusqueda = "Camión de 10 toneladas"
             camionSerie = "T5G 1167 / 10 TON"
@@ -138,6 +140,7 @@ function Camion() {
 
         //9 toneladas
         case "camion-de-9-toneladas":
+            pathUrl = "camion-de-9-toneladas"
             nombreCamion = "Camión de 9 toneladas | T5G-1167"
             nombreBusqueda = "Camión de 9 toneladas"
             camionSerie = "T5G 1167 / 9 TON"
@@ -191,6 +194,7 @@ function Camion() {
 
         //12 toneladas
         case "camion-12-toneladas-t5g-1167":
+            pathUrl = "camion-12-toneladas-t5g-1167"
             console.log('12 toneladas')
             nombreCamion = "Camión de 12 toneladas | T5G-1167"
             nombreBusqueda = "Camión de 12 toneladas"
@@ -245,6 +249,7 @@ function Camion() {
 
         //13 toneladas
         case "camion-13-toneladas-t5g-1167":
+            pathUrl = "camion-13-toneladas-t5g-1167"
             console.log('13 toneladas')
             nombreCamion = "Camión de 13 toneladas | T5G-1167"
             nombreBusqueda = "Camión de 13 toneladas"
@@ -299,6 +304,7 @@ function Camion() {
 
         //13 toneladas 330hp
         case "camion-13-toneladas-t5g-1167-330hp":
+            pathUrl = "camion-13-toneladas-t5g-1167-330hp"
             console.log('13 toneladas 330Hp')
             nombreCamion = "Camión de 13 toneladas 330Hp | T5G-1167"
             nombreBusqueda = "Camión de 13 toneladas"
@@ -352,6 +358,7 @@ function Camion() {
 
         //18 toneladas
         case "camion-de-18-toneladas-t5g-1257":
+            pathUrl = "camion-de-18-toneladas-t5g-1257"
             console.log('18 toneladas')
             nombreCamion = "Camión de 18 toneladas | T5G-1257"
             nombreBusqueda = "Camión de 18 toneladas"
@@ -405,6 +412,7 @@ function Camion() {
 
         //19 toneladas
         case "camion-de-19-toneladas-t5g-1257":
+            pathUrl = "camion-de-19-toneladas-t5g-1257"
             console.log('19 toneladas')
             nombreCamion = "Camión de 19 toneladas | T5G-1257"
             nombreBusqueda = "Camión de 19 toneladas"
@@ -458,6 +466,7 @@ function Camion() {
 
         //3.5 toneladas
         case "camion-de-3-5-toneladas-1057":
+            pathUrl = "camion-de-3-5-toneladas-1057"
             console.log('3.5 toneladas')
             nombreCamion = "Camión de 3.5 toneladas | 1057"
             nombreBusqueda = "Camión de 3.5 toneladas"
@@ -556,6 +565,7 @@ function Camion() {
 
         //3.6 toneladas
         case "camion-de-3-6-toneladas":
+            pathUrl = "camion-de-3-6-toneladas"
             console.log('3.6 toneladas')
             nombreCamion = "Camión de 3.6 toneladas | 1047"
             nombreBusqueda = "Camión de 3.6 toneladas"
@@ -654,6 +664,7 @@ function Camion() {
 
         //5 toneladas
         case "camion-de-5-toneladas-1067":
+            pathUrl = "camion-de-5-toneladas-1067"
             console.log('5 toneladas')
             nombreCamion = "Camión de 5 toneladas | 1067"
             nombreBusqueda = "Camión de 5 toneladas"
@@ -752,6 +763,7 @@ function Camion() {
 
         //6 toneladas
         case "camion-de-6-toneladas-1067":
+            pathUrl = "camion-de-6-toneladas-1067"
             console.log('6 toneladas')
             nombreCamion = "Camión de 6 toneladas | 1067"
             nombreBusqueda = "Camión de 6 toneladas"
@@ -838,6 +850,7 @@ function Camion() {
 
         //8 toneladas
         case "camion-8-toneladas-1147":
+            pathUrl = "camion-8-toneladas-1147"
             console.log('8 toneladas')
             nombreCamion = "Camión de 8 toneladas | 1147"
             nombreBusqueda = "Camión de 8 toneladas"
@@ -889,6 +902,7 @@ function Camion() {
 
         //20 toneladas
         case "camion-20-toneladas-1256":
+            pathUrl = "camion-20-toneladas-1256"
             console.log('20 toneladas')
             nombreCamion = "Camión de 20 toneladas | C7H-1256"
             nombreBusqueda = "Camión de 20 toneladas"
@@ -1041,10 +1055,21 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Camiones {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Venta del ' + nombreCamion + ' Sinotruk de la ' + nombreSerie + ' en Ecuador'} />
-            <meta name="description" content={'Descubre la Venta del' + nombreCamion  + 'Sinotruk de la' + nombreSerie + 'en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'} />
-            <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador, camiones en venta Ecuador, venta camiones Sinotruk"></meta>
+            <meta name="description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'} />
+            <meta name="keywords" content={'camion, camiones, venta de camiones, camiones en ecuador, camiones en venta Ecuador, venta camiones Sinotruk, ' + nombreCamion + ', ' + nombreSerie}></meta>
             <meta name="robots" content="index, follow"></meta>
+            <meta property="og:locale" content="es_EC"></meta>
+            <meta property="og:type" content="website"></meta>
+            <meta property="og:title" content={nombreCamion + ' - Venta de Camiones ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
+            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'}></meta>
+            <meta property="og:url" content={'https://vehicentro.com/camiones/'+pathUrl}></meta>
+            <meta property="og:site_name" content="Vehicentro"></meta>
+            <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
+            <meta property="og:image" content={imagen}></meta>
+            <meta name="twitter:card" content="summary_large_image"></meta>
+            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'}></meta>
+            <meta name="twitter:label1" content="Tiempo de lectura"></meta>
+            <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>
         <NavBarTop />
         <div className="boxesIni posRelative content2">

@@ -105,10 +105,25 @@ function Inicio2() {
   return (
     <>
       <Helmet>
-        <title>Vehicentro</title>
-        <meta name="description" content="Camiones de venta en Ecuador · Puntos vehicentro a nivel nacional · VISÍTANOS EN AMBATO, QUITO, GUAYAQUIL, RIOBAMBA, CUENCA Y MACHALA." />
+        <title>Vehicentro - Venta de Camiones y Maquinaria en Ecuador</title>
+        <link rel="canonical" href="https://vehicentro.com/"></link>
         <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador"></meta>
         <meta name="robots" content="index, follow"></meta>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="description" content="Encuentra los mejores camiones de la marca Sinotruk en Ecuador. Vehicentro te ofrece una amplia selección de camiones y maquinaria para tus necesidades comerciales. Mantente al día con nuestras ofertas y novedades en el sector automotriz en Ecuador. VISÍTANOS EN AMBATO, QUITO, GUAYAQUIL, RIOBAMBA, CUENCA Y MACHALA."></meta>
+        <meta property="og:locale" content="es_EC"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:title" content="Vehicentro - Venta de Camiones y Maquinaria en Ecuador"></meta>
+        <meta property="og:description" content="Encuentra los mejores camiones de la marca Sinotruk en Ecuador. Vehicentro te ofrece una amplia selección de camiones y maquinaria para tus necesidades comerciales. Mantente al día con nuestras ofertas y novedades en el sector automotriz en Ecuador."></meta>
+        <meta property="og:url" content="https://vehicentro.com/"></meta>
+        <meta property="og:site_name" content="Vehicentro"></meta>
+        <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
+        <meta property="og:image" content="https://www.vehicentro.com/images/vehicentro-logo-blanco.png"></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:description" content="Encuentra los mejores camiones de la marca Sinotruk en Ecuador. VISÍTANOS EN AMBATO, QUITO, GUAYAQUIL, RIOBAMBA, CUENCA Y MACHALA. Vehicentro te ofrece una amplia selección de camiones y maquinaria para tus necesidades comerciales. Mantente al día con nuestras ofertas y novedades en el sector automotriz en Ecuador."></meta>
+        <meta name="twitter:label1" content="Tiempo de lectura"></meta>
+        <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
       {/* <PopUp /> */}
       <NavBar />
