@@ -28,11 +28,23 @@ function M70L_EV() {
     <>
 
       <Helmet>
-        <title> M70L-EV - Vehicentro</title>
-        <meta name="description" content={'Venta de furgonetas en Ecuador'} />
-        <meta name="keywords" content="autos, SUV, venta de SUV, suv en ecuador"></meta>
-        <meta name="author" content="Celimo Constante, Anthony Perez, Prez" />
+        <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
+        <title>M70L-EV - Venta de Furgonetas Eléctricas Keyton en Ecuador - Vehicentro</title>
+        <meta name="description" content="Descubre la venta de la furgoneta eléctrica Keyton M70L-EV en Ecuador en Vehicentro. Amplia selección de furgonetas eléctricas de alta calidad y rendimiento."></meta>
+        <meta name="keywords" content="furgoneta, furgonetas, venta de furgonetas, furgonetas eléctricas, furgonetas en ecuador, furgonetas en venta Ecuador, venta furgonetas eléctricas Keyton, M70L-EV"></meta>
         <meta name="robots" content="index, follow"></meta>
+        <meta property="og:locale" content="es_EC"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:title" content="M70L-EV - Venta de Furgonetas Eléctricas Keyton en Ecuador - Vehicentro"></meta>
+        <meta property="og:description" content="Descubre la venta de la furgoneta eléctrica Keyton M70L-EV en Ecuador en Vehicentro. Amplia selección de furgonetas eléctricas de alta calidad y rendimiento."></meta>
+        <meta property="og:url" content="https://vehicentro.com/furgonetas/M70L-EV"></meta>
+        <meta property="og:site_name" content="Vehicentro"></meta>
+        <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
+        <meta property="og:image" content="https://www.vehicentro.com/images/m70lev/keytonElectrica.jpg"></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:description" content="Descubre la venta de la furgoneta eléctrica Keyton M70L-EV en Ecuador en Vehicentro. Amplia selección de furgonetas eléctricas de alta calidad y rendimiento."></meta>
+        <meta name="twitter:label1" content="Tiempo de lectura"></meta>
+        <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
 
 
@@ -318,7 +330,7 @@ const FormularioU70ProMedios = () => {
   return (
     <div className="boxesIni posRelative">
       <div className="centrado">
-        <img src="https://www.vehicentro.com/images/m70lev/M70LEVFondo.jpg" width="1400" height="1000" className="slideMain" alt="SUV U70" />
+        <img src="https://www.vehicentro.com/images/m70lev/keytonElectrica.jpg" width="1400" height="1000" className="slideMain" alt="SUV U70" />
       </div>
       <div>
         <FormContact url={bdc} camion="M70L" serie="Furgoneta" camionSerie="M70L-EV" />

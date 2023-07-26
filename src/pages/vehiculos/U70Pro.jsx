@@ -20,11 +20,23 @@ function U70Pro() {
   return (
     <>
       <Helmet>
-        <title> U70PRO - Vehicentro</title>
-        <meta name="description" content={'Venta del suv mas largo de Ecuador'} />
-        <meta name="keywords" content="autos, SUV, venta de SUV, suv en ecuador"></meta>
         <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
+        <title>U70PRO - Venta de SUV, Autos y Carros Sinotruk en Ecuador - Vehicentro</title>
+        <meta name="description" content="Descubre la venta del SUV, Autos y Carros Sinotruk U70PRO en Ecuador en Vehicentro. El SUV más largo del mercado ecuatoriano. Amplia selección de vehículos de alta calidad y rendimiento."></meta>
+        <meta name="keywords" content="suv, autos, carros, venta de suvs, venta de autos, venta de carros, suvs en ecuador, autos en ecuador, carros en ecuador, suvs en venta Ecuador, autos en venta Ecuador, carros en venta Ecuador, venta vehículos Sinotruk, U70PRO, SUV más largo, SUV mercado ecuatoriano"></meta>
         <meta name="robots" content="index, follow"></meta>
+        <meta property="og:locale" content="es_EC"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:title" content="U70PRO - Venta de SUV, Autos y Carros Sinotruk en Ecuador - Vehicentro"></meta>
+        <meta property="og:description" content="Descubre la venta del SUV, Autos y Carros Sinotruk U70PRO en Ecuador en Vehicentro. El SUV más largo del mercado ecuatoriano. Amplia selección de vehículos de alta calidad y rendimiento."></meta>
+        <meta property="og:url" content="https://vehicentro.com/sinotruk/autos/u70pro"></meta>
+        <meta property="og:site_name" content="Vehicentro"></meta>
+        <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
+        <meta property="og:image" content="https://www.vehicentro.com/images/vehiculos/imgForm.png"></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:description" content="Descubre la venta del SUV, Autos y Carros Sinotruk U70PRO en Ecuador en Vehicentro. El SUV más largo del mercado ecuatoriano. Amplia selección de vehículos de alta calidad y rendimiento."></meta>
+        <meta name="twitter:label1" content="Tiempo de lectura"></meta>
+        <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
 
 
