@@ -174,7 +174,7 @@ function Block1() {
 
         <div className="boxRight tecnologia" height="1080">
           <div className="boxLeft c7h">
-            <img src="https://www.vehicentro.com/images/home/u70Inicio.webp" alt="" />
+            <img src="https://www.vehicentro.com/images/home/BannerU70.webp" alt="" />
             {/* <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" /> */}
           </div>
         </div>
@@ -282,7 +282,7 @@ function Block3() {
 
 
           <div>
-            <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/u70pro.png"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
+            <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/BannerU70.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
             <div className="bottomContainer">
               <p className="titleBox"></p>
               <NavLink className="titleBox2" to="/sinotruk/autos">SUV'S</NavLink>
@@ -350,7 +350,7 @@ function Block3() {
 
       <div className="block3 boxBlock row2">
         <div>
-          <a href="/serie/volquetas"><img src={urlMedia + "home/keytonHome.jpg"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
+          <a href="/serie/volquetas"><img src={urlMedia + "home/keytonHomeNex.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox"></p>
             <NavLink className="titleBox2" to="/keyton/furgonetas">FURGONETAS</NavLink>
