@@ -319,11 +319,11 @@ function Block3() {
               </div>
             </div>
             <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/vol7.jpg)`, height: `23.2vw` }}>
+              <div style={{ 'backgroundImage': `url(../images/home/volqueta7.webp)`, height: `23.2vw` }}>
               </div>
             </div>
             <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/volquetaC7H.jpg)`, height: `23.2vw` }}>
+              <div style={{ 'backgroundImage': `url(../images/home/volquetaC7HNew.webp)`, height: `23.2vw` }}>
               </div>
             </div>
           </Slide>
@@ -361,7 +361,7 @@ function Block3() {
           </div>
         </div>
         <div>
-          <img src={urlMedia + "home/sunwardNueva.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
+          <img src={urlMedia + "home/sunwardNew.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
           <div className="bottomContainer">
             <p className="titleBox"></p>
             <p className="titleBox2">SUNWARD EXCAVADORAS</p>
@@ -374,7 +374,7 @@ function Block3() {
           </div>
         </div>
         <div>
-          <img src={urlMedia + "home/minicargadora.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
+          <img src={urlMedia + "home/minicargadoraNew.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
           <div className="bottomContainer">
             <p className="titleBox"></p>
             <p className="titleBox2">SUNWARD MINICARGADORAS</p>
