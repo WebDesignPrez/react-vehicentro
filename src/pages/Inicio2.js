@@ -206,7 +206,7 @@ function Block2() {
             <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
         </div > */}
       < div className="block2 noResponsive" >
-        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/autoVideo.mp4" className="videoWidth" /> ///////////
+        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/autoVideo.mp4" className="videoWidth" />
       </div >
     </>
 
