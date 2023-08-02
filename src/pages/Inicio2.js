@@ -116,7 +116,7 @@ function Inicio2() {
         <meta property="og:type" content="website"></meta>
         <meta property="og:title" content="Vehicentro - Venta de Camiones y Maquinaria en Ecuador"></meta>
         <meta property="og:description" content="Encuentra los mejores camiones de la marca Sinotruk en Ecuador. Vehicentro te ofrece una amplia selección de camiones y maquinaria para tus necesidades comerciales. Mantente al día con nuestras ofertas y novedades en el sector automotriz en Ecuador."></meta>
-        <meta property="og:url" content="https://vehicentro.com/"></meta>
+        <meta property="og:url" content="https://www.vehicentro.com/images/vehicentro-logo-blanco.png"></meta>
         <meta property="og:site_name" content="Vehicentro"></meta>
         <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
         <meta property="og:image" content="https://www.vehicentro.com/images/vehicentro-logo-blanco.png"></meta>
