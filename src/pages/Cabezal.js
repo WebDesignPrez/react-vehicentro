@@ -46,6 +46,8 @@ let cuotas
 let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
 let urlMedia = env.url
 let pathUrl
+let nombreBusqueda
+let nombreBusqueda2
 
 function Camion() {
 
@@ -87,6 +89,8 @@ function Camion() {
             pathUrl = "cabezal-t5g-4187"
             console.log('24 ton')
             nombreCamion = "Cabezal de 24 toneladas | T5G-4187"
+            nombreBusqueda = "cabezal 24 toneladas"
+            nombreBusqueda2 = "camion 24 toneladas"
             camionSerie = "T5G 4187 / 24 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
@@ -146,6 +150,8 @@ function Camion() {
             pathUrl = ""
             console.log('28 ton')
             nombreCamion = "Cabezal de 28 toneladas | T7H-390"
+            nombreBusqueda = "cabezal 28 toneladas"
+            nombreBusqueda2 = "camion 28 toneladas"
             camionSerie = "T7H 390 / 28 TON"
             nombreSerie = "Serie T7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
@@ -201,6 +207,8 @@ function Camion() {
             pathUrl = ""
             console.log('28 ton retardador')
             nombreCamion = "Cabezal de 28 toneladas | T7H-390"
+            nombreBusqueda = "cabezal 28 toneladas"
+            nombreBusqueda2 = "camion 28 toneladas"
             camionSerie = "T7H 390 / 28 TON con retardador"
             nombreSerie = "Serie T7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
@@ -256,6 +264,8 @@ function Camion() {
             pathUrl = ""
             console.log('42 ton')
             nombreCamion = "Cabezal de 42 toneladas | T7H-390"
+            nombreBusqueda = "cabezal 42 toneladas"
+            nombreBusqueda2 = "camion 42 toneladas"
             camionSerie = "T7H 390 / 42 TON"
             nombreSerie = "Serie T7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB42TT7H390"
@@ -311,6 +321,8 @@ function Camion() {
             pathUrl = "cabezal-t7h-430-45-toneladas"
             console.log('45 ton')
             nombreCamion = "Cabezal de 45 toneladas | T7H-430"
+            nombreBusqueda = "cabezal 45 toneladas"
+            nombreBusqueda2 = "camion 45 toneladas"
             camionSerie = "T7H 430 / 45 TON"
             nombreSerie = "Serie T7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB45TT7H430"
@@ -367,6 +379,8 @@ function Camion() {
             console.log('48 ton')
             nombreCamion = "Cabezal de 48 toneladas | C7H-540"
             camionSerie = "C7H 540 / 48 TON"
+            nombreBusqueda = "cabezal 48 toneladas"
+            nombreBusqueda2 = "camion 48 toneladas"
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540"
             images = [
@@ -423,6 +437,8 @@ function Camion() {
             pathUrl = "cabezal-c7h-540-catalinas-48-toneladas"
             console.log('48 ton con catalinas')
             nombreCamion = "Cabezal de 48 toneladas con Catalinas | C7H-540"
+            nombreBusqueda = "cabezal 48 toneladas"
+            nombreBusqueda2 = "camion 48 toneladas"
             camionSerie = "C7H 540 / 48 TON con Catalinas"
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540OFFROAD"
@@ -548,24 +564,24 @@ function Camion() {
             </div>
         </div>
     );
-
+    
     // ---- PÁGINA ----
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Cabezales {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'} />
-            <meta name="keywords" content={'cabezal, cabezales, venta de cabezales, camiones en ecuador, camiones en venta Ecuador, venta cabezales Sinotruk, ' + nombreCamion + ', ' + nombreSerie}></meta>
+            <meta name="description" content={'Descubre la Venta del ' + nombreCamion + ', ' + + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'} />
+            <meta name="keywords" content={'cabezal, cabezales, venta de cabezales, camiones en ecuador, camiones en venta Ecuador, venta cabezales Sinotruk, ' + nombreCamion + ', ' + nombreSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={nombreCamion + ' - Venta de Cabezales ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de cabezales de alta calidad y rendimiento'}></meta>
+            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'}></meta>
             <meta property="og:url" content={'https://vehicentro.com/cabezales/'+pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de cabezales de alta calidad y rendimiento'}></meta>
+            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
             <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>

@@ -1055,19 +1055,19 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Camiones {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'} />
-            <meta name="keywords" content={'camion, camiones, venta de camiones, camiones en ecuador, camiones en venta Ecuador, venta camiones Sinotruk, ' + nombreCamion + ', ' + nombreSerie}></meta>
+            <meta name="description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'} />
+            <meta name="keywords" content={'camion, camiones, venta de camiones, camiones en ecuador, camiones en venta Ecuador, venta camiones Sinotruk, ' + nombreCamion + ', ' + nombreBusqueda + ', ' + nombreSerie}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={nombreCamion + ' - Venta de Camiones ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'}></meta>
+            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'}></meta>
             <meta property="og:url" content={'https://vehicentro.com/camiones/'+pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'}></meta>
+            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento'}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
             <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>
