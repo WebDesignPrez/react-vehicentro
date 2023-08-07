@@ -42,6 +42,8 @@ let camionSerie
 let nombreSerie
 let bdcFicha = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBFICHTEC"
 let urlMedia = env.url
+let nombreBusqueda
+let pathUrl
 
 function Camion() {
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
@@ -78,8 +80,10 @@ function Camion() {
         case "volqueta-t5g-280":
             console.log('volqueta 330')
             nombreCamion = "Volqueta | T5G-330"
+            nombreBusqueda = 'Volqueta 8 M3'
             camionSerie = "VOLQUETA T5G-330 8-9M3"
             nombreSerie = "Especiales"
+            pathUrl = "volqueta-t5g-280"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA330"
             images = [
                 urlMedia + "volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
@@ -132,7 +136,9 @@ function Camion() {
         //volqueta 430
         case "volqueta-t7h-430":
             console.log('volqueta T7H-430')
+            pathUrl = "volqueta-t7h-430"
             nombreCamion = "Volqueta | T7H-430"
+            nombreBusqueda = 'Volqueta 10 M3'
             camionSerie = "VOLQUETA T5G 430-330 10-14M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
@@ -187,7 +193,9 @@ function Camion() {
         //volqueta 540
         case "volqueta-c7h-540":
             console.log('volqueta C7H')
+            pathUrl = "volqueta-c7h-540"
             nombreCamion = "Volqueta | C7H-540"
+            nombreBusqueda = 'volqueta 20 m3'
             camionSerie = "VOLQUETA 20M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540"
@@ -290,12 +298,23 @@ function Camion() {
     // ---- PÁGINA ----
     return <>
         <Helmet>
-                <title>Volquetas | Vehicentro</title>
-                <meta name="description" content="La mejor volqueta del mercado. Cuando precio y calidad se juntan, no existe competencia" />
-                <meta name="keywords" content="volqueta, volquetas, venta de volquetas, volquetas en ecuador, volqueta barata"></meta>
-                <meta name="robots" content="index, follow"></meta>
-                <h1>Volquetas | Vehicentro</h1>
-            </Helmet>
+            <title>{nombreCamion} - Venta de Volquetas {nombreSerie} en Ecuador - Vehicentro</title>
+            <meta name="description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'} />
+            <meta name="keywords" content={'volqueta, volquetas, venta de volquetas, volquetas en ecuador, volquetas en venta Ecuador, venta volquetas Sinotruk, ' + nombreCamion + ', ' + nombreBusqueda + ', ' + nombreSerie}></meta>
+            <meta name="robots" content="index, follow"></meta>
+            <meta property="og:locale" content="es_EC"></meta>
+            <meta property="og:type" content="website"></meta>
+            <meta property="og:title" content={nombreCamion + ' - Venta de la  ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
+            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'}></meta>
+            <meta property="og:url" content={'https://vehicentro.com/volquetas/'+pathUrl}></meta>
+            <meta property="og:site_name" content="Vehicentro"></meta>
+            <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
+            <meta property="og:image" content={imagen}></meta>
+            <meta name="twitter:card" content="summary_large_image"></meta>
+            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'}></meta>
+            <meta name="twitter:label1" content="Tiempo de lectura"></meta>
+            <meta name="twitter:data1" content="5 minutos"></meta>        
+        </Helmet>
         <NavBarTop />
         <div className="boxesIni posRelative content2">
             <div className="boxRight">
