@@ -30,19 +30,19 @@ function M70L() {
       <Helmet>
         <meta name="author" content="Celimo Constante, Anthony Perez, Prez" />
         <title>M70L - Venta de Furgonetas Keyton en Ecuador - Vehicentro</title>
-        <meta name="description" content="Descubre la venta de la furgoneta Keyton M70L en Ecuador en Vehicentro. Amplia selección de furgonetas de alta calidad y rendimiento."></meta>
-        <meta name="keywords" content="furgoneta, furgonetas, venta de furgonetas, furgonetas en ecuador, furgonetas en venta Ecuador, venta furgonetas Keyton, M70L"></meta>
+        <meta name="description" content="Descubre la venta de la furgoneta Keyton M70L, furgoneta de 11 pasajeros en Ecuador en Vehicentro. Amplia selección de furgonetas de alta calidad y rendimiento."></meta>
+        <meta name="keywords" content="furgoneta, furgonetas, venta de furgonetas, furgonetas en ecuador, furgonetas en venta Ecuador, venta furgonetas Keyton, M70L, furgoneta de 11 pasajeros"></meta>
         <meta name="robots" content="index, follow"></meta>
         <meta property="og:locale" content="es_EC"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:title" content="M70L - Venta de Furgonetas Keyton en Ecuador - Vehicentro"></meta>
-        <meta property="og:description" content="Descubre la venta de la furgoneta Keyton M70L en Ecuador en Vehicentro. Amplia selección de furgonetas de alta calidad y rendimiento"></meta>
+        <meta property="og:description" content="Descubre la venta de la furgoneta Keyton M70L, furgoneta de 11 pasajeros en Ecuador en Vehicentro. Amplia selección de furgonetas de alta calidad y rendimiento."></meta>
         <meta property="og:url" content="https://vehicentro.com/keyton/furgonetas/m70l"></meta>
         <meta property="og:site_name" content="Vehicentro"></meta>
         <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
         <meta property="og:image" content="https://www.vehicentro.com/images/m70l/Keyton-1500X1500.jpg"></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
-        <meta name="twitter:description" content="Descubre la venta de la furgoneta Keyton M70L en Ecuador en Vehicentro. Amplia selección de furgonetas de alta calidad y rendimiento"></meta>
+        <meta name="twitter:description" content="Descubre la venta de la furgoneta Keyton M70L, furgoneta de 11 pasajeros en Ecuador en Vehicentro. Amplia selección de furgonetas de alta calidad y rendimiento."></meta>
         <meta name="twitter:label1" content="Tiempo de lectura"></meta>
         <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
