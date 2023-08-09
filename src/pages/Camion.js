@@ -707,8 +707,8 @@ function Camion() {
             internas2b = [
                 urlMedia + "5-toneladas/bloqueo.webp"
             ];
-            medidas = urlMedia + "5-toneladas/dimensiones-de-camion-de-5-toneladas-sinotruk.webp"
-            medidasMovil = urlMedia + "5-toneladas/dimensiones-de-camion-de-5-toneladas-sinotruk-responsive.webp"
+            medidas = urlMedia + "5-toneladas/5tonWeb.jpg"
+            medidasMovil = urlMedia + "5-toneladas/5tonCell.jpg"
             audio_motor = urlMedia + "5-toneladas/motor.mp3"
 
 
@@ -756,7 +756,7 @@ function Camion() {
                     </div>
                 }
             </div>
-            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "5-toneladas/chasis.webp"} /></div>
+            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "5-toneladas/chasisModelos.png"} /></div>
 
 
             break;
