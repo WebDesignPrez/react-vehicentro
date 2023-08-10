@@ -22,8 +22,8 @@ function Inicio2() {
   /* const [modal2FormIsOpen, setForm2IsOpen] = useState(false); */
 
   useEffect(() => {
-    /*  const motorPlayer = document.getElementById('audioMotorHome')
-     motorPlayer.src = audio_motor */
+      const motorPlayer = document.getElementById('audioMotorHome')
+     motorPlayer.src = audio_motor 
 
     const keyDownHandler = event => {
       if (event.key === 'Escape') {
@@ -272,26 +272,45 @@ function Block3() {
             <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
             <div className="linksBox">
               <NavLink className="line2" to="/camiones/camion-20-toneladas-1256">20 TON</NavLink>
-              <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>
+              <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>17
               <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON - CATALINAS</NavLink>
             </div>
           </div>
         </div>
         <div>
 
-
-
           <div>
-            <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/BannerU70.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
+
+
+            <Slide duration={2000}>
+
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
+                </div>
+              </div>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/veinstein.webp)`, height: `23.2vw` }}>
+                </div>
+              </div>
+            </Slide>
+
+
             <div className="bottomContainer">
-              <p className="titleBox"></p>
-              <NavLink className="titleBox2" to="/sinotruk/autos">SUV'S</NavLink>
-              <div className="linksBox">
-                <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70</NavLink>
-                <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
+              <div className="bannerTec">
+                <img src={urlMedia + "home/tecnologia-alemana.webp"} width="590" height="170" alt="Tecnologia Alemana" />
+              </div>
+              <div className="boxPlayerMotor audiohome">
+                <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
+              </div>
+              <div className="linksBox iniciocentrado">
+                <a className="line2" src="">ESCUCHA TU MOTOR</a>
               </div>
             </div>
           </div>
+
+
+
+
 
           {/* <div className="bottomContainer">
                         <div className="bannerTec">
@@ -305,6 +324,24 @@ function Block3() {
                         </div>
                     </div> */}
         </div>
+        <div>
+          <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/BannerU70.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
+          <div className="bottomContainer">
+            <p className="titleBox"></p>
+            <NavLink className="titleBox2" to="/sinotruk/autos">SUV'S</NavLink>
+            <div className="linksBox">
+              <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70</NavLink>
+              <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+      <div className="block3 boxBlock row2">
         <div>
 
 
@@ -342,23 +379,6 @@ function Block3() {
             </div>
           </div>
 
-        </div>
-
-      </div>
-
-
-
-      <div className="block3 boxBlock row2">
-        <div>
-          <a href="/serie/volquetas"><img src={urlMedia + "home/keytonHomeNex.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
-          <div className="bottomContainer">
-            <p className="titleBox"></p>
-            <NavLink className="titleBox2" to="/keyton/furgonetas">FURGONETAS</NavLink>
-            <div className="linksBox">
-              <NavLink className="line2" src="" to="/keyton/furgonetas/m70l">M70L</NavLink>
-              {/* <NavLink className="line2" src="" to="/keyton/furgonetas/m70l-EV">M70L-EV</NavLink> */}
-            </div>
-          </div>
         </div>
         <div>
           <img src={urlMedia + "home/sunwardNew.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
