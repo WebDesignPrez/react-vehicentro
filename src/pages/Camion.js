@@ -707,7 +707,7 @@ function Camion() {
             internas2b = [
                 urlMedia + "5-toneladas/bloqueo.webp"
             ];
-            medidas = urlMedia + "5-toneladas/5tonWeb.jpg"
+            medidas = urlMedia + "5-toneladas/medidas5New.webp"
             medidasMovil = urlMedia + "5-toneladas/5tonCell.jpg"
             audio_motor = urlMedia + "5-toneladas/motor.mp3"
 
