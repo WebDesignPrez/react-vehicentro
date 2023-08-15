@@ -569,19 +569,19 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Cabezales {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta del ' + nombreCamion + ', ' + + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'} />
-            <meta name="keywords" content={'cabezal, cabezales, venta de cabezales, camiones en ecuador, camiones en venta Ecuador, venta cabezales Sinotruk, ' + nombreCamion + ', ' + nombreSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2}></meta>
+            <meta name="description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'} />
+            <meta name="keywords" content={'cabezal, cabezales, venta de cabezales, cabezales en ecuador, cabezales en venta Ecuador , camiones en ecuador, camiones en venta Ecuador, venta cabezales Sinotruk, ' + nombreCamion + ', ' + nombreSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2 + ', ' + camionSerie}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={nombreCamion + ' - Venta de Cabezales ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'}></meta>
+            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'}></meta>
             <meta property="og:url" content={'https://vehicentro.com/cabezales/'+pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'}></meta>
+            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
             <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>

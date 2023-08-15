@@ -237,19 +237,19 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Minicargadora {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda  + ' Sunward de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de minicargadoras de alta calidad y rendimiento'} />
-            <meta name="keywords" content={'minicargadora, minicargadoras, venta de minicargadoras, minicargadoras en ecuador, minicargadoras en venta Ecuador, venta minicargadoras Sunward, ' + nombreCamion + ', ' + nombreBusqueda + ', ' + nombreSerie}></meta>
+            <meta name="description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda  + ' Sunward de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de minicargadoras de alta calidad y rendimiento. Minicargadora ecuador, en vehicentro nos especializamos en la venta de Minicargadora y minicardagoras'} />
+            <meta name="keywords" content={'minicargadora, minicargadoras, venta de minicargadoras, minicargadoras en ecuador, minicargadoras en venta Ecuador, venta minicargadoras Sunward, ' + nombreCamion + ', ' + nombreBusqueda + ', ' + nombreSerie + 'minicargadora ecuador'}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={nombreCamion + ' - Venta de la  ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda  + ' Sunward de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de minicargadoras de alta calidad y rendimiento'}></meta>
+            <meta property="og:description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda  + ' Sunward de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de minicargadoras de alta calidad y rendimiento. Minicargadora ecuador, en vehicentro nos especializamos en la venta de Minicargadora y minicardagoras'}></meta>
             <meta property="og:url" content={'https://vehicentro.com/minicargadoras/'+pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda  + ' Sunward de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de minicargadoras de alta calidad y rendimiento'}></meta>
+            <meta name="twitter:description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda  + ' Sunward de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de minicargadoras de alta calidad y rendimiento. Minicargadora ecuador, en vehicentro nos especializamos en la venta de Minicargadora y minicardagoras'}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
             <meta name="twitter:data1" content="5 minutos"></meta>        
         </Helmet>
