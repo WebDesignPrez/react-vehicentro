@@ -809,8 +809,8 @@ function Camion() {
                 urlMedia + "6-toneladas/radio-android-con-icar.webp",
                 urlMedia + "6-toneladas/Litera.webp"
             ];
-            medidas = urlMedia + "6-toneladas/dimensiones-de-camion-de-6-toneladas-sinotruk.webp"
-            medidasMovil = urlMedia + "6-toneladas/dimensiones-de-camion-de-6-toneladas-sinotruk-responsive.webp"
+            medidas = urlMedia + "6-toneladas/medidas6ton.webp"
+            medidasMovil = urlMedia + "6-toneladas/medidasMovil6Ton.webp"
             audio_motor = urlMedia + "6-toneladas/motor.mp3"
 
 
