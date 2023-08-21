@@ -234,3 +234,11 @@ input[type=text] {
     margin: 2vw;
     text-align: justify;
 }
+
+.black{
+    font-weight: bold;
+}
+.espacioText{
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
