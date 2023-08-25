@@ -25,7 +25,7 @@ function Excavadora() {
         <>
             <Helmet>
                 <title>Excavadora | Vehicentro</title>
-                <meta name="description" content="Excavadora SUNWARD, Potencia superior, operación segura y excelente productividad para toda contrucción." />
+                <meta name="description" content="Excavadora SUNWARD, Potencia superior, operación segura y excelente productividad para toda contrucción." />
                 <meta name="keywords" content="excavadora, excavadoras, venta de excavadoras, excavadoras en ecuador, SUNWARD, sunward"></meta>
                 <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
                 <meta name="robots" content="index, follow"></meta>

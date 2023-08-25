@@ -47,6 +47,8 @@ let cuotas
 let urlMedia = env.url
 let nombreBusqueda
 let pathUrl
+let mercadoObjetivo
+let fortalezas
 
 function Camion() {
 
@@ -471,6 +473,8 @@ function Camion() {
             nombreCamion = "Camión de 3.5 toneladas | 1057"
             nombreBusqueda = "Camión de 3.5 toneladas"
             camionSerie = "1057 / 3.5 TON"
+            mercadoObjetivo = "Carga liviana y pesada, varios sectores productivos y servicios;  agricultura, ganaderia, transporte ( agua, gas, productos de primera necesidad, etc)"
+            fortalezas = "Frenos de 100% aire, costo del mantenimiento y repuestos"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
             images = [
@@ -559,7 +563,9 @@ function Camion() {
                 }
             </div>
 
-            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "3.5-toneladas/homologado.webp"} /></div>
+            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "3.5-toneladas/homologado.webp"} />
+            
+            </div>
             break;
 
 
@@ -571,6 +577,8 @@ function Camion() {
             nombreBusqueda = "Camión de 3.6 toneladas"
             camionSerie = "1047 / 3.6 TON"
             nombreSerie = "Serie 100"
+            mercadoObjetivo = "Carga liviana y pesada, varios sectores productivos y servicios;  agricultura, ganaderia, transporte ( agua, gas, productos de primera necesidad, etc)"
+            fortalezas = "Frenos de 100% aire, costo del mantenimiento y repuestos"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH3.6T"
             images = [
                 urlMedia + "3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-ecuador.webp",
@@ -669,6 +677,8 @@ function Camion() {
             nombreCamion = "Camión de 5 toneladas | 1067"
             nombreBusqueda = "Camión de 5 toneladas"
             camionSerie = "1067 / 5 TON"
+            mercadoObjetivo = "Transportista, comerciantes, productores, ferreteros, ganaderos"
+            fortalezas = "Garanctias efectivas, costos bajos de mantenimiento, cabinas amplias y comodas con todos los aplicativos"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB5T1167"
             images = [
@@ -768,6 +778,8 @@ function Camion() {
             nombreCamion = "Camión de 6 toneladas | 1067"
             nombreBusqueda = "Camión de 6 toneladas"
             camionSerie = "1067 / 6 TON"
+            mercadoObjetivo = "Transportista, comerciantes, productores, ferreteros, ganaderos"
+            fortalezas = "Garanctias efectivas, costos bajos de mantenimiento, cabinas amplias y comodas con todos los aplicativos"
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB6T1167"
             images = [
@@ -856,6 +868,8 @@ function Camion() {
             nombreBusqueda = "Camión de 8 toneladas"
             camionSerie = "1147 / 8 TON"
             nombreSerie = "Serie 100"
+            mercadoObjetivo = "Empresas, compañías, trasporte"
+            fortalezas = "Mayor potencia, mejor equipamiento, precio, garantía de postventa"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB8T1147"
             images = [
                 urlMedia + "8-toneladas/camion-blanco-sinotruk-de-8-toneladas-ecuador.webp",
