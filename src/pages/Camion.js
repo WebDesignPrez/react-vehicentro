@@ -91,6 +91,8 @@ function Camion() {
             nombreBusqueda = "Camión de 10 toneladas"
             camionSerie = "T5G 1167 / 10 TON"
             nombreSerie = "Serie T5G"
+            mercadoObjetivo = "Tanqueros - lecheros - ferreterías - comercio frutas y legumbres"
+            fortalezas = "Freno a las válvulas - Buen radio de giro, tanque de combustible aluminio, dimensiones, capacidad de carga homologada, torque - Eficiencia de motor, ahorro combustible configuración caja corona"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
             console.log('10 Toneladas')
             images = [
@@ -147,6 +149,8 @@ function Camion() {
             nombreBusqueda = "Camión de 9 toneladas"
             camionSerie = "T5G 1167 / 9 TON"
             nombreSerie = "Serie T5G"
+            mercadoObjetivo = "Transporte pesado - ferreterías - tanqueros - plataformas - empresas"
+            fortalezas = "Menor cilindrada y consumo - cabina con camarote confortable - freno a las válvulas - cabina abatible electrohidráulica"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHCR9T1167"
             console.log('9 toneladas')
             images = [
@@ -202,6 +206,8 @@ function Camion() {
             nombreBusqueda = "Camión de 12 toneladas"
             camionSerie = "T5G 1167 / 12 TON"
             nombreSerie = "Serie T5G"
+            mercadoObjetivo = "Camión Pesado: Camión Volqueta/Volquete, Recolector de basura, Camión canastilla, Esparcidor de asfalto, Vehículo Sanitario, Camión Tanquero/Cisterna, Camión Bombona/Tolva, Camión Remolque, Cajón, Plataforma, Cajón Plataforma, Furgón, Hidro succionador, Generador Eléctrico, Nodriza, Perforadora, Portabebidas, Grúa Móvil, Motobomba, Portatropas, Antimotines, Vehículo Barredor, Estación Médica Móvil"
+            fortalezas = "Garantía real a nivel nacional, 3 puertos usb, radio touch, cabina acciona eléctrico, cabina más cómoda, cabina más práctica , espejos angulares, desempañador eléctrico, apertura a distancia de vidrios, desempañador electrico de espejos  "
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB12TT5G1167"
             images = [
                 urlMedia + "12-toneladas/camion-blanco-sinotruk-de-12-toneladas-ecuador.webp",
@@ -257,6 +263,8 @@ function Camion() {
             nombreBusqueda = "Camión de 13 toneladas"
             camionSerie = "T5G 1167 / 13 TON (280HP)"
             nombreSerie = "Serie T5G"
+            mercadoObjetivo = "Compañías de transporte pesado, ferreterías, comerciantes de gramíneas, grúas"
+            fortalezas = "Precio competitivo, ahorro de combustible, velocidad y potencia, confort y comodidad, dimensiones perfectas volumen-peso, stock de unidades y variedad de colores"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB13T1167"
             images = [
                 urlMedia + "13-toneladas/camion-blanco-sinotruk-de-13-toneladas-ecuador.webp",
@@ -312,6 +320,8 @@ function Camion() {
             nombreBusqueda = "Camión de 13 toneladas"
             camionSerie = "T5G 1167 / 13 TON (330HP)"
             nombreSerie = "Serie T5G"
+            mercadoObjetivo = "Ferreterías, cooperativas de transporte carga pesada y volumen, para grúas con plumas, comerciantes de granos secos, multi trabajos"
+            fortalezas = "Muy buena tecnología de fabricación- alta gama de pintura, buen precio-mantenimiento más económico, mejor garantía en el mercado- menos consumo de combustible - camión más fuerte y potente"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web13TOVDT5G1167"
             images = [
                 urlMedia + "13-toneladas-330/camion-blanco-sinotruk-de-13-toneladas-ecuador.webp",
@@ -366,6 +376,8 @@ function Camion() {
             nombreBusqueda = "Camión de 18 toneladas"
             camionSerie = "T5G 1257 / 18 TON"
             nombreSerie = "Serie T5G"
+            mercadoObjetivo = "Plataforma, grúa, recolector, grúa móvil, vehículo de transporte de valores, camión de vacío/hidro succionador, esparceador de asfalto, tanquero, camión cajón, camión cajón tipo c, grúa plataforma, furgón, mixer, volqueta, recolector de basura, vehículo de mercancías refrigeradas, vehículo sanitario, bus tipo costa*, lavacontenedor, cisterna, portabebidas, canastilla"
+            fortalezas = "Mayor potencia, menor peso al vacío, mayor capacidad de carga, mayor largo carrozable, excelente relación precio/prestaciones, cabina con camarote confortable"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB18T1257"
             images = [
                 urlMedia + "18-toneladas/camion-blanco-sinotruk-de-18-toneladas-ecuador.webp"
@@ -420,6 +432,8 @@ function Camion() {
             nombreBusqueda = "Camión de 19 toneladas"
             camionSerie = "T5G 1257 / 19.5 TON"
             nombreSerie = "Serie T5G"
+            mercadoObjetivo = "Varios Usos"
+            fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable, cabina con apertura eléctrica"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB19T1257"
             images = [
                 urlMedia + "19-toneladas/19tonHeroR.jpeg",
@@ -922,6 +936,8 @@ function Camion() {
             nombreBusqueda = "Camión de 20 toneladas"
             camionSerie = "C7H 1256 / 20 TON"
             nombreSerie = "Serie C7H"
+            mercadoObjetivo = "Ferreteros, empresas trans pesado tanqueros plataforma unacem pluma hidráulica "
+            fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
             images = [
                 urlMedia + "20-toneladas/camion-blanco-sinotruk-de-20-toneladas-ecuador.webp",
@@ -1069,19 +1085,19 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Camiones {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador'} />
+            <meta name="description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo} />
             <meta name="keywords" content={'camion, camiones, venta de camiones, camiones en ecuador, camiones en venta Ecuador, venta camiones Sinotruk, ' + nombreCamion + ', ' + nombreBusqueda + ', ' + nombreSerie + ', ' + camionSerie}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={nombreCamion + ' - Venta de Camiones ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador'}></meta>
+            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo}></meta>
             <meta property="og:url" content={'https://vehicentro.com/camiones/'+pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador'}></meta>
+            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
             <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>
