@@ -48,6 +48,8 @@ let urlMedia = env.url
 let pathUrl
 let nombreBusqueda
 let nombreBusqueda2
+let mercadoObjetivo
+let fortalezas
 
 function Camion() {
 
@@ -93,6 +95,8 @@ function Camion() {
             nombreBusqueda2 = "camion 24 toneladas"
             camionSerie = "T5G 4187 / 24 TON"
             nombreSerie = "Serie T5G"
+            mercadoObjetivo = "Porta contenedores, niñera, transporte de vehículos, tanquero de combustible, aceite, alimentos, agua, etc carga seca, carga refrigerada, carga en general"
+            fortalezas = "Motor man de alta tecnologia, gran experiencia a nivel mundial. Unificación de partes y componentes al estar disponible en otros modelos de la marca"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
             images = [
                 urlMedia + "24-toneladas/camion-blanco-sinotruk-de-24-toneladas-ecuador.webp",
@@ -154,6 +158,8 @@ function Camion() {
             nombreBusqueda2 = "camion 28 toneladas"
             camionSerie = "T7H 390 / 28 TON"
             nombreSerie = "Serie T7H"
+            mercadoObjetivo = "Niñeras, plataforma"
+            fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
             images = [
                 urlMedia + "28-toneladas/camion-blanco-sinotruk-de-28-toneladas-ecuador.webp",
@@ -211,6 +217,8 @@ function Camion() {
             nombreBusqueda2 = "camion 28 toneladas"
             camionSerie = "T7H 390 / 28 TON con retardador"
             nombreSerie = "Serie T7H"
+            mercadoObjetivo = "Niñeras, plataforma"
+            fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
             images = [
                 urlMedia + "28-toneladas-retardador/camion-blanco-sinotruk-de-28-toneladas-ecuador.webp",
@@ -268,6 +276,8 @@ function Camion() {
             nombreBusqueda2 = "camion 42 toneladas"
             camionSerie = "T7H 390 / 42 TON"
             nombreSerie = "Serie T7H"
+            mercadoObjetivo = "Transporte pesado en general"
+            fortalezas = "Frenos de tambor, accionado 100% de aire de doble circuito a todas las ruedas con ABS"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB42TT7H390"
             images = [
                 urlMedia + "42-toneladas/camion-blanco-sinotruk-de-42-toneladas-ecuador.webp",
@@ -325,6 +335,8 @@ function Camion() {
             nombreBusqueda2 = "camion 45 toneladas"
             camionSerie = "T7H 430 / 45 TON"
             nombreSerie = "Serie T7H"
+            mercadoObjetivo = "Transporte pesado en general"
+            fortalezas = "Frenos de tambor, accionado 100% de aire de doble circuito a todas las ruedas con ABS, freno al escape, con válvula de control electro neumático y freno a las válvulas (EVB)"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB45TT7H430"
             images = [
                 urlMedia + "45-toneladas/camion-blanco-sinotruk-de-45-toneladas-ecuador.webp",
@@ -382,6 +394,8 @@ function Camion() {
             nombreBusqueda = "cabezal 48 toneladas"
             nombreBusqueda2 = "camion 48 toneladas"
             nombreSerie = "Serie C7H"
+            mercadoObjetivo = "Transporte pesado en general"
+            fortalezas = "Bajo consumo de combustible, doble tanque de aluminio, aros de alcoa, chasis reforzado, capacidad eje posterior, mayor comodidad cabina, camarote, full extras"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540"
             images = [
                 urlMedia + "48-toneladas/portadac7h48.jpg",
@@ -441,6 +455,8 @@ function Camion() {
             nombreBusqueda2 = "camion 48 toneladas"
             camionSerie = "C7H 540 / 48 TON con Catalinas"
             nombreSerie = "Serie C7H"
+            mercadoObjetivo = "Transporte pesado en general"
+            fortalezas = "Bajo consumo de combustible, doble tanque de aluminio, aros de alcoa, chasis reforzado, capacidad eje posterior, mayor comodidad cabina, camarote, full extras, Catalinas"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540OFFROAD"
             images = [
                 urlMedia + "48-toneladas-catalinas/camion-blanco-sinotruk-de-48-toneladas-ecuador.webp",
@@ -569,19 +585,19 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Cabezales {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'} />
+            <meta name="description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo} />
             <meta name="keywords" content={'cabezal, cabezales, venta de cabezales, cabezales en ecuador, cabezales en venta Ecuador , camiones en ecuador, camiones en venta Ecuador, venta cabezales Sinotruk, ' + nombreCamion + ', ' + nombreSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2 + ', ' + camionSerie}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={nombreCamion + ' - Venta de Cabezales ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'}></meta>
+            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo}></meta>
             <meta property="og:url" content={'https://vehicentro.com/cabezales/'+pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento'}></meta>
+            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
             <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>
