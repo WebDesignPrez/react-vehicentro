@@ -77,7 +77,7 @@ function Content2() {
 
                 <div className="containerAutos">
                     <div className="sinotrukContainer">
-                        <img src="https://www.vehicentro.com/images/sinotruk.webp" />
+                        <img src="https://www.vehicentro.com/images/vehiculos/sinotruck2.png" />
                     </div>
 
                     <div className="serieSinotrukAutos">

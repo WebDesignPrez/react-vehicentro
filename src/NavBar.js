@@ -572,7 +572,7 @@ export default function NavBar() {
           <div className="headerSubMenu">
             <div className="closeMovil" data-id="0"></div>
             <p className="tituloMenu">CAMIONES</p>
-            <img className="imgnMenu" src={urlMedia + "home/logo-sinotruk-negro.png"} width="637" height="147" alt="Sinotruck" />
+            <img className="imgnMenu" src={urlMedia + "home/logo-sinotruck-negro-2.png"} width="637" height="147" alt="Sinotruck" />
           </div>
           <div className="rowMenu">
             <div className="colMenu">
