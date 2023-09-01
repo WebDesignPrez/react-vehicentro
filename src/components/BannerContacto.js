@@ -65,7 +65,7 @@ export default function BannerContacto(props){
     }
 
     function gotoCall(){
-      window.open("tel:+0992048229")
+      window.open("tel:032994740")
       closeContact()
     }
 
