@@ -129,7 +129,7 @@ function Inicio2() {
         <meta name="twitter:label1" content="Tiempo de lectura"></meta>
         <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
-      {/* <PopUp /> */}
+      <PopUp />
       <NavBar />
       <Block1 />
       <Menu2 />

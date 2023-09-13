@@ -18,15 +18,10 @@ const PopUp = () => {
 
   useEffect(() => {
     setIsOpen(true); // Abrir el pop-up al iniciar la aplicación
+    unlockScroll(); // Desbloquear el desplazamiento al cerrar el pop-up
   }, []);
 
-  useEffect(() => {
-    if (isOpen) {
-      lockScroll(); // Bloquear el desplazamiento al abrir el pop-up
-    } else {
-      unlockScroll(); // Desbloquear el desplazamiento al cerrar el pop-up
-    }
-  }, [isOpen]);
+ 
 
   const togglePopup = () => {
     setIsOpen(!isOpen);
