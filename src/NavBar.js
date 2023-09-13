@@ -17,7 +17,6 @@ export default function NavBar() {
     let the_button = document.getElementById('js-btn')
     let modaldos = document.getElementById("modaldos")
     let closeBtn = document.getElementById("closedos")
-    console.log(the_button)
 
 
     the_button.addEventListener("click", handleClick)
