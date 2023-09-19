@@ -83,13 +83,13 @@
 .popup-left:hover .popup-left-image1{
     opacity: 80%;
     transition: 2s;
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
 }
 
 .popup-right:hover .popup-right-image1{
     opacity: 80%;
     transition: 2s;
-    transform: scale(1.2) translate(50%, 0%);
+    /* transform: scale(1.2) translate(50%, 0%); */
 }
 
 /* .popup-left:hover .popup-left-image1{
@@ -196,11 +196,11 @@
     
     .popup-left:hover .popup-left-image1{
         opacity: 80%;
-        transition: 0.7s;
+        /* transition: 0.7s; */
     }
     
     .popup-right:hover .popup-right-image1{
         opacity: 80%;
-        transition: 0.7s;
+        /* transition: 0.7s; */
     }
 }

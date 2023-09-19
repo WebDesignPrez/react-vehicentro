@@ -228,7 +228,13 @@ function Serie() {
                 serie: "C7H 1256",
                 modelo: "20 TON",
                 url: "/camiones/camion-20-toneladas-1256"
-            }, {
+            }, 
+            {
+                serie: "C7H 1256",
+                modelo: "20 TON CATALINAS",
+                url: "/camiones/camion-20-toneladas-catalinas-1256"
+            },
+            {
                 serie: "C7H 540",
                 modelo: "48 TON",
                 url: "/cabezales/cabezal-c7h-540"

@@ -111,6 +111,7 @@ color:red;
 }
 
 .internal .nav-active{
+  background-color: #101113;
   transform: translateX(0);
 }
 

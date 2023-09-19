@@ -46,7 +46,7 @@ function Content2() {
       </div>
       </div>
       <div className="boxNews companiaimg2">
-        <img src={urlMedia+"repuestos/logo-sinotruk.webp"} width="1000" height="760" className="slideMain" alt="Series100" />
+        <img src={urlMedia+"repuestos/sinotrukNegro.png"} width="1000" height="760" className="slideMain" alt="Series100" />
       </div>
       <div className="boxNews companiaimg2">
         <img src={urlMedia+"repuestos/logo-keyton.webp"} width="1000" height="760" className="slideMain" alt="Mixer" />

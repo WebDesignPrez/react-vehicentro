@@ -112,7 +112,7 @@ function Concesionarios() {
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Lizarzaburu entre Monseñor L. Proaño y Padre M. Orozco",
       url: "https://goo.gl/maps/dqkVXAErCdD3PN4z9",
-      img: urlMedia + "vehicentro-riobamba.webp",
+      img: urlMedia + "riobambaConcesionarios.jpg",
       alt: ""
     }]
   }, {

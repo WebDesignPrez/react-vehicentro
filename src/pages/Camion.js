@@ -985,6 +985,60 @@ function Camion() {
 
             break;
 
+            case "camion-20-toneladas-catalinas-1256":
+                pathUrl = "camion-20-toneladas-catalinas-1256"
+                nombreCamion = "Camión de 20 toneladas con Catalinas | C7H-1256"
+                nombreBusqueda = "Camión de 20 toneladas con Catalinas"
+                camionSerie = 'C7H 1256 / 20 TON con Catalinas'
+                nombreSerie = "Serie C7H"
+                mercadoObjetivo = "Ferreteros, empresas trans pesado tanqueros plataforma unacem pluma hidráulica "
+                fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH20TCAT"
+                images = [
+                    urlMedia + "20Catalinas/hero20Catalinas.jpg",
+                ];
+                textoMotor1 = "430 HP"
+                textoMotor2 = "Modelo C7H-1256"
+                textoMotor3 = "Ficha Técnica"
+                precio = precios.veinte_catalinas
+                cuotas = `Cuotas desde: ${precios.veinte_catalinas_cuota}`
+                motor = urlMedia + "20Catalinas/motor20Catalinas.jpg"
+                garantia = urlMedia + "20-toneladas/5-anos-de-garantia.webp"
+                tecnologia = urlMedia + "20-toneladas/tecnologia-alemana.webp"
+                caracteristicas = [
+                    urlMedia + "20-toneladas/camion-de-20-toneladas-potencia-430hp.webp",
+                    urlMedia + "20-toneladas/camion-de-20-toneladas-cilindraje.webp",
+                    urlMedia + "20-toneladas/camion-de-20-toneladas-freno-a-las-valvulas.webp",
+                    urlMedia + "20-toneladas/inyeccion.webp"
+                ]
+                cabina = urlMedia + "20-toneladas/cabina-de-camion-de-20-toneladas-sinotruk.webp"
+                marcas = urlMedia + "20-toneladas/marcas-vehicentro.webp"
+                internas1 = [
+                    urlMedia + "20-toneladas/palanca-de-cambios.webp",
+                    urlMedia + "20-toneladas/litera-de-descanso.webp",
+                    urlMedia + "20-toneladas/asiento-neumatico.webp",
+                    urlMedia + "20-toneladas/comportamiento-en-el-panel.webp",
+                    urlMedia + "20-toneladas/climatizador-y-mandos.webp"
+                ];
+                internas2 = [
+                    urlMedia + "20-toneladas/volante-deportivo.webp",
+                    urlMedia + "20-toneladas/radio-touch-mp5.webp",
+                    urlMedia + "20-toneladas/componentes-wabco.webp",
+                    urlMedia + "20-toneladas/retardador.webp",
+                    urlMedia + "20-toneladas/bodega.webp"
+                ];
+                medidas = urlMedia + "20Catalinas/medidasMovil.jpg"
+                medidasMovil = urlMedia + "20Catalinas/medidasCompu.jpg"
+                audio_motor = urlMedia + "20-toneladas/motor.mp3"
+    
+                internas = internas1.concat(internas2)
+                contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
+                contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+                    <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                </div>
+    
+                break;
+
         default:
             break;
     }
@@ -1044,6 +1098,9 @@ function Camion() {
 
         case "camion-20-toneladas-1256":
             imagen = urlMedia + "20-toneladas/camion-de-20-toneladas-en-la-carretera-sinotruk.webp"
+            break;
+        case "camion-20-toneladas-catalinas-1256":
+            imagen = urlMedia + "20Catalinas/prueba.jpg"
             break;
 
         default:
