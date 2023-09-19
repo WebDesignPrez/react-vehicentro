@@ -40,6 +40,10 @@ let precios = {
     veinte: " $96,990 ",
     veinte_cuota: " $1,477.00 ",
 
+    veinte_catalinas: " $104,990 ",
+    veinte_catalinas_cuota: " $1,600.00 ",
+
+
     v_cuatro: " $61,990 ",
     v_cuatro_cuota: " $950.00 ",
 

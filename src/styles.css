@@ -1195,6 +1195,8 @@ p.titleFooter {
 }
 
 .internal .nav-links {
+  height: 100vh;
+  
   z-index: 100;
 }
 
