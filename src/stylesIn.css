@@ -51,6 +51,7 @@ nav.internal{
 
 .internal .nav-links > li{
     background: #101113;
+    height: 13vh;
 }
 
 .internal .nav-links a{
@@ -181,6 +182,7 @@ color:red;
     overflow-y: scroll;
     height: -webkit-fill-available;
     height: 100%;
+    
 }
 
 .internal .nav-header-h{

@@ -189,10 +189,11 @@ function Concesionarios() {
                 <p className='nombreConcesionario'>{datos.nombre}</p>
                 <p className='descConcesionario'>{datos.descripcion}</p>
                 <span className='direccionConcesionario'>{datos.direccion}</span>
-                <p className='telefonoConcesionario'><span>Línea directa </span>{datos.telefono}</p>
+                <p className='telefonoConcesionario'><span>Línea directa </span><a href="tel:032994740">032 994 740</a> | <a href="tel:0992048229">0992048229</a></p>
                 <span className='linkConcesionario'>
                   <a href={datos.url} target='_blank'>UBICACIÓN</a>
                 </span>
+                <a href=''></a>
               </div>
               <div className='concesionariosFlexImg imgConcesionario'>
                 <img src={datos.img} alt={datos.alt} />
