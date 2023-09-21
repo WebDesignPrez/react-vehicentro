@@ -16,7 +16,7 @@ export default function Footer() {
         </ul>
         <br />
         <p className="title titleContacto">CONTACTO DIRECTO</p>
-        <p className="title titleNumero"><a href="tel:032294740">032 994 740</a></p>
+        <p className="title titleNumero"><a href="tel:032994740">032 994 740</a></p>
         <div className="social row">
           <div className="flex-row imgMain">
             <a href="https://www.facebook.com/Vehicentro"><img src={urlMedia + "facebook.png"} alt="facebook" width="32" height="32" /></a>

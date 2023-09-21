@@ -2617,6 +2617,10 @@ a.colItem.meniu.negro {
   font-weight: 500;
 }
 
+.telefonoConcesionario a{
+  color: #000;
+}
+
 /* .popup {
     position: fixed;
     top: 0;
