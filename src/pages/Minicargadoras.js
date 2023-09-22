@@ -114,7 +114,7 @@ function Camion() {
             textoMotor2 = "SWL3220"
             textoMotor3 = "MINICARGADORA"
             precio = precios.me_SWL3220
-            cuotas = `Cuotas desde: ${precios.me_SWL3220_cuota}`
+            //cuotas = `Cuotas desde: ${precios.me_SWL3220_cuota}`
             motor = "https://vehicentro.com/cotizacion/images/minicargadora/degradado.jpg"
             garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
             tecnologia = urlMedia + "swl3220/WEB-LOGO-SUNWARD-1.png"

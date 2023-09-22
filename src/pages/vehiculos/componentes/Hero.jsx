@@ -9,7 +9,7 @@ function Hero({ path }) {
 
   return (
     <div className='hero '>
-      <img src={urlMedia + "webPortadaVehicentro.png"} alt="Banner Suv" />
+      <img src={urlMedia + "webU70Hero.png"} alt="Banner Suv" />
     </div>
   )
 }

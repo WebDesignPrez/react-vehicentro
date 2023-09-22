@@ -97,7 +97,7 @@ function Camion() {
             console.log('10 Toneladas')
             images = [
                 urlMedia + "10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador.webp",
-                urlMedia + "10-toneladas/camion-blancocabina-sinotruk-de-10-toneladas-ecuador-de-frente.webp"
+                urlMedia + "10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador-de-frente.webp"
             ];
             textoMotor1 = "240 HP"
             textoMotor2 = "Modelo T5G-1167 - 10 Ton"
