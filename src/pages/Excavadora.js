@@ -110,7 +110,7 @@ function Camion() {
       textoMotor2 = "SWE210"
       textoMotor3 = "Excavadora"
       precio = precios.e_210
-      cuotas = `Cuotas desde: ${precios.e_210_cuota}`
+      //cuotas = `Cuotas desde: ${precios.e_210_cuota}`
       motor = urlMedia + "swe210/motor.webp"
       garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "swe210/jpn.png"
@@ -200,7 +200,7 @@ function Camion() {
       textoMotor2 = "SWE370E"
       textoMotor3 = "Excavadora"
       precio = precios.e_365
-      cuotas = `Cuotas desde: ${precios.e_365_cuota}`
+      //cuotas = `Cuotas desde: ${precios.e_365_cuota}`
       motor = urlMedia + "swe365e/motor.webp"
       garantia = urlMedia + "swe365e/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "swe365e/japonesa.png"
