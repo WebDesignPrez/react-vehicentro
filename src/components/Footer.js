@@ -9,6 +9,7 @@ export default function Footer() {
     <div className="footer posRelative">
       <div className="info">
         <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" />
+        <p style={{marginTop: 10}}>VEHICENTRO VEHICULOS Y CAMIONES CENTRO SIERRA S.A</p>
         <ul className="list">
           <li><p className="titleFooter"><a href="/compania">NOSOTROS</a></p></li>
           <li><p className="titleFooter"><a href="/concesionarios">CONCESIONARIOS</a></p></li>
