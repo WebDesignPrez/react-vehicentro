@@ -660,6 +660,17 @@
     top: 13vh !important;
   }
 
+  .requisitosDos.gara.new{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .boxNews.companiaimg2.new{
+    width: 100% !important;
+  }
+
     /* popUp */
    /*  .popup {
       position: flex;
