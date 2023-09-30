@@ -44,20 +44,20 @@ function Content1() {
                     <img src={urlMedia+"garantia/garantia-cuatro.webp"} />
                 </div>
             </div>
-            <div className="requisitosDos gara">
-                <div className="boxNews companiaimg2 ">
+            <div className="requisitosDos gara new">
+                <div className="boxNews companiaimg2 new">
                     <span> <h3>Motor</h3>
                         <p className="textoTec gar">•Monoblock del motor y sus piezas <br></br>•Cabeza de motor, balancines <br></br>•Múltiples de admisión y escape <br></br>•Engranes de distribución <br></br>•Volante de motor <br></br>•Damper <br></br>•Tapa de punterías <br></br>•Cárter de motor bomba de aceite <br></br>•Soporte de montaje de motor <br></br>•Sellos y empaques <br></br>•Bomba de agua <br></br>•Turbo </p>
                     </span>
                 </div>
-                <div className="boxNews companiaimg2 ">
+                <div className="boxNews companiaimg2 new">
                     <span> <h3>Transmisión</h3>
                         <p className="textoTec gar">•Cubierta de transmisión y sus piezas internas <br></br>•Convertidor de torsión(versión automática) <br></br>•Soporte de transmisión <br></br>•Sellos y empaques </p><br></br>
                         <h3>Tracción trasera</h3>
                         <p className="textoTec gar">•Cubierta del eje trasero y sus piezas internas <br></br>•Semi-ejes y rodamientos <br></br>•Soportes <br></br>•Flechas cardán <br></br>•Sellos y empaques</p>
                     </span>
                 </div>
-                <div className="boxNews companiaimg2 ">
+                <div className="boxNews companiaimg2 new">
                     <span> <h3>Radio</h3>
                         <p className="textoTec gar">El período de garantía del radio es por 150 días contados a partir de la fecha de entrega de la unidad SINOTRUK nueva al cliente, el kilometraje medido en el odómetro no es una limitante para el reclamo de garantía del mismo durante el período de garantía antes mencionado. </p>
                     </span>
