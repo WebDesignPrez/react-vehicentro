@@ -307,8 +307,8 @@ function FormContact(props) {
           setTel('')
           setCed('')
 
-          //TODO
-          // window.location.href = redireccion;
+          
+          window.location.href = redireccion;
         }
       })
     } else {
