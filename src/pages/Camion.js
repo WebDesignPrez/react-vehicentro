@@ -88,7 +88,7 @@ function Camion() {
         case "camion-10-toneladas-t5g-1167":
             pathUrl = "camion-10-toneladas-t5g-1167"
             nombreCamion = "Camión de 10 toneladas | T5G-1167"
-            nombreBusqueda = "Camión de 10 toneladas"
+            nombreBusqueda = "Camion de 10 toneladas"
             camionSerie = "T5G 1167 / 10 TON"
             nombreSerie = "Serie T5G"
             mercadoObjetivo = "Tanqueros - lecheros - ferreterías - comercio frutas y legumbres"
@@ -136,7 +136,7 @@ function Camion() {
             internas = internas1.concat(internas2)
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} />
             </div>
 
 
@@ -193,7 +193,7 @@ function Camion() {
             internas = internas1.concat(internas2)
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} />
             </div>
 
             break;
@@ -250,7 +250,7 @@ function Camion() {
             internas = internas1.concat(internas2)
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} />
             </div>
 
             break;
@@ -307,7 +307,7 @@ function Camion() {
             internas = internas1.concat(internas2)
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} />
             </div>
 
             break;
@@ -363,7 +363,7 @@ function Camion() {
             internas = internas1.concat(internas2)
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} />
             </div>
 
             break;
@@ -419,7 +419,7 @@ function Camion() {
             internas = internas1.concat(internas2)
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} />
             </div>
 
             break;
@@ -475,7 +475,7 @@ function Camion() {
             internas = internas1.concat(internas2)
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} />
             </div>
 
             break;
@@ -559,7 +559,7 @@ function Camion() {
                 }
                 {internas1b.length == 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas1b[0]} alt="" />
+                        <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} />
                     </div>
                 }
 
@@ -572,7 +572,7 @@ function Camion() {
                 }
                 {internas2b.length == 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas2b[0]} alt="" />
+                        <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} />
                     </div>
                 }
             </div>
@@ -662,7 +662,7 @@ function Camion() {
                 }
                 {internas1b.length == 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas1b[0]} alt="" />
+                        <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} />
                     </div>
                 }
 
@@ -680,7 +680,7 @@ function Camion() {
                 }
             </div>
 
-            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "3.6-toneladas/homologado.webp"} /></div>
+            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "3.6-toneladas/homologado.webp"} alt={`Homologado ${nombreBusqueda}`} /></div>
             break;
 
 
@@ -763,7 +763,7 @@ function Camion() {
                 }
                 {internas1b.length == 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas1b[0]} alt="" />
+                        <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} />
                     </div>
                 }
 
@@ -776,11 +776,11 @@ function Camion() {
                 }
                 {internas2b.length == 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas2b[0]} alt="" />
+                        <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} />
                     </div>
                 }
             </div>
-            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "5-toneladas/chasisModelos.png"} /></div>
+            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "5-toneladas/chasisModelos.png"} alt={`Chasis Modelos ${nombreBusqueda}`} /></div>
 
 
             break;
@@ -923,7 +923,7 @@ function Camion() {
             internas = internas1.concat(internas2)
 
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} />
             </div>
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             break;
@@ -980,7 +980,7 @@ function Camion() {
             internas = internas1.concat(internas2)
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} />
             </div>
 
             break;
@@ -1034,7 +1034,7 @@ function Camion() {
                 internas = internas1.concat(internas2)
                 contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
                 contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-                    <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+                    <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} />
                 </div>
     
                 break;
@@ -1167,16 +1167,16 @@ function Camion() {
                     </Slide>
                 }
                 {images.length == 1 &&
-                    <img src={images[0]} alt="" />
+                    <img src={images[0]} alt={`hero ${nombreBusqueda}`} />
                 }
             </div>
             <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src={motor} width="1400" height="1000" className="slideMain" alt={`Motor ${nombreBusqueda}`} />
                 <div className="boxText flex-table row textoSobrepuesto">
                     <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
                     <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Camión ${textoMotor2}`}</h1></div>
                     <div onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt="arrow" /></div>
+                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} /></div>
                     <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
                 </div>
                 <div className="boxPlayerMotor ">
@@ -1197,7 +1197,7 @@ function Camion() {
                 </div>
 
                 <div className="boxRightHeader  half icon_center" >
-                    <div className="banner"><img src={tecnologia} /></div>
+                    <div className="banner"><img src={tecnologia} alt={`Tecnologia ${nombreBusqueda}`} /></div>
                 </div>
 
                 <div className="boxRightHeader  half text_icon_center" >
@@ -1205,7 +1205,7 @@ function Camion() {
                 </div>
 
                 <div className="boxRightHeader  half icon_right">
-                    <div className="banner"><img src={garantia} /></div>
+                    <div className="banner"><img src={garantia} alt={`Garantia ${nombreBusqueda}`} /></div>
                 </div>
 
             </div>
@@ -1214,26 +1214,26 @@ function Camion() {
             <div className="boxesIni posRelative partesbg">
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt="Transmisión" />
+                    <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt={`Transmisión ${nombreBusqueda}`} />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt="Cilindros" />
+                    <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt={`Cilindros ${nombreBusqueda}`} />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt="Frenos" />
+                    <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt={`Frenos ${nombreBusqueda}`} />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt="Inyección" />
+                    <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt={`Inyección ${nombreBusqueda}`} />
                 </div>
 
             </div>
 
             <div className="boxesIni posRelative">
                 <div className="marcasbg">
-                    <img src={cabina} width="1500" height="1500" className="slideMain" alt="Punto de Venta" />
+                    <img src={cabina} width="1500" height="1500" className="slideMain" alt={`cabina ${nombreBusqueda}`} />
                 </div>
 
                 <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
@@ -1267,7 +1267,7 @@ function Camion() {
 
         <div className="boxesIni posRelative">
                 <div className="centrado">
-                    <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={imagen} width="1400" height="1000" className="slideMain" alt={`Postal ${nombreBusqueda}`}/>
                 </div>
                 <div>
                     <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
