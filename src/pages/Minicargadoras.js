@@ -118,7 +118,7 @@ function Camion() {
             motor = "https://vehicentro.com/cotizacion/images/minicargadora/degradado.jpg"
             garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
             tecnologia = urlMedia + "swl3220/WEB-LOGO-SUNWARD-1.png"
-            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swl3220/kubotaBomba.png"} /></div>
+            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swl3220/kubotaBomba.png"} alt="bombas kubota Minicargadora" /></div>
 
             caracteristicas = [
                 urlMedia + "swe210/camion-de-24-toneladas-potencia-340hp.webp",
@@ -172,7 +172,7 @@ function Camion() {
                         </Fade>
                     }
                     {internas1b.length == 1 &&
-                        <img src={internas1b[0]} alt="" />
+                        <img src={internas1b[0]} alt="odometro de presión y Temperatura Minicargadora" />
                     }
                 </div>
                 <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
@@ -182,7 +182,7 @@ function Camion() {
                         </Fade>
                     }
                     {internas2b.length == 1 &&
-                        <img src={internas2b[0]} alt="" />
+                        <img src={internas2b[0]} alt="Marca Minicargadora" />
                     }
                 </div>
             </div>
@@ -262,16 +262,16 @@ function Camion() {
                     </Slide>
                 }
                 {images.length == 1 &&
-                    <img src={images[0]} alt="" />
+                    <img src={images[0]} alt={`Hero ${nombreBusqueda}`} />
                 }
             </div>
             <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src={motor} width="1400" height="1000" className="slideMain" alt={`Motor ${nombreBusqueda}`} />
                 <div className="boxText flex-table row textoSobrepuesto">
                     <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
                     <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Minicargadora ${textoMotor2}`}</h1></div>
                     <div onClick={openFormContact} className="flex-row  textoMotor3">Ficha técnica</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt="arrow" /></div>
+                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`flecha ${nombreBusqueda}`} /></div>
                 </div>
             </div>
 
@@ -287,7 +287,7 @@ function Camion() {
                 </div>
 
                 <div className="boxRightHeader  half icon_center" >
-                    <div className="banner"><img src={tecnologia} /></div>
+                    <div className="banner"><img src={tecnologia} alt={`tecnologia ${nombreBusqueda}`} /></div>
                     {/*           <p className="tecJaponesa">Tecnología Japonesa</p> */}
                 </div>
 
@@ -297,7 +297,7 @@ function Camion() {
                 </div>
 
                 <div className="boxRightHeader  half icon_right">
-                    <div className="banner"><img src={garantia} /></div>
+                    <div className="banner"><img src={garantia} alt={`garantia ${nombreBusqueda}`} /></div>
                 </div>
 
             </div>
@@ -306,7 +306,7 @@ function Camion() {
 
             <div className="boxesIni posRelative">
                 <div className="marcasbg">
-                    <img src={cabina} width="1500" height="1500" className="slideMain" alt="Punto de Venta" />
+                    <img src={cabina} width="1500" height="1500" className="slideMain" alt={`Cabina ${nombreBusqueda}`} />
                 </div>
 
                 <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
@@ -317,7 +317,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas1.length == 1 &&
-                            <img src={internas1[0]} alt="" />
+                            <img src={internas1[0]} alt={`Internas 1 ${nombreBusqueda}`} />
                         }
                     </div>
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
@@ -327,7 +327,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas2.length == 1 &&
-                            <img src={internas2[0]} alt="" />
+                            <img src={internas2[0]} alt={`Internas 2 ${nombreBusqueda}`} />
                         }
                     </div>
                     <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
@@ -337,7 +337,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas.length == 1 &&
-                            <img src={internas[0]} alt="" />
+                            <img src={internas[0]} alt={`Internas 3 ${nombreBusqueda}`} />
                         }
 
                     </div>
@@ -347,14 +347,14 @@ function Camion() {
 
 
             </div>
-            <div className="bannerMedidas noResponsive"><img src={medidas} /></div>
+            <div className="bannerMedidas noResponsive"><img src={medidas} alt={`medidas ${nombreBusqueda}`}  /></div>
             {/* <div className="bannerMedidas noResponsive mini"><img src={medidasDos} /></div> */}
-            <div className="bannerMedidas responsive"><img src={medidasMovil} /></div>
+            <div className="bannerMedidas responsive"><img src={medidasMovil} alt={`medidas apra dispositivos moviles ${nombreBusqueda}`} /></div>
             {/* <div className="bannerMedidas responsive"><img src={medidasMovilDos} /></div> */}
         </div>
          <div className="boxesIni posRelative">
             <div className="centrado">
-                <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src={imagen} width="1400" height="1000" className="slideMain" alt={`postal ${nombreBusqueda}`}  />
             </div>
             <div>
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
