@@ -90,11 +90,11 @@ function Mixer() {
             textoMotor1 = "380 HP"
             textoMotor2 = "Modelo 1257 - 8m3"
             textoMotor3 = "Ficha técnica"
-            precio = <div className="banner"><img src={urlMedia+"volqueta-280/logo-sinotruk.webp"} /></div>
+            precio = <div className="banner"><img src={urlMedia+"9-sinotruk_logo.png"} /></div>
             cuotas = 'Cuotas desde: $447.00'
             motor = urlMedia+"a7/motor-mixer.webp"
             garantia = urlMedia+"a7/5-anos-de-garantia.webp"
-            tecnologia = urlMedia+"a7/mixer-serie.webp"
+            tecnologia = urlMedia+"tecnologiaAlemanaLogoNew.png"
 
             caracteristicas = [
                 urlMedia+"a7/transmision-10-2.webp",
