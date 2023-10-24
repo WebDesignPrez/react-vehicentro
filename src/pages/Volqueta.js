@@ -80,7 +80,7 @@ function Camion() {
         case "volqueta-t5g-280":
             console.log('volqueta 330')
             nombreCamion = "Volqueta | T5G-330"
-            nombreBusqueda = 'Volqueta 8 M3'
+            nombreBusqueda = 'volqueta 8m - volqueta 8 metros'
             camionSerie = "VOLQUETA T5G-330 8-9M3"
             nombreSerie = "Especiales"
             pathUrl = "volqueta-t5g-280"
@@ -138,7 +138,7 @@ function Camion() {
             console.log('volqueta T7H-430')
             pathUrl = "volqueta-t7h-430"
             nombreCamion = "Volqueta | T7H-430"
-            nombreBusqueda = 'Volqueta 10 M3'
+            nombreBusqueda = 'volqueta 10m - volqueta 10 metros - volqueta 14m - volqueta 14 metros'
             camionSerie = "VOLQUETA T5G 430-330 10-14M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
@@ -195,7 +195,7 @@ function Camion() {
             console.log('volqueta C7H')
             pathUrl = "volqueta-c7h-540"
             nombreCamion = "Volqueta | C7H-540"
-            nombreBusqueda = 'volqueta 20 m3'
+            nombreBusqueda = 'volqueta 20m - volqueta 20 metros'
             camionSerie = "VOLQUETA 20M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540"
@@ -324,16 +324,16 @@ function Camion() {
                     </Slide>
                 }
                 {images.length == 1 &&
-                    <img src={images[0]} alt="" />
+                    <img src={images[0]} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 }
             </div>
             <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src={motor} width="1400" height="1000" className="slideMain" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 <div className="boxText flex-table row textoSobrepuesto">
                     <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
                     <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Volqueta ${textoMotor2}`}</h1></div>
                     <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt="arrow" /></div>
+                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
                     <div className="flex-row  textoMotor4">Escucha tu motor</div>
                 </div>
                 <div className="boxPlayerMotor ">
@@ -351,7 +351,7 @@ function Camion() {
                 </div>
 
                 <div className="boxRightHeader  half icon_center" >
-                    <div className="banner"><img src={tecnologia} /></div>
+                    <div className="banner"><img src={tecnologia} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
                 </div>
 
                 <div className="boxRightHeader  half text_icon_center" >
@@ -359,7 +359,7 @@ function Camion() {
                 </div>
 
                 <div className="boxRightHeader  half icon_right">
-                    <div className="banner"><img src={garantia} /></div>
+                    <div className="banner"><img src={garantia} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
                 </div>
 
             </div>
@@ -368,26 +368,26 @@ function Camion() {
             <div className="boxesIni posRelative partesbg">
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 </div>
 
                 <div className="caracteristicasProductos" >
-                    <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 </div>
 
             </div>
 
             <div className="boxesIni posRelative">
                 <div className="marcasbg">
-                    <img src={cabina} width="1500" height="1500" className="slideMain" alt="Punto de Venta" />
+                    <img src={cabina} width="1500" height="1500" className="slideMain" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 </div>
 
                 <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
@@ -398,7 +398,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas1.length == 1 &&
-                            <img src={internas1[0]} alt="" />
+                            <img src={internas1[0]} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                         }
                     </div>
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
@@ -408,7 +408,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas2.length == 1 &&
-                            <img src={internas2[0]} alt="" />
+                            <img src={internas2[0]} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
                         }
                     </div>
                     <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
@@ -418,7 +418,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas.length == 1 &&
-                            <img src={internas[0]} alt="" />
+                            <img src={internas[0]} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                         }
                     </div>
                     {contenedorMarcas}
@@ -428,12 +428,12 @@ function Camion() {
 
             </div>
 
-            <div className="bannerMedidas noResponsive"><img src={medidas} /></div>
-            <div className="bannerMedidas responsive"><img src={medidasMovil} /></div>
+            <div className="bannerMedidas noResponsive"><img src={medidas} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
+            <div className="bannerMedidas responsive"><img src={medidasMovil} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
         </div>
         <div className="boxesIni posRelative">
             <div className="centrado">
-                <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src={imagen} width="1400" height="1000" className="slideMain" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
             </div>
             <div>
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
