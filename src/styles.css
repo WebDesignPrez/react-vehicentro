@@ -1972,6 +1972,10 @@ a.titleBox2:hover {
   max-width: 100%;
 }
 
+.ocultoMomentaneo{
+  display: none !important;
+}
+
 
 .btn6::before {
   content: '';

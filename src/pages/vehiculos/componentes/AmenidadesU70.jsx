@@ -12,33 +12,33 @@ function AmenidadesU70() {
         <div className='option'>
           <div className='uno'>
             <div className='izquierda'>
-              <img src={urlMedia + "icono1.png"} alt='Asiento de Pasajeros Auto U70' />
+              <img src={urlMedia + "icono1.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>7 Pasajeros</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono2.png"} alt='Icono Motor U70 154HP' />
+              <img src={urlMedia + "icono2.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>154 HP</p>
             </div>
             <div className='izquierda'>
-              <img src={urlMedia + "icono3.png"} alt='Rin 17 pulgadas' />
+              <img src={urlMedia + "icono3.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>17 Pulgadas</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono4.png"} alt='Frenos de disco U70' />
+              <img src={urlMedia + "icono4.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>Frenos de Disco</p>
             </div>
           </div>
           <div className='dos'>
             <div className='izquierda2'>
-              <img className='suvCarro' src={urlMedia + "icono5.png"} alt='Largo del auto u70' />
+              <img className='suvCarro' src={urlMedia + "icono5.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>4825 mm</p>
             </div>
             <div className='derecha2'>
-              <img src={urlMedia + "iconoAC.png"} alt='Aire acondicionado eléctrico' />
+              <img src={urlMedia + "iconoAC.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>A/C Eléctrico</p>
             </div>
             <div className='derecha2'>
-              <img src={urlMedia + "icono7.png"} alt='Gasolina Extra' />
+              <img src={urlMedia + "icono7.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>Gasolina Extra</p>
             </div>
           </div>
@@ -51,37 +51,37 @@ function AmenidadesU70() {
         <div className='option'>
           <div className='uno'>
             <div className='izquierda'>
-              <img src={urlMedia + "icono1.png"} alt='Asiento de Pasajeros Auto U70' />
+              <img src={urlMedia + "icono1.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>7 Pasajeros</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono2.png"} alt='Icono Motor U70 154HP' />
+              <img src={urlMedia + "icono2.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>154 HP</p>
             </div>
           </div>
           <div className='uno'>
             <div className='izquierda'>
-              <img src={urlMedia + "icono3.png"} alt='Rin 17 pulgadas' />
+              <img src={urlMedia + "icono3.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>17 Pulgadas</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono4.png"} alt='Frenos de disco U70' />
+              <img src={urlMedia + "icono4.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros'/>
               <p>Frenos de Disco</p>
             </div>
           </div>
           <div className='dos'>
             <div className='izquierda2'>
-              <img src={urlMedia + "icono5.png"} alt='Largo del auto u70' />
+              <img src={urlMedia + "icono5.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>4825 mm</p>
             </div>
             <div className='derecha2'>
-              <img src={urlMedia + "iconoAC.png"} alt='Aire acondicionado eléctrico'  />
+              <img src={urlMedia + "iconoAC.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros'  />
               <p>A/C Eléctrico</p>
             </div>
           </div>
           <div className='dos'>
             <div className='derecha2'>
-              <img src={urlMedia + "icono7.png"} alt='Gasolina Extra' />
+              <img src={urlMedia + "icono7.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>Gasolina Extra</p>
             </div>
             <div className='derecha2'>
@@ -93,7 +93,7 @@ function AmenidadesU70() {
 
 
         <div className='image'>
-          <img src={urlMedia + "emocion1.webp"} />
+          <img src={urlMedia + "emocion1.webp"}  alt='auto 7 pasajeros' title='auto 7 pasajeros'/>
         </div>
 
 

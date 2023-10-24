@@ -15,7 +15,7 @@ const Vehiculo = ({ path }) => {
     <div className='todo'>
       <div className='vehiculos'>
 
-        <img className='carImage' src={selectedImage} alt="U70PRO" />
+        <img className='carImage' src={selectedImage} alt='auto 7 pasajeros - sinotruk' title='auto 7 pasajeros - sinotruk' />
 
 
         <div className='description'>
@@ -32,7 +32,7 @@ const Vehiculo = ({ path }) => {
       </div>
 
       <div className='textoVehiculos'>
-        <img src={urlMedia + 'tecnologia.jpg'} alt='Suv colores' />
+        <img src={urlMedia + 'tecnologia.jpg'} alt='auto 7 pasajeros - sinotruk' title='auto 7 pasajeros - colores suv' />
       </div>
 
     </div>

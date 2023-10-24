@@ -25,23 +25,23 @@ const Galeria = ({ path = 'vehiculos/' }) => {
               loop
             >
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'emocion1.webp'} alt="Faro delantero U70PRO" />
+                <img width="100%" src={urlMedia + 'emocion1.webp'} alt="Faro delantero U70PRO - auto 7 pasajeros" title="auto 7 pasajeros" />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'retro.webp'} alt="Direccionales U70PRO" />
+                <img width="100%" src={urlMedia + 'retro.webp'} alt="Direccionales U70PRO - auto 7 pasajeros" title="auto 7 pasajeros"  />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'faro.webp'} alt="Faro trasero U70PRO" />
+                <img width="100%" src={urlMedia + 'faro.webp'} alt="Faro trasero U70PRO - auto 7 pasajeros" title="auto 7 pasajeros"  />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'llantas.webp'} alt="Rines de 18 pulgadasU70PRO" />
+                <img width="100%" src={urlMedia + 'llantas.webp'} alt="Rines de 18 pulgadasU70PRO - auto 7 pasajeros" title="auto 7 pasajeros"  />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'emocion4.webp'} alt="Techo Panoramico U70PRO" />
+                <img width="100%" src={urlMedia + 'emocion4.webp'} alt="Techo Panoramico U70PRO - auto 7 pasajeros" title="auto 7 pasajeros"  />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'sinLlave.webp'} alt="Apertura sin llave U70PRO" />
+                <img width="100%" src={urlMedia + 'sinLlave.webp'} alt="Apertura sin llave U70PRO - auto 7 pasajeros" title="auto 7 pasajeros"  />
               </Carousel.Item>
 
 
@@ -56,13 +56,13 @@ const Galeria = ({ path = 'vehiculos/' }) => {
               loop
             >
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'emocion1.webp'} alt="Faro delantero U70" />
+                <img width="100%" src={urlMedia + 'emocion1.webp'} alt="Faro delantero U70 - auto 7 pasajeros" title="auto 7 pasajeros"  />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'retro.webp'} alt="Direccionales U70" />
+                <img width="100%" src={urlMedia + 'retro.webp'} alt="Direccionales U70 - auto 7 pasajeros" title="auto 7 pasajeros"  />
               </Carousel.Item>
               <Carousel.Item>
-                <img width="100%" src={urlMedia + 'faro.webp'} alt="Faro trasero U70" />
+                <img width="100%" src={urlMedia + 'faro.webp'} alt="Faro trasero U70 - auto 7 pasajeros" title="auto 7 pasajeros" />
               </Carousel.Item>
 
 
