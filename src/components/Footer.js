@@ -102,7 +102,7 @@ export default function Footer() {
 
 
       </div >
-      <a href="https://api.whatsapp.com/send?phone=593988593279" className="btn-wsp" target="_blank" rel="noreferrer">
+      <a href="https://api.whatsapp.com/send?phone=593998282703" className="btn-wsp" target="_blank" rel="noreferrer">
         <img className="imgWpp" width="60" height="60" src={urlMedia + "wpp.gif"} alt="Whatsapp"></img>
       </a>
     </div >

@@ -169,7 +169,7 @@ const Interior = () => {
             <p className=' subtitle-description' >{interiores[caracteristica].subCategorias[subCaracteristica].descripcion}</p>
 
             <div className='img-container'>
-              <img src={interiores[caracteristica].subCategorias[subCaracteristica].img} alt="" />
+              <img src={interiores[caracteristica].subCategorias[subCaracteristica].img} alt="Caracteristicas - auto 7 pasajeros" title="auto 7 pasajeros"  />
             </div>
 
           </div>
@@ -228,7 +228,7 @@ const Interior = () => {
               <div key={index} className='items'>
                 <h4 className='subtitle-info' >{subCategoria.titulo}</h4>
                 <p className=' subtitle-description' >{subCategoria.descripcion}</p>
-                <img src={subCategoria.img} alt="Galeria U70PRO" />
+                <img src={subCategoria.img} alt="Galeria - auto 7 pasajeros" title="auto 7 pasajeros"  />
               </div>
             ))
 

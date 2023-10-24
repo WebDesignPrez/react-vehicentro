@@ -118,7 +118,7 @@ function Camion() {
             motor = "https://vehicentro.com/cotizacion/images/minicargadora/degradado.jpg"
             garantia = urlMedia + "swe210/5-anos-de-garantia.webp"
             tecnologia = urlMedia + "swl3220/WEB-LOGO-SUNWARD-1.png"
-            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swl3220/kubotaBomba.png"} alt="bombas kubota Minicargadora" /></div>
+            contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swl3220/kubotaBomba.png"} alt="bombas kubota - Minicargadora" title="Minicargadora" /></div>
 
             caracteristicas = [
                 urlMedia + "swe210/camion-de-24-toneladas-potencia-340hp.webp",
@@ -172,7 +172,7 @@ function Camion() {
                         </Fade>
                     }
                     {internas1b.length == 1 &&
-                        <img src={internas1b[0]} alt="odometro de presión y Temperatura Minicargadora" />
+                        <img src={internas1b[0]} alt="Minicargadora" title="Minicargadora" />
                     }
                 </div>
                 <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
@@ -182,7 +182,7 @@ function Camion() {
                         </Fade>
                     }
                     {internas2b.length == 1 &&
-                        <img src={internas2b[0]} alt="Marca Minicargadora" />
+                        <img src={internas2b[0]} alt="Minicargadora" title="Minicargadora" />
                     }
                 </div>
             </div>
@@ -254,6 +254,9 @@ function Camion() {
             <meta name="twitter:data1" content="5 minutos"></meta>        
         </Helmet>
         <NavBarTop />
+        <div className="ocultoMomentaneo">
+            <p>¿Buscas la minicargadora perfecta para tus proyectos de construcción en Ecuador? En nuestro catálogo de minicargadoras de última generación, encontrarás la solución ideal. Ofrecemos una amplia gama de minicargadoras de alta calidad, diseñadas para satisfacer las necesidades específicas de tus trabajos en construcción, paisajismo, agricultura y más. Nuestras minicargadoras están respaldadas por un equipo de expertos en maquinaria pesada y un servicio de atención al cliente excepcional. Si estás en busca de la mejor minicargadora en Ecuador, no busques más. ¡Contáctanos hoy y descubre cómo podemos ayudarte a potenciar tus proyectos con la tecnología y la eficiencia que necesitas!</p>
+        </div>
         <div className="boxesIni posRelative content2">
             <div className="boxRight">
                 {images.length > 1 &&
@@ -266,12 +269,12 @@ function Camion() {
                 }
             </div>
             <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                <img src={motor} width="1400" height="1000" className="slideMain" alt={`Motor ${nombreBusqueda}`} />
+                <img src={motor} width="1400" height="1000" className="slideMain" alt={`Motor ${nombreBusqueda}`} title="Minicargadora" />
                 <div className="boxText flex-table row textoSobrepuesto">
                     <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
                     <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Minicargadora ${textoMotor2}`}</h1></div>
                     <div onClick={openFormContact} className="flex-row  textoMotor3">Ficha técnica</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`flecha ${nombreBusqueda}`} /></div>
+                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`flecha ${nombreBusqueda}`} title="Minicargadora" /></div>
                 </div>
             </div>
 
@@ -287,7 +290,7 @@ function Camion() {
                 </div>
 
                 <div className="boxRightHeader  half icon_center" >
-                    <div className="banner"><img src={tecnologia} alt={`tecnologia ${nombreBusqueda}`} /></div>
+                    <div className="banner"><img src={tecnologia} alt={`tecnologia ${nombreBusqueda}`} title="Minicargadora" /></div>
                     {/*           <p className="tecJaponesa">Tecnología Japonesa</p> */}
                 </div>
 
@@ -297,7 +300,7 @@ function Camion() {
                 </div>
 
                 <div className="boxRightHeader  half icon_right">
-                    <div className="banner"><img src={garantia} alt={`garantia ${nombreBusqueda}`} /></div>
+                    <div className="banner"><img src={garantia} alt={`garantia ${nombreBusqueda}`} title="Minicargadora"/></div>
                 </div>
 
             </div>
@@ -306,7 +309,7 @@ function Camion() {
 
             <div className="boxesIni posRelative">
                 <div className="marcasbg">
-                    <img src={cabina} width="1500" height="1500" className="slideMain" alt={`Cabina ${nombreBusqueda}`} />
+                    <img src={cabina} width="1500" height="1500" className="slideMain" alt={`Cabina ${nombreBusqueda}`} title="Minicargadora" />
                 </div>
 
                 <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
@@ -317,7 +320,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas1.length == 1 &&
-                            <img src={internas1[0]} alt={`Internas 1 ${nombreBusqueda}`} />
+                            <img src={internas1[0]} alt={`Internas 1 ${nombreBusqueda}`} title="Minicargadora" />
                         }
                     </div>
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
@@ -327,7 +330,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas2.length == 1 &&
-                            <img src={internas2[0]} alt={`Internas 2 ${nombreBusqueda}`} />
+                            <img src={internas2[0]} alt={`Internas 2 ${nombreBusqueda}`} title="Minicargadora" />
                         }
                     </div>
                     <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
@@ -337,7 +340,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas.length == 1 &&
-                            <img src={internas[0]} alt={`Internas 3 ${nombreBusqueda}`} />
+                            <img src={internas[0]} alt={`Internas 3 ${nombreBusqueda}`} title="Minicargadora" />
                         }
 
                     </div>
@@ -347,14 +350,14 @@ function Camion() {
 
 
             </div>
-            <div className="bannerMedidas noResponsive"><img src={medidas} alt={`medidas ${nombreBusqueda}`}  /></div>
+            <div className="bannerMedidas noResponsive"><img src={medidas} alt={`medidas ${nombreBusqueda}`}  title="Minicargadora" /></div>
             {/* <div className="bannerMedidas noResponsive mini"><img src={medidasDos} /></div> */}
-            <div className="bannerMedidas responsive"><img src={medidasMovil} alt={`medidas apra dispositivos moviles ${nombreBusqueda}`} /></div>
+            <div className="bannerMedidas responsive"><img src={medidasMovil} alt={`medidas apra dispositivos moviles ${nombreBusqueda}`} title="Minicargadora" /></div>
             {/* <div className="bannerMedidas responsive"><img src={medidasMovilDos} /></div> */}
         </div>
          <div className="boxesIni posRelative">
             <div className="centrado">
-                <img src={imagen} width="1400" height="1000" className="slideMain" alt={`postal ${nombreBusqueda}`}  />
+                <img src={imagen} width="1400" height="1000" className="slideMain" alt={`postal ${nombreBusqueda}`}  title="Minicargadora" />
             </div>
             <div>
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
