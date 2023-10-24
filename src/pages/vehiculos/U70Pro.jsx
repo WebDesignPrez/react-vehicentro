@@ -38,8 +38,10 @@ function U70Pro() {
         <meta name="twitter:label1" content="Tiempo de lectura"></meta>
         <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
+      <div className="ocultoMomentaneo">
             <h1>U70 Pro - Auto 7 Pasajeros</h1>	
             <p>¿Necesitas un vehículo espacioso y versátil para llevar a tu familia o grupo de amigos en Ecuador? Nuestra selección de autos de 7 pasajeros es la respuesta perfecta a tus necesidades de transporte. Con un equilibrio perfecto entre comodidad, seguridad y capacidad, nuestros vehículos están diseñados para hacer que tus viajes sean inolvidables. Ya sea para aventuras familiares o escapadas con amigos, nuestros autos de 7 pasajeros ofrecen un amplio espacio interior y las últimas características de seguridad y entretenimiento. Descubre una forma más conveniente y emocionante de viajar por Ecuador. Encuentra el auto de tus sueños entre nuestra gama de opciones y comienza a planificar tus próximas aventuras en grande. ¡Explora nuestra selección hoy y descubre por qué somos la elección preferida de aquellos que buscan la máxima comodidad y estilo en sus viajes en grupo!</p>
+      </div>
       <NavBarTop />
 
       <Hero path={path} />
