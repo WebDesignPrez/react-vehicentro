@@ -123,7 +123,7 @@ function Serie() {
             ];
 
             garantia = urlMedia + "10-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "10-toneladas/tecnologia-alemana.webp"
+            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
 
             cabina = urlMedia + "10-toneladas/cabina-de-camion-de-10-toneladas-sinotruk.webp"
             marcas = urlMedia + "10-toneladas/marcas-vehicentro.webp"
@@ -184,7 +184,7 @@ function Serie() {
             ];
 
             garantia = urlMedia + "9-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "9-toneladas/tecnologia-alemana.webp"
+            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
 
             cabina = urlMedia + "9-toneladas/cabina-de-camion-de-9-toneladas-sinotruk.webp"
             marcas = urlMedia + "9-toneladas/marcas-vehicentro.webp"
@@ -246,7 +246,7 @@ function Serie() {
 
 
             garantia = urlMedia + "12-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "12-toneladas/tecnologia-alemana.webp"
+            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
 
             cabina = urlMedia + "20-toneladas/cabina-de-camion-de-20-toneladas-sinotruk.webp"
             marcas = urlMedia + "20-toneladas/marcas-vehicentro.webp"

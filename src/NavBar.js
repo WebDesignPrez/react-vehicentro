@@ -570,7 +570,7 @@ export default function NavBar() {
           <div className="headerSubMenu">
             <div className="closeMovil" data-id="0"></div>
             <p className="tituloMenu">CAMIONES</p>
-            <img className="imgnMenu" src={urlMedia + "home/logo-sinotruck-negro-2.png"} width="637" height="147" alt="Sinotruck" />
+            <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} width="637" height="147" alt="Sinotruck" />
           </div>
           <div className="rowMenu">
             <div className="colMenu">
@@ -640,7 +640,7 @@ export default function NavBar() {
           <div className="headerSubMenu">
             <div className="closeMovil" data-id="1"></div>
             <p className="tituloMenu">MAQUINARIA</p>
-            <img className="imgnMenu" src={urlMedia + "logo-sunward.webp"} alt="sunward" width="100" height="32" />
+            <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} alt="sunward" width="100" height="32" />
           </div>
           <div className="rowMenu">
             <div className="colMenu">

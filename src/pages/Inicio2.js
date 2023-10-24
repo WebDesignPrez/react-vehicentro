@@ -297,7 +297,7 @@ function Block3() {
             </Slide>
             <div className="bottomContainer">
               <div className="bannerTec">
-                <img src={urlMedia + "home/tecnologia-alemana.webp"} width="590" height="170" alt="Tecnologia Alemana" />
+                <img src={urlMedia + "pruebaTA.webp"} width="1000" height="270" alt="Tecnologia Alemana" />
               </div>
               <div className="boxPlayerMotor audiohome">
                 <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
@@ -352,7 +352,7 @@ function Block3() {
               <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430"> 10-14 m3</NavLink>
               <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540"> 20 m3</NavLink>
               <p>Mixer:</p>
-              <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280"> A7 8-9 m3</NavLink>
+              <NavLink className="line2" src="" to="/mixer/mixer-a7-1257"> A7 8-9 m3</NavLink>
             </div>
           </div>
 
