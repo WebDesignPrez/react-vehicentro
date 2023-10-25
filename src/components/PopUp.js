@@ -24,7 +24,6 @@ const PopUp = () => {
     unlockScroll(); // Desbloquear el desplazamiento al cerrar el pop-up
 
     if(cookies.location){
-console.log(cookies.location);
 
       if(cookies.location === 'CO'){
         window.location.href = 'https://vehicentro.com/co/';
@@ -41,10 +40,10 @@ console.log(cookies.location);
   useEffect(()=>{
     if(location === 'EC'){
       setIsOpen(!isOpen);
-      setCookie('location',"EC",[maxAge=5])
+      setCookie('location',"EC",{maxAge:180})
     }else if(location ==='CO'){
       window.location.href = 'https://vehicentro.com/co/';
-      setCookie('location',"CO",[maxAge=5])
+      setCookie('location',"CO",{maxAge:180})
     }
 
 
