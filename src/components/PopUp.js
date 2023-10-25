@@ -2,9 +2,12 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import '../popUp.css';
+import { useCookies } from 'react-cookie';
 
 const PopUp = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [location ,setLocation] = useState("");
+  const [cookies, setCookie, removeCookie] = useCookies(['cookie-name']);
 
   const lockScroll = () => {
     document.body.style.overflow = 'hidden';
@@ -19,17 +22,34 @@ const PopUp = () => {
   useEffect(() => {
     setIsOpen(true); // Abrir el pop-up al iniciar la aplicación
     unlockScroll(); // Desbloquear el desplazamiento al cerrar el pop-up
+
+    if(cookies.location){
+
+      if(cookies.location === 'CO'){
+        window.location.href = 'https://vehicentro.com/co/';
+        setIsOpen(false)
+      } 
+
+      if(cookies.location === 'EC'){
+        setIsOpen(false)
+      }
+
+    }
   }, []);
 
- 
+  useEffect(()=>{
+    if(location === 'EC'){
+      setIsOpen(!isOpen);
+      setCookie('location',"EC",{maxAge:180})
+    }else if(location ==='CO'){
+      window.location.href = 'https://vehicentro.com/co/';
+      setCookie('location',"CO",{maxAge:180})
+    }
 
-  const togglePopup = () => {
-    setIsOpen(!isOpen);
-  };
 
-  const handleRedirect = () => {
-    window.location.href = 'https://vehicentro.com/co/';
-  };
+  }, [location])
+
+
 
   return (
     <div>
@@ -43,8 +63,10 @@ const PopUp = () => {
               className="popup-image"
             />
             </div>
+
             <div className="containerBanderas">
-              <div className="popup-left" onClick={togglePopup}>
+
+              <div className="popup-left" onClick={()=> setLocation("EC")}>
                 <img
                   src="https://vehicentro.com/images/mapa-ecuador-prendido-nuevo.png"
                   alt="Imagen izquierda 1"
@@ -56,7 +78,8 @@ const PopUp = () => {
                   className="popup-left-image2"
                 />
               </div>
-              <div className="popup-right" onClick={handleRedirect}>
+
+              <div className="popup-right" onClick={()=> setLocation("CO")}>
                 <img
                   src="https://vehicentro.com/images/mapa-colombia-prendido-nuevo.png"
                   alt="Imagen derecha 1"
@@ -69,6 +92,7 @@ const PopUp = () => {
                 />
               </div>
             </div>
+
           </div>
         </div>
       )}
