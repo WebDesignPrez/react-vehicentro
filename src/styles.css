@@ -717,10 +717,6 @@ p.titleFooter {
   width: 5%;
 }
 
-.serieSinotrukAutos{
-  display: flex;
-  justify-content: space-evenly;
-}
 
 .modelosFurgonetas{
   color: #fff;
@@ -731,7 +727,7 @@ p.titleFooter {
   size: 2rem;
 }
 
-.serieSinotrukAutos .icons{
+/* .serieSinotrukAutos .icons{
   width: 20px;
 }
 
@@ -741,7 +737,7 @@ p.titleFooter {
 
 .serieSinotrukAutos .logosRojo{
   width: 60%;
-}
+} */
 
 
 .boxesIni .boxLeft .boxPlay,
@@ -2019,6 +2015,21 @@ a.titleBox2:hover {
   border-right: 1px solid #ac1e22;
   color: #ac1e22;
 }
+
+.serieSinotrukAutos{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.serieSinotrukAutos div a img{
+  width: 300px;
+  height: 150px;
+}
+
+
+
 
 .btn6 {
   border: 1px solid #e6e3e3;
