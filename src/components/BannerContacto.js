@@ -60,7 +60,7 @@ export default function BannerContacto(props){
 
 
     function gotoWs(){
-      window.open('https://api.whatsapp.com/send/?phone=593988593279', '_blank')
+      window.open('https://api.whatsapp.com/send/?phone=593992872703', '_blank')
       closeContact()
     }
 
