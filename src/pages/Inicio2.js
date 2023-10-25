@@ -9,6 +9,8 @@ import { Helmet } from "react-helmet";
 import PopUp from "../components/PopUp";
 
 
+
+
 let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHBOTONCOT"
 let nombreCamion = ""
 let nombreSerie = "Serie 100"
@@ -17,6 +19,7 @@ let audio_motor = "../images/10-toneladas/motor.mp3"
 let urlMedia = env.url
 
 function Inicio2() {
+
 
   const [modalFormIsOpen, setFormIsOpen] = useState(false);
   /* const [modal2FormIsOpen, setForm2IsOpen] = useState(false); */
@@ -82,6 +85,7 @@ function Inicio2() {
 */
 
   }, []);
+
 
 
   function openFormContact() {
