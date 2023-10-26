@@ -578,7 +578,7 @@ export default function NavBarTop() {
                         <div className="colMenu">
                             <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
                             {/* <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">bdc</a> */}
-                            <a href="../bdc/paises" className="colItem meniu negro">bdc</a>
+                            <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">bdc</a>
                             <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
                             <a href="repuestos" className="colItem meniu negro">Repuestos</a>
                         </div>

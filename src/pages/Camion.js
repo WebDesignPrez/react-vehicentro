@@ -49,6 +49,7 @@ let nombreBusqueda
 let pathUrl
 let mercadoObjetivo
 let fortalezas
+let seo
 
 function Camion() {
 
@@ -103,6 +104,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 10 Ton"
             textoMotor3 = "Ficha Técnica"
             precio = precios.diez
+            seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.diez_cuota}`
             motor = urlMedia + "10-toneladas/motor-sinotruk-de-camion-de-10-toneladas-ecuador.webp"
             garantia = urlMedia + "10-toneladas/5-anos-de-garantia.webp"
@@ -161,6 +163,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 9 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.nueve
+            seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.nueve_cuota}`
             motor = urlMedia + "9-toneladas/motor-sinotruk-de-camion-de-9-toneladas-ecuador.webp"
             garantia = urlMedia + "9-toneladas/5-anos-de-garantia.webp"
@@ -217,6 +220,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 12 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.doce
+            seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.doce_cuota}`
             motor = urlMedia + "12-toneladas/motor-sinotruk-de-camion-de-12-toneladas-ecuador.webp"
             garantia = urlMedia + "12-toneladas/5-anos-de-garantia.webp"
@@ -274,6 +278,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 13 Ton"
             textoMotor3 = "Ficha Técnica"
             precio = precios.trece
+            seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.trece_cuota}`
             motor = urlMedia + "13-toneladas/motor-sinotruk-de-camion-de-13-toneladas-ecuador.webp"
             garantia = urlMedia + "13-toneladas/5-anos-de-garantia.webp"
@@ -331,6 +336,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1167 - 13 Ton"
             textoMotor3 = "Ficha Técnica"
             precio = precios.trece_330
+            seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.trece_330_cuota}`
             motor = urlMedia + "13-toneladas-330/motor-sinotruk-de-camion-de-13-toneladas-ecuador.webp"
             garantia = urlMedia + "13-toneladas-330/5-anos-de-garantia.webp"
@@ -386,6 +392,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1257 - 18 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.d_ocho
+            seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.d_ocho_cuota}`
             motor = urlMedia + "18-toneladas/motor-sinotruk-de-camion-de-18-toneladas-ecuador.webp"
             garantia = urlMedia + "18-toneladas/5-anos-de-garantia.webp"
@@ -443,6 +450,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-1257"
             textoMotor3 = "Ficha técnica"
             precio = precios.d_nueve
+            seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.d_nueve_cuota}`
             motor = urlMedia + "19-toneladas/motor-sinotruk-de-camion-de-19-toneladas-ecuador.webp"
             garantia = urlMedia + "19-toneladas/5-anos-de-garantia.webp"
@@ -483,7 +491,6 @@ function Camion() {
         //3.5 toneladas
         case "camion-de-3-5-toneladas-1057":
             pathUrl = "camion-de-3-5-toneladas-1057"
-            console.log('3.5 toneladas')
             nombreCamion = "Camión de 3.5 toneladas | 1057"
             nombreBusqueda = "Camión de 3.5 toneladas"
             camionSerie = "1057 / 3.5 TON"
@@ -499,6 +506,7 @@ function Camion() {
             textoMotor2 = "Modelo 1057 - 3.5 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.tres_cinco
+            seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
             cuotas = `Cuotas desde: ${precios.tres_cinco_cuota}`
             motor = urlMedia + "3.5-toneladas/motor-sinotruk-de-camion-de-3.5-toneladas-ecuador.webp"
             garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
@@ -602,6 +610,7 @@ function Camion() {
             textoMotor2 = "Modelo 1047 - 3.6 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.tres_seis
+            seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
             cuotas = `Cuotas desde: ${precios.tres_seis_cuota}`
             motor = urlMedia + "3.6-toneladas/motor-sinotruk-de-camion-de-3.6-toneladas-ecuador.webp"
             garantia = urlMedia + "3.6-toneladas/5-anos-de-garantia.webp"
@@ -703,6 +712,7 @@ function Camion() {
             textoMotor2 = "Modelo 1067 - 5 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.cinco
+            seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
             cuotas = `Cuotas desde: ${precios.cinco_cuota}`
             motor = urlMedia + "5-toneladas/motor-sinotruk-de-camion-de-5-toneladas-ecuador.webp"
             garantia = urlMedia + "5-toneladas/5-anos-de-garantia.webp"
@@ -805,6 +815,7 @@ function Camion() {
             textoMotor2 = "Modelo 1067 - 6 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.seis
+            seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
             cuotas = `Cuotas desde: ${precios.seis_cuota}`
             motor = urlMedia + "6-toneladas/motor-sinotruk-de-camion-de-6-toneladas-ecuador.webp"
             garantia = urlMedia + "6-toneladas/5-anos-de-garantia.webp"
@@ -893,6 +904,7 @@ function Camion() {
             textoMotor2 = "Modelo 1147 - 8 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.ocho
+            seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
             cuotas = `Cuotas desde: ${precios.ocho_cuota}`
             motor = urlMedia + "8-toneladas/motor-sinotruk-de-camion-de-8-toneladas-ecuador.webp"
             garantia = urlMedia + "8-toneladas/5-anos-de-garantia.webp"
@@ -947,6 +959,7 @@ function Camion() {
             textoMotor2 = "Modelo C7H-1256"
             textoMotor3 = "20 Ton"
             precio = precios.veinte
+            seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.veinte_cuota}`
             motor = urlMedia + "20-toneladas/motor-sinotruk-de-camion-de-20-toneladas-ecuador.webp"
             garantia = urlMedia + "20-toneladas/5-anos-de-garantia.webp"
@@ -1001,6 +1014,7 @@ function Camion() {
                 textoMotor2 = "Modelo C7H-1256"
                 textoMotor3 = "Ficha Técnica"
                 precio = precios.veinte_catalinas
+                seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
                 cuotas = `Cuotas desde: ${precios.veinte_catalinas_cuota}`
                 motor = urlMedia + "20Catalinas/motor20Catalinas.jpg"
                 garantia = urlMedia + "20-toneladas/5-anos-de-garantia.webp"
@@ -1049,7 +1063,7 @@ function Camion() {
     switch ((useParams("id").id)) {
 
         case "camion-de-3-5-toneladas-1057":
-            imagen = urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-en-la-carretera-sinotruk.webp"
+            imagen = urlMedia + "seo/3.5Ton.jpg"
             break;
 
         case "camion-de-3-6-toneladas":
@@ -1142,19 +1156,19 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Camiones {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo} />
+            <meta name="description" content={seo} ></meta>
             <meta name="keywords" content={'camion, camiones, venta de camiones, camiones en ecuador, camiones en venta Ecuador, venta camiones Sinotruk, ' + nombreCamion + ', ' + nombreBusqueda + ', ' + nombreSerie + ', ' + camionSerie}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={nombreCamion + ' - Venta de Camiones ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo}></meta>
+            <meta property="og:description" content={seo}></meta>
             <meta property="og:url" content={'https://vehicentro.com/camiones/'+pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion +', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones de alta calidad y rendimiento, encuentra tu ' + nombreBusqueda + ' en las principales ciudades de Ecuador. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo}></meta>
+            <meta name="twitter:description" content={seo}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
             <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>

@@ -1,17 +1,17 @@
 let precios = {
 
 
-    tres_cinco: " $23,990 ",
-    tres_cinco_cuota: " $460.00",
+    tres_cinco: "$23,990",
+    tres_cinco_cuota: "$460.00",
 
-    tres_seis: " $23,990 ",
-    tres_seis_cuota: " $460.00",
+    tres_seis: "$23,990",
+    tres_seis_cuota: "$460.00",
 
-    cinco: " $27,990 ",
-    cinco_cuota: " $463.00 ",
+    cinco: "$27,990",
+    cinco_cuota: "$463.00",
 
-    seis: " $31,890 ",
-    seis_cuota: " $524.00 ",
+    seis: "$31,890",
+    seis_cuota: "$524.00",
 
     ocho: " $42,990 ",
     ocho_cuota: " $708.00 ",
