@@ -50,6 +50,7 @@ let nombreBusqueda
 let nombreBusqueda2
 let mercadoObjetivo
 let fortalezas
+let seo
 
 function Camion() {
 
@@ -106,6 +107,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-4187 - 24 Ton"
             textoMotor3 = "Ficha técnica"
             precio = precios.v_cuatro
+            seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.v_cuatro_cuota}`
             motor = urlMedia + "24-toneladas/motor-sinotruk-de-camion-de-24-toneladas-ecuador.webp"
             garantia = urlMedia + "24-toneladas/5-anos-de-garantia.webp"
@@ -169,6 +171,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-390"
             textoMotor3 = "Ficha técnica"
             precio = precios.v_ocho
+            seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.v_ocho_cuota}`
             motor = urlMedia + "28-toneladas/motor-sinotruk-de-camion-de-28-toneladas-ecuador.webp"
             garantia = urlMedia + "28-toneladas/5-anos-de-garantia.webp"
@@ -287,6 +290,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-390"
             textoMotor3 = "Ficha técnica"
             precio = precios.c_dos
+            seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.c_dos_cuota}`
             motor = urlMedia + "42-toneladas/motor-sinotruk-de-camion-de-42-toneladas-ecuador.webp"
             garantia = urlMedia + "42-toneladas/5-anos-de-garantia.webp"
@@ -346,6 +350,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-430"
             textoMotor3 = "Ficha técnica"
             precio = precios.c_cinco
+            seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.c_cinco_cuota}`
             motor = urlMedia + "45-toneladas/motor-sinotruk-de-camion-de-45-toneladas-ecuador.webp"
             garantia = urlMedia + "45-toneladas/5-anos-de-garantia.webp"
@@ -400,10 +405,12 @@ function Camion() {
                 textoMotor2 = "Modelo C7H-540"
                 textoMotor3 = "Ficha técnica"
                 precio = precios.c_ocho
+                seo = seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
+                console.log(seo)
                 cuotas = `Cuotas desde: ${precios.c_ocho_cuota}`
                 motor = urlMedia+"48-toneladas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
                 garantia = urlMedia+"48-toneladas/5-anos-de-garantia.webp"
-                tecnologia = urlMedia+""
+                tecnologia = urlMedia+ "tecnologiaAlemanaLogoNew.png"
                 caracteristicas = [
                     urlMedia+"48-toneladas/camion-de-48-toneladas-potencia-540hp.webp",
                     urlMedia+"48-toneladas/camion-de-48-toneladas-cilindraje.webp",
@@ -463,6 +470,7 @@ function Camion() {
             textoMotor2 = "Modelo C7H-540"
             textoMotor3 = "Ficha técnica"
             precio = precios.c_ocho_c
+            seo = seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
             cuotas = `Cuotas desde: ${precios.c_ocho_c_cuota}`
             motor = urlMedia + "48-toneladas-catalinas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
             garantia = urlMedia + "48-toneladas-catalinas/5-anos-de-garantia.webp"
@@ -582,19 +590,19 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Cabezales {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo} />
+            <meta name="description" content={seo} ></meta>
             <meta name="keywords" content={'cabezal, cabezales, venta de cabezales, cabezales en ecuador, cabezales en venta Ecuador , camiones en ecuador, camiones en venta Ecuador, venta cabezales Sinotruk, ' + nombreCamion + ', ' + nombreSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2 + ', ' + camionSerie}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
             <meta property="og:title" content={nombreCamion + ' - Venta de Cabezales ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo}></meta>
+            <meta property="og:description" content={seo}></meta>
             <meta property="og:url" content={'https://vehicentro.com/cabezales/'+pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta del ' + nombreCamion + ', ' + camionSerie + ', ' + nombreBusqueda + ', ' + nombreBusqueda2  + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de camiones y cabezales de alta calidad y rendimiento. ' + 'Fortalezas: ' +  fortalezas + '. Para los siguientes usos: ' + mercadoObjetivo}></meta>
+            <meta name="twitter:description" content={seo}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
             <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>

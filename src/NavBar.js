@@ -258,7 +258,7 @@ export default function NavBar() {
         navSearch[0].classList.toggle("nav-search-active");
 
         document.querySelector('.logoHome').classList.toggle("logoNav");
-        navh.classList.toggle("nav-inactive");
+      navh.classList.toggle("nav-inactive");
 
         navLinks.forEach((link, index) => {
           if (link.style.animation) {
@@ -771,7 +771,8 @@ export default function NavBar() {
           <div className="rowMenu">
             <div className="colMenu">
               <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
-              <a href="../bdc/paises" className="colItem meniu negro">BDC</a>
+              {/* <a href="../bdc/paises" className="colItem meniu negro">BDC</a> */}
+              <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">bdc</a>
               <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
               <a href="repuestos" className="colItem meniu negro">Repuestos</a><br></br>
               <a className="colItem meniu negro" id="js-btn">Políticas</a>
