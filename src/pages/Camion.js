@@ -1189,7 +1189,7 @@ function Camion() {
         <img src={motor} width="1400" height="1000" className="slideMain" alt={`Motor ${nombreBusqueda}`} />
         <div className="boxText flex-table row textoSobrepuesto">
           <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
-          <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Camión ${textoMotor2}`}</h1></div>
+          <div onClick={openFormContact} className="flex-row textoMotor2"><p>{`Camión ${textoMotor2}`}</p></div>
           <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
           <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} /></div>
           <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>

@@ -609,7 +609,7 @@ function Camion() {
     <NavBarTop />
 
     <div className="boxesIni posRelative content2">
-      <h1 style={{ fontSize: 0.1 }}>{nombreBusqueda}</h1>
+      <h1 style={{ fontSize: 0.01 }}>{nombreBusqueda}</h1>
       <div className="boxRight">
         {images.length > 1 &&
           <Slide>
