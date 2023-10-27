@@ -332,7 +332,6 @@ function Camion() {
     //45 toneladas
     case "cabezal-t7h-430-45-toneladas":
       pathUrl = "cabezal-t7h-430-45-toneladas"
-      console.log('45 ton')
       nombreCamion = "Cabezal de 45 toneladas | T7H-430"
       nombreBusqueda = "cabezal 45 toneladas"
       nombreBusqueda2 = "camion 45 toneladas"
@@ -391,9 +390,10 @@ function Camion() {
 
     //48 toneladas
     case "cabezal-c7h-540":
-      console.log('48 ton')
       nombreCamion = "Camion de 48 toneladas | C7H-540"
       camionSerie = "C7H 540 / 48 TON"
+      nombreBusqueda = "cabezal 48 toneladas"
+      nombreBusqueda2 = "camion 48 toneladas"
       nombreSerie = "Serie C7H"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDCO48TON"
       images = [

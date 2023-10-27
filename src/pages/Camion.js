@@ -1152,6 +1152,8 @@ function Camion() {
     </div>
   );
 
+  console.log('nombre busqueda', nombreBusqueda);
+
   // ---- PÁGINA ----
   return <>
     <Helmet>
