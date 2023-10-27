@@ -641,8 +641,8 @@ function Camion() {
       <div className="marcasbg textoImagenesProducto" >
 
         <div className="boxRightHeader  half text_icon_left" >
+            
           <p className='vidaUtil'>DESDE</p>
-          
           <p className='precioCamiones' >{precio}</p>
           <p className='cuotas'>{cuotas}</p>
         </div>
