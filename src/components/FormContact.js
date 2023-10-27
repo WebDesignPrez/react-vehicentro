@@ -307,7 +307,7 @@ function FormContact(props) {
           setTel('')
           setCed('')
 
-          
+
           window.location.href = redireccion;
         }
       })
@@ -472,9 +472,13 @@ function FormContact(props) {
             Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
           </label>
         </div>
-        <button className={isChecked ? 'nextBtn' : 'nextBtnDisabled'} type="submit" disabled={!isChecked}>
-          Cotizar
-        </button>
+
+        <h2 >
+          <button className={isChecked ? 'nextBtn' : 'nextBtnDisabled'} type="submit" disabled={!isChecked}>
+            Cotizar
+          </button>
+        </h2>
+
         <NotificationContainer />
       </form>
     </div>
