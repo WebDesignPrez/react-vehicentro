@@ -89,12 +89,12 @@ function Content2() {
 
                     <div className="serieSinotrukAutos">
                         <div className="contenedorAuto1">
-                            <Link to="../sinotruk/autos/u70">
+                            <Link to={pathU70}>
                                 <img className="logos" src="https://www.vehicentro.com/images/u70Logo22.webp" alt="Logo Sinotruk U70" />
                             </Link>
                         </div>
                         <div className="contenedorAuto2">
-                            <Link to="../sinotruk/autos/u70pro">
+                            <Link to={pathU70pro}>
                                 <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="Logo Sinotruk U70PRO" />
                             </Link>
                         </div>
