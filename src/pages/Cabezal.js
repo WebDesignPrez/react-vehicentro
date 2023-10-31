@@ -349,7 +349,8 @@ function Camion() {
       textoMotor2 = "Modelo T7H-430"
       textoMotor3 = "Ficha técnica"
       precio = precios.c_cinco
-      seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
+      seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. 
+      Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
       cuotas = `Cuotas desde: ${precios.c_cinco_cuota}`
       motor = urlMedia + "45-toneladas/motor-sinotruk-de-camion-de-45-toneladas-ecuador.webp"
       garantia = urlMedia + "45-toneladas/5-anos-de-garantia.webp"
@@ -395,6 +396,8 @@ function Camion() {
       nombreCamion = "Camion de 48 toneladas | C7H-540"
       camionSerie = "C7H 540 / 48 TON"
       nombreSerie = "Serie C7H"
+      nombreBusqueda = "cabezal 48 toneladas"
+      nombreBusqueda2 = "camion 48 toneladas"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDCO48TON"
       images = [
         urlMedia + "48-toneladas/portadac7h48.jpg",
@@ -641,7 +644,7 @@ function Camion() {
       <div className="marcasbg textoImagenesProducto" >
 
         <div className="boxRightHeader  half text_icon_left" >
-            
+
           <p className='vidaUtil'>DESDE</p>
           <p className='precioCamiones' >{precio}</p>
           <p className='cuotas'>{cuotas}</p>
