@@ -47,8 +47,9 @@ function Content1() {
     return (
         <>
             < div className="block2 noResponsive" >
-                <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/cotizacion/images/u70pro/u70pro.mp4" className="videoWidth" />
+                <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/u70proVideo.mp4" className="videoWidth" />
             </div >
+            
         </>
     )
 }
