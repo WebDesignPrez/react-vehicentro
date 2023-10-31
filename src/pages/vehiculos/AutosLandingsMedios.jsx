@@ -82,18 +82,22 @@ function Content2() {
         <>
             <div className="serieContainerAutos">
 
-                <div className="containerAutos">
+            <div className="containerAutos">
                     <div className="sinotrukContainer">
-                        <img src="https://www.vehicentro.com/images/sinotruk.webp" />
+                        <img src="https://www.vehicentro.com/images/sinotruckAutosPruebas2.webp" />
                     </div>
 
                     <div className="serieSinotrukAutos">
-                        <Link to= {pathU70}>
-                            <img className="logos" src="https://www.vehicentro.com/images/u70Logo22.webp" alt="Logo U70" />
-                        </Link>
-                        <Link to= {pathU70pro}>
-                            <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="Logo U70PRO" />
-                        </Link>
+                        <div className="contenedorAuto1">
+                            <Link to="../sinotruk/autos/u70">
+                                <img className="logos" src="https://www.vehicentro.com/images/u70Logo22.webp" alt="Logo Sinotruk U70" />
+                            </Link>
+                        </div>
+                        <div className="contenedorAuto2">
+                            <Link to="../sinotruk/autos/u70pro">
+                                <img className="logos" src="https://www.vehicentro.com/images/u70proLogoFlechasRoja2.webp" alt="Logo Sinotruk U70PRO" />
+                            </Link>
+                        </div>
                     </div>
                 </div>
 

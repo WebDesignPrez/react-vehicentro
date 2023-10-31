@@ -104,7 +104,9 @@ function Camion() {
       textoMotor2 = "Modelo T5G-1167 - 10 Ton"
       textoMotor3 = "Ficha Técnica"
       precio = precios.diez
-      seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`
+      seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, 
+      con cabina abatible electrónicamente. Precio: ${precio}`
+      seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, 5 años de garantía o kilometraje ilimitado, Precio: ${precio} ¡Descúbrelo hoy!`
       cuotas = `Cuotas desde: ${precios.diez_cuota}`
       motor = urlMedia + "10-toneladas/motor-sinotruk-de-camion-de-10-toneladas-ecuador.webp"
       garantia = urlMedia + "10-toneladas/5-anos-de-garantia.webp"
