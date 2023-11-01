@@ -143,7 +143,7 @@ function Camion() {
       internas = internas1.concat(internas2)
 
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} />
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`} />
       </div>
 
       contenedorVidaUtil = <div className="ajustetextovidautil"><p>Disponible en AMT</p></div>
@@ -204,7 +204,7 @@ function Camion() {
       internas = internas1.concat(internas2)
 
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} />
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`tecnologias ${nombreBusqueda}`} />
       </div>
 
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
@@ -263,7 +263,7 @@ function Camion() {
       internas = internas1.concat(internas2)
 
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`marcas ${nombreBusqueda}, ${nombreBusqueda2}`} />
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`} />
       </div>
 
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
@@ -323,7 +323,7 @@ function Camion() {
       internas = internas1.concat(internas2)
 
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`marcas ${nombreBusqueda}, ${nombreBusqueda2}`} />
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`} />
       </div>
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
 
@@ -384,7 +384,7 @@ function Camion() {
       internas = internas1.concat(internas2)
 
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} />
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
       </div>
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
 
@@ -444,7 +444,7 @@ function Camion() {
       internas = internas1.concat(internas2)
 
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} />
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
       </div>
       contenedorVidaUtil = <div className="ajustetextovidautil"><p>Disponible en AMT</p></div>
 
@@ -508,7 +508,7 @@ function Camion() {
       internas = internas1.concat(internas2)
 
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} />
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
       </div>
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
 
@@ -620,7 +620,7 @@ function Camion() {
           </Slide>
         }
         {images.length == 1 &&
-          <img src={images[0]} alt={`Portada ${nombreBusqueda}, ${nombreBusqueda2}`} />
+          <img src={images[0]} alt={`Portada ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
         }
       </div>
       <div className="boxLeft playMotor contenedorTextoSobrepuesto">
@@ -629,7 +629,7 @@ function Camion() {
           <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
           <div onClick={openFormContact} className="flex-row textoMotor2"><p>{`Cabezal ${textoMotor2}`}</p></div>
           <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
-          <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}, ${nombreBusqueda2}`} /></div>
+          <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/></div>
           <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
         </div>
         <div className="boxPlayerMotor ">
@@ -651,7 +651,7 @@ function Camion() {
         </div>
 
         <div className="boxRightHeader  half icon_center" >
-          <div className="banner"><img src={tecnologia} alt={`Tecnologia ${nombreBusqueda}, ${nombreBusqueda2}`} /></div>
+          <div className="banner"><img src={tecnologia} alt={`Tecnologia ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/></div>
         </div>
 
         <div className="boxRightHeader  half text_icon_center" >
@@ -659,7 +659,7 @@ function Camion() {
         </div>
 
         <div className="boxRightHeader  half icon_right">
-          <div className="banner"><img src={garantia} alt={`Garantia ${nombreBusqueda}, ${nombreBusqueda2}`} /></div>
+          <div className="banner"><img src={garantia} alt={`Garantia ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/></div>
         </div>
 
       </div>
@@ -668,26 +668,26 @@ function Camion() {
       <div className="boxesIni posRelative partesbg">
 
         <div className="caracteristicasProductos" >
-          <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt={`Caracteristicas ${nombreBusqueda}, ${nombreBusqueda2}`} />
+          <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt={`Caracteristicas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
         </div>
 
         <div className="caracteristicasProductos" >
-          <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt={`Caracteristicas 2 ${nombreBusqueda}, ${nombreBusqueda2}`} />
+          <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt={`Caracteristicas 2 ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
         </div>
 
         <div className="caracteristicasProductos" >
-          <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt={`Caracteristicas 3 ${nombreBusqueda}, ${nombreBusqueda2}`} />
+          <img src={caracteristicas[2]} width="1400" height="1000" className="slideMain" alt={`Caracteristicas 3 ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
         </div>
 
         <div className="caracteristicasProductos" >
-          <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt={`Caracteristicas 4 ${nombreBusqueda}, ${nombreBusqueda2}`} />
+          <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt={`Caracteristicas 4 ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
         </div>
 
       </div>
 
       <div className="boxesIni posRelative">
         <div className="marcasbg">
-          <img src={cabina} width="1500" height="1500" className="slideMain" alt={`Cabina ${nombreBusqueda}, ${nombreBusqueda2}`} />
+          <img src={cabina} width="1500" height="1500" className="slideMain" alt={`Cabina ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
         </div>
 
         <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
@@ -714,14 +714,14 @@ function Camion() {
       </div>
       <h2 style={{ paddingLeft: 50, paddingTop: 30 }}>Medidas y dimensiones</h2>
       <h2 style={{ fontSize: 0.01 }}>{nombreSerie}</h2>
-      <div className="bannerMedidas noResponsive"><img src={medidas} alt={`Medidas ${nombreBusqueda}, ${nombreBusqueda2}`} /></div>
-      <div className="bannerMedidas responsive"><img src={medidasMovil} alt={`Medidas Moviles ${nombreBusqueda}, ${nombreBusqueda2}`} /></div>
+      <div className="bannerMedidas noResponsive"><img src={medidas} alt={`Medidas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/></div>
+      <div className="bannerMedidas responsive"><img src={medidasMovil} alt={`Medidas Moviles ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/></div>
     </div>
 
 
     <div className="boxesIni posRelative">
       <div className="centrado">
-        <img src={imagen} width="1400" height="1000" className="slideMain" alt={`Postal ${nombreBusqueda}, ${nombreBusqueda2}`} />
+        <img src={imagen} width="1400" height="1000" className="slideMain" alt={`Postal ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
       </div>
       <div>
         <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
