@@ -364,81 +364,80 @@ export default function NavBarTop() {
         <ul className="nav-links">
             <li><NavLink className="" to="/">INICIO</NavLink></li>
             <li>
-                <a className="" href="#" option="sinotruk">CAMIONES</a>
-                <div className="item-level-0 nav-header nav-header-h" >
-                    <div className="headerSubMenu">
-                        <div className="closeMovil" data-id="0"></div>
-                        <p className="tituloMenu">CAMIONES</p>
-                        <img className="imgnMenu" src={urlMedia+"sinotrukTigre.webp"} alt="Sinotruck" />
-                    </div>
-                    <div className="rowMenu">
-                        <div className="colMenu">
-                            <p className="colTitle">Serie 100</p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-5-toneladas-1057">1057 / 3.5 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-6-toneladas">1047 / 3.6 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-de-5-toneladas-1067">1067 / 5 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-de-6-toneladas-1067">1067 / 6 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-8-toneladas-1147">1147 / 8 ton</NavLink></p>
-                        </div>
-                        <div className="colMenu">
-                            <p className="colTitle">Serie T5G</p>
-                            <div>
+        <a className="" href="#" option="sinotruk">CAMIONES</a>
+        <div className="item-level-0 nav-header nav-header-h" >
+          <div className="headerSubMenu">
+            <div className="closeMovil" data-id="0"></div>
+            <p className="tituloMenu">CAMIONES</p>
+            <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} width="637" height="147" alt="Sinotruck" />
+          </div>
+          <div className="rowMenu">
+            <div className="colMenu">
+              <p className="colTitle">Serie NLS</p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-2-5-toneladas"><span className="nuevoCamion2">NUEVO</span> 2.5 ton</NavLink></p>
+            </div> 
+            <div className="colMenu">
+              <p className="colTitle">Serie 100</p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-5-toneladas-1057">1057 / 3.5 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-6-toneladas">1047 / 3.6 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-5-toneladas-1067">1067 / 5 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-6-toneladas-1067">1067 / 6 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-8-toneladas-1147">1147 / 8 ton</NavLink></p>
 
-                            </div>
-                            <div>
+            </div>
 
-                            </div>
-                            <div>
-                                
-                            </div>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-de-9-toneladas">1167 / 9 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-10-toneladas-t5g-1167">1167 / 10 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-12-toneladas-t5g-1167">1167 / 12 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167">1167 / 13 ton - <b>280HP</b></NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167-330hp">1167 / 13 ton - <b>330HP</b></NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-de-18-toneladas-t5g-1257">1257 / 18 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-de-19-toneladas-t5g-1257">1257 / 19.5 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t5g-4187">4187 / 24 ton</NavLink></p>
+            <div className="colMenu">
+              <p className="colTitle">Serie T5G</p>
 
-                        </div>
-                        <div className="colMenu">
-                            <p className="colTitle">Serie T7H</p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-390-28-toneladas">390 / 28 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-28-toneladas-retardador">390 / 28 ton - retardador</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-390-42-toneladas">390 / 42 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-430-45-toneladas">430 / 45 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-9-toneladas">1167 / 9 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-10-toneladas-t5g-1167">1167 / 10 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-12-toneladas-t5g-1167">1167 / 12 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167">1167 / 13 ton - <b>280HP</b></NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-13-toneladas-t5g-1167-330hp">1167 / 13 ton - <b>330HP</b></NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-18-toneladas-t5g-1257">1257 / 18 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-19-toneladas-t5g-1257">1257 / 19.5 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t5g-4187">4187 / 24 ton</NavLink></p>
 
-                        </div>
-                        <div className="colMenu">
-                            <p className="colTitle">Serie C7H</p>
+            </div>
+            <div className="colMenu">
+              <p className="colTitle">Serie T7H</p>
+              <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-390-28-toneladas">390 / 28 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/cabezales/cabezal-28-toneladas-retardador">390 / 28 ton - retardador</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-390-42-toneladas">390 / 42 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/cabezales/cabezal-t7h-430-45-toneladas">430 / 45 ton</NavLink></p>
 
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-1256">1256 / 20 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-catalinas-1256">1256 / 20 ton - catalinas</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540">540 / 48 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">540 / 48 ton - catalinas</NavLink></p>
+            </div>
+            
+          </div>
+          <div className="rowMenu espaciomenu">
+          <div className="colMenu">
+              <p className="colTitle">Serie C7H</p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-1256">1256 / 20 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-catalinas-1256">1256 / 20 ton - catalinas</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540">540 / 48 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">540 / 48 ton - catalinas</NavLink></p>
 
-                        </div>
-                    </div>
-                    <div className="rowMenu espaciomenu">
-                        <div className="colMenu">
-                            <p className="colTitle">Volquetas</p>
-                            <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">T5G-330 8-9m3</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430">T7H-430 10-14m3</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/volquetas/volqueta-c7h-540">C7H-540 20m3</NavLink></p>
-                            <div>
-                            </div>
-                        </div>
+            </div>
+            <div className="colMenu">
+              <p className="colTitle">Volquetas</p>
+              <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">T5G-330 8-9m3</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430">T7H-430 10-14m3</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/volquetas/volqueta-c7h-540">C7H-540 20m3</NavLink></p>
+              <div>
+              </div>
+            </div>
 
-                        <div className="colMenu">
-                            <p className="colTitle">Mixer</p>
-                            <p className="colItem meniu"><NavLink to="/mixer/mixer-a7-1257">A7-1257</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/proximamente">C7H 12 m3</NavLink></p>
-                            <div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
+            <div className="colMenu">
+              <p className="colTitle">Mixer</p>
+              <p className="colItem meniu"><NavLink to="/mixer/mixer-a7-1257">A7-1257</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/proximamente">C7H 12 m3</NavLink></p>
+              <div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </li>
             <li>
                 <a className="" href="#" option="sunward">MAQUINARIA</a>
                 <div className="item-level-1 nav-header nav-header-h" >

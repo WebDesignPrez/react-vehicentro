@@ -85,6 +85,110 @@ function Camion() {
   //Comparacion paginas
   switch ((useParams("id").id)) {
 
+    //2.5 toneladas
+    case "camion-de-2-5-toneladas":
+
+      pathUrl = "camion-de-3-5-toneladas"
+      nombreCamion = "Camión de 2.5 toneladas"
+      nombreBusqueda = "Camión de 2.5 toneladas"
+      camionSerie = "1057 / 2.5 TON"
+      mercadoObjetivo = "Carga liviana y pesada, varios sectores productivos y servicios;  agricultura, ganaderia, transporte ( agua, gas, productos de primera necesidad, etc)"
+      fortalezas = "Frenos de 100% aire, costo del mantenimiento y repuestos"
+      nombreSerie = "NLS"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
+      images = [
+        urlMedia + "2.5-toneladas/hero1.jpg"
+      ];
+      textoMotor1 = ""
+      textoMotor2 = ""
+      textoMotor3 = "Ficha técnica"
+      precio = precios.dos_cinco
+      seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
+      cuotas = `${precios.dos_cinco_cuota}`
+      motor = urlMedia + "2.5-toneladas/2.5Frontal.jpg"
+      garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
+      tecnologia = urlMedia + "2.5-toneladas/SenieNLS.png"
+
+      caracteristicas = [
+        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-potencia-87hp.webp",
+        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-cilindraje.webp",
+        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-freno-de-aire.webp",
+        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
+      ]
+      cabina = urlMedia + "3.5-toneladas/cabina-de-camion-de-3.5-toneladas-sinotruk.webp"
+      marcas = ""
+      internas1 = [
+        urlMedia + "3.5-toneladas/volante-deportivo.webp",
+        urlMedia + "3.5-toneladas/ventilacion.webp"
+      ];
+      internas2 = [
+        urlMedia + "3.5-toneladas/palanca-de-cambios.webp",
+        urlMedia + "3.5-toneladas/bloqueo.webp"
+      ];
+      internas1b = [
+        urlMedia + "3.5-toneladas/radio-mp5.webp",
+        urlMedia + "3.5-toneladas/vidrios-electricos.webp"
+      ];
+      internas2b = [
+        urlMedia + "3.5-toneladas/cabina.webp"
+      ];
+      medidas = urlMedia + "2.5-toneladas/medidas2.5.jpg"
+      medidasMovil = urlMedia + "2.5-toneladas/medidasMovil2.5.jpg"
+      audio_motor = urlMedia + "3.5-toneladas/motor.mp3"
+      
+
+
+      internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
+      //loop slider
+
+      slide3 = internas1b.map((interna) =>
+        <div className="each-slide-effect" >
+          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+          </div>
+        </div>
+      );
+
+      slide3b = internas2b.map((interna) =>
+        <div className="each-slide-effect" >
+          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+          </div>
+        </div>
+      );
+
+      contenedorMarcas = <div style={{ display: `contents` }} >
+        {internas1b.length > 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <Fade >
+              {slide3}
+            </Fade>
+          </div>
+        }
+        {internas1b.length == 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+          </div>
+        }
+
+        {internas2b.length > 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <Fade >
+              {slide3b}
+            </Fade>
+          </div>
+        }
+        {internas2b.length == 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+          </div>
+        }
+      </div>
+
+      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "2.5-toneladas/frenos.png"} />
+
+      </div>
+      break;
+    
+
     //10 toneladas
     case "camion-10-toneladas-t5g-1167":
       pathUrl = "camion-10-toneladas-t5g-1167"
@@ -158,7 +262,7 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHCR9T1167"
       console.log('9 toneladas')
       images = [
-        urlMedia + "9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador.webp",
+        urlMedia + "9-toneladas/3Cuartos.jpg",
         urlMedia + "9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador-de-frente.webp"
       ];
       textoMotor1 = "210 HP"
@@ -1064,6 +1168,10 @@ function Camion() {
 
   switch ((useParams("id").id)) {
 
+    case "camion-de-2-5-toneladas":
+      imagen = urlMedia + "2.5-toneladas/formu2.5.jpg"
+      break;
+
     case "camion-de-3-5-toneladas-1057":
       imagen = urlMedia + "seo/3.5Ton.jpg"
       break;
@@ -1194,7 +1302,15 @@ function Camion() {
         <div className="boxText flex-table row textoSobrepuesto">
           <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
           <div onClick={openFormContact} className="flex-row textoMotor2"><p>{`Camión ${textoMotor2}`}</p></div>
-          <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
+          {
+            nombreCamion !== 'Camión de 2.5 toneladas' && 
+            <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
+          }
+           {
+            nombreCamion == 'Camión de 2.5 toneladas' && 
+            <h2 onClick={openFormContact} className="flex-row textoMotor3 negro">{textoMotor3}</h2>
+          }
+        
           <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
           <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
         </div>
@@ -1250,6 +1366,16 @@ function Camion() {
 
       </div>
 
+
+
+
+
+
+{
+
+nombreCamion !== 'Camión de 2.5 toneladas' &&
+
+
       <div className="boxesIni posRelative">
         <div className="marcasbg">
           <img src={cabina} width="1500" height="1500" className="slideMain" alt={`cabina ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
@@ -1274,9 +1400,22 @@ function Camion() {
           {contenedorMarcas}
 
         </div>
-
-
       </div>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <h2 style={{ paddingLeft: 50, paddingTop: 30 }}>Medidas y dimensiones</h2>
       <h2 style={{ fontSize: 0.01 }}>{nombreSerie}</h2>
       <div className="bannerMedidas noResponsive"><img src={medidas} alt={'Medidas del' + nombreBusqueda} title={`${nombreBusqueda}`}/></div>

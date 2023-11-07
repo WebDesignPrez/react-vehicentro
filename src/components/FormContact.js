@@ -335,6 +335,7 @@ function FormContact(props) {
   const furgoneta = ['M70L', 'M70L-EV'];
   const miniCargadora = ['SWL3220'];
   const autos = ['U70PRO', 'U70', 'U75PLUS'];
+  const nls = ['2.5 TON'];
 
   let type = null;
   let options = null;
@@ -355,8 +356,14 @@ function FormContact(props) {
     type = furgoneta;
   } else if (serie === "miniCargadoras") {
     type = miniCargadora;
-  } else if (serie === "autos")
+  } else if (serie === "autos"){
     type = autos;
+  } else if (serie === "NLS"){
+    type = nls;
+  }
+   
+    
+    
 
 
   if (type) {
@@ -433,6 +440,7 @@ function FormContact(props) {
           <div className="input-group">
             <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
             <select name="serie" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeSerie(e) }} value={serie}>
+              <option value="NLS">NLS</option>
               <option value="Serie 100">Serie 100</option>
               <option value="Serie T5G">Serie T5G</option>
               <option value="Serie T7H">Serie T7H</option>
