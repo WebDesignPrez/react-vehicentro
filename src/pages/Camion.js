@@ -95,7 +95,7 @@ function Camion() {
       mercadoObjetivo = "Carga liviana y pesada, varios sectores productivos y servicios;  agricultura, ganaderia, transporte ( agua, gas, productos de primera necesidad, etc)"
       fortalezas = "Frenos de 100% aire, costo del mantenimiento y repuestos"
       nombreSerie = "NLS"
-      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
       images = [
         urlMedia + "2.5-toneladas/hero1.jpg"
       ];
@@ -201,7 +201,7 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
       console.log('10 Toneladas')
       images = [
-        urlMedia + "10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador.webp",
+        urlMedia + "/portadasSorteo/10-web.jpg",
         urlMedia + "10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador-de-frente.webp"
       ];
       textoMotor1 = "240 HP"
@@ -319,7 +319,7 @@ function Camion() {
       fortalezas = "Garantía real a nivel nacional, 3 puertos usb, radio touch, cabina acciona eléctrico, cabina más cómoda, cabina más práctica , espejos angulares, desempañador eléctrico, apertura a distancia de vidrios, desempañador electrico de espejos  "
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB12TT5G1167"
       images = [
-        urlMedia + "12-toneladas/camion-blanco-sinotruk-de-12-toneladas-ecuador.webp",
+        urlMedia + "/portadasSorteo/12-web.jpg",
         urlMedia + "12-toneladas/camion-blanco-sinotruk-de-12-toneladas-ecuador-de-frente.webp"
       ];
       textoMotor1 = "240 HP"
@@ -377,7 +377,7 @@ function Camion() {
       fortalezas = "Precio competitivo, ahorro de combustible, velocidad y potencia, confort y comodidad, dimensiones perfectas volumen-peso, stock de unidades y variedad de colores"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB13T1167"
       images = [
-        urlMedia + "13-toneladas/camion-blanco-sinotruk-de-13-toneladas-ecuador.webp",
+        urlMedia + "/portadasSorteo/13-280-web.jpg",
         urlMedia + "13-toneladas/camion-blanco-sinotruk-de-13-toneladas-ecuador-de-frente.webp"
       ];
       textoMotor1 = "280 HP"
@@ -435,7 +435,7 @@ function Camion() {
       fortalezas = "Muy buena tecnología de fabricación- alta gama de pintura, buen precio-mantenimiento más económico, mejor garantía en el mercado- menos consumo de combustible - camión más fuerte y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web13TOVDT5G1167"
       images = [
-        urlMedia + "13-toneladas-330/camion-blanco-sinotruk-de-13-toneladas-ecuador.webp",
+        urlMedia + "/portadasSorteo/13-330-web.jpg",
         urlMedia + "13-toneladas-330/camion-blanco-sinotruk-de-13-toneladas-de-frente-ecuador.webp"
       ];
       textoMotor1 = "330 HP"
@@ -492,7 +492,7 @@ function Camion() {
       fortalezas = "Mayor potencia, menor peso al vacío, mayor capacidad de carga, mayor largo carrozable, excelente relación precio/prestaciones, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB18T1257"
       images = [
-        urlMedia + "18-toneladas/camion-blanco-sinotruk-de-18-toneladas-ecuador.webp"
+        urlMedia + "/portadasSorteo/18-web.jpg"
       ];
       textoMotor1 = "340 HP"
       textoMotor2 = "Modelo T5G-1257 - 18 Ton"
@@ -549,7 +549,7 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable, cabina con apertura eléctrica"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB19T1257"
       images = [
-        urlMedia + "19-toneladas/19tonHeroR.jpeg",
+        urlMedia + "/portadasSorteo/19-web.jpg",
         urlMedia + "19-toneladas/camion-amarillo-sinotruk-de-19-toneladas-ecuador.webp"
       ];
       textoMotor1 = "340 HP"
@@ -1058,7 +1058,7 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
       images = [
-        urlMedia + "20-toneladas/camion-blanco-sinotruk-de-20-toneladas-ecuador.webp",
+        urlMedia + "/portadasSorteo/20-web.jpg",
         urlMedia + "20-toneladas/camion-blanco-sinotruk-de-20-toneladas-de-frente-ecuador.webp"
       ];
       textoMotor1 = "430 HP"
@@ -1114,7 +1114,7 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH20TCAT"
       images = [
-        urlMedia + "20Catalinas/hero20Catalinas.jpg",
+        urlMedia + "/portadasSorteo/20-CC-web.jpg",
       ];
       textoMotor1 = "430 HP"
       textoMotor2 = "Modelo C7H-1256"
@@ -1312,7 +1312,16 @@ function Camion() {
           }
         
           <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
-          <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
+          {
+            nombreCamion !== 'Camión de 2.5 toneladas' && 
+            <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
+            
+          }
+           {
+            nombreCamion == 'Camión de 2.5 toneladas' && 
+            <div onClick={openFormContact} className="flex-row textoMotor4 negro">Escucha tu motor</div>
+          }
+          
         </div>
         <div className="boxPlayerMotor ">
           <audio id="audioMotor" controls type="audio/mpeg"></audio>
