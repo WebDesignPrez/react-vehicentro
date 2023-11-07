@@ -171,11 +171,16 @@ function Block1() {
       </div>
       <div className="imgContainerHeader imgHeader1" height="600">
 
-        <div className="overlayBox" height="200">
+        {/* <div className="overlayBox" height="200"> */}
+          <p className="titleBox "><span className="rojo"></span><span className="rojo"></span></p>
+          <div className="linksBox testimonio test">
+            
+          {/* </div> */}
+          {/* <div className="overlayBox" height="200">
           <p className="titleBox "><span className="rojo">R</span>ESPALDO - <span className="rojo">R</span>EPUESTOS</p>
           <div className="linksBox testimonio test">
             <NavLink to="/garantia" src="">LA MEJOR GARANTÍA DEL PAÍS</NavLink>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id="videoContainer" className="responsive">
@@ -226,13 +231,23 @@ function Block3() {
   return (
     <>
       <div className="block3 boxBlock">
+      <div>
+          <a href="/serie/100"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <div className="bottomContainer">
+            <p className="titleBox">SERIE</p>
+            <p className="titleBox2" >NLS</p>
+            <div className="linksBox">
+              <span className="nuevoCamion">NUEVO</span><NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >2.5 TON</NavLink>
+            </div>
+          </div>
+        </div>
         <div>
           <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/100">100</NavLink>
             <div className="linksBox">
-              <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" >3.5 TON</NavLink>
+              <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" ><span></span>3.5 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-6-toneladas-1067">6 TON</NavLink>
@@ -258,7 +273,11 @@ function Block3() {
             </div>
           </div>
         </div>
-        <div>
+       
+      </div>
+
+      <div className="block3 boxBlock row2">
+      <div>
           <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
@@ -270,22 +289,7 @@ function Block3() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="block3 boxBlock row2">
-        <div>
-          <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /> </a>
-          <div className="bottomContainer">
-            <p className="titleBox">SERIE</p>
-            <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
-            <div className="linksBox">
-              <NavLink className="line2" to="/camiones/camion-20-toneladas-1256">20 TON</NavLink>
-              <NavLink className="line2" to="/camiones/camion-20-toneladas-catalinas-1256">20 TON CATALINAS</NavLink>
-              <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>
-              <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON CATALINAS</NavLink>
-            </div>
-          </div>
-        </div>
+        
         <div>
           <div>
             <Slide duration={2000}>
@@ -313,6 +317,22 @@ function Block3() {
           </div>
         </div>
         <div>
+          <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /> </a>
+          <div className="bottomContainer">
+            <p className="titleBox">SERIE</p>
+            <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
+            <div className="linksBox">
+              <NavLink className="line2" to="/camiones/camion-20-toneladas-1256">20 TON</NavLink>
+              <NavLink className="line2" to="/camiones/camion-20-toneladas-catalinas-1256">20 TON CATALINAS</NavLink>
+              <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>
+              <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON CATALINAS</NavLink>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div className="block3 boxBlock row2">
+      <div>
           <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/BannerU70.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -323,8 +343,6 @@ function Block3() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="block3 boxBlock row2">
         <div>
           <Slide duration={2000}>
 
@@ -362,29 +380,29 @@ function Block3() {
 
         </div>
         <div>
-          <img src={urlMedia + "home/sunwardNew.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
+          <Slide duration={2000}>
+
+            <div className="each-slide-effect">
+              <div style={{ 'backgroundImage': `url(../images/home/sunwardNew.webp)`, height: `23.2vw` }}>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ 'backgroundImage': `url(../images/home/minicargadoraNew.webp)`, height: `23.2vw` }}>
+              </div>
+            </div>
+          </Slide>
+
+
           <div className="bottomContainer">
             <p className="titleBox"></p>
-            <p className="titleBox2">SUNWARD EXCAVADORAS</p>
+            <NavLink className="titleBox2" to="/serie/volquetas">SUNWARD EXCAVADORAS / MINICARGADORAS</NavLink>
             <div className="linksBox">
-              <NavLink className="line2" src="" to="/excavadoras/swe210">SW210 21 Ton</NavLink>
-              <NavLink className="line2" src="" to="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</NavLink>
-            </div>
-            <div className="linksBox">
-            </div>
-          </div>
-        </div>
-        <div>
-          <img src={urlMedia + "home/minicargadoraNew.webp"} width="900" height="700" alt="Excavadoras de venta en Ecuador" />
-          <div className="bottomContainer">
-            <p className="titleBox"></p>
-            <p className="titleBox2">SUNWARD MINICARGADORAS</p>
-            <div className="linksBox">
-              <NavLink className="line2" src="" to="/minicargadoras/swl3220">SWL3220</NavLink>
-            </div>
-            <div className="linksBox">
+              <NavLink className="line2" src="" to="/excavadoras/swe210">EXCAVADORA SW210 21 Ton</NavLink>
+              <NavLink className="line2" src="" to="/excavadoras/swe370e">EXCAVADORA SW370E 37 Ton Heavy Duty</NavLink>
+              <NavLink className="line2" src="" to="/minicargadoras/swl3220">MINICARGADORA SWL3220</NavLink>
             </div>
           </div>
+
         </div>
       </div>
 

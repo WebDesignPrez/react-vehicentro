@@ -1272,6 +1272,11 @@ p.titleFooter {
   left: 10px;
 }
 
+.textoMotor3.negro {
+  color: #000;
+}
+
+
 .textoMotorFlecha {
   position: absolute;
   width: max-content;
@@ -2051,9 +2056,21 @@ a.titleBox2:hover {
 }
 
 .imgHeader1 {
-  background-image: url(../public/images/home/veinsInici.webp);
+  background-image: url(../public/images/home/sorteoHome.jpg);
   background-size: cover;
 }
+.nuevoCamion{
+  background-color: #ff2222;
+}
+.nuevoCamion:hover{
+  color: #fff !important;
+}
+
+.nuevoCamion2{
+  background-color: #ff2222;
+  color: #fff
+}
+
 
 .imgHeader2 {
   background-image: url(../public/images/home/newSinotrukero.webp);
