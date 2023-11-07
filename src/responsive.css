@@ -99,9 +99,7 @@
     display: none !important;
   }
 
-  .each-slide-effect>div {
-    height: 80vw !important;
-  }
+  
 
   .boxesIni.partesbg {
     flex-direction: row !important;
@@ -254,6 +252,9 @@
   .responsive {
     display: block;
   }
+  .each-slide-effect>div {
+    height: 82vw !important;
+  }
 
   .responsive .each-slide-effect>div {
     height: 100vw !important;
@@ -270,7 +271,11 @@
   .textoMotor1 {
     font-size: 15vw;
     bottom: 110px;
-  }
+}
+
+.imgHeader1{
+  background-position: 50% !important;
+}
 
   .textoMotor2 {
     font-size: 6vw;
@@ -283,9 +288,16 @@
     bottom: 70px;
   }
 
+
+  .textoMotor3.negro {
+    bottom: 300px !important;	
+    padding-top: 20vw !important; 
+  }
+  
+
   .textoMotorFlecha {
     bottom: 69px;
-    left: 39vw;
+    left: 45vw;
   }
 
   .textoMotor4 {
@@ -336,6 +348,10 @@
   .boxPlayerMotor {
     left: 17px;
     bottom: 40px;
+  }
+
+  .textoMotor4.negro{
+    color: #000
   }
 
 
