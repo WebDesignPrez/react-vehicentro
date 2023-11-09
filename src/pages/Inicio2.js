@@ -231,22 +231,23 @@ function Block3() {
   return (
     <>
       <div className="block3 boxBlock">
-      <div>
+      {/* <div>
           <a href="/serie/100"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <p className="titleBox2" >NLS</p>
             <div className="linksBox">
-              <span className="nuevoCamion">NUEVO</span><NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >2.5 TON</NavLink>
+             
             </div>
           </div>
-        </div>
+        </div> */}
         <div>
           <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/100">100</NavLink>
             <div className="linksBox">
+            <span className="nuevoCamion">NUEVO</span><NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >2.5 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" ><span></span>3.5 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink>
@@ -379,6 +380,7 @@ function Block3() {
           </div>
 
         </div>
+        
         <div>
           <Slide duration={2000}>
 
@@ -404,6 +406,7 @@ function Block3() {
           </div>
 
         </div>
+        
       </div>
 
 
