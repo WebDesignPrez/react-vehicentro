@@ -1335,7 +1335,12 @@ function Camion() {
       <div className="marcasbg textoImagenesProducto" >
 
         <div className="boxRightHeader  half text_icon_left" >
+        { nombreCamion !== 'Camión de 2.5 toneladas' &&
           <p className='vidaUtil'>DESDE</p>
+        }
+         { nombreCamion == 'Camión de 2.5 toneladas' &&
+          <p className='vidaUtil'>PRECIO DE LANZAMIENTO</p>
+        }
           <p className='precioCamiones' >{precio}</p>
           <p className='cuotas'>{cuotas}</p>
         </div>

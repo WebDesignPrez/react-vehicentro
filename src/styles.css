@@ -1276,6 +1276,18 @@ p.titleFooter {
   color: #000;
 }
 
+.newSpam{
+  background-color: red;
+}
+
+.newSpam:hover{
+  background-color: #2d2d2d !important;
+}
+
+.moreSpace{
+  padding-left: 0.6vw;
+}
+
 
 .textoMotorFlecha {
   position: absolute;
