@@ -369,11 +369,11 @@ function Block3() {
             <p className="titleBox"></p>
             <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS / MIXER</NavLink>
             <div className="linksBox">
-              <p>Volquetas:</p>
+            <p className="moreSpace">Volquetas:</p>
               <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280"> 8-9 m3</NavLink>
               <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430"> 10-14 m3</NavLink>
               <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540"> 20 m3</NavLink>
-              <p>Mixer:</p>
+              <p className="moreSpace">Mixer:</p>
               <NavLink className="line2" src="" to="/mixer/mixer-a7-1257"> A7 8-9 m3</NavLink>
             </div>
           </div>
@@ -395,7 +395,7 @@ function Block3() {
 
           <div className="bottomContainer">
             <p className="titleBox"></p>
-            <NavLink className="titleBox2" to="/serie/volquetas">SUNWARD EXCAVADORAS / MINICARGADORAS</NavLink>
+            <NavLink className="titleBox2" to="/serie/volquetas">MAQUINARIA SUNWARD</NavLink>
             <div className="linksBox">
               <NavLink className="line2" src="" to="/excavadoras/swe210">EXCAVADORA SW210 21 Ton</NavLink>
               <NavLink className="line2" src="" to="/excavadoras/swe370e">EXCAVADORA SW370E 37 Ton Heavy Duty</NavLink>
