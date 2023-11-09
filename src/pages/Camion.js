@@ -91,10 +91,10 @@ function Camion() {
       pathUrl = "camion-de-3-5-toneladas"
       nombreCamion = "Camión de 2.5 toneladas"
       nombreBusqueda = "Camión de 2.5 toneladas"
-      camionSerie = "1057 / 2.5 TON"
+      camionSerie = "2.5 TON"
       mercadoObjetivo = "Carga liviana y pesada, varios sectores productivos y servicios;  agricultura, ganaderia, transporte ( agua, gas, productos de primera necesidad, etc)"
       fortalezas = "Frenos de 100% aire, costo del mantenimiento y repuestos"
-      nombreSerie = "NLS"
+      nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
       images = [
         urlMedia + "2.5-toneladas/hero1.jpg"
