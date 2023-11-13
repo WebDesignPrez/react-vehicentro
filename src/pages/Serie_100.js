@@ -63,23 +63,33 @@ function Content1() {
 
 function Content2() {
 
-    series = [{
+    series = [
+    {
+        serie: "NUEVO",
+        modelo: "2.5 TON",
+        url: "/camiones/camion-de-2-5-toneladas"
+    },
+    {
         serie: "1057",
         modelo: "3.5 TON",
         url: "/camiones/camion-de-3-5-toneladas-1057"
-    }, {
+    }, 
+    {
         serie: "1047",
         modelo: "3.6 TON",
         url: "/camiones/camion-de-3-6-toneladas"
-    }, {
+    }, 
+    {
         serie: "1067",
         modelo: "5 TON",
         url: "/camiones/camion-de-5-toneladas-1067"
-    }, {
+    }, 
+    {
         serie: "1067",
         modelo: "6 TON",
         url: "/camiones/camion-de-6-toneladas-1067"
-    }, {
+    }, 
+    {
         serie: "1067",
         modelo: "8 TON",
         url: "/camiones/camion-8-toneladas-1147"

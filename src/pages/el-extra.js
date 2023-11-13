@@ -7,6 +7,7 @@ import { Slide } from 'react-slideshow-image';
 import env from '../config';
 import FormContactFicha from "../components/FormContactFicha";
 import FormContact from "../components/FormContact";
+import { NavLink } from "react-router-dom";
 
 let bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXTRA"
 let nombreCamion = ""
@@ -16,6 +17,8 @@ let audio_motor = "../images/10-toneladas/motor.mp3"
 let urlMedia = env.url
 
 function Inicio2() {
+
+    
 
     useEffect(() => {
         const motorPlayer = document.getElementById('audioMotorHome')
@@ -428,84 +431,82 @@ function Block3() {
 
     return (
         <>
-            <div className="block3 boxBlock landing">
-                <div>
-                    <a><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Vehicentro" /></a>
-                    <div className="bottomContainer">
-                        <p className="titleBox">SERIE</p>
-                        <a className="titleBox2" to="/serie/100">100</a>
-                        <div className="linksBox">
-                            <a className="line2" href="/landing/el-extra/camion/3-5-ton">3.5 TON</a>
-                            <a className="line2" href="/landing/el-extra/camion/3-6-ton">3.6 TON</a>
-                            <a className="line2" href="/landing/el-extra/camion/5-ton">5 TON</a>
-                            <a className="line2" href="/landing/el-extra/camion/6-ton">6 TON</a>
-                            <a className="line2" href="/landing/el-extra/camion/8-ton">8 TON</a>
-                        </div>
+        <div className="block3 boxBlock">
+            <div>
+                <a><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+                <div className="bottomContainer">
+                    <p className="titleBox" ><span className="nuevoCamion">NUEVO</span></p>
+                    <p className="titleBox" >Preventa</p>
+                    <div className="linksBox">
+                        <NavLink className="line2" to="/landing/el-extra/camion/2-5-ton" >2.5 TON</NavLink>
                     </div>
                 </div>
-                <div>
-                    <a><img src={urlMedia + "home/serie-t5g.webp"} width="900" height="700" alt="Vehicentro" /></a>
-                    <div className="bottomContainer">
-                        <p className="titleBox">SERIE</p>
-                        <a className="titleBox2" to="/serie/t5g">T5G</a>
-                        <div className="linksBox">
-                            <a className="line2" href="/landing/el-extra/camion/9-ton">9 TON</a><br></br>
-                            <a className="line2" href="/landing/el-extra/camion/10-ton">10 TON</a><br></br>
-                            <a className="line2" href="/landing/el-extra/camion/12-ton">12 TON</a>
-                            <a className="line2" href="/landing/el-extra/camion/13-ton">13 TON 280HP</a><br></br>
-                            <a className="line2" href="/landing/el-extra/camion/13-ton-330">13 TON 330HP</a>
-                            <a className="line2" href="/landing/el-extra/camion/18-ton">18 TON</a><br></br>
-                            <a className="line2" href="/landing/el-extra/camion/19-ton">19.5 TON</a><br></br>
-                            <a className="line2" href="/landing/el-extra/cabezal/24-ton">24 TON</a>
+            </div>
+            <div>
+                <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+                <div className="bottomContainer">
+                    <p className="titleBox">SERIE</p>
+                    <NavLink className="titleBox2" to="/serie/100">100</NavLink>
+                    <div className="linksBox">
+                        <NavLink className="line2" to="/landing/el-extra/camion/3-5-ton" ><span></span>3.5 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/camion/3-6-ton" >3.6 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/camion/5-ton">5 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/camion/6-ton">6 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/camion/8-ton">8 TON</NavLink>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="/serie/t5g"><img src={urlMedia + "home/serie-t5g.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
+                <div className="bottomContainer">
+                    <p className="titleBox">SERIE</p>
+                    <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
+                    <div className="linksBox">
+                        <NavLink className="line2" to="/landing/el-extra/camion/9-ton">9 TON</NavLink><br></br>
+                        <NavLink className="line2" to="/landing/el-extra/camion/10-ton">10 TON</NavLink><br></br>
+                        <NavLink className="line2" to="/landing/el-extra/camion/12-ton">12 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/camion/13-ton">13 TON 280HP</NavLink><br></br>
+                        <NavLink className="line2" to="/landing/el-extra/camion/13-ton-330">13 TON 330HP</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/camion/18-ton">18 TON</NavLink><br></br>
+                        <NavLink className="line2" to="/landing/el-extra/camion/19-ton">19.5 TON</NavLink><br></br>
+                        <NavLink className="line2" to="/landing/el-extra/cabezal/24-ton">24 TON</NavLink>
 
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <a > <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Vehicentro" /></a>
-                    <div className="bottomContainer">
-                        <p className="titleBox">SERIE</p>
-                        <a className="titleBox2" to="/serie/t7h">T7H</a>
-                        <div className="linksBox">
-                            <a className="line2" href="/landing/el-extra/cabezal/28-ton">28 TON</a>
-                            <a className="line2" href="/landing/el-extra/cabezal/42-ton">42 TON</a>
-                            <a className="line2" href="/landing/el-extra/cabezal/45-ton">45 TON</a>
-                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className="block3 boxBlock row2">
-                <div>
-                    <a > <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Vehicentro" /> </a>
-                    <div className="bottomContainer">
-                        <p className="titleBox">SERIE</p>
-                        <a className="titleBox2" to="/serie/c7h">C7H</a>
-                        <div className="linksBox">
-                            <a className="line2" href="/landing/el-extra/camion/20-ton">20 TON</a>
-                            <a className="line2" href="/landing/el-extra/cabezal/48-ton">48 TON</a>
-                            <a className="line2" href="/landing/el-extra/cabezal/48-ton-catalinas">48 TON - CATALINAS</a>
-                        </div>
+        </div>
+
+        <div className="block3 boxBlock row2">
+            <div>
+                <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /></a>
+                <div className="bottomContainer">
+                    <p className="titleBox">SERIE</p>
+                    <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
+                    <div className="linksBox">
+                        <NavLink className="line2" to="/landing/el-extra/cabezal/28-ton">28 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/cabezal/42-ton">42 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/cabezal/45-ton">45 TON</NavLink>
                     </div>
                 </div>
+            </div>
+
+            <div>
                 <div>
-
-
                     <Slide duration={2000}>
+
                         <div className="each-slide-effect">
-                            <div style={{ 'backgroundImage': `url(${urlMedia}home/motor.webp)`, height: `23.2vw` }}>
+                            <div style={{ 'backgroundImage': `url(../images/home/motor.webp)`, height: `23.2vw` }}>
                             </div>
                         </div>
                         <div className="each-slide-effect">
-                            <div style={{ 'backgroundImage': `url(${urlMedia}home/veinstein.webp)`, height: `23.2vw` }}>
+                            <div style={{ 'backgroundImage': `url(../images/home/veinstein.webp)`, height: `23.2vw` }}>
                             </div>
                         </div>
                     </Slide>
-
-
                     <div className="bottomContainer">
                         <div className="bannerTec">
-                            <img src={urlMedia + "pruebaTA.webp"} width="590" height="170" alt="Tecnologia Alemana" />
+                            <img src={urlMedia + "pruebaTA.webp"} width="1000" height="270" alt="Tecnologia Alemana" />
                         </div>
                         <div className="boxPlayerMotor audiohome">
                             <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
@@ -515,64 +516,80 @@ function Block3() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <a><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" /></a>
-                    <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
-                        <div className="linksBox">
-                            <a className="line2" href="/landing/el-extra/volqueta/volqueta-t5g-280">8-9 m3</a>
-                            <a className="line2" href="/landing/el-extra/volqueta/volqueta-t7h-430">10-14 m3</a>
-                            <a className="line2" href="/landing/el-extra/volqueta/volqueta-c7h-540">20 m3</a>
-                        </div>
+            </div>
+            <div>
+                <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /> </a>
+                <div className="bottomContainer">
+                    <p className="titleBox">SERIE</p>
+                    <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
+                    <div className="linksBox">
+                        <NavLink className="line2" to="/landing/el-extra/camion/20-ton">20 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/camion/20-ton-catalinas">20 TON CATALINAS</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/cabezal/48-ton">48 TON</NavLink>
+                        <NavLink className="line2" to="/landing/el-extra/cabezal/48-ton-catalinas">48 TON CATALINAS</NavLink>
                     </div>
                 </div>
             </div>
 
-            <div className="block3 boxBlock row2">
+        </div>
+        <div className="block3 boxBlock row2">
 
-                <div>
-                    <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Vehicentro" />
-                    <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <p className="titleBox2">MIXER</p>
-                        <div className="linksBox">
-                            <a className="line2" href="/landing/el-extra/mixer/mixer-a7-1257">A7 8-9 m3</a>
-                            <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("mixer-c7h-12m3") }}>C7H 12 m3</a>
-                        </div>
+
+            <div>
+                <a><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" /></a>
+                <div className="bottomContainer">
+                    <p className="titleBox"></p>
+                    <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
+                    <div className="linksBox">
+                        <a className="line2" src="" href="/landing/el-extra/volqueta/volqueta-t5g-280">8-9 m3</a>
+                        <a className="line2" src="" href="/landing/el-extra/volqueta/volqueta-t7h-430">10-14 m3</a>
+                        <a className="line2" href="/landing/el-extra/volqueta/volqueta-c7h-540">20 m3</a>
                     </div>
                 </div>
-                <div>
-                    <img src={urlMedia + "home/sunwardNueva.webp"} width="900" height="700" alt="Vehicentro" />
-                    <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <p className="titleBox2">SUNWARD Excavadoras</p>
-                        <div className="linksBox">
-                            <a className="line2" href="/landing/el-extra/excavadora/swe210">SW210 21 Ton</a>
-                            <a className="line2" href="/landing/el-extra/excavadora/swe370e">SW370E 37 Ton Heavy Duty</a>
-                        </div>
-                        <div className="linksBox">
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src={urlMedia + "home/minicargadora.webp"} width="900" height="700" alt="Vehicentro" />
-                    <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <p className="titleBox2">SUNWARD Minicargadoras</p>
-                        <div className="linksBox">
-                            <a className="line2" src="" href="/landing/el-extra/minicargadoras/swl3220">SWL3220</a>
-                        </div>
-                        <div className="linksBox">
-                        </div>
+            </div>
+            <div>
+                <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Vehicentro" />
+                <div className="bottomContainer">
+                    <p className="titleBox"></p>
+                    <p className="titleBox2">MIXER</p>
+                    <div className="linksBox">
+                        <a className="line2" src="" href="/landing/el-extra/mixer/mixer-a7-1257">A7 8-9 m3</a>
                     </div>
                 </div>
             </div>
 
-            {modalFormIsOpen &&
-                <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
-            }
-        </>
+            <div>
+
+                <Slide duration={2000}>
+
+                    <div className="each-slide-effect">
+                        <div style={{ 'backgroundImage': `url(../images/home/sunwardNew.webp)`, height: `23.2vw` }}>
+                        </div>
+                    </div>
+                    <div className="each-slide-effect">
+                        <div style={{ 'backgroundImage': `url(../images/home/minicargadoraNew.webp)`, height: `23.2vw` }}>
+                        </div>
+                    </div>
+                </Slide>
+
+
+                <div className="bottomContainer">
+                    <p className="titleBox"></p>
+                    <NavLink className="titleBox2" to="/serie/volquetas">MAQUINARIA SUNWARD</NavLink>
+                    <div className="linksBox">
+                        <NavLink className="line2" src="" to="/landing/el-extra/excavadora/swe210">EXCAVADORA SW210 21 Ton</NavLink>
+                        <NavLink className="line2" src="" to="/landing/el-extra/excavadora/swe370e">EXCAVADORA SW370E 37 Ton Heavy Duty</NavLink>
+                        <NavLink className="line2" src="" to="/landing/el-extra/minicargadoras/swl3220">MINICARGADORA SWL3220</NavLink>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        {modalFormIsOpen &&
+            <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
+        }
+    </>
     )
 }
 

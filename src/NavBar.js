@@ -579,7 +579,7 @@ export default function NavBar() {
             </div>  */}
             <div className="colMenu">
               <p className="colTitle">Serie 100</p>
-              <p className="colItem meniu"><NavLink to="/camiones/camion-de-2-5-toneladas"><span className="nuevoCamion2">NUEVO</span> 2.5 ton</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-2-5-toneladas"><span className="nuevoCamion2">NUEVO</span> NLS 2.5 ton</NavLink></p>
               <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-5-toneladas-1057">1057 / 3.5 ton</NavLink></p>
               <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-6-toneladas">1047 / 3.6 ton</NavLink></p>
               <p className="colItem meniu"><NavLink to="/camiones/camion-de-5-toneladas-1067">1067 / 5 ton</NavLink></p>
