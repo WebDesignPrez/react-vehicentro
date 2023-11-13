@@ -48,6 +48,15 @@ let urlMedia = env.url
 
 function Camion() {
 
+    useEffect(() => {
+        // Esta función se ejecutará después de que el componente se monte
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth' // Opcional: agrega una animación de desplazamiento suave
+        });
+      }, []); 
+
+
     const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
     useEffect(() => {
@@ -86,7 +95,7 @@ function Camion() {
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP24TON"
             images = [
-                urlMedia+"24-toneladas/camion-blanco-sinotruk-de-24-toneladas-ecuador.webp",
+                urlMedia+"portadasSorteo/24-web.jpg",
                 urlMedia+"24-toneladas/camion-sinotruk-de-24-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "340 HP"
@@ -144,7 +153,7 @@ function Camion() {
             nombreSerie = "Serie T7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP28TON"
             images = [
-                urlMedia+"28-toneladas/camion-blanco-sinotruk-de-28-toneladas-ecuador.webp",
+                urlMedia+"portadasSorteo/28-web.jpg",
                 urlMedia+"28-toneladas/camion-blanco-sinotruk-de-28-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "390 HP"
@@ -198,7 +207,7 @@ function Camion() {
             nombreSerie = "Serie T7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
             images = [
-                urlMedia+"28-toneladas-retardador/camion-blanco-sinotruk-de-28-toneladas-ecuador.webp",
+                urlMedia+"portadasSorteo/28-R-web.jpg",
                 urlMedia+"28-toneladas-retardador/camion-blanco-sinotruk-de-28-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "390 HP"
@@ -252,7 +261,7 @@ function Camion() {
             nombreSerie = "Serie T7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP42TON"
             images = [
-                urlMedia+"42-toneladas/camion-blanco-sinotruk-de-42-toneladas-ecuador.webp",
+                urlMedia+"portadasSorteo/42-web.jpg",
                 urlMedia+"42-toneladas/camion-blanco-sinotruk-de-42-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "390 HP"
@@ -306,7 +315,7 @@ function Camion() {
             nombreSerie = "Serie T7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP45TON"
             images = [
-                urlMedia+"45-toneladas/camion-blanco-sinotruk-de-45-toneladas-ecuador.webp",
+                urlMedia+"portadasSorteo/45-web.jpg",
                 urlMedia+"45-toneladas/camion-blanco-sinotruk-de-45-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "430 HP"
@@ -360,7 +369,7 @@ function Camion() {
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP48TON"
             images = [
-                urlMedia+"48-toneladas/portadac7h48.jpg",
+                urlMedia+"portadasSorteo/48-web.jpg",
                 urlMedia+"48-toneladas/camion-amarillo-sinotruk-de-48-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "540 HP"
@@ -416,7 +425,7 @@ function Camion() {
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP48TONCAT"
             images = [
-                urlMedia+"48-toneladas-catalinas/camion-blanco-sinotruk-de-48-toneladas-ecuador.webp",
+                urlMedia+"portadasSorteo/48-CC-web.jpg",
                 urlMedia+"48-toneladas-catalinas/camion-blanco-sinotruk-de-48-toneladas-de-frente-ecuador.webp"
             ];
             textoMotor1 = "540 HP"
@@ -650,7 +659,7 @@ function Camion() {
         </div>
 
 
-        <div className="boxesIni posRelative centrado">
+        <div className="boxesIni posRelative">
             <div className="centrado">
                 <img src={imagen} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
             </div>
@@ -671,7 +680,7 @@ function Landingmenu() {
         <>
             <div className="menuHome">
                 <div className="logoHome">
-                    <a href="/landing/expresso/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+                    <a href="/landing/expresso"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
                 </div>
             </div>
         </>
@@ -682,7 +691,7 @@ function Landingfooter() {
         <>
             <div className="menuHome">
                 <div className="logoHome">
-                    <a href="/landing/expresso/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+                    <a href="/landing/expresso"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
                 </div>
             </div>
         </>

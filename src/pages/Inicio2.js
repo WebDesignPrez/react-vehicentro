@@ -231,23 +231,22 @@ function Block3() {
   return (
     <>
       <div className="block3 boxBlock">
-      {/* <div>
-          <a href="/serie/100"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+      <div>
+          <a><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
-            <p className="titleBox">SERIE</p>
-            <p className="titleBox2" >NLS</p>
+            <p className="titleBox" ><span className="nuevoCamion">NUEVO</span></p>
+          <p className="titleBox" >Preventa</p>
             <div className="linksBox">
-             
+              <NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >2.5 TON</NavLink>
             </div>
           </div>
-        </div> */}
+        </div>
         <div>
           <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/100">100</NavLink>
             <div className="linksBox">
-            <span className="nuevoCamion">NUEVO</span><NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >2.5 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" ><span></span>3.5 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink>
@@ -370,17 +369,16 @@ function Block3() {
             <p className="titleBox"></p>
             <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS / MIXER</NavLink>
             <div className="linksBox">
-            <p className="moreSpace">Volquetas:</p>
+              <p>Volquetas:</p>
               <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280"> 8-9 m3</NavLink>
               <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430"> 10-14 m3</NavLink>
               <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540"> 20 m3</NavLink>
-              <p className="moreSpace">Mixer:</p>
+              <p>Mixer:</p>
               <NavLink className="line2" src="" to="/mixer/mixer-a7-1257"> A7 8-9 m3</NavLink>
             </div>
           </div>
 
         </div>
-        
         <div>
           <Slide duration={2000}>
 
@@ -406,7 +404,6 @@ function Block3() {
           </div>
 
         </div>
-        
       </div>
 
 

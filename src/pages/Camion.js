@@ -107,7 +107,7 @@ function Camion() {
       cuotas = `${precios.dos_cinco_cuota}`
       motor = urlMedia + "2.5-toneladas/2.5Frontal.jpg"
       garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
-      tecnologia = urlMedia + "2.5-toneladas/SenieNLS.png"
+      tecnologia = urlMedia + "2.5-toneladas/frenos.png"
 
       caracteristicas = [
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-potencia-87hp.webp",
@@ -183,9 +183,8 @@ function Camion() {
         }
       </div>
 
-      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "2.5-toneladas/frenos.png"} />
+      contenedorVidaUtil = "Caja EATON"
 
-      </div>
       break;
     
 
@@ -1349,9 +1348,20 @@ function Camion() {
           <div className="banner"><img src={tecnologia} alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
         </div>
 
-        <div className="boxRightHeader  half text_icon_center" >
+        { nombreCamion !== 'Camión de 2.5 toneladas' &&
+          <div className="boxRightHeader  half text_icon_center" >
           <p className='vidaUtil'>{contenedorVidaUtil}</p>
-        </div>
+          </div>  
+        }
+
+        { nombreCamion == 'Camión de 2.5 toneladas' &&
+          <div className="boxRightHeader  half text_icon_center" >
+          <p className='vidaUtil newStyle'>{contenedorVidaUtil}</p>
+          </div>  
+        }
+
+
+        
 
         <div className="boxRightHeader  half icon_right">
           <div className="banner"><img src={garantia} alt={`Garantia ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
@@ -1416,19 +1426,6 @@ nombreCamion !== 'Camión de 2.5 toneladas' &&
         </div>
       </div>
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       <h2 style={{ paddingLeft: 50, paddingTop: 30 }}>Medidas y dimensiones</h2>
       <h2 style={{ fontSize: 0.01 }}>{nombreSerie}</h2>
