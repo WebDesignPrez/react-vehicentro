@@ -119,6 +119,22 @@ function Block3() {
 
         switch (cam) {
 
+            case "camion-de-2-5-toneladas":
+                nombreCamion = "Camión de 2.5 toneladas"
+                camionSerie = "2.5 TON"
+                nombreSerie = "Serie 100"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX2.5TON"
+
+                break;
+
+            case "camion-20-toneladas-catalinas-1256":
+                nombreCamion = "Camión de 20 toneladas con Catalinas | C7H-1256"
+                camionSerie = 'C7H 1256 / 20 TON con Catalinas'
+                nombreSerie = "Serie C7H"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX20TONCAT"
+                
+                break;
+
             //10 toneladas
             case "camion-10-toneladas-t5g-1167":
                 nombreCamion = "Camión de 10 toneladas | T5G-1167"

@@ -94,7 +94,7 @@ function Camion() {
             nombreBusqueda = "Camión de 2.5 toneladas"
             camionSerie = "2.5 TON"
             nombreSerie = "Serie 100"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP2.5TON"
             images = [
                 urlMedia + "2.5-toneladas/hero1.jpg"
             ];
@@ -1036,7 +1036,7 @@ function Camion() {
             nombreBusqueda = "Camión de 20 toneladas con Catalinas"
             camionSerie = 'C7H 1256 / 20 TON con Catalinas'
             nombreSerie = "Serie C7H"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH20TCAT"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP20TONCAT"
             images = [
                 urlMedia + "/portadasSorteo/20-CC-web.jpg",
             ];
