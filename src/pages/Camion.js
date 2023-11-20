@@ -127,8 +127,8 @@ function Camion() {
       internas2b = [
         urlMedia + "2.5-toneladas/palanca2.5.jpg"
       ];
-      medidas = urlMedia + "2.5-toneladas/2.5Medidas.png"
-      medidasMovil = urlMedia + "2.5-toneladas/2.5CeluMedidas.png"
+      medidas = urlMedia + "2.5-toneladas/2.5CeluMedidas.png"
+      medidasMovil = urlMedia + "2.5-toneladas/2.5Medidas.png"
       audio_motor = urlMedia + "3.5-toneladas/motor.mp3"
       
 
