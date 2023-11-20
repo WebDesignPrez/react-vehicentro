@@ -87,8 +87,6 @@ function Camion() {
 
     //2.5 toneladas
     case "camion-de-2-5-toneladas":
-
-      pathUrl = "camion-de-3-5-toneladas"
       nombreCamion = "Camión de 2.5 toneladas"
       nombreBusqueda = "Camión de 2.5 toneladas"
       camionSerie = "2.5 TON"
@@ -115,22 +113,19 @@ function Camion() {
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-freno-de-aire.webp",
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
       ]
-      cabina = urlMedia + "3.5-toneladas/cabina-de-camion-de-3.5-toneladas-sinotruk.webp"
+      cabina = urlMedia + "2.5-toneladas/cabina2.5.jpg"
       marcas = ""
       internas1 = [
-        urlMedia + "3.5-toneladas/volante-deportivo.webp",
-        urlMedia + "3.5-toneladas/ventilacion.webp"
+        urlMedia + "2.5-toneladas/volante2.5.jpg"
       ];
       internas2 = [
-        urlMedia + "3.5-toneladas/palanca-de-cambios.webp",
-        urlMedia + "3.5-toneladas/bloqueo.webp"
+        urlMedia + "2.5-toneladas/vidrios2.5.jpg"
       ];
       internas1b = [
-        urlMedia + "3.5-toneladas/radio-mp5.webp",
-        urlMedia + "3.5-toneladas/vidrios-electricos.webp"
+        urlMedia + "2.5-toneladas/radio2.5.jpg",
       ];
       internas2b = [
-        urlMedia + "3.5-toneladas/cabina.webp"
+        urlMedia + "2.5-toneladas/palanca2.5.jpg"
       ];
       medidas = urlMedia + "2.5-toneladas/medidas2.5.jpg"
       medidasMovil = urlMedia + "2.5-toneladas/medidasMovil2.5.jpg"
@@ -139,49 +134,47 @@ function Camion() {
 
 
       internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
-      //loop slider
+            //loop slider
 
-      slide3 = internas1b.map((interna) =>
-        <div className="each-slide-effect" >
-          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
-          </div>
-        </div>
-      );
+            slide3 = internas1b.map((interna) =>
+                <div className="each-slide-effect" >
+                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+                    </div>
+                </div>
+            );
 
-      slide3b = internas2b.map((interna) =>
-        <div className="each-slide-effect" >
-          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
-          </div>
-        </div>
-      );
+            slide3b = internas2b.map((interna) =>
+                <div className="each-slide-effect" >
+                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+                    </div>
+                </div>
+            );
 
-      contenedorMarcas = <div style={{ display: `contents` }} >
-        {internas1b.length > 1 &&
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <Fade >
-              {slide3}
-            </Fade>
-          </div>
-        }
-        {internas1b.length == 1 &&
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
-          </div>
-        }
+            contenedorMarcas = <div style={{ display: `contents` }} >
+                {internas1b.length > 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        
+                        <Fade><img src={internas1b[0]} alt="" /></Fade>
+                        
+                    </div>
+                }
+                {internas1b.length == 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <img src={internas1b[0]} alt="" />
+                    </div>
+                }
 
-        {internas2b.length > 1 &&
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <Fade >
-              {slide3b}
-            </Fade>
-          </div>
-        }
-        {internas2b.length == 1 &&
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
-          </div>
-        }
-      </div>
+                {internas2b.length > 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                       <Fade><img src={internas2b[0]} alt="" /></Fade>
+                    </div>
+                }
+                {internas2b.length == 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <img src={internas2b[0]} alt="" />
+                    </div>
+                }
+            </div>
 
       contenedorVidaUtil = "Caja EATON"
 
@@ -1391,15 +1384,6 @@ function Camion() {
       </div>
 
 
-
-
-
-
-{
-
-nombreCamion !== 'Camión de 2.5 toneladas' &&
-
-
       <div className="boxesIni posRelative">
         <div className="marcasbg">
           <img src={cabina} width="1500" height="1500" className="slideMain" alt={`cabina ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
@@ -1407,14 +1391,24 @@ nombreCamion !== 'Camión de 2.5 toneladas' &&
 
         <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <Fade >
-              {slide2}
-            </Fade>
+            {nombreCamion != "Camión de 2.5 toneladas" &&
+               <Fade >
+               {slide2}
+             </Fade>
+            }
+            {nombreCamion == "Camión de 2.5 toneladas" &&
+              <img src={internas1}></img>
+            }
           </div>
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
-            <Fade >
-              {slide2b}
-            </Fade>
+            {nombreCamion != "Camión de 2.5 toneladas" &&
+               <Fade >
+               {slide2b}
+             </Fade>
+            }
+            {nombreCamion == "Camión de 2.5 toneladas" &&
+              <img src={internas2}></img>
+            }
           </div>
           <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
             <Fade >
@@ -1425,7 +1419,6 @@ nombreCamion !== 'Camión de 2.5 toneladas' &&
 
         </div>
       </div>
-}
 
       <h2 style={{ paddingLeft: 50, paddingTop: 30 }}>Medidas y dimensiones</h2>
       <h2 style={{ fontSize: 0.01 }}>{nombreSerie}</h2>
