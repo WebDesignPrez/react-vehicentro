@@ -103,7 +103,7 @@ function Camion() {
       precio = precios.dos_cinco
       seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
       cuotas = `${precios.dos_cinco_cuota}`
-      motor = urlMedia + "2.5-toneladas/2.5Frontal.jpg"
+      motor = urlMedia + "2.5-toneladas/2.5FrotalTest.jpg"
       garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "2.5-toneladas/frenos.png"
 
@@ -127,8 +127,8 @@ function Camion() {
       internas2b = [
         urlMedia + "2.5-toneladas/palanca2.5.jpg"
       ];
-      medidas = urlMedia + "2.5-toneladas/medidas2.5.jpg"
-      medidasMovil = urlMedia + "2.5-toneladas/medidasMovil2.5.jpg"
+      medidas = urlMedia + "2.5-toneladas/2.5Medidas.png"
+      medidasMovil = urlMedia + "2.5-toneladas/2.5CeluMedidas.png"
       audio_motor = urlMedia + "3.5-toneladas/motor.mp3"
       
 
