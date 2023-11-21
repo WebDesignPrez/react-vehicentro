@@ -7,7 +7,7 @@ import { Slide } from 'react-slideshow-image';
 import env from '../config';
 import { Helmet } from "react-helmet";
 import PopUp from "../components/PopUp";
-
+import PopUpAvisoLegal from "../components/PopUpAvisoLegal";
 
 
 
@@ -133,7 +133,7 @@ function Inicio2() {
         <meta name="twitter:label1" content="Tiempo de lectura"></meta>
         <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
-      <PopUp />
+      <PopUpAvisoLegal/>
       <NavBar />
       <Block1 />
       <Menu2 />
