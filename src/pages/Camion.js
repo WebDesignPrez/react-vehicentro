@@ -95,7 +95,7 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
       images = [
-        urlMedia + "2.5-toneladas/hero1.jpg"
+        urlMedia + "2.5-toneladas/hero2.5.webp"
       ];
       textoMotor1 = ""
       textoMotor2 = ""
@@ -1161,7 +1161,7 @@ function Camion() {
   switch ((useParams("id").id)) {
 
     case "camion-de-2-5-toneladas":
-      imagen = urlMedia + "2.5-toneladas/formu2.5.jpg"
+      imagen = urlMedia + "2.5-toneladas/form2.5.webp"
       break;
 
     case "camion-de-3-5-toneladas-1057":
