@@ -6,27 +6,27 @@ import SearchBar from "./components/Search";
 
 export default function NavBar() {
   var auxMovil = 0;
-  let control = 0;
+  //let control = 0;
   let urlMedia = env.url
 
   useEffect(() => {
     window.scrollTo(0, 0);
 
     //pop up politicas
-    let the_button = document.getElementById('js-btn')
-    let modaldos = document.getElementById("modaldos")
-    let closeBtn = document.getElementById("closedos")
+     let the_button = document.getElementById('js-btn')
+     let modaldos = document.getElementById("modaldos")
+     let closeBtn = document.getElementById("closedos")
 
 
-    the_button.addEventListener("click", handleClick)
+    //  the_button.addEventListener("click", handleClick)
 
 
-    function handleClick(event) {
-      modaldos.style.display = "block";
-      closeBtn.addEventListener("click", () => {
-        modaldos.style.display = "none"
-      })
-    }
+    // function handleClick(event) {
+    //   modaldos.style.display = "block";
+    //   closeBtn.addEventListener("click", () => {
+    //     modaldos.style.display = "none"
+    //   })
+    // }
 
 
 
@@ -535,11 +535,21 @@ export default function NavBar() {
 
   });
 
+    const [mostrarModal, setMostrarModal] = useState(false);
+  
+    const activarModal = () => {
+      setMostrarModal(true);
+    };
+  
+    const cerrarModal = () => {
+      setTimeout(() => {
+        setMostrarModal(false);
+      }, 10); // 200 milisegundos de retraso
+    };
 
-
-
-
-
+ 
+    
+  
   return <nav className="menu1 internal">
     <div className="burger">
       <div className="line1"></div>
@@ -768,6 +778,9 @@ export default function NavBar() {
           </div>
         </div>
       </li>
+
+      
+
       <li>
         <a href="#" option="compania">COMPAÑÍA</a>
         <div className="item-level-6 nav-header nav-header-h" >
@@ -783,7 +796,7 @@ export default function NavBar() {
               <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
               <p className="colItem meniu"><NavLink to="/repuestos">Repuestos</NavLink></p>
               <p className="colItem meniu"><NavLink to="/terminosCondiciones">Terminos y Condiciones</NavLink></p><br></br>
-              <a className="colItem meniu negro" id="js-btn">Políticas</a>
+              <a href="#" className="colItem meniu negro" id="js-btn" onMouseEnter={activarModal}>Políticas</a>
             </div>
           </div>
         </div>
@@ -800,22 +813,26 @@ export default function NavBar() {
       </div>
       <div className="searchHome"><img src={urlMedia + "search.png"} alt="Buscar" width="100" height="100" /></div>
     </div>
-    <div class="modaldos" id="modaldos">
-      <div class="modaldos_content">
-        <span class="closedos" id="closedos">&times;</span>
-        <b><h2>Vehicentro Ecuador</h2> - <h2>Comercialización de camiones Sinotruk</h2> - <h2>Sinotruk Ecuador</h2></b><br></br><br></br>
-        <h3>Venta de Camiones Sinotruk a nivel Nacional</h3><br></br><br></br>
-        <p>En Vehicentro tenemos el camión que necesitas</p><br></br><br></br>
-        <p>Los precios de nuestros <h4>camiones</h4>, <h4>volquetas</h4>, <h4>mixer</h4>, <h4>excavadoras</h4>, <h4>volquetas</h4> incluyen IVA y cualquier otro impuesto aplicable y están sujetos a cambios sin previo aviso.</p> <br></br><br></br>
-        <p>Vehicentro con sus sucurales en Ecuador de dedica a la <h2>venta de Camiones en Ambato</h2>, <h2>venta de Camiones en Quito</h2>, <h2>venta de Camiones en Guayaguil</h2>, <h2>venta de Camiones en Riobamba</h2>, <h2>venta de Camiones en Machala</h2>, <h2>venta de Camiones en Ibarra</h2> y <h2>venta de Camiones en Manta</h2></p>
-        <br></br><br></br>
-        <p>Vehicentro no será responsable de los retrasos en la entrega causados por circunstancias imprevistas o que esten fuera de control.</p><br></br><br></br>
-        <p>Vehicentro no será responsable de los daños directos, indirectos, incidentales o consecuentes causados el uso del camión después de la venta.</p><br></br><br></br>
-        <p>Vehicentro se compromete a proteger la privacidad de los clientes y sus datos personales.</p><br></br>
-        <p>Los datos personales del cliente se utilizarán solo para fines relacionados con la venta del camión.</p>
-      </div>
-    </div>
-  </nav>
+    {mostrarModal && (
+      <div class="modaldos" id="modaldos">
+        <div class="modaldos_content">
+          <span class="closedos" id="closedos" onClick={cerrarModal}>&times;</span>
+          <b><h2>Vehicentro Ecuador</h2> - <h2>Comercialización de camiones Sinotruk</h2> - <h2>Sinotruk Ecuador</h2></b><br></br><br></br>
+          <h3>Venta de Camiones Sinotruk a nivel Nacional</h3><br></br><br></br>
+          <p>En Vehicentro tenemos el camión que necesitas</p><br></br><br></br>
+          <p>Los precios de nuestros <h4>camiones</h4>, <h4>mixer</h4>, <h4>excavadoras y volquetas</h4> incluyen IVA, cualquier otro impuesto aplicable están sujetos a cambios sin previo aviso.</p> <br></br><br></br>
+          <p>Vehicentro con sus sucursales en Ecuador se dedica a la <h2>venta de Camiones en Ambato</h2>, <h2>venta de Camiones en Quito</h2>, <h2>venta de Camiones en Guayaquil</h2>, <h2>venta de Camiones en Riobamba</h2>, 
+          <h2>venta de Camiones en Machala</h2>, <h2>venta de Camiones en Ibarra</h2> y <h2>venta de Camiones en Manta</h2></p>
+          <br></br><br></br>
+          <p>Vehicentro no será responsable de los retrasos en la entrega causados por circunstancias imprevistas o que estén fuera de control.</p><br></br><br></br>
+          <p>Vehicentro no será responsable de los daños directos, indirectos, incidentales o consecuentes causados el uso del camión después de la venta.</p><br></br><br></br>
+          <p>Vehicentro se compromete a proteger la privacidad de los clientes y sus datos personales.</p><br></br><br></br>
+          <p>Los datos personales del cliente se utilizarán solo para fines relacionados con la venta del camión.</p><br></br><br></br>
+          <a href="https://vehicentro.com/politicaprivacidad" class="enlace_politica">Políticas y privacidad</a>
 
+        </div>
+      </div>
+    )}
+  </nav>
 
 }
