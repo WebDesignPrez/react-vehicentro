@@ -206,16 +206,16 @@
     position: absolute;
     bottom: 20% /*!important*/;
     top: 20% /*!important*/;
-    max-height: 4.5rem;
-    font-size: large;
+    max-height: 5.8rem;
+    font-size: larger;
     left: 15px;
     right: 15px;
     background-color: #a3292d;
     color: white;
-    padding: 1rem !important;
-    margin-top: 15rem;
+    padding: 1.6rem !important;
+    margin-top: 13rem;
     text-align: center !important;
-    min-height: 2rem;
+    min-height: 3.5rem;
   }
 
   .text_icon_left {
