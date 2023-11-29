@@ -40,6 +40,10 @@ body {
   text-align: left;
 }
 
+.blackTerminos{
+  font-weight: bold;
+}
+
 .popup:hover{
   border-color: #000;
   color: #fff;

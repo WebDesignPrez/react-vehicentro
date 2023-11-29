@@ -105,6 +105,7 @@ import U70 from "./pages/vehiculos/U70"
 import M70L from "./pages/vehiculos/M70L"
 import M70L_EV from "./pages/vehiculos/M70L_EV"
 import Paises from "./pages/Paises"
+import TerminosCondiciones from "./pages/TerminosCondiciones"
 
 
 
@@ -252,6 +253,8 @@ function App() {
           <Route path="/keyton/furgonetas/m70l-EV" element={<M70L_EV />} />
                     
           <Route path="/bdc/paises" element={<Paises />} />
+          <Route path="/terminosCondiciones" element={<TerminosCondiciones />} />
+
                     
         </Routes>
       </main>
