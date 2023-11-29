@@ -781,7 +781,8 @@ export default function NavBar() {
               {/* <a href="../bdc/paises" className="colItem meniu negro">BDC</a> */}
               <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">bdc</a>
               <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
-              <a href="repuestos" className="colItem meniu negro">Repuestos</a><br></br>
+              <p className="colItem meniu"><NavLink to="/repuestos">Repuestos</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/terminosCondiciones">Terminos y Condiciones</NavLink></p><br></br>
               <a className="colItem meniu negro" id="js-btn">Políticas</a>
             </div>
           </div>

@@ -140,7 +140,7 @@ function PoliticaPrivacidad() {
                         </div>    <br />
                         <p>•	Portabilidad: el titular o interesado puede solicitar a Seguros Suárez la entrega de sus datos personales.</p>    <br />
                         <p>Para hacer efectivos sus derechos ponemos a disposición los contactos del delegado (DPO) de Vehicentro al final de esta política con quien podrá contactarse para atender su requerimiento.</p>    <br />
-                        <p>Para ello, necesitamos que nos envíe el siguiente formulario <a href="https://vehicentro.com/documentos/FORMULARIO_DE_SOLICITUD_DEL_EJERCICIO_DE_DERECHOS_DEL_TITULAR.pdf" download target="_blank">Descarga el formulario</a> y lo envíe por correo a privacidad@vehicentro.com, y en un plazo de 15 días a partir de recibida la solicitud, como estipula la LOPDP, se notificará si la solicitud procede o no.</p>
+                        <p>Para ello, necesitamos que nos envíe el siguiente formulario <a href="https://vehicentro.com/documentos/FORMULARIO_DE_SOLICITUD_DEL_EJERCICIO_DE_DERECHOS_DEL_TITULAR.pdf" download target="_blank">descargar formulario</a> y lo envíe por correo a privacidad@vehicentro.com, y en un plazo de 15 días a partir de recibida la solicitud, como estipula la LOPDP, se notificará si la solicitud procede o no.</p>
                         <br />
                     <p className="black">6.	TIEMPO DE CONSERVACIÓN DE LOS DATOS</p>
                     <br/>
