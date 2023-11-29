@@ -2650,11 +2650,11 @@ a.colItem.meniu.negro {
 
 
 .modaldos {
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 1000;
   width: 100%;
-  height: 200%;
+  height: 150%;
   background-color: rgb(255 255 255 / 30%);
 }
 
@@ -2663,14 +2663,20 @@ a.colItem.meniu.negro {
   color: #000;
   background-color: white;
   position: fixed;
-  top: 25%;
+  top: 15%;
   left: 20%;
-  width: 60%;
+  width: 65%;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 1.5rem;
   border: 1px solid black;
 }
 
+.enlace_politica {
+  color: #a52a2a;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 550;
+}
 
 .closedos {
   color: Black;
