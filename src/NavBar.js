@@ -792,11 +792,11 @@ export default function NavBar() {
             <div className="colMenu">
               <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
               {/* <a href="../bdc/paises" className="colItem meniu negro">BDC</a> */}
-              <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">bdc</a>
+              <p><a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro" style={{alignItems:'center', color: '#000'}}>bdc</a></p>
               <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
               <p className="colItem meniu"><NavLink to="/repuestos">Repuestos</NavLink></p>
               <p className="colItem meniu"><NavLink to="/terminosCondiciones">Terminos y Condiciones</NavLink></p><br></br>
-              <a href="#" className="colItem meniu negro" id="js-btn" onMouseEnter={activarModal}>Políticas</a>
+              <p className="colItem meniu negro" id="js-btn" onMouseEnter={activarModal}>Políticas</p>
             </div>
           </div>
         </div>
@@ -816,7 +816,7 @@ export default function NavBar() {
     {mostrarModal && (
       <div class="modaldos" id="modaldos">
         <div class="modaldos_content">
-          <span class="closedos" id="closedos" onClick={cerrarModal}>&times;</span>
+          <span class="closedos" id="closedos" style={{fontSize:'1.2rem', color: '#a52a2a'}} onClick={cerrarModal}>x</span>
           <b><h2>Vehicentro Ecuador</h2> - <h2>Comercialización de camiones Sinotruk</h2> - <h2>Sinotruk Ecuador</h2></b><br></br><br></br>
           <h3>Venta de Camiones Sinotruk a nivel Nacional</h3><br></br><br></br>
           <p>En Vehicentro tenemos el camión que necesitas</p><br></br><br></br>

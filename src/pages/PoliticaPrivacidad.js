@@ -3,6 +3,7 @@ import BannerContacto from "../components/BannerContacto"
 import Footer from "../components/Footer"
 import NavBarTop from "../NavBarTop"
 
+import "../styles.css"
 
 function PoliticaPrivacidad() {
     return (
@@ -154,7 +155,7 @@ function PoliticaPrivacidad() {
                     <br />
                     <p className="black">8.	CAMBIOS AL AVISO DE PRIVACIDAD</p>
                     <br/>
-                   <p>La actualización al presente contenido será notificada a través del sitio web de Vehicentro: <a href="https://vehicentro.com" target="_blank">https://vehicentro.com/</a></p>
+                   <p>La actualización al presente contenido será notificada a través del sitio web de Vehicentro: <br></br><br></br><a href="https://vehicentro.com" class="linkself">https://vehicentro.com/</a></p>
                    <br/>
                    <p>Última Versión: 18/11/2023</p>
                     </div>
