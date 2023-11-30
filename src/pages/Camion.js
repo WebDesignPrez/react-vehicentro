@@ -103,7 +103,7 @@ function Camion() {
       precio = precios.dos_cinco
       seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
       cuotas = `${precios.dos_cinco_cuota}`
-      motor = urlMedia + "2.5-toneladas/2.5FrotalTest.jpg"
+      motor = urlMedia + "2.5-toneladas/2.5FRONTAL_1.webp"
       garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "2.5-toneladas/frenos.png"
 
