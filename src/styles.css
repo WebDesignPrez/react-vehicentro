@@ -1403,8 +1403,12 @@ p.titleFooter {
   color: #000 !important;
 }
 
-.colItem.meniu a:hover {
+/* .colItem.meniu a:hover {
   color: #f44331;
+} */
+
+.colItem.meniu a:hover {
+  color: #000;
 }
 
 .colorLinksSobreTexto a {
@@ -1487,8 +1491,6 @@ p.titleFooter {
   font-size: 20px;
   margin-bottom: 10px;
 }
-
-.descConcesionario {}
 
 .imgConcesionario img {
   width: 300px;
@@ -2664,22 +2666,30 @@ a.colItem.meniu.negro {
   color: #000;
   background-color: white;
   position: fixed;
-  top: 15%;
+  top: 10vh; /* porcentaje superior */
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
-  max-height: 39rem;
-  min-width: 12rem;
-  padding: 30px;
-  border-radius: 1rem;
+  max-height: 70vh; /*altura máxima */
+  min-width: 25vw; /* unidades relativas */
+  padding: 5vw; /* unidades relativas */
+  border-radius: 2vw; /* unidades relativas */
   border: 1px solid black;
 }
+
 
 .enlace_politica {
   color: #a52a2a;
   text-decoration: none;
   font-size: large;
   font-weight: 550;
+}
+
+.linkself {
+  color: black;
+  text-decoration: none;
+  font-weight: 550;
+  font-weight: 600;
 }
 
 .closedos {
