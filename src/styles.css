@@ -2672,9 +2672,13 @@ a.colItem.meniu.negro {
   width: 70%;
   max-height: 70vh; /*altura máxima */
   min-width: 25vw; /* unidades relativas */
-  padding: 5vw; /* unidades relativas */
+  padding: 1.5rem; /* unidades relativas */
   border-radius: 2vw; /* unidades relativas */
   border: 1px solid black;
+}
+
+.modaldos_content::-webkit-scrollbar {
+  display: none;
 }
 
 
