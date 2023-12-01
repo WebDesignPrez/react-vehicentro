@@ -84,8 +84,8 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
-                urlMedia+"a7/mixer-blanco-sinotruk.webp",
-                urlMedia+"a7/mixer-blanco-sinotruk-de-frente.webp"
+                urlMedia+"principal/A7_MIXER_3_4.webp",
+                urlMedia+"principal/A7_MIXER_FRONTAL.webp"
             ];
             textoMotor1 = "380 HP"
             textoMotor2 = "Modelo 1257 - 8m3"
@@ -116,8 +116,8 @@ function Mixer() {
             internas2b = [
                 urlMedia+"a7/transmision.webp"
             ];
-            medidas = urlMedia+"a7/dimensiones-de-mixer-de-8-m3-sinotruk.webp"
-            medidasMovil = urlMedia+"a7/dimensiones-de-mixer-de-8-m3-sinotruk-responsive.webp"
+            medidas = urlMedia+"medidas/MIXER_A7.webp"
+            medidasMovil = urlMedia+"medidas/MIXER_CELL.webp"
             audio_motor = urlMedia+"a7/motor.mp3"
 
 
@@ -178,7 +178,7 @@ function Mixer() {
     switch ((useParams("id").id)) {
 
         case "mixer-a7-1257":
-            imagen = urlMedia+"a7/mixer-en-la-carretera-sinotruk.webp"
+            imagen = urlMedia+"portadas/MIXER_A7.webp"
             break;
 
 

@@ -86,8 +86,8 @@ function Camion() {
             pathUrl = "volqueta-t5g-280"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA330"
             images = [
-                urlMedia + "volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
-                urlMedia + "volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
+                urlMedia + "principal/8-9VOLQUETA_3_4.webp",
+                urlMedia + "principal/8-9_VOLQUETA_FRONTAL.webp"
             ];
             textoMotor1 = "330 HP"
             textoMotor2 = "Modelo T5G-330"
@@ -121,8 +121,8 @@ function Camion() {
                 urlMedia + "volqueta-280/palanca.webp"
             ];
 
-            medidas = urlMedia + "volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk.webp"
-            medidasMovil = urlMedia + "volqueta-280/dimensiones-de-volqueta-de-8-9-m3-sinotruk-responsive.webp"
+            medidas = urlMedia + "medidas/VOLQUETA_8-9.webp"
+            medidasMovil = urlMedia + "medidas/VOLQUETA_8_CEL.webp"
             audio_motor = urlMedia + "volqueta-280/motor.wav"
 
             internas = internas1.concat(internas2)
@@ -143,7 +143,7 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
             images = [
-                urlMedia + "volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
+                urlMedia + "principal/10-14VOLQUETA_3_4.webp"
             ];
             textoMotor1 = "430 HP"
             textoMotor2 = "Modelo T7H-430"
@@ -177,8 +177,8 @@ function Camion() {
                 urlMedia + "volqueta-430/palanca.webp"
             ];
 
-            medidas = urlMedia + "volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk.webp"
-            medidasMovil = urlMedia + "volqueta-430/dimensiones-de-volqueta-de-10-14-m3-sinotruk-responsive.webp"
+            medidas = urlMedia + "medidas/VOLQUETA_10-4.webp"
+            medidasMovil = urlMedia + "medidas/VOLQUETA_10_CEL.webp"
             audio_motor = urlMedia + "volqueta-430/motor.wav"
 
             internas = internas1.concat(internas2)
@@ -200,7 +200,7 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540"
             images = [
-                urlMedia + "volqueta-540/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
+                urlMedia + "principal/20VOLQUETA_3_4.webp"
             ];
             textoMotor1 = "20 m3"
             textoMotor2 = "Modelo C7H-540"
@@ -229,8 +229,8 @@ function Camion() {
                 urlMedia + "volqueta-540/volante-deportivo.webp"
             ];
 
-            medidas = urlMedia + "volqueta-540/dimensiones-de-volqueta-de-10-14-m3-sinotruk.webp"
-            medidasMovil = urlMedia + "volqueta-540/dimensiones-de-volqueta-de-10-14-m3-sinotruk-responsive.webp"
+            medidas = urlMedia + "medidas/VOLQUETA_20m3.webp"
+            medidasMovil = urlMedia + "medidas/VOLQUETA_20_C7H_CEL.webp"
             audio_motor = urlMedia + "volqueta-540/motor.wav"
 
             internas = internas1.concat(internas2)
@@ -250,15 +250,15 @@ function Camion() {
     switch ((useParams("id").id)) {
 
         case "volqueta-t5g-280":
-            imagen = urlMedia + "volqueta-280/volqueta-en-la-carretera.webp"
+            imagen = urlMedia + "postales/VOLQUETA_330_FOTO.webp"
             break;
 
         case "volqueta-t7h-430":
-            imagen = urlMedia + "volqueta-430/volqueta-en-la-carretera.webp"
+            imagen = urlMedia + "postales/VOLQUETA_420_FOTO.webp"
             break;
 
         case "volqueta-c7h-540":
-            imagen = urlMedia + "volqueta-540/volqueta-en-la-carretera.webp"
+            imagen = urlMedia + "postales/VOLQUETA_540_FOTO.webp"
             break;
 
         default:

@@ -99,8 +99,8 @@ function Camion() {
       fortalezas = "Motor man de alta tecnologia, gran experiencia a nivel mundial. Unificación de partes y componentes al estar disponible en otros modelos de la marca"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
       images = [
-        urlMedia + "/portadasSorteo/24-web.jpg",
-        urlMedia + "24-toneladas/camion-sinotruk-de-24-toneladas-de-frente-ecuador.webp"
+        urlMedia + "principal/24TON_3_4.webp",
+        urlMedia + "principal/24TON_FRONTAL.webp"
       ];
       textoMotor1 = "340 HP"
       textoMotor2 = "Modelo T5G-4187 - 24 Ton"
@@ -136,7 +136,7 @@ function Camion() {
         urlMedia + "24-toneladas/climatizador.webp"
       ];
 
-      medidas = urlMedia + "24-toneladas/dimensiones-de-camion-de-24-toneladas-sinotruk.webp"
+      medidas = urlMedia + "medidas/24WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "24-toneladas/dimensiones-de-camion-de-24-toneladas-sinotruk-responsive.webp"
       audio_motor = urlMedia + "24-toneladas/motor.mp3"
 
@@ -163,8 +163,8 @@ function Camion() {
       fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
       images = [
-        urlMedia + "/portadasSorteo/28-web.jpg",
-        urlMedia + "28-toneladas/camion-blanco-sinotruk-de-28-toneladas-de-frente-ecuador.webp"
+        urlMedia + "principal/28TON_3_4.webp",
+        urlMedia + "principal/28_28_R_TON_FRONTAL.webp"
       ];
       textoMotor1 = "390 HP"
       textoMotor2 = "Modelo T7H-390"
@@ -197,7 +197,7 @@ function Camion() {
         urlMedia + "28-toneladas/control-hidraulico.webp"
       ];
 
-      medidas = urlMedia + "28-toneladas/dimensiones-de-camion-de-28-toneladas-sinotruk.webp"
+      medidas = urlMedia + "medidas/28WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "28-toneladas/dimensiones-de-camion-de-28-toneladas-sinotruk-responsive.webp"
       audio_motor = urlMedia + "28-toneladas/motor.mp3"
 
@@ -223,8 +223,8 @@ function Camion() {
       fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
       images = [
-        urlMedia + "/portadasSorteo/28-R-web.jpg",
-        urlMedia + "28-toneladas-retardador/camion-blanco-sinotruk-de-28-toneladas-de-frente-ecuador.webp"
+        urlMedia + "principal/28_R_TON_3-4.webp",
+        urlMedia + "principal/28_28_R_TON_FRONTAL.webp"
       ];
       textoMotor1 = "390 HP"
       textoMotor2 = "Modelo T7H-390"
@@ -256,7 +256,7 @@ function Camion() {
         urlMedia + "28-toneladas-retardador/control-hidraulico.webp"
       ];
 
-      medidas = urlMedia + "28-toneladas-retardador/dimensiones-de-camion-de-28-toneladas-sinotruk.webp"
+      medidas = urlMedia + "medidas/28_R_WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "28-toneladas-retardador/dimensiones-de-camion-de-28-toneladas-sinotruk-responsive.webp"
       audio_motor = urlMedia + "28-toneladas-retardador/motor.mp3"
 
@@ -282,8 +282,8 @@ function Camion() {
       fortalezas = "Frenos de tambor, accionado 100% de aire de doble circuito a todas las ruedas con ABS"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB42TT7H390"
       images = [
-        urlMedia + "/portadasSorteo/42-web.jpg",
-        urlMedia + "42-toneladas/camion-blanco-sinotruk-de-42-toneladas-de-frente-ecuador.webp"
+        urlMedia + "principal/42TON_3_4.webp",
+        urlMedia + "principal/42Y45_TON_FRONTAL.webp"
       ];
       textoMotor1 = "390 HP"
       textoMotor2 = "Modelo T7H-390"
@@ -316,7 +316,7 @@ function Camion() {
         urlMedia + "42-toneladas/control-hidraulico.webp"
       ];
 
-      medidas = urlMedia + "42-toneladas/dimensiones-de-camion-de-42-toneladas-sinotruk.webp"
+      medidas = urlMedia + "medidas/42WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "42-toneladas/dimensiones-de-camion-de-42-toneladas-sinotruk-responsive.webp"
       audio_motor = urlMedia + "42-toneladas/motor.mp3"
 
@@ -342,8 +342,8 @@ function Camion() {
       fortalezas = "Frenos de tambor, accionado 100% de aire de doble circuito a todas las ruedas con ABS, freno al escape, con válvula de control electro neumático y freno a las válvulas (EVB)"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB45TT7H430"
       images = [
-        urlMedia + "/portadasSorteo/45-web.jpg",
-        urlMedia + "45-toneladas/camion-blanco-sinotruk-de-45-toneladas-de-frente-ecuador.webp"
+        urlMedia + "principal/45TON_3_4.webp",
+        urlMedia + "principal/42Y45_TON_FRONTAL.webp"
       ];
       textoMotor1 = "430 HP"
       textoMotor2 = "Modelo T7H-430"
@@ -377,7 +377,7 @@ function Camion() {
         urlMedia + "45-toneladas/control-hidraulico.webp"
       ];
 
-      medidas = urlMedia + "45-toneladas/dimensiones-de-camion-de-45-toneladas-sinotruk.webp"
+      medidas = urlMedia + "medidas/45WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "45-toneladas/dimensiones-de-camion-de-45-toneladas-sinotruk-responsive.webp"
       audio_motor = urlMedia + "45-toneladas/motor.mp3"
 
@@ -400,8 +400,8 @@ function Camion() {
       nombreBusqueda2 = "camion 48 toneladas"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDCO48TON"
       images = [
-        urlMedia + "/portadasSorteo/48-web.jpg",
-        urlMedia + "48-toneladas/camion-amarillo-sinotruk-de-48-toneladas-de-frente-ecuador.webp"
+        urlMedia + "principal/48TON_3_4.webp",
+        urlMedia + "principal/48TON_FRONTAL.webp"
       ];
       textoMotor1 = "540 HP"
       textoMotor2 = "Modelo C7H-540"
@@ -437,7 +437,7 @@ function Camion() {
         urlMedia + "48-toneladas/transmision-automatica.webp"
       ];
 
-      medidas = urlMedia + "48-toneladas/dimensiones-de-camion-de-48-toneladas-sinotruk.webp"
+      medidas = urlMedia + "medidas/48WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "48-toneladas/dimensiones-de-camion-de-48-toneladas-sinotruk-responsive.webp"
       audio_motor = urlMedia + "48-toneladas/motor.mp3"
 
@@ -501,7 +501,7 @@ function Camion() {
         urlMedia + "48-toneladas-catalinas/catalinas.webp"
       ];
 
-      medidas = urlMedia + "48-toneladas-catalinas/dimensiones-de-camion-de-48-toneladas-sinotruk.webp"
+      medidas = urlMedia + "medidas/48_C_WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "48-toneladas-catalinas/dimensiones-de-camion-de-48-toneladas-sinotruk-responsive.webp"
       audio_motor = urlMedia + "48-toneladas-catalinas/motor.mp3"
 
@@ -526,33 +526,32 @@ function Camion() {
   switch ((useParams("id").id)) {
 
     case "cabezal-t5g-4187":
-      imagen = urlMedia + "24-toneladas/camion-de-24-toneladas-en-la-carretera-sinotruk.webp"
+      imagen = urlMedia + "postales/24TON_FOTO.webp"
       break;
 
     case "cabezal-t7h-390-28-toneladas":
-      imagen = urlMedia + "28-toneladas/camion-de-28-toneladas-en-la-carretera-sinotruk.webp"
+      imagen = urlMedia + "postales/28_TON_FOTO.webp"
       break;
 
     case "cabezal-28-toneladas-retardador":
-      imagen = urlMedia + "28-toneladas/camion-de-28-toneladas-en-la-carretera-sinotruk.webp"
+      imagen = urlMedia + "postales/28R_TON_FOTO.webp"
       break;
 
     case "cabezal-t7h-390-42-toneladas":
-      imagen = urlMedia + "42-toneladas/camion-de-42-toneladas-en-la-carretera-sinotruk.webp"
+      imagen = urlMedia + "postales/42TON_FOTO.webp"
       break;
 
     case "cabezal-t7h-430-45-toneladas":
-      imagen = urlMedia + "45-toneladas/camion-de-45-toneladas-en-la-carretera-sinotruk.webp"
+      imagen = urlMedia + "postales/45TON_FOTO.webp"
       break;
 
     case "cabezal-c7h-540":
-      imagen = urlMedia + "48-toneladas/camion-de-48-toneladas-en-la-carretera-sinotruk.webp"
+      imagen = urlMedia + "postales/48_TON_FOTO.webp"
       break;
 
     case "cabezal-c7h-540-catalinas-48-toneladas":
-      imagen = urlMedia + "48-toneladas-catalinas/camion-de-48-toneladas-en-la-carretera-sinotruk.webp"
+      imagen = urlMedia + "postales/48_C_TON_FOTO.webp"
       break;
-
 
     default:
       break;
