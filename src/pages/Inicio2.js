@@ -333,7 +333,7 @@ function Block3() {
         
       </div>
       <div className="block3 boxBlock row2">
-      <div>
+      {/* <div>
           <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/BannerU70.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -343,10 +343,33 @@ function Block3() {
               <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
             </div>
           </div>
-        </div>
+        </div> */}
+        {/* slide u70 */}
         <div>
           <Slide duration={2000}>
+            <div className="each-slide-effect">
+              <div style={{ 'backgroundImage': `url(../images/home/U70Carrusel.webp)`, height: `23.2vw` }}>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ 'backgroundImage': `url(../images/home/U70ProCarrusel.webp)`, height: `23.2vw` }}>
+              </div>
+            </div>
+          </Slide>
 
+          <div className="bottomContainer">
+            <p className="titleBox"></p>
+            <NavLink className="titleBox2" to="/sinotruk/autos">SUV'S</NavLink>
+            <div className="linksBox">
+              <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70</NavLink>
+              <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink> 
+            </div>
+          </div>
+        </div>
+
+        
+        <div>
+          <Slide duration={2000}>
             <div className="each-slide-effect">
               <div style={{ 'backgroundImage': `url(../images/home/mixer.webp)`, height: `23.2vw` }}>
               </div>
@@ -380,6 +403,8 @@ function Block3() {
           </div>
 
         </div>
+        
+
         <div>
           <Slide duration={2000}>
 
