@@ -804,7 +804,7 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB5T1167"
       images = [
         urlMedia + "principal/5TON_3_4.webp",
-        urlMedia + "princiapl/5TON_FRONTAL.webp"
+        urlMedia + "principal/5TON_FRONTAL.webp"
       ];
       textoMotor1 = "141 HP"
       textoMotor2 = "Modelo 1067 - 5 Ton"
@@ -1106,7 +1106,7 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH20TCAT"
       images = [
-        urlMedia + "princiapl/20_C_TON_3_4.webp",
+        urlMedia + "principal/20_C_TON_3_4.webp",
       ];
       textoMotor1 = "430 HP"
       textoMotor2 = "Modelo C7H-1256"

@@ -223,7 +223,7 @@ function Camion() {
       fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
       images = [
-        urlMedia + "principal/28_R_TON_3-4.webp",
+        urlMedia + "principal/28_R_TON_3_4.webp",
         urlMedia + "principal/28_28_R_TON_FRONTAL.webp"
       ];
       textoMotor1 = "390 HP"
