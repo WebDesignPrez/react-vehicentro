@@ -465,8 +465,8 @@ function Camion() {
       fortalezas = "Bajo consumo de combustible, doble tanque de aluminio, aros de alcoa, chasis reforzado, capacidad eje posterior, mayor comodidad cabina, camarote, full extras, Catalinas"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540OFFROAD"
       images = [
-        urlMedia + "/portadasSorteo/48-CC-web.jpg",
-        urlMedia + "48-toneladas-catalinas/camion-blanco-sinotruk-de-48-toneladas-de-frente-ecuador.webp"
+        urlMedia + "principal/48_TON_C_3_4.webp",
+        urlMedia + "principal/48_TON_C_FRONTAL.webp",
       ];
       textoMotor1 = "540 HP"
       textoMotor2 = "Modelo C7H-540"
