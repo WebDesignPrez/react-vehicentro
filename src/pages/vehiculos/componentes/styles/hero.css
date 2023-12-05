@@ -63,7 +63,6 @@
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
-
 }
 
 .headHero {
@@ -86,9 +85,8 @@
 
   .hero img {
     width: 100vw;
-    height: 23vh;
+    height: 25vh;
     object-fit: cover;
-
   }
 
   .vehiculosBox {

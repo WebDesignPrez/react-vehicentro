@@ -233,7 +233,7 @@ function Block3() {
     <>
       <div className="block3 boxBlock">
       <div>
-          <a><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox" ><span className="nuevoCamion">NUEVO</span></p>
           <p className="titleBox" >Preventa</p>
@@ -346,16 +346,18 @@ function Block3() {
         </div> */}
         {/* slide u70 */}
         <div>
-          <Slide duration={2000}>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/U70Carrusel.webp)`, height: `23.2vw` }}>
+          <a href="/sinotruk/autos">
+            <Slide duration={2000}>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/U70Carrusel.webp)`, height: `23.2vw` }}>
+                </div>
               </div>
-            </div>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/U70ProCarrusel.webp)`, height: `23.2vw` }}>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/U70ProCarrusel.webp)`, height: `23.2vw` }}>
+                </div>
               </div>
-            </div>
-          </Slide>
+            </Slide>
+          </a>
 
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -369,25 +371,26 @@ function Block3() {
 
         
         <div>
-          <Slide duration={2000}>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/mixer.webp)`, height: `23.2vw` }}>
+          <a href="/volquetas/volqueta-c7h-540">
+            <Slide duration={2000}>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/mixer.webp)`, height: `23.2vw` }}>
+                </div>
               </div>
-            </div>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/serie-volquetas.webp)`, height: `23.2vw` }}>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/serie-volquetas.webp)`, height: `23.2vw` }}>
+                </div>
               </div>
-            </div>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/volqueta7.webp)`, height: `23.2vw` }}>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/volqueta7.webp)`, height: `23.2vw` }}>
+                </div>
               </div>
-            </div>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/volquetaC7HNew.webp)`, height: `23.2vw` }}>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/volquetaC7HNew.webp)`, height: `23.2vw` }}>
+                </div>
               </div>
-            </div>
-          </Slide>
-
+            </Slide>
+          </a>
 
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -406,17 +409,18 @@ function Block3() {
         
 
         <div>
-          <Slide duration={2000}>
-
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/sunwardNew.webp)`, height: `23.2vw` }}>
+          <a href="/excavadoras/swe370e">
+            <Slide duration={2000}>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/sunwardNew.webp)`, height: `23.2vw` }}>
+                </div>
               </div>
-            </div>
-            <div className="each-slide-effect">
-              <div style={{ 'backgroundImage': `url(../images/home/minicargadoraNew.webp)`, height: `23.2vw` }}>
+              <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(../images/home/minicargadoraNew.webp)`, height: `23.2vw` }}>
+                </div>
               </div>
-            </div>
-          </Slide>
+            </Slide>
+          </a>
 
 
           <div className="bottomContainer">
