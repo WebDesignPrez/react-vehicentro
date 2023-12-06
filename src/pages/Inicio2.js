@@ -185,12 +185,13 @@ function Block1() {
         </div>
       </div>
       <div id="videoContainer" className="responsive">
-
         <div className="boxRight tecnologia" height="1080">
-          <div className="boxLeft c7h">
-            <img src="https://www.vehicentro.com/images/home/BannerU70.webp" alt="" />
-            {/* <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" /> */}
-          </div>
+          <a href="/sinotruk/autos">
+            <div className="boxLeft c7h">
+              <img src="https://www.vehicentro.com/images/home/BannerU70.webp" alt="" />
+              {/* <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" /> */}
+            </div>
+          </a>
         </div>
         <div className="overlayBox" height="200">
           <a href="/sinotruk/autos" className="titleBox">SINOTRUK AUTOS</a>
