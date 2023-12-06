@@ -169,7 +169,7 @@ function Camion() {
               {slide3}
             </Fade>
           }
-          {internas1b.length == 1 &&
+          {internas1b.length === 1 &&
             <img src={internas1b[0]} alt="" />
           }
         </div>
@@ -179,7 +179,7 @@ function Camion() {
               {slide3b}
             </Fade>
           }
-          {internas2b.length == 1 &&
+          {internas2b.length === 1 &&
             <img src={internas2b[0]} alt="" />
           }
         </div>
