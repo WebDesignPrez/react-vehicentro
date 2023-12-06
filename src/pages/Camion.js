@@ -129,7 +129,7 @@ function Camion() {
       ];
       medidas = urlMedia + "2.5-toneladas/2.5WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "medidas/2.5_TON_CEL.webp"
-      audio_motor = urlMedia + "3.5-toneladas/motor.mp3"
+      audio_motor = urlMedia + "2.5-toneladas/2.5_TON_SM1.mp3"
       
 
 
