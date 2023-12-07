@@ -40,6 +40,12 @@ body {
   text-align: left;
 }
 
+.mostrarMovil{
+  display: none;
+}
+
+
+
 .blackTerminos{
   font-weight: bold;
 }
@@ -273,7 +279,6 @@ ul.nav-links-h>li>a:hover,
   border-bottom-color: #f44331;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-
 }
 
 .nav-header {

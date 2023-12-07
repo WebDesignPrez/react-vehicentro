@@ -84,41 +84,41 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
-                urlMedia+"principal/A7_MIXER_3_4.webp",
-                urlMedia+"principal/A7_MIXER_FRONTAL.webp"
+                urlMedia + "principal/A7_MIXER_3_4.webp",
+                urlMedia + "principal/A7_MIXER_FRONTAL.webp"
             ];
             textoMotor1 = "380 HP"
             textoMotor2 = "Modelo 1257 - 8m3"
             textoMotor3 = "Ficha técnica"
-            precio = <div className="banner"><img src={urlMedia+"9-sinotruk_logo.png"} /></div>
+            precio = <div className="banner"><img src={urlMedia + "9-sinotruk_logo.png"} /></div>
             cuotas = 'Cuotas desde: $447.00'
-            motor = urlMedia+"a7/motor-mixer.webp"
-            garantia = urlMedia+"a7/5-anos-de-garantia.webp"
-            tecnologia = urlMedia+"tecnologiaAlemanaLogoNew.png"
+            motor = urlMedia + "a7/motor-mixer.webp"
+            garantia = urlMedia + "a7/5-anos-de-garantia.webp"
+            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
 
             caracteristicas = [
-                urlMedia+"a7/transmision-10-2.webp",
-                urlMedia+"a7/cilindros.webp",
-                urlMedia+"a7/camion-de-3.5-toneladas-freno-de-aire.webp",
-                urlMedia+"a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
+                urlMedia + "a7/transmision-10-2.webp",
+                urlMedia + "a7/cilindros.webp",
+                urlMedia + "a7/camion-de-3.5-toneladas-freno-de-aire.webp",
+                urlMedia + "a7/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
             ]
-            cabina = urlMedia+"a7/cabina.webp"
+            cabina = urlMedia + "a7/cabina.webp"
             marcas = ""
             internas1 = [
-                urlMedia+"a7/mandos.webp"
+                urlMedia + "a7/mandos.webp"
             ];
             internas2 = [
-                urlMedia+"a7/tablero.webp"
+                urlMedia + "a7/tablero.webp"
             ];
             internas1b = [
-                urlMedia+"a7/bloqueo.webp"
+                urlMedia + "a7/bloqueo.webp"
             ];
             internas2b = [
-                urlMedia+"a7/transmision.webp"
+                urlMedia + "a7/transmision.webp"
             ];
-            medidas = urlMedia+"medidas/MIXER_A7.webp"
-            medidasMovil = urlMedia+"medidas/MIXER_CELL.webp"
-            audio_motor = urlMedia+"a7/motor.mp3"
+            medidas = urlMedia + "medidas/MIXER_A7.webp"
+            medidasMovil = urlMedia + "medidas/MIXER_CELL.webp"
+            audio_motor = urlMedia + "a7/motor.mp3"
 
 
             internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
@@ -178,7 +178,7 @@ function Mixer() {
     switch ((useParams("id").id)) {
 
         case "mixer-a7-1257":
-            imagen = urlMedia+"portadas/MIXER_A7.webp"
+            imagen = urlMedia + "portadas/MIXER_A7.webp"
             break;
 
 
@@ -234,13 +234,19 @@ function Mixer() {
                     <img src={images[0]} alt="" />
                 }
             </div>
+            <div className="mostrarMovil ficha">
+                <h2 onClick={openFormContact} className="">{textoMotor3}</h2>
+                <div onClick={openFormContact} className="flecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreCamion}`} title={`${nombreCamion}`} /></div>
+            </div>
             <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <img src={motor} width="1400" height="1000" className="slideMain alinear-abajo" alt="Punto de Venta" />
                 <div className="boxText flex-table row textoSobrepuesto">
-                    <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Mixer ${textoMotor2}`}</h1></div>
-                    <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia+"arrow-rojo.png"} alt="arrow" /></div>
+                    <div className="escoderMovil">
+                        <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
+                        <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Mixer ${textoMotor2}`}</h1></div>
+                        <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
+                        <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt="arrow" /></div>
+                    </div>
                     <div className="flex-row  textoMotor4">Escucha tu motor</div>
                 </div>
                 <div className="boxPlayerMotor ">
@@ -248,6 +254,10 @@ function Mixer() {
                 </div>
             </div>
 
+        </div>
+        <div className="mostrarMovil letras">
+            <div onClick={openFormContact} className="">{textoMotor1}</div>
+            <div onClick={openFormContact} className=""><p>{`Camión ${textoMotor2}`}</p></div>
         </div>
         <div className="contentProduct">
 
