@@ -188,7 +188,7 @@ function Block1() {
         <div className="boxRight tecnologia" height="1080">
           <a href="/sinotruk/autos">
             <div className="boxLeft c7h">
-              <img src="https://www.vehicentro.com/images/home/BannerU70.webp" alt="" />
+              <img src="https://www.vehicentro.com/images/home/U70ProCarrusel.webp" alt="" />
               {/* <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" /> */}
             </div>
           </a>
