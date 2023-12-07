@@ -84,7 +84,7 @@ function Camion() {
 
   //Comparacion paginas
   switch ((useParams("id").id)) {
- 
+
     //2.5 toneladas
     case "camion-de-2-5-toneladas":
       nombreCamion = "Camión de 2.5 toneladas"
@@ -108,7 +108,7 @@ function Camion() {
       tecnologia = urlMedia + "2.5-toneladas/frenos.png"
 
       caracteristicas = [
-        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-potencia-87hp.webp",
+        urlMedia + "palancas/6mas1.webp",
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-cilindraje.webp",
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-freno-de-aire.webp",
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
@@ -130,56 +130,56 @@ function Camion() {
       medidas = urlMedia + "2.5-toneladas/2.5WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "medidas/2.5_TON_CEL.webp"
       audio_motor = urlMedia + "2.5-toneladas/2.5_TON_SM1.mp3"
-      
+
 
 
       internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
-            //loop slider
+      //loop slider
 
-            slide3 = internas1b.map((interna) =>
-                <div className="each-slide-effect" >
-                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
-                    </div>
-                </div>
-            );
+      slide3 = internas1b.map((interna) =>
+        <div className="each-slide-effect" >
+          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+          </div>
+        </div>
+      );
 
-            slide3b = internas2b.map((interna) =>
-                <div className="each-slide-effect" >
-                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
-                    </div>
-                </div>
-            );
+      slide3b = internas2b.map((interna) =>
+        <div className="each-slide-effect" >
+          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+          </div>
+        </div>
+      );
 
-            contenedorMarcas = <div style={{ display: `contents` }} >
-                {internas1b.length > 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        
-                        <Fade><img src={internas1b[0]} alt="" /></Fade>
-                        
-                    </div>
-                }
-                {internas1b.length == 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas1b[0]} alt="" />
-                    </div>
-                }
+      contenedorMarcas = <div style={{ display: `contents` }} >
+        {internas1b.length > 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
 
-                {internas2b.length > 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                       <Fade><img src={internas2b[0]} alt="" /></Fade>
-                    </div>
-                }
-                {internas2b.length == 1 &&
-                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas2b[0]} alt="" />
-                    </div>
-                }
-            </div>
+            <Fade><img src={internas1b[0]} alt="" /></Fade>
+
+          </div>
+        }
+        {internas1b.length == 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <img src={internas1b[0]} alt="" />
+          </div>
+        }
+
+        {internas2b.length > 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <Fade><img src={internas2b[0]} alt="" /></Fade>
+          </div>
+        }
+        {internas2b.length == 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <img src={internas2b[0]} alt="" />
+          </div>
+        }
+      </div>
 
       contenedorVidaUtil = "Caja EATON"
 
       break;
-    
+
 
     //10 toneladas
     case "camion-10-toneladas-t5g-1167":
@@ -294,7 +294,7 @@ function Camion() {
       internas = internas1.concat(internas2)
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
 
       break;
@@ -352,7 +352,7 @@ function Camion() {
       internas = internas1.concat(internas2)
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
 
       break;
@@ -410,7 +410,7 @@ function Camion() {
       internas = internas1.concat(internas2)
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
 
       break;
@@ -467,7 +467,7 @@ function Camion() {
       internas = internas1.concat(internas2)
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
 
       break;
@@ -524,7 +524,7 @@ function Camion() {
       internas = internas1.concat(internas2)
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
 
       break;
@@ -581,7 +581,7 @@ function Camion() {
       internas = internas1.concat(internas2)
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`tecnologias ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
 
       break;
@@ -611,7 +611,7 @@ function Camion() {
       tecnologia = urlMedia + "3.5-toneladas/serie-100.webp"
 
       caracteristicas = [
-        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-potencia-87hp.webp",
+        urlMedia + "palancas/6mas1.webp",
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-cilindraje.webp",
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-freno-de-aire.webp",
         urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
@@ -665,7 +665,7 @@ function Camion() {
         }
         {internas1b.length == 1 &&
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+            <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
           </div>
         }
 
@@ -678,7 +678,7 @@ function Camion() {
         }
         {internas2b.length == 1 &&
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+            <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
           </div>
         }
       </div>
@@ -715,7 +715,7 @@ function Camion() {
       tecnologia = urlMedia + "3.6-toneladas/serie-100.webp"
 
       caracteristicas = [
-        urlMedia + "3.6-toneladas/camion-de-3.6-toneladas-potencia-87hp.webp",
+        urlMedia + "palancas/6mas1.webp",
         urlMedia + "3.6-toneladas/camion-de-3.6-toneladas-cilindraje.webp",
         urlMedia + "3.6-toneladas/camion-de-3.6-toneladas-freno-de-aire.webp",
         urlMedia + "3.6-toneladas/camion-de-3.6-toneladas-inyeccion-common-rail.webp"
@@ -787,7 +787,7 @@ function Camion() {
         }
       </div>
 
-      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "3.6-toneladas/homologado.webp"} alt={`Homologado ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
+      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "3.6-toneladas/homologado.webp"} alt={`Homologado ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
       break;
 
 
@@ -817,7 +817,7 @@ function Camion() {
       tecnologia = urlMedia + "5-toneladas/serie-100.webp"
 
       caracteristicas = [
-        urlMedia + "5-toneladas/camion-de-5-toneladas-potencia-141hp.webp",
+        urlMedia + "palancas/6mas1.webp",
         urlMedia + "5-toneladas/camion-de-5-toneladas-cilindros.webp",
         urlMedia + "5-toneladas/camion-de-5-toneladas-freno-de-aire.webp",
         urlMedia + "5-toneladas/camion-de-5-toneladas-inyeccion-common-rail.webp"
@@ -840,7 +840,7 @@ function Camion() {
         urlMedia + "5-toneladas/bloqueo.webp"
       ];
       medidas = urlMedia + "medidas/5WEB_MEDIDAS.webp"
-      medidasMovil = urlMedia + "medidas/5_ TON_CEL.webp"
+      medidasMovil = urlMedia + "medidas/5_TON_CEL.webp"
       audio_motor = urlMedia + "5-toneladas/motor.mp3"
 
 
@@ -888,7 +888,7 @@ function Camion() {
           </div>
         }
       </div>
-      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "5-toneladas/chasisModelos.png"} alt={`Chasis Modelos ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
+      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "5-toneladas/chasisModelos.png"} alt={`Chasis Modelos ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
 
 
       break;
@@ -920,7 +920,7 @@ function Camion() {
       tecnologia = urlMedia + "6-toneladas/serie-100.webp"
 
       caracteristicas = [
-        urlMedia + "6-toneladas/camion-de-6-toneladas-potencia-154hp.webp",
+        urlMedia + "palancas/6mas1.webp",
         urlMedia + "6-toneladas/camion-de-6-toneladas-cilindraje.webp",
         urlMedia + "6-toneladas/camion-de-6-toneladas-freno-de-aire.webp",
         urlMedia + "6-toneladas/camion-de-6-toneladas-inyeccion-common-rail.webp"
@@ -1033,7 +1033,7 @@ function Camion() {
       internas = internas1.concat(internas2)
 
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       break;
@@ -1091,7 +1091,7 @@ function Camion() {
       internas = internas1.concat(internas2)
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
 
       break;
@@ -1146,7 +1146,7 @@ function Camion() {
       internas = internas1.concat(internas2)
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
       </div>
 
       break;
@@ -1171,7 +1171,7 @@ function Camion() {
       break;
 
     case "camion-de-5-toneladas-1067":
-      imagen = urlMedia + "postales/5TON_FOTO .webp"
+      imagen = urlMedia + "postales/5TON_FOTO.webp"
       break;
 
     case "camion-de-6-toneladas-1067":
@@ -1287,31 +1287,47 @@ function Camion() {
           <img src={images[0]} alt={`hero ${nombreBusqueda}`} />
         }
       </div>
+
+
+      <div className="mostrarMovil ficha">
+        {
+          nombreCamion !== 'Camión de 2.5 toneladas' &&
+          <h2 onClick={openFormContact} className="">{textoMotor3}</h2>
+        }
+        {
+          nombreCamion == 'Camión de 2.5 toneladas' &&
+          <h2 onClick={openFormContact} className="">{textoMotor3}</h2>
+        }
+        <div onClick={openFormContact} className="flecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
+      </div>
+
+
       <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-        <img src={motor} width="1400" height="1000" className="slideMain" alt={`Motor ${nombreBusqueda}`} />
+        <img src={motor} width="1400" height="1000" className="slideMain alinear-abajo" alt={`Motor ${nombreBusqueda}`} />
         <div className="boxText flex-table row textoSobrepuesto">
-          <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
-          <div onClick={openFormContact} className="flex-row textoMotor2"><p>{`Camión ${textoMotor2}`}</p></div>
+          <div className="escoderMovil">
+            <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
+            <div onClick={openFormContact} className="flex-row textoMotor2"><p>{`Camión ${textoMotor2}`}</p></div>
+            {
+              nombreCamion !== 'Camión de 2.5 toneladas' &&
+              <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
+            }
+            {
+              nombreCamion == 'Camión de 2.5 toneladas' &&
+              <h2 onClick={openFormContact} className="flex-row textoMotor3 negro">{textoMotor3}</h2>
+            }
+            <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
+          </div>
           {
-            nombreCamion !== 'Camión de 2.5 toneladas' && 
-            <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
-          }
-           {
-            nombreCamion == 'Camión de 2.5 toneladas' && 
-            <h2 onClick={openFormContact} className="flex-row textoMotor3 negro">{textoMotor3}</h2>
-          }
-        
-          <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
-          {
-            nombreCamion !== 'Camión de 2.5 toneladas' && 
+            nombreCamion !== 'Camión de 2.5 toneladas' &&
             <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
-            
+
           }
-           {
-            nombreCamion == 'Camión de 2.5 toneladas' && 
+          {
+            nombreCamion == 'Camión de 2.5 toneladas' &&
             <div onClick={openFormContact} className="flex-row textoMotor4 negro">Escucha tu motor</div>
           }
-          
+
         </div>
         <div className="boxPlayerMotor ">
           <audio id="audioMotor" controls type="audio/mpeg"></audio>
@@ -1320,42 +1336,49 @@ function Camion() {
 
     </div>
 
+    <div className="mostrarMovil letras">
+      <div onClick={openFormContact} className="">{textoMotor1}</div>
+      <div onClick={openFormContact} className=""><p>{`Camión ${textoMotor2}`}</p></div>
+    </div>
+
     <div className="contentProduct">
 
       <div className="marcasbg textoImagenesProducto" >
 
+
+
         <div className="boxRightHeader  half text_icon_left" >
-        { nombreCamion !== 'Camión de 2.5 toneladas' &&
-          <p className='vidaUtil'>DESDE</p>
-        }
-         { nombreCamion == 'Camión de 2.5 toneladas' &&
-          <p className='vidaUtil'>PRECIO DE LANZAMIENTO</p>
-        }
+          {nombreCamion !== 'Camión de 2.5 toneladas' &&
+            <p className='vidaUtil'>DESDE</p>
+          }
+          {nombreCamion == 'Camión de 2.5 toneladas' &&
+            <p className='vidaUtil'>PRECIO DE LANZAMIENTO</p>
+          }
           <p className='precioCamiones' >{precio}</p>
           <p className='cuotas'>{cuotas}</p>
         </div>
 
         <div className="boxRightHeader  half icon_center" >
-          <div className="banner"><img src={tecnologia} alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
+          <div className="banner"><img src={tecnologia} alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
         </div>
 
-        { nombreCamion !== 'Camión de 2.5 toneladas' &&
+        {nombreCamion !== 'Camión de 2.5 toneladas' &&
           <div className="boxRightHeader  half text_icon_center" >
-          <p className='vidaUtil'>{contenedorVidaUtil}</p>
-          </div>  
+            <p className='vidaUtil'>{contenedorVidaUtil}</p>
+          </div>
         }
 
-        { nombreCamion == 'Camión de 2.5 toneladas' &&
+        {nombreCamion == 'Camión de 2.5 toneladas' &&
           <div className="boxRightHeader  half text_icon_center" >
-          <p className='vidaUtil newStyle'>{contenedorVidaUtil}</p>
-          </div>  
+            <p className='vidaUtil newStyle'>{contenedorVidaUtil}</p>
+          </div>
         }
 
 
-        
+
 
         <div className="boxRightHeader  half icon_right">
-          <div className="banner"><img src={garantia} alt={`Garantia ${nombreBusqueda}`} title={`${nombreBusqueda}`}/></div>
+          <div className="banner"><img src={garantia} alt={`Garantia ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
         </div>
 
       </div>
@@ -1364,11 +1387,11 @@ function Camion() {
       <div className="boxesIni posRelative partesbg">
 
         <div className="caracteristicasProductos" >
-          <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt={`Transmisión ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+          <img src={caracteristicas[0]} width="1400" height="1000" className="slideMain" alt={`Transmisión ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
         </div>
 
         <div className="caracteristicasProductos" >
-          <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt={`Cilindros ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+          <img src={caracteristicas[1]} width="1400" height="1000" className="slideMain" alt={`Cilindros ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
         </div>
 
         <div className="caracteristicasProductos" >
@@ -1376,7 +1399,7 @@ function Camion() {
         </div>
 
         <div className="caracteristicasProductos" >
-          <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt={`Inyección ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+          <img src={caracteristicas[3]} width="1400" height="1000" className="slideMain" alt={`Inyección ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
         </div>
 
       </div>
@@ -1384,15 +1407,15 @@ function Camion() {
 
       <div className="boxesIni posRelative">
         <div className="marcasbg">
-          <img src={cabina} width="1500" height="1500" className="slideMain" alt={`cabina ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+          <img src={cabina} width="1500" height="1500" className="slideMain" alt={`cabina ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
         </div>
 
         <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
             {nombreCamion != "Camión de 2.5 toneladas" &&
-               <Fade >
-               {slide2}
-             </Fade>
+              <Fade >
+                {slide2}
+              </Fade>
             }
             {nombreCamion == "Camión de 2.5 toneladas" &&
               <img src={internas1}></img>
@@ -1400,9 +1423,9 @@ function Camion() {
           </div>
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
             {nombreCamion != "Camión de 2.5 toneladas" &&
-               <Fade >
-               {slide2b}
-             </Fade>
+              <Fade >
+                {slide2b}
+              </Fade>
             }
             {nombreCamion == "Camión de 2.5 toneladas" &&
               <img src={internas2}></img>
@@ -1420,7 +1443,7 @@ function Camion() {
 
       <h2 style={{ paddingLeft: 50, paddingTop: 30 }}>Medidas y dimensiones</h2>
       <h2 style={{ fontSize: 0.01 }}>{nombreSerie}</h2>
-      <div className="bannerMedidas noResponsive"><img src={medidas} alt={'Medidas del' + nombreBusqueda} title={`${nombreBusqueda}`}/></div>
+      <div className="bannerMedidas noResponsive"><img src={medidas} alt={'Medidas del' + nombreBusqueda} title={`${nombreBusqueda}`} /></div>
       <div className="bannerMedidas responsive"><img src={medidasMovil} alt={'Medidas para dispositivos moviles del' + nombreBusqueda} title={`${nombreBusqueda}`} /></div>
     </div>
 

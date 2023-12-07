@@ -299,21 +299,21 @@ function Camion() {
     return <>
         <Helmet>
             <title>{nombreCamion} - Venta de Volquetas {nombreSerie} en Ecuador - Vehicentro</title>
-            <meta name="description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda+ ', '+ camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'} />
+            <meta name="description" content={'Descubre la Venta de la ' + nombreCamion + ', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'} />
             <meta name="keywords" content={'volqueta, volquetas, venta de volquetas, volquetas en ecuador, volquetas en venta Ecuador, venta volquetas Sinotruk, ' + nombreCamion + ', ' + nombreBusqueda + ', ' + nombreSerie + ', ' + camionSerie}></meta>
             <meta name="robots" content="index, follow"></meta>
             <meta property="og:locale" content="es_EC"></meta>
             <meta property="og:type" content="website"></meta>
-            <meta property="og:title" content={nombreCamion + ' - Venta de la  ' + nombreSerie +  ' en Ecuador - Vehicentro' }></meta>
-            <meta property="og:description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda+ ', '+ camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'}></meta>
-            <meta property="og:url" content={'https://vehicentro.com/volquetas/'+pathUrl}></meta>
+            <meta property="og:title" content={nombreCamion + ' - Venta de la  ' + nombreSerie + ' en Ecuador - Vehicentro'}></meta>
+            <meta property="og:description" content={'Descubre la Venta de la ' + nombreCamion + ', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'}></meta>
+            <meta property="og:url" content={'https://vehicentro.com/volquetas/' + pathUrl}></meta>
             <meta property="og:site_name" content="Vehicentro"></meta>
             <meta property="article:modified_time" content="2023-07-26T12:00:00+00:00"></meta>
             <meta property="og:image" content={imagen}></meta>
             <meta name="twitter:card" content="summary_large_image"></meta>
-            <meta name="twitter:description" content={'Descubre la Venta de la ' + nombreCamion +', ' + nombreBusqueda+ ', '+ camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'}></meta>
+            <meta name="twitter:description" content={'Descubre la Venta de la ' + nombreCamion + ', ' + nombreBusqueda + ', ' + camionSerie + ' Sinotruk de la ' + nombreSerie + ' en Ecuador en Vehicentro. Amplia selección de volquetas de alta calidad y rendimiento'}></meta>
             <meta name="twitter:label1" content="Tiempo de lectura"></meta>
-            <meta name="twitter:data1" content="5 minutos"></meta>        
+            <meta name="twitter:data1" content="5 minutos"></meta>
         </Helmet>
         <NavBarTop />
         <div className="boxesIni posRelative content2">
@@ -327,13 +327,21 @@ function Camion() {
                     <img src={images[0]} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 }
             </div>
+
+            <div className="mostrarMovil ficha">
+                <h2 onClick={openFormContact} className="">{textoMotor3}</h2>
+                <div onClick={openFormContact} className="flecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
+            </div>
+
             <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                <img src={motor} width="1400" height="1000" className="slideMain" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
+                <img src={motor} width="1400" height="1000" className="slideMain alinear-abajo" alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                 <div className="boxText flex-table row textoSobrepuesto">
-                    <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Volqueta ${textoMotor2}`}</h1></div>
-                    <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
-                    <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
+                    <div className="escoderMovil">
+                        <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
+                        <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Volqueta ${textoMotor2}`}</h1></div>
+                        <div onClick={openFormContact} className="flex-row  textoMotor3">{textoMotor3}</div>
+                        <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
+                    </div>
                     <div className="flex-row  textoMotor4">Escucha tu motor</div>
                 </div>
                 <div className="boxPlayerMotor ">
@@ -342,6 +350,10 @@ function Camion() {
             </div>
 
         </div>
+        <div className="mostrarMovil letras">
+      <div onClick={openFormContact} className="">{textoMotor1}</div>
+      <div onClick={openFormContact} className=""><p>{`Camión ${textoMotor2}`}</p></div>
+    </div>
         <div className="contentProduct">
 
             <div className="marcasbg textoImagenesProducto" >
@@ -408,7 +420,7 @@ function Camion() {
                             </Fade>
                         }
                         {internas2.length == 1 &&
-                            <img src={internas2[0]} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
+                            <img src={internas2[0]} alt={`${nombreBusqueda}`} title={`${nombreBusqueda}`} />
                         }
                     </div>
                     <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >

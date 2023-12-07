@@ -622,13 +622,21 @@ function Camion() {
           <img src={images[0]} alt={`Portada ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/>
         }
       </div>
+
+      <div className="mostrarMovil ficha">
+        <h2 onClick={openFormContact} className="">{textoMotor3}</h2>
+        <div onClick={openFormContact} className="flecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
+      </div>
+      
       <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-        <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+        <img src={motor} width="1400" height="1000" className="slideMain alinear-abajo" alt="Punto de Venta" />
         <div className="boxText flex-table row textoSobrepuesto">
-          <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
-          <div onClick={openFormContact} className="flex-row textoMotor2"><p>{`Cabezal ${textoMotor2}`}</p></div>
-          <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
-          <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/></div>
+          <div className="escoderMovil">
+            <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
+            <div onClick={openFormContact} className="flex-row textoMotor2"><p>{`Cabezal ${textoMotor2}`}</p></div>
+            <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
+            <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`}/></div>
+          </div>
           <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
         </div>
         <div className="boxPlayerMotor ">
@@ -636,6 +644,11 @@ function Camion() {
         </div>
       </div>
 
+    </div>
+
+    <div className="mostrarMovil letras">
+      <div onClick={openFormContact} className="">{textoMotor1}</div>
+      <div onClick={openFormContact} className=""><p>{`Camión ${textoMotor2}`}</p></div>
     </div>
 
     <div className="contentProduct">
