@@ -95,15 +95,16 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
       images = [
-        urlMedia + "2.5-toneladas/hero2.5.webp"
+        urlMedia + "2.5-toneladas/hero2.5.webp",
+        urlMedia + "2.5-toneladas/2.5FRONTAL_1.webp"
       ];
-      textoMotor1 = ""
-      textoMotor2 = ""
+      textoMotor1 = "110HP"
+      textoMotor2 = "NLS"
       textoMotor3 = "Ficha técnica"
       precio = precios.dos_cinco
       seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
       cuotas = `${precios.dos_cinco_cuota}`
-      motor = urlMedia + "2.5-toneladas/2.5FRONTAL_1.webp"
+      motor = urlMedia + "2.5-toneladas/2.5_TON_MOTOR.webp"
       garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "2.5-toneladas/frenos.png"
 
@@ -127,7 +128,7 @@ function Camion() {
       internas2b = [
         urlMedia + "2.5-toneladas/palanca2.5.jpg"
       ];
-      medidas = urlMedia + "2.5-toneladas/2.5WEB_MEDIDAS.webp"
+      medidas = urlMedia + "2.5-toneladas/2.5_MEDIDA.webp"
       medidasMovil = urlMedia + "medidas/2.5_TON_CEL.webp"
       audio_motor = urlMedia + "2.5-toneladas/2.5_TON_SM1.mp3"
 
@@ -1290,14 +1291,9 @@ function Camion() {
 
 
       <div className="mostrarMovil ficha">
-        {
-          nombreCamion !== 'Camión de 2.5 toneladas' &&
-          <h2 onClick={openFormContact} className="">{textoMotor3}</h2>
-        }
-        {
-          nombreCamion == 'Camión de 2.5 toneladas' &&
-          <h2 onClick={openFormContact} className="">{textoMotor3}</h2>
-        }
+
+        <h2 onClick={openFormContact} className="">{textoMotor3}</h2>
+
         <div onClick={openFormContact} className="flecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
       </div>
 
@@ -1308,25 +1304,14 @@ function Camion() {
           <div className="escoderMovil">
             <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
             <div onClick={openFormContact} className="flex-row textoMotor2"><p>{`Camión ${textoMotor2}`}</p></div>
-            {
-              nombreCamion !== 'Camión de 2.5 toneladas' &&
-              <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
-            }
-            {
-              nombreCamion == 'Camión de 2.5 toneladas' &&
-              <h2 onClick={openFormContact} className="flex-row textoMotor3 negro">{textoMotor3}</h2>
-            }
+
+            <h2 onClick={openFormContact} className="flex-row textoMotor3">{textoMotor3}</h2>
+
             <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt={`Flecha ${nombreBusqueda}`} title={`${nombreBusqueda}`} /></div>
           </div>
-          {
-            nombreCamion !== 'Camión de 2.5 toneladas' &&
-            <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
 
-          }
-          {
-            nombreCamion == 'Camión de 2.5 toneladas' &&
-            <div onClick={openFormContact} className="flex-row textoMotor4 negro">Escucha tu motor</div>
-          }
+          <div onClick={openFormContact} className="flex-row textoMotor4">Escucha tu motor</div>
+
 
         </div>
         <div className="boxPlayerMotor ">
