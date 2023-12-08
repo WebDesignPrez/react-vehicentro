@@ -95,7 +95,7 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
       images = [
-        urlMedia + "2.5-toneladas/hero2.5.webp",
+        urlMedia + "principal/2.5TON_3_4.webp",
         urlMedia + "2.5-toneladas/2.5FRONTAL_1.webp"
       ];
       textoMotor1 = "110HP"
@@ -907,7 +907,7 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB6T1167"
       images = [
         urlMedia + "principal/6TON_3_4.webp",
-        urlMedia + "principal/6TON_FRONTAL.webp"
+        // urlMedia + "principal/6TON_FRONTAL.webp"
 
       ];
       textoMotor1 = "154 HP"
