@@ -189,10 +189,8 @@ function Camion() {
 
             break;
 
-
         //volqueta 540
         case "volqueta-c7h-540":
-            console.log('volqueta C7H')
             pathUrl = "volqueta-c7h-540"
             nombreCamion = "Volqueta | C7H-540"
             nombreBusqueda = 'volqueta 20m - volqueta 20 metros'
