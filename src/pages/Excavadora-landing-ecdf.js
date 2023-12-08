@@ -85,7 +85,7 @@ function Camion() {
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDFSWE210"
       images = [
-        urlMedia + "swe210/excavadora.webp"
+        urlMedia + "principal/ESCAVADORA_210.webp"
       ];
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE210"
@@ -175,7 +175,7 @@ function Camion() {
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDECDFSW365E"
       images = [
-        urlMedia + "swe365e/vehicentroExcavadoraEcuador.webp"
+        urlMedia + "principal/ESCAVADORA_370.webp"
       ];
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE370E"
