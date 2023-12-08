@@ -254,6 +254,7 @@ function Camion() {
             break;
 
         case "volqueta-t7h-430":
+            //al cambiar poner nombre con 430
             imagen = urlMedia + "postales/VOLQUETA_420_FOTO.webp"
             break;
 
