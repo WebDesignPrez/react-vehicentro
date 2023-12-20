@@ -332,8 +332,8 @@
   }
 
   .textoMotor1 {
-    font-size: 15vw;
-    bottom: 110px;
+    font-size: 13vw;
+    bottom: 7rem;
 }
 
 .imgHeader1{
@@ -341,16 +341,19 @@
 }
 
   .textoMotor2 {
-    font-size: 6vw;
-    bottom: 95px;
+    font-size: 10vh;
+    bottom: 5.5rem;
 
   }
 
   .textoMotor3 {
     font-size: 6vw;
-    bottom: 70px;
+    bottom: 3.5rem;
   }
 
+  .flex-row.textoMotor2 .excavadoraH1{
+    font-size: 5.5vw !important;
+  }
 
   .textoMotor3.negro {
     bottom: 300px !important;	
@@ -359,7 +362,7 @@
   
 
   .textoMotorFlecha {
-    bottom: 69px;
+    bottom: 3.5rem;
     left: 45vw;
   }
 

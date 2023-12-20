@@ -445,7 +445,6 @@ function Camion() {
 
     //48 toneladas
     case "cabezal-c7h-540":
-      console.log('48 ton')
       nombreCamion = "Camion de 48 toneladas | C7H-540"
       camionSerie = "C7H 540 / 48 TON"
       nombreSerie = "Serie C7H"
@@ -461,7 +460,6 @@ function Camion() {
       textoMotor3 = "Ficha técnica"
       precio = precios.c_ocho
       seo = seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
-      console.log(seo)
       cuotas = `Cuotas desde: ${precios.c_ocho_cuota}`
       motor = urlMedia + "48-toneladas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
       garantia = urlMedia + "48-toneladas/5-anos-de-garantia.webp"
