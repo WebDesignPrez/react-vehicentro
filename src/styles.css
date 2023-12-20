@@ -79,13 +79,13 @@ body {
 }
 
 audio {
-  height: 30px !important;
-  width: 32vw !important;
+  height: 2.5vh !important;
+  width: 23vw !important;
 }
 
 audio#audioMotorHome {
   height: 25px !important;
-  width: 25vw !important;
+  width: 20vw !important;
 }
 
 div {
@@ -1299,24 +1299,24 @@ p.titleFooter {
   position: absolute;
   width: max-content;
   font-size: 4.5vw;
-  bottom: 145px;
-  left: 10px;
+  bottom: 19vh;
+  left: 2vh;
 }
 
 .textoMotor2 {
   position: absolute;
   width: max-content;
   font-size: 2.2vw;
-  bottom: 115px;
-  left: 10px;
+  bottom: 15vh;
+  left: 2vh;
 }
 
 .textoMotor3 {
   position: absolute;
   width: max-content;
   font-size: 2vw;
-  bottom: 84px;
-  left: 10px;
+  bottom: 10.7vh;
+  left: 2vh;
 }
 
 .textoMotor3.negro {
@@ -1339,7 +1339,7 @@ p.titleFooter {
 .textoMotorFlecha {
   position: absolute;
   width: max-content;
-  bottom: 86px;
+  bottom: 11vh;
   left: 13.4vw;
 }
 
@@ -1352,13 +1352,13 @@ p.titleFooter {
   width: max-content;
   font-size: 1.8vw;
   bottom: 10px;
-  left: 20px;
+  left: 2vh;
 }
 
 
 .boxPlayerMotor {
-  left: 20px;
-  bottom: 50px;
+  left: 1.6rem;
+  bottom: 3.9rem;
   position: absolute;
 }
 

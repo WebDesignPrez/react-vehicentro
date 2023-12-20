@@ -189,10 +189,8 @@ function Camion() {
 
             break;
 
-
         //volqueta 540
         case "volqueta-c7h-540":
-            console.log('volqueta C7H')
             pathUrl = "volqueta-c7h-540"
             nombreCamion = "Volqueta | C7H-540"
             nombreBusqueda = 'volqueta 20m - volqueta 20 metros'
@@ -254,6 +252,7 @@ function Camion() {
             break;
 
         case "volqueta-t7h-430":
+            //al cambiar poner nombre con 430
             imagen = urlMedia + "postales/VOLQUETA_420_FOTO.webp"
             break;
 

@@ -188,7 +188,6 @@ function Camion() {
       break;
 
     case "swe370e":
-      console.log('24 ton')
       nombreCamion = "Excavadora SWE370E"
       camionSerie = "SWE370E"
       nombreSerie = "Excavadora"
@@ -352,9 +351,9 @@ function Camion() {
       <div className="boxLeft playMotor contenedorTextoSobrepuesto">
         <img src={motor} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
         <div className="boxText flex-table row textoSobrepuesto">
-          <div onClick={openFormContact} className="flex-row  textoMotor1">{textoMotor1}</div>
-          <div onClick={openFormContact} className="flex-row textoMotor2"><h1>{`Excavadora ${textoMotor2}`}</h1></div>
-          <div onClick={openFormContact} className="flex-row  textoMotor3">Ficha técnica</div>
+          <div onClick={openFormContact} className="flex-row textoMotor1">{textoMotor1}</div>
+          <div onClick={openFormContact} className="flex-row textoMotor2"><h1 className="excavadoraH1">{`Excavadora ${textoMotor2}`}</h1></div>
+          <div onClick={openFormContact} className="flex-row textoMotor3">Ficha técnica</div>
           <div onClick={openFormContact} className="flex-row textoMotorFlecha"><img src={urlMedia + "arrow-rojo.png"} alt="arrow" /></div>
         </div>
       </div>
