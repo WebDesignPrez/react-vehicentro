@@ -56,6 +56,8 @@ let precios = {
     v_ocho_r: " $76,990 ",
     v_ocho_r_cuota: " $1,256.00 ",
 
+    v_ocho_340: "$59,900", 
+
     c_dos: " $81,990 ",
     c_dos_cuota: " $1,334.00 ",
 
