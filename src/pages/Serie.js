@@ -161,21 +161,29 @@ function Serie() {
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIET7H"
             nombreSerie = "Serie T7H"
             nombreSerieInd = "T7H"
-            series = [{
-                serie: "T7H 390",
-                modelo: "28 TON",
-                url: "/cabezales/cabezal-t7h-390-28-toneladas"
-            }, {
-                serie: "T7H 390",
-                modelo: "42 TON",
-                url: "/cabezales/cabezal-t7h-390-42-toneladas"
-            }, {
-                serie: "T7H 430",
-                modelo: "45 TON",
-                url: "/cabezales/cabezal-t7h-430-45-toneladas"
-            }]
+            series = [
+                {
+                    serie: "T7H 340",
+                    modelo: "28 TON",
+                    url: "/cabezales/cabezal-t7h-340-28-toneladas"
+                },
+                {
+                    serie: "T7H 390",
+                    modelo: "28 TON",
+                    url: "/cabezales/cabezal-t7h-390-28-toneladas"
+                },
 
-
+                {
+                    serie: "T7H 390",
+                    modelo: "42 TON",
+                    url: "/cabezales/cabezal-t7h-390-42-toneladas"
+                },
+                {
+                    serie: "T7H 430",
+                    modelo: "45 TON",
+                    url: "/cabezales/cabezal-t7h-430-45-toneladas"
+                }
+            ]
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIET7H"
             console.log('9 toneladas')
             images = [
@@ -228,7 +236,7 @@ function Serie() {
                 serie: "C7H 1256",
                 modelo: "20 TON",
                 url: "/camiones/camion-20-toneladas-1256"
-            }, 
+            },
             {
                 serie: "C7H 1256",
                 modelo: "20 TON CATALINAS",
@@ -275,7 +283,7 @@ function Serie() {
 
             contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
             desx = "Conoce la Serie T7H. Camiones #Sinotruk con carga de alto rendimiento. ¡Somos la potencia que levanta al Ecuador!"
-            
+
             break;
 
         default:

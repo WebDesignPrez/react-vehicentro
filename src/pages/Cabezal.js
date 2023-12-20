@@ -210,6 +210,59 @@ function Camion() {
       contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
       break;
 
+    //28 toneladas
+    //TODO: change photo
+    case "cabezal-t7h-340-28-toneladas":
+      pathUrl = ""
+      nombreCamion = "Cabezal de 28 toneladas | T7H-340"
+      nombreBusqueda = "cabezal 28 toneladas 340 HP"
+      nombreBusqueda2 = "camion 28 toneladas 340 HP"
+      camionSerie = "T7H 340 / 28 TON"
+      nombreSerie = "Serie T7H"
+      mercadoObjetivo = "Niñeras, plataforma"
+      fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH28TONWEICHAI"
+      images = [
+        urlMedia + "28Weichai/28_WEICHAI_3_4.webp",
+        urlMedia + "28Weichai/frontal28weichan.webp",
+      ];
+      textoMotor1 = "340 HP"
+      textoMotor2 = "Modelo T7H-340"
+      textoMotor3 = "Ficha técnica"
+      precio = precios.v_ocho_340
+      seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador.
+      Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
+      motor = urlMedia + "28Weichai/motorNew.webp"
+      garantia = urlMedia + "28Weichai/garantiaLogo.webp"
+      tecnologia = urlMedia + "28Weichai/weichaiLogo.webp"
+      caracteristicas = [
+        urlMedia + "24-toneladas/camion-de-24-toneladas-potencia-340hp.webp",
+        urlMedia + "24-toneladas/camion-de-24-toneladas-cilindraje.webp",
+        urlMedia + "24-toneladas/camion-de-24-toneladas-freno-a-las-valvulas.webp",
+        urlMedia + "24-toneladas/inyeccion.webp"
+      ];
+      cabina = urlMedia + "28Weichai/FOTO_WEB_PRINCIPAL.webp"
+      marcas = urlMedia + "28Weichai/28TONMARCAS.webp"
+      internas1 = [
+        urlMedia + "28Weichai/FOTOS_WEB7.webp",
+        urlMedia + "28Weichai/FOTOS_WEB2.webp",
+        urlMedia + "28Weichai/FOTOS_WEB6.webp"
+      ];
+      internas2 = [
+        urlMedia + "28Weichai/FOTOS_WEB4.webp",
+        urlMedia + "28Weichai/FOTOS_WEB3.webp",
+        urlMedia + "28Weichai/FOTOS_WEB1.webp"
+      ];
+      medidas = urlMedia + "28Weichai/28_W_WEB_MEDIDAS.webp"
+      medidasMovil = urlMedia + "28Weichai/28_TON_WEICHAI_CEL.webp"
+      audio_motor = urlMedia + "28Weichai/motor28Wei.mpeg"
+      internas = internas1.concat(internas2)
+      contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`tecnologias ${nombreBusqueda}`} />
+      </div>
+      contenedorVidaUtil = "Cabina amplia con doble litera"
+      break;
+
     //28 toneladas retardador
     case "cabezal-28-toneladas-retardador":
       pathUrl = ""
@@ -552,6 +605,12 @@ function Camion() {
     case "cabezal-c7h-540-catalinas-48-toneladas":
       imagen = urlMedia + "postales/48_C_TON_FOTO.webp"
       break;
+
+    //TODO: change photo
+    case "cabezal-t7h-340-28-toneladas":
+      imagen = urlMedia + "28Weichai/tresCuartosNew.webp"
+      break;
+    
 
     default:
       break;

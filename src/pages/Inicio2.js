@@ -25,8 +25,8 @@ function Inicio2() {
   /* const [modal2FormIsOpen, setForm2IsOpen] = useState(false); */
 
   useEffect(() => {
-      const motorPlayer = document.getElementById('audioMotorHome')
-     motorPlayer.src = audio_motor 
+    const motorPlayer = document.getElementById('audioMotorHome')
+    motorPlayer.src = audio_motor
 
     const keyDownHandler = event => {
       if (event.key === 'Escape') {
@@ -133,8 +133,8 @@ function Inicio2() {
         <meta name="twitter:label1" content="Tiempo de lectura"></meta>
         <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
-      <PopUpAvisoLegal/>
-      <PopUp/>
+      <PopUpAvisoLegal />
+      <PopUp />
       <NavBar />
       <Block1 />
       <Menu2 />
@@ -173,9 +173,9 @@ function Block1() {
       <div className="imgContainerHeader imgHeader1" height="600">
 
         {/* <div className="overlayBox" height="200"> */}
-          <p className="titleBox "><span className="rojo"></span><span className="rojo"></span></p>
-          <div className="linksBox testimonio test">
-            
+        <p className="titleBox "><span className="rojo"></span><span className="rojo"></span></p>
+        <div className="linksBox testimonio test">
+
           {/* </div> */}
           {/* <div className="overlayBox" height="200">
           <p className="titleBox "><span className="rojo">R</span>ESPALDO - <span className="rojo">R</span>EPUESTOS</p>
@@ -233,11 +233,11 @@ function Block3() {
   return (
     <>
       <div className="block3 boxBlock">
-      <div>
+        <div>
           <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox" ><span className="nuevoCamion">NUEVO</span></p>
-          <p className="titleBox" >Preventa</p>
+            <p className="titleBox" >Preventa</p>
             <div className="linksBox">
               <NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >2.5 TON</NavLink>
             </div>
@@ -275,23 +275,25 @@ function Block3() {
             </div>
           </div>
         </div>
-       
+
       </div>
 
       <div className="block3 boxBlock row2">
-      <div>
+        <div>
           <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
             <div className="linksBox">
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas">28 TON</NavLink>
+              <NavLink className="line2" to="/cabezales/cabezal-28-toneladas-retardador">28 ton - retardador</NavLink>
+              <NavLink className="line2" to="/cabezales/cabezal-t7h-340-28-toneladas">28 TON 340 HP</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas">42 TON</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-t7h-430-45-toneladas">45 TON</NavLink>
             </div>
           </div>
         </div>
-        
+
         <div>
           <div>
             <Slide duration={2000}>
@@ -331,10 +333,10 @@ function Block3() {
             </div>
           </div>
         </div>
-        
+
       </div>
       <div className="block3 boxBlock row2">
-      {/* <div>
+        {/* <div>
           <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/BannerU70.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -365,12 +367,12 @@ function Block3() {
             <NavLink className="titleBox2" to="/sinotruk/autos">SUV'S</NavLink>
             <div className="linksBox">
               <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70</NavLink>
-              <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink> 
+              <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
             </div>
           </div>
         </div>
 
-        
+
         <div>
           <a href="/volquetas/volqueta-c7h-540">
             <Slide duration={2000}>
@@ -407,7 +409,7 @@ function Block3() {
           </div>
 
         </div>
-        
+
 
         <div>
           <a href="/excavadoras/swe370e">
