@@ -13,9 +13,9 @@ export default function NavBar() {
     window.scrollTo(0, 0);
 
     //pop up politicas
-     let the_button = document.getElementById('js-btn')
-     let modaldos = document.getElementById("modaldos")
-     let closeBtn = document.getElementById("closedos")
+    let the_button = document.getElementById('js-btn')
+    let modaldos = document.getElementById("modaldos")
+    let closeBtn = document.getElementById("closedos")
 
 
     //  the_button.addEventListener("click", handleClick)
@@ -258,7 +258,7 @@ export default function NavBar() {
         navSearch[0].classList.toggle("nav-search-active");
 
         document.querySelector('.logoHome').classList.toggle("logoNav");
-      navh.classList.toggle("nav-inactive");
+        navh.classList.toggle("nav-inactive");
 
         navLinks.forEach((link, index) => {
           if (link.style.animation) {
@@ -535,21 +535,21 @@ export default function NavBar() {
 
   });
 
-    const [mostrarModal, setMostrarModal] = useState(false);
-  
-    const activarModal = () => {
-      setMostrarModal(true);
-    };
-  
-    const cerrarModal = () => {
-      setTimeout(() => {
-        setMostrarModal(false);
-      }, 10); // 200 milisegundos de retraso
-    };
+  const [mostrarModal, setMostrarModal] = useState(false);
 
- 
-    
-  
+  const activarModal = () => {
+    setMostrarModal(true);
+  };
+
+  const cerrarModal = () => {
+    setTimeout(() => {
+      setMostrarModal(false);
+    }, 10); // 200 milisegundos de retraso
+  };
+
+
+
+
   return <nav className="menu1 internal">
     <div className="burger">
       <div className="line1"></div>
@@ -628,14 +628,15 @@ export default function NavBar() {
               <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">540 / 48 ton - catalinas</NavLink></p>
 
             </div>
-            
+
           </div>
           <div className="rowMenu espaciomenu">
-          
+
             <div className="colMenu">
               <p className="colTitle">Volquetas</p>
               <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">T5G-330 8-9m3</NavLink></p>
               <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430">T7H-430 10-14m3</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430-20m3">T7H-430 20 m3</NavLink></p>
               <p className="colItem meniu"><NavLink to="/volquetas/volqueta-c7h-540">C7H-540 20m3</NavLink></p>
               <div>
               </div>
@@ -644,7 +645,7 @@ export default function NavBar() {
             <div className="colMenu">
               <p className="colTitle">Mixer</p>
               <p className="colItem meniu"><NavLink to="/mixer/mixer-a7-1257">A7-1257</NavLink></p>
-              <p className="colItem meniu"><NavLink to="/proximamente">C7H 12 m3</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/mixer/mixer-12-14m3-c7h-430">C7H 12 m3</NavLink></p>
               <div>
               </div>
             </div>
@@ -780,7 +781,7 @@ export default function NavBar() {
         </div>
       </li>
 
-      
+
 
       <li>
         <a href="#" option="compania">COMPAÑÍA</a>
@@ -793,7 +794,7 @@ export default function NavBar() {
             <div className="colMenu">
               <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
               {/* <a href="../bdc/paises" className="colItem meniu negro">BDC</a> */}
-              <p><a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro" style={{alignItems:'center', color: '#000'}}>bdc</a></p>
+              <p><a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro" style={{ alignItems: 'center', color: '#000' }}>bdc</a></p>
               <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
               <p className="colItem meniu"><NavLink to="/repuestos">Repuestos</NavLink></p>
               <p className="colItem meniu"><NavLink to="/terminosCondiciones">Terminos y Condiciones</NavLink></p><br></br>
@@ -817,13 +818,13 @@ export default function NavBar() {
     {mostrarModal && (
       <div class="modaldos" id="modaldos">
         <div class="modaldos_content">
-          <span class="closedos" id="closedos" style={{fontSize:'1.2rem', color: '#a52a2a'}} onClick={cerrarModal}>x</span>
+          <span class="closedos" id="closedos" style={{ fontSize: '1.2rem', color: '#a52a2a' }} onClick={cerrarModal}>x</span>
           <b><h2>Vehicentro Ecuador</h2> - <h2>Comercialización de camiones Sinotruk</h2> - <h2>Sinotruk Ecuador</h2></b><br></br><br></br>
           <h3>Venta de Camiones Sinotruk a nivel Nacional</h3><br></br><br></br>
           <p>En Vehicentro tenemos el camión que necesitas</p><br></br><br></br>
           <p>Los precios de nuestros <h4>camiones</h4>, <h4>mixer</h4>, <h4>excavadoras y volquetas</h4> incluyen IVA, cualquier otro impuesto aplicable están sujetos a cambios sin previo aviso.</p> <br></br><br></br>
-          <p>Vehicentro con sus sucursales en Ecuador se dedica a la <h2>venta de Camiones en Ambato</h2>, <h2>venta de Camiones en Quito</h2>, <h2>venta de Camiones en Guayaquil</h2>, <h2>venta de Camiones en Riobamba</h2>, 
-          <h2>venta de Camiones en Machala</h2>, <h2>venta de Camiones en Ibarra</h2> y <h2>venta de Camiones en Manta</h2></p>
+          <p>Vehicentro con sus sucursales en Ecuador se dedica a la <h2>venta de Camiones en Ambato</h2>, <h2>venta de Camiones en Quito</h2>, <h2>venta de Camiones en Guayaquil</h2>, <h2>venta de Camiones en Riobamba</h2>,
+            <h2>venta de Camiones en Machala</h2>, <h2>venta de Camiones en Ibarra</h2> y <h2>venta de Camiones en Manta</h2></p>
           <br></br><br></br>
           <p>Vehicentro no será responsable de los retrasos en la entrega causados por circunstancias imprevistas o que estén fuera de control.</p><br></br><br></br>
           <p>Vehicentro no será responsable de los daños directos, indirectos, incidentales o consecuentes causados el uso del camión después de la venta.</p><br></br><br></br>

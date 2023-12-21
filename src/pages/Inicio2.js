@@ -283,6 +283,7 @@ function Block3() {
           <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
+
             <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
             <div className="linksBox">
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas">28 TON</NavLink>
@@ -399,12 +400,27 @@ function Block3() {
             <p className="titleBox"></p>
             <NavLink className="titleBox2" to="/serie/volquetas">VOLQUETAS / MIXER</NavLink>
             <div className="linksBox">
-              <p>Volquetas:</p>
-              <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280"> 8-9 m3</NavLink>
-              <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430"> 10-14 m3</NavLink>
-              <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540"> 20 m3</NavLink>
-              <p>Mixer:</p>
-              <NavLink className="line2" src="" to="/mixer/mixer-a7-1257"> A7 8-9 m3</NavLink>
+              <div className="arribacol">
+                <div className="nombreIni">
+                  <p>Volquetas:</p>
+                </div>
+                <div className="linksVol">
+                  <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280"> 8-9 m3</NavLink>
+                  <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430"> 10-14 m3</NavLink>
+                </div>
+              </div>
+              <div className="abajoCol">
+                <div className="nombreIni"></div>
+                <div className="linksVol">
+                  <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430-20m3"> 430 20 m3</NavLink>
+                  <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540"> 540 20 m3</NavLink>
+                </div>
+              </div>
+              <div>
+                <p>Mixer:</p>
+                <NavLink className="line2" src="" to="/mixer/mixer-a7-1257"> A7 8-9 m3</NavLink>
+                <NavLink className="line2" src="" to="/mixer/mixer-12-14m3-c7h-430"> 12-14 m3</NavLink>
+              </div>
             </div>
           </div>
 

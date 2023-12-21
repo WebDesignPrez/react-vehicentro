@@ -145,7 +145,7 @@ function FormContactFicha(props) {
     }
   }
 
- 
+
 
   const validateCon = (e) => {
     if (e === "" || e === "Concesionario")
@@ -310,7 +310,7 @@ function FormContactFicha(props) {
   const serieT5G = ['T5G 1167 / 9 TON', 'T5G 1167 / 10 TON', 'T5G 1167 / 12 TON', 'T5G 1167 / 13 TON (280HP)', 'T5G 1167 / 13 TON (330HP)', 'T5G 1257 / 18 TON', 'T5G 1257 / 19.5 TON', 'T5G 4187 / 24 TON'];
   const serieT7H = ['T7H 390 / 28 TON', 'T7H 340 / 28 TON', 'T7H 390 / 28 TON con retardador', 'T7H 390 / 42 TON', 'T7H 430 / 45 TON'];
   const serieC7H = ['C7H 1256 / 20 TON', 'C7H 1256 / 20 TON con Catalinas', 'C7H 540 / 48 TON', 'C7H 540 / 48 TON con Catalinas'];
-  const especiales = ['VOLQUETA T5G-330 8-9M3', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M3', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER'];
+  const especiales = ['VOLQUETA T5G-330 8-9M3', 'VOLQUETA 20M3', 'VOLQUETA T5G 430-330 10-14M3', 'C7H 12M3 / MIXER', 'A7 1257 / MIXER', 'Mixer 14m3 C7H 430'];
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
   const miniCargadora = ['SWL3220'];
@@ -336,13 +336,13 @@ function FormContactFicha(props) {
     type = furgoneta;
   } else if (serie === "miniCargadoras") {
     type = miniCargadora;
-  } else if (serie === "autos"){
+  } else if (serie === "autos") {
     type = autos;
-  } 
+  }
   // else if (serie === "NLS"){
   //   type = nls;
   // }
-   
+
 
 
   if (type) {
@@ -452,7 +452,7 @@ function FormContactFicha(props) {
         </div>
 
         <div className="contenedorTerminos">
-        <input
+          <input
             className="inputTerminos"
             type="checkbox"
             checked={isChecked}
@@ -462,7 +462,7 @@ function FormContactFicha(props) {
             Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
           </label>
         </div>
-        <button className={isChecked? 'nextBtn':'nextBtnDisabled'} type="submit" disabled={!isChecked}>
+        <button className={isChecked ? 'nextBtn' : 'nextBtnDisabled'} type="submit" disabled={!isChecked}>
           Cotizar
         </button>
 

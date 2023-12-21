@@ -17,7 +17,7 @@ body {
   font-display: swap;
 }
 
-.vehiculos.fondoautos{
+.vehiculos.fondoautos {
   background-color: #b8b8b8;
   width: 50%;
 }
@@ -40,17 +40,17 @@ body {
   text-align: left;
 }
 
-.mostrarMovil{
+.mostrarMovil {
   display: none;
 }
 
 
 
-.blackTerminos{
+.blackTerminos {
   font-weight: bold;
 }
 
-.popup:hover{
+.popup:hover {
   border-color: #000;
   color: #fff;
   cursor: pointer;
@@ -64,7 +64,7 @@ body {
   cursor: pointer;
 }
 
-.aAviso{
+.aAviso {
   color: #ffffff;
 }
 
@@ -74,7 +74,7 @@ body {
 
 
 
-.magneti img{
+.magneti img {
   width: 80%;
 }
 
@@ -734,43 +734,43 @@ p.titleFooter {
   position: relative;
 }
 
-.serieContainerAutos{
+.serieContainerAutos {
   display: flex;
   background-color: #000;
 }
 
-.containerAutos{
+.containerAutos {
   width: 50%;
 }
 
-.containerAutos{
+.containerAutos {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.sinotrukContainer{
+.sinotrukContainer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 
-.sinotrukContainer img{
+.sinotrukContainer img {
   width: 40%;
 }
 
-.sinotrukContainer.menos{
+.sinotrukContainer.menos {
   width: 5%;
 }
 
 
-.modelosFurgonetas{
+.modelosFurgonetas {
   color: #fff;
   font-size: 3rem;
 }
 
-.modelosFurgonetas p{
+.modelosFurgonetas p {
   size: 2rem;
 }
 
@@ -1183,43 +1183,43 @@ p.titleFooter {
 
 /*CONTENT PRODUCT*/
 
-.serieSinotruk{
+.serieSinotruk {
   display: flex;
   justify-content: space-around;
   padding-left: 3rem;
 }
 
-.ad{
+.ad {
   width: 100%;
 }
 
-.serieSinotruk img{
+.serieSinotruk img {
   width: 75% !important;
   height: auto;
 }
 
-.serieSinotruk img:hover{
- scale: 1.2;
- transition-duration: 500ms;
+.serieSinotruk img:hover {
+  scale: 1.2;
+  transition-duration: 500ms;
 }
 
-.boxRight .sinoLogo{
+.boxRight .sinoLogo {
   display: flex;
   align-items: center;
   width: 20%;
 }
 
-.contentProduct .banner.autos1 img{
+.contentProduct .banner.autos1 img {
   width: 80%;
 }
 
 
-.contentProduct .banner.autos2 img{
+.contentProduct .banner.autos2 img {
   width: 70%;
 }
 
 
-.contentProduct .banner.autos3 img{
+.contentProduct .banner.autos3 img {
   width: 60%;
 }
 
@@ -1239,7 +1239,7 @@ p.titleFooter {
 
 .internal .nav-links {
   height: 100vh;
-  
+
   z-index: 100;
 }
 
@@ -1291,6 +1291,10 @@ p.titleFooter {
   bottom: 10px;
 }
 
+.col {
+  display: flex;
+}
+
 .contenedorTextoSobrepuesto {
   position: relative;
 }
@@ -1323,15 +1327,15 @@ p.titleFooter {
   color: #000;
 }
 
-.newSpam{
+.newSpam {
   background-color: red;
 }
 
-.newSpam:hover{
+.newSpam:hover {
   background-color: #2d2d2d !important;
 }
 
-.moreSpace{
+.moreSpace {
   padding-left: 0.6vw;
 }
 
@@ -1390,7 +1394,7 @@ p.titleFooter {
   font-size: 1.8vw;
 }
 
-.newStyle{
+.newStyle {
   font-size: 2.4vw;
   text-align: center !important;
 }
@@ -1874,9 +1878,10 @@ li.mouseA:hover {
 }
 
 
-.modeloSerie.autos{
- font-size: 2rem;
+.modeloSerie.autos {
+  font-size: 2rem;
 }
+
 .serieContainer {
   font-size: 1.3vw;
   width: max-content;
@@ -2039,7 +2044,7 @@ a.titleBox2:hover {
   max-width: 100%;
 }
 
-.ocultoMomentaneo{
+.ocultoMomentaneo {
   display: none !important;
 }
 
@@ -2087,14 +2092,14 @@ a.titleBox2:hover {
   color: #ac1e22;
 }
 
-.serieSinotrukAutos{
+.serieSinotrukAutos {
   display: flex;
   width: 100%;
   justify-content: space-around;
   align-items: center;
 }
 
-.serieSinotrukAutos div a img{
+.serieSinotrukAutos div a img {
   width: 300px;
   height: 150px;
 }
@@ -2124,17 +2129,19 @@ a.titleBox2:hover {
 .imgHeader1 {
   background-image: url(../public/images/home/sorteoHome.jpg);
   background-size: cover;
-  
+
 }
-.nuevoCamion{
+
+.nuevoCamion {
   background-color: #ff2222;
-  
+
 }
-.nuevoCamion:hover{
+
+.nuevoCamion:hover {
   color: #fff !important;
 }
 
-.nuevoCamion2{
+.nuevoCamion2 {
   background-color: #ff2222;
   color: #fff
 }
@@ -2203,27 +2210,27 @@ a.colItem.meniu.negro {
   margin: 3% 0;
 }
 
-.newCContainerC7H{
+.newCContainerC7H {
   width: 100%;
   display: flex;
   background-color: #000000;
 }
 
-.videoContainerC7H{
+.videoContainerC7H {
   width: 50%;
 
 }
 
-.videoContainerC7H video{
+.videoContainerC7H video {
   width: 100%;
 
 }
 
-.imagesContainerC7H{
+.imagesContainerC7H {
   width: 50%;
 }
 
-.imagesContainerC7H img{
+.imagesContainerC7H img {
   width: 98%;
 }
 
@@ -2671,14 +2678,19 @@ a.colItem.meniu.negro {
   color: #000;
   background-color: white;
   position: fixed;
-  top: 10vh; /* porcentaje superior */
+  top: 10vh;
+  /* porcentaje superior */
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
-  max-height: 70vh; /*altura máxima */
-  min-width: 25vw; /* unidades relativas */
-  padding: 1.5rem; /* unidades relativas */
-  border-radius: 2vw; /* unidades relativas */
+  max-height: 70vh;
+  /*altura máxima */
+  min-width: 25vw;
+  /* unidades relativas */
+  padding: 1.5rem;
+  /* unidades relativas */
+  border-radius: 2vw;
+  /* unidades relativas */
   border: 1px solid black;
 }
 
@@ -2739,7 +2751,7 @@ a.colItem.meniu.negro {
   font-weight: 500;
 }
 
-.telefonoConcesionario a{
+.telefonoConcesionario a {
   color: #000;
 }
 

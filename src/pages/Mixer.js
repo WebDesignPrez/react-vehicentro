@@ -84,7 +84,7 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
-                urlMedia + "principal/A7_MIXER_3_4.webp",
+                urlMedia + "C7H430-Mixer/Mixer-8m3-34.jpg",
                 urlMedia + "principal/A7_MIXER_FRONTAL.webp"
             ];
             textoMotor1 = "380 HP"
@@ -169,6 +169,99 @@ function Mixer() {
             contenedorVidaUtil = 'Vida útil de más de 1.5 MILLONES de kilómetros'
             break;
 
+        case "mixer-12-14m3-c7h-430":
+            nombreCamion = "Mixer 14m3 C7H 430"
+            camionSerie = "Mixer 14m3 C7H 430"
+            nombreSerie = "Especiales"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
+            images = [
+                urlMedia + "C7H430-Mixer/Mixer12m3-34.jpg",
+                urlMedia + "C7H430-Mixer/Mixer12m3-frontal.jpg"
+            ];
+            textoMotor1 = ""
+            textoMotor2 = "14m3 C7H 430"
+            textoMotor3 = "Ficha técnica"
+            precio = <div className="banner"><img src={urlMedia + "9-sinotruk_logo.png"} /></div>
+            cuotas = 'Cuotas desde: $447.00'
+            motor = urlMedia + "C7H430-Mixer/Mixer12m3-Motor.jpg"
+            garantia = urlMedia + "C7H430-Mixer/5-anos-de-garantia.png"
+            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+
+            caracteristicas = [
+                urlMedia + "C7H430-Mixer/Mixer12m3-detalles1.jpg",
+                urlMedia + "C7H430-Mixer/Mixer12m3-detalles2.jpg",
+                urlMedia + "C7H430-Mixer/Mixer12m3-detalles3.jpg",
+                urlMedia + "C7H430-Mixer/Mixer12m3-detalles4.jpg"
+            ]
+            cabina = urlMedia + "C7H430-Mixer/Mixer12m3-CABINA.jpg"
+            marcas = ""
+            internas1 = [
+                urlMedia + "C7H430-Mixer/Mixer12m3-INTERNA-1.jpg",
+                urlMedia + "C7H430-Mixer/Mixer12m3-INTERNA-5.jpg"
+            ];
+            internas2 = [
+                urlMedia + "C7H430-Mixer/Mixer12m3-INTERNA-2.jpg",
+                urlMedia + "C7H430-Mixer/Mixer12m3-INTERNA-6.jpg"
+            ];
+            internas1b = [
+                urlMedia + "C7H430-Mixer/Mixer12m3-INTERNA-3.jpg"
+            ];
+            internas2b = [
+                urlMedia + "C7H430-Mixer/Mixer12m3-INTERNA-4.jpg"
+            ];
+            medidas = urlMedia + "C7H430-Mixer/Mixer12m3-medidas.jpg"
+            medidasMovil = urlMedia + "C7H430-Mixer/medidasCell.jpg"
+            audio_motor = urlMedia + "a7/motor.mp3"
+
+
+            internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
+            //loop slider
+
+            slide3 = internas1b.map((interna) =>
+                <div className="each-slide-effect" >
+                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+                    </div>
+                </div>
+            );
+
+            slide3b = internas2b.map((interna) =>
+                <div className="each-slide-effect" >
+                    <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+                    </div>
+                </div>
+            );
+
+            contenedorMarcas = <div style={{ display: `contents` }} >
+                {internas1b.length > 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <Fade >
+                            {slide3}
+                        </Fade>
+                    </div>
+                }
+                {internas1b.length == 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <img src={internas1b[0]} alt="" />
+                    </div>
+                }
+
+                {internas2b.length > 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <Fade >
+                            {slide3b}
+                        </Fade>
+                    </div>
+                }
+                {internas2b.length == 1 &&
+                    <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                        <img src={internas2b[0]} alt="" />
+                    </div>
+                }
+            </div>
+
+            contenedorVidaUtil = 'Vida útil de más de 1.5 MILLONES de kilómetros'
+            break;
+
         default:
             break;
     }
@@ -179,6 +272,9 @@ function Mixer() {
 
         case "mixer-a7-1257":
             imagen = urlMedia + "portadas/MIXER_A7.webp"
+            break;
+        case "mixer-12-14m3-c7h-430":
+            imagen = urlMedia + "C7H430-Mixer/Mixer12m3-postal.jpg"
             break;
 
 
