@@ -636,7 +636,7 @@ export default function NavBar() {
               <p className="colTitle">Volquetas</p>
               <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">T5G-330 8-9m3</NavLink></p>
               <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430">T7H-430 10-14m3</NavLink></p>
-              <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430-20m3">T7H-430 20 m3</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430-20m3">T7H-430 20m3</NavLink></p>
               <p className="colItem meniu"><NavLink to="/volquetas/volqueta-c7h-540">C7H-540 20m3</NavLink></p>
               <div>
               </div>
@@ -644,8 +644,8 @@ export default function NavBar() {
 
             <div className="colMenu">
               <p className="colTitle">Mixer</p>
-              <p className="colItem meniu"><NavLink to="/mixer/mixer-a7-1257">A7-1257</NavLink></p>
-              <p className="colItem meniu"><NavLink to="/mixer/mixer-12-14m3-c7h-430">C7H 12 m3</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/mixer/mixer-a7-1257">A7 8-9m3</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/mixer/mixer-12-14m3-c7h-430">C7H 12m3</NavLink></p>
               <div>
               </div>
             </div>

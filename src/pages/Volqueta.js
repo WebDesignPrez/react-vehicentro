@@ -81,7 +81,7 @@ function Camion() {
             console.log('volqueta 330')
             nombreCamion = "Volqueta | T5G-330"
             nombreBusqueda = 'volqueta 8m - volqueta 8 metros'
-            camionSerie = "VOLQUETA T5G-330 8-9M3"
+            camionSerie = "VOLQUETA T5G 330 8-9M3"
             nombreSerie = "Especiales"
             pathUrl = "volqueta-t5g-280"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA330"
@@ -139,7 +139,7 @@ function Camion() {
             pathUrl = "volqueta-t7h-430"
             nombreCamion = "Volqueta | T7H-430"
             nombreBusqueda = 'volqueta 10m - volqueta 10 metros - volqueta 14m - volqueta 14 metros'
-            camionSerie = "VOLQUETA T5G 430-330 10-14M3"
+            camionSerie = "VOLQUETA T7H 430 10-14M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
             images = [
@@ -194,7 +194,7 @@ function Camion() {
             pathUrl = "volqueta-c7h-540"
             nombreCamion = "Volqueta | C7H-540"
             nombreBusqueda = 'volqueta 20m - volqueta 20 metros'
-            camionSerie = "VOLQUETA 20M3"
+            camionSerie = "VOLQUETA C7H 540 20M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540"
             images = [
@@ -243,9 +243,9 @@ function Camion() {
             pathUrl = "volqueta-t7h-430-20m3"
             nombreCamion = "Volqueta | C7H-430 20m3"
             nombreBusqueda = 'volqueta 20m - volqueta 20 metros'
-            camionSerie = "VOLQUETA C7H-430 20M3"
+            camionSerie = "VOLQUETA T7H 430 20M3"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETAT7H54020M3"
             images = [
                 urlMedia + "T7H_3257_VOLQUETA_20M3/frontal.webp"
             ];
@@ -308,7 +308,7 @@ function Camion() {
             break;
 
         case "volqueta-t7h-430-20m3":
-            imagen = urlMedia + "T7H_3257_VOLQUETA_20M3/postal.webp"
+            imagen = urlMedia + "T7H_3257_VOLQUETA_20M3/postal-Volqueta430.jpg"
             break;
 
         default:

@@ -80,7 +80,7 @@ function Mixer() {
         case "mixer-a7-1257":
             console.log('mixer 1257')
             nombreCamion = "Mixer A7 1257"
-            camionSerie = "A7 1257 / MIXER"
+            camionSerie = "MIXER A7 8-9M3"
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
@@ -171,9 +171,9 @@ function Mixer() {
 
         case "mixer-12-14m3-c7h-430":
             nombreCamion = "Mixer 14m3 C7H 430"
-            camionSerie = "Mixer 14m3 C7H 430"
+            camionSerie = "MIXER C7H 12-14M3"
             nombreSerie = "Especiales"
-            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERC7H12M3"
             images = [
                 urlMedia + "C7H430-Mixer/Mixer12m3-34.jpg",
                 urlMedia + "C7H430-Mixer/Mixer12m3-frontal.jpg"

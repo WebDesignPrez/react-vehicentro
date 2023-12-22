@@ -5,10 +5,10 @@ import './styles/vehiculo.css';
 const Vehiculo = ({ path }) => {
   const urlMedia = env.url + path;
 
-  const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.webp');
+  const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.png');
 
   const handleButtonClick = (newImage) => {
-    setSelectedImage(urlMedia + newImage + '.webp');
+    setSelectedImage(urlMedia + newImage + '.png');
   };
 
   return (
