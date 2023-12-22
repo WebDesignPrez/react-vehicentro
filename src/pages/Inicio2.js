@@ -405,21 +405,21 @@ function Block3() {
                   <p>Volquetas:</p>
                 </div>
                 <div className="linksVol">
-                  <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280"> 8-9 m3</NavLink>
-                  <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430"> 10-14 m3</NavLink>
+                  <NavLink className="line2" src="" to="/volquetas/volqueta-t5g-280">T5G 8-9 m3</NavLink>
+                  <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430">T7H 10-14 m3</NavLink>
                 </div>
               </div>
               <div className="abajoCol">
                 <div className="nombreIni"></div>
                 <div className="linksVol">
-                  <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430-20m3"> 430 20 m3</NavLink>
-                  <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540"> 540 20 m3</NavLink>
+                  <NavLink className="line2" src="" to="/volquetas/volqueta-t7h-430-20m3">T7H 430 20 m3</NavLink>
+                  <NavLink className="line2" src="" to="/volquetas/volqueta-c7h-540">C7H 540 20 m3</NavLink>
                 </div>
               </div>
               <div>
                 <p>Mixer:</p>
                 <NavLink className="line2" src="" to="/mixer/mixer-a7-1257"> A7 8-9 m3</NavLink>
-                <NavLink className="line2" src="" to="/mixer/mixer-12-14m3-c7h-430"> 12-14 m3</NavLink>
+                <NavLink className="line2" src="" to="/mixer/mixer-12-14m3-c7h-430"> C7H 12-14 m3</NavLink>
               </div>
             </div>
           </div>

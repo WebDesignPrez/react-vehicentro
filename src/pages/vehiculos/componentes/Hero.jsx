@@ -9,7 +9,7 @@ function Hero({ path }) {
 
   return (
     <div className='hero '>
-      <img src={urlMedia + "webU70Hero.webp"} alt="auto 7 pasajeros" title='auto 7 pasajeros' />
+      <img src={urlMedia + "inicio.jpg"} alt="auto 7 pasajeros" title='auto 7 pasajeros' />
     </div>
   )
 }
