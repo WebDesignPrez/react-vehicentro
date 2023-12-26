@@ -90,7 +90,7 @@ function Mixer() {
             textoMotor1 = "380 HP"
             textoMotor2 = "Modelo 1257 - 8m3"
             textoMotor3 = "Ficha técnica"
-            precio = <div className="banner"><img src={urlMedia + "9-sinotruk_logo.png"} /></div>
+            precio = <div className="banner"><img className="menosImagenMovile" src={urlMedia + "9-sinotruk_logo.png"} /></div>
             cuotas = 'Cuotas desde: $447.00'
             motor = urlMedia + "a7/motor-mixer.webp"
             garantia = urlMedia + "a7/5-anos-de-garantia.webp"
@@ -179,9 +179,9 @@ function Mixer() {
                 urlMedia + "C7H430-Mixer/Mixer12m3-frontal.jpg"
             ];
             textoMotor1 = ""
-            textoMotor2 = "14m3 C7H 430"
+            textoMotor2 = "12-14m3 C7H 430"
             textoMotor3 = "Ficha técnica"
-            precio = <div className="banner"><img src={urlMedia + "9-sinotruk_logo.png"} /></div>
+            precio = <div className="banner"><img className="menosImagenMovile" src={urlMedia + "9-sinotruk_logo.png"} /></div>
             cuotas = 'Cuotas desde: $447.00'
             motor = urlMedia + "C7H430-Mixer/Mixer12m3-Motor.jpg"
             garantia = urlMedia + "C7H430-Mixer/5-anos-de-garantia.png"
@@ -353,7 +353,7 @@ function Mixer() {
         </div>
         <div className="mostrarMovil letras">
             <div onClick={openFormContact} className="">{textoMotor1}</div>
-            <div onClick={openFormContact} className=""><p>{`Camión ${textoMotor2}`}</p></div>
+            <div onClick={openFormContact} className=""><p>{`Mixer ${textoMotor2}`}</p></div>
         </div>
         <div className="contentProduct">
 
