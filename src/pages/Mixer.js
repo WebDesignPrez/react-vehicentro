@@ -271,7 +271,7 @@ function Mixer() {
     switch ((useParams("id").id)) {
 
         case "mixer-a7-1257":
-            imagen = urlMedia + "portadas/MIXER_A7.webp"
+            imagen = urlMedia + "postales/MIXER_A7.webp"
             break;
         case "mixer-12-14m3-c7h-430":
             imagen = urlMedia + "C7H430-Mixer/Mixer12m3-postal.jpg"
