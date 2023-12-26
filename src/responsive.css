@@ -9,77 +9,79 @@
   .searchIcon {
     display: none;
   }
-  .bombaKawa{
+
+  .bombaKawa {
     transform: translate(0%, -75%);
-}
+  }
 
   .tecJaponesa {
     transform: translate(20%, -75%);
-}
+  }
 
-.escoderMovil{
-  display: none !important;
-}
+  .escoderMovil {
+    display: none !important;
+  }
 
-.mostrarMovil.ficha{
-  padding: 1rem !important;	
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-
-.alinear-abajo {
-  display: flex;
-}
+  .mostrarMovil.ficha {
+    padding: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
 
 
-.mostrarMovil.letras{
-  background-color: #191713;
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;	
-  font-size: 1.5rem;
-}
+  .alinear-abajo {
+    display: flex;
+  }
 
-.mostrarMovil.ficha img{
-  width: 100%;
-}
 
-.mostrarMovil{
-  display: block !important;
-}
+  .mostrarMovil.letras {
+    background-color: #191713;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 1.5rem;
+  }
 
-  .sinotrukContainer img{
+  .mostrarMovil.ficha img {
+    width: 100%;
+  }
+
+  .mostrarMovil {
+    display: block !important;
+  }
+
+  .sinotrukContainer img {
     width: 60%;
   }
-  .serieContainerAutos{
+
+  .serieContainerAutos {
     flex-direction: column !important;
     width: 100% !important;
   }
 
-  .serieContainerAutos div a img{
+  .serieContainerAutos div a img {
     width: 100% !important;
     height: auto !important;
     padding: 7vw !important;
   }
 
-  .containerAutos{
-    width: 100% ;
+  .containerAutos {
+    width: 100%;
     padding: 4vw;
   }
 
-  .vehiculos.fondoautos{
+  .vehiculos.fondoautos {
     width: 100%;
   }
 
-  
+
   .closeMovil::before {
     content: url(../public/images/back.png);
     position: absolute;
@@ -100,15 +102,23 @@
     padding-right: 25px;
     width: 60vw;
   }
-  .serieSinotrukAutos{
+
+  .serieSinotrukAutos {
     display: flex;
     align-items: center;
     justify-content: center;
     align-items: start;
     width: 100%;
+
   }
 
-  .serieSinotrukAutos .logos{
+  .banner .menosImagenMovile {
+    width: 80%;
+  }
+
+
+
+  .serieSinotrukAutos .logos {
     width: 100%;
   }
 
@@ -138,7 +148,7 @@
     display: none !important;
   }
 
-  
+
 
   .boxesIni.partesbg {
     flex-direction: row !important;
@@ -243,8 +253,12 @@
 
   .popup {
     position: absolute;
-    bottom: 20% /*!important*/;
-    top: 20% /*!important*/;
+    bottom: 20%
+      /*!important*/
+    ;
+    top: 20%
+      /*!important*/
+    ;
     max-height: 5.8rem;
     font-size: larger;
     left: 15px;
@@ -306,17 +320,18 @@
   .responsive {
     display: block;
   }
+
   .each-slide-effect>div {
     height: 72vw !important;
   }
 
   ul.nav-links-h>li>a:hover,
-.active {
-  color: #f44331;
-  border-bottom-color: #f44331;
-  border-bottom-width: 0px !important;
-  border-bottom-style: solid;
-}
+  .active {
+    color: #f44331;
+    border-bottom-color: #f44331;
+    border-bottom-width: 0px !important;
+    border-bottom-style: solid;
+  }
 
 
   .responsive .each-slide-effect>div {
@@ -334,11 +349,11 @@
   .textoMotor1 {
     font-size: 13vw;
     bottom: 7rem;
-}
+  }
 
-.imgHeader1{
-  background-position: 50% !important;
-}
+  .imgHeader1 {
+    background-position: 50% !important;
+  }
 
   .textoMotor2 {
     font-size: 10vh;
@@ -351,15 +366,15 @@
     bottom: 3.5rem;
   }
 
-  .flex-row.textoMotor2 .excavadoraH1{
+  .flex-row.textoMotor2 .excavadoraH1 {
     font-size: 5.5vw !important;
   }
 
   .textoMotor3.negro {
-    bottom: 300px !important;	
-    padding-top: 20vw !important; 
+    bottom: 300px !important;
+    padding-top: 20vw !important;
   }
-  
+
 
   .textoMotorFlecha {
     bottom: 3.5rem;
@@ -416,7 +431,7 @@
     bottom: 40px;
   }
 
-  .textoMotor4.negro{
+  .textoMotor4.negro {
     color: #000
   }
 
@@ -487,19 +502,19 @@
     max-width: 100%;
     margin-left: 0;
   }
-  
+
   .serieTitle.serieBox.seriecompletomovil {
     width: 80%;
     padding: 8vh 10vw 3vh 10vw
-
   }
 
-  .boxRight.nomSeries.responsive{
+  .boxRight.nomSeries.responsive {
     justify-content: center;
     background-color: #fff;
   }
-  .boxRight.nomSeries.responsive p{
-    color:#2d2d2d;
+
+  .boxRight.nomSeries.responsive p {
+    color: #2d2d2d;
     text-align: -webkit-center;
     font-size: 7.2vw;
     line-height: 7vw;
@@ -580,7 +595,7 @@
     background-color: #2d2d2d;
   }
 
-  .modelosFurgonetas{
+  .modelosFurgonetas {
     font-size: 1.5rem;
   }
 
@@ -737,16 +752,17 @@
   .menuHome {
     width: 70%;
   }
+
   .internal .burger {
     width: 25%;
   }
 
-  .btn-wsp{
+  .btn-wsp {
     bottom: 90px;
     right: 0px;
   }
 
-  .boxesContact p.fixed{
+  .boxesContact p.fixed {
     bottom: 25px;
     margin-bottom: 0px !important;
     margin-left: 0px !important;
@@ -757,26 +773,26 @@
   }
 
   .internal .navSearch {
-      left: 2vw !important;
+    left: 2vw !important;
   }
 
   .result {
     top: 13vh !important;
   }
 
-  .requisitosDos.gara.new{
+  .requisitosDos.gara.new {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: justify;
   }
 
-  .boxNews.companiaimg2.new{
+  .boxNews.companiaimg2.new {
     width: 100% !important;
   }
 
-    /* popUp */
-   /*  .popup {
+  /* popUp */
+  /*  .popup {
       position: flex;
       top: 0;
       left: 0;
@@ -841,7 +857,7 @@
       height: auto;
       transform: translate(12%, 200%);
     } */
-   
+
 }
 
 @media only screen and (min-width: 768px) {

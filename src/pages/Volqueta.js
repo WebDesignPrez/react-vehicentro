@@ -93,7 +93,7 @@ function Camion() {
             textoMotor2 = "Modelo T5G-330"
             textoMotor3 = "Ficha técnica"
 
-            precio = <div className="banner"><img src={urlMedia + "9-sinotruk_logo.png"} /></div>
+            precio = <div className="banner"><img className="menosImagenMovile" src={urlMedia + "9-sinotruk_logo.png"} /></div>
             motor = urlMedia + "volqueta-280/motor-sinotruk-de-volqueta-ecuador.webp"
             garantia = urlMedia + "volqueta-280/5-anos-de-garantia.webp"
             tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
@@ -149,7 +149,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-430"
             textoMotor3 = "Ficha técnica"
 
-            precio = <div className="banner"><img src={urlMedia + "9-sinotruk_logo.png"} /></div>
+            precio = <div className="banner"><img className="menosImagenMovile" src={urlMedia + "9-sinotruk_logo.png"} /></div>
             motor = urlMedia + "volqueta-430/motor-sinotruk-de-volqueta-ecuador.webp"
             garantia = urlMedia + "volqueta-430/5-anos-de-garantia.webp"
             tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
@@ -204,7 +204,7 @@ function Camion() {
             textoMotor2 = "Modelo C7H-540"
             textoMotor3 = "Ficha técnica"
 
-            precio = <div className="banner"><img src={urlMedia + "9-sinotruk_logo.png"} /></div>
+            precio = <div className="banner"><img className="menosImagenMovile" src={urlMedia + "9-sinotruk_logo.png"} /></div>
             motor = urlMedia + "volqueta-540/motor-sinotruk-de-volqueta-ecuador.webp"
             garantia = urlMedia + "volqueta-540/5-anos-de-garantia.webp"
             tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
@@ -253,7 +253,7 @@ function Camion() {
             textoMotor2 = "Modelo T7H-430"
             textoMotor3 = "Ficha técnica"
 
-            precio = <div className="banner"><img src={urlMedia + "9-sinotruk_logo.png"} /></div>
+            precio = <div className="banner"><img className="menosImagenMovile" src={urlMedia + "9-sinotruk_logo.png"} /></div>
             motor = urlMedia + "volqueta-540/motor-sinotruk-de-volqueta-ecuador.webp"
             garantia = urlMedia + "T7H_3257_VOLQUETA_20M3/garantia.webp"
             tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
@@ -402,7 +402,7 @@ function Camion() {
         </div>
         <div className="mostrarMovil letras">
             <div onClick={openFormContact} className="">{textoMotor1}</div>
-            <div onClick={openFormContact} className=""><p>{`Camión ${textoMotor2}`}</p></div>
+            <div onClick={openFormContact} className=""><p>{`Volqueta ${textoMotor2}`}</p></div>
         </div>
         <div className="contentProduct">
 
