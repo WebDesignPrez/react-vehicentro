@@ -194,7 +194,7 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
       console.log('10 Toneladas')
       images = [
-        urlMedia + "principal/10TON_3_4.webp",
+        urlMedia + "portadasSinSorteo/10_TON_3_4.webp",
         urlMedia + "principal/10TON_FRONTAL.webp"
       ];
       textoMotor1 = "240 HP"
@@ -255,7 +255,7 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHCR9T1167"
       console.log('9 toneladas')
       images = [
-        urlMedia + "principal/9TON_3_4.webp",
+        urlMedia + "portadasSinSorteo/9_TON_3_4.webp",
         urlMedia + "principal/9TON_FRONTAL.webp"
       ];
       textoMotor1 = "210 HP"
@@ -312,7 +312,7 @@ function Camion() {
       fortalezas = "Garantía real a nivel nacional, 3 puertos usb, radio touch, cabina acciona eléctrico, cabina más cómoda, cabina más práctica , espejos angulares, desempañador eléctrico, apertura a distancia de vidrios, desempañador electrico de espejos  "
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB12TT5G1167"
       images = [
-        urlMedia + "principal/12TON_3_4.webp",
+        urlMedia + "portadasSinSorteo/12_TON_3_4.webp",
         urlMedia + "principal/12TON_FRONTAL.webp"
       ];
       textoMotor1 = "240 HP"
@@ -370,7 +370,7 @@ function Camion() {
       fortalezas = "Precio competitivo, ahorro de combustible, velocidad y potencia, confort y comodidad, dimensiones perfectas volumen-peso, stock de unidades y variedad de colores"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB13T1167"
       images = [
-        urlMedia + "principal/13_280_TON_3_4.webp",
+        urlMedia + "portadasSinSorteo/13_280_TON3_4.webp",
         urlMedia + "principal/13_280_TON_FRONTAL.webp"
       ];
       textoMotor1 = "280 HP"
@@ -428,7 +428,7 @@ function Camion() {
       fortalezas = "Muy buena tecnología de fabricación- alta gama de pintura, buen precio-mantenimiento más económico, mejor garantía en el mercado- menos consumo de combustible - camión más fuerte y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web13TOVDT5G1167"
       images = [
-        urlMedia + "principal/13_330_TON_3_4.webp",
+        urlMedia + "portadasSinSorteo/13_330_TON3_4.webp",
         urlMedia + "principal/13_330_TON_FRONTAL.webp"
       ];
       textoMotor1 = "330 HP"
@@ -485,7 +485,7 @@ function Camion() {
       fortalezas = "Mayor potencia, menor peso al vacío, mayor capacidad de carga, mayor largo carrozable, excelente relación precio/prestaciones, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB18T1257"
       images = [
-        urlMedia + "principal/18TON_3_4.webp"
+        urlMedia + "portadasSinSorteo/18_TON_FRONTAL.webp"
       ];
       textoMotor1 = "340 HP"
       textoMotor2 = "Modelo T5G-1257 - 18 Ton"
@@ -542,7 +542,7 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable, cabina con apertura eléctrica"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB19T1257"
       images = [
-        urlMedia + "principal/19TON_BLANCO_3_4.webp",
+        urlMedia + "portadasSinSorteo/19_TON_BLANCO3_4.webp",
         urlMedia + "principal/19TON_AMARILLO_3_4.webp"
       ];
       textoMotor1 = "340 HP"
@@ -1051,7 +1051,7 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
       images = [
-        urlMedia + "principal/20TON_3_4.webp",
+        urlMedia + "portadasSinSorteo/20_TON_3_4.webp",
         urlMedia + "principal/20TON_FRONTAL.webp"
       ];
       textoMotor1 = "430 HP"
@@ -1107,7 +1107,7 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH20TCAT"
       images = [
-        urlMedia + "principal/20_C_TON_3_4.webp",
+        urlMedia + "portadasSinSorteo/20_C_TON_3_4.webp",
       ];
       textoMotor1 = "430 HP"
       textoMotor2 = "Modelo C7H-1256"
