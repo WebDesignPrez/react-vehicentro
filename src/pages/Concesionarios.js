@@ -174,12 +174,12 @@ function Concesionarios() {
       <div className="btnConcesionarios">
         <a className='btn6' href='?ubicacion=Ambato'>Ambato</a>
         <a className='btn6' href='?ubicacion=Quito'>Quito</a>
-        <a className='btn6' href='?ubicacion=Guayaquil'>Guayaquil</a>
-        <a className='btn6' href='?ubicacion=Riobamba'>Riobamba</a>
-        <a className='btn6' href='?ubicacion=Machala'>Machala</a>
-        <a className='btn6' href='?ubicacion=Cuenca'>Cuenca</a>
         <a className='btn6' href='?ubicacion=Ibarra'>Ibarra</a>
+        <a className='btn6' href='?ubicacion=Guayaquil'>Guayaquil</a>
         <a className='btn6' href='?ubicacion=Manta'>Manta</a>
+        <a className='btn6' href='?ubicacion=Machala'>Machala</a>
+        <a className='btn6' href='?ubicacion=Riobamba'>Riobamba</a>
+        <a className='btn6' href='?ubicacion=Cuenca'>Cuenca</a>
       </div>
       <div className="boxConcesionarios">
         {concesionariosData.length > 0 ? (
@@ -191,7 +191,7 @@ function Concesionarios() {
                 <span className='direccionConcesionario'>{datos.direccion}</span>
                 <p className='telefonoConcesionario'><span>Línea directa </span><a href="tel:032994740">032 994 740</a> | <a href="tel:0992048229">0992048229</a></p>
                 <span className='linkConcesionario'>
-                  <a href={datos.url} target='_blank'>UBICACIÓN</a>
+                  <a href={datos.url} target='_blank' rel="noreferrer">UBICACIÓN</a>
                 </span>
                 <a href=''></a>
               </div>

@@ -129,7 +129,6 @@
   .nav-links {
     width: 100% !important;
     transition: All 0.5s ease;
-    /*       min-height: 90vh; */
   }
 
   .nav-header {
@@ -143,7 +142,6 @@
     display: none !important;
   }
 
-  /*PRODUCTO CSS*/
   .internal .nav-links-h {
     display: none !important;
   }
@@ -253,12 +251,8 @@
 
   .popup {
     position: absolute;
-    bottom: 20%
-      /*!important*/
-    ;
-    top: 20%
-      /*!important*/
-    ;
+    bottom: 20%;
+    top: 20%;
     max-height: 5.8rem;
     font-size: larger;
     left: 15px;
@@ -531,19 +525,7 @@
 
 @media only screen and (max-width: 1000px) {}
 
-@media only screen and (max-width: 880px) {
-  /* 	ul.nav-links-h {
-  display : none !important;
-}
-
-.boxesIni > div{
-      width: 100% !important;
-  } */
-}
-
-
-
-/*INICIO 2*/
+@media only screen and (max-width: 880px) {}
 
 @media only screen and (max-width: 768px) {
 
@@ -790,74 +772,6 @@
   .boxNews.companiaimg2.new {
     width: 100% !important;
   }
-
-  /* popUp */
-  /*  .popup {
-      position: flex;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 9999;
-    }
-    
-    .popup.show {
-      display: flex;
-      background-color: #000;
-    }
-    .banderas {
-      width: 100% !important;
-      height: 100% !important ;
-    }
-    .ecuador{
-      display:block;
-      width: 100% !important;
-      height: 50% !important ;
-    }
-    .colombia{
-      top:50%;
-      width: 100% !important;
-      height: 50% !important;
-    }
-    .logo_vh{
-      position: relative;
-      z-index: 1;
-      transform: translate(0%, -400%);
-    }
-  
-    .logo_vh img{
-      width: 400px;
-      height: auto;
-    }
-  
-    .colombia img{
-      width: 200px;
-      height: auto;
-      transform: translate(60%, 60%);
-  
-    }
-  
-    .colombia .colombiaBandera{
-      width: 150px;
-      height: auto;
-      transform: translate(-35%, 95%);
-    }
-    .ecuador img{
-      width: 300px;
-      height: auto;
-      transform: translate(100%, 80%);
-    }
-  
-    .ecuador .ecuadorBandera{
-      width: 250px;
-      height: auto;
-      transform: translate(12%, 200%);
-    } */
-
 }
 
 @media only screen and (min-width: 768px) {

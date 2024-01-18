@@ -1,4 +1,3 @@
-import Inicio from "./pages/Inicio"
 import Inicio2 from "./pages/Inicio2"
 import Repuestos from "./pages/Repuestos"
 import { Route, Routes, BrowserRouter } from "react-router-dom"
@@ -106,6 +105,7 @@ import M70L from "./pages/vehiculos/M70L"
 import M70L_EV from "./pages/vehiculos/M70L_EV"
 import Paises from "./pages/Paises"
 import TerminosCondiciones from "./pages/TerminosCondiciones"
+import PopUp from "./components/PopUp";
 
 
 
@@ -119,7 +119,8 @@ function App() {
       </Helmet>
       <main>
         <Routes>
-          <Route path="/" element={<Inicio2 />} />
+          <Route path="/" element={<PopUp />} />
+          <Route path="/home" element={<Inicio2 />} />
 
           <Route path="/repuestos" element={<Repuestos />} />
           <Route path="/camiones/:id" element={<Camion />} />
@@ -135,7 +136,6 @@ function App() {
           <Route path="/compania" element={<Compania />} />
           <Route path="/trabaja-con-nosotros" element={<Trabaja_con_nosotros />} />
           <Route path="/mixer/:id" element={<Mixer />} />
-          <Route path="/inicio" element={<Inicio />} />
           <Route path="/serie/:id" element={<Serie />} />
           <Route path="/gracias-por-contactarnos" element={<Mensaje />} />
           <Route path="/experiencia" element={<Experiencia />} />
@@ -251,14 +251,14 @@ function App() {
           <Route path="/keyton/furgonetas" element={<FurgonetasLanding />} />
           <Route path="/keyton/furgonetas/m70l" element={<M70L />} />
           <Route path="/keyton/furgonetas/m70l-EV" element={<M70L_EV />} />
-                    
+
           <Route path="/bdc/paises" element={<Paises />} />
           <Route path="/terminosCondiciones" element={<TerminosCondiciones />} />
 
-                    
+
         </Routes>
       </main>
-  </BrowserRouter>
+    </BrowserRouter>
   )
 }
 
