@@ -114,7 +114,6 @@ nav.menu2 {
   max-height: 80px;
   height: 80px;
   position: relative;
-  /* top: -83px; */
   top: 0px;
 }
 
@@ -151,8 +150,6 @@ nav.menu2 {
   text-decoration: none;
   color: #fff;
   border-bottom: 2px solid transparent;
-  /*transition:0.5s ease;
-    transform: translateX(0%);*/
   opacity: 0;
   font-size: 15px;
 }
@@ -183,10 +180,6 @@ svg {
 .logo {
   padding-right: 25px;
   width: 25vw;
-}
-
-.logoNav {
-  /*   width: 18vw; */
 }
 
 .logo img {
@@ -327,7 +320,6 @@ ul.nav-links-h>li>a:hover,
 }
 
 .nav-links>li.linkContact>a::after {
-  /*  content : url(../public/images/ws.png); */
   width: 15px;
   color: white;
   float: right;
@@ -363,9 +355,6 @@ ul.nav-links-h>li>a:hover,
   height: auto;
   max-width: 100%;
 }
-
-
-/*FOOTER*/
 
 .footer {
   display: flex;
@@ -431,7 +420,6 @@ ul.nav-links-h>li>a:hover,
 }
 
 .footer .desc {
-  /*padding-right: 150px;*/
   color: #9a9895;
   width: 280px;
 }
@@ -633,7 +621,6 @@ p.titleFooter {
 
 .posRelative {
   position: relative;
-  /* top: -83px; */
   top: 0px;
 }
 
@@ -696,7 +683,6 @@ p.titleFooter {
   margin-top: auto;
 }
 
-/*MODAL*/
 .modal {
   position: fixed;
   width: 100%;
@@ -721,7 +707,7 @@ p.titleFooter {
   width: 80%;
 }
 
-/*BOX CONTENT*/
+
 .boxesIni .boxLeft,
 .boxesIni .boxRight {
   position: relative;
@@ -774,19 +760,6 @@ p.titleFooter {
   size: 2rem;
 }
 
-/* .serieSinotrukAutos .icons{
-  width: 20px;
-}
-
-.serieSinotrukAutos .logos{
-  width: 60%;
-}
-
-.serieSinotrukAutos .logosRojo{
-  width: 60%;
-} */
-
-
 .boxesIni .boxLeft .boxPlay,
 .boxesIni .boxRight .boxPlay {
   position: absolute;
@@ -815,7 +788,6 @@ p.titleFooter {
   opacity: 1;
 }
 
-/*TEXT*/
 .boxesIni .boxText {
   position: absolute;
   z-index: 2;
@@ -824,7 +796,6 @@ p.titleFooter {
   bottom: 10px;
 }
 
-/*BANNER*/
 .banner .boxText {
   position: absolute;
   z-index: 2;
@@ -1181,8 +1152,6 @@ p.titleFooter {
   margin-bottom: 3px !important;
 }
 
-/*CONTENT PRODUCT*/
-
 .serieSinotruk {
   display: flex;
   justify-content: space-around;
@@ -1412,10 +1381,6 @@ p.titleFooter {
   color: #000 !important;
 }
 
-/* .colItem.meniu a:hover {
-  color: #f44331;
-} */
-
 .colItem.meniu a:hover {
   color: #000;
 }
@@ -1440,8 +1405,6 @@ p.titleFooter {
   margin: 0% 0 0% 0 !important;
 }
 
-
-/*BTN CONCESIONARIOS*/
 .btnConcesionarios {
   display: flex;
   flex-wrap: wrap;
@@ -1656,9 +1619,6 @@ li.mouseA:hover {
   margin: 25px 0 0 0;
 }
 
-
-/*INICIO 2*/
-
 .boxBlock {
   display: flex;
   flex-wrap: wrap;
@@ -1695,12 +1655,6 @@ li.mouseA:hover {
   text-decoration: none;
 }
 
-/*
-.block1 .titleBox::after {
-    content: url(../public/images/arrowRotate.png);
-    padding-left: 1vw;
-}
-*/
 .block1 .linksBox {
   display: flex;
   flex-direction: row;
@@ -2468,9 +2422,6 @@ a.colItem.meniu.negro {
   flex-direction: column;
 }
 
-
-/*Estilos rendimiento*/
-
 .rendimiento .titulo {
   background-color: #75170E;
   padding: 3.5% 15px 4%;
@@ -2513,10 +2464,8 @@ a.colItem.meniu.negro {
 }
 
 .rendimiento .titulo input::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
   opacity: .71;
-  /* Firefox */
   text-align: center;
 }
 
@@ -2664,7 +2613,6 @@ a.colItem.meniu.negro {
 
 
 .modaldos {
-  /* display: none; */
   position: fixed;
   z-index: 1000;
   width: 100%;
@@ -2679,18 +2627,13 @@ a.colItem.meniu.negro {
   background-color: white;
   position: fixed;
   top: 10vh;
-  /* porcentaje superior */
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
   max-height: 70vh;
-  /*altura máxima */
   min-width: 25vw;
-  /* unidades relativas */
   padding: 1.5rem;
-  /* unidades relativas */
   border-radius: 2vw;
-  /* unidades relativas */
   border: 1px solid black;
 }
 
@@ -2754,129 +2697,3 @@ a.colItem.meniu.negro {
 .telefonoConcesionario a {
   color: #000;
 }
-
-/* .popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-  }
-  
-  .popup.show {
-    display: flex;
-  }
-  
-  .popup-content {
-    background-color: #191919;
-    padding: 100%;
-    border-radius: 100%;
-  }
-  
-
-  .popup-content h1 {
-    margin-top: 0;
-  }
-  
-  .popup-content p {
-    margin-bottom: 10px;
-  }
-  
-  .popup-content button {
-    padding: 10px 20px;
-    border-radius: 50%;
-    background-color: transparent;
-    color: #fff;
-  }
-
-  .ecuador{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: #000;
-  }
-
-  .colombia{
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    background-color: #000;
-  }
-  .colombia img{
-    transform: translate(50%, 50%);
-
-  }
-
-  .mapaEc{
-    opacity: 30%;
-  }
-  .mapaCo{
-    opacity: 30%;
-  }
-  .colombia img{
-    width: 300px;
-    height: auto;
-    transform: translate(50%, 60%);
-
-  }
-
-  .colombia .colombiaBandera{
-    width: 250px;
-    height: auto;
-    transform: translate(-40%, 95%);
-  }
-  .ecuador img{
-    width: 300px;
-    height: auto;
-    transform: translate(100%, 80%);
-  }
-
-  .ecuador .ecuadorBandera{
-    width: 250px;
-    height: auto;
-    transform: translate(12%, 200%);
-  }
-
-
-  .linkColombia:hover .colombia{
-    filter: grayscale(0);
-    opacity: 100%;
-    background-color: #100f0f;
-    
-           
-  }
-
-  .linkEcuador:hover .ecuador{
-    filter: grayscale(0);   
-    opacity: 100%;  
-    background-color: #100f0f;
-}
-
-.linkEcuador:hover .mapaEc{
-    opacity: 80%;
-  }
-.linkColombia:hover  .mapaCo{
-    opacity: 80%;
-  }
-
-  .logo_vh{
-    position: relative;
-    z-index: 1;
-    transform: translate(0%, -250%);
-  }
-
-  .logo_vh img{
-    width: 500px;
-    height: auto;
-  }
- */
-/* PopUp.css */

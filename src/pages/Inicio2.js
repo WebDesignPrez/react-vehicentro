@@ -22,7 +22,6 @@ function Inicio2() {
 
 
   const [modalFormIsOpen, setFormIsOpen] = useState(false);
-  /* const [modal2FormIsOpen, setForm2IsOpen] = useState(false); */
 
   useEffect(() => {
     const motorPlayer = document.getElementById('audioMotorHome')
@@ -34,15 +33,6 @@ function Inicio2() {
         closeFormContact()
       }
     };
-
-    /* const keyDown2Handler = event => {
-        if (event.key === 'Escape') {
-            event.preventDefault();
-            closeFormCon2tact()
-        }
-    };
-*/
-
     const videoContainer = document.getElementById('videoContainer')
     const imgContainer = document.querySelectorAll('.imgContainerHeader')
     const mouseOverHandler = event => {
@@ -78,16 +68,7 @@ function Inicio2() {
       document.removeEventListener('keydown', keyDownHandler);
     };
 
-    /*   document.addEventListener('keydown', keyDown2Handler);
-      return () => {
-          document.removeEventListener('keydown', keyDown2Handler);
-      };
-*/
-
   }, []);
-
-
-
   function openFormContact() {
     setFormIsOpen(true)
   }
@@ -95,16 +76,6 @@ function Inicio2() {
   function closeFormContact() {
     setFormIsOpen(false)
   }
-
-  /*  function openForm2Contact() {
-       setForm2IsOpen(true)
-   }
- 
-   function closeForm2Contact() {
-       setForm2IsOpen(false)
-   }
-*/
-
 
   return (
     <>
@@ -134,13 +105,12 @@ function Inicio2() {
         <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
       <PopUpAvisoLegal />
-      <PopUp />
+      {/* <PopUp /> */}
       <NavBar />
       <Block1 />
       <Menu2 />
       <Block2 />
       <Block3 />
-      <Block4 />
       <Banner />
       <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
       <Footer />
@@ -162,7 +132,6 @@ function Block1() {
         <div className="overlayBox" height="200">
           <p className="titleBox">PRODUCTOS</p>
           <div className="linksBox">
-
             <NavLink src="" to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
             <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
             <NavLink src="" to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
@@ -171,17 +140,8 @@ function Block1() {
         </div>
       </div>
       <div className="imgContainerHeader imgHeader1" height="600">
-
-        {/* <div className="overlayBox" height="200"> */}
         <p className="titleBox "><span className="rojo"></span><span className="rojo"></span></p>
         <div className="linksBox testimonio test">
-
-          {/* </div> */}
-          {/* <div className="overlayBox" height="200">
-          <p className="titleBox "><span className="rojo">R</span>ESPALDO - <span className="rojo">R</span>EPUESTOS</p>
-          <div className="linksBox testimonio test">
-            <NavLink to="/garantia" src="">LA MEJOR GARANTÍA DEL PAÍS</NavLink>
-          </div> */}
         </div>
       </div>
       <div id="videoContainer" className="responsive">
@@ -189,7 +149,6 @@ function Block1() {
           <a href="/sinotruk/autos">
             <div className="boxLeft c7h">
               <img src="https://www.vehicentro.com/images/home/U70ProCarrusel.webp" alt="" />
-              {/* <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src={urlMedia + "home/testimonio-movil.mp4"} className="videoWidth produ" /> */}
             </div>
           </a>
         </div>
@@ -200,8 +159,6 @@ function Block1() {
             <NavLink src="" to="/sinotruk/autos/u70pro"><span className="boldserie">U70PRO</span></NavLink>
           </div>
         </div>
-        {/* <h1>Venta de camiones en Ecuador</h1>
-                <h2>En vehicentro encuentra camiones Sinotruk</h2> */}
       </div>
       <div className="imgContainerHeader imgHeader2 noResponsive" height="600">
         <div className="overlayBox" height="200">
@@ -217,9 +174,7 @@ function Block1() {
 
 function Block2() {
   return (
-    <>        {/* < div className="block2 noResponsive" >
-            <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
-        </div > */}
+    <>
       < div className="block2 noResponsive" >
         <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/u70proVideo.mp4" className="videoWidth" />
       </div >
@@ -227,7 +182,6 @@ function Block2() {
 
   )
 }
-
 
 function Block3() {
   return (
@@ -239,7 +193,7 @@ function Block3() {
             <p className="titleBox" ><span className="nuevoCamion">NUEVO</span></p>
             <p className="titleBox" >Preventa</p>
             <div className="linksBox">
-              <NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >2.5 TON</NavLink>
+              <NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >NLS 2.5 TON</NavLink>
             </div>
           </div>
         </div>
@@ -337,18 +291,6 @@ function Block3() {
 
       </div>
       <div className="block3 boxBlock row2">
-        {/* <div>
-          <a href="/sinotruk/autos/u70pro"><img src={urlMedia + "home/BannerU70.webp"} width="900" height="700" alt="Volquetas de venta en Ecuador" /></a>
-          <div className="bottomContainer">
-            <p className="titleBox"></p>
-            <NavLink className="titleBox2" to="/sinotruk/autos">SUV'S</NavLink>
-            <div className="linksBox">
-              <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70</NavLink>
-              <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
-            </div>
-          </div>
-        </div> */}
-        {/* slide u70 */}
         <div>
           <a href="/sinotruk/autos">
             <Slide duration={2000}>
@@ -454,57 +396,7 @@ function Block3() {
 
         </div>
       </div>
-
-
-
-      {/*                <div>
-                    <img src={urlMedia + "home/sector-ganadero.webp"} width="900" height="700" alt="Maquinaria para el sector ganadero" />
-                    <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <NavLink className="titleBox2" to="/proximamente-hidromek">HIDROMEK</NavLink>
-                        <div className="linksBox">
-                            <NavLink className="line2" src="" to="/proximamente-hidromek">EXCAVADORA</NavLink>
-                            <NavLink className="line2" src="" to="/proximamente-hidromek">RETROEXCAVADORA</NavLink>
-                            <NavLink className="line2" src="" to="/proximamente-hidromek">MINI EXCAVADORA</NavLink>
-                            <NavLink className="line2" src="" to="/proximamente-hidromek">RODILLO</NavLink>
-                        </div>
-                    </div>
-    </div>*/}
-
-
     </>
-  )
-}
-
-function Block4() {
-  return (
-    <div className="block4 boxBlock boxesIni posRelative content3">
-      <div className="boxLeft playMotor colorLinksSobreTexto">
-
-        <Slide>
-          <div className="each-slide-effect">
-            <div style={{ 'backgroundImage': `url(../images/home/camion-sinotruk-basura.webp)`, height: `43vw` }}>
-            </div>
-          </div>
-          <div className="each-slide-effect">
-            <div style={{ 'backgroundImage': `url(../images/home/camion-con-balde.webp)`, height: `43vw` }}>
-            </div>
-          </div>
-          <div className="each-slide-effect">
-            <div style={{ 'backgroundImage': `url(../images/home/camion-verde-basura.webp)`, height: `43vw` }}>
-            </div>
-          </div>
-        </Slide>
-        <div className="boxText flex-table row linksBox">
-          <div className="flex-row textMain textMain2">VEHÍCULOS ESPECIALES</div>
-        </div>
-      </div>
-      <div className="boxRight tecnologia">
-        <div className="boxLeft c7h">
-          <video preload="none" width="320" height="240" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/tamara2.mp4"} className="videoWidth" />
-        </div>
-      </div>
-    </div>
   )
 }
 
@@ -541,11 +433,5 @@ function Modal() {
     <div id="modalContainer"></div>
   )
 }
-
-/* function Modal2() {
-    return (
-        <div id="modal2Container"></div>
-    )
-} */
 
 export default Inicio2

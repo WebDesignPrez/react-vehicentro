@@ -95,15 +95,15 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
       images = [
-        urlMedia + "principal/2.5TON_3_4.webp",
-        urlMedia + "2.5-toneladas/2.5FRONTAL_1.webp"
+        urlMedia + "2.5-toneladas/2.5_TON_3_4.webp",
+        urlMedia + "2.5-toneladas/2.5_TON_FRONTAL.webp"
       ];
       textoMotor1 = "110HP"
       textoMotor2 = "NLS"
       textoMotor3 = "Ficha técnica"
       precio = precios.dos_cinco
       seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
-      cuotas = `${precios.dos_cinco_cuota}`
+      cuotas = `Cuotas desde: ${precios.dos_cinco_cuota}`
       motor = urlMedia + "2.5-toneladas/2.5_TON_MOTOR.webp"
       garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
       tecnologia = urlMedia + "2.5-toneladas/frenos.png"
@@ -128,7 +128,7 @@ function Camion() {
       internas2b = [
         urlMedia + "2.5-toneladas/palanca2.5.jpg"
       ];
-      medidas = urlMedia + "2.5-toneladas/2.5_MEDIDA.webp"
+      medidas = urlMedia + "2.5-toneladas/2.5_WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "medidas/2.5_TON_CEL.webp"
       audio_motor = urlMedia + "2.5-toneladas/2.5_TON_SM1.mp3"
 
@@ -804,8 +804,8 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB5T1167"
       images = [
-        urlMedia + "principal/5TON_3_4.webp",
-        urlMedia + "principal/5TON_FRONTAL.webp"
+        urlMedia + "5-toneladas/5_TON_3_4.png",
+        urlMedia + "5-toneladas/5_TON_FRONTAL.png"
       ];
       textoMotor1 = "141 HP"
       textoMotor2 = "Modelo 1067 - 5 Ton"
@@ -1160,7 +1160,7 @@ function Camion() {
   switch ((useParams("id").id)) {
 
     case "camion-de-2-5-toneladas":
-      imagen = urlMedia + "2.5-toneladas/form2.5.webp"
+      imagen = urlMedia + "2.5-toneladas/2.5_TON_FOTO.webp"
       break;
 
     case "camion-de-3-5-toneladas-1057":
@@ -1333,12 +1333,9 @@ function Camion() {
 
 
         <div className="boxRightHeader  half text_icon_left" >
-          {nombreCamion !== 'Camión de 2.5 toneladas' &&
-            <p className='vidaUtil'>DESDE</p>
-          }
-          {nombreCamion == 'Camión de 2.5 toneladas' &&
-            <p className='vidaUtil'>PRECIO DE LANZAMIENTO</p>
-          }
+
+          <p className='vidaUtil'>DESDE</p>
+
           <p className='precioCamiones' >{precio}</p>
           <p className='cuotas'>{cuotas}</p>
         </div>

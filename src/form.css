@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*  border: 1px solid red; */
 }
 
 .form-box {
@@ -10,7 +9,7 @@
     margin: 0vw;
     padding: 2vw 5vw;
     position: relative;
-    /* position:relative for .prevBtn and .nextBtn position:absolute; */
+
 }
 
 .form-box h5 {
@@ -48,16 +47,9 @@ select:focus {
     width: 85%;
 }
 
-textarea{
+textarea {
     width: 95%;
 }
-
-/*
-.form-box select{
-    height: 42px;
-    width: 90%;
-}
-*/
 
 .form-box select {
     height: 42px;
@@ -106,7 +98,7 @@ textarea{
 
 
 .nextBtn {
-    
+
     margin: 1rem 8rem 1rem 8rem;
     border-radius: 5px;
     background-color: #c41a2f;
@@ -131,13 +123,6 @@ textarea{
     background-color: white;
 }
 
-.userIcon::before {
-    /*     content: url(../public/images/user-solid_small.png);
-    transform: scale(0.35);
-    position: relative;
-    top: 5px;
-    left: -20px; */
-}
 
 .form-box .userIcon {
     position: relative;
@@ -174,39 +159,36 @@ input[type=text] {
 }
 
 
-/*MODAL FORM*/
-
 .modalForm .form-box {
     height: 90vh;
 }
 
-.contenedorTerminos
-{
+.contenedorTerminos {
     display: flex;
     align-items: center;
 }
 
-.linkTerminos{
+.linkTerminos {
     color: #373737 !important;
 }
 
-.linkTerminos:hover{
+.linkTerminos:hover {
     color: #c41a2f !important;
     text-decoration: underline;
 }
 
-.contenedorTerminos input{
-    width: 20px; 
+.contenedorTerminos input {
+    width: 20px;
     margin-bottom: 13px;
 }
 
-.contenedorTerminos label{
+.contenedorTerminos label {
     font-size: 1.1rem;
     color: #373737;
     margin-left: 2vw;
 }
 
-.privaty{
+.privaty {
     color: #373737;
     background-color: #fff;
     margin-left: 10vw;
@@ -217,28 +199,30 @@ input[type=text] {
     border-radius: 25px;
 }
 
-.privaty p{
+.privaty p {
     font-size: 1.3rem;
 }
-.texto h1{
+
+.texto h1 {
     display: inline-block;
     text-align: center;
     color: #000;
     border-bottom: solid 2px #c41a2f;
     position: relative;
-    padding-bottom: 10px; /* Ajusta este valor según sea necesario */
-    
+    padding-bottom: 10px;
+
 }
 
-.texto{
+.texto {
     margin: 2vw;
     text-align: justify;
 }
 
-.black{
+.black {
     font-weight: bold;
 }
-.espacioText{
+
+.espacioText {
     padding-right: 3rem;
     padding-left: 3rem;
 }
