@@ -176,7 +176,7 @@ function Block2() {
   return (
     <>
       < div className="block2 noResponsive" >
-        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/u70proVideo.mp4" className="videoWidth" />
+        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/VIDEO2.5FINAL.mp4" className="videoWidth" />
       </div >
     </>
 
