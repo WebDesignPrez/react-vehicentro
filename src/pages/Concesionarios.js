@@ -148,7 +148,8 @@ function Concesionarios() {
       img: urlMedia + "IBARRA-2.jpg",
       alt: ""
     }]
-  }, {
+  },
+  {
     id: "Manta",
     datos: [{
       nombre: "MANTA",
@@ -159,7 +160,20 @@ function Concesionarios() {
       img: urlMedia + "WhatsApp-Image-2022-09-23-at-6.12.42-PM-800x612.jpeg",
       alt: ""
     }]
-  }]
+  },
+  {
+    id: "Loja",
+    datos: [{
+      nombre: "LOJA",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
+      telefono: "032-994740 | 0992048229",
+      direccion: "Av. Cuxibamba 77-51 E Ibarra",
+      url: "https://maps.app.goo.gl/e4nKs7VGH3HoBU2u8",
+      img: urlMedia + "VEHIFAC.jpg",
+      alt: ""
+    }]
+  }
+  ]
 
   return (
     <>
@@ -180,6 +194,7 @@ function Concesionarios() {
         <a className='btn6' href='?ubicacion=Machala'>Machala</a>
         <a className='btn6' href='?ubicacion=Riobamba'>Riobamba</a>
         <a className='btn6' href='?ubicacion=Cuenca'>Cuenca</a>
+        <a className='btn6' href='?ubicacion=Loja'>Loja</a>
       </div>
       <div className="boxConcesionarios">
         {concesionariosData.length > 0 ? (
