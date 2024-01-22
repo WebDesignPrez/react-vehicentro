@@ -82,8 +82,8 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMVOLQ89M3"
             images = [
-                urlMedia + "volqueta-280/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp",
-                urlMedia + "volqueta-280/volqueta-blanca-de-frente-sinotruk-de-venta-en-ecuador.webp"
+                urlMedia + "principal/8-9VOLQUETA_3_4.webp",
+                urlMedia + "principal/8-9_VOLQUETA_FRONTAL.webp"
             ];
             textoMotor1 = "330 HP"
             textoMotor2 = "Modelo T5G-330"
@@ -137,7 +137,7 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMVOLQ1014M3"
             images = [
-                urlMedia + "volqueta-430/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
+                urlMedia + "principal/10-14VOLQUETA_3_4.webp"
             ];
             textoMotor1 = "430 HP"
             textoMotor2 = "Modelo T7H-430"
@@ -191,7 +191,7 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRMVOLQ20M3"
             images = [
-                urlMedia + "volqueta-540/volqueta-blanca-sinotruk-de-venta-en-ecuador.webp"
+                urlMedia + "principal/20VOLQUETA_3_4.webp"
             ];
             textoMotor1 = "20 m3"
             textoMotor2 = "Modelo C7H-540"
@@ -232,6 +232,52 @@ function Camion() {
 
             break;
 
+        case "volqueta-t7h-430-20m3":
+            nombreCamion = "Volqueta | C7H-430 20m3"
+            camionSerie = "VOLQUETA T7H 430 20M3"
+            nombreSerie = "Especiales"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPMVOLQUETAT7H54020M3"
+            images = [
+                urlMedia + "T7H_3257_VOLQUETA_20M3/frontal.webp"
+            ];
+            textoMotor1 = "20 m3"
+            textoMotor2 = "Modelo T7H-430"
+            textoMotor3 = "Ficha técnica"
+
+            precio = <div className="banner"><img className="menosImagenMovile" src={urlMedia + "9-sinotruk_logo.png"} /></div>
+            motor = urlMedia + "volqueta-540/motor-sinotruk-de-volqueta-ecuador.webp"
+            garantia = urlMedia + "T7H_3257_VOLQUETA_20M3/garantia.webp"
+            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            caracteristicas = [
+                urlMedia + "T7H_3257_VOLQUETA_20M3/palanca.webp",
+                urlMedia + "T7H_3257_VOLQUETA_20M3/cilindros.webp",
+                urlMedia + "T7H_3257_VOLQUETA_20M3/valvulas.webp",
+                urlMedia + "T7H_3257_VOLQUETA_20M3/inyerccion.webp"
+            ]
+            cabina = urlMedia + "T7H_3257_VOLQUETA_20M3/cabina.webp"
+            marcas = urlMedia + "volqueta-540/marcas-vehicentro.webp"
+            internas1 = [
+                urlMedia + "T7H_3257_VOLQUETA_20M3/inter1.webp",
+                urlMedia + "T7H_3257_VOLQUETA_20M3/inter2.webp"
+            ];
+            internas2 = [
+                urlMedia + "T7H_3257_VOLQUETA_20M3/inter3.webp",
+                urlMedia + "T7H_3257_VOLQUETA_20M3/inter4.webp",
+            ];
+
+            medidas = urlMedia + "T7H_3257_VOLQUETA_20M3/medida.webp"
+            medidasMovil = urlMedia + "T7H_3257_VOLQUETA_20M3/medidaCell.webp"
+            audio_motor = urlMedia + "volqueta-540/motor.wav"
+
+            internas = internas1.concat(internas2)
+
+            contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+                <img src={marcas} width="1500" height="750" className="slideMain" alt="Punto de Venta" />
+            </div>
+
+            break;
+
+
         default:
             break;
     }
@@ -241,18 +287,20 @@ function Camion() {
     switch ((useParams("id").id)) {
 
         case "volqueta-t5g-280":
-            imagen = urlMedia + "volqueta-280/volqueta-en-la-carretera.webp"
+            imagen = urlMedia + "postales/VOLQUETA_330_FOTO.webp"
             break;
 
         case "volqueta-t7h-430":
-            imagen = urlMedia + "volqueta-430/volqueta-en-la-carretera.webp"
+            imagen = urlMedia + "postales/VOLQUETA_420_FOTO.webp"
             break;
 
         case "volqueta-c7h-540":
-            imagen = urlMedia + "volqueta-540/volqueta-en-la-carretera.webp"
+            imagen = urlMedia + "postales/VOLQUETA_540_FOTO.webp"
             break;
 
-
+        case "volqueta-t7h-430-20m3":
+            imagen = urlMedia + "T7H_3257_VOLQUETA_20M3/postal-Volqueta430.jpg"
+            break;
 
         default:
             break;

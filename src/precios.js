@@ -1,6 +1,6 @@
 let precios = {
 
-    dos_cinco: "$20,490",
+    dos_cinco: "$19,990",
     dos_cinco_cuota: '$330.00',
 
 

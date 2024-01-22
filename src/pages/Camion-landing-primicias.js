@@ -96,43 +96,41 @@ function Camion() {
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM2.5TON"
             images = [
-                urlMedia + "2.5-toneladas/hero1.jpg"
+                urlMedia + "2.5-toneladas/2.5_TON_3_4.webp",
+                urlMedia + "2.5-toneladas/2.5_TON_FRONTAL.webp"
             ];
-            textoMotor1 = ""
-            textoMotor2 = ""
+            textoMotor1 = "110HP"
+            textoMotor2 = "NLS"
             textoMotor3 = "Ficha técnica"
             precio = precios.dos_cinco
-            cuotas = `${precios.dos_cinco_cuota}`
-            motor = urlMedia + "2.5-toneladas/2.5Frontal.jpg"
+            cuotas = `Cuotas desde: ${precios.dos_cinco_cuota}`
+            motor = urlMedia + "2.5-toneladas/2.5_TON_MOTOR.webp"
             garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
             tecnologia = urlMedia + "2.5-toneladas/frenos.png"
 
             caracteristicas = [
-                urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-potencia-87hp.webp",
+                urlMedia + "palancas/6mas1.webp",
                 urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-cilindraje.webp",
                 urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-freno-de-aire.webp",
                 urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
             ]
-            cabina = urlMedia + "3.5-toneladas/cabina-de-camion-de-3.5-toneladas-sinotruk.webp"
+            cabina = urlMedia + "2.5-toneladas/cabina2.5.jpg"
             marcas = ""
             internas1 = [
-                urlMedia + "3.5-toneladas/volante-deportivo.webp",
-                urlMedia + "3.5-toneladas/ventilacion.webp"
+                urlMedia + "2.5-toneladas/volante2.5.jpg"
             ];
             internas2 = [
-                urlMedia + "3.5-toneladas/palanca-de-cambios.webp",
-                urlMedia + "3.5-toneladas/bloqueo.webp"
+                urlMedia + "2.5-toneladas/vidrios2.5.jpg"
             ];
             internas1b = [
-                urlMedia + "3.5-toneladas/radio-mp5.webp",
-                urlMedia + "3.5-toneladas/vidrios-electricos.webp"
+                urlMedia + "2.5-toneladas/radio2.5.jpg",
             ];
             internas2b = [
-                urlMedia + "3.5-toneladas/cabina.webp"
+                urlMedia + "2.5-toneladas/palanca2.5.jpg"
             ];
-            medidas = urlMedia + "2.5-toneladas/medidas2.5.jpg"
-            medidasMovil = urlMedia + "2.5-toneladas/medidasMovil2.5.jpg"
-            audio_motor = urlMedia + "3.5-toneladas/motor.mp3"
+            medidas = urlMedia + "2.5-toneladas/2.5_WEB_MEDIDAS.webp"
+            medidasMovil = urlMedia + "medidas/2.5_TON_CEL.webp"
+            audio_motor = urlMedia + "2.5-toneladas/2.5_TON_SM1.mp3"
 
 
 
@@ -156,27 +154,25 @@ function Camion() {
             contenedorMarcas = <div style={{ display: `contents` }} >
                 {internas1b.length > 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <Fade >
-                            {slide3}
-                        </Fade>
+
+                        <Fade><img src={internas1b[0]} alt="" /></Fade>
+
                     </div>
                 }
                 {internas1b.length == 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
+                        <img src={internas1b[0]} alt="" />
                     </div>
                 }
 
                 {internas2b.length > 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <Fade >
-                            {slide3b}
-                        </Fade>
+                        <Fade><img src={internas2b[0]} alt="" /></Fade>
                     </div>
                 }
                 {internas2b.length == 1 &&
                     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-                        <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
+                        <img src={internas2b[0]} alt="" />
                     </div>
                 }
             </div>
@@ -184,18 +180,15 @@ function Camion() {
             contenedorVidaUtil = "Caja EATON"
 
             break;
-
-
         //10 toneladas
         case "10-ton":
             nombreCamion = "Camion de 10 toneladas | T5G-1167"
             camionSerie = "T5G 1167 / 10 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM10TON"
-            console.log('10 Toneladas')
             images = [
-                urlMedia + "portadasSorteo/10-web.jpg",
-                urlMedia + "10-toneladas/camion-blanco-sinotruk-de-10-toneladas-ecuador-de-frente.webp"
+                urlMedia + "portadasSinSorteo/10_TON_3_4.webp",
+                urlMedia + "principal/10TON_FRONTAL.webp"
             ];
             textoMotor1 = "240 HP"
             textoMotor2 = "Modelo T5G-1167 - 10 Ton"
@@ -246,10 +239,9 @@ function Camion() {
             camionSerie = "T5G 1167 / 9 TON"
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM9TON"
-            console.log('9 toneladas')
             images = [
-                urlMedia + "9-toneladas/3Cuartos.jpg",
-                urlMedia + "9-toneladas/camion-blanco-sinotruk-de-9-toneladas-ecuador-de-frente.webp"
+                urlMedia + "portadasSinSorteo/9_TON_3_4.webp",
+                urlMedia + "principal/9TON_FRONTAL.webp"
             ];
             textoMotor1 = "210 HP"
             textoMotor2 = "Modelo T5G-1167 - 9 Ton"
@@ -300,8 +292,8 @@ function Camion() {
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM12TON"
             images = [
-                urlMedia + "portadasSorteo/12-web.jpg",
-                urlMedia + "12-toneladas/camion-blanco-sinotruk-de-12-toneladas-ecuador-de-frente.webp"
+                urlMedia + "portadasSinSorteo/12_TON_3_4.webp",
+                urlMedia + "principal/12TON_FRONTAL.webp"
             ];
             textoMotor1 = "240 HP"
             textoMotor2 = "Modelo T5G-1167 - 12 Ton"
@@ -353,8 +345,8 @@ function Camion() {
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM13TON280"
             images = [
-                urlMedia + "portadasSorteo/13-280-web.jpg",
-                urlMedia + "13-toneladas/camion-blanco-sinotruk-de-13-toneladas-ecuador-de-frente.webp"
+                urlMedia + "portadasSinSorteo/13_280_TON3_4.webp",
+                urlMedia + "principal/13_280_TON_FRONTAL.webp"
             ];
             textoMotor1 = "280 HP"
             textoMotor2 = "Modelo T5G-1167 - 13 Ton"
@@ -406,8 +398,8 @@ function Camion() {
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM13TON330"
             images = [
-                urlMedia + "portadasSorteo/13-330-web.jpg",
-                urlMedia + "13-toneladas-330/camion-blanco-sinotruk-de-13-toneladas-de-frente-ecuador.webp"
+                urlMedia + "portadasSinSorteo/13_330_TON3_4.webp",
+                urlMedia + "principal/13_330_TON_FRONTAL.webp"
             ];
             textoMotor1 = "330 HP"
             textoMotor2 = "Modelo T5G-1167 - 13 Ton"
@@ -458,7 +450,7 @@ function Camion() {
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM18TON"
             images = [
-                urlMedia + "portadasSorteo/18-web.jpg"
+                urlMedia + "portadasSinSorteo/18_TON_FRONTAL.webp"
             ];
             textoMotor1 = "340 HP"
             textoMotor2 = "Modelo T5G-1257 - 18 Ton"
@@ -510,8 +502,8 @@ function Camion() {
             nombreSerie = "Serie T5G"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM19.5TON"
             images = [
-                urlMedia + "portadasSorteo/19-web.jpg",
-                urlMedia + "19-toneladas/camion-amarillo-sinotruk-de-19-toneladas-ecuador.webp"
+                urlMedia + "portadasSinSorteo/19_TON_BLANCO3_4.webp",
+                urlMedia + "principal/19TON_AMARILLO_3_4.webp"
             ];
             textoMotor1 = "340 HP"
             textoMotor2 = "Modelo T5G-1257"
@@ -562,8 +554,8 @@ function Camion() {
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM3.5TON"
             images = [
-                urlMedia + "3.5-toneladas/camion-blanco-sinotruk-de-3.5-toneladas-ecuador.webp",
-                urlMedia + "3.5-toneladas/camion-blanco-sinotruk-de-3.5-toneladas-de-frente-ecuador.webp"
+                urlMedia + "principal/3.5TON_3_4.webp",
+                urlMedia + "principal/3.5TON_FRONTAL.webp"
             ];
             textoMotor1 = "100% Aire"
             textoMotor2 = "Modelo 1057 - 3.5 Ton"
@@ -659,8 +651,8 @@ function Camion() {
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM3.6TON"
             images = [
-                urlMedia + "3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-ecuador.webp",
-                urlMedia + "3.6-toneladas/camion-blanco-sinotruk-de-3.6-toneladas-de-frente-ecuador.webp"
+                urlMedia + "principal/3.6TON_3_4.webp",
+                urlMedia + "principal/3.6TON_FRONTAL.webp"
             ];
             textoMotor1 = "100% Aire"
             textoMotor2 = "Modelo 1047 - 3.6 Ton"
@@ -756,8 +748,8 @@ function Camion() {
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM5TON"
             images = [
-                urlMedia + "5-toneladas/camion-blanco-sinotruk-de-5-toneladas-ecuador.webp",
-                urlMedia + "5-toneladas/camion-blanco-sinotruk-de-5-toneladas-de-frente-ecuador.webp"
+                urlMedia + "5-toneladas/5_TON_3_4.png",
+                urlMedia + "5-toneladas/5_TON_FRONTAL.png"
             ];
             textoMotor1 = "141 HP"
             textoMotor2 = "Modelo 1067 - 5 Ton"
@@ -853,9 +845,7 @@ function Camion() {
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM6TON"
             images = [
-                urlMedia + "6-toneladas/camion-blanco-sinotruk-de-6-toneladas-ecuador.webp",
-                urlMedia + "6-toneladas/camion-blanco-sinotruk-de-6-toneladas-de-frente-ecuador.webp"
-
+                urlMedia + "principal/6TON_3_4.webp",
             ];
             textoMotor1 = "154 HP"
             textoMotor2 = "Modelo 1067 - 6 Ton"
@@ -938,8 +928,8 @@ function Camion() {
             nombreSerie = "Serie 100"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM8TON"
             images = [
-                urlMedia + "8-toneladas/camion-blanco-sinotruk-de-8-toneladas-ecuador.webp",
-                urlMedia + "8-toneladas/camion-blanco-sinotruk-de-8-toneladas-de-frente-ecuador.webp"
+                urlMedia + "principal/8TON_3_4.webp",
+                urlMedia + "principal/8TON_FRONTAL.webp"
             ];
             textoMotor1 = "180 HP"
             textoMotor2 = "Modelo 1147 - 8 Ton"
@@ -988,8 +978,8 @@ function Camion() {
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM20TON"
             images = [
-                urlMedia + "portadasSorteo/20-web.jpg",
-                urlMedia + "20-toneladas/camion-blanco-sinotruk-de-20-toneladas-de-frente-ecuador.webp"
+                urlMedia + "portadasSinSorteo/20_TON_3_4.webp",
+                urlMedia + "principal/20TON_FRONTAL.webp"
             ];
             textoMotor1 = "430 HP"
             textoMotor2 = "Modelo C7H-1256"
@@ -1041,7 +1031,7 @@ function Camion() {
             nombreSerie = "Serie C7H"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPM20TONCAT"
             images = [
-                urlMedia + "/portadasSorteo/20-CC-web.jpg",
+                urlMedia + "portadasSinSorteo/20_C_TON_3_4.webp",
             ];
             textoMotor1 = "430 HP"
             textoMotor2 = "Modelo C7H-1256"
@@ -1083,7 +1073,7 @@ function Camion() {
                 <img src={marcas} width="1500" height="750" className="slideMain" alt={`Tecnologia ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
             </div>
 
-
+            break;
         default:
             break;
     }
@@ -1093,65 +1083,65 @@ function Camion() {
 
     switch ((useParams("id").id)) {
         case "2-5-ton":
-            imagen = urlMedia + "2.5-toneladas/formu2.5.jpg"
+            imagen = urlMedia + "2.5-toneladas/2.5_TON_FOTO.webp"
             break;
-      
-          case "3-5-ton":
-            imagen = urlMedia + "seo/3.5Ton.jpg"
+
+        case "3-5-ton":
+            imagen = urlMedia + "postales/3.5TON_FOTO.webp"
             break;
-      
-          case "3-6-ton":
-            imagen = urlMedia + "3.6-toneladas/camion-de-3.6-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "3-6-ton":
+            imagen = urlMedia + "postales/3.6TON_FOTO.webp"
             break;
-      
-          case "5-ton":
-            imagen = urlMedia + "5-toneladas/camion-de-5-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "5-ton":
+            imagen = urlMedia + "postales/5TON_FOTO.webp"
             break;
-      
-          case "6-ton":
-            imagen = urlMedia + "6-toneladas/camion-de-6-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "6-ton":
+            imagen = urlMedia + "postales/6TON_FOTO.webp"
             break;
-      
-          case "8-ton":
-            imagen = urlMedia + "8-toneladas/camion-de-8-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "8-ton":
+            imagen = urlMedia + "postales/8TON_FOTO.webp"
             break;
-      
-          case "9-ton":
-            imagen = urlMedia + "9-toneladas/camion-de-9-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "9-ton":
+            imagen = urlMedia + "postales/9TON_FOTO.webp"
             break;
-      
-          case "10-ton":
-            imagen = urlMedia + "10-toneladas/camion-de-10-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "10-ton":
+            imagen = urlMedia + "postales/10TON_FOTO.webp"
             break;
-      
-          case "12-ton":
-            imagen = urlMedia + "12-toneladas/camion-de-12-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "12-ton":
+            imagen = urlMedia + "postales/12TON_FOTO.webp"
             break;
-      
-          case "13-ton":
-            imagen = urlMedia + "13-toneladas/camion-de-13-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "13-ton":
+            imagen = urlMedia + "postales/13TON_280_FOTO.webp"
             break;
-      
-          case "13-ton-330":
-            imagen = urlMedia + "13-toneladas-330/camion-de-13-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "13-ton-330":
+            imagen = urlMedia + "postales/13TON_330_FOTO.webp"
             break;
-      
-          case "18-ton":
-            imagen = urlMedia + "18-toneladas/camion-de-18-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "18-ton":
+            imagen = urlMedia + "postales/18TON_FOTO.webp"
             break;
-      
-          case "19-ton":
-            imagen = urlMedia + "19-toneladas/camion-de-19-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "19-ton":
+            imagen = urlMedia + "postales/19TON_FOTO.webpp"
             break;
-      
-          case "20-ton":
-            imagen = urlMedia + "20-toneladas/camion-de-20-toneladas-en-la-carretera-sinotruk.webp"
+
+        case "20-ton":
+            imagen = urlMedia + "postales/20TON_FOTO.webp"
             break;
-          case "20-ton-catalinas":
-            imagen = urlMedia + "20Catalinas/prueba.jpg"
+        case "20-ton-catalinas":
+            imagen = urlMedia + "postales/20_C_TON_FOTO.webp"
             break;
-      
-          default:
+
+        default:
             break;
     }
 
@@ -1298,35 +1288,35 @@ function Camion() {
 
             {
 
-nombreCamion !== 'Camión de 2.5 toneladas' &&
+                nombreCamion !== 'Camión de 2.5 toneladas' &&
 
 
-      <div className="boxesIni posRelative">
-        <div className="marcasbg">
-          <img src={cabina} width="1500" height="1500" className="slideMain" alt={`cabina ${nombreBusqueda}`} title={`${nombreBusqueda}`}/>
-        </div>
+                <div className="boxesIni posRelative">
+                    <div className="marcasbg">
+                        <img src={cabina} width="1500" height="1500" className="slideMain" alt={`cabina ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
+                    </div>
 
-        <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <Fade >
-              {slide2}
-            </Fade>
-          </div>
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
-            <Fade >
-              {slide2b}
-            </Fade>
-          </div>
-          <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
-            <Fade >
-              {slide2c}
-            </Fade>
-          </div>
-          {contenedorMarcas}
+                    <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
+                        <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+                            <Fade >
+                                {slide2}
+                            </Fade>
+                        </div>
+                        <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
+                            <Fade >
+                                {slide2b}
+                            </Fade>
+                        </div>
+                        <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
+                            <Fade >
+                                {slide2c}
+                            </Fade>
+                        </div>
+                        {contenedorMarcas}
 
-        </div>
-      </div>
-}
+                    </div>
+                </div>
+            }
             <div className="bannerMedidas noResponsive"><img src={medidas} /></div>
             <div className="bannerMedidas responsive"><img src={medidasMovil} /></div>
         </div>

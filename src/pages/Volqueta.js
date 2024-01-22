@@ -240,8 +240,7 @@ function Camion() {
             break;
 
         case "volqueta-t7h-430-20m3":
-            pathUrl = "volqueta-t7h-430-20m3"
-            nombreCamion = "Volqueta | C7H-430 20m3"
+            nombreCamion = "Volqueta | T7H-430 20m3"
             nombreBusqueda = 'volqueta 20m - volqueta 20 metros'
             camionSerie = "VOLQUETA T7H 430 20M3"
             nombreSerie = "Especiales"
