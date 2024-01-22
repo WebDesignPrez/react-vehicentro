@@ -119,6 +119,15 @@ function Block3() {
         switch (cam) {
 
             //10 toneladas
+            case "camion-2.5":
+                nombreCamion = "Camión de 2.5 toneladas"
+                camionSerie = "2.5 TON"
+                nombreSerie = "Serie 100"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
+
+                break;
+
+            //10 toneladas
             case "camion-10-toneladas-t5g-1167":
                 nombreCamion = "Camión de 10 toneladas | T5G-1167"
                 camionSerie = "T5G 1167 / 10 TON"
@@ -335,38 +344,43 @@ function Block3() {
 
                 break;
 
+            //volquetas
+
             case "volqueta-t5g-280":
-                console.log('volqueta 330')
                 nombreCamion = "Volqueta | T5G-330"
-                camionSerie = "VOLQUETA T5G-330 8-9M3"
+                camionSerie = "VOLQUETA T5G 330 8-9M3"
                 nombreSerie = "Especiales"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
 
                 break;
 
-            //volqueta 430
             case "volqueta-t7h-430":
-                console.log('volqueta T7H-430')
                 nombreCamion = "Volqueta | T7H-430"
-                camionSerie = "VOLQUETA T5G 430-330 10-14M3"
+                camionSerie = "VOLQUETA T7H 430 10-14M3"
+                nombreSerie = "Especiales"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
+
+                break;
+
+            case "volqueta-c7h-540":
+                nombreCamion = "Volqueta | C7H-540"
+                camionSerie = "VOLQUETA C7H 540 20M3"
+                nombreSerie = "Especiales"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
+
+                break;
+
+            case "volqueta-t7h-430-20m3":
+                nombreCamion = "Volqueta | T7H-430 20m3"
+                camionSerie = "VOLQUETA T7H 430 20M3"
                 nombreSerie = "Especiales"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
 
                 break;
 
             case "mixer-a7-1257":
-                console.log('mixer 1257')
                 nombreCamion = "Mixer A7 1257"
-                camionSerie = "A7 1257 / MIXER"
-                nombreSerie = "Especiales"
-                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
-
-                break;
-
-            //Nuevas variables
-            case "volqueta-20-m3":
-                nombreCamion = "Volqueta 20 m3"
-                camionSerie = "VOLQUETA 20M3"
+                camionSerie = "MIXER A7 8-9M3"
                 nombreSerie = "Especiales"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
 
@@ -389,10 +403,17 @@ function Block3() {
                 break;
 
             case "MINI-EXCAVADORA":
-                console.log('MINI-EXCAVADORA')
                 nombreCamion = "MINI EXCAVADORA"
                 camionSerie = "MINI EXCAVADORA"
                 nombreSerie = "Excavadora"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
+
+                break;
+
+            case "MINI-CARGADORA":
+                nombreCamion = "MINICARGADORA SWL3220"
+                camionSerie = "SWL3220"
+                nombreSerie = "miniCargadoras"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
 
                 break;
@@ -407,13 +428,15 @@ function Block3() {
 
             case "mixer-c7h-12m3":
                 nombreCamion = "C7H 12M3 / MIXER"
-                camionSerie = "C7H 12M3 / MIXER"
+                camionSerie = "MIXER C7H 12-14M3"
                 nombreSerie = "Especiales"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
 
                 break;
 
-                
+
+
+
             default:
                 break;
         }
@@ -429,6 +452,18 @@ function Block3() {
     return (
         <>
             <div className="block3 boxBlock landing">
+                <div>
+                    <a><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Vehicentro" /></a>
+                    <div className="bottomContainer">
+                        <p className="titleBox rojo">NUEVO</p>
+                        <a className="titleBox2" to="/serie/100">
+                            Preventa
+                        </a>
+                        <div className="linksBox">
+                            <a className="line2" onClick={() => { openFormContact("camion-2.5") }}>NLS 2.5</a>
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <a><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Vehicentro" /></a>
                     <div className="bottomContainer">
@@ -461,6 +496,10 @@ function Block3() {
                         </div>
                     </div>
                 </div>
+
+            </div>
+
+            <div className="block3 boxBlock row2">
                 <div>
                     <a > <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Vehicentro" /></a>
                     <div className="bottomContainer">
@@ -468,23 +507,9 @@ function Block3() {
                         <a className="titleBox2" to="/serie/t7h">T7H</a>
                         <div className="linksBox">
                             <a className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas" onClick={() => { openFormContact("cabezal-t7h-390-28-toneladas") }}>28 TON</a>
+                            <a className="line2" to="/cabezales/cabezal-28-toneladas-retardador" onClick={() => { openFormContact("cabezal-28-toneladas-retardador") }}>28 TON - RETARDADOR</a>
                             <a className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas" onClick={() => { openFormContact("cabezal-t7h-390-42-toneladas") }}>42 TON</a>
                             <a className="line2" to="/cabezales/cabezal-t7h-430-45-toneladas" onClick={() => { openFormContact("cabezal-t7h-430-45-toneladas") }}>45 TON</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="block3 boxBlock row2">
-                <div>
-                    <a > <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Vehicentro" /> </a>
-                    <div className="bottomContainer">
-                        <p className="titleBox">SERIE</p>
-                        <a className="titleBox2" to="/serie/c7h">C7H</a>
-                        <div className="linksBox">
-                            <a className="line2" to="/camiones/camion-20-toneladas-1256" onClick={() => { openFormContact("camion-20-toneladas-1256") }}>20 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-c7h-540" onClick={() => { openFormContact("cabezal-c7h-540") }}>48 TON</a>
-                            <a className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas" onClick={() => { openFormContact("cabezal-c7h-540-catalinas-48-toneladas") }}>48 TON - CATALINAS</a>
                         </div>
                     </div>
                 </div>
@@ -516,22 +541,35 @@ function Block3() {
                         </div>
                     </div>
                 </div>
+
                 <div>
-                    <a><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" /></a>
+                    <a > <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Vehicentro" /> </a>
                     <div className="bottomContainer">
-                        <p className="titleBox"></p>
-                        <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
+                        <p className="titleBox">SERIE</p>
+                        <a className="titleBox2" to="/serie/c7h">C7H</a>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/volquetas/volqueta-t5g-280" onClick={() => { openFormContact("volqueta-t5g-280") }}>8-9 m3</a>
-                            <a className="line2" src="" to="/volquetas/volqueta-t7h-430" onClick={() => { openFormContact("volqueta-t7h-430") }}>10-14 m3</a>
-                            <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("volqueta-20-m3") }}>20 m3</a>
+                            <a className="line2" to="/camiones/camion-20-toneladas-1256" onClick={() => { openFormContact("camion-20-toneladas-1256") }}>20 TON</a>
+                            <a className="line2" to="/cabezales/cabezal-c7h-540" onClick={() => { openFormContact("cabezal-c7h-540") }}>48 TON</a>
+                            <a className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas" onClick={() => { openFormContact("cabezal-c7h-540-catalinas-48-toneladas") }}>48 TON - CATALINAS</a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div className="block3 boxBlock row2">
-
+                <div>
+                    <a><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" /></a>
+                    <div className="bottomContainer">
+                        <p className="titleBox"></p>
+                        <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
+                        <div className="linksBox">
+                            <a className="line2" src="" to="/volquetas/volqueta-t5g-280" onClick={() => { openFormContact("volqueta-t5g-280") }}>T5G 8-9 m3</a>
+                            <a className="line2" src="" to="/volquetas/volqueta-t7h-430" onClick={() => { openFormContact("volqueta-t7h-430") }}>T7H 10-14 m3</a>
+                            <a className="line2" src="" to="/volquetas/volqueta-t7h-430-20m3" onClick={() => { openFormContact("volqueta-t7h-430-20m3") }}>T7H 430 20 m3</a>
+                            <a className="line2" src="" to="/proximamente" onClick={() => { openFormContact("volqueta-c7h-540") }}>C7H 540 20 m3</a>
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
@@ -549,8 +587,9 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD</p>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/excavadoras/swe210" onClick={() => { openFormContact("swe210") }}>SWE210</a>
-                            <a className="line2" src="" to="/excavadoras/swe370e" onClick={() => { openFormContact("swe370e") }}>SWE370E</a>
+                            <a className="line2" src="" to="/excavadoras/swe210" onClick={() => { openFormContact("swe210") }}> EXCAVADORA SW210 21 Ton</a>
+                            <a className="line2" src="" to="/excavadoras/swe370e" onClick={() => { openFormContact("swe370e") }}>EXCAVADORA SW370E 37 Ton Heavy Duty</a>
+                            <a className="line2" src="" to="/excavadoras/swe370e" onClick={() => { openFormContact("MINI-CARGADORA") }}>MINICARGADORA SWL3220</a>
                         </div>
                         <div className="linksBox">
                         </div>

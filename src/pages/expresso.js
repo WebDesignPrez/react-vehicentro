@@ -132,7 +132,7 @@ function Block3() {
                 camionSerie = 'C7H 1256 / 20 TON con Catalinas'
                 nombreSerie = "Serie C7H"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEX20TONCAT"
-                
+
                 break;
 
             //10 toneladas
@@ -419,7 +419,7 @@ function Block3() {
                         <p className="titleBox" ><span className="nuevoCamion">NUEVO</span></p>
                         <p className="titleBox" >Preventa</p>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/landing/expresso/camion/2-5-ton" >2.5 TON</NavLink>
+                            <NavLink className="line2" to="/landing/expresso/camion/2-5-ton" >NLS 2.5 TON</NavLink>
                         </div>
                     </div>
                 </div>
@@ -466,6 +466,7 @@ function Block3() {
                         <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/landing/expresso/cabezal/28-ton">28 TON</NavLink>
+                            <NavLink className="line2" to="/landing/expresso/cabezal/cabezal-28-toneladas-retardador">28 ton - retardador</NavLink>
                             <NavLink className="line2" to="/landing/expresso/cabezal/42-ton">42 TON</NavLink>
                             <NavLink className="line2" to="/landing/expresso/cabezal/45-ton">45 TON</NavLink>
                         </div>
@@ -522,9 +523,10 @@ function Block3() {
                         <p className="titleBox"></p>
                         <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
                         <div className="linksBox">
-                            <a className="line2" src="" href="/landing/expresso/volqueta/volqueta-t5g-280">8-9 m3</a>
-                            <a className="line2" src="" href="/landing/expresso/volqueta/volqueta-t7h-430">10-14 m3</a>
-                            <a className="line2" href="/landing/expresso/volqueta/volqueta-c7h-540">20 m3</a>
+                            <a className="line2" src="" href="/landing/expresso/volqueta/volqueta-t5g-280">T5G 8-9 m3</a>
+                            <a className="line2" src="" href="/landing/expresso/volqueta/volqueta-t7h-430">T7H 10-14 m3</a>
+                            <a className="line2" href="/landing/expresso/volqueta/volqueta-t7h-430-20m3">T7H 430 20 m3</a>
+                            <a className="line2" href="/landing/expresso/volqueta/volqueta-c7h-540">C7H 540 20 m3</a>
                         </div>
                     </div>
                 </div>
@@ -535,6 +537,7 @@ function Block3() {
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
                             <a className="line2" src="" href="/landing/expresso/mixer/mixer-a7-1257">A7 8-9 m3</a>
+                            <a className="line2" src="" href="expresso/mixer/mixer-12-14m3-c7h-430"> C7H 12-14 m3</a>
                         </div>
                     </div>
                 </div>

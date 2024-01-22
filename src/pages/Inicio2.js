@@ -242,7 +242,7 @@ function Block3() {
             <div className="linksBox">
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas">28 TON</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-28-toneladas-retardador">28 ton - retardador</NavLink>
-              <NavLink className="line2" to="/cabezales/cabezal-t7h-340-28-toneladas">28 TON 340 HP</NavLink>
+              {/* <NavLink className="line2" to="/cabezales/cabezal-t7h-340-28-toneladas">28 TON 340 HP</NavLink> */}
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas">42 TON</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-t7h-430-45-toneladas">45 TON</NavLink>
             </div>
