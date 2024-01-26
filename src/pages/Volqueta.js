@@ -214,7 +214,7 @@ function Camion() {
                 urlMedia + "volqueta-540/volqueta-con-freno-a-las-valvulas.webp",
                 urlMedia + "volqueta-540/inyeccion.webp"
             ]
-            cabina = urlMedia + "volqueta-540/ventilacion.webp"
+            cabina = urlMedia + "volqueta-540/CAB-VOL.webp"
             marcas = urlMedia + "volqueta-540/marcas-vehicentro.webp"
             internas1 = [
                 urlMedia + "volqueta-540/asiento.webp",
@@ -303,7 +303,7 @@ function Camion() {
             break;
 
         case "volqueta-c7h-540":
-            imagen = urlMedia + "postales/VOLQUETA_540_FOTO.webp"
+            imagen = urlMedia + "volqueta-540/WEB-C7H-540.jpg"
             break;
 
         case "volqueta-t7h-430-20m3":
