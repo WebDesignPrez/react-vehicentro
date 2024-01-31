@@ -402,7 +402,7 @@ function Block3() {
 
 function Menu2() {
   return (
-    <nav className="menu2 home2">
+    <nav className="menu2 home2" style={{ display: 'none' }}>
       <ul className="nav-links-h">
         <li><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
         <li><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>

@@ -774,8 +774,21 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .movilImg {
+
+@media (max-width: 768px) {
+  .custom-header {
+    background-color: #fff;
     display: none;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .custom-header {
+    background-color: #fff;
+    display: none !important; 
   }
 }

@@ -120,20 +120,21 @@ function Concesionarios() {
     datos: [{
       nombre: "CUENCA",
       descripcion: "Punto de Venta, Talleres y Repuestos",
-      telefono: "032-994740 | 0992048229",
-      direccion: "Av. Gil Ramírez Dávalos 3-80 y Mario Rizzini (Junto a la Gasolinera Primax)",
-      url: "https://goo.gl/maps/GkZgUEPmYVZHw8Ez5",
-      img: urlMedia + "CUENCA-780X600.jpg",
-      alt: ""
-    }, {
-      nombre: "CUENCA",
-      descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032 994 740 | 0992048229",
       direccion: "Huayna Cápac y Mariscal Sucre esquina",
       url: "https://maps.app.goo.gl/qSjqhaqVe5TKdDsdA",
       img: urlMedia + "CUENCA-780X600-1.jpg",
       alt: ""
-    }]
+    },
+    {
+      nombre: "CUENCA",
+      descripcion: "Punto de Venta, Talleres y Repuestos",
+      telefono: "032-994740 | 0992048229",
+      direccion: "Av. Gil Ramírez Dávalos 3-80 y Mario Rizzini (Junto a la Gasolinera Primax)",
+      url: "https://goo.gl/maps/GkZgUEPmYVZHw8Ez5",
+      img: urlMedia + "CUENCA-780X600.jpg",
+      alt: ""
+    },]
   }, {
     id: "Machala",
     datos: [{

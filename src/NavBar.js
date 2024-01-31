@@ -558,20 +558,7 @@ export default function NavBar() {
     </div>
     <SearchBar />
 
-    {/*         <div className="navSearch">
-            <input className="search-nav-input" data-testid="search-input" type="search" title="Search" placeholder="Buscar..." id="global-search-input" onChange={handleChange} />
-            {menuBusqueda.length > 0 &&
-                <div className="result">
-                    {menuBusqueda.map((item, index) => (
-                        <li>
-                            <NavLink to={item.url}>
-                                {item.desc}
-                            </NavLink>
-                        </li>
-                    ))}
-                </div>
-            }
-        </div> */}
+
 
     <ul className="nav-links">
       <li>
@@ -809,10 +796,33 @@ export default function NavBar() {
     </ul>
 
     <div className="menuHome">
-      <div className="titleHome"></div>
+
+
       <div className="logoHome">
         <NavLink to="/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></NavLink>
       </div>
+
+
+      <ul
+        className="custom-header"
+        style={{
+          display: 'flex',
+          justifyContent: 'space-around',
+          flexWrap: 'nowrap',
+          alignItems: 'center',
+          width: '100%',
+          listStyle: 'none',
+
+        }}>
+        <li ><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
+        <li ><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
+        <li ><a className="mouseA" href="/sinotruk/autos">VEHÍCULOS</a></li>
+        <li ><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
+        <li ><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
+        <li ><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
+      </ul>
+
+
       <div className="searchHome"><img src={urlMedia + "search.png"} alt="Buscar" width="100" height="100" /></div>
     </div>
     {mostrarModal && (
