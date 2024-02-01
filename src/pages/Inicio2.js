@@ -108,8 +108,8 @@ function Inicio2() {
       {/* <PopUp /> */}
       <NavBar />
       <Block1 />
+      <Slider />
       <Menu2 />
-      <Block2 />
       <Block3 />
       <Banner />
       <BannerContacto url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
@@ -120,68 +120,73 @@ function Inicio2() {
   )
 }
 
-function Block1() {
-  return (
-    <div className="block1 boxBlock" height="1080">
-      <div id="videoContainer">
-        <div className="boxRight tecnologia" height="1080">
-          <div className="boxLeft c7h">
-            <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src="https://www.vehicentro.com/images/home/540New.mp4" className="videoWidth produ" />
-          </div>
-        </div>
-        <div className="overlayBox" height="200">
-          <p className="titleBox">PRODUCTOS</p>
-          <div className="linksBox">
-            <NavLink src="" to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
-            <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
-            <NavLink src="" to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
-            <NavLink src="" to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
-          </div>
-        </div>
-      </div>
-      <div className="imgContainerHeader imgHeader1" height="600">
-        <p className="titleBox "><span className="rojo"></span><span className="rojo"></span></p>
-        <div className="linksBox testimonio test">
-        </div>
-      </div>
-      <div id="videoContainer" className="responsive">
-        <div className="boxRight tecnologia" height="1080">
-          <a href="/sinotruk/autos">
-            <div className="boxLeft c7h">
-              <img src="https://www.vehicentro.com/images/home/U70ProCarrusel.webp" alt="" />
-            </div>
-          </a>
-        </div>
-        <div className="overlayBox" height="200">
-          <a href="/sinotruk/autos" className="titleBox">SINOTRUK AUTOS</a>
-          <div className="linksBox">
-            <NavLink src="" to="/sinotruk/autos/u70"><span className="boldserie">U70</span></NavLink>
-            <NavLink src="" to="/sinotruk/autos/u70pro"><span className="boldserie">U70PRO</span></NavLink>
-          </div>
-        </div>
-      </div>
-      <div className="imgContainerHeader imgHeader2 noResponsive" height="600">
-        <div className="overlayBox" height="200">
-          <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
-          <div className="linksBox testimonio">
-            <a href="/experiencia" className="line2" src="">VIDEOS TESTIMONIALES</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-function Block2() {
+function Slider() {
   return (
     <>
-      < div className="block2 noResponsive" >
-        <video preload="none" width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src="https://www.vehicentro.com/images/home/VIDEO2.5FINAL.mp4" className="videoWidth" />
-      </div >
+      <Slide duration={4000}>
+        <NavLink to='../sinotruk/autos'><img src='https://vehicentro.com/images/home/slider1.webp' alt='Slider 1' style={{ width: '100%', height: 'auto' }} /></NavLink>
+        <NavLink><img src='https://vehicentro.com/images/home/slider2.webp' alt='Slider 2' style={{ width: '100%', height: 'auto' }} /></NavLink>
+        <img src='https://vehicentro.com/images/home/slider3.webp' alt='Slider 3' style={{ width: '100%', height: 'auto' }} />
+        <img src='https://vehicentro.com/images/home/slider4.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
+      </Slide>
     </>
-
   )
 }
+
+function Block1() {
+  return (
+    <>
+      <div className="block1 boxBlock" height="1080">
+        <div id="videoContainer">
+          <div className="boxRight tecnologia" height="1080">
+            <div className="boxLeft c7h">
+              <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} controls loop muted id="myVideo" src="https://www.vehicentro.com/images/home/540New.mp4" className="videoWidth produ" />
+            </div>
+          </div>
+          <div className="overlayBox" height="200">
+            <p className="titleBox">PRODUCTOS</p>
+            <div className="linksBox series">
+              <NavLink src="" to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
+              <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
+              <NavLink src="" to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
+              <NavLink src="" to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
+            </div>
+          </div>
+        </div>
+        <div className="imgContainerHeader imgHeader1" height="600">
+          <p className="titleBox "><span className="rojo"></span><span className="rojo"></span></p>
+          <div className="linksBox testimonio test">
+          </div>
+        </div>
+        <div id="videoContainer" className="responsive">
+          <div className="boxRight tecnologia" height="1080">
+            <a href="/sinotruk/autos">
+              <div className="boxLeft c7h">
+                <img src="https://www.vehicentro.com/images/home/U70ProCarrusel.webp" alt="" />
+              </div>
+            </a>
+          </div>
+          <div className="overlayBox" height="200">
+            <a href="/sinotruk/autos" className="titleBox">SINOTRUK AUTOS</a>
+            <div className="linksBox">
+              <NavLink src="" to="/sinotruk/autos/u70"><span className="boldserie">U70</span></NavLink>
+              <NavLink src="" to="/sinotruk/autos/u70pro"><span className="boldserie">U70PRO</span></NavLink>
+            </div>
+          </div>
+        </div>
+        <div className="imgContainerHeader imgHeader2 noResponsive" height="600">
+          <div className="overlayBox" height="200">
+            <a href="/experiencia" className="titleBox">SINOTRUKEROS</a>
+            <div className="linksBox testimonio">
+              <a href="/experiencia" className="line2" src="">VIDEOS TESTIMONIALES</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
 
 function Block3() {
   return (
@@ -242,7 +247,6 @@ function Block3() {
             <div className="linksBox">
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas">28 TON</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-28-toneladas-retardador">28 ton - retardador</NavLink>
-              {/* <NavLink className="line2" to="/cabezales/cabezal-t7h-340-28-toneladas">28 TON 340 HP</NavLink> */}
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas">42 TON</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-t7h-430-45-toneladas">45 TON</NavLink>
             </div>

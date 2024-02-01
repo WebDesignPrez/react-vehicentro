@@ -314,8 +314,7 @@ function FormContactFicha(props) {
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
   const miniCargadora = ['SWL3220'];
-  const autos = ['U70PRO'];
-  // const nls = ['2.5 TON'];
+  const autos = ['U70PRO', 'U70'];
 
   let type = null;
   let options = null;
@@ -339,11 +338,6 @@ function FormContactFicha(props) {
   } else if (serie === "autos") {
     type = autos;
   }
-  // else if (serie === "NLS"){
-  //   type = nls;
-  // }
-
-
 
   if (type) {
     options = type.map((el) => <option key={el}>{el}</option>);

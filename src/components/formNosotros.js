@@ -122,9 +122,9 @@ function FormNosotros() {
   function handleSumbit(e) {
     if (!validateName(e.target[0].value) && !validateEmail(e.target[1].value) && !validateTel(e.target[2].value) && !validateCed(e.target[3].value)) {
       const form = $(e.target);
-      if($('#file')[0].files[0]!==undefined){
-        document.getElementById("btnSend").disabled = true; 
-        document.getElementById("btnSend").style.display = "none"; 
+      if ($('#file')[0].files[0] !== undefined) {
+        document.getElementById("btnSend").disabled = true;
+        document.getElementById("btnSend").style.display = "none";
         e.preventDefault();
         var formData = new FormData();
         formData.append('nombre', e.target[0].value);
@@ -144,87 +144,87 @@ function FormNosotros() {
           enctype: 'multipart/form-data',
           processData: false,
           success(data) {
-            if(data.enviado==="SI"){
+            if (data.enviado === "SI") {
               setName('')
               setEmail('')
               setTel('')
               setCed('')
               NotificationManager.success('Datos enviados.', '')
               window.location.href = redireccion;
-            }else{  
+            } else {
               document.getElementById("btnSend").disabled = false
-              document.getElementById("btnSend").style.display = "block"; 
+              document.getElementById("btnSend").style.display = "block";
               NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
             }
-          }, 
-          error(data){
+          },
+          error(data) {
             document.getElementById("btnSend").disabled = false
-            document.getElementById("btnSend").style.display = "block"; 
+            document.getElementById("btnSend").style.display = "block";
             NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
           }
         })
-      }else{
+      } else {
         document.getElementById("btnSend").disabled = false
-        document.getElementById("btnSend").style.display = "block"; 
+        document.getElementById("btnSend").style.display = "block";
         NotificationManager.error('Obligatorio adjuntar hoja de vida.', '');
       }
     } else {
       document.getElementById("btnSend").disabled = false
-      document.getElementById("btnSend").style.display = "block"; 
+      document.getElementById("btnSend").style.display = "block";
       NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
     }
   }
 
   useEffect(() => {
-  }, []) 
+  }, [])
 
   return <div>
-            <div className="form-box">
-              <h5 className="form-step"></h5>
-              <form action={url} method="post" onSubmit={(ev) => handleSumbit(ev)}>
-                <div className="field1">
-                  <label></label>
-                  <label className="input_title">*Nombre y Apellido</label>
-                  <div className="input-group">
-                    <span className="userIcon"><img src={urlMedia+"user-solid.png"} /></span>
-                    <input placeholder="" name="nombre_y_apellido" type="text" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido} />
-                  </div>
+    <div className="form-box">
+      <h5 className="form-step"></h5>
+      <form action={url} method="post" onSubmit={(ev) => handleSumbit(ev)}>
+        <div className="field1">
+          <label></label>
+          <label className="input_title">*Nombre y Apellido</label>
+          <div className="input-group">
+            <span className="userIcon"><img src={urlMedia + "user-solid.png"} /></span>
+            <input placeholder="" name="nombre_y_apellido" type="text" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChange(e) }} value={nombre_y_apellido} />
+          </div>
 
-                  <label className="input_title">*Email</label>
-                  <div className="input-group">
-                    <span className="userIcon"><img src={urlMedia+"envelope-solid.png"} /></span>
-                    <input placeholder="" name="email" type="text" onBlur={(e) => { handleFocusEmail(e) }} onChange={(e) => { handleChangeEmail(e) }} value={email} />
-                  </div>
+          <label className="input_title">*Email</label>
+          <div className="input-group">
+            <span className="userIcon"><img src={urlMedia + "envelope-solid.png"} /></span>
+            <input placeholder="" name="email" type="text" onBlur={(e) => { handleFocusEmail(e) }} onChange={(e) => { handleChangeEmail(e) }} value={email} />
+          </div>
 
-                  <label className="input_title">*Celular</label>
-                  <div className="input-group">
-                    <span className="userIcon"><img src={urlMedia+"phone-solid.png"} /></span>
-                    <input placeholder="" name="celular" type="text" onBlur={(e) => { handleFocusTel(e) }} onChange={(e) => { handleChangeTel(e) }} value={celular} />
-                  </div>
+          <label className="input_title">*Celular</label>
+          <div className="input-group">
+            <span className="userIcon"><img src={urlMedia + "phone-solid.png"} /></span>
+            <input placeholder="" name="celular" type="text" onBlur={(e) => { handleFocusTel(e) }} onChange={(e) => { handleChangeTel(e) }} value={celular} />
+          </div>
 
-                  <label className="input_title">*Cédula</label>
-                  <div className="input-group">
-                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
-                    <input placeholder="" name="cedula" type="text" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
-                  </div>
+          <label className="input_title">*Cédula</label>
+          <div className="input-group">
+            <span className="userIcon"><img src={urlMedia + "portrait-solid.png"} /></span>
+            <input placeholder="" name="cedula" type="text" onBlur={(e) => { handleFocusCed(e) }} onChange={(e) => { handleChangeCed(e) }} value={cedula} />
+          </div>
 
-                  <label className="input_title">*Cv</label>
-                  <div className="input-group">
-                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
-                    <input id="file" placeholder="" name="cv" accept=".pdf, .docx, .doc" type="file" onBlur={(e) => { handleFocusCv(e) }} onChange={(e) => { handleChangeCv(e) }} value={cv} />
-                  </div>
-                  <label className="input_title">*Mensaje</label>
-                  <div className="input-group">
-                    <span className="userIcon"><img src={urlMedia+"portrait-solid.png"} /></span>
-                    <textarea placeholder="" name="mensaje" type="text" onBlur={(e) => { handleFocusMensaje(e) }} onChange={(e) => { handleChangeMensaje(e) }} value={mensaje} />
-                  </div>
-                </div>
-                <button id="btnSend" className="nextBtn" type="submit"> Enviar </button>
-                <NotificationContainer />
-              </form>
-            </div>
-        
+          <label className="input_title">*Cv</label>
+          <div className="input-group">
+            <span className="userIcon"><img src={urlMedia + "portrait-solid.png"} /></span>
+            <input id="file" placeholder="" name="cv" accept=".pdf, .docx, .doc" type="file" onBlur={(e) => { handleFocusCv(e) }} onChange={(e) => { handleChangeCv(e) }} value={cv} />
+          </div>
+          <label className="input_title">*Mensaje</label>
+          <div className="input-group">
+            <span className="userIcon"><img src={urlMedia + "portrait-solid.png"} /></span>
+            <textarea placeholder="" name="mensaje" type="text" onBlur={(e) => { handleFocusMensaje(e) }} onChange={(e) => { handleChangeMensaje(e) }} value={mensaje} />
+          </div>
         </div>
+        <button id="btnSend" className="nextBtn" type="submit"> Enviar </button>
+        <NotificationContainer />
+      </form>
+    </div>
+
+  </div>
 }
 
 export default FormNosotros
