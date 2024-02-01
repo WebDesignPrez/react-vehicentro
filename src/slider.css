@@ -13,6 +13,11 @@
     text-align: center;
 }
 
+.each-slide-effectNew {
+    width: 100%;
+    height: '300px';
+}
+
 .boxesIni {
     display: flex;
 }
@@ -71,16 +76,14 @@
 }
 
 .boxesContact .buttonContact {
-    border-style: solid;
     border-width: 1px;
     border-radius: 7px;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 5%;
-    font-size: 25px;
 }
 
 .boxesContact .buttonContact.f {
-    margin: 0 6% 3% 6%;
+    margin: 0 0% 30% 60%;
 }
 
 .colMenu img {

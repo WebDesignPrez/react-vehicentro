@@ -334,7 +334,7 @@ function FormContact(props) {
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L', 'M70L-EV'];
   const miniCargadora = ['SWL3220'];
-  const autos = ['U70PRO', 'U70', 'U75PLUS'];
+  const autos = ['U70PRO', 'U70'];
   //const nls = ['2.5 TON'];
 
   let type = null;

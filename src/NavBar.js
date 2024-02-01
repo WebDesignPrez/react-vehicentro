@@ -27,10 +27,6 @@ export default function NavBar() {
     //     modaldos.style.display = "none"
     //   })
     // }
-
-
-
-
     const navSlideClickH = () => {
       const burger = document.querySelector(".burger");
       const navLinks = document.querySelectorAll(".nav-links-h a");

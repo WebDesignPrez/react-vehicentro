@@ -1,7 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const PopUpAvisoLegal = () => {
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+
+    const showTimer = setTimeout(() => {
+      setShowPopup(true);
+    }, 3000);
+
+    const hideTimer = setTimeout(() => {
+      setShowPopup(false);
+    }, 10000);
+    return () => {
+      clearTimeout(showTimer);
+      clearTimeout(hideTimer);
+    };
+  }, [])
 
   const handleClose = () => {
     setShowPopup(false);
