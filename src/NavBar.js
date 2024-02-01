@@ -641,14 +641,14 @@ export default function NavBar() {
         <div className="item-level-1 nav-header nav-header-h" >
           <div className="headerSubMenu">
             <div className="closeMovil" data-id="1"></div>
-            <p className="tituloMenu">MAQUINARIA</p>
-            <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} alt="sunward" width="100" height="32" />
+            <p>MAQUINARIA</p>
+            <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} alt="sunward" />
           </div>
           <div className="rowMenu">
             <div className="colMenu">
               <p className="colTitle">EXCAVADORAS</p>
               <p className="colItem meniu"><NavLink to="/excavadoras/swe210">SW210 21 Ton</NavLink></p>
-              <p className="colItem meniu"><NavLink to="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/excavadoras/swe370e">SW370E 37 Ton Heavy Duty</NavLink></p>
 
             </div>
             <div className="colMenu">
@@ -658,7 +658,6 @@ export default function NavBar() {
               </div>
             </div>
           </div>
-
         </div>
       </li>
 
@@ -811,7 +810,7 @@ export default function NavBar() {
 
         }}>
         <li ><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
-        <li ><a className="sinotruk mouseA" option="sunward">MAQUINARIA</a></li>
+        <li ><NavLink to="/excavadoras/swe210">MAQUINARIA</NavLink></li>
         <li ><a className="mouseA" href="/sinotruk/autos">VEHÍCULOS</a></li>
         <li ><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
         <li ><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>

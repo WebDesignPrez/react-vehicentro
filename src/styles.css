@@ -27,6 +27,7 @@ body {
   position: fixed;
   top: 20px;
   right: 20px;
+  opacity: 95%;
   background-color: #a3292d;
   color: white;
   padding: 10px;
@@ -682,6 +683,7 @@ p.titleFooter {
 .colMenu>div {
   margin-top: auto;
 }
+
 
 .modal {
   position: fixed;
@@ -1356,6 +1358,10 @@ p.titleFooter {
 }
 
 .responsive {
+  display: none;
+}
+
+.ocultarDesktop {
   display: none;
 }
 

@@ -82,7 +82,11 @@
     margin-bottom: 5%;
 }
 
-.boxesContact .buttonContact.f {
+.boxesContact .buttonContact {
+    margin: 0 6% 3% 6%;
+}
+
+.boxesContact .buttonContact.f.fixed {
     margin: 0 0% 30% 60%;
 }
 

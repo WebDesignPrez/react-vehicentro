@@ -84,8 +84,8 @@ export default function BannerContacto(props) {
           <div className="headerModalContact"><img src="https://vehicentro.com/images/vehicentro-logo-blanco.png" alt="Vehicentro" /></div>
           <div className="bodyModalContact">
             {/* <p className="btnModalContact tagManagerWpp" onClick={gotoWs}><span className="wa">ESCRÍBENOS</span></p> */}
-            <p className="btnModalContact tagManagerTel" onClick={gotoCall}><span className="ca">LLAMADA DIRECTA</span></p>
-            <p className="btnModalContact tagManagerForm" onClick={openModal}><span>COTIZA TU CAMIÓN</span></p>
+            <p className="btnModalContact tagManagerTel" onClick={gotoCall}><span className="ca">LLAMAR A ASESOR</span></p>
+            <p className="btnModalContact tagManagerForm" onClick={openModal}><span>PROFORMAR</span></p>
           </div>
         </div>
       }
