@@ -122,14 +122,17 @@ function Inicio2() {
 
 function Slider() {
   return (
-    <>
+    <div className="ocultarMovil">
       <Slide duration={4000}>
         <NavLink to='../sinotruk/autos'><img src='https://vehicentro.com/images/home/slider1.webp' alt='Slider 1' style={{ width: '100%', height: 'auto' }} /></NavLink>
-        <NavLink><img src='https://vehicentro.com/images/home/slider2.webp' alt='Slider 2' style={{ width: '100%', height: 'auto' }} /></NavLink>
+
+        <a href={'#pagina'}><img src='https://vehicentro.com/images/home/slider2.webp' alt='Slider 2' style={{ width: '100%', height: 'auto' }} /></a>
+
         <img src='https://vehicentro.com/images/home/slider3.webp' alt='Slider 3' style={{ width: '100%', height: 'auto' }} />
         <img src='https://vehicentro.com/images/home/slider4.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
+        <img src='https://vehicentro.com/images/home/slider5.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
       </Slide>
-    </>
+    </div>
   )
 }
 
@@ -152,6 +155,15 @@ function Block1() {
               <NavLink src="" to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
             </div>
           </div>
+        </div>
+        <div className="ocultarDesktop">
+          <Slide duration={4000}>
+            <NavLink to='../sinotruk/autos'><img src='https://vehicentro.com/images/home/slider1c.webp' alt='Slider 1' style={{ width: '100%', height: 'auto' }} /></NavLink>
+            <NavLink><img src='https://vehicentro.com/images/home/slider2c.webp' alt='Slider 2' style={{ width: '100%', height: 'auto' }} /></NavLink>
+            <img src='https://vehicentro.com/images/home/slider3c.webp' alt='Slider 3' style={{ width: '100%', height: 'auto' }} />
+            <img src='https://vehicentro.com/images/home/slider4c.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
+            <img src='https://vehicentro.com/images/home/slider5c.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
+          </Slide>
         </div>
         <div className="imgContainerHeader imgHeader1" height="600">
           <p className="titleBox "><span className="rojo"></span><span className="rojo"></span></p>
@@ -191,7 +203,7 @@ function Block1() {
 function Block3() {
   return (
     <>
-      <div className="block3 boxBlock">
+      <div className="block3 boxBlock" id="pagina">
         <div>
           <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
@@ -390,7 +402,7 @@ function Block3() {
 
           <div className="bottomContainer">
             <p className="titleBox"></p>
-            <NavLink className="titleBox2" to="/serie/volquetas">MAQUINARIA SUNWARD</NavLink>
+            <NavLink className="titleBox2">MAQUINARIA SUNWARD</NavLink>
             <div className="linksBox">
               <NavLink className="line2" src="" to="/excavadoras/swe210">EXCAVADORA SW210 21 Ton</NavLink>
               <NavLink className="line2" src="" to="/excavadoras/swe370e">EXCAVADORA SW370E 37 Ton Heavy Duty</NavLink>
