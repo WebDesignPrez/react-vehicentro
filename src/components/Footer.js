@@ -36,6 +36,7 @@ export default function Footer() {
         <ul className="list">
           <li><p className="subTitle">SINOTRUK CAMIONES</p></li>
           <li><p className="itemMenu"><a href="/serie/100">Serie 100</a></p></li>
+          <li><p className="itemMenu"><a href="/camiones/camion-de-2-5-toneladas">Serie N</a></p></li>
           <li><p className="itemMenu"><a href="/serie/t5g">Serie T5G</a></p></li>
           <li><p className="itemMenu"><a href="/serie/t7h">Serie T7H</a></p></li>
           <li><p className="itemMenu"><a href="/serie/c7h">Serie C7H</a></p></li>

@@ -306,7 +306,8 @@ function FormContactFicha(props) {
     setCam(nomCamion)
   }
 
-  const serie100 = ['2.5 TON', '1057 / 3.5 TON', '1047 / 3.6 TON', '1067 / 5 TON', '1067 / 6 TON', '1147 / 8 TON'];
+  const serie100 = ['1057 / 3.5 TON', '1047 / 3.6 TON', '1067 / 5 TON', '1067 / 6 TON', '1147 / 8 TON'];
+  const serieN = ['2.5 TON'];
   const serieT5G = ['T5G 1167 / 9 TON', 'T5G 1167 / 10 TON', 'T5G 1167 / 12 TON', 'T5G 1167 / 13 TON (280HP)', 'T5G 1167 / 13 TON (330HP)', 'T5G 1257 / 18 TON', 'T5G 1257 / 19.5 TON', 'T5G 4187 / 24 TON'];
   const serieT7H = ['T7H 390 / 28 TON', 'T7H 340 / 28 TON', 'T7H 390 / 28 TON con retardador', 'T7H 390 / 42 TON', 'T7H 430 / 45 TON'];
   const serieC7H = ['C7H 1256 / 20 TON', 'C7H 1256 / 20 TON con Catalinas', 'C7H 540 / 48 TON', 'C7H 540 / 48 TON con Catalinas'];
@@ -337,6 +338,8 @@ function FormContactFicha(props) {
     type = miniCargadora;
   } else if (serie === "autos") {
     type = autos;
+  } else if (serie === "Serie N") {
+    type = serieN;
   }
 
   if (type) {
@@ -418,6 +421,7 @@ function FormContactFicha(props) {
             <select name="serie" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeSerie(e) }} value={serie}>
               {/* <option value="NLS">NLS</option> */}
               <option value="Serie 100">Serie 100</option>
+              <option value="Serie N">Serie N</option>
               <option value="Serie T5G">Serie T5G</option>
               <option value="Serie T7H">Serie T7H</option>
               <option value="Serie C7H">Serie C7H</option>

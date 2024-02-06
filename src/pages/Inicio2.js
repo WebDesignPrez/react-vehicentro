@@ -1,5 +1,5 @@
 import NavBar from "../NavBar"
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import Footer from '../components/Footer'
 import BannerContacto from '../components/BannerContacto'
 import { useEffect, useState } from "react";
@@ -20,6 +20,7 @@ let urlMedia = env.url
 
 function Inicio2() {
 
+  const navigate = useNavigate();
 
   const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
@@ -58,6 +59,8 @@ function Inicio2() {
         }
       })
     }
+
+
 
     videoContainer.addEventListener('mouseenter', mouseOverHandler);
     videoContainer.addEventListener('mouseleave', mouseLeaveHandler);
@@ -149,10 +152,11 @@ function Block1() {
           <div className="overlayBox" height="200">
             <p className="titleBox">PRODUCTOS</p>
             <div className="linksBox series">
-              <NavLink src="" to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
-              <NavLink src="" to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
-              <NavLink src="" to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
-              <NavLink src="" to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
+              <NavLink to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
+              <NavLink to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
+              <NavLink to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
+              <NavLink to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
+              <NavLink to="/camiones/camion-de-2-5-toneladas">SERIE <span className="boldserie">N</span></NavLink>
             </div>
           </div>
         </div>
@@ -165,7 +169,10 @@ function Block1() {
             <img src='https://vehicentro.com/images/home/slider5c.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
           </Slide>
         </div>
-        <div className="imgContainerHeader imgHeader1" height="600">
+        <div className="imgContainerHeader imgHeader1" height="600" onClick={() => {
+          window.location = '/repuestos';
+
+        }}>
           <p className="titleBox "><span className="rojo"></span><span className="rojo"></span></p>
           <div className="linksBox testimonio test">
           </div>
