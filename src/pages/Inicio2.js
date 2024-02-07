@@ -125,8 +125,8 @@ function Inicio2() {
 
 function Slider() {
   return (
-    <div className="ocultarMovil">
-      <Slide duration={4000}>
+    <div className="ocultarMovil" >
+      <Slide duration={4000} >
         <NavLink to='../sinotruk/autos'><img src='https://vehicentro.com/images/home/slider1.webp' alt='Slider 1' style={{ width: '100%', height: 'auto' }} /></NavLink>
 
         <a href={'#pagina'}><img src='https://vehicentro.com/images/home/slider2.webp' alt='Slider 2' style={{ width: '100%', height: 'auto' }} /></a>
@@ -152,11 +152,11 @@ function Block1() {
           <div className="overlayBox" height="200">
             <p className="titleBox">PRODUCTOS</p>
             <div className="linksBox series">
+              <NavLink to="/camiones/camion-de-2-5-toneladas">SERIE <span className="boldserie">N</span></NavLink>
               <NavLink to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
               <NavLink to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
               <NavLink to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
               <NavLink to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
-              <NavLink to="/camiones/camion-de-2-5-toneladas">SERIE <span className="boldserie">N</span></NavLink>
             </div>
           </div>
         </div>
