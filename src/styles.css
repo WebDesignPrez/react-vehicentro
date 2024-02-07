@@ -22,6 +22,15 @@ body {
   width: 50%;
 }
 
+.ocultarMovil {
+  background-color: #131313 !important;
+
+}
+
+.carouselinicio {
+  border-bottom-color: #131313 !important;
+}
+
 
 .popup {
   position: fixed;
