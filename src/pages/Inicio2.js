@@ -214,8 +214,8 @@ function Block3() {
         <div>
           <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
-            <p className="titleBox" ><span className="nuevoCamion">NUEVO</span></p>
-            <p className="titleBox" >Preventa</p>
+            <p className="titleBox">SERIE</p>
+            <NavLink className="titleBox2" to="/camiones/camion-de-2-5-toneladas">N</NavLink>
             <div className="linksBox">
               <NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >NLS 2.5 TON</NavLink>
             </div>
