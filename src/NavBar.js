@@ -1,42 +1,27 @@
+import './styles.css';
+import './responsive.css'
 import { NavLink } from "react-router-dom"
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import env from './config';
-import SearchBar from "./components/Search";
 
 export default function NavBar() {
   var auxMovil = 0;
-  //let control = 0;
+
   let urlMedia = env.url
 
   useEffect(() => {
     window.scrollTo(0, 0);
-
-    //pop up politicas
-    let the_button = document.getElementById('js-btn')
-    let modaldos = document.getElementById("modaldos")
-    let closeBtn = document.getElementById("closedos")
-
-
-    //  the_button.addEventListener("click", handleClick)
-
-
-    // function handleClick(event) {
-    //   modaldos.style.display = "block";
-    //   closeBtn.addEventListener("click", () => {
-    //     modaldos.style.display = "none"
-    //   })
-    // }
     const navSlideClickH = () => {
       const burger = document.querySelector(".burger");
       const navLinks = document.querySelectorAll(".nav-links-h a");
+      const navLinksIn = document.querySelectorAll(".rowMenu .colItem");
 
-      document.querySelector(".searchHome").addEventListener('click', function () {
-        document.querySelector(".navSearch").classList.toggle("inputDisplay");
-        document.getElementById("global-search-input").focus();
-        document.getElementById("global-search-input").select();
+      navLinksIn.forEach((link, index) => {
+        link.addEventListener("click", (ev) => {
+          burger.click()
+        })
       })
-
 
       navLinks.forEach((link, index) => {
         link.addEventListener("click", (ev) => {
@@ -59,7 +44,6 @@ export default function NavBar() {
               menuSelect("compania")
               break;
             case "tecnologia":
-              burger.click()
               menuSelect("tecnologia")
               break;
           }
@@ -78,6 +62,9 @@ export default function NavBar() {
           document.querySelector(".item-level-1").classList.remove("nav-header-s")
           document.querySelector(".item-level-1").classList.add("nav-header-h")
 
+          document.querySelector(".item-level-10").classList.remove("nav-header-s")
+          document.querySelector(".item-level-10").classList.add("nav-header-h")
+
           document.querySelector(".item-level-3").classList.remove("nav-header-s")
           document.querySelector(".item-level-3").classList.add("nav-header-h")
 
@@ -86,14 +73,14 @@ export default function NavBar() {
 
           document.querySelector(".item-level-7").classList.remove("nav-header-s")
           document.querySelector(".item-level-7").classList.add("nav-header-h")
-
-          document.querySelector(".item-level-10").classList.remove("nav-header-s")
-          document.querySelector(".item-level-10").classList.add("nav-header-h")
           break;
         case "sunward":
           document.querySelector(".item-level-1").classList.remove("nav-header-h")
           document.querySelector(".item-level-1").classList.add("nav-header-s")
           document.querySelector(".item-level-1").classList.add("nav-header-s-i")
+
+          document.querySelector(".item-level-10").classList.remove("nav-header-s")
+          document.querySelector(".item-level-10").classList.add("nav-header-h")
 
           document.querySelector(".item-level-0").classList.remove("nav-header-s")
           document.querySelector(".item-level-0").classList.add("nav-header-h")
@@ -107,6 +94,7 @@ export default function NavBar() {
           document.querySelector(".item-level-7").classList.remove("nav-header-s")
           document.querySelector(".item-level-7").classList.add("nav-header-h")
           break;
+
         case "vehiculos":
           document.querySelector(".item-level-10").classList.remove("nav-header-h")
           document.querySelector(".item-level-10").classList.add("nav-header-s")
@@ -127,7 +115,6 @@ export default function NavBar() {
           document.querySelector(".item-level-7").classList.remove("nav-header-s")
           document.querySelector(".item-level-7").classList.add("nav-header-h")
           break;
-
         case "concesionarios":
           document.querySelector(".item-level-3").classList.remove("nav-header-h")
           document.querySelector(".item-level-3").classList.add("nav-header-s")
@@ -136,11 +123,11 @@ export default function NavBar() {
           document.querySelector(".item-level-0").classList.remove("nav-header-s")
           document.querySelector(".item-level-0").classList.add("nav-header-h")
 
-          document.querySelector(".item-level-10").classList.remove("nav-header-s")
-          document.querySelector(".item-level-10").classList.add("nav-header-h")
-
           document.querySelector(".item-level-1").classList.remove("nav-header-s")
           document.querySelector(".item-level-1").classList.add("nav-header-h")
+
+          document.querySelector(".item-level-10").classList.remove("nav-header-s")
+          document.querySelector(".item-level-10").classList.add("nav-header-h")
 
           document.querySelector(".item-level-6").classList.remove("nav-header-s")
           document.querySelector(".item-level-6").classList.add("nav-header-h")
@@ -159,14 +146,14 @@ export default function NavBar() {
           document.querySelector(".item-level-1").classList.remove("nav-header-s")
           document.querySelector(".item-level-1").classList.add("nav-header-h")
 
+          document.querySelector(".item-level-10").classList.remove("nav-header-s")
+          document.querySelector(".item-level-10").classList.add("nav-header-h")
+
           document.querySelector(".item-level-3").classList.remove("nav-header-s")
           document.querySelector(".item-level-3").classList.add("nav-header-h")
 
           document.querySelector(".item-level-7").classList.remove("nav-header-s")
           document.querySelector(".item-level-7").classList.add("nav-header-h")
-
-          document.querySelector(".item-level-10").classList.remove("nav-header-s")
-          document.querySelector(".item-level-10").classList.add("nav-header-h")
           break;
         case "tecnologia":
           document.querySelector(".item-level-7").classList.remove("nav-header-h")
@@ -179,14 +166,14 @@ export default function NavBar() {
           document.querySelector(".item-level-1").classList.remove("nav-header-s")
           document.querySelector(".item-level-1").classList.add("nav-header-h")
 
+          document.querySelector(".item-level-10").classList.remove("nav-header-s")
+          document.querySelector(".item-level-10").classList.add("nav-header-h")
+
           document.querySelector(".item-level-3").classList.remove("nav-header-s")
           document.querySelector(".item-level-3").classList.add("nav-header-h")
 
           document.querySelector(".item-level-6").classList.remove("nav-header-s")
           document.querySelector(".item-level-6").classList.add("nav-header-h")
-
-          document.querySelector(".item-level-10").classList.remove("nav-header-s")
-          document.querySelector(".item-level-10").classList.add("nav-header-h")
           break;
 
       }
@@ -198,23 +185,21 @@ export default function NavBar() {
       document.querySelector(".item-level-0").classList.add("nav-header-s")
       document.querySelector(".item-level-1").classList.remove("nav-header-s")
       document.querySelector(".item-level-1").classList.add("nav-header-h")
+      document.querySelector(".item-level-10").classList.remove("nav-header-s")
+      document.querySelector(".item-level-10").classList.add("nav-header-h")
       document.querySelector(".item-level-6").classList.remove("nav-header-s")
       document.querySelector(".item-level-6").classList.add("nav-header-h")
       document.querySelector(".item-level-7").classList.remove("nav-header-s")
       document.querySelector(".item-level-7").classList.add("nav-header-h")
-      document.querySelector(".item-level-10").classList.remove("nav-header-s")
-      document.querySelector(".item-level-10").classList.add("nav-header-h")
     }
 
     const navSlide = () => {
       const burger = document.querySelector(".burger");
       const sinotruk = document.querySelector(".sinotruk");
       const sunward = document.querySelector(".sunward");
-      /*const keyton = document.querySelector(".keyton"); */
-      const concesionarios = document.querySelector(".concesionarios");
-      const compania = document.querySelector(".compania");
       const tecnologia = document.querySelector(".tecnologia");
-
+      // const keyton = document.querySelector(".keyton");
+      //const concesionarios = document.querySelector(".concesionarios");
 
       const nav = document.querySelector(".nav-links");
       const navh = document.querySelector(".nav-links-h");
@@ -222,183 +207,67 @@ export default function NavBar() {
       const navLinks = document.querySelectorAll(".nav-links a");
       const navSearch = document.querySelectorAll("div.navSearch");
 
-      burger.addEventListener("click", () => {
-        nav.classList.toggle("nav-active");
-        //navSearch[0].classList.toggle("nav-search-active");
+      /*             burger.removeEventListener("click", ()=>{
+      
+      
+      
+                  }) */
 
-        document.querySelector('.logoHome').classList.toggle("logoNav");
-        navh.classList.toggle("nav-inactive");
-
-        navLinks.forEach((link, index) => {
-          if (link.style.animation) {
-            link.style.animation = "";
-          } else {
-            link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
-          }
-        });
-
-        document.querySelector(".menu1").classList.add("logob")
-
-        if (auxMovil == 0)
-          resetMenu();
-
-        burger.classList.toggle("toggle");
-        if (burger.classList.contains('toggle')) {
-
-        } else {
-          document.querySelector(".menu1").classList.remove("logob")
-        }
-      });
-      sinotruk.addEventListener("click", () => {
+      const burgerEvent = () => {
         nav.classList.toggle("nav-active");
         navSearch[0].classList.toggle("nav-search-active");
 
-        document.querySelector('.logoHome').classList.toggle("logoNav");
+        document.querySelector('nav > .logo').classList.toggle("logoNav");
         navh.classList.toggle("nav-inactive");
 
         navLinks.forEach((link, index) => {
           if (link.style.animation) {
             link.style.animation = "";
           } else {
-            link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
+            link.style.animation = `navLinkFade 0.4s ease forwards 0.5s `;
           }
         });
 
-        document.querySelector(".menu1").classList.add("logob")
-
+        document.querySelector(".internal").classList.add("logob")
         if (auxMovil == 0)
           resetMenu();
 
-        burger.classList.toggle("toggle");
         if (burger.classList.contains('toggle')) {
 
         } else {
-          document.querySelector(".menu1").classList.remove("logob")
+          document.querySelector(".internal").classList.remove("logob")
         }
-      });
-
-      sunward.addEventListener("click", () => {
-        nav.classList.toggle("nav-active");
-        navSearch[0].classList.toggle("nav-search-active");
-
-        document.querySelector('.logoHome').classList.toggle("logoNav");
-        navh.classList.toggle("nav-inactive");
-
-        navLinks.forEach((link, index) => {
-          if (link.style.animation) {
-            link.style.animation = "";
-          } else {
-            link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
-          }
-        });
-
-        document.querySelector(".menu1").classList.add("logob")
-
-        if (auxMovil == 0)
-          resetMenu();
-
-        burger.classList.toggle("toggle");
-        if (burger.classList.contains('toggle')) {
-
-        } else {
-          document.querySelector(".menu1").classList.remove("logob")
-        }
-      });
-
-      concesionarios.addEventListener("click", () => {
-        nav.classList.toggle("nav-active");
-        navSearch[0].classList.toggle("nav-search-active");
-
-        document.querySelector('.logoHome').classList.toggle("logoNav");
-        navh.classList.toggle("nav-inactive");
-
-        navLinks.forEach((link, index) => {
-          if (link.style.animation) {
-            link.style.animation = "";
-          } else {
-            link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
-          }
-        });
-
-        document.querySelector(".menu1").classList.add("logob")
-
-        if (auxMovil == 0)
-          resetMenu();
-
-        burger.classList.toggle("toggle");
-        if (burger.classList.contains('toggle')) {
-
-        } else {
-          document.querySelector(".menu1").classList.remove("logob")
-        }
-      });
+      }
+      burger.addEventListener("click", burgerEvent);
+      sinotruk.addEventListener("click", burgerEvent);
+      sunward.addEventListener("click", burgerEvent);
 
       if (tecnologia != null) {
-        tecnologia.addEventListener("click", () => {
-          console.log("Tecnologia")
-          nav.classList.toggle("nav-active");
-          navSearch[0].classList.toggle("nav-search-active");
-
-          document.querySelector('.logoHome').classList.toggle("logoNav");
-          navh.classList.toggle("nav-inactive");
-
-          navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-              link.style.animation = "";
-            } else {
-              link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
-            }
-          });
-
-          document.querySelector(".menu1").classList.add("logob")
-
-          if (auxMovil == 0)
-            resetMenu();
-
-          burger.classList.toggle("toggle");
-          if (burger.classList.contains('toggle')) {
-
-          } else {
-            document.querySelector(".menu1").classList.remove("logob")
-          }
-        });
+        tecnologia.addEventListener("click", burgerEvent);
       }
+      // keyton.addEventListener("click", burgerEvent);
+      // concesionarios.addEventListener("click", burgerEvent);
 
-
-      /* compania.addEventListener("click", () => {
-           nav.classList.toggle("nav-active");
-           navSearch[0].classList.toggle("nav-search-active");
- 
-           document.querySelector('nav > .logo').classList.toggle("logoNav");
-           navh.classList.toggle("nav-inactive");
- 
-           navLinks.forEach((link, index) => {
-               if (link.style.animation) {
-                   link.style.animation = "";
-               } else {
-                   link.style.animation = `navLinkFade 0.5s ease forwards 0.5s `;
-               }
-           });
- 
-           document.querySelector(".menu1").classList.add("logob")
- 
-           if (auxMovil == 0)
-               resetMenu();
- 
-           burger.classList.toggle("toggle");
-           if (burger.classList.contains('toggle')) {
- 
-           } else {
-               document.querySelector(".menu1").classList.remove("logob")
-           }
-       });*/
       //INI PARAMS
-
-
-      /*             const searchBtn = document.querySelector(".searchIcon");
+      /*         const playBtn = document.querySelector(".boxesIni .c7h");
+                playBtn.addEventListener("click", () => {
+                    modalVideo("c7h.mp4", "1.webp")
+                })
+                
+              const playBtn2 = document.querySelector(".boxesIni .t5g");
+                playBtn2.addEventListener("click", () => {
+                    modalVideo("t5g.mp4", "4.webp")
+                })
+                
+              const playBtn3 = document.querySelector(".boxesIni .tecnologia");
+                playBtn3.addEventListener("click", () => {
+                    modalVideo("tecnologia.mp4", "5.webp")
+                })  
+        
+              const searchBtn = document.querySelector(".searchIcon");
                   searchBtn.addEventListener("click", () => {
-                      burger.click()
-                  }) */
+                    burger.click()
+              })   */
 
       const closeBtnMovil = document.querySelectorAll(".closeMovil");
       for (var i = 0; i < closeBtnMovil.length; ++i) {
@@ -409,8 +278,7 @@ export default function NavBar() {
         })
       }
 
-      /*   const motorPlayer = document.getElementById('audioMotor')
-        motorPlayer.src = './motor.mp3' */
+
     }
 
     const resetMenuMovil = (opt) => {
@@ -444,39 +312,6 @@ export default function NavBar() {
       }
     }
 
-    /*  const modalVideo = (vid, poster) => {
-          const para = document.createElement("div");
-          para.classList.add("modal");
-          document.querySelector("body").appendChild(para);
- 
-          para.addEventListener('click', () => {
-              para.remove()
-          })
- 
-          //CLOSE BTN
-          var img = document.createElement('img');
-          img.src = './images/close-icon.png';
-          img.addEventListener("click", () => {
-              para.remove()
-          })
-          img.classList.add("modalClose");
-          para.appendChild(img);
- 
-          //VIDEO ELEMENT
-          var video = document.createElement('video');
-          video.classList.add("modalVideo");
-          video.src = './images/' + vid;
-          video.poster = './images/' + poster
-          video.autoplay = true;
-          video.controls = true;
-          video.muted = false;
-          para.appendChild(video);
- 
-          video.addEventListener('click', (event) => {
-              event.stopPropagation();
-          })
-      }*/
-
     const navSlideClick = () => {
       const navLinks = document.querySelectorAll(".nav-links a");
 
@@ -493,14 +328,15 @@ export default function NavBar() {
             case "sunward":
               menuSelect("sunward")
               break;
+
+            case "vehiculos":
+              menuSelect("vehiculos")
+              break;
             case "compania":
               menuSelect("compania")
               break;
             case "tecnologia":
               menuSelect("tecnologia")
-              break;
-            case "vehiculos":
-              menuSelect("vehiculos")
               break;
           }
         })
@@ -514,49 +350,20 @@ export default function NavBar() {
     navSlideClickH()
 
     // make sure to catch any error
-
-    const keyDownHandler = event => {
-      if (event.key === 'Escape') {
-        document.getElementsByClassName('navSearch')[0].classList.remove("inputDisplay");
-      }
-    };
-
-    document.addEventListener('keydown', keyDownHandler);
-    return () => {
-      document.removeEventListener('keydown', keyDownHandler);
-    };
+  }, []);
 
 
-
-
-  });
-
-  const [mostrarModal, setMostrarModal] = useState(false);
-
-  const activarModal = () => {
-    setMostrarModal(true);
-  };
-
-  const cerrarModal = () => {
-    setTimeout(() => {
-      setMostrarModal(false);
-    }, 10); // 200 milisegundos de retraso
-  };
-
-
-
-
-  return <nav className="menu1 internal">
+  return <nav className="internal">
     <div className="burger">
       <div className="line1"></div>
       <div className="line2"></div>
       <div className="line3"></div>
     </div>
-    <SearchBar />
-
-
-
+    <div className="logo">
+      <a href="/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" /></a>
+    </div>
     <ul className="nav-links">
+      <li><NavLink className="" to="/">INICIO</NavLink></li>
       <li>
         <a className="" href="#" option="sinotruk">CAMIONES</a>
         <div className="item-level-0 nav-header nav-header-h" >
@@ -566,10 +373,6 @@ export default function NavBar() {
             <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} width="637" height="147" alt="Sinotruck" />
           </div>
           <div className="rowMenu">
-            {/* <div className="colMenu">
-              <p className="colTitle">Serie NLS</p>
-              
-            </div>  */}
             <div className="colMenu">
               <p className="colTitle">Serie N</p>
               <p className="colItem meniu"><NavLink to="/camiones/camion-de-2-5-toneladas"><span className="nuevoCamion2">NUEVO</span> NLS 2.5 ton</NavLink></p>
@@ -607,7 +410,6 @@ export default function NavBar() {
 
             </div>
 
-
           </div>
           <div className="rowMenu espaciomenu">
             <div className="colMenu">
@@ -620,7 +422,6 @@ export default function NavBar() {
             </div>
 
             <div className="colMenu">
-
               <p className="colTitle">Volquetas</p>
               <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t5g-280">T5G-330 8-9m3</NavLink></p>
               <p className="colItem meniu"><NavLink to="/volquetas/volqueta-t7h-430">T7H-430 10-14m3</NavLink></p>
@@ -681,6 +482,7 @@ export default function NavBar() {
             </div>
             <div className="colMenu">
               <p className="colTitle">Furgonetas</p>
+
               <p className="colItem meniu"><NavLink to="/keyton/furgonetas/m70l">M70L</NavLink></p>
             </div>
           </div>
@@ -715,11 +517,11 @@ export default function NavBar() {
       </li>
 
       <li>
-        <a href="/concesionarios" >CONCESIONARIOS</a>
+        <a href="/concesionarios">CONCESIONARIOS</a>
         <div className="item-level-3 nav-header nav-header-h" >
           <div className="headerSubMenu">
             <div className="closeMovil" data-id="3"></div>
-            <p>CONCESIONARIOS</p>
+            <p className="tituloMenu">CONCESIONARIOS</p>
           </div>
           <div className="rowMenu">
             <div className="colMenu">
@@ -729,7 +531,7 @@ export default function NavBar() {
               <p className="colTitle2">Ficoa</p>
               <p className="colItem">Av. Los Guaytambos</p>
               <p className="colTitle">Machala</p>
-              <p className="colItem">Av 25 de junio km 3 y medio vía a pasajemax</p>
+              <p className="colItem">Av 25 de junio km 3 y medio vía a pasajemax)</p>
               <p className="colTitle">Ibarra</p>
               <p className="colItem">Panamericana Sur Km1 y calle los Andes</p>
               <p className="colTitle">Manta</p>
@@ -768,8 +570,6 @@ export default function NavBar() {
         </div>
       </li>
 
-
-
       <li>
         <a href="#" option="compania">COMPAÑÍA</a>
         <div className="item-level-6 nav-header nav-header-h" >
@@ -780,12 +580,12 @@ export default function NavBar() {
           <div className="rowMenu">
             <div className="colMenu">
               <p className="colItem meniu"><NavLink to="/compania">Nosotros</NavLink></p>
-              {/* <a href="../bdc/paises" className="colItem meniu negro">BDC</a> */}
-              <p><a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro" style={{ alignItems: 'center', color: '#000' }}>bdc</a></p>
+              {/* <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">bdc</a> */}
+              <a href="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/r/crm/login" className="colItem meniu negro">bdc</a>
               <p className="colItem meniu"><NavLink to="/trabaja-con-nosotros">Trabaja con nosotros</NavLink></p>
               <p className="colItem meniu"><NavLink to="/repuestos">Repuestos</NavLink></p>
               <p className="colItem meniu"><NavLink to="/terminosCondiciones">Terminos y Condiciones</NavLink></p><br></br>
-              <p className="colItem meniu negro" id="js-btn" onMouseEnter={activarModal}>Políticas</p>
+              <a className="colItem meniu negro" id="js-btn">Políticas</a>
             </div>
           </div>
         </div>
@@ -793,58 +593,21 @@ export default function NavBar() {
 
       <li className="item-level-8 linkContact">
       </li>
+
     </ul>
 
-    <div className="menuHome">
+    <ul className="nav-links-h">
+      <li ><a className="sinotruk mouseA" option="sinotruk">CAMIONES</a></li>
+      <li ><a className="sunward mouseA" option="sunward">MAQUINARIA</a></li>
+      <li className="concesionarios camionesCss"><NavLink to="/sinotruk/autos">VEHÍCULOS</NavLink></li>
+      <li ><a className="tecnologia tecnologiaCss" option="tecnologia">TECNOLOGÍA</a></li>
+      <li className="camionesCss"><NavLink to="/camion-en-uso/camion-de-48-toneladas">CAMIONES EN USO</NavLink></li>
+      <li className="concesionarios camionesCss"><NavLink to="/concesionarios">CONCESIONARIOS</NavLink></li>
+      <li className="companiaCss"><NavLink to="/compania">COMPAÑIA</NavLink></li>
+    </ul>
 
-
-      <div className="logoHome">
-        <NavLink to="/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></NavLink>
-      </div>
-
-
-      <ul
-        className="custom-header"
-        style={{
-          display: 'flex',
-          justifyContent: 'space-around',
-          flexWrap: 'nowrap',
-          alignItems: 'center',
-          width: '100%',
-          listStyle: 'none',
-
-        }}>
-        <li ><a className="sunward mouseA" option="sinotruk">CAMIONES</a></li>
-        <li ><NavLink to="/excavadoras/swe210">MAQUINARIA</NavLink></li>
-        <li ><a className="mouseA" href="/sinotruk/autos">VEHÍCULOS</a></li>
-        <li ><a className="tecnologia mouseA" option="tecnologia">TECNOLOGÍA</a></li>
-        <li ><NavLink to="/camion-en-uso/camion-de-48-toneladas" className="camionesCss">CAMIONES EN USO</NavLink></li>
-        <li ><NavLink to="/concesionarios" className="concesionarios mouseA">CONCESIONARIOS</NavLink></li>
-      </ul>
-
-
-      <div className="searchHome"><img src={urlMedia + "search.png"} alt="Buscar" width="100" height="100" /></div>
+    <div className="navSearch">
+      <input className="search-nav-input" data-testid="search-input" type="search" title="Search" placeholder="Buscar..." id="global-search-input" aria-controls="searchNavSuggestions" aria-autocomplete="list" aria-expanded="false" aria-activedescendant="search-suggestion-null" role="combobox" aria-describedby="searchBoxHelpText" />
     </div>
-    {mostrarModal && (
-      <div class="modaldos" id="modaldos">
-        <div class="modaldos_content">
-          <span class="closedos" id="closedos" style={{ fontSize: '1.2rem', color: '#a52a2a' }} onClick={cerrarModal}>x</span>
-          <b><h2>Vehicentro Ecuador</h2> - <h2>Comercialización de camiones Sinotruk</h2> - <h2>Sinotruk Ecuador</h2></b><br></br><br></br>
-          <h3>Venta de Camiones Sinotruk a nivel Nacional</h3><br></br><br></br>
-          <p>En Vehicentro tenemos el camión que necesitas</p><br></br><br></br>
-          <p>Los precios de nuestros <h4>camiones</h4>, <h4>mixer</h4>, <h4>excavadoras y volquetas</h4> incluyen IVA, cualquier otro impuesto aplicable están sujetos a cambios sin previo aviso.</p> <br></br><br></br>
-          <p>Vehicentro con sus sucursales en Ecuador se dedica a la <h2>venta de Camiones en Ambato</h2>, <h2>venta de Camiones en Quito</h2>, <h2>venta de Camiones en Guayaquil</h2>, <h2>venta de Camiones en Riobamba</h2>,
-            <h2>venta de Camiones en Machala</h2>, <h2>venta de Camiones en Ibarra</h2> y <h2>venta de Camiones en Manta</h2></p>
-          <br></br><br></br>
-          <p>Vehicentro no será responsable de los retrasos en la entrega causados por circunstancias imprevistas o que estén fuera de control.</p><br></br><br></br>
-          <p>Vehicentro no será responsable de los daños directos, indirectos, incidentales o consecuentes causados el uso del camión después de la venta.</p><br></br><br></br>
-          <p>Vehicentro se compromete a proteger la privacidad de los clientes y sus datos personales.</p><br></br><br></br>
-          <p>Los datos personales del cliente se utilizarán solo para fines relacionados con la venta del camión.</p><br></br><br></br>
-          <a href="https://vehicentro.com/politicaprivacidad" class="enlace_politica">Políticas y privacidad</a>
-
-        </div>
-      </div>
-    )}
   </nav>
-
-}
+} 

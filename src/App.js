@@ -106,6 +106,7 @@ import M70L_EV from "./pages/vehiculos/M70L_EV"
 import Paises from "./pages/Paises"
 import TerminosCondiciones from "./pages/TerminosCondiciones"
 import PopUp from "./components/PopUp";
+import SerieN from "./pages/SerieN";
 
 
 
@@ -146,6 +147,7 @@ function App() {
           <Route path="/ejes-man" element={<Ejes_man />} />
           <Route path="/sistema-evb" element={<Sistema_evb />} />
           <Route path="/serie/100" element={<Serie_100 />} />
+          <Route path="/serie/n" element={<SerieN />} />
           <Route path="/serie/volquetas" element={<Volquetas />} />
           <Route path="/garantia" element={<Garantia />} />
           <Route path="/proximamente" element={<Proximamente />} />

@@ -442,8 +442,8 @@ function FormContact(props) {
             <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
             <select name="serie" onBlur={(e) => { handleFocus(e) }} onChange={(e) => { handleChangeSerie(e) }} value={serie}>
               {/* <option value="NLS">NLS</option> */}
-              <option value="Serie 100">Serie 100</option>
               <option value="Serie N">Serie N</option>
+              <option value="Serie 100">Serie 100</option>
               <option value="Serie T5G">Serie T5G</option>
               <option value="Serie T7H">Serie T7H</option>
               <option value="Serie C7H">Serie C7H</option>

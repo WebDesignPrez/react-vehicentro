@@ -8,6 +8,7 @@ import env from '../config';
 import { Helmet } from "react-helmet";
 import PopUp from "../components/PopUp";
 import PopUpAvisoLegal from "../components/PopUpAvisoLegal";
+import NavBarTop from "../NavBarTop";
 
 
 
@@ -152,7 +153,7 @@ function Block1() {
           <div className="overlayBox" height="200">
             <p className="titleBox">PRODUCTOS</p>
             <div className="linksBox series">
-              <NavLink to="/camiones/camion-de-2-5-toneladas">SERIE <span className="boldserie">N</span></NavLink>
+              <NavLink to="/serie/n">SERIE <span className="boldserie">N</span></NavLink>
               <NavLink to="/serie/100">SERIE <span className="boldserie">100</span></NavLink>
               <NavLink to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
               <NavLink to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
@@ -215,7 +216,7 @@ function Block3() {
           <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
-            <NavLink className="titleBox2" to="/camiones/camion-de-2-5-toneladas">N</NavLink>
+            <NavLink className="titleBox2" to="/serie/n">N</NavLink>
             <div className="linksBox">
               <NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >NLS 2.5 TON</NavLink>
             </div>
