@@ -449,8 +449,8 @@ function Block3() {
                 <div>
                     <a><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
                     <div className="bottomContainer">
-                        <p className="titleBox" ><span className="nuevoCamion">NUEVO</span></p>
-                        <p className="titleBox" >Preventa</p>
+                        <p className="titleBox">SERIE</p>
+                        <NavLink className="titleBox2">N</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/landing/primicias/camion/2-5-ton" >NLS 2.5 TON</NavLink>
                         </div>
@@ -460,7 +460,7 @@ function Block3() {
                     <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <NavLink className="titleBox2" to="/serie/100">100</NavLink>
+                        <NavLink className="titleBox2">100</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/landing/primicias/camion/3-5-ton" ><span></span>3.5 TON</NavLink>
                             <NavLink className="line2" to="/landing/primicias/camion/3-6-ton" >3.6 TON</NavLink>
@@ -474,7 +474,7 @@ function Block3() {
                     <a href="/serie/t5g"><img src={urlMedia + "home/serie-t5g.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
+                        <NavLink className="titleBox2">T5G</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/landing/primicias/camion/9-ton">9 TON</NavLink><br></br>
                             <NavLink className="line2" to="/landing/primicias/camion/10-ton">10 TON</NavLink><br></br>
@@ -496,7 +496,7 @@ function Block3() {
                     <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
+                        <NavLink className="titleBox2">T7H</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/landing/primicias/cabezal/28-ton">28 TON</NavLink>
                             <NavLink className="line2" to="/landing/primicias/cabezal/cabezal-28-toneladas-retardador">28 ton - retardador</NavLink>
@@ -536,7 +536,7 @@ function Block3() {
                     <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /> </a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
-                        <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
+                        <NavLink className="titleBox2">C7H</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/landing/primicias/camion/20-ton">20 TON</NavLink>
                             <NavLink className="line2" to="/landing/primicias/camion/20-ton-catalinas">20 TON CATALINAS</NavLink>
@@ -554,7 +554,7 @@ function Block3() {
                     <a><img src={urlMedia + "home/serie-volquetas.webp"} width="900" height="700" alt="Vehicentro" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
-                        <a className="titleBox2" to="/serie/volquetas">VOLQUETAS</a>
+                        <a className="titleBox2">VOLQUETAS</a>
                         <div className="linksBox">
                             <a className="line2" src="" href="/landing/primicias/volqueta/volqueta-t5g-280">T5G 8-9 m3</a>
                             <a className="line2" src="" href="/landing/primicias/volqueta/volqueta-t7h-430">T7H 10-14 m3</a>
@@ -592,7 +592,7 @@ function Block3() {
 
                     <div className="bottomContainer">
                         <p className="titleBox"></p>
-                        <NavLink className="titleBox2" to="/serie/volquetas">MAQUINARIA SUNWARD</NavLink>
+                        <NavLink className="titleBox2">MAQUINARIA SUNWARD</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" src="" to="/landing/primicias/excavadora/swe210">EXCAVADORA SW210 21 Ton</NavLink>
                             <NavLink className="line2" src="" to="/landing/primicias/excavadora/swe370e">EXCAVADORA SW370E 37 Ton Heavy Duty</NavLink>
