@@ -266,7 +266,8 @@ function Block3() {
             <NavLink className="titleBox2" to="/serie/t7h">T7H</NavLink>
             <div className="linksBox">
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-28-toneladas">28 TON</NavLink>
-              <NavLink className="line2" to="/cabezales/cabezal-28-toneladas-retardador">28 ton - retardador</NavLink>
+              <NavLink className="line2" to="/cabezales/cabezal-28-toneladas-retardador">28 TON con retardador</NavLink>
+              <NavLink className="line2" to="/cabezales/cabezal-t7h-340-28-toneladas">28 TON Weichai</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-t7h-390-42-toneladas">42 TON</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-t7h-430-45-toneladas">45 TON</NavLink>
             </div>
