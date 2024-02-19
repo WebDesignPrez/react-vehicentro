@@ -308,7 +308,7 @@ function FormContact(props) {
           setCed('')
 
 
-          window.location.href = redireccion;
+          // window.location.href = redireccion;
         }
       })
     } else {

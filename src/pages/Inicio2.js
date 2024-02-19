@@ -9,6 +9,8 @@ import { Helmet } from "react-helmet";
 import PopUp from "../components/PopUp";
 import PopUpAvisoLegal from "../components/PopUpAvisoLegal";
 import NavBarTop from "../NavBarTop";
+import PromoPopUp from "../components/PromoPopUp";
+
 
 
 
@@ -81,6 +83,12 @@ function Inicio2() {
     setFormIsOpen(false)
   }
 
+  const [showPopup2, setShowPopup2] = useState(true);
+
+  const handleClosePopup2 = () => {
+    setShowPopup2(false);
+  };
+
   return (
     <>
       <Helmet>
@@ -109,7 +117,7 @@ function Inicio2() {
         <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
       <PopUpAvisoLegal />
-      {/* <PopUp /> */}
+      {showPopup2 && <PromoPopUp onClose={handleClosePopup2} />}
       <NavBar />
       <Block1 />
       <Slider />

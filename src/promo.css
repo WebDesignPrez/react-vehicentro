@@ -1,0 +1,149 @@
+.popup2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: 80%;
+  background-image: url('https://www.vehicentro.com/images/promo/promoVh.webp');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  z-index: 60000;
+  border-radius: 35px;
+  flex-direction: column;
+}
+
+.popup2-inner {
+  padding: 20px;
+  max-width: 400px;
+  margin-top: 13%;
+  margin-right: 10%;
+  /* Ajusta el ancho máximo según tus necesidades */
+  text-align: center;
+}
+
+.close-btn2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para los inputs, select y botón */
+.popup2-inner input,
+.popup2-inner select,
+.popup2-inner button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.popup2-inner button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.popup2-inner button:hover {
+  background-color: #0056b3;
+}
+
+.close-btn2 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+
+.popup2Cell {
+  display: none;
+}
+
+.mensajeDesktop {
+  padding-top: 6.5rem;
+  font-size: x-large;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .popup2 {
+    display: none;
+  }
+
+  .popup2Cell {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 60%;
+    background-image: url('https://www.vehicentro.com/images/promo/op1.webp');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    z-index: 60000;
+    border-radius: 35px;
+    flex-direction: column;
+  }
+
+  .popup2-innerCell {
+    padding: 20px;
+    max-width: 400px;
+    margin-top: 25%;
+    margin-right: 30%;
+    /* Ajusta el ancho máximo según tus necesidades */
+    text-align: center;
+  }
+
+  .close-btn2Cell {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  /* Estilos para los inputs, select y botón */
+  .popup2-innerCell input,
+  .popup2-innerCell select,
+  .popup2-innerCell button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .popup2-innerCell button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .popup2-innerCell button:hover {
+    background-color: #0056b3;
+  }
+
+  .close-btn2Cell {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .mensajeDesktop2 {
+    padding-bottom: 2.5rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+}
