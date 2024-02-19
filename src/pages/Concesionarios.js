@@ -123,7 +123,7 @@ function Concesionarios() {
       telefono: "032 994 740 | 0992048229",
       direccion: "Huayna Cápac y Mariscal Sucre esquina",
       url: "https://maps.app.goo.gl/qSjqhaqVe5TKdDsdA",
-      img: urlMedia + "CUENCA-780X600-1.jpg",
+      img: urlMedia + "cuencaNew.jpg",
       alt: ""
     },
     {
