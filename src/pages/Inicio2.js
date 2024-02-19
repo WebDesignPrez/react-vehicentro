@@ -83,8 +83,14 @@ function Inicio2() {
     setFormIsOpen(false)
   }
 
-  const [showPopup2, setShowPopup2] = useState(true);
+  const [showPopup2, setShowPopup2] = useState(false);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup2(true);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
   const handleClosePopup2 = () => {
     setShowPopup2(false);
   };

@@ -7,7 +7,7 @@ const PromoPopUp = ({ onClose }) => {
   const [nombre, setNombre] = useState('');
   const [celular, setCelular] = useState('');
 
-  const [showMesage, setShowMesage] = useState(false)
+  const [showMesage, setShowMesage] = useState(false);
 
   const handleSave = (e) => {
     e.preventDefault();
@@ -35,30 +35,39 @@ const PromoPopUp = ({ onClose }) => {
       data: params,
       success: function (data) {
         console.log('Datos enviados con éxito:', data);
-        onClose()
-        setShowMesage(false)
+        onClose();
+        setShowMesage(false);
       },
       error: function (jqXHR, textStatus, errorThrown) {
         console.error('Error al enviar datos:', errorThrown);
-        setShowMesage(true)
+        setShowMesage(true);
 
         setTimeout(() => {
-          setShowMesage(false)
-          onClose()
+          setShowMesage(false);
+          onClose();
         }, 3000);
-
-      }
+      },
     });
   };
 
+  const handleCelularChange = (e) => {
+    const inputValue = e.target.value;
+    console.log(inputValue);
+    if (/^[0-9]{0,10}$/.test(inputValue)) {
+      setCelular(inputValue);
+    } else {
+      setCelular('');
+    }
+  };
+
+
   return (
     <>
-
-      <form onSubmit={handleSave} >
-
+      <form onSubmit={handleSave}>
         <div className="popup2">
-
-          <span className="close-btn2" onClick={onClose}>X</span>
+          <span className="close-btn2" onClick={onClose}>
+            X
+          </span>
           <div className="popup2-inner">
             <select value={vehicleType} onChange={(e) => setVehicleType(e.target.value)}>
               <option value="">Modelo de interés</option>
@@ -66,20 +75,18 @@ const PromoPopUp = ({ onClose }) => {
               <option value="camion">Camión Sinotruk</option>
             </select>
             <input required type="text" placeholder="Nombre y Apellido" value={nombre} onChange={(e) => setNombre(e.target.value)} />
-            <input required type="text" placeholder="Número" value={celular} onChange={(e) => setCelular(e.target.value)} />
-            <button type='submit'  >CONSEGUIR PREMIO</button>
+            <input required placeholder="Número" value={celular} onChange={handleCelularChange} />
+
+            <button type="submit">CONSEGUIR PREMIO</button>
           </div>
-          <div className='mensajeDesktop'>
-            {
-              showMesage && <p>En un momento nos <br /> comunicaremos con usted</p>
-            }
+          <div className="mensajeDesktop">
+            {showMesage && <p>En un momento nos <br /> comunicaremos con usted</p>}
           </div>
         </div>
-
-
-
         <div className="popup2Cell">
-          <span className="close-btn2Cell" onClick={onClose}>X</span>
+          <span className="close-btn2Cell" onClick={onClose}>
+            X
+          </span>
           <div className="popup2-innerCell">
             <select value={vehicleType} onChange={(e) => setVehicleType(e.target.value)}>
               <option value="">Modelo de interés</option>
@@ -87,19 +94,15 @@ const PromoPopUp = ({ onClose }) => {
               <option value="camion">Camión Sinotruk</option>
             </select>
             <input required type="text" placeholder="Nombre y Apellido" value={nombre} onChange={(e) => setNombre(e.target.value)} />
-            <input required type="text" placeholder="Número" value={celular} onChange={(e) => setCelular(e.target.value)} />
+            <input required placeholder="Número" value={celular} onInput={handleCelularChange} />
 
-            <button type='submit'>CONSEGUIR PREMIO</button>
-
-
+            <button type="submit">CONSEGUIR PREMIO</button>
           </div>
-          <div className='mensajeDesktop2' >
-            {
-              showMesage && <p>En un momento <br /> nos comunicaremos <br /> con usted</p>
-            }
+          <div className="mensajeDesktop2">
+            {showMesage && <p>En un momento <br /> nos comunicaremos <br /> con usted</p>}
           </div>
         </div>
-      </form >
+      </form>
     </>
   );
 };
