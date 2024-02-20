@@ -24,7 +24,7 @@ function SerieN() {
   return (
     <>
       <Helmet>
-        <title>Camiones Serie 100 | Vehicentro</title>
+        <title>Camiones Serie N | Vehicentro</title>
         <meta name="description" content="Camiones de la Serie N de Sinotruk, diseñados para máxima seguridad, confianza y comodidad." />
         <meta name="keywords" content="camion, camiones, venta de camiones, camiones en ecuador, serie 100"></meta>
         <meta name="robots" content="index, follow"></meta>
