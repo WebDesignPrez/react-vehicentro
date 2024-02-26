@@ -76,8 +76,8 @@ function Serie() {
         //t5g
         case "t5g":
             video = urlMedia + "t5g/video.mp4"
-            imagen = urlMedia + "t5g/contacto.webp"
-            imagen2 = urlMedia + "t5g/camion.webp"
+            imagen = urlMedia + "nuevasSeries/t5g_2.webp"
+            imagen2 = urlMedia + "nuevasSeries/t5g_1.webp"
             motor = urlMedia + "t5g/motor.webp"
             nombreSerie = "Serie T5G"
             nombreSerieInd = "T5G"
@@ -155,8 +155,8 @@ function Serie() {
         //t7h
         case "t7h":
             video = urlMedia + "t7h/video.mp4"
-            imagen = urlMedia + "t7h/contacto.webp"
-            imagen2 = urlMedia + "t7h/camion.webp"
+            imagen = urlMedia + "nuevasSeries/t7h_2.webp"
+            imagen2 = urlMedia + "nuevasSeries/t7h_1.webp"
             motor = urlMedia + "t7h/motor.webp"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIET7H"
             nombreSerie = "Serie T7H"
@@ -225,8 +225,8 @@ function Serie() {
         case "c7h":
             console.log('12 toneladas')
             video = urlMedia + "c7h/540Amarillo.mp4"
-            imagen = urlMedia + "c7h/contacto.webp"
-            imagen2 = urlMedia + "c7h/camion.webp"
+            imagen = urlMedia + "nuevasSeries/c7h_2.webp"
+            imagen2 = urlMedia + "nuevasSeries/c7h_1.webp"
             motor = urlMedia + "c7h/motor.webp"
             nombreSerie = "Serie C7H"
             nombreSerieInd = "C7H"
