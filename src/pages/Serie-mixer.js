@@ -20,7 +20,7 @@ function Serie_mixer() {
         motorPlayer.src = audio_motor
 
     }, []);
-    
+
     return (
         <>
             <Helmet>
@@ -43,7 +43,7 @@ function Content1() {
             <div className="boxesIni posRelative content2 fondonegro">
                 <div className="boxRight">
                     <div className="boxLeft c7h">
-                        <img src={urlMedia + "a7/mixer-blanco-sinotruk-de-frente.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                        <img src={urlMedia + "nuevasSeries/mixer1.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     </div>
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
@@ -63,6 +63,11 @@ function Content2() {
         serie: "A7",
         modelo: "8-9 m3",
         url: "/mixer/mixer-a7-1257"
+    },
+    {
+        serie: "C7H",
+        modelo: "12-14 m3",
+        url: "/mixer/mixer-12-14m3-c7h-430"
     }
     ]
 
@@ -92,7 +97,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia + "a7/mixer-blanco-sinotruk.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "nuevasSeries/mixer2.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -144,13 +149,13 @@ function Content5() {
     return (
         <>
             <div className="boxesIni posRelative">
-            <div className="centrado">
-                <img src={urlMedia + "a7/mixer-en-la-carretera-sinotruk.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <div className="centrado">
+                    <img src={urlMedia + "nuevasSeries/mixer3.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                </div>
+                <div>
+                    <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEMIXER" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
+                </div>
             </div>
-            <div>
-                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIEMIXER" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
-            </div>
-        </div>
         </>
     )
 }

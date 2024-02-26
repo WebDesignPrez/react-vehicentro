@@ -59,11 +59,18 @@ function Content2() {
             serie: <p>T5G-330 <br></br>8-9 m3</p>,
             modelo: "VOLQUETA",
             url: "/volquetas/volqueta-t5g-280"
-        }, {
+        },
+        {
             serie: <p>T5G-430 <br></br>10-14 m3</p>,
             modelo: "VOLQUETA",
             url: "/volquetas/volqueta-t7h-430"
-        }, {
+        },
+        {
+            serie: <p>T7H-430 <br></br>20 m3</p>,
+            modelo: "VOLQUETA",
+            url: "/volquetas/volqueta-t7h-430-20m3"
+        },
+        {
             serie: <p>C7H-540 <br></br>20 m3</p>,
             modelo: "VOLQUETA",
             url: "/volquetas/volqueta-c7h-540"
@@ -95,7 +102,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia + "especiales/especiales.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "nuevasSeries/volqueta1.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -144,13 +151,13 @@ function Content5() {
     return (
         <>
             <div className="boxesIni posRelative">
-            <div className="centrado">
-                <img src={urlMedia + "especiales/especiales-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                <div className="centrado">
+                    <img src={urlMedia + "nuevasSeries/volqueta2.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                </div>
+                <div>
+                    <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBSERIEVOLQUETAS" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
+                </div>
             </div>
-            <div>
-                <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBSERIEVOLQUETAS" camion={nombreCamion} serie="Especiales" camionSerie={camionSerie} />
-            </div>
-        </div>
         </>
     )
 }

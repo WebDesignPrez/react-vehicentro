@@ -47,7 +47,7 @@ function Content1() {
             <div className="boxesIni posRelative content2 fondonegro">
                 <div className="boxRight">
                     <div className="boxLeft c7h">
-                        <img src={urlMedia + "serie-100/serie-100.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                        <img src={urlMedia + "nuevasSeries/serie_100_1.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                     </div>
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
@@ -117,7 +117,7 @@ function Content2() {
 
                 </div>
                 <div className="boxLeft playMotor contenedorTextoSobrepuesto">
-                    <img src={urlMedia + "serie-100/serie-100-lateral.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src={urlMedia + "nuevasSeries/serie_100_2.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
             </div>
         </>
@@ -170,7 +170,7 @@ function Content5() {
         <>
             <div className="boxesIni posRelative">
                 <div className="centrado">
-                    <img src={urlMedia + "serie-100/serie-100-en-carretera.webp"} width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
+                    <img src="https://www.vehicentro.com/images/postales/3.6TON_FOTO.webp" width="1400" height="1000" className="slideMain" alt="Punto de Venta" />
                 </div>
                 <div>
                     <FormContact url="https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHSERIE100" camion={nombreCamion} serie="Serie 100" camionSerie={camionSerie} />
