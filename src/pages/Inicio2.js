@@ -227,7 +227,7 @@ function Block3() {
     <>
       <div className="block3 boxBlock" id="pagina">
         <div>
-          <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/nuevasPortadas/nls.jpg"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/n">N</NavLink>
@@ -237,7 +237,7 @@ function Block3() {
           </div>
         </div>
         <div>
-          <a href="/serie/100"><img src={urlMedia + "home/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <a href="/serie/100"><img src={urlMedia + "home/nuevasPortadas/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/100">100</NavLink>
@@ -251,7 +251,7 @@ function Block3() {
           </div>
         </div>
         <div>
-          <a href="/serie/t5g"><img src={urlMedia + "home/serie-t5g.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
+          <a href="/serie/t5g"><img src={urlMedia + "home/nuevasPortadas/serie-t5g.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/t5g">T5G</NavLink>
@@ -273,7 +273,7 @@ function Block3() {
 
       <div className="block3 boxBlock row2">
         <div>
-          <a href="/serie/t7h"> <img src={urlMedia + "home/serie-t7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /></a>
+          <a href="/serie/t7h"> <img src={urlMedia + "home/nuevasPortadas/serie-t7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
 
@@ -315,7 +315,7 @@ function Block3() {
           </div>
         </div>
         <div>
-          <a href="/serie/c7h"> <img src={urlMedia + "home/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /> </a>
+          <a href="/serie/c7h"> <img src={urlMedia + "home/nuevasPortadas/serie-c7h.webp"} width="900" height="700" alt="Cabezales de venta en Ecuador" /> </a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/c7h">C7H</NavLink>
@@ -331,18 +331,18 @@ function Block3() {
       </div>
       <div className="block3 boxBlock row2">
         <div>
-          <a href="/sinotruk/autos">
-            <Slide duration={2000}>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/U70Carrusel.webp)`, height: `23.2vw` }}>
-                </div>
+          <Slide duration={2000}>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./sinotruk/autos/u70"><img style={{ width: '100%' }} src={urlMedia + "home/U70Carrusel.webp"} /></a>
               </div>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/U70ProCarrusel.webp)`, height: `23.2vw` }}>
-                </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./sinotruk/autos/u70pro"><img style={{ width: '100%' }} src={urlMedia + "home/U70ProCarrusel.webp"} /></a>
               </div>
-            </Slide>
-          </a>
+            </div>
+          </Slide>
 
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -356,26 +356,29 @@ function Block3() {
 
 
         <div>
-          <a href="/volquetas/volqueta-c7h-540">
-            <Slide duration={2000}>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/mixer.webp)`, height: `23.2vw` }}>
-                </div>
+
+          <Slide duration={2000}>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./mixer/mixer-a7-1257"><img style={{ width: '100%' }} src={urlMedia + "home/mixer2.webp"} /></a>
               </div>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/serie-volquetas.webp)`, height: `23.2vw` }}>
-                </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./serie/volquetas"><img style={{ width: '100%' }} src={urlMedia + "home/serie-volquetas2.webp"} /></a>
               </div>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/volqueta7.webp)`, height: `23.2vw` }}>
-                </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./serie/volquetas"><img style={{ width: '100%' }} src={urlMedia + "home/volqueta72.webp"} /></a>
               </div>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/volquetaC7HNew.webp)`, height: `23.2vw` }}>
-                </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./serie/volquetas"><img style={{ width: '100%' }} src={urlMedia + "home/volquetaC7HNew2.webp"} /></a>
               </div>
-            </Slide>
-          </a>
+            </div>
+          </Slide>
 
           <div className="bottomContainer">
             <p className="titleBox"></p>
@@ -409,19 +412,19 @@ function Block3() {
 
 
         <div>
-          <a href="/excavadoras/swe370e">
-            <Slide duration={2000}>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/sunwardNew.webp)`, height: `23.2vw` }}>
-                </div>
-              </div>
-              <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(../images/home/minicargadoraNew.webp)`, height: `23.2vw` }}>
-                </div>
-              </div>
-            </Slide>
-          </a>
 
+          <Slide duration={2000}>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./excavadoras/swe210"><img style={{ width: '100%' }} src={urlMedia + "/home/sunwardNew.webp"} /></a>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./minicargadoras/swl3220"><img style={{ width: '100%' }} src={urlMedia + "/home/minicargadoraNew.webp"} /></a>
+              </div>
+            </div>
+          </Slide>
 
           <div className="bottomContainer">
             <p className="titleBox"></p>
