@@ -117,13 +117,15 @@ function Camion() {
       cabina = urlMedia + "2.5-toneladas/cabina2.5.jpg"
       marcas = ""
       internas1 = [
-        urlMedia + "2.5-toneladas/volante2.5.jpg"
+        urlMedia + "2.5-toneladas/barraEstabilizadora.jpg"
       ];
       internas2 = [
-        urlMedia + "2.5-toneladas/vidrios2.5.jpg"
+        urlMedia + "2.5-toneladas/volante2.5.jpg"
+
       ];
       internas1b = [
         urlMedia + "2.5-toneladas/radio2.5.jpg",
+        urlMedia + "2.5-toneladas/vidrios2.5.jpg"
       ];
       internas2b = [
         urlMedia + "2.5-toneladas/palanca2.5.jpg"
@@ -132,10 +134,7 @@ function Camion() {
       medidasMovil = urlMedia + "medidas/2.5_TON_CEL.webp"
       audio_motor = urlMedia + "2.5-toneladas/2.5_TON_SM1.mp3"
 
-
-
       internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
-      //loop slider
 
       slide3 = internas1b.map((interna) =>
         <div className="each-slide-effect" >
@@ -154,28 +153,74 @@ function Camion() {
       contenedorMarcas = <div style={{ display: `contents` }} >
         {internas1b.length > 1 &&
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-
-            <Fade><img src={internas1b[0]} alt="" /></Fade>
-
+            <Fade >
+              {slide3}
+            </Fade>
           </div>
         }
         {internas1b.length == 1 &&
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <img src={internas1b[0]} alt="" />
+            <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
           </div>
         }
 
         {internas2b.length > 1 &&
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <Fade><img src={internas2b[0]} alt="" /></Fade>
+            <Fade >
+              {slide3b}
+            </Fade>
           </div>
         }
         {internas2b.length == 1 &&
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <img src={internas2b[0]} alt="" />
+            <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
           </div>
         }
       </div>
+
+
+
+
+      // internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
+      // slide3 = internas1b.map((interna) =>
+      //   <div className="each-slide-effect" >
+      //     <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+      //     </div>
+      //   </div>
+      // );
+
+      // slide3b = internas2b.map((interna) =>
+      //   <div className="each-slide-effect" >
+      //     <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+      //     </div>
+      //   </div>
+      // );
+
+      // contenedorMarcas = <div style={{ display: `contents` }} >
+      //   {internas1b.length > 1 &&
+      //     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+
+      //       <Fade><img src={internas1b[0]} alt="" /></Fade>
+
+      //     </div>
+      //   }
+      //   {internas1b.length == 1 &&
+      //     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+      //       <img src={internas1b[0]} alt="" />
+      //     </div>
+      //   }
+
+      //   {internas2b.length > 1 &&
+      //     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+      //       <Fade><img src={internas2b[0]} alt="" /></Fade>
+      //     </div>
+      //   }
+      //   {internas2b.length == 1 &&
+      //     <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+      //       <img src={internas2b[0]} alt="" />
+      //     </div>
+      //   }
+      //</div >
 
       contenedorVidaUtil = "Caja EATON"
 
