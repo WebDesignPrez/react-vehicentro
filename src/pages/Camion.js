@@ -95,7 +95,7 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
       images = [
-        urlMedia + "2.5-toneladas/2.5_TON_3_4.webp",
+        urlMedia + "2.5-toneladas/2.5-TON.webp",
         urlMedia + "2.5-toneladas/2.5_TON_FRONTAL.webp"
       ];
       textoMotor1 = "110HP"
@@ -117,24 +117,28 @@ function Camion() {
       cabina = urlMedia + "2.5-toneladas/cabina2.5.jpg"
       marcas = ""
       internas1 = [
-        urlMedia + "2.5-toneladas/barraEstabilizadora.jpg"
+        urlMedia + "2.5-toneladas/barraDelatera.webp",
+        urlMedia + "2.5-toneladas/volante.webp",
       ];
       internas2 = [
-        urlMedia + "2.5-toneladas/volante2.5.jpg"
+        urlMedia + "2.5-toneladas/barraPosterior.webp",
+        urlMedia + "2.5-toneladas/palanca2.5.jpg"
 
       ];
       internas1b = [
-        urlMedia + "2.5-toneladas/radio2.5.jpg",
-        urlMedia + "2.5-toneladas/vidrios2.5.jpg"
+        urlMedia + "2.5-toneladas/palancaAire.webp",
+        urlMedia + "2.5-toneladas/radio2.5.jpg"
       ];
       internas2b = [
-        urlMedia + "2.5-toneladas/palanca2.5.jpg"
+        urlMedia + "2.5-toneladas/llantaTubular.webp",
+        urlMedia + "2.5-toneladas/vidrios2.5.jpg"
       ];
       medidas = urlMedia + "2.5-toneladas/2.5_WEB_MEDIDAS.webp"
       medidasMovil = urlMedia + "medidas/2.5_TON_CEL.webp"
       audio_motor = urlMedia + "2.5-toneladas/2.5_TON_SM1.mp3"
 
       internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
+      //loop slider
 
       slide3 = internas1b.map((interna) =>
         <div className="each-slide-effect" >
@@ -151,33 +155,17 @@ function Camion() {
       );
 
       contenedorMarcas = <div style={{ display: `contents` }} >
-        {internas1b.length > 1 &&
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <Fade >
-              {slide3}
-            </Fade>
-          </div>
-        }
-        {internas1b.length == 1 &&
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
-          </div>
-        }
-
-        {internas2b.length > 1 &&
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <Fade >
-              {slide3b}
-            </Fade>
-          </div>
-        }
-        {internas2b.length == 1 &&
-          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
-          </div>
-        }
+        <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+          <Fade >
+            {slide3}
+          </Fade>
+        </div>
+        <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+          <Fade >
+            {slide3b}
+          </Fade>
+        </div>
       </div>
-
 
 
 
@@ -1439,24 +1427,18 @@ function Camion() {
 
         <div className="marcasbg" style={{ display: `flex`, 'flexWrap': `wrap` }}>
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
-            {nombreCamion != "Camión de 2.5 toneladas" &&
-              <Fade >
-                {slide2}
-              </Fade>
-            }
-            {nombreCamion == "Camión de 2.5 toneladas" &&
-              <img src={internas1}></img>
-            }
+
+            <Fade >
+              {slide2}
+            </Fade>
+
           </div>
           <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }} >
-            {nombreCamion != "Camión de 2.5 toneladas" &&
-              <Fade >
-                {slide2b}
-              </Fade>
-            }
-            {nombreCamion == "Camión de 2.5 toneladas" &&
-              <img src={internas2}></img>
-            }
+
+            <Fade >
+              {slide2b}
+            </Fade>
+
           </div>
           <div className="boxRightHeader  half responsive" style={{ width: `100%` }} >
             <Fade >
