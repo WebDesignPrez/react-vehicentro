@@ -118,7 +118,7 @@ function Camion() {
       marcas = ""
       internas1 = [
         urlMedia + "2.5-toneladas/barraDelatera.webp",
-        urlMedia + "2.5-toneladas/volante.webp",
+        urlMedia + "2.5-toneladas/volante2.5.jpg",
       ];
       internas2 = [
         urlMedia + "2.5-toneladas/barraPosterior.webp",
