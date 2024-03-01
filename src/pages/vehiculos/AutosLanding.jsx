@@ -22,7 +22,7 @@ function Excavadora() {
                 <title>Autos | Vehicentro</title>
                 <meta name="description" content="Autos Sinotruk." />
                 <meta name="keywords" content="autos, suv, venta de suv, carros en ecuador, carros, sinotruk"></meta>
-                <meta name="author" content="Celimo Constante, Anthony Perez, Prez"/>
+                <meta name="author" content="Celimo Constante, Anthony Perez, Prez" />
                 <meta name="robots" content="index, follow"></meta>
             </Helmet>
             <NavBarTop />
@@ -63,10 +63,10 @@ function Content2() {
     const urlMedia = "https://www.vehicentro.com/images/vehiculos/";
 
 
-    const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.webp');
+    const [selectedImage, setSelectedImage] = useState(urlMedia + 'blanco.png');
 
     const handleButtonClick = (newImage) => {
-        setSelectedImage(urlMedia + newImage + '.webp');
+        setSelectedImage(urlMedia + newImage + '.png');
     };
 
 
