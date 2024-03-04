@@ -106,7 +106,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.v_cuatro_cuota}`
             motor = urlMedia + "24-toneladas/motor-sinotruk-de-camion-de-24-toneladas-ecuador.webp"
             garantia = urlMedia + "24-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "24-toneladas/camion-de-24-toneladas-potencia-340hp.webp",
                 urlMedia + "24-toneladas/camion-de-24-toneladas-cilindraje.webp",
@@ -164,7 +164,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.v_ocho_cuota}`
             motor = urlMedia + "28-toneladas/motor-sinotruk-de-camion-de-28-toneladas-ecuador.webp"
             garantia = urlMedia + "28-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "28-toneladas/camion-de-28-toneladas-potencia-390hp.webp",
                 urlMedia + "28-toneladas/camion-de-28-toneladas-cilindraje.webp",
@@ -218,7 +218,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.v_ocho_r_cuota}`
             motor = urlMedia + "28-toneladas-retardador/motor-sinotruk-de-camion-de-28-toneladas-ecuador.webp"
             garantia = urlMedia + "28-toneladas-retardador/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "28-toneladas-retardador/camion-de-28-toneladas-potencia-390hp.webp",
                 urlMedia + "28-toneladas-retardador/camion-de-28-toneladas-cilindraje.webp",
@@ -272,7 +272,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.c_dos_cuota}`
             motor = urlMedia + "42-toneladas/motor-sinotruk-de-camion-de-42-toneladas-ecuador.webp"
             garantia = urlMedia + "42-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "42-toneladas/camion-de-42-toneladas-potencia-390hp.webp",
                 urlMedia + "42-toneladas/camion-de-42-toneladas-cilindraje.webp",
@@ -326,7 +326,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.c_cinco_cuota}`
             motor = urlMedia + "45-toneladas/motor-sinotruk-de-camion-de-45-toneladas-ecuador.webp"
             garantia = urlMedia + "45-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "45-toneladas/camion-de-45-toneladas-potencia-430hp.webp",
                 urlMedia + "45-toneladas/camion-de-45-toneladas-cilindraje.webp",
@@ -380,7 +380,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.c_ocho_cuota}`
             motor = urlMedia + "48-toneladas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
             garantia = urlMedia + "48-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "48-toneladas/camion-de-48-toneladas-potencia-540hp.webp",
                 urlMedia + "48-toneladas/camion-de-48-toneladas-cilindraje.webp",
@@ -436,7 +436,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.c_ocho_c_cuota}`
             motor = urlMedia + "48-toneladas-catalinas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
             garantia = urlMedia + "48-toneladas-catalinas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "48-toneladas-catalinas/camion-de-48-toneladas-potencia-540hp.webp",
                 urlMedia + "48-toneladas-catalinas/camion-de-48-toneladas-cilindraje.webp",

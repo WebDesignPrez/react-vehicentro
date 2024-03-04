@@ -98,7 +98,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.diez_cuota}`
             motor = urlMedia + "10-toneladas/motor-sinotruk-de-camion-de-10-toneladas-ecuador.webp"
             garantia = urlMedia + "10-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "10-toneladas/camion-de-10-toneladas-potencia-240hp.webp",
                 urlMedia + "10-toneladas/camion-de-10-toneladas-6-cilindros-en-linea.webp",
@@ -152,7 +152,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.nueve_cuota}`
             motor = urlMedia + "9-toneladas/motor-sinotruk-de-camion-de-9-toneladas-ecuador.webp"
             garantia = urlMedia + "9-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "9-toneladas/camion-de-9-toneladas-potencia-210hp.webp",
                 urlMedia + "9-toneladas/camion-de-9-toneladas-4-cilindros-en-linea.webp",
@@ -204,7 +204,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.doce_cuota}`
             motor = urlMedia + "12-toneladas/motor-sinotruk-de-camion-de-12-toneladas-ecuador.webp"
             garantia = urlMedia + "12-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "12-toneladas/camion-de-12-toneladas-potencia-240hp.webp",
                 urlMedia + "12-toneladas/camion-de-12-toneladas-6-cilindros-en-linea.webp",
@@ -257,7 +257,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.trece_cuota}`
             motor = urlMedia + "13-toneladas/motor-sinotruk-de-camion-de-13-toneladas-ecuador.webp"
             garantia = urlMedia + "13-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "13-toneladas/camion-de-13-toneladas-potencia-280hp.webp",
                 urlMedia + "13-toneladas/camion-de-13-toneladas-6-cilindros-en-linea.webp",
@@ -310,7 +310,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.trece_330_cuota}`
             motor = urlMedia + "13-toneladas-330/motor-sinotruk-de-camion-de-13-toneladas-ecuador.webp"
             garantia = urlMedia + "13-toneladas-330/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "13-toneladas-330/camion-de-13-toneladas-potencia-330hp.webp",
                 urlMedia + "13-toneladas-330/camion-de-13-toneladas-6-cilindros-en-linea.webp",
@@ -361,7 +361,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.d_ocho_cuota}`
             motor = urlMedia + "18-toneladas/motor-sinotruk-de-camion-de-18-toneladas-ecuador.webp"
             garantia = urlMedia + "18-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "18-toneladas/camion-de-18-toneladas-potencia-340hp.webp",
                 urlMedia + "18-toneladas/camion-de-18-toneladas-6-cilindros-en-linea.webp",
@@ -414,7 +414,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.d_nueve_cuota}`
             motor = urlMedia + "19-toneladas/motor-sinotruk-de-camion-de-19-toneladas-ecuador.webp"
             garantia = urlMedia + "19-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "19-toneladas/camion-de-19-toneladas-potencia-340hp.webp",
                 urlMedia + "19-toneladas/camion-de-19-toneladas-6-cilindros-en-linea.webp",
@@ -842,7 +842,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.ocho_cuota}`
             motor = urlMedia + "8-toneladas/motor-sinotruk-de-camion-de-8-toneladas-ecuador.webp"
             garantia = urlMedia + "8-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "8-toneladas/camion-de-8-toneladas-potencia-180hp.webp",
                 urlMedia + "8-toneladas/camion-de-8-toneladas-cilindraje.webp",
@@ -892,7 +892,7 @@ function Camion() {
             cuotas = `Cuotas desde: ${precios.veinte_cuota}`
             motor = urlMedia + "20-toneladas/motor-sinotruk-de-camion-de-20-toneladas-ecuador.webp"
             garantia = urlMedia + "20-toneladas/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "tecnologiaAlemanaLogoNew.png"
+            tecnologia = urlMedia + "protectorBlanco.webp"
             caracteristicas = [
                 urlMedia + "20-toneladas/camion-de-20-toneladas-potencia-430hp.webp",
                 urlMedia + "20-toneladas/camion-de-20-toneladas-cilindraje.webp",
@@ -1148,7 +1148,7 @@ function Camion() {
                 <FormContact url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} />
             </div>
         </div>
-            <Landingfooter />
+        <Landingfooter />
 
         {modalFormIsOpen &&
             <FormContactFicha url={bdc} camion={nombreCamion} serie={nombreSerie} camionSerie={camionSerie} close={closeFormContact} />
@@ -1161,7 +1161,7 @@ function Landingmenu() {
         <>
             <div className="menuHome">
                 <div className="logoHome">
-                   <a href="/landing/comercio/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a> 
+                    <a href="/landing/comercio/"><img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
                 </div>
             </div>
         </>
@@ -1173,7 +1173,7 @@ function Landingfooter() {
         <>
             <div className="menuHome">
                 <div className="logoHome">
-                   <a href="/landing/comercio/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
+                    <a href="/landing/comercio/"> <img src={urlMedia + "vehicentro-logo-blanco.png"} width="230" height="80" alt="Vehicentro" /></a>
                 </div>
             </div>
         </>
