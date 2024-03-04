@@ -413,7 +413,7 @@ function Block3() {
 
                 break;
 
-                
+
             default:
                 break;
         }
@@ -506,7 +506,7 @@ function Block3() {
 
                     <div className="bottomContainer">
                         <div className="bannerTec">
-                            <img src={urlMedia + "tecnologiaAlemanaLogoNew.png"} width="590" height="170" alt="Tecnologia Alemana" />
+                            <img src={urlMedia + "protectorBlanco.webp"} width="590" height="170" alt="Tecnologia Alemana" />
                         </div>
                         <div className="boxPlayerMotor audiohome">
                             <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
@@ -531,7 +531,7 @@ function Block3() {
             </div>
 
             <div className="block3 boxBlock row2">
-                
+
                 <div>
                     <img src={urlMedia + "home/mixer.webp"} width="900" height="700" alt="Vehicentro" />
                     <div className="bottomContainer">
