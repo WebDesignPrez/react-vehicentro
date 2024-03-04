@@ -531,7 +531,7 @@ function Block3() {
 
                     <div className="bottomContainer">
                         <div className="bannerTec">
-                            <img src={urlMedia + "pruebaTA.webp"} width="590" height="170" alt="Tecnologia Alemana" />
+                            <img src={urlMedia + "protector.webp"} width="590" height="170" alt="Tecnologia Alemana" />
                         </div>
                         <div className="boxPlayerMotor audiohome">
                             <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
