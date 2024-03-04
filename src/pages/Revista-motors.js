@@ -522,7 +522,7 @@ function Block3() {
                         </Slide>
                         <div className="bottomContainer">
                             <div className="bannerTec">
-                                <img src={urlMedia + "pruebaTA.webp"} width="1000" height="270" alt="Tecnologia Alemana" />
+                                <img src={urlMedia + "protector.webp"} width="1000" height="270" alt="Tecnologia Alemana" />
                             </div>
                             <div className="boxPlayerMotor audiohome">
                                 <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
