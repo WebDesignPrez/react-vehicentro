@@ -23,13 +23,14 @@ const Interior = () => {
         {
           titulo: '3 Filas de Asientos',
           descripcion: '',
-          img: urlMedia + 'asientos1.webp'
-        },
-        {
-          titulo: 'Amplio Espacio',
-          descripcion: '',
-          img: urlMedia + 'asientos2.webp'
+          img: urlMedia + 'interiorNew.jpg'
         }
+        // ,
+        // {
+        //   titulo: 'Amplio Espacio',
+        //   descripcion: '',
+        //   img: urlMedia + 'asientos2.webp'
+        // }
       ]
     },
     {
@@ -40,7 +41,7 @@ const Interior = () => {
         {
           titulo: 'Radio de 12 pulgadas',
           descripcion: '',
-          img: urlMedia + 'radio.webp'
+          img: urlMedia + 'radioNew.jpg'
         },
 
         {
@@ -50,66 +51,67 @@ const Interior = () => {
         },
       ]
     },
+    // {
+    //   id: 2,
+    //   titulo: 'Aire Acondicionado',
+    //   subCategorias: [
+
+    //     {
+    //       titulo: 'Aire acondicionado',
+    //       descripcion: '',
+    //       img: urlMedia + 'aire1.webp'
+    //     },
+    //     {
+    //       titulo: 'Aire acondicionado parte posterior',
+    //       descripcion: '',
+    //       img: urlMedia + 'aire2.webp'
+    //     },
+    //   ]
+    // },
     {
       id: 2,
-      titulo: 'Aire Acondicionado',
-      subCategorias: [
-
-        {
-          titulo: 'Aire acondicionado',
-          descripcion: '',
-          img: urlMedia + 'aire1.webp'
-        },
-        {
-          titulo: 'Aire acondicionado parte posterior',
-          descripcion: '',
-          img: urlMedia + 'aire2.webp'
-        },
-      ]
-    },
-    {
-      id: 3,
       titulo: 'Volante',
       subCategorias: [
 
-        {
-          titulo: 'Acabados en cuero',
-          descripcion: '',
-          img: urlMedia + 'volante3.webp'
-        },
+        // {
+        //   titulo: 'Acabados en cuero',
+        //   descripcion: '',
+        //   img: urlMedia + 'volante3.webp'
+        // },
         {
           titulo: 'Control Multimedia',
           descripcion: '',
-          img: urlMedia + 'volante1.webp'
-        },
-        {
-          titulo: 'Computadora a bordo',
-          descripcion: '',
-          img: urlMedia + 'volante2.webp'
+          img: urlMedia + 'controlNew.jpg'
         }
+        // ,
+        // {
+        //   titulo: 'Computadora a bordo',
+        //   descripcion: '',
+        //   img: urlMedia + 'volante2.webp'
+        // }
       ]
     },
-    {
-      id: 4,
-      titulo: 'Almacenamiento',
-      subCategorias: [
+    // {
+    //   id: 4,
+    //   titulo: 'Almacenamiento',
+    //   subCategorias: [
 
-        {
-          titulo: 'Consola Central',
-          descripcion: '',
-          img: urlMedia + 'consola.webp'
-        },
-      ]
-    },
+    //     {
+    //       titulo: 'Consola Central',
+    //       descripcion: '',
+    //       img: urlMedia + 'consola.webp'
+    //     },
+    //   ]
+    // },
     {
-      id: 4,
+      id: 3,
       titulo: 'Palanca',
       subCategorias: [
 
         {
           titulo: 'Palanca de cambios 6 + 1',
           descripcion: '',
-          img: urlMedia + 'aire1.webp'
+          img: urlMedia + 'palancaNew.jpg'
         },
       ]
     },
