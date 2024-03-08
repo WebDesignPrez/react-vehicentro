@@ -46,7 +46,6 @@ let precios = {
     veinte_catalinas: " $104,990 ",
     veinte_catalinas_cuota: " $1,699.00 ",
 
-
     v_cuatro: " $61,990 ",
     v_cuatro_cuota: " $983.00 ",
 
@@ -69,6 +68,8 @@ let precios = {
 
     c_ocho_c: " $106,990 ",
     c_ocho_c_cuota: " $1,692.00 ",
+
+    c_ocho_cNew: " $107,890 ",
 
     e_210: " $161,280",
     e_210_cuota: "",
