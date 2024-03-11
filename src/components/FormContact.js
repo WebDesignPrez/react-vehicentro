@@ -307,7 +307,7 @@ function FormContact(props) {
           setTel('')
           setCed('')
 
-
+          window.location.href = redireccion;
           // window.location.href = redireccion;
         }
       })
@@ -469,7 +469,7 @@ function FormContact(props) {
             <input name="camion" type="text" value={camion} onChange={(e) => { handleChangeCam(e) }} />
           </div>
 
-          <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos-sobre-camiones/" type="hidden" />
+          <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos" type="hidden" />
         </div>
         <div className="contenedorTerminos">
           <input
