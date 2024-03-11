@@ -1351,7 +1351,7 @@ p.titleFooter {
 }
 
 .boxPlayerMotor.audiohome {
-  left: 5vh;
+  left: 9.5vh;
   bottom: 2.4vw;
   position: absolute;
 }
@@ -2123,6 +2123,13 @@ a.titleBox2:hover {
 .imgHeader2 {
   background-image: url(../public/images/home/newSinotrukero.webp);
   background-size: cover;
+}
+
+.bottomContainer.audio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
