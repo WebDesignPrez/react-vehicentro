@@ -446,7 +446,7 @@ function FormContactFicha(props) {
             <input name="camion" type="text" value={camion} onChange={(e) => { handleChangeCam(e) }} />
           </div>
 
-          <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos-sobre-camiones/" type="hidden" />
+          <input name="redirect_url" value="https://vehicentro.com/gracias-por-contactarnos" type="hidden" />
         </div>
 
         <div className="contenedorTerminos">
