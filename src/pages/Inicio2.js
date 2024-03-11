@@ -323,8 +323,11 @@ function Block3() {
               <NavLink className="line2" to="/camiones/camion-20-toneladas-1256">20 TON</NavLink>
               <NavLink className="line2" to="/camiones/camion-20-toneladas-catalinas-1256">20 TON CATALINAS</NavLink>
               <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>
-              <span className="nuevoCamion">NUEVO</span>
               <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">  48 TON CATALINAS</NavLink>
+              <div>
+                <span className="nuevoCamion">NUEVO</span>
+                <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-cabina">  48 TON CATALINAS</NavLink>
+              </div>
             </div>
           </div>
         </div>
