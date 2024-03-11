@@ -92,7 +92,7 @@ function Camion() {
             precio = <div className="banner"><img src={urlMedia + "volqueta-280/logo-sinotruk.webp"} /></div>
             motor = urlMedia + "volqueta-280/motor-sinotruk-de-volqueta-ecuador.webp"
             garantia = urlMedia + "volqueta-280/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "protectorBlanco.webp"
+            tecnologia = urlMedia + "alemania_negro.webp"
             caracteristicas = [
                 urlMedia + "volqueta-280/volqueta-con-potencia-340hp.webp",
                 urlMedia + "volqueta-280/volqueta-cilindraje.webp",
@@ -146,7 +146,7 @@ function Camion() {
             precio = <div className="banner"><img src={urlMedia + "volqueta-430/logo-sinotruk.webp"} /></div>
             motor = urlMedia + "volqueta-430/motor-sinotruk-de-volqueta-ecuador.webp"
             garantia = urlMedia + "volqueta-430/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "protectorBlanco.webp"
+            tecnologia = urlMedia + "alemania_negro.webp"
             caracteristicas = [
                 urlMedia + "volqueta-430/volqueta-con-potencia-430hp.webp",
                 urlMedia + "volqueta-430/volqueta-cilindraje.webp",
@@ -203,7 +203,7 @@ function Camion() {
             precio = <div className="banner"><img src={urlMedia + "volqueta-540/logo-sinotruk.webp"} /></div>
             motor = urlMedia + "volqueta-540/motor-sinotruk-de-volqueta-ecuador.webp"
             garantia = urlMedia + "volqueta-540/5-anos-de-garantia.webp"
-            tecnologia = urlMedia + "protectorBlanco.webp"
+            tecnologia = urlMedia + "alemania_negro.webp"
             caracteristicas = [
                 urlMedia + "volqueta-540/volqueta-con-potencia-430hp.webp",
                 urlMedia + "volqueta-540/volqueta-cilindraje.webp",
@@ -250,7 +250,7 @@ function Camion() {
             precio = <div className="banner"><img className="menosImagenMovile" src={urlMedia + "9-sinotruk_logo.png"} /></div>
             motor = urlMedia + "volqueta-540/motor-sinotruk-de-volqueta-ecuador.webp"
             garantia = urlMedia + "T7H_3257_VOLQUETA_20M3/garantia.webp"
-            tecnologia = urlMedia + "protectorBlanco.webp"
+            tecnologia = urlMedia + "alemania_negro.webp"
             caracteristicas = [
                 urlMedia + "T7H_3257_VOLQUETA_20M3/palanca.webp",
                 urlMedia + "T7H_3257_VOLQUETA_20M3/cilindros.webp",

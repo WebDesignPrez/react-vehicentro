@@ -185,7 +185,7 @@ function Mixer() {
             cuotas = 'Cuotas desde: $447.00'
             motor = urlMedia + "C7H430-Mixer/Mixer12m3-Motor.jpg"
             garantia = urlMedia + "C7H430-Mixer/5-anos-de-garantia.png"
-            tecnologia = urlMedia + "protectorBlanco.webp"
+            tecnologia = urlMedia + "alemania_negro.webp"
 
             caracteristicas = [
                 urlMedia + "C7H430-Mixer/Mixer12m3-detalles1.jpg",
