@@ -145,6 +145,58 @@ function Camion() {
 
             break;
 
+        case "cabezal-c7h-540-catalinas-48-toneladas-nueva-version":
+            nombreCamion = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión"
+            camionSerie = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión"
+            nombreSerie = "Serie C7H"
+            bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDEXP48TONCATNEW"
+            images = [
+                urlMedia + "48CatalinasNew/newTresCuartosCatalinas.webp",
+                urlMedia + "48CatalinasNew/newFrontal.webp"
+            ];
+            textoMotor1 = "540 HP"
+            textoMotor2 = "Modelo C7H-540"
+            textoMotor3 = "Ficha técnica"
+            precio = precios.c_ocho_cNew
+            cuotas = `Cuotas desde: ${precios.c_ocho_c_cuota}`
+            motor = urlMedia + "48-toneladas-catalinas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
+            garantia = urlMedia + "48-toneladas-catalinas/5-anos-de-garantia.webp"
+            tecnologia = urlMedia + "alemania_negro.webp"
+            caracteristicas = [
+                urlMedia + "48-toneladas-catalinas/camion-de-48-toneladas-potencia-540hp.webp",
+                urlMedia + "48-toneladas-catalinas/camion-de-48-toneladas-cilindraje.webp",
+                urlMedia + "48-toneladas-catalinas/camion-de-48-toneladas-freno-a-las-valvulas.webp",
+                urlMedia + "48-toneladas-catalinas/inyeccion.webp"
+            ]
+            cabina = urlMedia + "48CatalinasNew/cabina.jpg"
+            marcas = urlMedia + "48-toneladas-catalinas/marcas-vehicentro.webp"
+            internas1 = [
+                urlMedia + "48CatalinasNew/volante.webp",
+                urlMedia + "48CatalinasNew/bloqueo.webp",
+                urlMedia + "48CatalinasNew/radio.webp",
+                urlMedia + "48CatalinasNew/nevera.webp"
+            ];
+            internas2 = [
+                urlMedia + "48CatalinasNew/bandeja.webp",
+                urlMedia + "48CatalinasNew/panelControlLitera.webp",
+                urlMedia + "48CatalinasNew/portavasos.webp"
+            ];
+
+            medidas = urlMedia + "48CatalinasNew/medidas.webp"
+            medidasMovil = urlMedia + "48CatalinasNew/medidasCell.webp"
+            audio_motor = urlMedia + "48-toneladas-catalinas/motor.mp3"
+
+            internas = internas1.concat(internas2)
+
+            contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+                <img src={marcas} width="1500" height="750" className="slideMain" alt='contenedor marcas' />
+            </div>
+            contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
+
+            break;
+
+
+
         //28 toneladas
         case "28-ton":
             console.log('28 ton')
@@ -512,7 +564,9 @@ function Camion() {
             imagen = urlMedia + "postales/48_C_TON_FOTO.webp"
             break;
 
-
+        case "cabezal-c7h-540-catalinas-48-toneladas-nueva-version":
+            imagen = urlMedia + "48CatalinasNew/formulario.webp"
+            break;
         default:
             break;
     }
