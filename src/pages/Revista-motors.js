@@ -431,6 +431,13 @@ function Block3() {
 
                 break;
 
+            case "cabezal-c7h-540-catalinas-48-toneladas-nueva-version":
+                nombreCamion = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión"
+                camionSerie = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión"
+                nombreSerie = "Serie C7H"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDRM48TONCATNEW"
+
+                break;
 
             default:
                 break;
@@ -448,7 +455,7 @@ function Block3() {
         <>
             <div className="block3 boxBlock">
                 <div>
-                    <a><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+                    <a><img src={urlMedia + "home/nuevasPortadas/nls.jpg"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
                     <div className="bottomContainer">
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2">N</NavLink>
@@ -463,10 +470,10 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2">100</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/landing/revista-motors/camion/3-5-ton" ><span></span>3.5 TON</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/3-6-ton" >3.6 TON</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/5-ton">5 TON</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/6-ton">6 TON</NavLink>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/3-5-ton" ><span></span>3.5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/3-6-ton" >3.6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/5-ton">5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/6-ton">6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/revista-motors/camion/8-ton">8 TON</NavLink>
                         </div>
                     </div>
@@ -477,13 +484,13 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2">T5G</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/landing/revista-motors/camion/9-ton">9 TON</NavLink><br></br>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/10-ton">10 TON</NavLink><br></br>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/12-ton">12 TON</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/13-ton">13 TON 280HP</NavLink><br></br>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/9-ton">9 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/10-ton">10 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/12-ton">12 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/13-ton">13 TON 280HP</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/revista-motors/camion/13-ton-330">13 TON 330HP</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/18-ton">18 TON</NavLink><br></br>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/19-ton">19.5 TON</NavLink><br></br>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/18-ton">18 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/19-ton">19.5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/revista-motors/cabezal/24-ton">24 TON</NavLink>
 
                         </div>
@@ -499,9 +506,9 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2">T7H</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/landing/revista-motors/cabezal/28-ton">28 TON</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/cabezal/cabezal-28-toneladas-retardador">28 ton - retardador</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/cabezal/42-ton">42 TON</NavLink>
+                            <NavLink className="line2" to="/landing/revista-motors/cabezal/28-ton">28 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/cabezal/cabezal-28-toneladas-retardador">28 ton - retardador</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/cabezal/42-ton">42 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/revista-motors/cabezal/45-ton">45 TON</NavLink>
                         </div>
                     </div>
@@ -539,10 +546,13 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2">C7H</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/landing/revista-motors/camion/20-ton">20 TON</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/20-ton-catalinas">20 TON CATALINAS</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/cabezal/48-ton">48 TON</NavLink>
-                            <NavLink className="line2" to="/landing/revista-motors/cabezal/48-ton-catalinas">48 TON CATALINAS</NavLink>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/20-ton">20 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/camion/20-ton-catalinas">20 TON CATALINAS</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/cabezal/48-ton">48 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/revista-motors/cabezal/48-ton-catalinas">48 TON CATALINAS</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <div>
+                                <NavLink className="line2" to="./cabezal/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"><span className="nuevoCamion">NUEVA VERSIÓN</span> 48 TON CATALINAS</NavLink>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -557,9 +567,9 @@ function Block3() {
                         <p className="titleBox"></p>
                         <a className="titleBox2">VOLQUETAS</a>
                         <div className="linksBox">
-                            <a className="line2" src="" href="/landing/revista-motors/volqueta/volqueta-t5g-280">T5G 8-9 m3</a>
-                            <a className="line2" src="" href="/landing/revista-motors/volqueta/volqueta-t7h-430">T7H 10-14 m3</a>
-                            <a className="line2" href="/landing/revista-motors/volqueta/volqueta-t7h-430-20m3">T7H 430 20 m3</a>
+                            <a className="line2" src="" href="/landing/revista-motors/volqueta/volqueta-t5g-280">T5G 8-9 m3</a><p style={{ opacity: '30%' }}>|</p>
+                            <a className="line2" src="" href="/landing/revista-motors/volqueta/volqueta-t7h-430">T7H 10-14 m3</a><p style={{ opacity: '30%' }}>|</p>
+                            <a className="line2" href="/landing/revista-motors/volqueta/volqueta-t7h-430-20m3">T7H 430 20 m3</a><p style={{ opacity: '30%' }}>|</p>
                             <a className="line2" href="/landing/revista-motors/volqueta/volqueta-c7h-540">C7H 540 20 m3</a>
                         </div>
                     </div>
@@ -570,7 +580,7 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">MIXER</p>
                         <div className="linksBox">
-                            <a className="line2" src="" href="/landing/revista-motors/mixer/mixer-a7-1257">A7 8-9 m3</a>
+                            <a className="line2" src="" href="/landing/revista-motors/mixer/mixer-a7-1257">A7 8-9 m3</a><p style={{ opacity: '30%' }}>|</p>
                             <a className="line2" src="" href="revista-motors/mixer/mixer-12-14m3-c7h-430"> C7H 12-14 m3</a>
                         </div>
                     </div>
@@ -595,8 +605,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <NavLink className="titleBox2">MAQUINARIA SUNWARD</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" src="" to="/landing/revista-motors/excavadora/swe210">EXCAVADORA SW210 21 Ton</NavLink>
-                            <NavLink className="line2" src="" to="/landing/revista-motors/excavadora/swe370e">EXCAVADORA SW370E 37 Ton Heavy Duty</NavLink>
+                            <NavLink className="line2" src="" to="/landing/revista-motors/excavadora/swe210">EXCAVADORA SWE 210 21 Ton</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" src="" to="/landing/revista-motors/excavadora/swe370e">EXCAVADORA SWE 370E 37 Ton Heavy Duty <span style={{ opacity: '30%' }}>|</span></NavLink>
                             <NavLink className="line2" src="" to="/landing/revista-motors/minicargadoras/swl3220">MINICARGADORA SWL3220</NavLink>
                         </div>
                     </div>

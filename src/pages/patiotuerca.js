@@ -122,7 +122,7 @@ function Block3() {
             case "camion-2.5":
                 nombreCamion = "Camión de 2.5 toneladas"
                 camionSerie = "2.5 TON"
-                nombreSerie = "Serie 100"
+                nombreSerie = "Serie N"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
 
                 break;
@@ -434,8 +434,12 @@ function Block3() {
 
                 break;
 
-
-
+            case "cabezal-c7h-540-catalinas-48-toneladas-nueva-version":
+                nombreCamion = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión"
+                camionSerie = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión"
+                nombreSerie = "Serie C7H"
+                bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDPT48TONCATNEW"
+                break;
 
             default:
                 break;
@@ -453,12 +457,10 @@ function Block3() {
         <>
             <div className="block3 boxBlock landing">
                 <div>
-                    <a><img src={urlMedia + "home/homeNLS.png"} width="500" height="389" alt="Vehicentro" /></a>
+                    <a><img src={urlMedia + "home/nuevasPortadas/nls.jpg"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
                     <div className="bottomContainer">
-                        <p className="titleBox rojo">NUEVO</p>
-                        <a className="titleBox2" to="/serie/100">
-                            Preventa
-                        </a>
+                        <p className="titleBox">SERIE</p>
+                        <p className="titleBox2">N</p>
                         <div className="linksBox">
                             <a className="line2" onClick={() => { openFormContact("camion-2.5") }}>NLS 2.5</a>
                         </div>
@@ -587,8 +589,8 @@ function Block3() {
                         <p className="titleBox"></p>
                         <p className="titleBox2">SUNWARD</p>
                         <div className="linksBox">
-                            <a className="line2" src="" to="/excavadoras/swe210" onClick={() => { openFormContact("swe210") }}> EXCAVADORA SW210 21 Ton</a>
-                            <a className="line2" src="" to="/excavadoras/swe370e" onClick={() => { openFormContact("swe370e") }}>EXCAVADORA SW370E 37 Ton Heavy Duty</a>
+                            <a className="line2" src="" to="/excavadoras/swe210" onClick={() => { openFormContact("swe210") }}> EXCAVADORA SWE 210 21 Ton</a>
+                            <a className="line2" src="" to="/excavadoras/swe370e" onClick={() => { openFormContact("swe370e") }}>EXCAVADORA SWE 370E 37 Ton Heavy Duty</a>
                             <a className="line2" src="" to="/excavadoras/swe370e" onClick={() => { openFormContact("MINI-CARGADORA") }}>MINICARGADORA SWL3220</a>
                         </div>
                         <div className="linksBox">
