@@ -1764,7 +1764,12 @@ li.mouseA:hover {
 
 .block3 .bottomContainer .linksBox a:hover {
   color: red;
+  background-color: none;
   cursor: pointer;
+}
+
+.block3 .bottomContainer .linksBox a:hover span {
+  background-color: #2d2d2d !important;
 }
 
 .linksBox.iniciocentrado {
@@ -2111,7 +2116,7 @@ a.titleBox2:hover {
 }
 
 .nuevoCamion:hover {
-  color: #fff !important;
+  color: #ff2222 !important;
 }
 
 .nuevoCamion2 {

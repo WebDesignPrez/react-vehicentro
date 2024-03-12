@@ -330,8 +330,7 @@ function Block3() {
               <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON CATALINAS</NavLink>
               <span style={{ opacity: '30%' }}>|</span>
               <div>
-                <span className="nuevoCamion">NUEVA VERSIÓN</span>
-                <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-cabina">48 TON CATALINAS</NavLink>
+                <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"><span className="nuevoCamion">NUEVA VERSIÓN</span> 48 TON CATALINAS</NavLink>
               </div>
             </div>
           </div>

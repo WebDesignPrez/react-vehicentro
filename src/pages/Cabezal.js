@@ -503,12 +503,12 @@ function Camion() {
 
 
     //48 toneladas con catalinas nueva cabina
-    case "cabezal-c7h-540-catalinas-48-toneladas-nueva-cabina":
-      pathUrl = "cabezal-c7h-540-catalinas-48-toneladas-nueva-cabina"
-      nombreCamion = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Cabina"
+    case "cabezal-c7h-540-catalinas-48-toneladas-nueva-version":
+      pathUrl = "cabezal-c7h-540-catalinas-48-toneladas-nueva-version"
+      nombreCamion = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión"
       nombreBusqueda = "cabezal 48 toneladas"
       nombreBusqueda2 = "camion 48 toneladas"
-      camionSerie = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Cabina"
+      camionSerie = "Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión"
       nombreSerie = "Serie C7H"
       mercadoObjetivo = "Transporte pesado en general"
       fortalezas = "Bajo consumo de combustible, doble tanque de aluminio, aros de alcoa, chasis reforzado, capacidad eje posterior, mayor comodidad cabina, camarote, full extras, Catalinas"
@@ -656,7 +656,7 @@ function Camion() {
       imagen = urlMedia + "postales/48_TON_FOTO.webp"
       break;
 
-    case "cabezal-c7h-540-catalinas-48-toneladas-nueva-cabina":
+    case "cabezal-c7h-540-catalinas-48-toneladas-nueva-version":
       imagen = urlMedia + "48CatalinasNew/formulario.webp"
       break;
 
@@ -777,7 +777,7 @@ function Camion() {
           <p className='vidaUtil'>DESDE</p>
           <p className='precioCamiones' >{precio}</p>
           {
-            nombreCamion !== 'Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Cabina' &&
+            nombreCamion !== 'Cabezal de 48 toneladas con Catalinas | C7H-540 Nueva Versión' &&
             <p className='cuotas'>{cuotas}</p>
           }
 
