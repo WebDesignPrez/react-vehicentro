@@ -212,7 +212,7 @@ function PoliticaUsoDatos() {
             <br />
             <p>
               Para hacer efectivos sus derechos ponemos a disposición los contactos del delegado (DPO) de Vehicentro al final de esta política con quien podrá contactarse para atender su requerimiento. <br />
-              Para ello, necesitamos que nos envíe el siguiente formulario<a href="https://vehicentro.com/documentos/EJERCICIO_DEL_DERECHO_DEL_TITULAR.pdf" download target="_blank" rel="noreferrer">  (link de descarga)</a> y lo envíe por correo a  <a href="mailto:privacidad@vehicentro.com">privacidad@vehicentro.com</a> y en un plazo de 15 días a partir de recibida la solicitud, como estipula la LOPDP, se notificará si la solicitud procede o no.<br />
+              Para ello, necesitamos que nos envíe el siguiente formulario<a href="https://vehicentro.com/documentos/FORMULARIO_DE_SOLICITUD_DEL_EJERCICIO_DE_DERECHOS_DEL_TITULAR.pdf" download target="_blank" rel="noreferrer">  (link de descarga)</a> y lo envíe por correo a  <a href="mailto:privacidad@vehicentro.com">privacidad@vehicentro.com</a> y en un plazo de 15 días a partir de recibida la solicitud, como estipula la LOPDP, se notificará si la solicitud procede o no.<br />
             </p>
 
           </div>
