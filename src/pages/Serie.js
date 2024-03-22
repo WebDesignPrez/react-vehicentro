@@ -254,7 +254,8 @@ function Serie() {
 
             },
             {
-                serie: "C7H 540 CATALINAS NUEVA VERSIÓN",
+                nuevo: "NUEVA VERSIÓN",
+                serie: "C7H 540 CATALINAS",
                 modelo: "48 TON",
                 url: "/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"
 
@@ -376,7 +377,7 @@ function Serie() {
                     {series.map((item, index) => (
                         <NavLink className="serieContainer" to={item.url}>
                             <p className="nombreSerie">
-                                {item.serie}
+                                <p className="pintarRojo">{item.nuevo}</p>{item.serie}
                             </p>
                             <span className="modeloSerie">
                                 {item.modelo}

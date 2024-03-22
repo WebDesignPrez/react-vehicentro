@@ -901,6 +901,18 @@ p.titleFooter {
   width: 100%;
 }
 
+.pintarRojo:hover {
+  background-color: #000;
+}
+
+.pintarRojo {
+  background-color: red;
+}
+
+.serieContainer:hover .pintarRojo {
+  background-color: #000;
+}
+
 .movilImg {
   display: none;
 }
