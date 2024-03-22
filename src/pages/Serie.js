@@ -246,11 +246,21 @@ function Serie() {
                 serie: "C7H 540",
                 modelo: "48 TON",
                 url: "/cabezales/cabezal-c7h-540"
-            }, {
+            },
+            {
                 serie: "C7H 540 CATALINAS",
                 modelo: "48 TON",
                 url: "/cabezales/cabezal-c7h-540-catalinas-48-toneladas"
-            }]
+
+            },
+            {
+                serie: "C7H 540 CATALINAS NUEVA VERSIÓN",
+                modelo: "48 TON",
+                url: "/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"
+
+            },
+
+            ]
 
 
             garantia = urlMedia + "12-toneladas/5-anos-de-garantia.webp"
