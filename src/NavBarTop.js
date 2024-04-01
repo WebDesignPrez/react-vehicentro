@@ -481,11 +481,11 @@ export default function NavBarTop() {
                             <p className="colItem meniu"><NavLink to="/sinotruk/autos/u70">U70</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/sinotruk/autos/u70pro">U70 PRO</NavLink></p>
                         </div>
-                        <div className="colMenu">
+                        {/* <div className="colMenu">
                             <p className="colTitle">Furgonetas</p>
 
                             <p className="colItem meniu"><NavLink to="/keyton/furgonetas/m70l">M70L</NavLink></p>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
