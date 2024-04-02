@@ -250,9 +250,9 @@ function App() {
           <Route path="/landing/patiotuerca/sinotruk/autos/u70pro" element={<U70ProLandingMedios />} />
 
           {/* Furgonetas */}
-          <Route path="/keyton/furgonetas" element={<FurgonetasLanding />} />
-          <Route path="/keyton/furgonetas/m70l" element={<M70L />} />
-          <Route path="/keyton/furgonetas/m70l-EV" element={<M70L_EV />} />
+          {/* <Route path="/keyton/furgonetas" element={<FurgonetasLanding />} /> */}
+          {/* <Route path="/keyton/furgonetas/m70l" element={<M70L />} /> */}
+          {/* <Route path="/keyton/furgonetas/m70l-EV" element={<M70L_EV />} /> */}
 
           <Route path="/bdc/paises" element={<Paises />} />
           <Route path="/terminosCondiciones" element={<TerminosCondiciones />} />

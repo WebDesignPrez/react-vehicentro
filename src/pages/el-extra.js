@@ -463,6 +463,8 @@ function Block3() {
                         <NavLink className="titleBox2">N</NavLink>
                         <div className="linksBox">
                             <NavLink className="line2" to="/landing/el-extra/camion/2-5-ton" >NLS 2.5 TON</NavLink>
+                            <p style={{ opacity: '30%' }}>|</p>
+                            <NavLink className="line2" to="/landing/el-extra/camion/3-5-ton" ><span></span>3.5 TON</NavLink>
                         </div>
                     </div>
                 </div>
@@ -472,7 +474,6 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2">100</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/landing/el-extra/camion/3-5-ton" ><span></span>3.5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/el-extra/camion/3-6-ton" >3.6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/el-extra/camion/5-ton">5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/el-extra/camion/6-ton">6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
