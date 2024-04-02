@@ -233,6 +233,10 @@ function Block3() {
             <NavLink className="titleBox2" to="/serie/n">N</NavLink>
             <div className="linksBox">
               <NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >NLS 2.5 TON</NavLink>
+              <p style={{ opacity: '30%' }}>|</p>
+              <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" ><span></span> NKS 3.5 TON ( LIVIANO )</NavLink>
+
+              {/* <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas-nks" >NKS 3.6 TON ( PESADO )</NavLink> */}
             </div>
           </div>
         </div>
@@ -242,8 +246,6 @@ function Block3() {
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/100">100</NavLink>
             <div className="linksBox">
-              <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" ><span></span>3.5 TON</NavLink> <p style={{ opacity: '30%' }}>|</p>
-
               <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
               <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
               <NavLink className="line2" to="/camiones/camion-de-6-toneladas-1067">6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>

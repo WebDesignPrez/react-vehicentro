@@ -65,11 +65,6 @@ function Content2() {
 
     series = [
         {
-            serie: "1057",
-            modelo: "3.5 TON",
-            url: "/camiones/camion-de-3-5-toneladas-1057"
-        },
-        {
             serie: "1047",
             modelo: "3.6 TON",
             url: "/camiones/camion-de-3-6-toneladas"
