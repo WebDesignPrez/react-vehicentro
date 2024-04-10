@@ -51,7 +51,7 @@ function Content2() {
 
     series = [{
         serie: "SUV",
-        modelo: "U70",
+        modelo: "U70-FULL",
         url: "/sinotruk/autos/u70"
     }, {
         serie: "SUV",

@@ -358,7 +358,7 @@ function Block3() {
             <p className="titleBox"></p>
             <NavLink className="titleBox2" to="/sinotruk/autos">SUV'S</NavLink>
             <div className="linksBox">
-              <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70</NavLink><p style={{ opacity: '30%' }}>|</p>
+              <NavLink className="line2" src="" to="/sinotruk/autos/u70">U70 FULL</NavLink><p style={{ opacity: '30%' }}>|</p>
               <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">U70 PRO</NavLink>
             </div>
           </div>
