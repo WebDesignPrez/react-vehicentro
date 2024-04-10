@@ -47,7 +47,7 @@ nav.internal {
 
 .internal .nav-links>li {
   background: #101113;
-  height: 13vh;
+  height: 0;
 }
 
 .internal .nav-links a {
