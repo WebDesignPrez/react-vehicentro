@@ -61,15 +61,15 @@ const Vehiculo = () => {
 
     //U70PRO
     case "U70":
-      nombreCamion = "U70"
-      camionSerie = "U70"
+      nombreCamion = "U70-FULL"
+      camionSerie = "U70-FULL"
       nombreSerie = "autos"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBAUTU70"
   }
 
   switch ((useParams("id").id)) {
 
-    case "U70":
+    case "U70-FULL":
       break;
     default:
       break;
@@ -88,10 +88,10 @@ const Vehiculo = () => {
   return (
     <div className="boxesIni posRelative">
       <div className="centrado">
-        <img src={urlMedia + "formu70.jpg"} width="1400" height="1000" className="slideMain" alt="SUV - auto 7 pasajeros" title="auto 7 pasajeros" />
+        <img src={urlMedia + "formu70.webp"} width="1400" height="1000" className="slideMain" alt="SUV - auto 7 pasajeros" title="auto 7 pasajeros" />
       </div>
       <div>
-        <FormContact url={"https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBAUTU70"} camion={'U70'} serie={'autos'} camionSerie={'U70'} />
+        <FormContact url={"https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBAUTU70"} camion={'U70-FULL'} serie={'autos'} camionSerie={'U70-FULL'} />
       </div>
     </div>
 

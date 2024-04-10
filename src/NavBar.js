@@ -479,7 +479,7 @@ export default function NavBar() {
           <div className="rowMenu">
             <div className="colMenu">
               <p className="colTitle">SUV'S</p>
-              <p className="colItem meniu"><NavLink to="/sinotruk/autos/u70">U70</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/sinotruk/autos/u70">U70 FULL</NavLink></p>
               <p className="colItem meniu"><NavLink to="/sinotruk/autos/u70pro">U70 PRO</NavLink></p>
             </div>
             {/* <div className="colMenu">
