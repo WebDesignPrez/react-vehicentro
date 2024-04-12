@@ -141,8 +141,8 @@ function Concesionarios() {
       nombre: "MACHALA",
       descripcion: "Punto de Venta, Talleres y Repuestos",
       telefono: "032-994740 | 0992048229",
-      direccion: "Av 25 de Junio km 3 1/2 Vía a Pasaje",
-      url: "https://goo.gl/maps/ia5uLKucpSos4mSp7",
+      direccion: "Av. Panamericana vía Pasaje - Machala, a 500 mts del redondel Parroquia El Cambio, Junto a Cementos Guapan",
+      url: "https://maps.app.goo.gl/JNBbmfDLvHgb4u7w5",
       img: urlMedia + "vehicentro-machala.webp",
       alt: ""
     }]

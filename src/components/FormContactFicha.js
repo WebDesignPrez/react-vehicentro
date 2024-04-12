@@ -315,7 +315,7 @@ function FormContactFicha(props) {
   const excavadora = ['SWE210', 'SWE370E'];
   const furgoneta = ['M70L'];
   const miniCargadora = ['SWL3220'];
-  const autos = ['U70PRO', 'U70'];
+  const autos = ['U70PRO', 'U70-FULL'];
 
   let type = null;
   let options = null;
