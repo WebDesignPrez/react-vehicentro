@@ -125,6 +125,7 @@ function Inicio2() {
       <PopUpAvisoLegal />
       {showPopup2 && <PromoPopUp onClose={handleClosePopup2} />}
       <NavBar />
+      <NewBlock />
       <Block1 />
       <Slider />
       <Menu2 />
@@ -134,6 +135,68 @@ function Inicio2() {
       <Footer />
       <Modal />
       {/* <Modal2 /> */}
+    </>
+  )
+}
+function NewBlock() {
+  return (
+    <>
+      <div className="nuevoBlock">
+        <div className="bloqueArriba">
+          <div className="bloqueA1">
+            <video preload="none" autoPlay={true} playsInline={true} controls loop muted id="myVideo" src="https://www.vehicentro.com/images/home/540New.mp4" className="videoWidth produ" />
+          </div>
+          <div className="bloqueA2">
+            <h1 className="tituloSinotruk">SINOTRUK ECUADOR</h1>
+            <h2 className="textoInicio">Camiones, vehículos SUV, cabezales, volquetas, contretera y maquinaria pesada: excavadora, minicargadoras con tecnología de vanguardia</h2>
+          </div>
+          <div className="bloqueA3">
+
+          </div>
+          <div className="bloqueA4">
+
+          </div>
+        </div>
+        <div className="bloqueAbajo">
+          <div className="bloqueAb1">
+            <div className="boxTitulo">
+              <p className="tituloPro">PRODUCTOS</p>
+            </div>
+            <p className="camionText">CAMIONES</p>
+            <div className="">
+              <div className="seriesHead">
+                <a href="/serie/n">Serie N </a><p className="espacios"> |</p>
+                <a href="/serie/100"> Serie 100 </a><p className="espacios"> |</p>
+                <a href="/serie/t5g"> Serie T5G</a>
+              </div>
+              <div className="seriesHead">
+                <a href="/serie/t7h">Serie T7H </a> <p className="espacios"> |</p>
+                <a href="/serie/c7h"> Serie C7H</a>
+              </div>
+            </div>
+            <p className="camionText">VEHÍCULOS</p>
+            <div className="seriesHead">
+              <a href="/sinotruk/autos/u70">U70 FULL </a><p className="espacios"> |</p>
+              <a href="/sinotruk/autos/u70pro"> U70 PRO</a>
+            </div>
+          </div>
+          <div className="bloqueAb2">
+
+          </div>
+          <div className="bloqueAb3">
+            <div className="cotizarBlock">
+              <a href="">COTIZAR</a>
+            </div>
+            <div className="wpBlock">
+              <img className="wpLogo" src="https://vehicentro.com/images/wp.png"></img>
+            </div>
+            <div className="cotizarBlock">
+              <a href="">CAMIONES <br /> EN USO</a>
+            </div>
+          </div>
+        </div>
+      </div >
+      <Slider />
     </>
   )
 }
