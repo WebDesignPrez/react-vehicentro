@@ -73,7 +73,7 @@ function Banner() {
         <div className="posRelative banner">
             <img src={urlMedia + "home/vehicentro-en-ecuador-venta-de-camiones-cabezales-y-volquetas-sinotruk.webp"} width="1790" height="590" className="slideMain" alt="Punto de Venta" />
             <div className="boxText flex-table row">
-                <a href="/concesionarios"><div className="flex-row textMain textMain2">Puntos Vehicentro a nivel Nacional</div></a>
+                <a href="/concesionarios"><div className="flex-row textMain textMain2 negro">Puntos Vehicentro a nivel Nacional</div></a>
             </div>
         </div>
     )

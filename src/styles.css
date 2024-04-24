@@ -1045,6 +1045,162 @@ p.titleFooter {
   flex-wrap: wrap;
 }
 
+.nuevoBlock {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+}
+
+.bloqueArriba {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 100%;
+}
+
+.bloqueAbajo {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 100%;
+}
+
+.bloqueA1 {
+  width: 25%;
+  background-color: black;
+}
+
+.bloqueA2 {
+
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: #fff;
+}
+
+.bloqueA3 {
+  background-image: url(../public/images/home/veinsInici.webp);
+  background-size: cover;
+  width: 20%;
+  background-color: blueviolet;
+}
+
+.bloqueA4 {
+  background-image: url(../public/images/home/newSinotrukero.webp);
+  background-size: cover;
+  width: 25%;
+  height: 100%;
+}
+
+.boxTitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloqueAb1 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.seriesHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tituloSinotruk {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.textoInicio {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.bloqueAbajo a {
+  color: #000;
+}
+
+.bloqueAbajo a:hover {
+  color: red;
+}
+
+.tituloPro {
+  font-size: 2.2rem;
+  padding-bottom: 2rem;
+}
+
+.espacios {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.camionText {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.bloqueAb2 {
+  background-image: url(../public/images/home/bannerInicio3.jpg);
+  background-size: cover;
+  width: 60%;
+  background-color: red;
+}
+
+.wpLogo {
+  width: 25%;
+  height: auto;
+}
+
+.bloqueAb3 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cotizarBlock {
+  width: 100%;
+  height: 25%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cotizarBlock a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.wpBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+
+
+
+
 
 
 @media only screen and (min-width: 1024px) {
@@ -1139,6 +1295,11 @@ p.titleFooter {
 .boxIniRow .textArrowRow:hover {
   color: #e30c13;
   cursor: pointer;
+}
+
+
+.flex-row.textMain.textMain2 {
+  color: 000 !important
 }
 
 .flex-table {
