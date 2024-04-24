@@ -125,7 +125,7 @@ function Inicio2() {
       <PopUpAvisoLegal />
       {showPopup2 && <PromoPopUp onClose={handleClosePopup2} />}
       <NavBar />
-      <NewBlock />
+      {/* <NewBlock /> */}
       <Block1 />
       <Slider />
       <Menu2 />
