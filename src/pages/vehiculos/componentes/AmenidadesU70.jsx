@@ -21,7 +21,7 @@ function AmenidadesU70() {
             </div>
             <div className='izquierda'>
               <img src={urlMedia + "icono3.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
-              <p>17 Pulgadas</p>
+              <p>18 Pulgadas</p>
             </div>
             <div className='derecha'>
               <img src={urlMedia + "icono4.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
@@ -65,7 +65,7 @@ function AmenidadesU70() {
               <p>17 Pulgadas</p>
             </div>
             <div className='derecha'>
-              <img src={urlMedia + "icono4.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros'/>
+              <img src={urlMedia + "icono4.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>Frenos de Disco</p>
             </div>
           </div>
@@ -75,7 +75,7 @@ function AmenidadesU70() {
               <p>4825 mm</p>
             </div>
             <div className='derecha2'>
-              <img src={urlMedia + "iconoAC.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros'  />
+              <img src={urlMedia + "iconoAC.png"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
               <p>A/C Eléctrico</p>
             </div>
           </div>
@@ -93,7 +93,7 @@ function AmenidadesU70() {
 
 
         <div className='image'>
-          <img src={urlMedia + "emocion1.webp"}  alt='auto 7 pasajeros' title='auto 7 pasajeros'/>
+          <img src={urlMedia + "emocion1.webp"} alt='auto 7 pasajeros' title='auto 7 pasajeros' />
         </div>
 
 

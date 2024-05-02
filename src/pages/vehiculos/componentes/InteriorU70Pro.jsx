@@ -23,14 +23,14 @@ const Interior = () => {
         {
           titulo: '3 Filas de Asientos',
           descripcion: '',
-          img: urlMedia + 'interiorNew.jpg'
+          img: urlMedia + 'inter2.jpg'
         }
-        // ,
-        // {
-        //   titulo: 'Amplio Espacio',
-        //   descripcion: '',
-        //   img: urlMedia + 'asientos2.webp'
-        // }
+        ,
+        {
+          titulo: 'Amplio Espacio',
+          descripcion: '',
+          img: urlMedia + 'inter3.webp'
+        }
       ]
     },
     {
@@ -73,11 +73,11 @@ const Interior = () => {
       titulo: 'Volante',
       subCategorias: [
 
-        // {
-        //   titulo: 'Acabados en cuero',
-        //   descripcion: '',
-        //   img: urlMedia + 'volante3.webp'
-        // },
+        {
+          titulo: 'Acabados en cuero',
+          descripcion: '',
+          img: urlMedia + 'inter1.jpg'
+        },
         {
           titulo: 'Control Multimedia',
           descripcion: '',
@@ -91,18 +91,18 @@ const Interior = () => {
         // }
       ]
     },
-    // {
-    //   id: 4,
-    //   titulo: 'Almacenamiento',
-    //   subCategorias: [
+    {
+      id: 4,
+      titulo: 'Almacenamiento',
+      subCategorias: [
 
-    //     {
-    //       titulo: 'Consola Central',
-    //       descripcion: '',
-    //       img: urlMedia + 'consola.webp'
-    //     },
-    //   ]
-    // },
+        {
+          titulo: 'Consola Central',
+          descripcion: '',
+          img: urlMedia + 'inter5.webp'
+        },
+      ]
+    },
     {
       id: 3,
       titulo: 'Palanca',

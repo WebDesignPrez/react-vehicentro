@@ -21,7 +21,7 @@ function AmenidadesU70Pro() {
             </div>
             <div className='izquierda'>
               <img src={urlMedia + "icono3.png"} alt='Rin 18 pulgadas' />
-              <p>18 Pulgadas</p>
+              <p>20 Pulgadas</p>
             </div>
             <div className='derecha'>
               <img src={urlMedia + "icono4.png"} alt='Frenos de disco U70PRO' />
@@ -44,7 +44,7 @@ function AmenidadesU70Pro() {
           </div>
         </div>
         <div className='image'>
-          <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} loop muted id="myVideo" src={urlMedia + "animacionAsientos.mp4"} className="videoWidth produ" />
+          <video preload="none" autoPlay={true} width="930" height="1080" playsInline={true} loop muted id="myVideo" src={urlMedia + "cajuela.mp4"} className="videoWidth produ" />
         </div>
       </div>
       <div className='compraBox responsive'>

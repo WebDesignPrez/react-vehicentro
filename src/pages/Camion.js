@@ -730,10 +730,10 @@ function Camion() {
       mercadoObjetivo = "Carga liviana y pesada, varios sectores productivos y servicios;  agricultura, ganaderia, transporte ( agua, gas, productos de primera necesidad, etc)"
       fortalezas = "Frenos de 100% aire, costo del mantenimiento y repuestos"
       nombreSerie = "Serie N"
-      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH3.6T"
       images = [
         urlMedia + "3.5-toneladas/nuevo/3.5TON_3_4.webp",
-        urlMedia + "3.5-toneladas/nuevo/3.5TON_FRONTAL.webp"
+        urlMedia + "3.6nks/frontal.webp"
       ];
       textoMotor1 = "100% Aire"
       textoMotor2 = "3.6 Ton NKS"
@@ -743,7 +743,7 @@ function Camion() {
       cuotas = ``
       motor = urlMedia + "3.6nks/motor.webp"
       garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
-      tecnologia = urlMedia + "3.5-toneladas/nuevo/serie-100.webp"
+      tecnologia = urlMedia + "3.6nks/serieN.webp"
 
       caracteristicas = [
         urlMedia + "palancas/6mas1.webp",
@@ -818,7 +818,7 @@ function Camion() {
         }
       </div>
 
-      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "3.5-toneladas/homologado.webp"} />
+      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "/3.6nks/Homologado.webp"} />
 
       </div>
       break;
