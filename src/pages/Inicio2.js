@@ -298,6 +298,8 @@ function Block3() {
               <NavLink className="line2" to="/camiones/camion-de-2-5-toneladas" >NLS 2.5 TON</NavLink>
               <p style={{ opacity: '30%' }}>|</p>
               <NavLink className="line2" to="/camiones/camion-de-3-5-toneladas-1057" ><span></span> NKS 3.5 TON ( LIVIANO )</NavLink>
+              <p style={{ opacity: '30%' }}>|</p>
+              <NavLink className="line2" to="/camiones/camion-de-3-6-nks" ><span></span> NKS 3.6 TON ( LIVIANO )</NavLink>
 
               {/* <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas-nks" >NKS 3.6 TON ( PESADO )</NavLink> */}
             </div>
