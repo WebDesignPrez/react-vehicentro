@@ -722,6 +722,108 @@ function Camion() {
       </div>
       break;
 
+    case "camion-de-3-6-nks":
+      pathUrl = "camion-de-3-6-nks"
+      nombreCamion = "Camión de 3.6 toneladas nks"
+      nombreBusqueda = "Camión de 3.6 toneladas"
+      camionSerie = "NKS 3.6 TON"
+      mercadoObjetivo = "Carga liviana y pesada, varios sectores productivos y servicios;  agricultura, ganaderia, transporte ( agua, gas, productos de primera necesidad, etc)"
+      fortalezas = "Frenos de 100% aire, costo del mantenimiento y repuestos"
+      nombreSerie = "Serie N"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
+      images = [
+        urlMedia + "3.5-toneladas/nuevo/3.5TON_3_4.webp",
+        urlMedia + "3.5-toneladas/nuevo/3.5TON_FRONTAL.webp"
+      ];
+      textoMotor1 = "100% Aire"
+      textoMotor2 = "Modelo 1057 - 3.5 Ton NKS"
+      textoMotor3 = "Ficha técnica"
+      precio = precios.tres_cinco
+      seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
+      cuotas = ``
+      motor = urlMedia + "3.6nks/motor.webp"
+      garantia = urlMedia + "3.5-toneladas/5-anos-de-garantia.webp"
+      tecnologia = urlMedia + "3.5-toneladas/nuevo/serie-100.webp"
+
+      caracteristicas = [
+        urlMedia + "palancas/6mas1.webp",
+        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-cilindraje.webp",
+        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-freno-de-aire.webp",
+        urlMedia + "3.5-toneladas/camion-de-3.5-toneladas-inyeccion-common-rail.webp"
+      ]
+      cabina = urlMedia + "3.5-toneladas/cabina-de-camion-de-3.5-toneladas-sinotruk.webp"
+      marcas = ""
+      internas1 = [
+        urlMedia + "3.5-toneladas/volante-deportivo.webp",
+        urlMedia + "3.5-toneladas/ventilacion.webp"
+      ];
+      internas2 = [
+        urlMedia + "3.5-toneladas/palanca-de-cambios.webp",
+        urlMedia + "3.5-toneladas/bloqueo.webp"
+      ];
+      internas1b = [
+        urlMedia + "3.5-toneladas/radio-mp5.webp",
+        urlMedia + "3.5-toneladas/vidrios-electricos.webp"
+      ];
+      internas2b = [
+        urlMedia + "3.5-toneladas/cabina.webp"
+      ];
+      medidas = urlMedia + "3.6nks/3.6NksPc.webp"
+      medidasMovil = urlMedia + "3.6nks/3.6NksCell.webp"
+      audio_motor = urlMedia + "3.5-toneladas/motor.mp3"
+
+
+      internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
+      //loop slider
+
+      slide3 = internas1b.map((interna) =>
+        <div className="each-slide-effect" >
+          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+          </div>
+        </div>
+      );
+
+      slide3b = internas2b.map((interna) =>
+        <div className="each-slide-effect" >
+          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+          </div>
+        </div>
+      );
+
+      contenedorMarcas = <div style={{ display: `contents` }} >
+        {internas1b.length > 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <Fade >
+              {slide3}
+            </Fade>
+          </div>
+        }
+        {internas1b.length == 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <img src={internas1b[0]} alt={`Internas 1 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
+          </div>
+        }
+
+        {internas2b.length > 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <Fade >
+              {slide3b}
+            </Fade>
+          </div>
+        }
+        {internas2b.length == 1 &&
+          <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+            <img src={internas2b[0]} alt={`Internas 2 ${nombreBusqueda}`} title={`${nombreBusqueda}`} />
+          </div>
+        }
+      </div>
+
+      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "3.5-toneladas/homologado.webp"} />
+
+      </div>
+      break;
+
+
 
     //3.6 toneladas
     case "camion-de-3-6-toneladas":
@@ -1298,6 +1400,10 @@ function Camion() {
     // case "camion-de-3-6-toneladas-nks":
     //   imagen = urlMedia + "3.5-toneladas/nuevo/3.5.webp"
     //   break;
+
+    case "camion-de-3-6-nks":
+      imagen = urlMedia + "3.5-toneladas/nuevo/3.5.webp"
+      break;
 
     case "camion-de-3-5-toneladas-1057":
       imagen = urlMedia + "3.5-toneladas/nuevo/3.5.webp"
