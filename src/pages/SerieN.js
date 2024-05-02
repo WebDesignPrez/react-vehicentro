@@ -72,6 +72,12 @@ function Content2() {
       serie: "NKS",
       modelo: "3.5 TON",
       url: "/camiones/camion-de-3-5-toneladas-1057"
+    }
+    ,
+    {
+      serie: "NKS",
+      modelo: "3.6 TON",
+      url: "/camiones/camion-de-3-6-nks"
     },
   ]
 

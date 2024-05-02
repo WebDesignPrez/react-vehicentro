@@ -462,6 +462,10 @@ function Block3() {
                         <div className="linksBox">
                             <NavLink className="line2" to="/landing/revista-motors/camion/2-5-ton" >NLS 2.5 TON</NavLink>
                         </div>
+                        <p style={{ opacity: '30%' }}>|</p>
+                        <NavLink className="line2" to="/landing/revista-motors/camion/3-5-ton" ><span></span>NKS 3.5 TON ( LIVIANO )</NavLink><p style={{ opacity: '30%' }}>|</p>
+                        <p style={{ opacity: '30%' }}>|</p>
+                        <NavLink className="line2" to="/landing/revista-motors/camion/camion-de-3-6-nks" ><span></span> NKS 3.6 TON ( PESADO )</NavLink>
                     </div>
                 </div>
                 <div>
@@ -470,8 +474,7 @@ function Block3() {
                         <p className="titleBox">SERIE</p>
                         <NavLink className="titleBox2">100</NavLink>
                         <div className="linksBox">
-                            <NavLink className="line2" to="/landing/revista-motors/camion/3-5-ton" ><span></span>3.5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
-                            <NavLink className="line2" to="/landing/revista-motors/camion/3-6-ton" >3.6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+                            {/* <NavLink className="line2" to="/landing/revista-motors/camion/3-6-ton" >3.6 TON</NavLink><p style={{ opacity: '30%' }}>|</p> */}
                             <NavLink className="line2" to="/landing/revista-motors/camion/5-ton">5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/revista-motors/camion/6-ton">6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
                             <NavLink className="line2" to="/landing/revista-motors/camion/8-ton">8 TON</NavLink>
