@@ -377,6 +377,7 @@ export default function NavBar() {
               <p className="colTitle">Serie N</p>
               <p className="colItem meniu"><NavLink to="/camiones/camion-de-2-5-toneladas"><span className="nuevoCamion2">NUEVO</span> NLS 2.5 ton</NavLink></p>
               <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-5-toneladas-1057"><span className="nuevoCamion2">NUEVO</span>  NKS 3.5 ton ( Liviano )</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-6-nks"><span className="nuevoCamion2">NUEVO</span>  NKS 3.6 ton ( Liviano )</NavLink></p>
               {/* <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-6-toneladas-nks"><span className="nuevoCamion2">NUEVO</span>  NKS 3.6 ton ( Pesado )</NavLink></p> */}
             </div>
             <div className="colMenu">
