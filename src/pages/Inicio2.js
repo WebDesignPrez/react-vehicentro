@@ -311,7 +311,7 @@ function Block3() {
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/100">100</NavLink>
             <div className="linksBox">
-              <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
+              {/* <NavLink className="line2" to="/camiones/camion-de-3-6-toneladas" >3.6 TON</NavLink><p style={{ opacity: '30%' }}>|</p> */}
               <NavLink className="line2" to="/camiones/camion-de-5-toneladas-1067">5 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
               <NavLink className="line2" to="/camiones/camion-de-6-toneladas-1067">6 TON</NavLink><p style={{ opacity: '30%' }}>|</p>
               <NavLink className="line2" to="/camiones/camion-8-toneladas-1147">8 TON</NavLink>
@@ -393,8 +393,8 @@ function Block3() {
               <NavLink className="line2" to="/camiones/camion-20-toneladas-catalinas-1256">20 TON CATALINAS</NavLink>
               <span style={{ opacity: '30%' }}>|</span>
               <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>
-              <span style={{ opacity: '30%' }}>|</span>
-              <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON CATALINAS</NavLink>
+              {/* <span style={{ opacity: '30%' }}>|</span>
+              <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON CATALINAS</NavLink> */}
               <span style={{ opacity: '30%' }}>|</span>
               <div>
                 <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"><span className="nuevoCamion">NUEVA VERSIÓN</span> 48 TON CATALINAS</NavLink>

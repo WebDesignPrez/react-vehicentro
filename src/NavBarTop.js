@@ -383,7 +383,7 @@ export default function NavBarTop() {
                         <div className="colMenu">
                             <p className="colTitle">Serie 100</p>
 
-                            <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-6-toneladas">1047 / 3.6 ton</NavLink></p>
+                            {/* <p className="colItem meniu"><NavLink to="/camiones/camion-de-3-6-toneladas">1047 / 3.6 ton</NavLink></p> */}
                             <p className="colItem meniu"><NavLink to="/camiones/camion-de-5-toneladas-1067">1067 / 5 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-de-6-toneladas-1067">1067 / 6 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-8-toneladas-1147">1147 / 8 ton</NavLink></p>
@@ -420,7 +420,7 @@ export default function NavBarTop() {
                             <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-1256">1256 / 20 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-catalinas-1256">1256 / 20 ton - catalinas</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540">540 / 48 ton</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">540 / 48 ton - catalinas</NavLink></p>
+                            {/* <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">540 / 48 ton - catalinas</NavLink></p> */}
                             <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"><span className="nuevoCamion2">NUEVA VERSIÓN</span> 540 / 48 ton - catalinas</NavLink></p>
 
                         </div>
