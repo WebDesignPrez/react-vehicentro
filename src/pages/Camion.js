@@ -736,7 +736,7 @@ function Camion() {
         urlMedia + "3.5-toneladas/nuevo/3.5TON_FRONTAL.webp"
       ];
       textoMotor1 = "100% Aire"
-      textoMotor2 = "Modelo 1057 - 3.5 Ton NKS"
+      textoMotor2 = "3.6 Ton NKS"
       textoMotor3 = "Ficha técnica"
       precio = precios.tres_cinco
       seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
