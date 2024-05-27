@@ -153,7 +153,7 @@ function Concesionarios() {
       descripcion: "Punto de Venta",
       telefono: "032-994740 | 0992048229",
       direccion: "Panamericana Sur Km1 y calle los Andes",
-      url: "https://goo.gl/maps/G2Z3U7WHDspnpNNM8",
+      url: "https://maps.app.goo.gl/hUcaenKkGHTvRfyd6",
       img: urlMedia + "IBARRA-2.jpg",
       alt: ""
     }]
