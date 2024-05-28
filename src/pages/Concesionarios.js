@@ -152,7 +152,7 @@ function Concesionarios() {
       nombre: "IBARRA",
       descripcion: "Punto de Venta",
       telefono: "032-994740 | 0992048229",
-      direccion: "Panamericana Sur Km1 y calle los Andes",
+      direccion: "Av. Mariano Acosta y Manuelita Sáenz esq.",
       url: "https://maps.app.goo.gl/hUcaenKkGHTvRfyd6",
       img: urlMedia + "IBARRA-2.jpg",
       alt: ""
