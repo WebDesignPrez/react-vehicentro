@@ -84,7 +84,16 @@ function Concesionarios() {
       url: "https://goo.gl/maps/LTqZkCCed9DpdY949",
       img: urlMedia + "/contactanos/pifo.webp",
       alt: ""
-    }]
+    }, {
+      nombre: "QUITO, GRANADOS",
+      descripcion: "Punto de Venta y Repuestos",
+      telefono: "032-994740 | 0992048229",
+      direccion: "Av. Granados y de los Naranjos",
+      url: "https://www.google.com/maps?q=-0.1654535,-78.4666104",
+      img: urlMedia + "contactanos/sinFoto.webp",
+      alt: ""
+    }
+    ]
   }, {
     id: "Guayaquil",
     datos: [{
