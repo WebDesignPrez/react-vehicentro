@@ -19,6 +19,13 @@
     margin: 0 0 .5vh 0;
 }
 
+.form-box h5.new {
+    font-size: 30px;
+    text-align: center;
+    color: #c41a2f;
+    margin: 0 0 .5vh 0;
+}
+
 .form-box label {
     display: block;
     text-align: center;
@@ -70,12 +77,13 @@ textarea {
 .nextBtn {
     display: inline-block;
     width: 100%;
-    height: 2rem;
+    height: 4rem;
     color: red;
     border: 0;
     bottom: 0;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .nextBtnDisabled {
@@ -138,9 +146,10 @@ textarea {
 .input_title {
     text-align: left !important;
     margin: 0px !important;
-    color: #9e9e9e !important;
+    color: #000 !important;
     font-size: 17px !important;
     height: 20px;
+    padding-bottom: 1.5rem;
 }
 
 input[type=text] {
@@ -176,6 +185,12 @@ input[type=text] {
     color: #c41a2f !important;
     text-decoration: underline;
 }
+
+.linknew {
+    color: #373737 !important;
+    text-decoration: none !important;
+}
+
 
 .contenedorTerminos input {
     width: 20px;
@@ -225,4 +240,79 @@ input[type=text] {
 .espacioText {
     padding-right: 3rem;
     padding-left: 3rem;
+}
+
+.input-group {
+    background-color: #e8e9e8;
+}
+
+input {
+    background-color: #e8e9e8;
+}
+
+select {
+    background-color: #e8e9e8;
+}
+
+
+.containerLanding {
+    display: flex;
+    width: 100%;
+}
+
+.left-side-landing {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side-landing img {
+
+    width: 100%;
+
+}
+
+.right-side-landing {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.field1 {
+    margin-top: 3vw;
+}
+
+.each-slide-effect>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 40vw;
+}
+
+.each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.each-slide-effectNew {
+    width: 100%;
+    height: '300px';
+}
+
+@media only screen and (max-width: 768px) {
+    .left-side-landing {
+        display: none !important;
+    }
+
+    .right-side-landing {
+        width: 100%;
+
+    }
 }
