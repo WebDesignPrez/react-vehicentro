@@ -437,7 +437,7 @@ export default function NavBar() {
             <div className="colMenu">
               <p className="colTitle">Mixer</p>
               <p className="colItem meniu"><NavLink to="/mixer/mixer-a7-1257">A7 8-9m3</NavLink></p>
-              <p className="colItem meniu"><NavLink to="/mixer/mixer-12-14m3-c7h-430">C7H 12-14m3</NavLink></p>
+              <p className="colItem meniu"><NavLink to="/mixer/mixer-12-14m3-c7h-430">C7H 12 m3</NavLink></p>
               <div>
               </div>
             </div>
