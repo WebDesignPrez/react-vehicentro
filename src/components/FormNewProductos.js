@@ -4,7 +4,8 @@ import "../form.css";
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import env from '../config';
-import { Slide } from "react-slideshow-image";
+
+import { Slide } from 'react-slideshow-image';
 
 let urlMedia = env.url;
 
@@ -12,7 +13,6 @@ function FormNewProductos() {
   // let redireccion = "https://vehicentro.com/gracias-por-contactarnos";
 
   let [nombre, setNombre] = useState('');
-  let [apellido, setApellido] = useState('');
   let [email, setEmail] = useState('');
   let [celular, setCelular] = useState('');
   let [producto, setProducto] = useState('Camiones Sinotruk');
@@ -21,9 +21,6 @@ function FormNewProductos() {
     setNombre(e.target.value);
   }
 
-  const handleChangeApellido = (e) => {
-    setApellido(e.target.value);
-  }
 
   const handleChangeEmail = (e) => {
     setEmail(e.target.value);
@@ -107,7 +104,7 @@ function FormNewProductos() {
         url = "";
     }
 
-    if (!validateName(nombre) && !validateName(apellido) && !validateEmail(email) && !validateTel(celular)) {
+    if (!validateName(nombre) && !validateEmail(email) && !validateTel(celular)) {
       $.ajax({
         type: "POST",
         url: url,
@@ -118,7 +115,6 @@ function FormNewProductos() {
         error(data) {
           NotificationManager.success('Datos enviados.', '');
           setNombre('');
-          setApellido('');
           setEmail('');
           setCelular('');
           setProducto('Camiones Sinotruk');
@@ -142,18 +138,11 @@ function FormNewProductos() {
       <div className="left-side-landing">
         <img src="https://www.vehicentro.com/images/camion.jpg" alt="Descripción de la imagen" />
 
-        {/* <Slide duration={2000}>
-          <div className="each-slide-effect">
-            <div style={{ height: `23.2vw` }}>
-              <a href="./sinotruk/autos/u70"><img style={{ width: '100%' }} src={urlMedia + "home/U70Carrusel.webp"} /></a>
-            </div>
-          </div>
-          <div className="each-slide-effect">
-            <div style={{ height: `23.2vw` }}>
-              <a href="./sinotruk/autos/u70pro"><img style={{ width: '100%' }} src={urlMedia + "home/U70ProCarrusel.webp"} /></a>
-            </div>
-          </div>
-        </Slide> */}
+        <Slide duration={4000} >
+          <img src='https://vehicentro.com/images/home/slider3.webp' alt='Slider 3' style={{ width: '100%', height: 'auto' }} />
+          <img src='https://vehicentro.com/images/home/slider4.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
+          <img src='https://vehicentro.com/images/home/slider5.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
+        </Slide>
       </div>
       <div className="right-side-landing">
         <div className="form-box">
