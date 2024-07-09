@@ -391,8 +391,8 @@ function Block3() {
               <NavLink className="line2" to="/camiones/camion-20-toneladas-1256">20 TON</NavLink>
               <span style={{ opacity: '30%' }}>|</span>
               <NavLink className="line2" to="/camiones/camion-20-toneladas-catalinas-1256">20 TON CATALINAS</NavLink>
-              <span style={{ opacity: '30%' }}>|</span>
-              <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>
+              {/* <span style={{ opacity: '30%' }}>|</span> */}
+              {/* <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink> */}
               {/* <span style={{ opacity: '30%' }}>|</span>
               <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON CATALINAS</NavLink> */}
               <span style={{ opacity: '30%' }}>|</span>
@@ -478,7 +478,7 @@ function Block3() {
               <div>
                 <p>Mixer:</p>
                 <NavLink className="line2" src="" to="/mixer/mixer-a7-1257"> A7 8-9 m3</NavLink><span style={{ opacity: '30%' }}>|</span>
-                <NavLink className="line2" src="" to="/mixer/mixer-12-14m3-c7h-430"> C7H 12-14 m3</NavLink>
+                <NavLink className="line2" src="" to="/mixer/mixer-12-14m3-c7h-430"> C7H 12 m3</NavLink>
               </div>
             </div>
           </div>

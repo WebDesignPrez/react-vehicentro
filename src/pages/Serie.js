@@ -242,11 +242,11 @@ function Serie() {
                 modelo: "20 TON CATALINAS",
                 url: "/camiones/camion-20-toneladas-catalinas-1256"
             },
-            {
-                serie: "C7H 540",
-                modelo: "48 TON",
-                url: "/cabezales/cabezal-c7h-540"
-            },
+            // {
+            //     serie: "C7H 540",
+            //     modelo: "48 TON",
+            //     url: "/cabezales/cabezal-c7h-540"
+            // },
             {
                 serie: "C7H 540 CATALINAS",
                 modelo: "48 TON",
