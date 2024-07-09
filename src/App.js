@@ -107,6 +107,7 @@ import Paises from "./pages/Paises"
 import TerminosCondiciones from "./pages/TerminosCondiciones"
 import PopUp from "./components/PopUp";
 import SerieN from "./pages/SerieN";
+import FormProductos from "./pages/FormProductos";
 
 
 
@@ -256,6 +257,7 @@ function App() {
 
           <Route path="/bdc/paises" element={<Paises />} />
           <Route path="/terminosCondiciones" element={<TerminosCondiciones />} />
+          <Route path="/cotizar" element={<FormProductos />} />
 
 
         </Routes>
