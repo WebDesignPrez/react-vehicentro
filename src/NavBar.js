@@ -419,7 +419,7 @@ export default function NavBar() {
               <p className="colTitle">Serie C7H</p>
               <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-1256">1256 / 20 ton</NavLink></p>
               <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-catalinas-1256">1256 / 20 ton - catalinas</NavLink></p>
-              <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540">540 / 48 ton</NavLink></p>
+              {/* <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540">540 / 48 ton</NavLink></p> */}
               {/* <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">540 / 48 ton - catalinas</NavLink></p> */}
               <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"><span className="nuevoCamion2">NUEVA VERSIÓN</span> 540 / 48 ton - catalinas</NavLink></p>
             </div>
