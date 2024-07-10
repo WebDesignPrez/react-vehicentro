@@ -95,8 +95,8 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH2.5TON"
       images = [
-        urlMedia + "2.5-toneladas/2.5-TON.webp",
-        urlMedia + "2.5-toneladas/2.5_TON_FRONTAL.webp"
+        urlMedia + "persNuevo/2.5_TON.jpg",
+        urlMedia + "frontalesNuevas/2.5_TON.jpg"
       ];
       textoMotor1 = "110HP"
       textoMotor2 = "NLS"
@@ -227,8 +227,8 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB10TT5G1167"
       console.log('10 Toneladas')
       images = [
-        urlMedia + "portadasSinSorteo/10_TON_3_4.webp",
-        urlMedia + "principal/10TON_FRONTAL.webp"
+        urlMedia + "persNuevo/10_TON.jpg",
+        urlMedia + "frontalesNuevas/10_TON.jpg"
       ];
       textoMotor1 = "240 HP"
       textoMotor2 = "Modelo T5G-1167 - 10 Ton"
@@ -288,8 +288,8 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHCR9T1167"
       console.log('9 toneladas')
       images = [
-        urlMedia + "portadasSinSorteo/9_TON_3_4.webp",
-        urlMedia + "principal/9TON_FRONTAL.webp"
+        urlMedia + "persNuevo/9_TON.jpg",
+        urlMedia + "frontalesNuevas/9_TON.jpg"
       ];
       textoMotor1 = "210 HP"
       textoMotor2 = "Modelo T5G-1167 - 9 Ton"
@@ -345,8 +345,8 @@ function Camion() {
       fortalezas = "Garantía real a nivel nacional, 3 puertos usb, radio touch, cabina acciona eléctrico, cabina más cómoda, cabina más práctica , espejos angulares, desempañador eléctrico, apertura a distancia de vidrios, desempañador electrico de espejos  "
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB12TT5G1167"
       images = [
-        urlMedia + "portadasSinSorteo/12_TON_3_4.webp",
-        urlMedia + "principal/12TON_FRONTAL.webp"
+        urlMedia + "persNuevo/12_TON.jpg",
+        urlMedia + "frontalesNuevas/12_TON.jpg"
       ];
       textoMotor1 = "240 HP"
       textoMotor2 = "Modelo T5G-1167 - 12 Ton"
@@ -403,8 +403,8 @@ function Camion() {
       fortalezas = "Precio competitivo, ahorro de combustible, velocidad y potencia, confort y comodidad, dimensiones perfectas volumen-peso, stock de unidades y variedad de colores"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB13T1167"
       images = [
-        urlMedia + "portadasSinSorteo/13_280_TON3_4.webp",
-        urlMedia + "principal/13_280_TON_FRONTAL.webp"
+        urlMedia + "persNuevo/13_TON_280.jpg",
+        urlMedia + "frontalesNuevas/13_TON_280.jpg"
       ];
       textoMotor1 = "280 HP"
       textoMotor2 = "Modelo T5G-1167 - 13 Ton"
@@ -461,8 +461,8 @@ function Camion() {
       fortalezas = "Muy buena tecnología de fabricación- alta gama de pintura, buen precio-mantenimiento más económico, mejor garantía en el mercado- menos consumo de combustible - camión más fuerte y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web13TOVDT5G1167"
       images = [
-        urlMedia + "portadasSinSorteo/13_330_TON3_4.webp",
-        urlMedia + "principal/13_330_TON_FRONTAL.webp"
+        urlMedia + "persNuevo/13_TON_330.jpg",
+        urlMedia + "frontalesNuevas/13_TON_330.jpg"
       ];
       textoMotor1 = "330 HP"
       textoMotor2 = "Modelo T5G-1167 - 13 Ton"
@@ -518,7 +518,8 @@ function Camion() {
       fortalezas = "Mayor potencia, menor peso al vacío, mayor capacidad de carga, mayor largo carrozable, excelente relación precio/prestaciones, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB18T1257"
       images = [
-        urlMedia + "portadasSinSorteo/18_TON_FRONTAL.webp"
+        urlMedia + "persNuevo/18_TON.jpg",
+        urlMedia + "frontalesNuevas/18_TON.jpg"
       ];
       textoMotor1 = "340 HP"
       textoMotor2 = "Modelo T5G-1257 - 18 Ton"
@@ -575,8 +576,8 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable, cabina con apertura eléctrica"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB19T1257"
       images = [
-        urlMedia + "portadasSinSorteo/19_TON_BLANCO3_4.webp",
-        urlMedia + "principal/19TON_AMARILLO_3_4.webp"
+        urlMedia + "persNuevo/19_TON.jpg",
+        urlMedia + "frontalesNuevas/19.5_TON.jpg"
       ];
       textoMotor1 = "340 HP"
       textoMotor2 = "Modelo T5G-1257"
@@ -631,8 +632,8 @@ function Camion() {
       nombreSerie = "Serie N"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB3T1157"
       images = [
-        urlMedia + "3.5-toneladas/nuevo/3.5TON_3_4.webp",
-        urlMedia + "3.5-toneladas/nuevo/3.5TON_FRONTAL.webp"
+        urlMedia + "persNuevo/3.5_TON_W.jpg",
+        urlMedia + "frontalesNuevas/3.5_TON_W.jpg"
       ];
       textoMotor1 = "100% Aire"
       textoMotor2 = "NKS 3.5 Ton"
@@ -732,11 +733,11 @@ function Camion() {
       nombreSerie = "Serie N"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH3.6T"
       images = [
-        urlMedia + "3.5-toneladas/nuevo/3.5TON_3_4.webp",
-        urlMedia + "3.6nks/frontal.webp"
+        urlMedia + "persNuevo/3.6_TON_W.jpg",
+        urlMedia + "frontalesNuevas/3.6_TON_W.jpg"
       ];
       textoMotor1 = "100% Aire"
-      textoMotor2 = "NKS 3.6 Ton"
+      textoMotor2 = "NKS 3.6 Ton"
       textoMotor3 = "Ficha técnica"
       precio = precios.tres_cinco
       seo = `Sinotruk | ${nombreBusqueda} en Vehicentro de la ${nombreSerie}, con freno 100% aire y 5 años de garantía. Precio: ${precio} ¡Descúbrelo hoy!`
@@ -837,8 +838,8 @@ function Camion() {
       fortalezas = "Frenos de 100% aire, costo del mantenimiento y repuestos"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH3.6T"
       images = [
-        urlMedia + "principal/3.6TON_3_4.webp",
-        urlMedia + "principal/3.6TON_FRONTAL.webp"
+        urlMedia + "persNuevo/3.6_TON_W.jpg",
+        urlMedia + "frontalesNuevas/3.6_TON_W.jpg"
       ];
       textoMotor1 = "100% Aire"
       textoMotor2 = "Modelo 1047 - 3.6 Ton"
@@ -1038,8 +1039,8 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB5T1167"
       images = [
-        urlMedia + "5-toneladas/5_TON_3_4.png",
-        urlMedia + "5-toneladas/5_TON_FRONTAL.png"
+        urlMedia + "persNuevo/5_TON_CC.png.jpg",
+        urlMedia + "frontalesNuevas/5_TON_CC.jpg"
       ];
       textoMotor1 = "141 HP"
       textoMotor2 = "Modelo 1067 - 5 Ton"
@@ -1140,8 +1141,8 @@ function Camion() {
       nombreSerie = "Serie 100"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB6T1167"
       images = [
-        urlMedia + "principal/6TON_3_4.webp",
-        // urlMedia + "principal/6TON_FRONTAL.webp"
+        urlMedia + "persNuevo/6_TON.jpg",
+        urlMedia + "frontalesNuevas/6_TON.jpg"
 
       ];
       textoMotor1 = "154 HP"
@@ -1230,8 +1231,8 @@ function Camion() {
       fortalezas = "Mayor potencia, mejor equipamiento, precio, garantía de postventa"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB8T1147"
       images = [
-        urlMedia + "principal/8TON_3_4.webp",
-        urlMedia + "principal/8TON_FRONTAL.webp"
+        urlMedia + "persNuevo/8_TON.png.jpg",
+        urlMedia + "frontalesNuevas/8_TON.jpg"
       ];
       textoMotor1 = "180 HP"
       textoMotor2 = "Modelo 1147 - 8 Ton"
@@ -1285,8 +1286,8 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB20TC7H1256"
       images = [
-        urlMedia + "portadasSinSorteo/20_TON_3_4.webp",
-        urlMedia + "principal/20TON_FRONTAL.webp"
+        urlMedia + "persNuevo/20_TON.jpg",
+        urlMedia + "frontalesNuevas/20_TON.jpg"
       ];
       textoMotor1 = "430 HP"
       textoMotor2 = "Modelo C7H-1256"
@@ -1341,7 +1342,8 @@ function Camion() {
       fortalezas = "Cilindrada menor y más eficiencia en el consumo, cabina con camarote confortable"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH20TCAT"
       images = [
-        urlMedia + "portadasSinSorteo/20_C_TON_3_4.webp",
+        urlMedia + "persNuevo/20_TON_C.jpg",
+        urlMedia + "frontalesNuevas/20_TON_C.jpg",
       ];
       textoMotor1 = "430 HP"
       textoMotor2 = "Modelo C7H-1256"
@@ -1494,8 +1496,6 @@ function Camion() {
       </div>
     </div>
   );
-
-  console.log('nombre busqueda', nombreBusqueda);
 
   // ---- PÁGINA ----
   return <>

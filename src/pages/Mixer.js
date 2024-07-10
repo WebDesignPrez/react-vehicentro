@@ -84,8 +84,8 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERA71257"
             images = [
-                urlMedia + "C7H430-Mixer/Mixer-8m3-34.jpg",
-                urlMedia + "principal/A7_MIXER_FRONTAL.webp"
+                urlMedia + "persNuevo/MIXER_A7.jpg",
+                urlMedia + "frontalesNuevas/MIXER_A7.jpg"
             ];
             textoMotor1 = "380 HP"
             textoMotor2 = "Modelo 1257 - 8m3"
@@ -175,8 +175,8 @@ function Mixer() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMIXERC7H12M3"
             images = [
-                urlMedia + "C7H430-Mixer/Mixer12m3-34.jpg",
-                urlMedia + "C7H430-Mixer/Mixer12m3-frontal.jpg"
+                urlMedia + "persNuevo/MIXER_C7H.jpg",
+                urlMedia + "frontalesNuevas/MIXER_C7H.jpg"
             ];
             textoMotor1 = ""
             textoMotor2 = "12-14m3 C7H 430"

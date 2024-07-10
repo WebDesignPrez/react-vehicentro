@@ -86,8 +86,7 @@ function Camion() {
             pathUrl = "volqueta-t5g-280"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA330"
             images = [
-                urlMedia + "principal/8-9VOLQUETA_3_4.webp",
-                urlMedia + "principal/8-9_VOLQUETA_FRONTAL.webp"
+                urlMedia + "persNuevo/VOLQUETA_8M.jpg",
             ];
             textoMotor1 = "330 HP"
             textoMotor2 = "Modelo T5G-330"
@@ -135,7 +134,6 @@ function Camion() {
 
         //volqueta 430
         case "volqueta-t7h-430":
-            console.log('volqueta T7H-430')
             pathUrl = "volqueta-t7h-430"
             nombreCamion = "Volqueta | T7H-430"
             nombreBusqueda = 'volqueta 10m - volqueta 10 metros - volqueta 14m - volqueta 14 metros'
@@ -143,7 +141,7 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
             images = [
-                urlMedia + "principal/10-14VOLQUETA_3_4.webp"
+                urlMedia + "persNuevo/VOLQUETA_10M.jpg"
             ];
             textoMotor1 = "430 HP"
             textoMotor2 = "Modelo T7H-430"
@@ -198,7 +196,8 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540"
             images = [
-                urlMedia + "principal/20VOLQUETA_3_4.webp"
+                urlMedia + "persNuevo/VOLQUETA_20M_C7H.jpg",
+                urlMedia + "frontalesNuevas/VOLQUETA_C7H_20M3.jpg"
             ];
             textoMotor1 = "20 m3"
             textoMotor2 = "Modelo C7H-540"
@@ -246,7 +245,8 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETAT7H54020M3"
             images = [
-                urlMedia + "T7H_3257_VOLQUETA_20M3/frontal.webp"
+                urlMedia + "persNuevo/VOLQUETA_T7H.jpg",
+                urlMedia + "T7H_3257_VOLQUETA_20M3/frontal.webp",
             ];
             textoMotor1 = "20 m3"
             textoMotor2 = "Modelo T7H-430"
