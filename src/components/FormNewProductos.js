@@ -1,11 +1,12 @@
 import $ from "jquery";
 import { useState } from 'react';
 import "../form.css";
+import '../slider.css';
 import { NotificationContainer, NotificationManager } from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import env from '../config';
 
-import { Slide } from 'react-slideshow-image';
+import { Slide, Fade } from 'react-slideshow-image';
 
 let urlMedia = env.url;
 
@@ -133,17 +134,30 @@ function FormNewProductos() {
     setIsChecked(event.target.checked);
   };
 
+
+  const foto1 = [
+    urlMedia + "camion.jpg",
+    urlMedia + "maquinarias.jpg",
+    urlMedia + "auto.jpg"
+  ];
+
+  let slide1 = foto1.map((image) =>
+    <div className="each-slide-effect">
+      <div style={{ 'backgroundImage': `url(${image})`, height: `50vw` }}>
+      </div>
+    </div>
+  );
+
   return (
     <div className="containerLanding">
       <div className="left-side-landing">
-        <img src="https://www.vehicentro.com/images/camion.jpg" alt="Descripción de la imagen" />
-
-        <Slide duration={4000} >
-          <img src='https://vehicentro.com/images/home/slider3.webp' alt='Slider 3' style={{ width: '100%', height: 'auto' }} />
-          <img src='https://vehicentro.com/images/home/slider4.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
-          <img src='https://vehicentro.com/images/home/slider5.webp' alt='Slider 4' style={{ width: '100%', height: 'auto' }} />
-        </Slide>
-      </div>
+        {/* <img src="https://www.vehicentro.com/images/camion.jpg" alt="Descripción de la imagen" /> */}
+        <div className="boxRightHeader  half noResponsive" style={{ width: `100%` }}>
+          <Slide duration={2000}>
+            {slide1}
+          </Slide>
+        </div>
+      </div >
       <div className="right-side-landing">
         <div className="form-box">
           <h5 className="form-step new"> Personaliza tu cotización </h5>
@@ -199,7 +213,7 @@ function FormNewProductos() {
           </form>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

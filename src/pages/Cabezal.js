@@ -99,8 +99,8 @@ function Camion() {
       fortalezas = "Motor man de alta tecnologia, gran experiencia a nivel mundial. Unificación de partes y componentes al estar disponible en otros modelos de la marca"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB24TT5G4187"
       images = [
-        urlMedia + "portadasSinSorteo/24_TON_3_4.webp",
-        urlMedia + "principal/24TON_FRONTAL.webp"
+        urlMedia + "persNuevo/24_TON.jpg",
+        urlMedia + "frontalesNuevas/24_TON.jpg"
       ];
       textoMotor1 = "340 HP"
       textoMotor2 = "Modelo T5G-4187 - 24 Ton"
@@ -163,8 +163,7 @@ function Camion() {
       fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
       images = [
-        urlMedia + "portadasSinSorteo/28_TON_3_4.webp",
-        urlMedia + "principal/28_28_R_TON_FRONTAL.webp"
+        urlMedia + "persNuevo/28_TON.jpg",
       ];
       textoMotor1 = "390 HP"
       textoMotor2 = "Modelo T7H-390"
@@ -222,8 +221,7 @@ function Camion() {
       fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVH28TONWEICHAI"
       images = [
-        urlMedia + "portadasSinSorteo/28_WEICHAI_TON3_4.webp",
-        urlMedia + "portadasSinSorteo/28_W_FRONTAL.webp",
+        urlMedia + "persNuevo/28_TON_W.jpg",
       ];
       textoMotor1 = "340 HP"
       textoMotor2 = "Modelo T7H-340"
@@ -275,8 +273,7 @@ function Camion() {
       fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web28TT7H390"
       images = [
-        urlMedia + "portadasSinSorteo/28_R_TON_3_4.webp",
-        urlMedia + "principal/28TON_FRONTAL.webp"
+        urlMedia + "persNuevo/28_TON_R.jpg",
       ];
       textoMotor1 = "390 HP"
       textoMotor2 = "Modelo T7H-390"
@@ -334,8 +331,7 @@ function Camion() {
       fortalezas = "Frenos de tambor, accionado 100% de aire de doble circuito a todas las ruedas con ABS"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB42TT7H390"
       images = [
-        urlMedia + "portadasSinSorteo/42_TON_3_4.webp",
-        urlMedia + "portadasSinSorteo/42Y45TON_FRONTAL.webp"
+        urlMedia + "persNuevo/42_TON.jpg",
       ];
       textoMotor1 = "390 HP"
       textoMotor2 = "Modelo T7H-390"
@@ -394,8 +390,7 @@ function Camion() {
       fortalezas = "Frenos de tambor, accionado 100% de aire de doble circuito a todas las ruedas con ABS, freno al escape, con válvula de control electro neumático y freno a las válvulas (EVB)"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB45TT7H430"
       images = [
-        urlMedia + "portadasSinSorteo/45_TON_3_4.webp",
-        urlMedia + "portadasSinSorteo/42Y45TON_FRONTAL.webp"
+        urlMedia + "persNuevo/45_TON.jpg",
       ];
       textoMotor1 = "430 HP"
       textoMotor2 = "Modelo T7H-430"
@@ -514,8 +509,8 @@ function Camion() {
       fortalezas = "Bajo consumo de combustible, doble tanque de aluminio, aros de alcoa, chasis reforzado, capacidad eje posterior, mayor comodidad cabina, camarote, full extras, Catalinas"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540CATNEW"
       images = [
-        urlMedia + "48CatalinasNew/newTresCuartosCatalinas.webp",
-        urlMedia + "48CatalinasNew/newFrontal.webp"
+        urlMedia + "persNuevo/48_TON_C_NC.jpg",
+        urlMedia + "frontalesNuevas/48_TON_C_NC.jpg"
       ];
       textoMotor1 = "540 HP"
       textoMotor2 = "Modelo C7H-540"
@@ -572,7 +567,6 @@ function Camion() {
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB48TC7H540OFFROAD"
       images = [
         urlMedia + "portadasSinSorteo/48_TON_C_3_4.webp",
-        urlMedia + "principal/48_TON_C_FRONTAL.webp",
       ];
       textoMotor1 = "540 HP"
       textoMotor2 = "Modelo C7H-540"

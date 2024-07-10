@@ -104,7 +104,7 @@ function Camion() {
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB210SUNWARD"
       images = [
-        urlMedia + "swe210/excavadora.webp"
+        urlMedia + "persNuevo/210.jpg"
       ];
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE210"
@@ -193,7 +193,7 @@ function Camion() {
       nombreSerie = "Excavadora"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB365SUNWARD"
       images = [
-        urlMedia + "swe365e/vehicentroExcavadoraEcuador.webp"
+        urlMedia + "persNuevo/SUNWARD_SWE370E.jpg"
       ];
       textoMotor1 = "SUNWARD"
       textoMotor2 = "SWE370E"
@@ -371,7 +371,7 @@ function Camion() {
 
         <div className="boxRightHeader  half icon_center" >
           <div className="banner"><img src={tecnologia} /></div>
-        {/*           <p className="tecJaponesa">Tecnología Japonesa</p> */}
+          {/*           <p className="tecJaponesa">Tecnología Japonesa</p> */}
         </div>
 
         <div className="boxRightHeader  half text_icon_center" >
@@ -384,7 +384,7 @@ function Camion() {
         </div>
 
       </div>
-    
+
       <div className="boxesIni posRelative">
         <div className="marcasbg">
           <img src={cabina} width="1500" height="1500" className="slideMain" alt="Punto de Venta" />
