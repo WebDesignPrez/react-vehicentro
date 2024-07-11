@@ -438,62 +438,61 @@ function Camion() {
       break;
 
     //48 toneladas
-    // case "cabezal-c7h-540":
-    //   nombreCamion = "Camion de 48 toneladas | C7H-540"
-    //   camionSerie = "C7H 540 / 48 TON"
-    //   nombreSerie = "Serie C7H"
-    //   nombreBusqueda = "cabezal 48 toneladas"
-    //   nombreBusqueda2 = "camion 48 toneladas"
-    //   bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDCO48TON"
-    //   images = [
-    //     urlMedia + "portadasSinSorteo/48_TON_3_4.webp",
-    //     urlMedia + "portadasSinSorteo/48_TON_FRONTAL.webp"
-    //   ];
-    //   textoMotor1 = "540 HP"
-    //   textoMotor2 = "Modelo C7H-540"
-    //   textoMotor3 = "Ficha técnica"
-    //   precio = precios.c_ocho
-    //   seo = seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
-    //   cuotas = `Cuotas desde: ${precios.c_ocho_cuota}`
-    //   motor = urlMedia + "48-toneladas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
-    //   garantia = urlMedia + "48-toneladas/5-anos-de-garantia.webp"
-    //   tecnologia = urlMedia + "alemania_negro.webp"
-    //   caracteristicas = [
-    //     urlMedia + "48-toneladas/camion-de-48-toneladas-potencia-540hp.webp",
-    //     urlMedia + "48-toneladas/camion-de-48-toneladas-cilindraje.webp",
-    //     urlMedia + "48-toneladas/camion-de-48-toneladas-freno-a-las-valvulas.webp",
-    //     urlMedia + "48-toneladas/inyeccion.webp"
-    //   ]
-    //   cabina = urlMedia + "48-toneladas/cabina-de-camion-de-48-toneladas-sinotruk.webp"
-    //   marcas = urlMedia + "48-toneladas/marcas-vehicentro.webp"
-    //   internas1 = [
-    //     urlMedia + "48-toneladas/nevera.webp",
-    //     urlMedia + "48-toneladas/palanca-de-cambios.webp",
-    //     urlMedia + "48-toneladas/control-en-tablero.webp",
-    //     urlMedia + "48-toneladas/control-en-el-tablero-dos.webp",
-    //     urlMedia + "48-toneladas/volante-deportivo.webp",
-    //     urlMedia + "48-toneladas/vidrios-electricos.webp"
-    //   ];
-    //   internas2 = [
-    //     urlMedia + "48-toneladas/cabina-con-litera.webp",
-    //     urlMedia + "48-toneladas/compartimientos.webp",
-    //     urlMedia + "48-toneladas/bloqueo.webp",
-    //     urlMedia + "48-toneladas/puerto-usb.webp",
-    //     urlMedia + "48-toneladas/transmision-automatica.webp"
-    //   ];
+    case "cabezal-c7h-540":
+      nombreCamion = "Camion de 48 toneladas | C7H-540"
+      camionSerie = "C7H 540 / 48 TON"
+      nombreSerie = "Serie C7H"
+      nombreBusqueda = "cabezal 48 toneladas"
+      nombreBusqueda2 = "camion 48 toneladas"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDCO48TON"
+      images = [
+        urlMedia + "persNuevo/48_TON.jpg",
+      ];
+      textoMotor1 = "540 HP"
+      textoMotor2 = "Modelo C7H-540"
+      textoMotor3 = "Ficha técnica"
+      precio = precios.c_ocho
+      seo = seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador. Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
+      cuotas = `Cuotas desde: ${precios.c_ocho_cuota}`
+      motor = urlMedia + "48-toneladas/motor-sinotruk-de-camion-de-48-toneladas-ecuador.webp"
+      garantia = urlMedia + "48-toneladas/5-anos-de-garantia.webp"
+      tecnologia = urlMedia + "alemania_negro.webp"
+      caracteristicas = [
+        urlMedia + "48-toneladas/camion-de-48-toneladas-potencia-540hp.webp",
+        urlMedia + "48-toneladas/camion-de-48-toneladas-cilindraje.webp",
+        urlMedia + "48-toneladas/camion-de-48-toneladas-freno-a-las-valvulas.webp",
+        urlMedia + "48-toneladas/inyeccion.webp"
+      ]
+      cabina = urlMedia + "48-toneladas/cabina-de-camion-de-48-toneladas-sinotruk.webp"
+      marcas = urlMedia + "48-toneladas/marcas-vehicentro.webp"
+      internas1 = [
+        urlMedia + "48-toneladas/nevera.webp",
+        urlMedia + "48-toneladas/palanca-de-cambios.webp",
+        urlMedia + "48-toneladas/control-en-tablero.webp",
+        urlMedia + "48-toneladas/control-en-el-tablero-dos.webp",
+        urlMedia + "48-toneladas/volante-deportivo.webp",
+        urlMedia + "48-toneladas/vidrios-electricos.webp"
+      ];
+      internas2 = [
+        urlMedia + "48-toneladas/cabina-con-litera.webp",
+        urlMedia + "48-toneladas/compartimientos.webp",
+        urlMedia + "48-toneladas/bloqueo.webp",
+        urlMedia + "48-toneladas/puerto-usb.webp",
+        urlMedia + "48-toneladas/transmision-automatica.webp"
+      ];
 
-    //   medidas = urlMedia + "medidas/48WEB_MEDIDAS.webp"
-    //   medidasMovil = urlMedia + "medidas/48_TON_CEL.webp"
-    //   audio_motor = urlMedia + "48-toneladas/motor.mp3"
+      medidas = urlMedia + "medidas/48WEB_MEDIDAS.webp"
+      medidasMovil = urlMedia + "medidas/48_TON_CEL.webp"
+      audio_motor = urlMedia + "48-toneladas/motor.mp3"
 
-    //   internas = internas1.concat(internas2)
+      internas = internas1.concat(internas2)
 
-    //   contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
-    //     <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`} />
-    //   </div>
-    //   contenedorVidaUtil = <div className="ajustetextovidautil"><p>Disponible en AMT</p></div>
+      contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`${nombreBusqueda}, ${nombreBusqueda2}`} />
+      </div>
+      contenedorVidaUtil = <div className="ajustetextovidautil"><p>Disponible en AMT</p></div>
 
-    // break;
+      break;
 
 
 
