@@ -207,7 +207,7 @@ function PoliticaUsoDatos() {
               <p>• Este derecho se podrá ejercer siempre y cuando, no se trate de información pública, interés público o que el tratamiento se encuentre ordenado por una ley.</p>
             </div>
 
-            <p>●  Portabilidad: el titular o interesado puede solicitar a Seguros Suárez la entrega de sus datos personales.</p>
+            <p>●  Portabilidad: el titular o interesado puede solicitar a Vehicentro la entrega de sus datos personales.</p>
 
             <br />
             <p>
