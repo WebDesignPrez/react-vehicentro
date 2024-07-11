@@ -123,7 +123,7 @@ function Inicio2() {
         <meta name="twitter:data1" content="5 minutos"></meta>
       </Helmet>
       <PopUpAvisoLegal />
-      {showPopup2 && <PromoPopUp onClose={handleClosePopup2} />}
+      {/* {showPopup2 && <PromoPopUp onClose={handleClosePopup2} />} */}
       <NavBar />
       {/* <NewBlock /> */}
       <Block1 />
