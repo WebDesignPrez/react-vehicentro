@@ -446,7 +446,7 @@ function Camion() {
       nombreBusqueda2 = "camion 48 toneladas"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDCO48TON"
       images = [
-        urlMedia + "persNuevo/48_TON.jpg",
+        urlMedia + "48New/48_TON.jpg",
       ];
       textoMotor1 = "540 HP"
       textoMotor2 = "Modelo C7H-540"
@@ -463,26 +463,22 @@ function Camion() {
         urlMedia + "48-toneladas/camion-de-48-toneladas-freno-a-las-valvulas.webp",
         urlMedia + "48-toneladas/inyeccion.webp"
       ]
-      cabina = urlMedia + "48-toneladas/cabina-de-camion-de-48-toneladas-sinotruk.webp"
-      marcas = urlMedia + "48-toneladas/marcas-vehicentro.webp"
+      cabina = urlMedia + "48CatalinasNew/cabina.jpg"
+      marcas = urlMedia + "48-toneladas-catalinas/marcas-vehicentro.webp"
       internas1 = [
-        urlMedia + "48-toneladas/nevera.webp",
-        urlMedia + "48-toneladas/palanca-de-cambios.webp",
-        urlMedia + "48-toneladas/control-en-tablero.webp",
-        urlMedia + "48-toneladas/control-en-el-tablero-dos.webp",
-        urlMedia + "48-toneladas/volante-deportivo.webp",
-        urlMedia + "48-toneladas/vidrios-electricos.webp"
+        urlMedia + "48CatalinasNew/volante.webp",
+        urlMedia + "48CatalinasNew/bloqueo.webp",
+        urlMedia + "48CatalinasNew/radio.webp",
+        urlMedia + "48CatalinasNew/nevera.webp"
       ];
       internas2 = [
-        urlMedia + "48-toneladas/cabina-con-litera.webp",
-        urlMedia + "48-toneladas/compartimientos.webp",
-        urlMedia + "48-toneladas/bloqueo.webp",
-        urlMedia + "48-toneladas/puerto-usb.webp",
-        urlMedia + "48-toneladas/transmision-automatica.webp"
+        urlMedia + "48CatalinasNew/bandeja.webp",
+        urlMedia + "48CatalinasNew/panelControlLitera.webp",
+        urlMedia + "48CatalinasNew/portavasos.webp"
       ];
 
-      medidas = urlMedia + "medidas/48WEB_MEDIDAS.webp"
-      medidasMovil = urlMedia + "medidas/48_TON_CEL.webp"
+      medidas = urlMedia + "48New/medidas.webp"
+      medidasMovil = urlMedia + "48New/medidasCell.webp"
       audio_motor = urlMedia + "48-toneladas/motor.mp3"
 
       internas = internas1.concat(internas2)
@@ -615,6 +611,7 @@ function Camion() {
 
 
 
+
     default:
       break;
   }
@@ -646,7 +643,7 @@ function Camion() {
       break;
 
     case "cabezal-c7h-540":
-      imagen = urlMedia + "postales/48_TON_FOTO.webp"
+      imagen = urlMedia + "48New/form.jpg"
       break;
 
     case "cabezal-c7h-540-catalinas-48-toneladas-nueva-version":
