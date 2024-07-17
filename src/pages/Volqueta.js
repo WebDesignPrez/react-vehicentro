@@ -103,7 +103,7 @@ function Camion() {
                 urlMedia + "volqueta-280/inyeccion.webp"
             ]
             cabina = urlMedia + "volqueta-280/cabina-de-volqueta-sinotruk-ecuador.webp"
-            marcas = urlMedia + "volqueta-280/marcas-vehicentro.webp"
+            marcas = urlMedia + "marcas-vehicentro.webp"
             internas1 = [
                 urlMedia + "volqueta-280/volante-deportivo.webp",
                 urlMedia + "volqueta-280/wabco.webp",
@@ -158,7 +158,7 @@ function Camion() {
                 urlMedia + "volqueta-430/inyeccion.webp"
             ]
             cabina = urlMedia + "volqueta-430/cabina-de-volqueta-sinotruk-ecuador.webp"
-            marcas = urlMedia + "volqueta-430/marcas-vehicentro.webp"
+            marcas = urlMedia + "marcas-vehicentro.webp"
             internas1 = [
                 urlMedia + "volqueta-430/volante.webp",
                 urlMedia + "volqueta-430/vidrios-electricos.webp",
@@ -214,7 +214,7 @@ function Camion() {
                 urlMedia + "volqueta-540/inyeccion.webp"
             ]
             cabina = urlMedia + "volqueta-540/CAB-VOL.webp"
-            marcas = urlMedia + "volqueta-540/marcas-vehicentro.webp"
+            marcas = urlMedia + "marcas-vehicentro.webp"
             internas1 = [
                 urlMedia + "volqueta-540/asiento.webp",
                 urlMedia + "volqueta-540/litera.webp",
@@ -263,7 +263,7 @@ function Camion() {
                 urlMedia + "T7H_3257_VOLQUETA_20M3/inyerccion.webp"
             ]
             cabina = urlMedia + "T7H_3257_VOLQUETA_20M3/cabina.webp"
-            marcas = urlMedia + "volqueta-540/marcas-vehicentro.webp"
+            marcas = urlMedia + "marcas-vehicentro.webp"
             internas1 = [
                 urlMedia + "T7H_3257_VOLQUETA_20M3/inter1.webp",
                 urlMedia + "T7H_3257_VOLQUETA_20M3/inter2.webp"

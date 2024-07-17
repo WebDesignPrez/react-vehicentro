@@ -71,6 +71,8 @@ let precios = {
 
     c_ocho_cNew: " $107,890 ",
 
+    c_ocho_Max: " $94,990 ",
+
     e_210: " $161,280",
     e_210_cuota: "",
 
