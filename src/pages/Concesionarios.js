@@ -89,7 +89,7 @@ function Concesionarios() {
       descripcion: "Punto de Venta y Repuestos",
       telefono: "032-994740 | 0992048229",
       direccion: "Av. Granados y de los Naranjos",
-      url: "https://www.google.com/maps?q=-0.1654535,-78.4666104",
+      url: "https://maps.app.goo.gl/svN2ZWViBd9r11Yu7",
       img: urlMedia + "Granados.webp",
       alt: ""
     }
