@@ -118,7 +118,7 @@ function Camion() {
         urlMedia + "24-toneladas/inyeccion.webp"
       ]
       cabina = urlMedia + "24-toneladas/cabina-de-camion-de-24-toneladas-sinotruk.webp"
-      marcas = urlMedia + "24-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "24-toneladas/volante-deportivo.webp",
         urlMedia + "24-toneladas/cabina-con-litera.webp",
@@ -181,7 +181,7 @@ function Camion() {
         urlMedia + "28-toneladas/inyeccion.webp"
       ]
       cabina = urlMedia + "28-toneladas/cabina-de-camion-de-28-toneladas-sinotruk.webp"
-      marcas = urlMedia + "28-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "28-toneladas/volante-deportivo.webp",
         urlMedia + "28-toneladas/pantalla-android.webp",
@@ -290,7 +290,7 @@ function Camion() {
         urlMedia + "28-toneladas-retardador/inyeccion.webp"
       ]
       cabina = urlMedia + "28-toneladas-retardador/cabina-de-camion-de-28-toneladas-sinotruk.webp"
-      marcas = urlMedia + "28-toneladas-retardador/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "28-toneladas-retardador/volante-deportivo.webp",
         urlMedia + "28-toneladas-retardador/pantalla-android.webp",
@@ -349,7 +349,7 @@ function Camion() {
         urlMedia + "42-toneladas/inyeccion.webp"
       ]
       cabina = urlMedia + "42-toneladas/cabina-de-camion-de-42-toneladas-sinotruk.webp"
-      marcas = urlMedia + "42-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "42-toneladas/volante-deportivo.webp",
         urlMedia + "42-toneladas/pantalla-android.webp",
@@ -409,7 +409,7 @@ function Camion() {
         urlMedia + "45-toneladas/inyeccion.webp"
       ]
       cabina = urlMedia + "45-toneladas/cabina-de-camion-de-45-toneladas-sinotruk.webp"
-      marcas = urlMedia + "45-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "45-toneladas/volante-deportivo.webp",
         urlMedia + "45-toneladas/pantalla-android.webp",
@@ -610,7 +610,54 @@ function Camion() {
       break;
 
 
-
+    case "cabezal-c7h-48-max":
+      pathUrl = ""
+      nombreCamion = "Cabezal de 48 toneladas | C7H"
+      nombreBusqueda = "cabezal 48 toneladas"
+      nombreBusqueda2 = "camion 48 toneladas"
+      camionSerie = "C7H 530 / 48 TON MAX"
+      nombreSerie = "Serie C7H"
+      mercadoObjetivo = "Niñeras, plataforma"
+      fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMAX530"
+      images = [
+        urlMedia + "48Max/tresCuartos.webp",
+        urlMedia + "48Max/frontal.webp",
+      ];
+      textoMotor1 = "530 HP"
+      textoMotor2 = "Modelo C7H-530"
+      textoMotor3 = "Ficha técnica"
+      precio = precios.c_ocho_Max
+      seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador.
+        Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
+      motor = urlMedia + "48Max/motor.webp"
+      garantia = urlMedia + "48Max/garantia.webp"
+      tecnologia = urlMedia + "28Weichai/weichaiLogo.webp"
+      caracteristicas = [
+        urlMedia + "48Max/transmision.webp",
+        urlMedia + "48Max/cilindros.webp",
+        urlMedia + "48Max/freno.webp",
+        urlMedia + "48Max/inyeccion.webp"
+      ];
+      cabina = urlMedia + "48Max/cabina.webp"
+      marcas = urlMedia + "48Max/marcas.webp"
+      internas1 = [
+        urlMedia + "48Max/internaC1.webp",
+        urlMedia + "48Max/internaC2.webp",
+      ];
+      internas2 = [
+        urlMedia + "48Max/internaC3.webp",
+        urlMedia + "48Max/internaC4.webp"
+      ];
+      medidas = urlMedia + "48Max/medidas.webp"
+      medidasMovil = urlMedia + "48Max/medidasCell.webp"
+      audio_motor = urlMedia + "28Weichai/motor28Wei.mpeg"
+      internas = internas1.concat(internas2)
+      contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
+        <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`tecnologias ${nombreBusqueda}`} />
+      </div>
+      contenedorVidaUtil = "Retardador 5 tiempos con catalinas"
+      break;
 
     default:
       break;
@@ -652,6 +699,9 @@ function Camion() {
 
     case "cabezal-c7h-540-catalinas-48-toneladas":
       imagen = urlMedia + "postales/48_C_TON_FOTO.webp"
+      break;
+    case "cabezal-c7h-48-max":
+      imagen = urlMedia + "48Max/form.webp"
       break;
 
     //TODO: change photo

@@ -248,7 +248,7 @@ function Camion() {
         urlMedia + "10-toneladas/camion-de-10-toneladas-inyeccion-common-rail.webp"
       ]
       cabina = urlMedia + "10-toneladas/cabina-de-camion-de-10-toneladas-sinotruk.webp"
-      marcas = urlMedia + "10-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "10-toneladas/volante-deportivo-de-camion-de-10-toneladas.webp",
         urlMedia + "10-toneladas/palanca-de-cambios-de-camion-de-10-toneladas.webp",
@@ -307,7 +307,7 @@ function Camion() {
         urlMedia + "9-toneladas/camion-de-9-toneladas-inyeccion-common-rail.webp"
       ]
       cabina = urlMedia + "9-toneladas/cabina-de-camion-de-9-toneladas-sinotruk.webp"
-      marcas = urlMedia + "9-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "9-toneladas/volante-deportivo-de-camion-de-9-toneladas.webp",
         urlMedia + "9-toneladas/palanca-de-cambios-de-camion-de-9-toneladas.webp",
@@ -364,7 +364,7 @@ function Camion() {
         urlMedia + "12-toneladas/camion-de-12-toneladas-inyeccion-common-rail.webp"
       ]
       cabina = urlMedia + "12-toneladas/cabina-de-camion-de-12-toneladas-sinotruk.webp"
-      marcas = urlMedia + "12-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "12-toneladas/volante-deportivo-de-camion-de-12-toneladas.webp",
         urlMedia + "12-toneladas/palanca-de-cambios-de-camion-de-12-toneladas.webp",
@@ -422,7 +422,7 @@ function Camion() {
         urlMedia + "13-toneladas/camion-de-13-toneladas-inyeccion-common-rail.webp"
       ]
       cabina = urlMedia + "13-toneladas/cabina-de-camion-de-13-toneladas-sinotruk.webp"
-      marcas = urlMedia + "13-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "13-toneladas/volante-deportivo-de-camion-de-13-toneladas.webp",
         urlMedia + "13-toneladas/palanca-de-cambios-de-camion-de-13-toneladas.webp",
@@ -480,7 +480,7 @@ function Camion() {
         urlMedia + "13-toneladas-330/camion-de-13-toneladas-inyeccion-common-rail.webp"
       ]
       cabina = urlMedia + "13-toneladas-330/cabina-de-camion-de-13-toneladas-sinotruk.webp"
-      marcas = urlMedia + "13-toneladas-330/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "13-toneladas-330/volante-deportivo-de-camion-de-13-toneladas.webp",
         urlMedia + "13-toneladas-330/palanca-de-cambios-de-camion-de-13-toneladas.webp",
@@ -537,7 +537,7 @@ function Camion() {
         urlMedia + "18-toneladas/camion-de-18-toneladas-inyeccion-common-rail.webp"
       ]
       cabina = urlMedia + "18-toneladas/cabina-de-camion-de-18-toneladas-sinotruk.webp"
-      marcas = urlMedia + "18-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "18-toneladas/volante-deportivo-de-camion-de-18-toneladas.webp",
         urlMedia + "18-toneladas/palanca-de-cambios-de-camion-de-18-toneladas.webp",
@@ -595,7 +595,7 @@ function Camion() {
         urlMedia + "19-toneladas/camion-de-19-toneladas-inyeccion-common-rail.webp"
       ]
       cabina = urlMedia + "19-toneladas/cabina-de-camion-de-19-toneladas-sinotruk.webp"
-      marcas = urlMedia + "19-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "19-toneladas/volante-deportivo-de-camion-de-19-toneladas.webp",
         urlMedia + "19-toneladas/palanca-de-cambios-de-camion-de-19-toneladas.webp",
@@ -1250,7 +1250,7 @@ function Camion() {
         urlMedia + "8-toneladas/inyeccion.webp"
       ]
       cabina = urlMedia + "8-toneladas/cabina-de-camion-de-8-toneladas-sinotruk.webp"
-      marcas = urlMedia + "8-toneladas/marcas-vehicentro.webp"
+      marcas = urlMedia + "marcas-vehicentro.webp"
       internas1 = [
         urlMedia + "8-toneladas/palanca-de-cambios.webp",
         urlMedia + "8-toneladas/volante-deportivo.webp",
