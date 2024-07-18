@@ -231,7 +231,7 @@ function Camion() {
       Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
       motor = urlMedia + "28Weichai/motorNew.webp"
       garantia = urlMedia + "28Weichai/garantiaLogo.webp"
-      tecnologia = urlMedia + "28Weichai/weichaiLogo.webp"
+      tecnologia = urlMedia + "28Weichai/potencia28.webp"
       caracteristicas = [
         urlMedia + "24-toneladas/camion-de-24-toneladas-potencia-340hp.webp",
         urlMedia + "24-toneladas/camion-de-24-toneladas-cilindraje.webp",
@@ -632,7 +632,7 @@ function Camion() {
         Mantenimientos al costo, 5 años de garantía con kilometraje ilimitado. Precio: ${precio}`
       motor = urlMedia + "48Max/motor.webp"
       garantia = urlMedia + "48Max/garantia.webp"
-      tecnologia = urlMedia + "28Weichai/weichaiLogo.webp"
+      tecnologia = urlMedia + "48Max/potenciaMaxima.webp"
       caracteristicas = [
         urlMedia + "48Max/transmision.webp",
         urlMedia + "48Max/cilindros.webp",
@@ -656,7 +656,7 @@ function Camion() {
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
         <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`tecnologias ${nombreBusqueda}`} />
       </div>
-      contenedorVidaUtil = "Retardador 5 tiempos con catalinas"
+      contenedorVidaUtil = "Retardador 5 tiempos y eje trasero con catalinas"
       break;
 
     default:
