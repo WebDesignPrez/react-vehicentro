@@ -419,12 +419,17 @@ export default function NavBarTop() {
                             <p className="colTitle">Serie C7H</p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-1256">1256 / 20 ton</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/camiones/camion-20-toneladas-catalinas-1256">1256 / 20 ton - catalinas</NavLink></p>
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540">540 / 48 ton</NavLink></p>
+                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540"><span className="nuevoCamion2">NUEVO</span> 540 / 48 ton</NavLink></p>
                             {/* <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">540 / 48 ton - catalinas</NavLink></p> */}
-                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-48-max"><span className="nuevoCamion2">NUEVO</span> 530 / 48 ton MAX</NavLink></p>
                             <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"><span className="nuevoCamion2">NUEVO</span> 540 / 48 ton - catalinas</NavLink></p>
 
                         </div>
+
+                        <div className="colMenu">
+                            <p className="colTitle">Serie MAX</p>
+                            <p className="colItem meniu"><NavLink to="/cabezales/cabezal-48-max"><span className="nuevoCamion2">NUEVO</span> 530 / 48 ton </NavLink></p>
+                        </div>
+
 
                         <div className="colMenu">
                             <p className="colTitle">Volquetas</p>
@@ -450,10 +455,10 @@ export default function NavBarTop() {
             <li>
                 <a className="" href="#" option="sunward">MAQUINARIA</a>
                 <div className="item-level-1 nav-header nav-header-h" >
-                    <div className="headerSubMenu">
+                    <div className="headerSubMenu maquinaria">
                         <div className="closeMovil" data-id="1"></div>
                         <p>MAQUINARIA</p>
-                        <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} alt="sunward" />
+                        {/* <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} alt="sunward" /> */}
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
@@ -478,6 +483,7 @@ export default function NavBarTop() {
                     <div className="headerSubMenu">
                         <div className="closeMovil" data-id="10"></div>
                         <p className="tituloMenu">Vehículos</p>
+                        <img className="imgnMenu" src={urlMedia + "sinotrukSinTigre.webp"} alt="sunward" />
                     </div>
                     <div className="rowMenu">
                         <div className="colMenu">
