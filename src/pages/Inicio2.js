@@ -293,21 +293,21 @@ function Block3() {
       </div>
       <div className="block3 boxBlock" id="pagina">
         <div>
-          <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/nuevasPortadas/nls.jpg"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/1.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">NLS</p>
             <NavLink className="titleBox2" to="/camiones/camion-de-2-5-toneladas">2.5 TON</NavLink>
           </div>
         </div>
         <div>
-          <a href="/serie/100"><img src={urlMedia + "home/nuevasPortadas/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <a href="/serie/100"><img src={urlMedia + "home/2.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">NKS</p>
             <NavLink className="titleBox2" to="/camiones/camion-de-3-5-toneladas-1057">3.5 TON</NavLink>
           </div>
         </div>
         <div>
-          <a href="/serie/t5g"><img src={urlMedia + "home/nuevasPortadas/serie-t5g.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
+          <a href="/serie/t5g"><img src={urlMedia + "home/3.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">MAX</p>
             <NavLink className="titleBox2" to="/cabezales/cabezal-48-max">48 TON</NavLink>
@@ -320,7 +320,7 @@ function Block3() {
       </div>
       <div className="block3 boxBlock" id="pagina">
         <div>
-          <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/nuevasPortadas/nls.jpg"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/serieN.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">SERIE</p>
             <NavLink className="titleBox2" to="/serie/n">N</NavLink>
