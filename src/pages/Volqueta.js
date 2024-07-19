@@ -141,7 +141,8 @@ function Camion() {
             nombreSerie = "Especiales"
             bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA430"
             images = [
-                urlMedia + "persNuevo/VOLQUETA_10M.jpg"
+                urlMedia + "volqueta-430/tresCuartos.webp",
+                urlMedia + "volqueta-430/frontal.webp"
             ];
             textoMotor1 = "430 HP"
             textoMotor2 = "Modelo T7H-430"
@@ -175,8 +176,8 @@ function Camion() {
                 urlMedia + "volqueta-430/palanca.webp"
             ];
 
-            medidas = urlMedia + "medidas/VOLQUETA_10-4.webp"
-            medidasMovil = urlMedia + "medidas/VOLQUETA_10_CEL.webp"
+            medidas = urlMedia + "volqueta-430/medidas.webp"
+            medidasMovil = urlMedia + "volqueta-430/medidasCell.webp"
             audio_motor = urlMedia + "volqueta-430/motor.wav"
 
             internas = internas1.concat(internas2)
@@ -299,7 +300,7 @@ function Camion() {
 
         case "volqueta-t7h-430":
             //al cambiar poner nombre con 430
-            imagen = urlMedia + "postales/VOLQUETA_420_FOTO.webp"
+            imagen = urlMedia + "volqueta-430/form.webp"
             break;
 
         case "volqueta-c7h-540":

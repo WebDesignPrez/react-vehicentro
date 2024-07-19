@@ -572,6 +572,10 @@ p.titleFooter {
   padding-bottom: 10px;
 }
 
+.headerSubMenu.maquinaria {
+  justify-content: center !important;
+}
+
 .headerSubMenu p {
   color: #000;
   margin-top: 10px;
@@ -1543,6 +1547,19 @@ p.titleFooter {
   display: none;
 }
 
+.fraseInicio {
+  background-color: #ec0c0d;
+  opacity: 85%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
 .ocultarDesktop {
   display: none;
 }
@@ -1552,7 +1569,7 @@ p.titleFooter {
 }
 
 .vidaUtil {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
 }
 
 .newStyle {

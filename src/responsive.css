@@ -11,6 +11,10 @@
     display: none;
   }
 
+  .fraseInicio {
+    font-size: 2.2rem !important;
+  }
+
   .bombaKawa {
     transform: translate(0%, -75%);
   }

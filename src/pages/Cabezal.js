@@ -38,6 +38,7 @@ let tecnologia
 let slide3
 let slide3b
 let contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros"
+let contenedorVidaUtil2 = ""
 let nombreCamion
 let bdc
 let camionSerie
@@ -610,13 +611,13 @@ function Camion() {
       break;
 
 
-    case "cabezal-c7h-48-max":
+    case "cabezal-48-max":
       pathUrl = ""
-      nombreCamion = "Cabezal de 48 toneladas | C7H"
+      nombreCamion = "Cabezal de 48 toneladas | MAX"
       nombreBusqueda = "cabezal 48 toneladas"
       nombreBusqueda2 = "camion 48 toneladas"
-      camionSerie = "C7H 530 / 48 TON MAX"
-      nombreSerie = "Serie C7H"
+      camionSerie = "530 / 48 TON MAX"
+      nombreSerie = "Serie MAX"
       mercadoObjetivo = "Niñeras, plataforma"
       fortalezas = "Tiene conexión al ABS de la carreta, modo de conducción eco, medio y potente"
       bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBMAX530"
@@ -625,7 +626,7 @@ function Camion() {
         urlMedia + "48Max/frontal.webp",
       ];
       textoMotor1 = "530 HP"
-      textoMotor2 = "Modelo C7H-530"
+      textoMotor2 = "Modelo MAX-530"
       textoMotor3 = "Ficha técnica"
       precio = precios.c_ocho_Max
       seo = `Ofrecemos ${nombreBusqueda} de la ${nombreSerie} de Sinotruk. Vehicentro, número 1 en venta de cabezales en Ecuador.
@@ -646,8 +647,9 @@ function Camion() {
         urlMedia + "48Max/internaC2.webp",
       ];
       internas2 = [
+        urlMedia + "48Max/internaC5.webp",
         urlMedia + "48Max/internaC3.webp",
-        urlMedia + "48Max/internaC4.webp"
+        urlMedia + "48Max/internaC4.webp",
       ];
       medidas = urlMedia + "48Max/medidas.webp"
       medidasMovil = urlMedia + "48Max/medidasCell.webp"
@@ -656,7 +658,8 @@ function Camion() {
       contenedorMarcas = <div className="boxRightHeader  half" style={{ width: '100 %' }} >
         <img src={marcas} width="1500" height="750" className="slideMain" alt={`Marcas ${nombreBusqueda}, ${nombreBusqueda2}`} title={`tecnologias ${nombreBusqueda}`} />
       </div>
-      contenedorVidaUtil = "Retardador 5 tiempos y eje trasero con catalinas"
+      contenedorVidaUtil = "Retardador 5 tiempos "
+      contenedorVidaUtil2 = "Eje trasero con catalinas"
       break;
 
     default:
@@ -700,7 +703,7 @@ function Camion() {
     case "cabezal-c7h-540-catalinas-48-toneladas":
       imagen = urlMedia + "postales/48_C_TON_FOTO.webp"
       break;
-    case "cabezal-c7h-48-max":
+    case "cabezal-48-max":
       imagen = urlMedia + "48Max/form.webp"
       break;
 
@@ -829,6 +832,7 @@ function Camion() {
 
         <div className="boxRightHeader  half text_icon_center" >
           <p className='vidaUtil'>{contenedorVidaUtil}</p>
+          <p className='vidaUtil'>{contenedorVidaUtil2}</p>
         </div>
 
         <div className="boxRightHeader  half icon_right">

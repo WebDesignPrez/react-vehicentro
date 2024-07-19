@@ -288,6 +288,36 @@ function Block1() {
 function Block3() {
   return (
     <>
+      <div className="fraseInicio">
+        NUEVO
+      </div>
+      <div className="block3 boxBlock" id="pagina">
+        <div>
+          <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/nuevasPortadas/nls.jpg"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <div className="bottomContainer">
+            <p className="titleBox">NLS</p>
+            <NavLink className="titleBox2" to="/camiones/camion-de-2-5-toneladas">2.5 TON</NavLink>
+          </div>
+        </div>
+        <div>
+          <a href="/serie/100"><img src={urlMedia + "home/nuevasPortadas/serie-100.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <div className="bottomContainer">
+            <p className="titleBox">NKS</p>
+            <NavLink className="titleBox2" to="/camiones/camion-de-3-5-toneladas-1057">3.5 TON</NavLink>
+          </div>
+        </div>
+        <div>
+          <a href="/serie/t5g"><img src={urlMedia + "home/nuevasPortadas/serie-t5g.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
+          <div className="bottomContainer">
+            <p className="titleBox">MAX</p>
+            <NavLink className="titleBox2" to="/cabezales/cabezal-48-max">48 TON</NavLink>
+          </div>
+        </div>
+
+      </div>
+      <div className="fraseInicio">
+        SERIES
+      </div>
       <div className="block3 boxBlock" id="pagina">
         <div>
           <a href="/camiones/camion-de-2-5-toneladas"><img src={urlMedia + "home/nuevasPortadas/nls.jpg"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
@@ -393,8 +423,8 @@ function Block3() {
               <NavLink className="line2" to="/camiones/camion-20-toneladas-catalinas-1256">20 TON CATALINAS</NavLink>
               <span style={{ opacity: '30%' }}>|</span>
               <NavLink className="line2" to="/cabezales/cabezal-c7h-540">48 TON</NavLink>
-              <span style={{ opacity: '30%' }}>|</span>
-              <NavLink className="line2" to="/cabezales/cabezal-c7h-48-max"><span className="nuevoCamion">NUEVO</span> 48 TON MAX</NavLink>
+              {/* <span style={{ opacity: '30%' }}>|</span>
+              <NavLink className="line2" to="/cabezales/cabezal-48-max"><span className="nuevoCamion">NUEVO</span> 48 TON MAX</NavLink> */}
               {/* <span style={{ opacity: '30%' }}>|</span>
               <NavLink className="line2" to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">48 TON CATALINAS</NavLink> */}
               <span style={{ opacity: '30%' }}>|</span>
