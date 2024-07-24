@@ -538,7 +538,8 @@ function Block3() {
             <NavLink className="titleBox2">MAQUINARIA SUNWARD</NavLink>
             <div className="linksBox">
               <NavLink className="line2" src="" to="/excavadoras/swe210">EXCAVADORA SWE 210 21 Ton</NavLink><p style={{ opacity: '30%' }}>|</p>
-              <NavLink className="line2" src="" to="/excavadoras/swe370e">EXCAVADORA SWE 370E 37 Ton Heavy Duty <span style={{ opacity: '30%' }}>|</span></NavLink>
+              <NavLink className="line2" src="" to="/excavadoras/swe370e">EXCAVADORA SWE 370E 37 Ton<span style={{ opacity: '30%' }}>|</span></NavLink>
+              <NavLink className="line2" src="" to="/excavadoras/swe600"><span className="nuevoCamion">NUEVO</span> EXCAVADORA SWE 600F 51 Ton<span style={{ opacity: '30%' }}> |</span></NavLink>
               <NavLink className="line2" src="" to="/minicargadoras/swl3220">MINICARGADORA SWL3220</NavLink>
             </div>
           </div>
