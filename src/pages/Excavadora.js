@@ -98,7 +98,6 @@ function Camion() {
 
     //swe210
     case "swe210":
-      console.log('24 ton')
       nombreCamion = "Excavadora SWE210"
       camionSerie = "SWE210"
       nombreSerie = "Excavadora"
@@ -276,6 +275,95 @@ function Camion() {
 
       break;
 
+    case "swe600":
+      nombreCamion = "Excavadora SWE600"
+      camionSerie = "SWE600"
+      nombreSerie = "Excavadora"
+      bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEB600SUNWARD"
+      images = [
+        urlMedia + "swe600/tresCuartos.webp"
+      ];
+      textoMotor1 = "SUNWARD"
+      textoMotor2 = "SWE600"
+      textoMotor3 = "Excavadora"
+      precio = 'Bombas Kawasaki'
+      //cuotas = `Cuotas desde: ${precios.e_365_cuota}`
+      motor = urlMedia + "swe600/motor.webp"
+      garantia = urlMedia + "swe365e/5-anos-de-garantia.webp"
+      tecnologia = urlMedia + "swe365e/japonesa.png"
+      contenedorVidaUtil = <div className="banner"><img src={urlMedia + "swe365e/isuzu.webp"} /></div>
+
+      caracteristicas = [
+        urlMedia + "swe365e/camion-de-24-toneladas-potencia-340hp.webp",
+        urlMedia + "swe365e/camion-de-24-toneladas-cilindraje.webp",
+        urlMedia + "swe365e/camion-de-24-toneladas-freno-a-las-valvulas.webp",
+        urlMedia + "swe365e/inyeccion.webp"
+      ]
+      cabina = urlMedia + "swe600/cabina.webp"
+      marcas = urlMedia + "swe365e/asiento.webp"
+      internas1 = [
+        urlMedia + "swe600/det1.webp",
+        urlMedia + "swe600/det2.webp"
+      ];
+      internas2 = [
+        urlMedia + "swe600/det3.webp",
+        urlMedia + "swe600/det7.webp"
+      ];
+      internas1b = [
+        urlMedia + "swe600/det5.webp",
+      ];
+      internas2b = [
+        urlMedia + "swe600/det6.webp"
+      ];
+
+      medidas = urlMedia + "swe600/medidas.webp"
+      medidasDos = urlMedia + "swe600/medidas2.webp"
+      medidasMovil = urlMedia + "swe600/medidas-movil.webp"
+      medidasMovilDos = urlMedia + "swe600/medidas-movil-2.webp"
+      audio_motor = urlMedia + "swe365e/motor.wav"
+
+      internas = ((internas1.concat(internas2)).concat(internas1b)).concat(internas2b)
+      //loop slider
+
+      slide3 = internas1b.map((interna) =>
+        <div className="each-slide-effect" >
+          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+          </div>
+        </div>
+      );
+
+      slide3b = internas2b.map((interna) =>
+        <div className="each-slide-effect" >
+          <div style={{ 'backgroundImage': `url(${interna})`, height: `25vw` }}>
+          </div>
+        </div>
+      );
+
+      contenedorMarcas = <div style={{ display: `contents` }} >
+        <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+          {internas1b.length > 1 &&
+            <Fade>
+              {slide3}
+            </Fade>
+          }
+          {internas1b.length == 1 &&
+            <img src={internas1b[0]} alt="" />
+          }
+        </div>
+        <div className="boxRightHeader  half noResponsive" style={{ width: `50%` }}>
+          {internas2b.length > 1 &&
+            <Fade>
+              {slide3b}
+            </Fade>
+          }
+          {internas2b.length == 1 &&
+            <img src={internas2b[0]} alt="" />
+          }
+        </div>
+      </div>
+
+      break;
+
     default:
       break;
   }
@@ -291,6 +379,10 @@ function Camion() {
 
     case "swe370e":
       imagen = urlMedia + "swe365e/excavadora-en-carretera-vehicentro-ecuador.webp"
+      break;
+
+    case "swe600":
+      imagen = urlMedia + "swe600/form.jpg"
       break;
 
     default:
@@ -364,7 +456,9 @@ function Camion() {
       <div className="marcasbg textoImagenesProducto" >
 
         <div className="boxRightHeader  half text_icon_left" >
-          <p className='vidaUtil'>DESDE</p>
+          {nombreCamion != "Excavadora SWE600" &&
+            <p className='vidaUtil'>DESDE</p>
+          }
           <p className='precioExcavadora' >{precio}</p>
           <p className='cuotas'>{cuotas}</p>
         </div>
@@ -376,7 +470,9 @@ function Camion() {
 
         <div className="boxRightHeader  half text_icon_center" >
           <p className='vidaUtil'>{contenedorVidaUtil}</p>
-          <p className="bombaKawa">Bombas Kawasaki</p>
+          {nombreCamion != "Excavadora SWE600" &&
+            <p className="bombaKawa">Bombas Kawasaki</p>
+          }
         </div>
 
         <div className="boxRightHeader  half icon_right">

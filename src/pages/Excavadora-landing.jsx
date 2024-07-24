@@ -97,8 +97,13 @@ function Content2() {
     },
     {
       serie: "SW370E",
-      modelo: "37 Ton Heavy Duty",
+      modelo: "37 Ton",
       url: "/excavadoras/swe370e",
+    },
+    {
+      serie: "SWE600F",
+      modelo: "51 Ton",
+      url: "/excavadoras/swe600",
     },
   ];
 
