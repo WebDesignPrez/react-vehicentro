@@ -645,6 +645,7 @@ function Camion() {
       internas1 = [
         urlMedia + "48Max/internaC1.webp",
         urlMedia + "48Max/internaC2.webp",
+        urlMedia + "48Max/internaC6.webp",
       ];
       internas2 = [
         urlMedia + "48Max/internaC5.webp",
