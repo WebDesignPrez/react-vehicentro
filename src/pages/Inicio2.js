@@ -300,14 +300,14 @@ function Block3() {
           </div>
         </div>
         <div>
-          <a href="/serie/100"><img src={urlMedia + "home/2.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
+          <a href="/camiones/camion-de-3-5-toneladas-1057"><img src={urlMedia + "home/2.webp"} width="500" height="389" alt="Camiones de carga liviana en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">NKS</p>
             <NavLink className="titleBox2" to="/camiones/camion-de-3-5-toneladas-1057">3.5 TON</NavLink>
           </div>
         </div>
         <div>
-          <a href="/serie/t5g"><img src={urlMedia + "home/3.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
+          <a href="/cabezales/cabezal-48-max"><img src={urlMedia + "home/3.webp"} width="900" height="700" alt="Camiones de carga pesada en Ecuador" /></a>
           <div className="bottomContainer">
             <p className="titleBox">MAX</p>
             <NavLink className="titleBox2" to="/cabezales/cabezal-48-max">48 TON</NavLink>
