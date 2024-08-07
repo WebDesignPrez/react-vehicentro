@@ -19,6 +19,12 @@
     margin: 0 0 .5vh 0;
 }
 
+.form-box .anonimo {
+    display: flex;
+    background-color: #c41a2f;
+}
+
+
 .form-box h5.new {
     margin-top: 2vw;
     font-size: 30px;

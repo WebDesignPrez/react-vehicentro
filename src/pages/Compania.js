@@ -4,6 +4,7 @@ import NavBarTop from "../NavBarTop"
 import { NavLink } from 'react-router-dom'
 import { Helmet } from "react-helmet"
 import env from '../config';
+import FormBuson from "../components/FormBuson"
 let urlMedia = env.url
 
 function Compania() {
@@ -18,6 +19,7 @@ function Compania() {
             <Content2 />
             <Content3 />
             <Content4 />
+            {/* <FormBuson url='' /> */}
             <BannerContacto />
             <Footer />
 
