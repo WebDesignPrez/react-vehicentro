@@ -235,6 +235,7 @@ function Block1() {
               <NavLink to="/serie/t5g">SERIE <span className="boldserie">T5G</span></NavLink>
               <NavLink to="/serie/t7h">SERIE <span className="boldserie">T7H</span></NavLink>
               <NavLink to="/serie/c7h">SERIE <span className="boldserie">C7H</span></NavLink>
+              <NavLink to="/cabezales/cabezal-48-max">SERIE <span className="boldserie">MAX</span></NavLink>
             </div>
           </div>
         </div>
