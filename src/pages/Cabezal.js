@@ -234,10 +234,10 @@ function Camion() {
       garantia = urlMedia + "28Weichai/garantiaLogo.webp"
       tecnologia = urlMedia + "28Weichai/potencia28.webp"
       caracteristicas = [
-        urlMedia + "24-toneladas/camion-de-24-toneladas-potencia-340hp.webp",
+        urlMedia + "28-toneladas-retardador/camion-de-28-toneladas-potencia-390hp.webp",
         urlMedia + "24-toneladas/camion-de-24-toneladas-cilindraje.webp",
         urlMedia + "24-toneladas/camion-de-24-toneladas-freno-a-las-valvulas.webp",
-        urlMedia + "24-toneladas/inyeccion.webp"
+        urlMedia + "28-toneladas/retardador.png"
       ];
       cabina = urlMedia + "28Weichai/FOTO_WEB_PRINCIPAL.webp"
       marcas = urlMedia + "28Weichai/28TONMARCAS.webp"
