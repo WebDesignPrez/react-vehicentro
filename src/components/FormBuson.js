@@ -151,7 +151,6 @@ function FormBuson(props) {
               value={agencia}
             >
               <option value="">Selecciona una agencia</option>
-              <option value="Concesionario">Concesionario</option>
               <option value="AMBATO MATRIZ">AMBATO MATRIZ</option>
               <option value="AMBATO FICOA">AMBATO FICOA</option>
               <option value="RIOBAMBA">RIOBAMBA</option>
