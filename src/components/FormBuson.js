@@ -17,7 +17,7 @@ function FormBuson(props) {
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos";
   let url = props.url || "https://example.com/form";
 
-  let [nombre_y_apellido, setName] = useState('');
+  let [nombres, setName] = useState('');
   let [email, setEmail] = useState('');
   let [celular, setTel] = useState('');
   let [cedula, setCed] = useState('');
@@ -79,14 +79,17 @@ function FormBuson(props) {
 
     let form = $(e.target);
     let data = form.serializeArray();
+    // console.log(data);
 
-    if (!validateName(nombre_y_apellido) && !validateEmail(email) && !validateTel(celular) && !validateCed(cedula) && !validateAgencia(agencia)) {
+
+    if (!validateName(nombres) && !validateEmail(email) && !validateTel(celular) && !validateCed(cedula) && !validateAgencia(agencia)) {
       $.ajax({
         type: "POST",
         url: url,
         data: form.serialize(),
         success() {
           NotificationManager.success('Datos enviados.', '');
+          window.location.href = "https://vehicentro.com/gracias-por-contactarnos";
         },
         error() {
           NotificationManager.error('Error al enviar datos.', '');
@@ -115,7 +118,7 @@ function FormBuson(props) {
               <label className="input_title">*Nombres y Apellidos</label>
               <div className="input-group">
                 <span className="userIcon"><img src={urlMedia + "user-solid.png"} /></span>
-                <input placeholder="" name="nombre_y_apellido" type="text" onBlur={(e) => { handleFocus(e, validateName, 'Completar los datos requeridos.') }} onChange={handleChange} value={nombre_y_apellido} />
+                <input placeholder="" name="nombres" type="text" onBlur={(e) => { handleFocus(e, validateName, 'Completar los datos requeridos.') }} onChange={handleChange} value={nombres} />
               </div>
 
               <label className="input_title">*Email</label>
@@ -127,7 +130,7 @@ function FormBuson(props) {
               <label className="input_title">*Teléfono</label>
               <div className="input-group">
                 <span className="userIcon"><img src={urlMedia + "phone-solid.png"} /></span>
-                <input placeholder="" name="telefono" type="text" onBlur={(e) => { handleFocus(e, validateTel, 'Número telefónico incorrecto.') }} onChange={handleChangeTel} value={celular} />
+                <input placeholder="" name="celular" type="text" onBlur={(e) => { handleFocus(e, validateTel, 'Número telefónico incorrecto.') }} onChange={handleChangeTel} value={celular} />
               </div>
 
               <label className="input_title">*Cédula</label>
@@ -142,41 +145,54 @@ function FormBuson(props) {
           <div className="input-group">
             <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
             <select
-              name="escoge_tu_concesionario_mas_cercano"
+              name="agencia"
               onBlur={(e) => { handleFocus(e, validateAgencia, 'Selecciona una agencia.') }}
               onChange={handleChangeAgencia}
               value={agencia}
             >
               <option value="">Selecciona una agencia</option>
               <option value="Concesionario">Concesionario</option>
-              <option value="Ambato - Av. Indoamérica Sector Izamba">Ambato - Av. Indoamérica Sector Izamba</option>
-              <option value="Ambato - Av. Guaytambos Sector Ficoa">Ambato - Av. Guaytambos Sector Ficoa</option>
-              <option value="Riobamba">Riobamba</option>
-              <option value="Quito - Carapungo">Quito - Carapungo</option>
-              <option value="Quito - Sur">Quito - Sur</option>
-              <option value="Quito - Galo Plaza">Quito - Galo Plaza</option>
-              <option value="Quito - Pifo">Quito - Pifo</option>
-              <option value="Quito - El Colibrí ">Quito - El Colibrí </option>
-              <option value="Quito - Granados">Quito - Granados</option>
-              <option value="Guayaquil - Norte">Guayaquil - Norte</option>
-              <option value="Guayaquil - Samborondón">Guayaquil - Samborondón</option>
-              <option value="Cuenca">Cuenca</option>
-              <option value="Machala">Machala</option>
-              <option value="Ibarra">Ibarra</option>
-              <option value="Manta">Manta</option>
+              <option value="AMBATO MATRIZ">AMBATO MATRIZ</option>
+              <option value="AMBATO FICOA">AMBATO FICOA</option>
+              <option value="RIOBAMBA">RIOBAMBA</option>
+              <option value="QUITO CARAPUNGO">QUITO CARAPUNGO</option>
+              <option value="CUENCA">CUENCA</option>
+              <option value="GUAYAQUIL SAMBORONDÓN">GUAYAQUIL SAMBORONDÓN</option>
+              <option value="MACHALA">MACHALA</option>
+              <option value="QUITO EL COLIBRÍ">QUITO EL COLIBRÍ</option>
+              <option value="GUAYAQUIL NORTE">GUAYAQUIL NORTE</option>
+              <option value="IBARRA">IBARRA</option>
+              <option value="QUITO SUR">QUITO SUR</option>
+              <option value="MANTA">MANTA</option>
+              <option value="QUITO PIFO">QUITO PIFO</option>
+              <option value="CUENCA HUAYNA CÁPAC">CUENCA HUAYNA CÁPAC</option>
+              <option value="QUITO GRANADOS">QUITO GRANADOS</option>
             </select>
           </div>
 
           <label className="input_title">*Asunto</label>
           <div className="input-group">
             <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
-            <input placeholder="" name="asunto" type="text" onChange={handleChangeAsunto} value={asunto} />
+            <input
+              placeholder=""
+              name="asunto"
+              type="text"
+              onChange={handleChangeAsunto}
+              value={asunto}
+              maxLength={200}
+            />
           </div>
 
           <label className="input_title">*Comentario</label>
           <div className="input-group">
             <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
-            <textarea placeholder="" name="comentario" onChange={handleChangeComentario} value={comentario} />
+            <textarea
+              placeholder=""
+              name="comentario"
+              onChange={handleChangeComentario}
+              value={comentario}
+              maxLength={4000}
+            />
           </div>
           <div className="contenedorTerminos">
             <input
@@ -189,9 +205,6 @@ function FormBuson(props) {
               Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
             </label>
           </div>
-
-
-          <input name="redirect_url" value={redireccion} type="hidden" />
 
           <h2 >
             <button className={isChecked ? 'nextBtn' : 'nextBtnDisabled'} type="submit" disabled={!isChecked}>

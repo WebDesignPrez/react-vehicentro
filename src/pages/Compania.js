@@ -19,7 +19,7 @@ function Compania() {
             <Content2 />
             <Content3 />
             <Content4 />
-            {/* <FormBuson url='' /> */}
+            <FormBuson url='https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/web/PQR' />
             <BannerContacto />
             <Footer />
 
