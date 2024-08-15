@@ -77,28 +77,43 @@ function FormBuson(props) {
   function handleSubmit(e) {
     e.preventDefault();
 
-    let form = $(e.target);
-    let data = form.serializeArray();
-    // console.log(data);
-
-
-    if (!validateName(nombres) && !validateEmail(email) && !validateTel(celular) && !validateCed(identificacion) && !validateAgencia(agencia)) {
-      $.ajax({
-        type: "POST",
-        url: url,
-        data: form.serialize(),
-        success() {
-          NotificationManager.success('Datos enviados.', '');
-          window.location.href = "https://vehicentro.com/gracias-por-contactarnos";
-        },
-        error() {
-          NotificationManager.error('Error al enviar datos.', '');
-        }
-      });
+    if (isAnonymous) {
+      if (!validateAgencia(agencia)) {
+        $.ajax({
+          type: "POST",
+          url: url,
+          data: $(e.target).serialize(),
+          success() {
+            NotificationManager.success('Datos enviados.', '');
+            window.location.href = redireccion;
+          },
+          error() {
+            NotificationManager.error('Error al enviar datos.', '');
+          }
+        });
+      } else {
+        NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
+      }
     } else {
-      NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
+      if (!validateName(nombres) && !validateEmail(email) && !validateTel(celular) && !validateCed(identificacion) && !validateAgencia(agencia)) {
+        $.ajax({
+          type: "POST",
+          url: url,
+          data: $(e.target).serialize(),
+          success() {
+            NotificationManager.success('Datos enviados.', '');
+            window.location.href = redireccion;
+          },
+          error() {
+            NotificationManager.error('Error al enviar datos.', '');
+          }
+        });
+      } else {
+        NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
+      }
     }
   }
+
 
   return (
     <div>
