@@ -20,7 +20,7 @@ function FormBuson(props) {
   let [nombres, setName] = useState('');
   let [email, setEmail] = useState('');
   let [celular, setTel] = useState('');
-  let [cedula, setCed] = useState('');
+  let [identificacion, setCed] = useState('');
   let [agencia, setAgencia] = useState('');
   let [asunto, setAsunto] = useState('');
   let [comentario, setComentario] = useState('');
@@ -82,7 +82,7 @@ function FormBuson(props) {
     // console.log(data);
 
 
-    if (!validateName(nombres) && !validateEmail(email) && !validateTel(celular) && !validateCed(cedula) && !validateAgencia(agencia)) {
+    if (!validateName(nombres) && !validateEmail(email) && !validateTel(celular) && !validateCed(identificacion) && !validateAgencia(agencia)) {
       $.ajax({
         type: "POST",
         url: url,
@@ -136,7 +136,7 @@ function FormBuson(props) {
               <label className="input_title">*Cédula</label>
               <div className="input-group">
                 <span className="userIcon"><img src={urlMedia + "portrait-solid.png"} /></span>
-                <input placeholder="" name="cedula" type="text" onBlur={(e) => { handleFocus(e, validateCed, 'Cédula incorrecta.') }} onChange={handleChangeCed} value={cedula} />
+                <input placeholder="" name="identificacion" type="text" onBlur={(e) => { handleFocus(e, validateCed, 'Cédula incorrecta.') }} onChange={handleChangeCed} value={identificacion} />
               </div>
             </>
           )}
