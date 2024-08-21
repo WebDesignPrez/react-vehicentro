@@ -147,12 +147,18 @@ function FormNewBeneficios() {
           className="boxRightHeader  half noResponsive"
           style={{
             width: `100%`,
-            backgroundImage: `url(${foto1})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            height: "100vh",
           }}
-        ></div>
+        >
+          <img
+            src={foto1}
+            alt="Beneficios"
+            style={{
+              width: "100%",
+              height: "auto",
+              objectFit: "cover",
+            }}
+          />
+        </div>
       </div>
       <div className="left-side-landing2">
         <div className="nuevoBeneficios" style={{ width: `100%` }}>
