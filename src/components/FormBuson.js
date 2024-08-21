@@ -1,14 +1,16 @@
 import $ from "jquery";
-import { useState } from 'react';
+import { useState } from "react";
 import "../form.css";
-import { NotificationContainer, NotificationManager } from 'react-notifications';
-import 'react-notifications/lib/notifications.css';
-import env from '../config';
+import {
+  NotificationContainer,
+  NotificationManager,
+} from "react-notifications";
+import "react-notifications/lib/notifications.css";
+import env from "../config";
 
 let urlMedia = env.url;
 
 function FormBuson(props) {
-
   const [isChecked, setIsChecked] = useState(true);
 
   const handleCheckboxChange = (event) => {
@@ -17,13 +19,13 @@ function FormBuson(props) {
   let redireccion = "https://vehicentro.com/gracias-por-contactarnos";
   let url = props.url || "https://example.com/form";
 
-  let [nombres, setName] = useState('');
-  let [email, setEmail] = useState('');
-  let [celular, setTel] = useState('');
-  let [identificacion, setCed] = useState('');
-  let [agencia, setAgencia] = useState('');
-  let [asunto, setAsunto] = useState('');
-  let [comentario, setComentario] = useState('');
+  let [nombres, setName] = useState("");
+  let [email, setEmail] = useState("");
+  let [celular, setTel] = useState("");
+  let [identificacion, setCed] = useState("");
+  let [agencia, setAgencia] = useState("");
+  let [asunto, setAsunto] = useState("");
+  let [comentario, setComentario] = useState("");
   let [isAnonymous, setIsAnonymous] = useState(false);
 
   const handleChange = (e) => {
@@ -59,61 +61,79 @@ function FormBuson(props) {
   };
 
   const handleFocus = (e, validationFn, errorMessage) => {
-    let aux = e.target.closest('.input-group');
+    let aux = e.target.closest(".input-group");
     if (validationFn(e.target.value)) {
       aux.classList.add("errorClass");
-      NotificationManager.error(errorMessage, '');
+      NotificationManager.error(errorMessage, "");
     } else {
       aux.classList.remove("errorClass");
     }
   };
 
   const validateName = (e) => e.trim() === "" || e.length < 5;
-  const validateEmail = (e) => e === "" || !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(e);
+  const validateEmail = (e) =>
+    e === "" || !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(e);
   const validateTel = (phoneNumber) => !/^0[1-9][0-9]{8}$/.test(phoneNumber);
-  const validateCed = (e) => e === "" || !/^\d+$/.test(e) || (e.length !== 10 && e.length !== 13);
+  const validateCed = (e) =>
+    e === "" || !/^\d+$/.test(e) || (e.length !== 10 && e.length !== 13);
   const validateAgencia = (e) => e === "";
 
   function handleSubmit(e) {
     e.preventDefault();
-
     if (isAnonymous) {
-      if (!validateAgencia(agencia)) {
+      if (
+        !validateAgencia(agencia) &&
+        asunto.trim() !== "" &&
+        comentario.trim() !== ""
+      ) {
         $.ajax({
           type: "POST",
           url: url,
           data: $(e.target).serialize(),
           success() {
-            NotificationManager.success('Datos enviados.', '');
+            NotificationManager.success("Datos enviados.", "");
             window.location.href = redireccion;
           },
           error() {
-            NotificationManager.error('Error al enviar datos.', '');
-          }
+            NotificationManager.error("Error al enviar datos.", "");
+          },
         });
       } else {
-        NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
+        NotificationManager.error(
+          "No se puede enviar datos, completar los datos correctamente.",
+          ""
+        );
       }
     } else {
-      if (!validateName(nombres) && !validateEmail(email) && !validateTel(celular) && !validateCed(identificacion) && !validateAgencia(agencia)) {
+      if (
+        !validateName(nombres) &&
+        !validateEmail(email) &&
+        !validateTel(celular) &&
+        !validateCed(identificacion) &&
+        !validateAgencia(agencia) &&
+        asunto.trim() !== "" &&
+        comentario.trim() !== ""
+      ) {
         $.ajax({
           type: "POST",
           url: url,
           data: $(e.target).serialize(),
           success() {
-            NotificationManager.success('Datos enviados.', '');
+            NotificationManager.success("Datos enviados.", "");
             window.location.href = redireccion;
           },
           error() {
-            NotificationManager.error('Error al enviar datos.', '');
-          }
+            NotificationManager.error("Error al enviar datos.", "");
+          },
         });
       } else {
-        NotificationManager.error('No se puede enviar datos, completar los datos correctamente.', '');
+        NotificationManager.error(
+          "No se puede enviar datos, completar los datos correctamente.",
+          ""
+        );
       }
     }
   }
-
 
   return (
     <div>
@@ -132,36 +152,92 @@ function FormBuson(props) {
             <>
               <label className="input_title">*Nombres y Apellidos</label>
               <div className="input-group">
-                <span className="userIcon"><img src={urlMedia + "user-solid.png"} /></span>
-                <input placeholder="" name="nombres" type="text" onBlur={(e) => { handleFocus(e, validateName, 'Completar los datos requeridos.') }} onChange={handleChange} value={nombres} />
+                <span className="userIcon">
+                  <img src={urlMedia + "user-solid.png"} />
+                </span>
+                <input
+                  placeholder=""
+                  name="nombres"
+                  type="text"
+                  onBlur={(e) => {
+                    handleFocus(
+                      e,
+                      validateName,
+                      "Completar los datos requeridos."
+                    );
+                  }}
+                  onChange={handleChange}
+                  value={nombres}
+                />
               </div>
 
               <label className="input_title">*Email</label>
               <div className="input-group">
-                <span className="userIcon"><img src={urlMedia + "envelope-solid.png"} /></span>
-                <input placeholder="" name="email" type="text" onBlur={(e) => { handleFocus(e, validateEmail, 'Email incorrecto.') }} onChange={handleChangeEmail} value={email} />
+                <span className="userIcon">
+                  <img src={urlMedia + "envelope-solid.png"} />
+                </span>
+                <input
+                  placeholder=""
+                  name="email"
+                  type="text"
+                  onBlur={(e) => {
+                    handleFocus(e, validateEmail, "Email incorrecto.");
+                  }}
+                  onChange={handleChangeEmail}
+                  value={email}
+                />
               </div>
 
               <label className="input_title">*Teléfono</label>
               <div className="input-group">
-                <span className="userIcon"><img src={urlMedia + "phone-solid.png"} /></span>
-                <input placeholder="" name="celular" type="text" onBlur={(e) => { handleFocus(e, validateTel, 'Número telefónico incorrecto.') }} onChange={handleChangeTel} value={celular} />
+                <span className="userIcon">
+                  <img src={urlMedia + "phone-solid.png"} />
+                </span>
+                <input
+                  placeholder=""
+                  name="celular"
+                  type="text"
+                  onBlur={(e) => {
+                    handleFocus(
+                      e,
+                      validateTel,
+                      "Número telefónico incorrecto."
+                    );
+                  }}
+                  onChange={handleChangeTel}
+                  value={celular}
+                />
               </div>
 
               <label className="input_title">*Cédula</label>
               <div className="input-group">
-                <span className="userIcon"><img src={urlMedia + "portrait-solid.png"} /></span>
-                <input placeholder="" name="identificacion" type="text" onBlur={(e) => { handleFocus(e, validateCed, 'Cédula incorrecta.') }} onChange={handleChangeCed} value={identificacion} />
+                <span className="userIcon">
+                  <img src={urlMedia + "portrait-solid.png"} />
+                </span>
+                <input
+                  placeholder=""
+                  name="identificacion"
+                  type="text"
+                  onBlur={(e) => {
+                    handleFocus(e, validateCed, "Cédula incorrecta.");
+                  }}
+                  onChange={handleChangeCed}
+                  value={identificacion}
+                />
               </div>
             </>
           )}
 
           <label className="input_title">*Agencia</label>
           <div className="input-group">
-            <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
+            <span className="userIcon">
+              <img src={urlMedia + "map-marker-solid.png"} />
+            </span>
             <select
               name="agencia"
-              onBlur={(e) => { handleFocus(e, validateAgencia, 'Selecciona una agencia.') }}
+              onBlur={(e) => {
+                handleFocus(e, validateAgencia, "Selecciona una agencia.");
+              }}
               onChange={handleChangeAgencia}
               value={agencia}
             >
@@ -171,7 +247,9 @@ function FormBuson(props) {
               <option value="RIOBAMBA">RIOBAMBA</option>
               <option value="QUITO CARAPUNGO">QUITO CARAPUNGO</option>
               <option value="CUENCA">CUENCA</option>
-              <option value="GUAYAQUIL SAMBORONDÓN">GUAYAQUIL SAMBORONDÓN</option>
+              <option value="GUAYAQUIL SAMBORONDÓN">
+                GUAYAQUIL SAMBORONDÓN
+              </option>
               <option value="MACHALA">MACHALA</option>
               <option value="QUITO EL COLIBRÍ">QUITO EL COLIBRÍ</option>
               <option value="GUAYAQUIL NORTE">GUAYAQUIL NORTE</option>
@@ -186,7 +264,9 @@ function FormBuson(props) {
 
           <label className="input_title">*Asunto</label>
           <div className="input-group">
-            <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
+            <span className="userIcon">
+              <img src={urlMedia + "map-marker-solid.png"} />
+            </span>
             <input
               placeholder=""
               name="asunto"
@@ -199,7 +279,9 @@ function FormBuson(props) {
 
           <label className="input_title">*Comentario</label>
           <div className="input-group">
-            <span className="userIcon"><img src={urlMedia + "map-marker-solid.png"} /></span>
+            <span className="userIcon">
+              <img src={urlMedia + "map-marker-solid.png"} />
+            </span>
             <textarea
               placeholder=""
               name="comentario"
@@ -216,12 +298,23 @@ function FormBuson(props) {
               onChange={handleCheckboxChange}
             />
             <label>
-              Acepto <a href="/politicaprivacidad" target="_blank" className="linkTerminos">términos y condiciones.</a>
+              Acepto{" "}
+              <a
+                href="/politicaprivacidad"
+                target="_blank"
+                className="linkTerminos"
+              >
+                términos y condiciones.
+              </a>
             </label>
           </div>
 
-          <h2 >
-            <button className={isChecked ? 'nextBtn' : 'nextBtnDisabled'} type="submit" disabled={!isChecked}>
+          <h2>
+            <button
+              className={isChecked ? "nextBtn" : "nextBtnDisabled"}
+              type="submit"
+              disabled={!isChecked}
+            >
               Enviar
             </button>
           </h2>
