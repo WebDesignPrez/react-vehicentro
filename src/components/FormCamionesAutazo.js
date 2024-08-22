@@ -12,7 +12,7 @@ import env from "../config";
 let url =
   "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/web/LDAUTCA";
 
-function FormAutosAutazo() {
+function FormCamionesAutazo() {
   let [nombre, setNombre] = useState("");
   let [email, setEmail] = useState("");
   let [celular, setCelular] = useState("");
@@ -96,7 +96,9 @@ function FormAutosAutazo() {
     if (
       !validateName(nombre) &&
       !validateEmail(email) &&
-      !validateTel(celular)
+      !validateTel(celular) &&
+      cedula.length === 10 &&
+      ciudad.trim() !== ""
     ) {
       $.ajax({
         type: "POST",
@@ -107,6 +109,8 @@ function FormAutosAutazo() {
           setNombre("");
           setEmail("");
           setCelular("");
+          setCedula("");
+          setCiudad("");
         },
         error(data) {
           NotificationManager.error("Error al enviar los datos.", "");
@@ -200,6 +204,26 @@ function FormAutosAutazo() {
                 />
               </div>
 
+              <label className="input_title">CÉDULA*</label>
+              <div className="input-group">
+                <input
+                  name="cedula"
+                  type="text"
+                  onChange={handleChangeCedula}
+                  value={cedula}
+                />
+              </div>
+
+              <label className="input_title">CIUDAD*</label>
+              <div className="input-group">
+                <input
+                  name="ciudad"
+                  type="text"
+                  onChange={handleChangeCiudad}
+                  value={ciudad}
+                />
+              </div>
+
               <input
                 name="redirect_url"
                 value="https://vehicentro.com/gracias-por-contactarnos"
@@ -251,4 +275,4 @@ function FormAutosAutazo() {
   );
 }
 
-export default FormAutosAutazo;
+export default FormCamionesAutazo;
