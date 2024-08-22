@@ -96,7 +96,9 @@ function FormAutosAutazo() {
     if (
       !validateName(nombre) &&
       !validateEmail(email) &&
-      !validateTel(celular)
+      !validateTel(celular) &&
+      cedula.length === 10 &&
+      ciudad.trim() !== ""
     ) {
       $.ajax({
         type: "POST",
@@ -107,6 +109,8 @@ function FormAutosAutazo() {
           setNombre("");
           setEmail("");
           setCelular("");
+          setCedula("");
+          setCiudad("");
         },
         error(data) {
           NotificationManager.error("Error al enviar los datos.", "");
@@ -197,6 +201,26 @@ function FormAutosAutazo() {
                   onBlur={handleFocusCelular}
                   onChange={handleChangeCelular}
                   value={celular}
+                />
+              </div>
+
+              <label className="input_title">CÉDULA*</label>
+              <div className="input-group">
+                <input
+                  name="cedula"
+                  type="text"
+                  onChange={handleChangeCedula}
+                  value={cedula}
+                />
+              </div>
+
+              <label className="input_title">CIUDAD*</label>
+              <div className="input-group">
+                <input
+                  name="ciudad"
+                  type="text"
+                  onChange={handleChangeCiudad}
+                  value={ciudad}
                 />
               </div>
 
