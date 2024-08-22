@@ -10,9 +10,9 @@ import "react-notifications/lib/notifications.css";
 import env from "../config";
 
 let url =
-  "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDAUTCA";
+  "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/web/LDAUTCA";
 
-function FormCamionesAutazo() {
+function FormAutosAutazo() {
   let [nombre, setNombre] = useState("");
   let [email, setEmail] = useState("");
   let [celular, setCelular] = useState("");
@@ -96,9 +96,7 @@ function FormCamionesAutazo() {
     if (
       !validateName(nombre) &&
       !validateEmail(email) &&
-      !validateTel(celular) &&
-      cedula.length === 10 &&
-      ciudad.trim() !== ""
+      !validateTel(celular)
     ) {
       $.ajax({
         type: "POST",
@@ -109,8 +107,6 @@ function FormCamionesAutazo() {
           setNombre("");
           setEmail("");
           setCelular("");
-          setCedula("");
-          setCiudad("");
         },
         error(data) {
           NotificationManager.error("Error al enviar los datos.", "");
@@ -204,26 +200,6 @@ function FormCamionesAutazo() {
                 />
               </div>
 
-              <label className="input_title">CÉDULA*</label>
-              <div className="input-group">
-                <input
-                  name="cedula"
-                  type="text"
-                  onChange={handleChangeCedula}
-                  value={cedula}
-                />
-              </div>
-
-              <label className="input_title">CIUDAD*</label>
-              <div className="input-group">
-                <input
-                  name="ciudad"
-                  type="text"
-                  onChange={handleChangeCiudad}
-                  value={ciudad}
-                />
-              </div>
-
               <input
                 name="redirect_url"
                 value="https://vehicentro.com/gracias-por-contactarnos"
@@ -275,4 +251,4 @@ function FormCamionesAutazo() {
   );
 }
 
-export default FormCamionesAutazo;
+export default FormAutosAutazo;

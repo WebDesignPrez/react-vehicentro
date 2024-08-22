@@ -10,7 +10,7 @@ import "react-notifications/lib/notifications.css";
 import env from "../config";
 
 let url =
-  "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/LDAUTAU";
+  "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/web/LDAUTAU";
 
 function FormAutosAutazo() {
   let [nombre, setNombre] = useState("");
@@ -96,9 +96,7 @@ function FormAutosAutazo() {
     if (
       !validateName(nombre) &&
       !validateEmail(email) &&
-      !validateTel(celular) &&
-      cedula.length === 10 &&
-      ciudad.trim() !== ""
+      !validateTel(celular)
     ) {
       $.ajax({
         type: "POST",
@@ -109,8 +107,6 @@ function FormAutosAutazo() {
           setNombre("");
           setEmail("");
           setCelular("");
-          setCedula("");
-          setCiudad("");
         },
         error(data) {
           NotificationManager.error("Error al enviar los datos.", "");
@@ -201,26 +197,6 @@ function FormAutosAutazo() {
                   onBlur={handleFocusCelular}
                   onChange={handleChangeCelular}
                   value={celular}
-                />
-              </div>
-
-              <label className="input_title">CÉDULA*</label>
-              <div className="input-group">
-                <input
-                  name="cedula"
-                  type="text"
-                  onChange={handleChangeCedula}
-                  value={cedula}
-                />
-              </div>
-
-              <label className="input_title">CIUDAD*</label>
-              <div className="input-group">
-                <input
-                  name="ciudad"
-                  type="text"
-                  onChange={handleChangeCiudad}
-                  value={ciudad}
                 />
               </div>
 
