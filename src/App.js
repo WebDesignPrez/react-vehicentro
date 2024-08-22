@@ -108,6 +108,8 @@ import PopUp from "./components/PopUp";
 import SerieN from "./pages/SerieN";
 import FormProductos from "./pages/FormProductos";
 import { FormBeneficios } from "./pages/FormBeneficios";
+import { FormAutazoCamiones } from "./pages/FormAutazoCamiones";
+import { FormAutazoAutos } from "./pages/FormAutazoAutos";
 
 function App() {
   return (
@@ -466,6 +468,12 @@ function App() {
           />
           <Route path="/cotizar" element={<FormProductos />} />
           <Route path="/beneficios" element={<FormBeneficios />} />
+
+          <Route
+            path="/landing/autazo/camiones"
+            element={<FormAutazoCamiones />}
+          />
+          <Route path="/landing/autazo/autos" element={<FormAutazoAutos />} />
         </Routes>
       </main>
     </BrowserRouter>
