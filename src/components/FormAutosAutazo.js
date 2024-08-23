@@ -174,7 +174,7 @@ function FormAutosAutazo() {
               <label className="input_title">NOMBRE COMPLETO*</label>
               <div className="input-group">
                 <input
-                  name="nombre_y_apellido"
+                  name="nombres"
                   type="text"
                   onBlur={handleFocus}
                   onChange={handleChangeNombre}
