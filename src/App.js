@@ -110,6 +110,7 @@ import FormProductos from "./pages/FormProductos";
 import { FormBeneficios } from "./pages/FormBeneficios";
 import { FormAutazoCamiones } from "./pages/FormAutazoCamiones";
 import { FormAutazoAutos } from "./pages/FormAutazoAutos";
+import U70ProAmt from "./pages/vehiculos/U70ProAmt";
 
 function App() {
   return (
@@ -352,6 +353,7 @@ function App() {
           {/* Autos */}
           <Route path="/sinotruk/autos" element={<AutosLanding />} />
           <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
+          <Route path="/sinotruk/autos/u70proAmt" element={<U70ProAmt />} />
           <Route path="/sinotruk/autos/u70" element={<U70 />} />
           <Route path="/sinotruk/autos/u70pro" element={<U70Pro />} />
           <Route path="/sinotruk/autos/u70" element={<U70 />} />
