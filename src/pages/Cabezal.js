@@ -141,8 +141,8 @@ function Camion() {
         urlMedia + "24-toneladas/climatizador.webp",
       ];
 
-      medidas = urlMedia + "medidas/24WEB_MEDIDAS.webp";
-      medidasMovil = urlMedia + "medidas/24_TON_CEL.webp";
+      medidas = urlMedia + "medidas2/24TON.webp";
+      medidasMovil = urlMedia + "medidas2/24TONCL.webp";
       audio_motor = urlMedia + "24-toneladas/motor.mp3";
 
       internas = internas1.concat(internas2);
@@ -219,8 +219,8 @@ function Camion() {
         urlMedia + "28-toneladas/control-hidraulico.webp",
       ];
 
-      medidas = urlMedia + "medidas/28WEB_MEDIDAS.webp";
-      medidasMovil = urlMedia + "medidas/28_TON_CEL.webp";
+      medidas = urlMedia + "medidas2/28TON.webp";
+      medidasMovil = urlMedia + "medidas2/28TONCL.webp";
       audio_motor = urlMedia + "28-toneladas/motor.mp3";
 
       internas = internas1.concat(internas2);
@@ -284,8 +284,8 @@ function Camion() {
         urlMedia + "28Weichai/FOTOS_WEB3.webp",
         urlMedia + "28Weichai/FOTOS_WEB1.webp",
       ];
-      medidas = urlMedia + "28Weichai/28_W_WEB_MEDIDAS.webp";
-      medidasMovil = urlMedia + "28Weichai/28_TON_WEICHAI_CEL.webp";
+      medidas = urlMedia + "medidas2/28TONW.webp";
+      medidasMovil = urlMedia + "medidas2/28TONWCL.webp";
       audio_motor = urlMedia + "28Weichai/motor28Wei.mpeg";
       internas = internas1.concat(internas2);
       contenedorMarcas = (
@@ -355,8 +355,8 @@ function Camion() {
         urlMedia + "28-toneladas-retardador/control-hidraulico.webp",
       ];
 
-      medidas = urlMedia + "medidas/28_R_WEB_MEDIDAS.webp";
-      medidasMovil = urlMedia + "media/28_TON_R_CEL.webp";
+      medidas = urlMedia + "medidas2/28TONR.webp";
+      medidasMovil = urlMedia + "medidas2/28TONRCL.webp";
       audio_motor = urlMedia + "28-toneladas-retardador/motor.mp3";
 
       internas = internas1.concat(internas2);
@@ -428,8 +428,8 @@ function Camion() {
         urlMedia + "42-toneladas/control-hidraulico.webp",
       ];
 
-      medidas = urlMedia + "medidas/42WEB_MEDIDAS.webp";
-      medidasMovil = urlMedia + "medidas/42_TON_CEL.webp";
+      medidas = urlMedia + "medidas2/42TON.webp";
+      medidasMovil = urlMedia + "medidas2/42TONCL.webp";
       audio_motor = urlMedia + "42-toneladas/motor.mp3";
 
       internas = internas1.concat(internas2);
@@ -502,8 +502,8 @@ function Camion() {
         urlMedia + "45-toneladas/control-hidraulico.webp",
       ];
 
-      medidas = urlMedia + "medidas/45WEB_MEDIDAS.webp";
-      medidasMovil = urlMedia + "medidas/45_TON_CEL.webp";
+      medidas = urlMedia + "medidas2/45TON.webp";
+      medidasMovil = urlMedia + "medidas2/45TONCL.webp";
       audio_motor = urlMedia + "45-toneladas/motor.mp3";
 
       internas = internas1.concat(internas2);
@@ -647,8 +647,8 @@ function Camion() {
         urlMedia + "48CatalinasNew/portavasos.webp",
       ];
 
-      medidas = urlMedia + "48CatalinasNew/medidas.webp";
-      medidasMovil = urlMedia + "48CatalinasNew/medidasCell.webp";
+      medidas = urlMedia + "medidas2/48TONC.webp";
+      medidasMovil = urlMedia + "medidas2/48TONCCL.webp";
       audio_motor = urlMedia + "48-toneladas-catalinas/motor.mp3";
 
       internas = internas1.concat(internas2);
@@ -815,23 +815,23 @@ function Camion() {
 
   switch (useParams("id").id) {
     case "cabezal-t5g-4187":
-      imagen = urlMedia + "postales/24TON_FOTO.webp";
+      imagen = urlMedia + "formNew/24TON.webp";
       break;
 
     case "cabezal-t7h-390-28-toneladas":
-      imagen = urlMedia + "postales/28_TON_FOTO.webp";
+      imagen = urlMedia + "formNew/28TON.webp";
       break;
 
     case "cabezal-28-toneladas-retardador":
-      imagen = urlMedia + "postales/28R_TON_FOTO.webp";
+      imagen = urlMedia + "formNew/28TONR.webp";
       break;
 
     case "cabezal-t7h-390-42-toneladas":
-      imagen = urlMedia + "postales/42TON_FOTO.webp";
+      imagen = urlMedia + "formNew/42TON.webp";
       break;
 
     case "cabezal-t7h-430-45-toneladas":
-      imagen = urlMedia + "postales/45TON_FOTO.webp";
+      imagen = urlMedia + "formNew/45TON.webp";
       break;
 
     case "cabezal-c7h-540":
@@ -839,7 +839,7 @@ function Camion() {
       break;
 
     case "cabezal-c7h-540-catalinas-48-toneladas-nueva-version":
-      imagen = urlMedia + "48CatalinasNew/formulario.webp";
+      imagen = urlMedia + "formNew/48TONC.webp";
       break;
 
     case "cabezal-c7h-540-catalinas-48-toneladas":
