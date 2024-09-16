@@ -13,6 +13,7 @@ import FormularioU70Pro from "./componentes/FormularioU70Pro";
 import InteriroU70ProAmt from "./componentes/InteriroU70ProAmt";
 import AmenidadesU70 from "./componentes/AmenidadesU70";
 import FormularioU70ProAmt from "./componentes/FormularioU70ProAmt";
+import AmenidadesU70ProAmt from "./componentes/AmenidadesU70ProAmt";
 
 function U70ProAmt() {
   const path = "u70proamt/";
@@ -84,7 +85,7 @@ function U70ProAmt() {
       <Hero path={path} />
 
       {/* Characteristics */}
-      <AmenidadesU70 />
+      <AmenidadesU70ProAmt />
 
       {/* Colors of car (Tecnologies) */}
       <Vehiculo path={path} />
