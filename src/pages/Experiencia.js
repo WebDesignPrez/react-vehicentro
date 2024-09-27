@@ -1,92 +1,201 @@
-import { Helmet } from "react-helmet"
-import BannerContacto from "../components/BannerContacto"
-import Footer from "../components/Footer"
-import NavBar from "../NavBar"
-import NavBarTop from "../NavBarTop"
-import env from '../config';
-let urlMedia = env.url
+import { Helmet } from "react-helmet";
+import BannerContacto from "../components/BannerContacto";
+import Footer from "../components/Footer";
+import NavBar from "../NavBar";
+import NavBarTop from "../NavBarTop";
+import env from "../config";
+let urlMedia = env.url;
 
 function Experiencia() {
-    return (
-        <>
-            <Helmet>
-                <title>Experiencia sinotruk | Vehicentro</title>
-                <meta name="description" content="Experiencia sinotruk" />
-            </Helmet>
-            <NavBarTop />
-            <Content1 />
-            <Block2 />
-            <BannerContacto />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Helmet>
+        <title>Experiencia sinotruk | Vehicentro</title>
+        <meta name="description" content="Experiencia sinotruk" />
+      </Helmet>
+      <NavBarTop />
+      <Content1 />
+      <Block2 />
+      <BannerContacto />
+      <Footer />
+    </>
+  );
 }
 
 function Content1() {
-    return (
-        <div className="block4 boxBlock boxesIni posRelative content3">
+  return (
+    <div className="block4 boxBlock boxesIni posRelative content3">
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/Secuencia1Compri.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/Secuencia1Compri.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/cuadradoMayoComp 2.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/cuadradoMayoComp 2.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/sinotrukeroMayoCuacom.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/sinotrukeroMayoCuacom.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/sinotrukerosCuadrado.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/sinotrukerosCuadrado.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/sinotrukeroCuadradoAbril.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-             <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/sinotrukeroCuadradoAbril.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/sinotrukeroMayo3CuadrComp.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/sinotrukeroMayo3CuadrComp.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/9.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/9.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/10.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/10.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/12.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/12.mp4"} className="videoWidth" />
-                </div>
-            </div>
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/13.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/13.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
+      {/* <div className="boxRight">
                 <div className="boxLeft c7h">
                     <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/1.mp4"} className="videoWidth" />
                 </div>
@@ -96,82 +205,197 @@ function Content1() {
                 <div className="boxLeft c7h">
                     <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/2.mp4"} className="videoWidth" />
                 </div>
-            </div>
+            </div> */}
 
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/3.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/4.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/5.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/7.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/8.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/11.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/14.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/15.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/16.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-            <div className="boxRight">
-                <div className="boxLeft c7h">
-                    <video width="320" height="240" autoPlay={true} preload="none" playsInline={true} controls loop muted src={urlMedia + "experiencia/17.mp4"} className="videoWidth" />
-                </div>
-            </div>
-
-
-
-
+      {/* <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/3.mp4"}
+            className="videoWidth"
+          />
         </div>
-    )
-}
+      </div>
 
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/4.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div> */}
+
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/5.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
+
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/7.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
+
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/8.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
+
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/11.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
+
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/14.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
+
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/15.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
+
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/16.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
+
+      <div className="boxRight">
+        <div className="boxLeft c7h">
+          <video
+            width="320"
+            height="240"
+            autoPlay={true}
+            preload="none"
+            playsInline={true}
+            controls
+            loop
+            muted
+            src={urlMedia + "experiencia/17.mp4"}
+            className="videoWidth"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function Block2() {
-    return (
-        < div className="block2 responsive" >
-            <video width="1920" height="1076" controls autoPlay={true} playsInline={true} muted loop src={urlMedia + "home/vehinstein-tv.mp4"} className="videoWidth" />
-        </div >
-    )
+  return (
+    <div className="block2 responsive">
+      <video
+        width="1920"
+        height="1076"
+        controls
+        autoPlay={true}
+        playsInline={true}
+        muted
+        loop
+        src={urlMedia + "home/vehinstein-tv.mp4"}
+        className="videoWidth"
+      />
+    </div>
+  );
 }
 
-export default Experiencia
+export default Experiencia;
