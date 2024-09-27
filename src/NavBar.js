@@ -782,18 +782,18 @@ export default function NavBar() {
                     Requisitos de calidad
                   </NavLink>
                 </p>
-                <p className="colItem meniu">
+                {/* <p className="colItem meniu">
                   <NavLink to="/cabina">Cabina</NavLink>
-                </p>
-                <p className="colItem meniu">
+                </p> */}
+                {/* <p className="colItem meniu">
                   <NavLink to="/motor-mc">Motor MC</NavLink>
-                </p>
-                <p className="colItem meniu">
+                </p> */}
+                {/* <p className="colItem meniu">
                   <NavLink to="/bastidor-o-chasis">Bastidor o Chasis</NavLink>
-                </p>
-                <p className="colItem meniu">
+                </p> */}
+                {/* <p className="colItem meniu">
                   <NavLink to="/ejes-man">Ejes Man</NavLink>
-                </p>
+                </p> */}
                 <p className="colItem meniu">
                   <NavLink to="/sistema-evb">Sistema Evb</NavLink>
                 </p>

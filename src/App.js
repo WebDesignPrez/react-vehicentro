@@ -144,14 +144,14 @@ function App() {
           <Route path="/serie/:id" element={<Serie />} />
           <Route path="/gracias-por-contactarnos" element={<Mensaje />} />
           <Route path="/experiencia" element={<Experiencia />} />
-          <Route
+          {/* <Route
             path="/requisitos-de-calidad"
             element={<Requisitos_de_calidad />}
-          />
-          <Route path="/cabina" element={<Cabina />} />
-          <Route path="/motor-mc" element={<Motor_mc />} />
+          /> */}
+          {/* <Route path="/cabina" element={<Cabina />} /> */}
+          {/* <Route path="/motor-mc" element={<Motor_mc />} />
           <Route path="/bastidor-o-chasis" element={<Bastidor_o_chasis />} />
-          <Route path="/ejes-man" element={<Ejes_man />} />
+          <Route path="/ejes-man" element={<Ejes_man />} /> */}
           <Route path="/sistema-evb" element={<Sistema_evb />} />
           <Route path="/serie/100" element={<Serie_100 />} />
           <Route path="/serie/n" element={<SerieN />} />
