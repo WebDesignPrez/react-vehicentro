@@ -341,6 +341,7 @@ function FormContact(props) {
     "T5G 1167 / 12 TON",
     "T5G 1167 / 13 TON (280HP)",
     "T5G 1167 / 13 TON (330HP)",
+    "T5G 1167 / 13 TON (330HP) RETARDADOR",
     "T5G 1257 / 18 TON",
     "T5G 1257 / 19.5 TON",
     "T5G 4187 / 24 TON",
