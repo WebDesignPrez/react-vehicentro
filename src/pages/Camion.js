@@ -620,7 +620,7 @@ function Camion() {
       console.log("13 toneladas 330Hp");
       nombreCamion = "Camión de 13 toneladas 330Hp retardador | T5G-1167";
       nombreBusqueda = "Camión de 13 toneladas retardador";
-      camionSerie = "T5G 1167 / 13 TON (330HP) retardador";
+      camionSerie = "T5G 1167 / 13 TON (330HP) RETARDADOR";
       nombreSerie = "Serie T5G";
       mercadoObjetivo =
         "Ferreterías, cooperativas de transporte carga pesada y volumen, para grúas con plumas, comerciantes de granos secos, multi trabajos";
