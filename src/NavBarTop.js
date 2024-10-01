@@ -568,6 +568,11 @@ export default function NavBarTop() {
                   </NavLink>
                 </p>
                 <p className="colItem meniu">
+                  <NavLink to="/camiones/camion-13-toneladas-t5g-1167-330hp-retardador">
+                    1167 / 13 ton - <b>330HP</b> - RETARDADOR
+                  </NavLink>
+                </p>
+                <p className="colItem meniu">
                   <NavLink to="/camiones/camion-13-toneladas-t5g-1167-330hp">
                     1167 / 13 ton - <b>330HP</b>
                   </NavLink>
