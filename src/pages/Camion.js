@@ -615,6 +615,76 @@ function Camion() {
 
       break;
 
+    case "camion-13-toneladas-t5g-1167-330hp-retardador":
+      pathUrl = "camion-13-toneladas-t5g-1167-330hp-retardador";
+      console.log("13 toneladas 330Hp");
+      nombreCamion = "Camión de 13 toneladas 330Hp retardador | T5G-1167";
+      nombreBusqueda = "Camión de 13 toneladas retardador";
+      camionSerie = "T5G 1167 / 13 TON (330HP) retardador";
+      nombreSerie = "Serie T5G";
+      mercadoObjetivo =
+        "Ferreterías, cooperativas de transporte carga pesada y volumen, para grúas con plumas, comerciantes de granos secos, multi trabajos";
+      fortalezas =
+        "Muy buena tecnología de fabricación- alta gama de pintura, buen precio-mantenimiento más económico, mejor garantía en el mercado- menos consumo de combustible - camión más fuerte y potente";
+      bdc =
+        "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/Web13TOVDT5G1167";
+      images = [
+        urlMedia + "13-toneladas-330-retardador/frontal.webp",
+        urlMedia + "13-toneladas-330-retardador/tresCuartos.webp",
+      ];
+      textoMotor1 = "330 HP";
+      textoMotor2 = "Modelo T5G-1167 - 13 Ton retardador";
+      textoMotor3 = "Ficha Técnica";
+      precio = precios.trece_330;
+      seo = `Descubre el ${nombreBusqueda} de la ${nombreSerie} de Sinotruk en Vehicentro. Imbatibles en precio, capacidad y rentabilidad, con cabina abatible electrónicamente. Precio: ${precio}`;
+      cuotas = `Cuotas desde: ${precios.trece_330_cuota}`;
+      motor =
+        urlMedia +
+        "13-toneladas-330/motor-sinotruk-de-camion-de-13-toneladas-ecuador.webp";
+      garantia = urlMedia + "13-toneladas-330/5-anos-de-garantia.webp";
+      tecnologia = urlMedia + "alemania_negro.webp";
+      caracteristicas = [
+        urlMedia +
+          "13-toneladas-330/camion-de-13-toneladas-potencia-330hp.webp",
+        urlMedia +
+          "13-toneladas-330/camion-de-13-toneladas-6-cilindros-en-linea.webp",
+        urlMedia + "13-toneladas-330-retardador/icono.webp",
+        urlMedia + "13-toneladas-330-retardador/icono2.webp",
+      ];
+      cabina =
+        urlMedia +
+        "13-toneladas-330/cabina-de-camion-de-13-toneladas-sinotruk.webp";
+      marcas = urlMedia + "marcas-vehicentro.webp";
+      internas1 = [
+        urlMedia +
+          "13-toneladas-330/volante-deportivo-de-camion-de-13-toneladas.webp",
+        urlMedia + "13-toneladas-330-retardador/interna1.webp",
+      ];
+      internas2 = [
+        urlMedia + "13-toneladas-330/climatizador.webp",
+        urlMedia + "13-toneladas-330-retardador/interna2.webp",
+      ];
+      medidas = urlMedia + "/13-toneladas-330-retardador/medidas.webp";
+      medidasMovil = urlMedia + "13-toneladas-330-retardador/medidasCell";
+      audio_motor = urlMedia + "13-toneladas-330/motor.mp3";
+
+      internas = internas1.concat(internas2);
+      contenedorVidaUtil = "Vida útil de más de 1.5 MILLONES de kilómetros";
+      contenedorMarcas = (
+        <div className="boxRightHeader  half" style={{ width: "100 %" }}>
+          <img
+            src={marcas}
+            width="1500"
+            height="750"
+            className="slideMain"
+            alt={`tecnologias ${nombreBusqueda}`}
+            title={`${nombreBusqueda}`}
+          />
+        </div>
+      );
+
+      break;
+
     //18 toneladas
     case "camion-de-18-toneladas-t5g-1257":
       pathUrl = "camion-de-18-toneladas-t5g-1257";
@@ -1711,6 +1781,10 @@ function Camion() {
   switch (useParams("id").id) {
     case "camion-de-2-5-toneladas":
       imagen = urlMedia + "formNew/2.5TON.webp";
+      break;
+
+    case "camion-13-toneladas-t5g-1167-330hp-retardador":
+      imagen = urlMedia + "13-toneladas-330-retardador/form.webp";
       break;
 
     // case "camion-de-3-6-toneladas-nks":

@@ -601,6 +601,13 @@ function Block3() {
               <p style={{ opacity: "30%" }}>|</p>
               <NavLink
                 className="line2"
+                to="/camiones/camion-13-toneladas-t5g-1167-330hp-retardador"
+              >
+                13 TON 330HP RETARDADOR
+              </NavLink>
+              <p style={{ opacity: "30%" }}>|</p>
+              <NavLink
+                className="line2"
                 to="/camiones/camion-de-18-toneladas-t5g-1257"
               >
                 18 TON
