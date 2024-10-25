@@ -4,8 +4,6 @@
   }
 }
 
-
-
 @media only screen and (max-width: 768px) {
   .searchIcon {
     display: none;
@@ -37,7 +35,6 @@
   .alinear-abajo {
     display: flex;
   }
-
 
   .mostrarMovil.letras {
     background-color: #191713;
@@ -89,7 +86,6 @@
     width: 100%;
   }
 
-
   .closeMovil::before {
     content: url(../public/images/back.png);
     position: absolute;
@@ -117,20 +113,17 @@
     justify-content: center;
     align-items: start;
     width: 100%;
-
   }
 
   .banner .menosImagenMovile {
     width: 80%;
   }
 
-
-
   .serieSinotrukAutos .logos {
     width: 100%;
   }
 
-  .nav-links>li {
+  .nav-links > li {
     width: 100% !important;
   }
 
@@ -154,14 +147,12 @@
     display: none !important;
   }
 
-
-
   .boxesIni.partesbg {
     flex-direction: row !important;
     flex-wrap: wrap;
   }
 
-  .boxesIni.partesbg>div {
+  .boxesIni.partesbg > div {
     width: 50% !important;
   }
 
@@ -190,7 +181,7 @@
     flex-direction: column-reverse;
   }
 
-  .boxesIni>div {
+  .boxesIni > div {
     width: 100% !important;
   }
 
@@ -227,7 +218,6 @@
   .footer .desc {
     padding-right: 0px;
     width: 100%;
-
   }
 
   .footer .info {
@@ -248,9 +238,7 @@
   }
 
   .footer .info img {
-
     width: 60% !important;
-
   }
 
   .ocultarDesktop {
@@ -319,7 +307,6 @@
   }
 
   .textoImagenesProducto {
-
     padding: 4% 0 4% 0;
   }
 
@@ -331,11 +318,11 @@
     display: block;
   }
 
-  .each-slide-effect>div {
+  .each-slide-effect > div {
     height: 72vw !important;
   }
 
-  ul.nav-links-h>li>a:hover,
+  ul.nav-links-h > li > a:hover,
   .active {
     color: #f44331;
     border-bottom-color: #f44331;
@@ -343,8 +330,7 @@
     border-bottom-style: solid;
   }
 
-
-  .responsive .each-slide-effect>div {
+  .responsive .each-slide-effect > div {
     height: 100vw !important;
   }
 
@@ -368,7 +354,6 @@
   .textoMotor2 {
     font-size: 10vh;
     bottom: 5.5rem;
-
   }
 
   .textoMotor3 {
@@ -384,7 +369,6 @@
     bottom: 300px !important;
     padding-top: 20vw !important;
   }
-
 
   .textoMotorFlecha {
     bottom: 3.5rem;
@@ -442,10 +426,8 @@
   }
 
   .textoMotor4.negro {
-    color: #000
+    color: #000;
   }
-
-
 
   .boxesIni.posRelative.news.repuesto {
     flex-direction: initial;
@@ -458,7 +440,6 @@
   .modalForm {
     width: 100%;
   }
-
 
   .item-level-8.linkContact {
     padding: 0 0 0 0;
@@ -503,10 +484,8 @@
   }
 
   .serieList {
-
     align-content: center;
   }
-
 
   .bannerTec.responsive img {
     max-width: 100%;
@@ -515,7 +494,7 @@
 
   .serieTitle.serieBox.seriecompletomovil {
     width: 80%;
-    padding: 8vh 10vw 3vh 10vw
+    padding: 8vh 10vw 3vh 10vw;
   }
 
   .boxRight.nomSeries.responsive {
@@ -532,23 +511,26 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+}
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (max-width: 1300px) {
+}
 
-@media only screen and (max-width: 1300px) {}
+@media only screen and (max-width: 1160px) {
+}
 
-@media only screen and (max-width: 1160px) {}
+@media only screen and (max-width: 1000px) {
+}
 
-@media only screen and (max-width: 1000px) {}
-
-@media only screen and (max-width: 880px) {}
+@media only screen and (max-width: 880px) {
+}
 
 @media only screen and (max-width: 768px) {
-
-  .block1>div,
-  .block2>div,
-  .block3>div,
-  .block4>div {
+  .block1 > div,
+  .block2 > div,
+  .block3 > div,
+  .block4 > div {
     width: 100%;
   }
 
@@ -576,7 +558,7 @@
     flex-wrap: wrap;
   }
 
-  .block1 .linksBox>a {
+  .block1 .linksBox > a {
     display: inline-block;
     color: #fff;
     font-size: 4.6vw;
@@ -588,7 +570,7 @@
     display: none !important;
   }
 
-  .block3.boxBlock>div {
+  .block3.boxBlock > div {
     width: 90%;
     background-color: #2d2d2d;
   }
@@ -615,13 +597,11 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: flex-start;
-
   }
 
   .block3 .bottomContainer .linksBox a {
     margin: 0 2%;
   }
-
 
   .sinoIcon {
     display: none;
@@ -684,11 +664,11 @@
     display: flex;
   }
 
-  .nomSeries>div.serieTitle {
+  .nomSeries > div.serieTitle {
     width: 40%;
   }
 
-  .nomSeries>div.serieList {
+  .nomSeries > div.serieList {
     width: 60%;
   }
 
@@ -713,7 +693,6 @@
   }
 
   .boxPlayerMotor.audiohome {
-
     width: 100%;
     left: 0;
     bottom: 5vh;
@@ -790,17 +769,12 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .custom-header {
     background-color: #fff;
     display: none;
   }
 }
-
-
-
-
 
 @media (max-width: 768px) {
   .custom-header {

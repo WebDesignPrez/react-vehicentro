@@ -10,6 +10,7 @@ import PopUp from "../components/PopUp";
 import PopUpAvisoLegal from "../components/PopUpAvisoLegal";
 import NavBarTop from "../NavBarTop";
 import PromoPopUp from "../components/PromoPopUp";
+import { CarouselHome } from "../components/CarouselHome";
 
 let bdc =
   "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHBOTONCOT";
@@ -287,7 +288,35 @@ function Block1() {
   return (
     <>
       <div className="block1 boxBlock" height="1080">
-        <div id="videoContainer">
+        <div className="imgContainerHeader imgHeader3" height="600">
+          <div className="overlayBox" height="100">
+            {/* <p className="titleBox">PRODUCTOS</p> */}
+            <div className="linksBox series">
+              <p className="titleBox">CAMIONES</p>
+              <p className="titleBox">AUTOS</p>
+              <p className="titleBox">CAMIONETAS</p>
+              {/* <NavLink to="/serie/n">
+                CAMIONES <span className="boldserie">N</span>
+              </NavLink>
+              <NavLink to="/serie/100">
+                SERIE <span className="boldserie">100</span>
+              </NavLink>
+              <NavLink to="/serie/t5g">
+                SERIE <span className="boldserie">T5G</span>
+              </NavLink>
+              <NavLink to="/serie/t7h">
+                SERIE <span className="boldserie">T7H</span>
+              </NavLink>
+              <NavLink to="/serie/c7h">
+                SERIE <span className="boldserie">C7H</span>
+              </NavLink>
+              <NavLink to="/cabezales/cabezal-48-max">
+                SERIE <span className="boldserie">MAX</span>
+              </NavLink> */}
+            </div>
+          </div>
+        </div>
+        {/* <div id="videoContainer">
           <div className="boxRight tecnologia" height="1080">
             <div className="boxLeft c7h">
               <video
@@ -303,6 +332,7 @@ function Block1() {
                 src="https://www.vehicentro.com/images/home/540New.mp4"
                 className="videoWidth produ"
               />
+             
             </div>
           </div>
           <div className="overlayBox" height="200">
@@ -328,7 +358,7 @@ function Block1() {
               </NavLink>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="ocultarDesktop">
           <Slide duration={4000}>
             <NavLink to="../sinotruk/autos">
@@ -365,15 +395,22 @@ function Block1() {
         <div
           className="imgContainerHeader imgHeader1"
           height="600"
-          onClick={() => {
-            window.location = "/repuestos";
-          }}
+          // onClick={() => {
+          //   window.location = "/repuestos";
+          // }}
         >
-          <p className="titleBox ">
-            <span className="rojo"></span>
-            <span className="rojo"></span>
-          </p>
-          <div className="linksBox testimonio test"></div>
+          <div
+            className="imgContainerHeader imgHeader2 noResponsive"
+            height="600"
+          >
+            <div className="overlayBox" height="200">
+              <div className="linksBox testimonio">
+                <a href="" className="line2" src="">
+                  CONSTRUCCIÓN
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <div id="videoContainer" className="responsive">
           <div className="boxRight tecnologia" height="1080">
@@ -405,15 +442,38 @@ function Block1() {
           height="600"
         >
           <div className="overlayBox" height="200">
-            <a href="/experiencia" className="titleBox">
-              SINOTRUKEROS
-            </a>
             <div className="linksBox testimonio">
-              <a href="/experiencia" className="line2" src="">
-                VIDEOS TESTIMONIALES
+              <a href="" className="line2" src="">
+                MINERÍA
               </a>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="boxlogos">
+        <div className="logoHero">
+          <img
+            src={urlMedia + "home/sinotruk-logo.png"}
+            width="100%"
+            height="auto"
+            alt="Camiones de carga liviana en Ecuador"
+          />
+        </div>
+        <div className="logoHero">
+          <img
+            src={urlMedia + "home/case-logo.png"}
+            width="100%"
+            height="auto"
+            alt="Camiones de carga liviana en Ecuador"
+          />
+        </div>
+        <div className="logoHero">
+          <img
+            src={urlMedia + "home/sunware-logo.png"}
+            width="100%"
+            height="auto"
+            alt="Camiones de carga liviana en Ecuador"
+          />
         </div>
       </div>
     </>
@@ -481,6 +541,8 @@ function Block3() {
         </div>
       </div>
       <div className="fraseInicio">SERIES</div>
+      {/* <CarouselHome /> */}
+
       <div className="block3 boxBlock" id="pagina">
         <div>
           <a href="/camiones/camion-de-2-5-toneladas">
@@ -626,9 +688,6 @@ function Block3() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="block3 boxBlock row2">
         <div>
           <a href="/serie/t7h">
             {" "}
@@ -773,8 +832,6 @@ function Block3() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="block3 boxBlock row2">
         <div>
           <Slide duration={2000}>
             <div className="each-slide-effect">
@@ -981,6 +1038,356 @@ function Block3() {
           </div>
         </div>
       </div>
+
+      {/* <div className="block3 boxBlock row2">
+        <div>
+          <a href="/serie/t7h">
+            {" "}
+            <img
+              src={urlMedia + "home/nuevasPortadas/serie-t7h.webp"}
+              width="900"
+              height="700"
+              alt="Cabezales de venta en Ecuador"
+            />
+          </a>
+          <div className="bottomContainer">
+            <p className="titleBox">SERIE</p>
+
+            <NavLink className="titleBox2" to="/serie/t7h">
+              T7H
+            </NavLink>
+            <div className="linksBox">
+              <NavLink
+                className="line2"
+                to="/cabezales/cabezal-t7h-390-28-toneladas"
+              >
+                28 TON
+              </NavLink>
+              <p style={{ opacity: "30%" }}>|</p>
+              <NavLink
+                className="line2"
+                to="/cabezales/cabezal-28-toneladas-retardador"
+              >
+                28 TON con retardador
+              </NavLink>
+              <p style={{ opacity: "30%" }}>|</p>
+              <NavLink
+                className="line2"
+                to="/cabezales/cabezal-t7h-340-28-toneladas"
+              >
+                28 TON Weichai
+              </NavLink>
+              <p style={{ opacity: "30%" }}>|</p>
+              <NavLink
+                className="line2"
+                to="/cabezales/cabezal-t7h-390-42-toneladas"
+              >
+                42 TON
+              </NavLink>
+              <p style={{ opacity: "30%" }}>|</p>
+              <NavLink
+                className="line2"
+                to="/cabezales/cabezal-t7h-430-45-toneladas"
+              >
+                45 TON
+              </NavLink>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <Slide duration={2000}>
+              <div className="each-slide-effect">
+                <div
+                  style={{
+                    backgroundImage: `url(../images/home/motor.webp)`,
+                    height: `23.2vw`,
+                  }}
+                ></div>
+              </div>
+              <div className="each-slide-effect">
+                <div
+                  style={{
+                    backgroundImage: `url(../images/home/veinstein.webp)`,
+                    height: `23.2vw`,
+                  }}
+                ></div>
+              </div>
+            </Slide>
+            <div className="bottomContainer audio">
+              <div className="bannerTec">
+                <img
+                  src={urlMedia + "alemania_blanco.webp"}
+                  width="1000"
+                  height="270"
+                  alt="Tecnologia Alemana"
+                />
+              </div>
+              <div className="boxPlayerMotor audiohome">
+                <audio id="audioMotorHome" controls type="audio/mpeg"></audio>
+              </div>
+              <div className="linksBox iniciocentrado">
+                <a className="line2" src="">
+                  ESCUCHA TU MOTOR
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="/serie/c7h">
+            {" "}
+            <img
+              src={urlMedia + "home/nuevasPortadas/serie-c7h.webp"}
+              width="900"
+              height="700"
+              alt="Cabezales de venta en Ecuador"
+            />{" "}
+          </a>
+          <div className="bottomContainer">
+            <p className="titleBox">SERIE</p>
+            <NavLink className="titleBox2" to="/serie/c7h">
+              C7H
+            </NavLink>
+            <div className="linksBox">
+              <NavLink
+                className="line2"
+                to="/camiones/camion-20-toneladas-1256"
+              >
+                20 TON
+              </NavLink>
+              <span style={{ opacity: "30%" }}>|</span>
+              <NavLink
+                className="line2"
+                to="/camiones/camion-20-toneladas-catalinas-1256"
+              >
+                20 TON CATALINAS
+              </NavLink>
+              <span style={{ opacity: "30%" }}>|</span>
+              <NavLink className="line2" to="/cabezales/cabezal-c7h-540">
+                48 TON
+              </NavLink>
+              <span style={{ opacity: "30%" }}>|</span>
+              <div>
+                <NavLink
+                  className="line2"
+                  to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version"
+                >
+                  <span className="nuevoCamion">NUEVO</span> 48 TON CATALINAS
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      {/* <div className="block3 boxBlock row2">
+        <div>
+          <Slide duration={2000}>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./sinotruk/autos/u70">
+                  <img
+                    style={{ width: "100%" }}
+                    src={urlMedia + "home/U70Carrusel.webp"}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./sinotruk/autos/u70pro">
+                  <img
+                    style={{ width: "100%" }}
+                    src={urlMedia + "home/U70ProCarrusel.webp"}
+                  />
+                </a>
+              </div>
+            </div>
+          </Slide>
+
+          <div className="bottomContainer">
+            <p className="titleBox"></p>
+            <NavLink className="titleBox2" to="/sinotruk/autos">
+              SUV'S
+            </NavLink>
+            <div className="linksBox">
+              <NavLink className="line2" src="" to="/sinotruk/autos/u70">
+                U70 FULL
+              </NavLink>
+              <p style={{ opacity: "30%" }}>|</p>
+              <NavLink className="line2" src="" to="/sinotruk/autos/u70pro">
+                U70 PRO
+              </NavLink>
+              <p style={{ opacity: "30%" }}>|</p>
+              <NavLink className="line2" src="" to="/sinotruk/autos/U70ProAmt">
+                U70 PRO AUTOMÁTICO
+              </NavLink>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <Slide duration={2000}>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./mixer/mixer-a7-1257">
+                  <img
+                    style={{ width: "100%" }}
+                    src={urlMedia + "home/mixer2.webp"}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./serie/volquetas">
+                  <img
+                    style={{ width: "100%" }}
+                    src={urlMedia + "home/serie-volquetas2.webp"}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./serie/volquetas">
+                  <img
+                    style={{ width: "100%" }}
+                    src={urlMedia + "home/volqueta72.webp"}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./serie/volquetas">
+                  <img
+                    style={{ width: "100%" }}
+                    src={urlMedia + "home/volquetaC7HNew2.webp"}
+                  />
+                </a>
+              </div>
+            </div>
+          </Slide>
+
+          <div className="bottomContainer">
+            <p className="titleBox"></p>
+            <NavLink className="titleBox2" to="/serie/volquetas">
+              VOLQUETAS / MIXER
+            </NavLink>
+            <div className="linksBox">
+              <div className="arribacol">
+                <div className="nombreIni">
+                  <p>Volquetas:</p>
+                </div>
+                <div className="linksVol">
+                  <NavLink
+                    className="line2"
+                    src=""
+                    to="/volquetas/volqueta-t5g-280"
+                  >
+                    T5G 8-9 m3{" "}
+                  </NavLink>
+                  <span style={{ opacity: "30%" }}>|</span>
+                  <NavLink
+                    className="line2"
+                    src=""
+                    to="/volquetas/volqueta-t7h-430"
+                  >
+                    T7H 10-14 m3
+                  </NavLink>
+                  <span style={{ opacity: "30%" }}>|</span>
+                </div>
+              </div>
+              <div className="abajoCol">
+                <div className="nombreIni"></div>
+                <div className="linksVol">
+                  <NavLink
+                    className="line2"
+                    src=""
+                    to="/volquetas/volqueta-t7h-430-20m3"
+                  >
+                    T7H 430 20 m3
+                  </NavLink>
+                  <span style={{ opacity: "30%" }}>|</span>
+                  <NavLink
+                    className="line2"
+                    src=""
+                    to="/volquetas/volqueta-c7h-540"
+                  >
+                    C7H 540 20 m3
+                  </NavLink>
+                  <span style={{ opacity: "30%" }}>|</span>
+                </div>
+              </div>
+              <div>
+                <p>Mixer:</p>
+                <NavLink className="line2" src="" to="/mixer/mixer-a7-1257">
+                  {" "}
+                  A7 8-9 m3
+                </NavLink>
+                <span style={{ opacity: "30%" }}>|</span>
+                <NavLink
+                  className="line2"
+                  src=""
+                  to="/mixer/mixer-12-14m3-c7h-430"
+                >
+                  {" "}
+                  C7H 12 m3
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <Slide duration={2000}>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./excavadoras/swe210">
+                  <img
+                    style={{ width: "100%" }}
+                    src={urlMedia + "/home/sunwardNew.webp"}
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="each-slide-effect">
+              <div style={{ height: `23.2vw` }}>
+                <a href="./minicargadoras/swl3220">
+                  <img
+                    style={{ width: "100%" }}
+                    src={urlMedia + "/home/minicargadoraNew.webp"}
+                  />
+                </a>
+              </div>
+            </div>
+          </Slide>
+
+          <div className="bottomContainer">
+            <p className="titleBox"></p>
+            <NavLink className="titleBox2">MAQUINARIA SUNWARD</NavLink>
+            <div className="linksBox">
+              <NavLink className="line2" src="" to="/excavadoras/swe210">
+                EXCAVADORA SWE 210 21 Ton
+              </NavLink>
+              <p style={{ opacity: "30%" }}>|</p>
+              <NavLink className="line2" src="" to="/excavadoras/swe370e">
+                EXCAVADORA SWE 370E 37 Ton
+                <span style={{ opacity: "30%" }}>|</span>
+              </NavLink>
+              <NavLink className="line2" src="" to="/excavadoras/swe600">
+                <span className="nuevoCamion">NUEVO</span> EXCAVADORA SWE 600F
+                51 Ton<span style={{ opacity: "30%" }}> |</span>
+              </NavLink>
+              <NavLink className="line2" src="" to="/minicargadoras/swl3220">
+                MINICARGADORA SWL3220
+              </NavLink>
+            </div>
+          </div>
+        </div>
+      </div> */}
     </>
   );
 }
