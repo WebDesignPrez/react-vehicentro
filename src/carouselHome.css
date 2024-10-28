@@ -1,7 +1,6 @@
 .boxSeries {
   background-color: #2d2d2d;
 }
-
 p {
   color: #fff;
 }
@@ -12,17 +11,87 @@ a {
 }
 
 .box {
+  padding-top: 1rem;
   background-color: #181512;
+  padding-bottom: 1rem;
 }
 
 .seriesFlex {
   display: flex;
   align-items: center;
-  gap: 1;
-  justify-content: space-evenly;
+  justify-content: start;
+  gap: 0.5rem;
   flex-direction: row;
-  margin-top: 2rem;
+  flex-wrap: wrap;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.seriesFlex a:hover {
+  color: red;
 }
 
 .boxSeries .infoBox {
+  height: 13rem;
+}
+.boxSeries .infoBox2 {
+  height: 7rem;
+}
+
+.infoBox p:first-child {
+  font-size: 1.8rem;
+}
+
+.boxtitle a {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.boxtitle {
+  margin-top: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.boxtitle a:hover {
+  color: red;
+}
+
+.boxtitle a::after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TpSIVhxYUEclQnSyIijhKFYtgobQVWnUwufQLmjQkKS6OgmvBwY/FqoOLs64OroIg+AHi6OSk6CIl/i8ptIjx4Lgf7+497t4BQqPCVLNrAlA1y0jFY2I2tyoGXhHECAYQRUhipp5IL2bgOb7u4ePrXZRneZ/7c/QpeZMBPpF4jumGRbxBPLNp6Zz3icOsJCnE58TjBl2Q+JHrsstvnIsOCzwzbGRS88RhYrHYwXIHs5KhEk8TRxRVo3wh67LCeYuzWqmx1j35C4N5bSXNdZrDiGMJCSQhQkYNZVRgUV9laKSYSNF+zMM/5PiT5JLJVQYjxwKqUCE5fvA/+N2tWZiadJOCMaD7xbY/RoHALtCs2/b3sW03TwD/M3Cltf3VBjD7SXq9rUWOgP5t4OK6rcl7wOUOMPikS4bkSH6aQqEAvJ/RN+WA0C3Qu+b21trH6QOQoa6Wb4CDQ2CsSNnrHu/u6ezt3zOt/n4A0gVyzRKkXhEAAAAGYktHRADxAGwAIPa00B4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfmDB8AIDabfUnMAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAARlJREFUOMul0r1KXHEUBPDf7vpVHFAQbiNpQtBCSWuRRrGziyGvEIKEBN/Azkq0Eax8ASVF0ghWIiEvIJJSK+HfKPEIVq7NFVZQ2OtOOQzDOTPT0gdKRBufMYu9KvPcICgR0yXipkR0S8S/ErH4krbdp+c1Hq+awc8S8a1EDL/KsMosWMERupjAFnZKxGSvttXw9XGsYxUjNf0HX6vMU2iViA6W8LZP3w4+oTfHS/zAQatELOAQowbDf8y360y6BkfibggnWG7w8hi+4H0Pd1rneN60lDfYxse60HvsY63KvGzUcon4gF3M1dQtNrBZZd41mk192V9M1dQFvuN3lfkk/6EGU3lcwTFWq8yz54RNX36HX1Xm1Uu6B0cETq7x882WAAAAAElFTkSuQmCC);
+  margin-left: 10px;
+}
+
+.newTag {
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
+.categoryBox p:first-child {
+  font-size: 1rem;
+}
+
+.filterButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonOptions {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: 2rem;
+  border-radius: 100px;
+  background-color: #ce2029;
+  color: white;
+  font-weight: 800;
+  border: none;
 }

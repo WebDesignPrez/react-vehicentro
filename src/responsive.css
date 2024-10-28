@@ -538,7 +538,7 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
-    height: 23vw;
+    height: 15vw;
     background-color: rgba(0, 0, 0, 0.8);
   }
 
@@ -755,6 +755,10 @@
 
   .result {
     top: 13vh !important;
+  }
+
+  .logobanner img {
+    width: 100% !important;
   }
 
   .requisitosDos.gara.new {
