@@ -24,7 +24,7 @@ const carouselData = [
     ],
   },
   {
-    imgSrc: "home/nuevasPortadas/serie-100.webp",
+    imgSrc: "home/serie-100.webp",
     imgAlt: "Camiones de carga liviana en Ecuador",
     title: "SERIE",
     seriesLink: "/serie/100",
@@ -48,7 +48,7 @@ const carouselData = [
     ],
   },
   {
-    imgSrc: "home/nuevasPortadas/serie-t5g.webp",
+    imgSrc: "home/SERIET5G.webp",
     imgAlt: "Camiones de carga pesada en Ecuador",
     title: "SERIE",
     seriesLink: "/serie/t5g",
@@ -94,7 +94,7 @@ const carouselData = [
     ],
   },
   {
-    imgSrc: "home/nuevasPortadas/serie-t7h.webp",
+    imgSrc: "home/SERIET7H.webp",
     imgAlt: "Cabezales de venta en Ecuador",
     title: "SERIE",
     seriesLink: "/serie/t7h",
@@ -220,6 +220,20 @@ const carouselData = [
       {
         name: "U70 PRO AUTOMÁTICO",
         link: "/sinotruk/autos/U70ProAmt",
+        isNew: false,
+      },
+    ],
+  },
+  {
+    imgSrc: "home/3.webp",
+    imgAlt: "autos Suvs en Ecuador",
+    title: "SERIE",
+    seriesLink: "",
+    seriesName: "MAX",
+    items: [
+      {
+        name: "48 TON MAX",
+        link: "/cabezales/cabezal-48-max",
         isNew: false,
       },
     ],

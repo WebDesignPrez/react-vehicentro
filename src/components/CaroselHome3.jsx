@@ -18,9 +18,9 @@ export const CarouselHome3 = () => {
         slidesPerView={3}
         pagination={{ clickable: true }}
         navigation
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         loop
-        // autoplay={{ delay: 4000, disableOnInteraction: false }}
+        autoplay={{ delay: 4000, disableOnInteraction: false }}
         breakpoints={{
           0: { slidesPerView: 1 }, // 1 slide en pantallas pequeñas
           768: { slidesPerView: 2 }, // 2 slides en tablets
