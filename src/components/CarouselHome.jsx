@@ -45,6 +45,7 @@ const renderItems = (items) => {
 
 export const CarouselHome = () => {
   const [selectedCategory, setSelectedCategory] = useState("CAMIONES");
+  const [hoverColor, setHoverColor] = useState(null); // Estado para color de fondo en hover
 
   // Filtrar los datos según el botón seleccionado
   const filteredData = carouselData.filter((item) =>
@@ -56,19 +57,36 @@ export const CarouselHome = () => {
   return (
     <div className="box">
       {/* Botones de filtro */}
-      <div className="filterButtons">
-        <button
+      <div
+        className="container"
+        style={{ backgroundColor: hoverColor || "transparent" }}
+      >
+        <div
           className="buttonOptions"
+          onMouseEnter={() => setHoverColor("#181512")}
+          onMouseLeave={() => setHoverColor(null)}
           onClick={() => setSelectedCategory("CAMIONES")}
         >
-          CAMIONES
-        </button>
-        <button
+          <span>CAMIONES</span>
+        </div>
+        <div
           className="buttonOptions"
+          onMouseEnter={() => setHoverColor("#df0303")}
+          onMouseLeave={() => setHoverColor(null)}
           onClick={() => setSelectedCategory("AUTOS")}
         >
-          AUTOS
-        </button>
+          <span>AUTOS</span>
+        </div>
+        <div
+          className="buttonOptions"
+          onMouseEnter={() => setHoverColor("#181512")}
+          onMouseLeave={() => setHoverColor(null)}
+          onClick={() => setSelectedCategory("CAMIONETAS")}
+        >
+          <a href="/proximamente">
+            <span>CAMIONETAS</span>
+          </a>
+        </div>
       </div>
 
       {/* Carrusel */}

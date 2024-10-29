@@ -1,20 +1,8 @@
 const carouselData = [
   {
-    imgSrc: "home/sw1.webp",
-    imgAlt: "Sunward Ecuador Vehicentro",
-    seriesName: "Excavadora",
-    items: [
-      {
-        name: "SWE600F",
-        link: "/excavadoras/swe600",
-        isNew: true,
-      },
-    ],
-  },
-  {
     imgSrc: "home/sw2.webp",
     imgAlt: "Sunward Ecuador Vehicentro",
-    seriesName: "Mini Excavadora",
+    seriesName: "MINI EXCAVADORA",
     items: [
       {
         name: "SWE35UF",
@@ -24,25 +12,69 @@ const carouselData = [
     ],
   },
   {
-    imgSrc: "home/sw3.webp",
+    imgSrc: "home/minicargadoraNew.webp",
     imgAlt: "Sunward Ecuador Vehicentro",
-    seriesName: "Cargadora Frontal ",
+    seriesName: "MINI CARGADORA",
     items: [
       {
-        name: "SL51W",
+        name: "SWL3220",
+        link: "/minicargadoras/swl3220",
+        isNew: false,
+      },
+    ],
+  },
+  {
+    imgSrc: "home/sw1.webp",
+    imgAlt: "Sunward Ecuador Vehicentro",
+    seriesName: "EXCAVADORA",
+    items: [
+      {
+        name: "SWE210",
+        link: "excavadoras/swe210",
+        isNew: false,
+      },
+      {
+        name: "SWE370E",
+        link: "/excavadoras/swe370e",
+        isNew: false,
+      },
+      {
+        name: "SWE600F",
+        link: "/excavadoras/swe600",
+        isNew: true,
+      },
+    ],
+  },
+  {
+    imgSrc: "home/sw3.webp",
+    imgAlt: "Sunward Ecuador Vehicentro",
+    seriesName: "CARGADORA FRONTAL",
+    items: [
+      {
+        name: "SL52W",
+        // link: "/excavadoras/swe600",
+        isNew: false,
+      },
+      {
+        name: "SL61W",
         // link: "/excavadoras/swe600",
         isNew: false,
       },
     ],
   },
   {
-    imgSrc: "home/sw4.webp",
+    imgSrc: "home/bulldozer.webp",
     imgAlt: "Sunward Ecuador Vehicentro",
-    seriesName: "Excavadora",
+    seriesName: "BULLDOZER",
     items: [
       {
-        name: "SWE370E",
-        link: "/excavadoras/swe370e",
+        name: "SD220Y1",
+        // link: "/excavadoras/swe600",
+        isNew: false,
+      },
+      {
+        name: "SD230Y1",
+        // link: "/excavadoras/swe600",
         isNew: false,
       },
     ],

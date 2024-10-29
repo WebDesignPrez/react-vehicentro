@@ -163,25 +163,24 @@ const carouselData = [
   },
   {
     imgSrc: "home/volquetaC7HNew2.webp",
-    imgAlt: "Volquetas Mixer en Ecuador",
-    title: "SINOTRUK",
+    imgAlt: "Volquetas en Ecuador",
+    title: "SERIE",
     seriesLink: "/serie/volquetas",
-    seriesName: "VOLQUETAS/MIXER",
-    categories: [
-      {
-        category: "Volquetas",
-        items: [
-          { name: "T5G 8-9 m3", link: "/volquetas/volqueta-t5g-280" },
-          { name: "T7H 10-14 m3", link: "/volquetas/volqueta-t7h-430" },
-          { name: "T7H 430 20 m3", link: "/volquetas/volqueta-t7h-430-20m3" },
-          { name: "C7H 540 20 m3", link: "/volquetas/volqueta-c7h-540" },
-        ],
-      },
-      {
-        category: "Mixer",
-        items: [{ name: " C7H 12 m3", link: "/mixer/mixer-12-14m3-c7h-430" }],
-      },
+    seriesName: "VOLQUETAS",
+    items: [
+      { name: "T5G 8-9 m3", link: "/volquetas/volqueta-t5g-280" },
+      { name: "T7H 10-14 m3", link: "/volquetas/volqueta-t7h-430" },
+      { name: "T7H 430 20 m3", link: "/volquetas/volqueta-t7h-430-20m3" },
+      { name: "C7H 540 20 m3", link: "/volquetas/volqueta-c7h-540" },
     ],
+  },
+  {
+    imgSrc: "home/mixer2.webp",
+    imgAlt: "Mixer en Ecuador",
+    title: "SERIE",
+    seriesLink: "",
+    seriesName: "MIXER",
+    items: [{ name: " C7H 12 m3", link: "/mixer/mixer-12-14m3-c7h-430" }],
   },
   {
     imgSrc: "home/full.jpg",

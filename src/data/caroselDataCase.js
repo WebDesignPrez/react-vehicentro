@@ -6,7 +6,7 @@ const carouselData = [
     seriesName: "RETROEXCAVADORAS",
     items: [
       {
-        name: "575 SV",
+        name: "575SV",
         // link: "",
         isNew: false,
       },
@@ -29,20 +29,10 @@ const carouselData = [
     imgSrc: "home/rodilloCompactadores.jpg",
     imgAlt: "Case construcciones Ecuador Vehicentro",
     title: "",
-    seriesName: "RODILLO COMPACTADORES",
+    seriesName: "RODILLO COMPACTADOR",
     items: [
       {
-        name: "621E",
-        // link: "",
-        isNew: false,
-      },
-      {
-        name: "721E",
-        // link: "",
-        isNew: false,
-      },
-      {
-        name: "821E",
+        name: "1107EX",
         // link: "",
         isNew: false,
       },

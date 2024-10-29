@@ -12,7 +12,7 @@ let urlMedia = env.url;
 
 export const CarouselHome2 = () => {
   return (
-    <div className="box">
+    <div className="box2">
       <Swiper
         spaceBetween={30}
         slidesPerView={3}

@@ -294,13 +294,13 @@ function Block1() {
           <div className="overlayBox" height="100">
             {/* <p className="titleBox">PRODUCTOS</p> */}
             <div className="linksBox series">
-              <a href="" className="line2" src="">
+              <a href="#irCamiones" className="line2">
                 CAMIONES
               </a>
-              <a href="" className="line2" src="">
+              <a href="#irCamiones" className="line2" src="">
                 AUTOS
               </a>
-              <a href="" className="line2" src="">
+              <a href="/proximamente" className="line2" src="">
                 CAMIONETAS
               </a>
               {/* <NavLink to="/serie/n">
@@ -407,13 +407,10 @@ function Block1() {
           //   window.location = "/repuestos";
           // }}
         >
-          <div
-            className="imgContainerHeader imgHeader2 noResponsive"
-            height="600"
-          >
+          <div className="imgContainerHeader imgHeader1" height="600">
             <div className="overlayBox" height="200">
               <div className="linksBox testimonio">
-                <a href="" className="line2" src="">
+                <a href="#irCase" className="line2" src="">
                   CONSTRUCCIÓN
                 </a>
               </div>
@@ -445,43 +442,46 @@ function Block1() {
             </div>
           </div>
         </div>
-        <div
-          className="imgContainerHeader imgHeader2 noResponsive"
-          height="600"
-        >
+        <div className="imgContainerHeader imgHeader2" height="600">
           <div className="overlayBox" height="200">
             <div className="linksBox testimonio">
-              <a href="" className="line2" src="">
+              <a href="#irSunward" className="line2" src="">
                 MINERÍA
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div className="boxlogos">
+      <div className="boxlogos noResponsive">
         <div className="logoHero">
-          <img
-            src={urlMedia + "home/sinotruk-logo.png"}
-            width="100%"
-            height="auto"
-            alt="Camiones de carga liviana en Ecuador"
-          />
+          <a href="#irCamiones">
+            <img
+              src={urlMedia + "home/sinotruk-logo.png"}
+              width="100%"
+              height="auto"
+              alt="Camiones de carga liviana en Ecuador"
+            />
+          </a>
         </div>
         <div className="logoHero">
-          <img
-            src={urlMedia + "home/case-logo.png"}
-            width="100%"
-            height="auto"
-            alt="Camiones de carga liviana en Ecuador"
-          />
+          <a href="#irCase">
+            <img
+              src={urlMedia + "home/case-logo.png"}
+              width="100%"
+              height="auto"
+              alt="Camiones de carga liviana en Ecuador"
+            />
+          </a>
         </div>
         <div className="logoHero">
-          <img
-            src={urlMedia + "home/sunware-logo.png"}
-            width="100%"
-            height="auto"
-            alt="Camiones de carga liviana en Ecuador"
-          />
+          <a href="#irSunward">
+            <img
+              src={urlMedia + "home/sunware-logo.png"}
+              width="100%"
+              height="auto"
+              alt="Camiones de carga liviana en Ecuador"
+            />
+          </a>
         </div>
       </div>
     </>
@@ -549,33 +549,39 @@ function Block3() {
         </div>
       </div>
       <div className="fraseInicio">SERIES</div> */}
-      <div className="logobanner">
-        <img
-          src={urlMedia + "home/sinotruk-logo.png"}
-          width="25%"
-          height="auto"
-          alt="Camiones de carga liviana en Ecuador"
-        />
+      <div id="irCamiones">
+        <div className="logobanner">
+          <img
+            src={urlMedia + "home/sinotruk-logo.png"}
+            width="25%"
+            height="auto"
+            alt="Camiones de carga liviana en Ecuador"
+          />
+        </div>
+        <CarouselHome />
       </div>
-      <CarouselHome />
-      <div className="logobanner">
-        <img
-          src={urlMedia + "home/case-logo.png"}
-          width="25%"
-          height="auto"
-          alt="Camiones de carga liviana en Ecuador"
-        />
+      <div id="irCase">
+        <div className="logobanner">
+          <img
+            src={urlMedia + "home/case-logo.png"}
+            width="25%"
+            height="auto"
+            alt="Camiones de carga liviana en Ecuador"
+          />
+        </div>
+        <CarouselHome2 />
       </div>
-      <CarouselHome2 />
-      <div className="logobanner">
-        <img
-          src={urlMedia + "home/sunware-logo.png"}
-          width="25%"
-          height="auto"
-          alt="Camiones de carga liviana en Ecuador"
-        />
+      <div id="irSunward">
+        <div className="logobanner">
+          <img
+            src={urlMedia + "home/sunware-logo.png"}
+            width="25%"
+            height="auto"
+            alt="Camiones de carga liviana en Ecuador"
+          />
+        </div>
+        <CarouselHome3 />
       </div>
-      <CarouselHome3 />
     </>
   );
 }

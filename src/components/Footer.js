@@ -207,7 +207,7 @@ export default function Footer() {
         <br />
       </div>
       <a
-        href="https://api.whatsapp.com/send?phone=593992872703"
+        href="https://api.whatsapp.com/send?phone=593989205669"
         className="btn-wsp"
         target="_blank"
         rel="noreferrer"
