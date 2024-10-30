@@ -727,7 +727,6 @@ export default function NavBar() {
                 <p className="colItem meniu">
                   <NavLink to="/minicargadoras/swl3220">SWL3220</NavLink>
                 </p>
-                <div></div>
               </div>
             </div>
           </div>

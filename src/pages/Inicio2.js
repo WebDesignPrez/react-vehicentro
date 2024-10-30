@@ -289,7 +289,7 @@ function Slider() {
 function Block1() {
   return (
     <>
-      <div className="block1 boxBlock" height="1080">
+      <div className="block1 boxBlock noResponsive" height="1080">
         <div className="imgContainerHeader imgHeader3" height="600">
           <div className="overlayBox" height="100">
             {/* <p className="titleBox">PRODUCTOS</p> */}

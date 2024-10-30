@@ -78,14 +78,14 @@ export default function BannerContacto(props) {
         <p className="buttonContact f" onClick={openContact}>
           PROFORMA TU CAMIÓN
         </p>
-        <p className="textContact escritorio">
+        {/* <p className="textContact escritorio">
           Déjanos tus datos y uno de nuestros asesores <br></br>se contactará de
           inmediato.
         </p>
         <p className="textContact movil">
           Déjanos tus datos y uno <br></br>de nuestros asesores se contactará de
           inmediato.
-        </p>
+        </p> */}
       </div>
 
       {modalContactIsOpen && (

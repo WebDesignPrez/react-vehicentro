@@ -59,7 +59,7 @@ a {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .boxtitle a:hover {

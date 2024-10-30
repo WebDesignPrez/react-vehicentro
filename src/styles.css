@@ -544,7 +544,7 @@ p.titleFooter {
 
 @font-face {
   font-family: Blatant;
-  src: url(fonts/Kanit-Light.ttf);
+  src: url(fonts/Montserrat-Regular.ttf);
 }
 
 .headerSubMenu {
@@ -2975,7 +2975,7 @@ a.colItem.meniu.negro {
 }
 
 .swiper-pagination-bullet-active {
-  background: #2b6c61 !important;
+  background: red !important;
 }
 
 .swiper {

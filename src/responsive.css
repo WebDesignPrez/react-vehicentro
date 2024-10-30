@@ -648,13 +648,13 @@
     min-height: 51vh;
   }
 
-  .logo::after {
+  /* .logo::after {
     content: url(../public/images/leon-web.png);
     position: absolute;
     transform: scale(0.4);
     right: -49px;
     top: -38px;
-  }
+  } */
 
   .desktopImg {
     display: none;
