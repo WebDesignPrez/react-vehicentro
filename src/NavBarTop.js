@@ -677,7 +677,7 @@ export default function NavBarTop() {
                 </p>
                 <p className="colItem meniu">
                   <NavLink to="/volquetas/volqueta-c7h-540">
-                    C7H-540 20m3
+                    C7H-540 22m3
                   </NavLink>
                 </p>
                 <div></div>
@@ -702,31 +702,91 @@ export default function NavBarTop() {
           </a>
           <div className="item-level-1 nav-header nav-header-h">
             <div className="headerSubMenu maquinaria">
-              <div className="closeMovil" data-id="1"></div>
+              <div className="closeMovil " data-id="1"></div>
               <p>MAQUINARIA</p>
               {/* <img className="imgnMenu" src={urlMedia + "sinotrukTigre.webp"} alt="sunward" /> */}
             </div>
             <div className="rowMenu">
               <div className="colMenu">
-                <p className="colTitle">EXCAVADORAS</p>
+                <p className="colTitle">CASE</p>
+                <p className="colTitle2">RETROEXCAVADORAS</p>
                 <p className="colItem meniu">
-                  <NavLink to="/excavadoras/swe210">SWE 210 21 Ton</NavLink>
+                  <NavLink>575SV</NavLink>
+                </p>
+                <p className="colTitle2">EXCAVADORAS</p>
+                <p className="colItem meniu">
+                  <NavLink>CX220C</NavLink>
+                </p>
+                <p className="colTitle2">RODILLO COMPACTADOR</p>
+                <p className="colItem meniu">
+                  <NavLink>1107EX</NavLink>
+                </p>
+                <p className="colTitle2">MOTONIVELADORAS</p>
+                <p className="colItem meniu">
+                  <NavLink>845B SERIES 2</NavLink>
                 </p>
                 <p className="colItem meniu">
-                  <NavLink to="/excavadoras/swe370e">SWE 370E 37 Ton</NavLink>
+                  <NavLink>865B SERIES 2</NavLink>
+                </p>
+                <p className="colTitle2">TRACTOR DE ORUGAS</p>
+                <p className="colItem meniu">
+                  <NavLink>SWE210</NavLink>
+                </p>
+                <p className="colTitle2">MINI CARGADORA</p>
+                <p className="colItem meniu">
+                  <NavLink>1650L</NavLink>
                 </p>
                 <p className="colItem meniu">
-                  <NavLink to="/excavadoras/swe600">
-                    <span className="nuevoCamion2">NUEVO</span> SWE 600F 51 Ton
-                  </NavLink>
+                  <NavLink>2050M</NavLink>
                 </p>
               </div>
               <div className="colMenu">
-                <p className="colTitle">MINICARGADORAS</p>
+                <p className="colTitleextra">.</p>
+                <p className="colTitle2">CARGADORAS</p>
+                <p className="colItem meniu">
+                  <NavLink>621E</NavLink>
+                </p>
+                <p className="colItem meniu">
+                  <NavLink>721E</NavLink>
+                </p>
+                <p className="colItem meniu">
+                  <NavLink>821E</NavLink>
+                </p>
+              </div>
+              <div className="colMenu">
+                <p className="colTitle">SUNWARD</p>
+                <p className="colTitle2">MINI EXCAVADORA</p>
+                <p className="colItem meniu">
+                  <NavLink>SWE35UF</NavLink>
+                </p>
                 <p className="colItem meniu">
                   <NavLink to="/minicargadoras/swl3220">SWL3220</NavLink>
                 </p>
-                <div></div>
+                <p className="colTitle2">MINI CARGADORA</p>
+                <p className="colItem meniu">
+                  <NavLink to="/excavadoras/swe210">SWE210</NavLink>
+                </p>
+                <p className="colTitle2">EXCAVADORA</p>
+                <p className="colItem meniu">
+                  <NavLink to="/excavadoras/swe370e">SWE370E</NavLink>
+                </p>
+                <p className="colItem meniu">
+                  <NavLink to="/excavadoras/swe600">SWE600F</NavLink>
+                </p>
+                <p className="colTitle2">CARGADORA FRONTAL</p>
+                <p className="colItem meniu">
+                  <NavLink>SL52W</NavLink>
+                </p>
+                <p className="colItem meniu">
+                  <NavLink>SL61W</NavLink>
+                </p>
+                <p className="colTitle2">BULLDOZER</p>
+                <p className="colItem meniu">
+                  <NavLink>SD220Y1</NavLink>
+                </p>
+                <p className="colItem meniu">
+                  <NavLink>SD230Y1</NavLink>
+                </p>
               </div>
             </div>
           </div>

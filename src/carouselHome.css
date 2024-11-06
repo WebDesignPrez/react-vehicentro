@@ -14,7 +14,6 @@ a {
   background-color: #181512;
   padding-bottom: 1rem;
 }
-
 .box2 {
   padding-top: 1rem;
   background-color: #181512;
@@ -34,6 +33,7 @@ a {
 
 .seriesFlex a:hover {
   color: red;
+  cursor: pointer;
 }
 
 .boxSeries .infoBox {
@@ -48,7 +48,7 @@ a {
 }
 
 .boxtitle a {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 2rem;
 }
 
@@ -64,6 +64,7 @@ a {
 
 .boxtitle a:hover {
   color: red;
+  cursor: pointer;
 }
 
 .boxtitle a::after {
@@ -90,6 +91,9 @@ a {
   overflow: hidden;
   position: relative;
   margin-bottom: 1rem;
+}
+.container:hover {
+  cursor: pointer;
 }
 
 .buttonOptions {
@@ -133,5 +137,9 @@ a {
 @media only screen and (max-width: 768px) {
   .container {
     height: 60px;
+  }
+
+  .buttonOptions span {
+    font-size: 0.9rem;
   }
 }

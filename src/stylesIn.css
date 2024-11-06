@@ -22,7 +22,7 @@ nav.internal {
 }
 
 .internal .nav-links {
-  justify-content: space-around;
+  justify-content: start;
   text-transform: uppercase;
   position: absolute;
   left: 0;
@@ -49,7 +49,7 @@ nav.internal {
 
 .internal .nav-links > li {
   background: #101113;
-  height: 0;
+  height: 3rem;
 }
 
 .internal .nav-links a {
@@ -210,8 +210,8 @@ svg {
 .internal .nav-links > li > a {
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 1.7rem;
-  padding-bottom: 3.1vh;
+  padding-top: 2rem;
+  /* padding-bottom: 0vh; */
 }
 
 .internal .imgMenu {

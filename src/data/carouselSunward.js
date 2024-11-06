@@ -30,7 +30,7 @@ const carouselData = [
     items: [
       {
         name: "SWE210",
-        link: "excavadoras/swe210",
+        link: "/excavadoras/swe210",
         isNew: false,
       },
       {

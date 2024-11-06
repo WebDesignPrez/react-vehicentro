@@ -364,7 +364,7 @@ function Block3() {
 
             case "volqueta-c7h-540":
                 nombreCamion = "Volqueta | C7H-540"
-                camionSerie = "VOLQUETA C7H 540 20M3"
+                camionSerie = "VOLQUETA C7H 540 22M3"
                 nombreSerie = "Especiales"
                 bdc = "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHLDPATIOTUERCA"
 

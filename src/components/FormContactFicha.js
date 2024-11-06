@@ -340,7 +340,7 @@ function FormContactFicha(props) {
     "VOLQUETA T5G 330 8-9M3",
     "VOLQUETA T7H 430 10-14M3",
     "VOLQUETA T7H 430 20M3",
-    "VOLQUETA C7H 540 20M3",
+    "VOLQUETA C7H 540 22M3",
     "MIXER A7 8-9M3",
     "MIXER C7H 12-14M3",
   ];

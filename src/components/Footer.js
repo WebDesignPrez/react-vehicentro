@@ -112,38 +112,75 @@ export default function Footer() {
           </li>
           <li>
             <p className="itemMenu">
-              <a href="/serie/volquetas">Volquetas</a>
+              <a href="/serie/volquetas">Serie VOLQUETAS</a>
             </p>
           </li>
           <li>
             <p className="itemMenu">
-              <a href="/serie/mixer">Mixer</a>
+              <a href="/serie/mixer">Serie MIXER</a>
             </p>
           </li>
-          <br />
           <li>
-            <p className="itemMenu">SINOTRUK AUTOS</p>
+            <p className="subTitle">SINOTRUK AUTOS</p>
           </li>
           <li>
             <p className="itemMenu">
-              <a href="/sinotruk/autos">Suvs</a>
+              <a href="/sinotruk/autos">Suv's</a>
+            </p>
+            <p className="itemMenu">
+              <a href="/proximamente">Camionetas</a>
             </p>
           </li>
-        </ul>
-
-        <ul className="list">
           <li>
             <p className="subTitle">SUNWARD </p>
           </li>
 
           <li>
-            <p className="titleFooter">
+            <p className="itemMenu">
               <a href="/excavadoras">Excavadoras</a>
             </p>
           </li>
           <li>
-            <p className="titleFooter">
-              <a href="/minicargadoras">Minicargadoras</a>
+            <p className="itemMenu">
+              <a href="/minicargadoras">Cargadoras</a>
+            </p>
+          </li>
+          <li>
+            <p className="itemMenu">
+              <a>Bulldozer</a>
+            </p>
+          </li>
+          <li>
+            <p className="subTitle">CASE </p>
+          </li>
+          <li>
+            <p className="itemMenu">
+              <a>Excavadoras</a>
+            </p>
+          </li>
+          <li>
+            <p className="itemMenu">
+              <a>Retroexcavadoras</a>
+            </p>
+          </li>
+          <li>
+            <p className="itemMenu">
+              <a>Cargadoras</a>
+            </p>
+          </li>
+          <li>
+            <p className="itemMenu">
+              <a>Rodillos Compactadores</a>
+            </p>
+          </li>
+          <li>
+            <p className="itemMenu">
+              <a>Tractores de Orugas</a>
+            </p>
+          </li>
+          <li>
+            <p className="itemMenu">
+              <a>Motoniveladoras</a>
             </p>
           </li>
         </ul>

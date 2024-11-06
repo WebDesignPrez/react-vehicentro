@@ -125,7 +125,7 @@ nav.menu2 {
 }
 
 .nav-links {
-  justify-content: space-around;
+  justify-content: start;
   text-transform: uppercase;
   position: absolute;
   left: 0;
@@ -337,8 +337,8 @@ ul.nav-links-h > li > a:hover,
 .nav-links > li > a {
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 1.7rem;
-  padding-bottom: 1.65rem;
+  /* padding-top: 1.7rem;
+  padding-bottom: 1.65rem; */
 }
 
 .imgMenu {
@@ -404,16 +404,17 @@ ul.nav-links-h > li > a:hover,
 }
 
 .footer .col1 p {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .footer .col1 .subTitle {
-  padding: 30px 0px 20px 0px;
+  padding: 10px 0px 5px 0px;
   color: #fff;
+  font-weight: 800;
 }
 
 .footer .col1 .itemMenu {
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
   color: #fff;
 }
 
@@ -582,12 +583,23 @@ p.titleFooter {
 }
 
 .colMenu p {
-  margin: 10px 0px !important;
+  margin: 4px 0px !important;
 }
 
 .colTitle {
   color: #000;
   font-size: 21px;
+  font-weight: 800;
+}
+.colTitleextra {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 800;
+}
+.colTitle2 {
+  color: #000 !important;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .item-level-3 .colTitle2 {
@@ -1701,6 +1713,7 @@ p.titleFooter {
 
 .precioExcavadora {
   font-size: 1.5vw;
+  color: #000;
 }
 
 .fondonegro {
@@ -1879,7 +1892,8 @@ li.mouseA:hover {
 }
 
 .block1 .linksBox > a.line2 {
-  line-height: 17px;
+  line-height: 15px;
+  font-weight: 800;
 }
 
 .block2 img {

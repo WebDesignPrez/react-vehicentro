@@ -225,7 +225,7 @@ function Camion() {
       pathUrl = "volqueta-c7h-540";
       nombreCamion = "Volqueta | C7H-540";
       nombreBusqueda = "volqueta 20m - volqueta 20 metros";
-      camionSerie = "VOLQUETA C7H 540 20M3";
+      camionSerie = "VOLQUETA C7H 540 22M3";
       nombreSerie = "Especiales";
       bdc =
         "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVOLQUETA540";
@@ -233,7 +233,7 @@ function Camion() {
         urlMedia + "persNuevo/VOLQUETA_20M_C7H.jpg",
         urlMedia + "frontalesNuevas/VOLQUETA_C7H_20M3.jpg",
       ];
-      textoMotor1 = "20 m3";
+      textoMotor1 = "22 m3";
       textoMotor2 = "Modelo C7H-540";
       textoMotor3 = "Ficha técnica";
 

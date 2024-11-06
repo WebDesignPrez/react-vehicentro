@@ -250,7 +250,7 @@ function Slider() {
   return (
     <div className="ocultarMovil">
       <Slide duration={4000}>
-        <NavLink to="../sinotruk/autos">
+        {/* <NavLink to="../sinotruk/autos">
           <img
             src="https://vehicentro.com/images/home/slider1.webp"
             alt="Slider 1"
@@ -264,7 +264,7 @@ function Slider() {
             alt="Slider 2"
             style={{ width: "100%", height: "auto" }}
           />
-        </a>
+        </a> */}
 
         <img
           src="https://vehicentro.com/images/home/slider3.webp"
@@ -369,7 +369,7 @@ function Block1() {
         </div> */}
         <div className="ocultarDesktop">
           <Slide duration={4000}>
-            <NavLink to="../sinotruk/autos">
+            {/* <NavLink to="../sinotruk/autos">
               <img
                 src="https://vehicentro.com/images/home/slider1c.webp"
                 alt="Slider 1"
@@ -382,7 +382,7 @@ function Block1() {
                 alt="Slider 2"
                 style={{ width: "100%", height: "auto" }}
               />
-            </NavLink>
+            </NavLink> */}
             <img
               src="https://vehicentro.com/images/home/slider3c.webp"
               alt="Slider 3"

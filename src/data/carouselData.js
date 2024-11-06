@@ -171,7 +171,7 @@ const carouselData = [
       { name: "T5G 8-9 m3", link: "/volquetas/volqueta-t5g-280" },
       { name: "T7H 10-14 m3", link: "/volquetas/volqueta-t7h-430" },
       { name: "T7H 430 20 m3", link: "/volquetas/volqueta-t7h-430-20m3" },
-      { name: "C7H 540 20 m3", link: "/volquetas/volqueta-c7h-540" },
+      { name: "C7H 540 22 m3", link: "/volquetas/volqueta-c7h-540" },
     ],
   },
   {

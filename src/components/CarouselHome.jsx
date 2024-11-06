@@ -57,12 +57,15 @@ export const CarouselHome = () => {
   return (
     <div className="box">
       {/* Botones de filtro */}
-      <div
-        className="container"
-        style={{ backgroundColor: hoverColor || "transparent" }}
-      >
+      <div className="container">
         <div
           className="buttonOptions"
+          style={{
+            backgroundColor:
+              selectedCategory === "CAMIONES"
+                ? "#df0303"
+                : hoverColor || "transparent",
+          }}
           onMouseEnter={() => setHoverColor("#181512")}
           onMouseLeave={() => setHoverColor(null)}
           onClick={() => setSelectedCategory("CAMIONES")}
@@ -71,7 +74,13 @@ export const CarouselHome = () => {
         </div>
         <div
           className="buttonOptions"
-          onMouseEnter={() => setHoverColor("#df0303")}
+          style={{
+            backgroundColor:
+              selectedCategory === "AUTOS"
+                ? "#df0303"
+                : hoverColor || "transparent",
+          }}
+          onMouseEnter={() => setHoverColor("#181512")}
           onMouseLeave={() => setHoverColor(null)}
           onClick={() => setSelectedCategory("AUTOS")}
         >
@@ -79,6 +88,12 @@ export const CarouselHome = () => {
         </div>
         <div
           className="buttonOptions"
+          style={{
+            backgroundColor:
+              selectedCategory === "CAMIONETAS"
+                ? "#df0303"
+                : hoverColor || "transparent",
+          }}
           onMouseEnter={() => setHoverColor("#181512")}
           onMouseLeave={() => setHoverColor(null)}
           onClick={() => setSelectedCategory("CAMIONETAS")}
