@@ -10,6 +10,11 @@ const carouselData = [
         // link: "",
         isNew: false,
       },
+      {
+        name: "580N",
+        // link: "",
+        isNew: false,
+      },
     ],
   },
   {

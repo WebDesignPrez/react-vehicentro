@@ -215,6 +215,10 @@ input[type="text"] {
   font-size: 1.3rem;
   color: #000;
 }
+.privaty p a {
+  color: #000;
+  font-weight: 800;
+}
 
 .texto h1 {
   display: inline-block;

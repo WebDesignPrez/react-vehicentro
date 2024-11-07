@@ -714,6 +714,9 @@ export default function NavBar() {
                 <p className="colItem meniu">
                   <NavLink>575SV</NavLink>
                 </p>
+                <p className="colItem meniu">
+                  <NavLink>580N</NavLink>
+                </p>
                 <p className="colTitle2">EXCAVADORAS</p>
                 <p className="colItem meniu">
                   <NavLink>CX220C</NavLink>
