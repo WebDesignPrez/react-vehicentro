@@ -965,7 +965,7 @@ p.titleFooter {
 }
 
 .boxesIni.posRelative.news.repuesto {
-  background-color: #efefef;
+  background-color: #cccccc;
   flex-wrap: wrap !important;
   padding: 3% 8% 3% 8%;
 }
@@ -1649,11 +1649,13 @@ p.titleFooter {
 }
 
 .nombreConcesionario {
+  color: #000;
   font-size: 25px;
   margin: 10px 0px;
 }
 
 .descConcesionario {
+  color: #000;
   font-size: 20px;
   margin-bottom: 10px;
 }
