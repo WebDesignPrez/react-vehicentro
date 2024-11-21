@@ -637,14 +637,15 @@ export default function NavBarTop() {
                 </p>
                 <p className="colItem meniu">
                   <NavLink to="/cabezales/cabezal-c7h-540">
-                    <span className="nuevoCamion2">NUEVO</span> 540 / 48 ton
+                    <span className="nuevoCamion2">NUEVO</span> 540 / 48 ton -
+                    Catalinas
                   </NavLink>
                 </p>
                 {/* <p className="colItem meniu"><NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas">540 / 48 ton - catalinas</NavLink></p> */}
                 <p className="colItem meniu">
                   <NavLink to="/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version">
                     <span className="nuevoCamion2">NUEVO</span> 540 / 48 ton -
-                    catalinas
+                    Catalinas Off Road
                   </NavLink>
                 </p>
               </div>
