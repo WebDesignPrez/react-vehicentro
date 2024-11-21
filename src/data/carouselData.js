@@ -152,7 +152,7 @@ const carouselData = [
       {
         name: "48 TON CATALINAS OFF ROAD",
         link: "/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version",
-        isNew: true,
+        isNew: false,
       },
     ],
   },
