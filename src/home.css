@@ -1,0 +1,31 @@
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.letras {
+  font-size: ".1rem";
+}
+
+/* Estilos generales */
+h3 {
+  font-size: 1.5rem; /* Tamaño por defecto */
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1rem; /* Tamaño más pequeño en móviles */
+  }
+
+  ul {
+    font-size: 0.8rem; /* Tamaño más pequeño para los elementos de la lista */
+  }
+}

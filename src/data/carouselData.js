@@ -48,6 +48,49 @@ const carouselData = [
     ],
   },
   {
+    imgSrc: "home/nuevasPortadas/serie-c7h.webp",
+    imgAlt: "Cabezales de venta en Ecuador",
+    title: "SERIE",
+    seriesLink: "/serie/c7h",
+    seriesName: "C7H",
+    items: [
+      {
+        name: "20 TON",
+        link: "/camiones/camion-20-toneladas-1256",
+        isNew: false,
+      },
+      {
+        name: "20 TON CATALINAS",
+        link: "/camiones/camion-20-toneladas-catalinas-1256",
+        isNew: false,
+      },
+      {
+        name: " 48 TON CATALINAS",
+        link: "/cabezales/cabezal-c7h-540",
+        isNew: false,
+      },
+      {
+        name: "48 TON CATALINAS OFF ROAD",
+        link: "/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version",
+        isNew: false,
+      },
+    ],
+  },
+  {
+    imgSrc: "home/3.webp",
+    imgAlt: "autos Suvs en Ecuador",
+    title: "SERIE",
+    seriesLink: "",
+    seriesName: "MAX",
+    items: [
+      {
+        name: "48 TON MAX",
+        link: "/cabezales/cabezal-48-max",
+        isNew: false,
+      },
+    ],
+  },
+  {
     imgSrc: "home/SERIET5G.webp",
     imgAlt: "Camiones de carga pesada en Ecuador",
     title: "SERIE",
@@ -127,35 +170,7 @@ const carouselData = [
       },
     ],
   },
-  {
-    imgSrc: "home/nuevasPortadas/serie-c7h.webp",
-    imgAlt: "Cabezales de venta en Ecuador",
-    title: "SERIE",
-    seriesLink: "/serie/c7h",
-    seriesName: "C7H",
-    items: [
-      {
-        name: "20 TON",
-        link: "/camiones/camion-20-toneladas-1256",
-        isNew: false,
-      },
-      {
-        name: "20 TON CATALINAS",
-        link: "/camiones/camion-20-toneladas-catalinas-1256",
-        isNew: false,
-      },
-      {
-        name: " 48 TON CATALINAS",
-        link: "/cabezales/cabezal-c7h-540",
-        isNew: false,
-      },
-      {
-        name: "48 TON CATALINAS OFF ROAD",
-        link: "/cabezales/cabezal-c7h-540-catalinas-48-toneladas-nueva-version",
-        isNew: false,
-      },
-    ],
-  },
+
   {
     imgSrc: "home/volquetaC7HNew2.webp",
     imgAlt: "Volquetas en Ecuador",
@@ -189,46 +204,14 @@ const carouselData = [
         link: "/sinotruk/autos/u70",
         isNew: false,
       },
-    ],
-  },
-  {
-    imgSrc: "home/pro.jpg",
-    imgAlt: "autos Suvs en Ecuador",
-    title: "SINOTRUK",
-    seriesLink: "/sinotruk/autos",
-    seriesName: "SUV'S",
-    items: [
       {
         name: "U70 PRO",
         link: "/sinotruk/autos/u70pro",
         isNew: false,
       },
-    ],
-  },
-  {
-    imgSrc: "home/proAmt.jpg",
-    imgAlt: "autos Suvs en Ecuador",
-    title: "SINOTRUK",
-    seriesLink: "/sinotruk/autos",
-    seriesName: "SUV'S",
-    items: [
       {
         name: "U70 PRO AUTOMÁTICO",
         link: "/sinotruk/autos/U70ProAmt",
-        isNew: false,
-      },
-    ],
-  },
-  {
-    imgSrc: "home/3.webp",
-    imgAlt: "autos Suvs en Ecuador",
-    title: "SERIE",
-    seriesLink: "",
-    seriesName: "MAX",
-    items: [
-      {
-        name: "48 TON MAX",
-        link: "/cabezales/cabezal-48-max",
         isNew: false,
       },
     ],

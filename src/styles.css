@@ -1596,6 +1596,10 @@ p.titleFooter {
   margin: 3% 0 3% 0;
 }
 
+.noDesktop {
+  display: none;
+}
+
 .bannerMedidas.noResponsive.mini {
   margin: 0% 0 0% 0 !important;
 }

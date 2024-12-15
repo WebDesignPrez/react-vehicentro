@@ -13,6 +13,7 @@ import PromoPopUp from "../components/PromoPopUp";
 import { CarouselHome } from "../components/CarouselHome";
 import { CarouselHome2 } from "../components/CarouselHome2";
 import { CarouselHome3 } from "../components/CaroselHome3";
+import { BlockDual } from "../components/BlockDual";
 
 let bdc =
   "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHBOTONCOT";
@@ -23,54 +24,22 @@ let audio_motor = "../images/10-toneladas/motor.mp3";
 let urlMedia = env.url;
 
 function Inicio2() {
-  const navigate = useNavigate();
-
   const [modalFormIsOpen, setFormIsOpen] = useState(false);
 
   useEffect(() => {
-    // const motorPlayer = document.getElementById("audioMotorHome");
-    // motorPlayer.src = audio_motor;
-
     const keyDownHandler = (event) => {
       if (event.key === "Escape") {
         event.preventDefault();
         closeFormContact();
       }
     };
-    const videoContainer = document.getElementById("videoContainer");
-    const imgContainer = document.querySelectorAll(".imgContainerHeader");
-    const mouseOverHandler = (event) => {
-      if (!videoContainer.classList.contains("video50"))
-        videoContainer.classList.add("video50");
-
-      imgContainer.forEach((a) => {
-        if (!a.classList.contains("img25")) {
-          a.classList.add("img25");
-          a.querySelector(".linksBox").classList.add("imgHidden");
-        }
-      });
-    };
-
-    const mouseLeaveHandler = (event) => {
-      if (videoContainer.classList.contains("video50")) {
-        videoContainer.classList.remove("video50");
-      }
-      imgContainer.forEach((a) => {
-        if (a.classList.contains("img25")) {
-          a.classList.remove("img25");
-          a.querySelector(".linksBox").classList.remove("imgHidden");
-        }
-      });
-    };
-
-    videoContainer.addEventListener("mouseenter", mouseOverHandler);
-    videoContainer.addEventListener("mouseleave", mouseLeaveHandler);
 
     document.addEventListener("keydown", keyDownHandler);
     return () => {
       document.removeEventListener("keydown", keyDownHandler);
     };
   }, []);
+
   function openFormContact() {
     setFormIsOpen(true);
   }
@@ -87,6 +56,7 @@ function Inicio2() {
     }, 3000);
     return () => clearTimeout(timer);
   }, []);
+
   const handleClosePopup2 = () => {
     setShowPopup2(false);
   };
@@ -149,11 +119,22 @@ function Inicio2() {
       {/* {showPopup2 && <PromoPopUp onClose={handleClosePopup2} />} */}
       <NavBar />
       {/* <NewBlock /> */}
+      <img
+        className="noResponsive"
+        style={{ width: "100%", height: "auto" }}
+        src="images/home/portada.webp"
+      ></img>
+      <img
+        className="noDesktop"
+        style={{ width: "100%", height: "auto" }}
+        src="images/home/portadaCell.webp"
+      ></img>
       <Block1 />
       <Slider />
       <Menu2 />
-      <Block3 />
-      <Banner />
+
+      <BlockNew />
+
       <BannerContacto
         url={bdc}
         camion={nombreCamion}
@@ -250,22 +231,6 @@ function Slider() {
   return (
     <div className="ocultarMovil">
       <Slide duration={4000}>
-        {/* <NavLink to="../sinotruk/autos">
-          <img
-            src="https://vehicentro.com/images/home/slider1.webp"
-            alt="Slider 1"
-            style={{ width: "100%", height: "auto" }}
-          />
-        </NavLink>
-
-        <a href={"#pagina"}>
-          <img
-            src="https://vehicentro.com/images/home/slider2.webp"
-            alt="Slider 2"
-            style={{ width: "100%", height: "auto" }}
-          />
-        </a> */}
-
         <img
           src="https://vehicentro.com/images/home/slider3.webp"
           alt="Slider 3"
@@ -289,10 +254,9 @@ function Slider() {
 function Block1() {
   return (
     <>
-      <div className="block1 boxBlock noResponsive" height="1080">
+      {/* <div className="block1 boxBlock noResponsive" height="1080">
         <div className="imgContainerHeader imgHeader3" height="600">
           <div className="overlayBox" height="100">
-            {/* <p className="titleBox">PRODUCTOS</p> */}
             <div className="linksBox series">
               <a href="#irCamiones" className="line2">
                 CAMIONES
@@ -303,86 +267,11 @@ function Block1() {
               <a href="/proximamente" className="line2" src="">
                 CAMIONETAS
               </a>
-              {/* <NavLink to="/serie/n">
-                CAMIONES <span className="boldserie">N</span>
-              </NavLink>
-              <NavLink to="/serie/100">
-                SERIE <span className="boldserie">100</span>
-              </NavLink>
-              <NavLink to="/serie/t5g">
-                SERIE <span className="boldserie">T5G</span>
-              </NavLink>
-              <NavLink to="/serie/t7h">
-                SERIE <span className="boldserie">T7H</span>
-              </NavLink>
-              <NavLink to="/serie/c7h">
-                SERIE <span className="boldserie">C7H</span>
-              </NavLink>
-              <NavLink to="/cabezales/cabezal-48-max">
-                SERIE <span className="boldserie">MAX</span>
-              </NavLink> */}
             </div>
           </div>
         </div>
-        {/* <div id="videoContainer">
-          <div className="boxRight tecnologia" height="1080">
-            <div className="boxLeft c7h">
-              <video
-                preload="none"
-                autoPlay={true}
-                width="930"
-                height="1080"
-                playsInline={true}
-                controls
-                loop
-                muted
-                id="myVideo"
-                src="https://www.vehicentro.com/images/home/540New.mp4"
-                className="videoWidth produ"
-              />
-             
-            </div>
-          </div>
-          <div className="overlayBox" height="200">
-            <p className="titleBox">PRODUCTOS</p>
-            <div className="linksBox series">
-              <NavLink to="/serie/n">
-                SERIE <span className="boldserie">N</span>
-              </NavLink>
-              <NavLink to="/serie/100">
-                SERIE <span className="boldserie">100</span>
-              </NavLink>
-              <NavLink to="/serie/t5g">
-                SERIE <span className="boldserie">T5G</span>
-              </NavLink>
-              <NavLink to="/serie/t7h">
-                SERIE <span className="boldserie">T7H</span>
-              </NavLink>
-              <NavLink to="/serie/c7h">
-                SERIE <span className="boldserie">C7H</span>
-              </NavLink>
-              <NavLink to="/cabezales/cabezal-48-max">
-                SERIE <span className="boldserie">MAX</span>
-              </NavLink>
-            </div>
-          </div>
-        </div> */}
         <div className="ocultarDesktop">
           <Slide duration={4000}>
-            {/* <NavLink to="../sinotruk/autos">
-              <img
-                src="https://vehicentro.com/images/home/slider1c.webp"
-                alt="Slider 1"
-                style={{ width: "100%", height: "auto" }}
-              />
-            </NavLink>
-            <NavLink>
-              <img
-                src="https://vehicentro.com/images/home/slider2c.webp"
-                alt="Slider 2"
-                style={{ width: "100%", height: "auto" }}
-              />
-            </NavLink> */}
             <img
               src="https://vehicentro.com/images/home/slider3c.webp"
               alt="Slider 3"
@@ -400,13 +289,7 @@ function Block1() {
             />
           </Slide>
         </div>
-        <div
-          className="imgContainerHeader imgHeader1"
-          height="600"
-          // onClick={() => {
-          //   window.location = "/repuestos";
-          // }}
-        >
+        <div className="imgContainerHeader imgHeader1" height="600">
           <div className="imgContainerHeader imgHeader1" height="600">
             <div className="overlayBox" height="200">
               <div className="linksBox testimonio">
@@ -451,7 +334,7 @@ function Block1() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="boxlogos noResponsive">
         <div className="logoHero">
           <a href="#irCamiones">
@@ -460,6 +343,16 @@ function Block1() {
               width="100%"
               height="auto"
               alt="Camiones de carga liviana en Ecuador"
+            />
+          </a>
+        </div>
+        <div className="logoHero">
+          <a href="#irLinkCo">
+            <img
+              src={urlMedia + "home/linkCoLogo.png"}
+              width="100%"
+              height="auto"
+              alt="Autos sedan suv Link & Co Ecuador"
             />
           </a>
         </div>
@@ -488,67 +381,13 @@ function Block1() {
   );
 }
 
+function BlockNew() {
+  return <BlockDual />;
+}
+
 function Block3() {
   return (
     <>
-      {/* <div className="fraseInicio">NUEVO</div>
-      <div className="block3 boxBlock" id="pagina">
-        <div>
-          <a href="/camiones/camion-de-2-5-toneladas">
-            <img
-              src={urlMedia + "home/1.webp"}
-              width="500"
-              height="389"
-              alt="Camiones de carga liviana en Ecuador"
-            />
-          </a>
-          <div className="bottomContainer">
-            <p className="titleBox">NLS</p>
-            <NavLink
-              className="titleBox2"
-              to="/camiones/camion-de-2-5-toneladas"
-            >
-              2.5 TON
-            </NavLink>
-          </div>
-        </div>
-        <div>
-          <a href="/camiones/camion-de-3-5-toneladas-1057">
-            <img
-              src={urlMedia + "home/2.webp"}
-              width="500"
-              height="389"
-              alt="Camiones de carga liviana en Ecuador"
-            />
-          </a>
-          <div className="bottomContainer">
-            <p className="titleBox">NKS</p>
-            <NavLink
-              className="titleBox2"
-              to="/camiones/camion-de-3-5-toneladas-1057"
-            >
-              3.5 TON
-            </NavLink>
-          </div>
-        </div>
-        <div>
-          <a href="/cabezales/cabezal-48-max">
-            <img
-              src={urlMedia + "home/3.webp"}
-              width="900"
-              height="700"
-              alt="Camiones de carga pesada en Ecuador"
-            />
-          </a>
-          <div className="bottomContainer">
-            <p className="titleBox">MAX</p>
-            <NavLink className="titleBox2" to="/cabezales/cabezal-48-max">
-              48 TON
-            </NavLink>
-          </div>
-        </div>
-      </div>
-      <div className="fraseInicio">SERIES</div> */}
       <div id="irCamiones">
         <div className="logobanner">
           <img
