@@ -14,6 +14,30 @@ div {
   font-size: ".1rem";
 }
 
+.nuevocell {
+  flex: 1;
+  display: grid;
+  background-image: url("../public/images/home/sinotrukPorductos.webp");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+  align-items: start;
+  justify-content: start;
+  padding-top: 150px;
+}
+
+.nuevocell a {
+  color: black;
+  font-size: 2.5rem;
+}
+
+.nuevocell a:hover {
+  color: red;
+  text-decoration: double;
+}
+
 /* Estilos generales */
 h3 {
   font-size: 1.5rem; /* Tamaño por defecto */
@@ -27,5 +51,15 @@ h3 {
 
   ul {
     font-size: 0.8rem; /* Tamaño más pequeño para los elementos de la lista */
+  }
+
+  .nuevocell {
+    padding-top: 60px !important;
+    height: 40vh !important;
+  }
+
+  .nuevocell a {
+    color: black;
+    font-size: 2rem;
   }
 }

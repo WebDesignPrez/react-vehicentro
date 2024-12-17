@@ -14,6 +14,7 @@ import { CarouselHome } from "../components/CarouselHome";
 import { CarouselHome2 } from "../components/CarouselHome2";
 import { CarouselHome3 } from "../components/CaroselHome3";
 import { BlockDual } from "../components/BlockDual";
+import BlockRepuestos from "../components/BlockRepuestos";
 
 let bdc =
   "https://bdc.vehicentro.com:9443/ords/ws_vehicentro/api/conexiones/wordpress/WEBVHBOTONCOT";
@@ -119,16 +120,7 @@ function Inicio2() {
       {/* {showPopup2 && <PromoPopUp onClose={handleClosePopup2} />} */}
       <NavBar />
       {/* <NewBlock /> */}
-      <img
-        className="noResponsive"
-        style={{ width: "100%", height: "auto" }}
-        src="images/home/portada.webp"
-      ></img>
-      <img
-        className="noDesktop"
-        style={{ width: "100%", height: "auto" }}
-        src="images/home/portadaCell.webp"
-      ></img>
+      <SliderHero />
       <Block1 />
       <Slider />
       <Menu2 />
@@ -229,25 +221,62 @@ function NewBlock() {
 
 function Slider() {
   return (
-    <div className="ocultarMovil">
-      <Slide duration={4000}>
-        <img
-          src="https://vehicentro.com/images/home/slider3.webp"
-          alt="Slider 3"
-          style={{ width: "100%", height: "auto" }}
-        />
-        <img
-          src="https://vehicentro.com/images/home/slider4.webp"
-          alt="Slider 4"
-          style={{ width: "100%", height: "auto" }}
-        />
-        <img
-          src="https://vehicentro.com/images/home/slider5.webp"
-          alt="Slider 4"
-          style={{ width: "100%", height: "auto" }}
-        />
-      </Slide>
-    </div>
+    <>
+      <div className="ocultarMovil">
+        <Slide duration={4000}>
+          <img
+            src="https://vehicentro.com/images/home/slider3.webp"
+            alt="Slider 3"
+            style={{ width: "100%", height: "auto" }}
+          />
+          <img
+            src="https://vehicentro.com/images/home/slider4.webp"
+            alt="Slider 4"
+            style={{ width: "100%", height: "auto" }}
+          />
+          <img
+            src="https://vehicentro.com/images/home/slider5.webp"
+            alt="Slider 4"
+            style={{ width: "100%", height: "auto" }}
+          />
+        </Slide>
+      </div>
+    </>
+  );
+}
+
+function SliderHero() {
+  return (
+    <>
+      <div className="ocultarMovil">
+        <Slide duration={4000}>
+          <img
+            src="images/home/portada.webp"
+            alt="Slider 3"
+            style={{ width: "100%", height: "auto" }}
+          />
+          <img
+            src="images/home/talleresPortada.webp"
+            alt="Slider 4"
+            style={{ width: "100%", height: "auto" }}
+          />
+        </Slide>
+      </div>
+      <div className="noDesktop">
+        <Slide duration={4000}>
+          <img
+            src="images/home/portadaCell.webp"
+            alt="Slider 3"
+            style={{ width: "100%", height: "auto" }}
+          />
+          <img
+            src="images/home/talleresPortadaMobil.webp"
+            alt="Slider 4"
+            style={{ width: "100%", height: "auto" }}
+          />
+        </Slide>
+      </div>
+    </>
   );
 }
 
@@ -382,7 +411,12 @@ function Block1() {
 }
 
 function BlockNew() {
-  return <BlockDual />;
+  return (
+    <>
+      <BlockDual />
+      <BlockRepuestos />
+    </>
+  );
 }
 
 function Block3() {

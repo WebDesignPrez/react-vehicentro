@@ -19,10 +19,6 @@ export const BlockDual = () => {
       image2: "images/home/dualSunwardLogo.webp",
       reverse: true,
     },
-    {
-      image1: "images/home/concesionarios.webp",
-      image2: "images/home/repuestos.webp",
-    },
   ];
 
   return (
@@ -40,7 +36,7 @@ export const BlockDual = () => {
           {index === 0 ? (
             <>
               {/* Imagen */}
-              <div style={{ flex: "1" }}>
+              <div className="ocultarMovil" style={{ flex: "1" }}>
                 <img
                   src={data.image}
                   alt={`carousel ${index + 1}`}
@@ -49,47 +45,21 @@ export const BlockDual = () => {
               </div>
 
               {/* Información */}
-              <div
-                style={{
-                  flex: "1",
-                  display: "grid",
-                  gridTemplateColumns: "repeat(4, 1fr)",
-                  backgroundColor: "red",
-                  backgroundImage: "url('images/home/sinotrukPorductos.webp')",
-                  backgroundSize: "cover",
-                  backgroundPosition: "top",
-                  backgroundRepeat: "no-repeat",
-                  height: "90vh",
-                  width: "100%",
-                  alignItems: "start",
-                  justifyContent: "center",
-                  paddingTop: "100px",
-                }}
-              >
-                {carouselData.map((series, seriesIndex) => (
-                  <div key={seriesIndex} style={{ paddingLeft: "20px" }}>
-                    {/* Título de la serie */}
-                    <h3 style={{ marginBottom: "10px", color: "#333" }}>
-                      {series.seriesName}
-                    </h3>
-                    {/* Lista de items */}
-                    <ul style={{ padding: "0", listStyle: "none" }}>
-                      {series.items.map((item, itemIndex) => (
-                        <li key={itemIndex} style={{ marginBottom: "3px" }}>
-                          <a
-                            href={item.link}
-                            style={{
-                              textDecoration: "none",
-                              color: item.isNew ? "green" : "black",
-                            }}
-                          >
-                            {item.name}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
+              <div className="nuevocell" style={{}}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    height: "90%",
+                    paddingLeft: "50px",
+                    alignItems: "start",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <a href="https://sinotruk.com.ec/">Camiones</a>
+                  <a href="/sinotruk/autos/">Autos</a>
+                  <a href="proximamente">Camionetas</a>
+                </div>
               </div>
             </>
           ) : (

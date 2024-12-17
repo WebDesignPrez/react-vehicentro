@@ -1,0 +1,60 @@
+.bloqueRep {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #1d1d1d;
+}
+
+.izquierdaRep {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.izquierdaRep img {
+  width: 100%;
+  height: auto;
+}
+
+.derechaRep {
+  width: 100%;
+}
+
+.derechaRep img {
+  width: 100%;
+  height: auto;
+}
+
+.redesRep {
+  width: 100%;
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .redesRep {
+    padding-top: 2.3rem;
+  }
+}
+
+.socialRep {
+  width: 70%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* .social2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+} */
+
+/* .socialRep img {
+  background-color: rgb(76, 140, 196);
+  width: 70%;
+} */
