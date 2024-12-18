@@ -9,6 +9,7 @@ export const BlockDual = () => {
       image1: "images/home/dualCase.webp",
       image2: "images/home/dualCaseLogo.webp",
       reverse: true,
+      url: "/proximamente",
     },
     {
       image1: "images/home/dualLinkCo.webp",
@@ -50,8 +51,8 @@ export const BlockDual = () => {
                   style={{
                     display: "flex",
                     flexDirection: "column",
-                    height: "90%",
-                    paddingLeft: "50px",
+                    height: "60%",
+                    paddingLeft: "75px",
                     alignItems: "start",
                     justifyContent: "space-between",
                   }}

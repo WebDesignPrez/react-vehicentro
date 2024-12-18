@@ -251,13 +251,13 @@ function SliderHero() {
       <div className="ocultarMovil">
         <Slide duration={4000}>
           <img
-            src="images/home/portada.webp"
-            alt="Slider 3"
+            src="images/home/talleresPortada.webp"
+            alt="Slider 4"
             style={{ width: "100%", height: "auto" }}
           />
           <img
-            src="images/home/talleresPortada.webp"
-            alt="Slider 4"
+            src="images/home/portada.webp"
+            alt="Slider 3"
             style={{ width: "100%", height: "auto" }}
           />
         </Slide>
@@ -265,13 +265,13 @@ function SliderHero() {
       <div className="noDesktop">
         <Slide duration={4000}>
           <img
-            src="images/home/portadaCell.webp"
-            alt="Slider 3"
+            src="images/home/talleresPortadaMobil.webp"
+            alt="Slider 4"
             style={{ width: "100%", height: "auto" }}
           />
           <img
-            src="images/home/talleresPortadaMobil.webp"
-            alt="Slider 4"
+            src="images/home/portadaCell.webp"
+            alt="Slider 3"
             style={{ width: "100%", height: "auto" }}
           />
         </Slide>
