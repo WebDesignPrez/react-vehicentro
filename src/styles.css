@@ -2633,6 +2633,10 @@ a.colItem.meniu.negro {
   color: #666;
 }
 
+.flexNuevo2 {
+  display: flex;
+}
+
 .flex-row.textMain.textMain2 {
   color: #fff;
 }

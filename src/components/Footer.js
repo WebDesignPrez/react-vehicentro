@@ -33,8 +33,8 @@ export default function Footer() {
         <p className="title titleNumero">
           <a href="tel:032994740">032 994 740</a>
         </p>
-        <div className="social row">
-          <div className="flex-row imgMain">
+        {/* <div className="social row">
+          <div className="flexNuevo2">
             <a href="https://www.facebook.com/Vehicentro">
               <img
                 src={urlMedia + "facebook.png"}
@@ -76,7 +76,7 @@ export default function Footer() {
               />
             </a>
           </div>
-        </div>
+        </div> */}
         {/*<p className="title titleContacto">Realizado por Agencia Prez</p>*/}
       </div>
       <div className="col1 colProd">
