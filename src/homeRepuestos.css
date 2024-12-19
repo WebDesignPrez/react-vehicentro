@@ -34,18 +34,20 @@
   align-items: center;
   justify-content: center;
 }
-
-@media (max-width: 768px) {
-  .redesRep {
-    padding-top: 2.3rem;
-  }
-}
-
 .socialRep {
   width: 50%;
   height: auto;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .redesRep {
+    padding-top: 2.3rem;
+  }
+  .socialRep {
+    width: 80% !important;
+  }
 }
 
 /* .social2 {

@@ -16,16 +16,28 @@ div {
 
 .nuevocell {
   flex: 1;
-  display: grid;
+  position: relative; /* Se añade para posicionar correctamente el botonContainer */
   background-image: url("../public/images/home/sinotrukPorductos.webp");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   height: 59vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: start;
-  justify-content: start;
-  padding-top: 150px;
+  justify-content: flex-start;
+  padding-top: 60px; /* Ajusta este valor si es necesario */
+}
+
+.linksproductos {
+  display: flex;
+  gap: 4rem;
+  height: 100%;
+  flex-direction: row;
+  padding-left: 75px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .nuevocell a {
@@ -42,19 +54,99 @@ div {
   text-decoration: double;
 }
 
+.botonContainer {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.botonContainer a {
+  border: 1px solid white;
+  display: flex;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 16px;
+  padding: 0.5rem 1rem;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  z-index: 1;
+}
+
+.botonContainer a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+  transition: width 0.6s ease-in-out;
+}
+
+.botonContainer a.last-block::before {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.botonContainer a:hover::before {
+  width: 100%;
+}
+
+.botonContainer img {
+  width: 20%;
+  height: auto;
+  transition: transform 0.6s ease-in-out;
+}
+
+.iconoimagen {
+  width: 15%;
+  height: auto;
+}
+
+.botonContainer:hover img {
+  animation: slideLeftRight 0.6s ease-in-out;
+}
+
+@keyframes slideLeftRight {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(10px) scale(1.1);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+.linkCell {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  padding-left: 75px;
+  align-items: start;
+  justify-content: space-between;
+}
+
 /* Estilos generales */
 h3 {
-  font-size: 1.5rem; /* Tamaño por defecto */
+  font-size: 1.5rem;
 }
 
 /* Ajustes para dispositivos móviles */
 @media (max-width: 768px) {
   h3 {
-    font-size: 1rem; /* Tamaño más pequeño en móviles */
+    font-size: 1rem;
   }
 
   ul {
-    font-size: 0.8rem; /* Tamaño más pequeño para los elementos de la lista */
+    font-size: 0.8rem;
   }
 
   .nuevocell {
@@ -65,5 +157,32 @@ h3 {
   .nuevocell a {
     color: black;
     font-size: 2rem;
+  }
+
+  .botonContainer a {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.3rem !important;
+  }
+
+  .botonContainer {
+    bottom: 10px;
+    right: 2px;
+  }
+  .iconoimagen {
+    width: 10% !important;
+  }
+
+  .linksproductos {
+    gap: 1rem;
+    padding-left: 5px;
+  }
+
+  .nuevocell a {
+    color: black;
+    font-size: 1rem;
+    border: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 16px;
   }
 }

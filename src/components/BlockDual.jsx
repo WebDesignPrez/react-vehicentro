@@ -33,10 +33,8 @@ export const BlockDual = () => {
             alignItems: "center",
           }}
         >
-          {/* Primer bloque con información */}
           {index === 0 ? (
             <>
-              {/* Imagen */}
               <div className="ocultarMovil" style={{ flex: "1" }}>
                 <img
                   src={data.image}
@@ -44,28 +42,44 @@ export const BlockDual = () => {
                   style={{ width: "100%", height: "auto" }}
                 />
               </div>
-
-              {/* Información */}
-              <div className="nuevocell" style={{}}>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    height: "60%",
-                    paddingLeft: "75px",
-                    alignItems: "start",
-                    justifyContent: "space-between",
-                  }}
-                >
+              <div className="nuevocell">
+                <div className="linksproductos">
                   <a href="https://sinotruk.com.ec/">Camiones</a>
                   <a href="/sinotruk/autos/">Autos</a>
                   <a href="proximamente">Camionetas</a>
+                </div>
+                <div
+                  className="botonContainer"
+                  style={{
+                    color: index === 0 ? "black" : "white",
+                  }}
+                >
+                  <img
+                    className="iconoimagen"
+                    src={"images/home/iconoNegro.png"}
+                    style={{ width: "15%", height: "auto" }}
+                  />
+                  <a
+                    href="https://sinotruk.com.ec/busqueda"
+                    className={index === 0 ? "last-block" : ""}
+                    style={{
+                      color: index === 0 ? "black" : "white",
+                      border: `1px solid ${index === 0 ? "black" : "white"}`,
+                      textDecoration: "none",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      padding: "0.5rem 1rem",
+                      borderRadius: "16px",
+                    }}
+                  >
+                    Catálogo de productos
+                  </a>
                 </div>
               </div>
             </>
           ) : (
             <>
-              {/* Bloques restantes con dos imágenes */}
               <div style={{ flex: "1" }}>
                 <img
                   src={data.image1}
@@ -73,12 +87,48 @@ export const BlockDual = () => {
                   style={{ width: "100%", height: "auto" }}
                 />
               </div>
-              <div style={{ flex: "1" }}>
+              <div style={{ position: "relative", flex: "1" }}>
                 <img
                   src={data.image2}
                   alt={`carousel ${index + 1} - right`}
                   style={{ width: "100%", height: "auto" }}
                 />
+                <div
+                  className="botonContainer"
+                  style={{
+                    color: index === layoutData.length - 1 ? "black" : "white",
+                  }}
+                >
+                  <img
+                    className="iconoimagen"
+                    src={
+                      index === layoutData.length - 1
+                        ? "images/home/iconoNegro.png"
+                        : "images/home/icono.png"
+                    }
+                  />
+                  <a
+                    href="#"
+                    className={
+                      index === layoutData.length - 1 ? "last-block" : ""
+                    }
+                    style={{
+                      color:
+                        index === layoutData.length - 1 ? "black" : "white",
+                      border: `1px solid ${
+                        index === layoutData.length - 1 ? "black" : "white"
+                      }`,
+                      textDecoration: "none",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      padding: "0.5rem 1rem",
+                      borderRadius: "16px",
+                    }}
+                  >
+                    Catálogo de productos
+                  </a>
+                </div>
               </div>
             </>
           )}
