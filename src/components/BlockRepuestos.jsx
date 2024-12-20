@@ -37,7 +37,7 @@ export const BlockRepuestos = () => {
           <img src="images/home/talleresRepuestos.webp" />
         </a>
         <a href="/repuestos">
-          <img src="images/home/talleresRepuestos.webp" />
+          <img src="images/home/veinsteinCuadrado.webp" />
         </a>
       </div>
     </div>

@@ -55,7 +55,7 @@ export const BlockDual = () => {
                     <img src="images/home/banderaEcuador.webp" />
                     <p>Ecuador</p>
                   </div>
-                  <div className="contenedorEcuadorBanderas">
+                  <div className="contenedorEcuadorBanderas2">
                     <img src="images/home/banderaColombia.webp" />
                     <p>Colombia</p>
                   </div>
