@@ -249,32 +249,18 @@ function SliderHero() {
   return (
     <>
       <div className="ocultarMovil">
-        <Slide duration={4000}>
-          <img
-            src="images/home/talleresPortada.webp"
-            alt="Slider 4"
-            style={{ width: "100%", height: "auto" }}
-          />
-          <img
-            src="images/home/portada.webp"
-            alt="Slider 3"
-            style={{ width: "100%", height: "auto" }}
-          />
-        </Slide>
+        <img
+          src="images/home/talleresPortada.webp"
+          alt="Slider 4"
+          style={{ width: "100%", height: "auto" }}
+        />
       </div>
       <div className="noDesktop">
-        <Slide duration={4000}>
-          <img
-            src="images/home/talleresPortadaMobil.webp"
-            alt="Slider 4"
-            style={{ width: "100%", height: "auto" }}
-          />
-          <img
-            src="images/home/portadaCell.webp"
-            alt="Slider 3"
-            style={{ width: "100%", height: "auto" }}
-          />
-        </Slide>
+        <img
+          src="images/home/talleresPortadaMobil.webp"
+          alt="Slider 4"
+          style={{ width: "100%", height: "auto" }}
+        />
       </div>
     </>
   );
@@ -404,6 +390,48 @@ function Block1() {
               alt="Camiones de carga liviana en Ecuador"
             />
           </a>
+        </div>
+      </div>
+
+      <div className="noDesktop">
+        <div className="fondoMovil50">
+          <div className="bloqueDualLogos">
+            <a href="#irCamiones">
+              <img
+                src={urlMedia + "home/sinotruk-logo.png"}
+                width="50%"
+                height="auto"
+                alt="Camiones de carga liviana en Ecuador"
+              />
+            </a>
+            <a href="#irLinkCo">
+              <img
+                src={urlMedia + "home/linkCoLogo.png"}
+                width="50%"
+                height="auto"
+                alt="Autos sedan suv Link & Co Ecuador"
+              />
+            </a>
+          </div>
+          <div className="bloqueDualLogos">
+            <a href="#irCase">
+              <img
+                src={urlMedia + "home/case-logo.png"}
+                width="100%"
+                height="auto"
+                alt="Camiones de carga liviana en Ecuador"
+              />
+            </a>
+
+            <a href="#irSunward">
+              <img
+                src={urlMedia + "home/sunware-logo.png"}
+                width="100%"
+                height="auto"
+                alt="Camiones de carga liviana en Ecuador"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </>

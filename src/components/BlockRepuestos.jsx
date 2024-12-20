@@ -12,7 +12,7 @@ export const BlockRepuestos = () => {
         <a href="/concesionarios">
           <img src="images/home/concesionariosCuadrado.webp" />
         </a>
-        <div className="redesRep">
+        {/* <div className="redesRep">
           <div className="socialRep">
             <a href="https://www.facebook.com/Vehicentro">
               <img src={urlMedia + "facebook.png"} alt="facebook" />
@@ -30,14 +30,14 @@ export const BlockRepuestos = () => {
               <img src={urlMedia + "linkdin.png"} alt="linkdin" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="derechaRep">
         <a href="/repuestos">
           <img src="images/home/talleresRepuestos.webp" />
         </a>
         <a href="/repuestos">
-          <img src="images/home/veinsteinCuadrado.webp" />
+          <img src="images/home/talleresRepuestos.webp" />
         </a>
       </div>
     </div>

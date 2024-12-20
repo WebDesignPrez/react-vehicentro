@@ -87,6 +87,13 @@ export default function Footer() {
           </li>
           <li>
             <p className="itemMenu">
+              <a href="https://sinotruk.com.ec/busqueda">
+                Catálogo de productos
+              </a>
+            </p>
+          </li>
+          {/* <li>
+            <p className="itemMenu">
               <a href="/serie/n">Serie N</a>
             </p>
           </li>
@@ -119,23 +126,30 @@ export default function Footer() {
             <p className="itemMenu">
               <a href="/serie/mixer">Serie MIXER</a>
             </p>
-          </li>
+          </li> */}
           <li>
             <p className="subTitle">SINOTRUK AUTOS</p>
           </li>
-          <li>
+          {/* <li>
             <p className="itemMenu">
               <a href="/sinotruk/autos">Suv's</a>
             </p>
             <p className="itemMenu">
               <a href="/proximamente">Camionetas</a>
             </p>
+          </li> */}
+          <li>
+            <p className="itemMenu">
+              <a href="https://www.vehicentro.com/sinotruk/autos/">
+                Catálogo de productos
+              </a>
+            </p>
           </li>
           <li>
             <p className="subTitle">SUNWARD </p>
           </li>
 
-          <li>
+          {/* <li>
             <p className="itemMenu">
               <a href="/excavadoras">Excavadoras</a>
             </p>
@@ -149,11 +163,18 @@ export default function Footer() {
             <p className="itemMenu">
               <a>Bulldozer</a>
             </p>
+          </li> */}
+          <li>
+            <p className="itemMenu">
+              <a href="https://www.vehicentro.com/proximamente">
+                Catálogo de productos
+              </a>
+            </p>
           </li>
           <li>
             <p className="subTitle">CASE </p>
           </li>
-          <li>
+          {/* <li>
             <p className="itemMenu">
               <a>Excavadoras</a>
             </p>
@@ -181,6 +202,23 @@ export default function Footer() {
           <li>
             <p className="itemMenu">
               <a>Motoniveladoras</a>
+            </p>
+          </li> */}
+          <li>
+            <p className="itemMenu">
+              <a href="https://www.vehicentro.com/proximamente">
+                Catálogo de productos
+              </a>
+            </p>
+          </li>
+          <li>
+            <p className="subTitle">Link & Co </p>
+          </li>
+          <li>
+            <p className="itemMenu">
+              <a href="https://www.vehicentro.com/proximamente">
+                Catálogo de productos
+              </a>
             </p>
           </li>
         </ul>

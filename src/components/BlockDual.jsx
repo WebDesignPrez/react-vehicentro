@@ -35,7 +35,7 @@ export const BlockDual = () => {
         >
           {index === 0 ? (
             <>
-              <div className="ocultarMovil" style={{ flex: "1" }}>
+              <div style={{ flex: "1" }}>
                 <img
                   src={data.image}
                   alt={`carousel ${index + 1}`}
@@ -45,8 +45,20 @@ export const BlockDual = () => {
               <div className="nuevocell">
                 <div className="linksproductos">
                   <a href="https://sinotruk.com.ec/">Camiones</a>
+                  <p>•</p>
                   <a href="/sinotruk/autos/">Autos</a>
+                  <p>•</p>
                   <a href="proximamente">Camionetas</a>
+                </div>
+                <div className="linksproductos2">
+                  <div className="contenedorEcuadorBanderas">
+                    <img src="images/home/banderaEcuador.webp" />
+                    <p>Ecuador</p>
+                  </div>
+                  <div className="contenedorEcuadorBanderas">
+                    <img src="images/home/banderaColombia.webp" />
+                    <p>Colombia</p>
+                  </div>
                 </div>
                 <div
                   className="botonContainer"

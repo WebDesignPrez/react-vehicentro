@@ -3031,3 +3031,14 @@ a.colItem.meniu.negro {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .fondoMovil50 {
+    background-color: #fff;
+  }
+
+  .bloqueDualLogos {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
