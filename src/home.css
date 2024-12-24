@@ -89,6 +89,14 @@ div {
   border-radius: 16px;
 }
 
+.nonestyles {
+  color: black;
+
+  border: none !important;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
 .nuevocell a:hover {
   color: red;
   text-decoration: double;

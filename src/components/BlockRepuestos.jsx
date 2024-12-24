@@ -1,43 +1,40 @@
 import React from "react";
-import carouselData from "../data/carouselData";
-import "../homeRepuestos.css";
-
 import env from "../config";
+import "../homeRepuestos.css";
 
 export const BlockRepuestos = () => {
   let urlMedia = env.url;
   return (
     <div className="bloqueRep">
       <div className="izquierdaRep">
-        <a href="/concesionarios">
-          <img src="images/home/concesionariosCuadrado.webp" />
-        </a>
-        {/* <div className="redesRep">
-          <div className="socialRep">
-            <a href="https://www.facebook.com/Vehicentro">
-              <img src={urlMedia + "facebook.png"} alt="facebook" />
-            </a>
-            <a href="https://www.instagram.com/vehicentroec">
-              <img src={urlMedia + "instagram.png"} alt="instagram" />
-            </a>
-            <a href="https://www.youtube.com/channel/UCW8gGawovE35cXcJ3P2kryQ">
-              <img src={urlMedia + "youtube.png"} alt="youtube" />
-            </a>
-            <a href="https://www.tiktok.com/@sinotrukeros">
-              <img src={urlMedia + "tiktok.webp"} alt="tiktok" />
-            </a>
-            <a href="https://www.linkedin.com/company/vehicentroecu/?originalSubdomain=ec">
-              <img src={urlMedia + "linkdin.png"} alt="linkdin" />
-            </a>
+        <a href="/concesionarios" className="image-wrapper">
+          <img
+            src="images/home/concesionariosCuadrado.webp"
+            alt="Concesionarios"
+          />
+          <div className="overlay">
+            <span className="text">Concesionarios</span>
+            <span className="arrow">&rarr;</span>
           </div>
-        </div> */}
+        </a>
       </div>
       <div className="derechaRep">
-        <a href="/repuestos">
-          <img src="images/home/talleresRepuestos.webp" />
+        <a href="/repuestos" className="image-wrapper">
+          <img
+            src="images/home/talleresRepuestos.webp"
+            alt="Talleres y Repuestos"
+          />
+          <div className="overlay">
+            <span className="text">Talleres</span>
+            <span className="arrow">&rarr;</span>
+          </div>
         </a>
-        <a href="/repuestos">
-          <img src="images/home/veinsteinCuadrado.webp" />
+        <a href="/repuestos" className="image-wrapper">
+          <img src="images/home/veinsteinCuadrado.webp" alt="Veinstein" />
+          <div className="overlay">
+            <span className="text">Repuestos</span>
+            <span className="arrow">&rarr;</span>
+          </div>
         </a>
       </div>
     </div>

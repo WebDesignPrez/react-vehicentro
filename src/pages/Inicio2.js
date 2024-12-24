@@ -352,7 +352,7 @@ function Block1() {
       </div> */}
       <div className="boxlogos noResponsive">
         <div className="logoHero">
-          <a href="#irCamiones">
+          <a href="https://sinotruk.com.ec/">
             <img
               src={urlMedia + "home/sinotruk-logo.png"}
               width="100%"
@@ -362,7 +362,7 @@ function Block1() {
           </a>
         </div>
         <div className="logoHero">
-          <a href="#irLinkCo">
+          <a href="#">
             <img
               src={urlMedia + "home/linkCoLogo.png"}
               width="100%"
@@ -372,7 +372,7 @@ function Block1() {
           </a>
         </div>
         <div className="logoHero">
-          <a href="#irCase">
+          <a href="#">
             <img
               src={urlMedia + "home/case-logo.png"}
               width="100%"
@@ -382,7 +382,7 @@ function Block1() {
           </a>
         </div>
         <div className="logoHero">
-          <a href="#irSunward">
+          <a href="#">
             <img
               src={urlMedia + "home/sunware-logo.png"}
               width="100%"
@@ -396,7 +396,7 @@ function Block1() {
       <div className="noDesktop">
         <div className="fondoMovil50">
           <div className="bloqueDualLogos">
-            <a href="#irCamiones">
+            <a href="https://sinotruk.com.ec/">
               <img
                 src={urlMedia + "home/sinotruk-logo.png"}
                 width="50%"
@@ -404,7 +404,7 @@ function Block1() {
                 alt="Camiones de carga liviana en Ecuador"
               />
             </a>
-            <a href="#irLinkCo">
+            <a href="#">
               <img
                 src={urlMedia + "home/linkCoLogo.png"}
                 width="50%"
@@ -414,7 +414,7 @@ function Block1() {
             </a>
           </div>
           <div className="bloqueDualLogos">
-            <a href="#irCase">
+            <a href="#">
               <img
                 src={urlMedia + "home/case-logo.png"}
                 width="100%"
@@ -423,7 +423,7 @@ function Block1() {
               />
             </a>
 
-            <a href="#irSunward">
+            <a href="#">
               <img
                 src={urlMedia + "home/sunware-logo.png"}
                 width="100%"
@@ -442,7 +442,7 @@ function BlockNew() {
   return (
     <>
       <BlockDual />
-      <BlockRepuestos />
+      {/* <BlockRepuestos /> */}
     </>
   );
 }

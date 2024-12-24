@@ -866,9 +866,16 @@ p.titleFooter {
 }
 
 .companiatexto {
+  color: #000;
   margin: 15% 0 15% 2%;
   font-size: 19px;
   line-height: 25px;
+}
+
+@media (max-width: 768px) {
+  .contenerBannderasNavBar {
+    display: none;
+  }
 }
 
 .repuestotexto {
@@ -903,6 +910,33 @@ p.titleFooter {
 
 .pintarRojo {
   background-color: red;
+}
+
+.contenerBannderasNavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banderaNavBar {
+  width: 20%;
+  height: auto;
+}
+
+.contenerBannderasNavBarEc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenerBannderasNavBarEc:hover a {
+  color: red;
+}
+.contenerBannderasNavBarCo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenerBannderasNavBarCo:hover a {
+  color: red;
 }
 
 .serieContainer:hover .pintarRojo {

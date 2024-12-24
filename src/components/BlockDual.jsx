@@ -51,14 +51,18 @@ export const BlockDual = () => {
                   <a href="proximamente">Camionetas</a>
                 </div>
                 <div className="linksproductos2">
-                  <div className="contenedorEcuadorBanderas">
-                    <img src="images/home/banderaEcuador.webp" />
-                    <p>Ecuador</p>
-                  </div>
-                  <div className="contenedorEcuadorBanderas2">
-                    <img src="images/home/banderaColombia.webp" />
-                    <p>Colombia</p>
-                  </div>
+                  <a className="nonestyles" href="../home">
+                    <div className="contenedorEcuadorBanderas">
+                      <img src="images/home/banderaEcuador.webp" />
+                      <p>Ecuador</p>
+                    </div>
+                  </a>
+                  <a className="nonestyles" href="https://vehicentro.com/co/">
+                    <div className="contenedorEcuadorBanderas2">
+                      <img src="images/home/banderaColombia.webp" />
+                      <p>Colombia</p>
+                    </div>
+                  </a>
                 </div>
                 <div
                   className="botonContainer"
