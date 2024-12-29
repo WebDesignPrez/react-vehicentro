@@ -320,9 +320,9 @@ export default function NavBarTop() {
         <li className="companiaCss">
           <NavLink to="/compania">ACERCA DE NOSOTROS</NavLink>
         </li>
-        <li className="companiaCss">
+        {/* <li className="companiaCss">
           <NavLink to="/trabaja-con-nosotros">TRABAJA CON NOSOTROS</NavLink>
-        </li>
+        </li> */}
       </ul>
 
       <div className="contenerBannderasNavBar">
