@@ -281,7 +281,7 @@ export default function Footer() {
         <br />
         <br />
       </div>
-      <a
+      {/* <a
         href="https://api.whatsapp.com/send?phone=593989205669"
         className="btn-wsp"
         target="_blank"
@@ -318,7 +318,7 @@ export default function Footer() {
             clip-rule="evenodd"
           ></path>
         </svg>
-      </a>
+      </a> */}
     </div>
   );
 }

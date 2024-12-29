@@ -70,11 +70,11 @@ export const BlockDual = () => {
                     color: index === 0 ? "black" : "white",
                   }}
                 >
-                  <img
+                  {/* <img
                     className="iconoimagen"
                     src={"images/home/iconoNegro.png"}
                     style={{ width: "15%", height: "auto" }}
-                  />
+                  /> */}
                   <a
                     href="https://sinotruk.com.ec/busqueda"
                     className={index === 0 ? "last-block" : ""}
@@ -115,14 +115,14 @@ export const BlockDual = () => {
                     color: index === layoutData.length - 1 ? "black" : "white",
                   }}
                 >
-                  <img
+                  {/* <img
                     className="iconoimagen"
                     src={
                       index === layoutData.length - 1
                         ? "images/home/iconoNegro.png"
                         : "images/home/icono.png"
                     }
-                  />
+                  /> */}
                   <a
                     href="#"
                     className={

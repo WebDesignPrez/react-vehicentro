@@ -2907,7 +2907,7 @@ a.colItem.meniu.negro {
 
 .boxesContact p.fixed {
   position: fixed;
-  bottom: 95px;
+  bottom: 30px;
   margin-bottom: 0px !important;
   right: 1vw;
   z-index: 5;

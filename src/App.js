@@ -121,8 +121,8 @@ function App() {
       </Helmet>
       <main>
         <Routes>
-          <Route path="/" element={<PopUp />} />
-          <Route path="/home" element={<Inicio2 />} />
+          {/* <Route path="/" element={<PopUp />} /> */}
+          <Route path="/" element={<Inicio2 />} />
 
           <Route path="/repuestos" element={<Repuestos />} />
           <Route path="/camiones/:id" element={<Camion />} />

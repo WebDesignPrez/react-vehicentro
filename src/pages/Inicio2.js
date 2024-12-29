@@ -225,6 +225,17 @@ function Slider() {
       <div className="ocultarMovil">
         <Slide duration={4000}>
           <img
+            src="https://vehicentro.com/images/home/NOTICIA1.webp"
+            alt="Slider 3"
+            style={{ width: "100%", height: "auto" }}
+            n
+          />
+          <img
+            src="https://vehicentro.com/images/home/NOTICIA2.webp"
+            alt="Slider 3"
+            style={{ width: "100%", height: "auto" }}
+          />
+          {/* <img
             src="https://vehicentro.com/images/home/slider3.webp"
             alt="Slider 3"
             style={{ width: "100%", height: "auto" }}
@@ -238,7 +249,7 @@ function Slider() {
             src="https://vehicentro.com/images/home/slider5.webp"
             alt="Slider 4"
             style={{ width: "100%", height: "auto" }}
-          />
+          /> */}
         </Slide>
       </div>
     </>
