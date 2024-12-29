@@ -72,11 +72,13 @@ export default function BannerContacto(props) {
   return (
     <>
       <div className="boxesContact posRelative fix">
-        <p className="buttonContact f fixed" onClick={openContactDos}>
+        {/* <p className="buttonContact f fixed" onClick={openContactDos}>
           COTIZAR
-        </p>
+        </p> */}
         <a href="/trabaja-con-nosotros">
-          <p className="buttonContact f">TRABAJA CON NOSOTROS</p>
+          <p className="buttonContact f" onClick={openContact}>
+            COTIZAR
+          </p>
         </a>
         {/* <p className="textContact escritorio">
           Déjanos tus datos y uno de nuestros asesores <br></br>se contactará de

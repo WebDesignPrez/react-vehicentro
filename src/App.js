@@ -111,6 +111,7 @@ import { FormBeneficios } from "./pages/FormBeneficios";
 import { FormAutazoCamiones } from "./pages/FormAutazoCamiones";
 import { FormAutazoAutos } from "./pages/FormAutazoAutos";
 import U70ProAmt from "./pages/vehiculos/U70ProAmt";
+import ConcesionariosEleccion from "./pages/ConcesionariosEleccion";
 
 function App() {
   return (
@@ -133,6 +134,10 @@ function App() {
           <Route path="/minicargadoras/:id" element={<Minicargadoras />} />
           <Route path="/tecnologia" element={<Tecnologia />} />
           <Route path="/concesionarios" element={<Concesionarios />} />
+          <Route
+            path="/concesionariosEleccion"
+            element={<ConcesionariosEleccion />}
+          />
           <Route path="/volquetas/:id" element={<Volqueta />} />
           <Route path="/camion-en-uso/:id" element={<Camion_en_uso />} />
           <Route path="/compania" element={<Compania />} />

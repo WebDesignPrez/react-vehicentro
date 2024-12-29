@@ -373,7 +373,7 @@ function Block1() {
           </a>
         </div>
         <div className="logoHero">
-          <a href="#">
+          <a href="http://lynkcoautos.com.ec/">
             <img
               src={urlMedia + "home/linkCoLogo.png"}
               width="100%"
