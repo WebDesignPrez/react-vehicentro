@@ -298,7 +298,7 @@ export default function NavBarTop() {
           </div>
         </li>
         <li>
-          <NavLink className="" to="../home">
+          <NavLink className="" to="../">
             Ecuador
           </NavLink>
         </li>
