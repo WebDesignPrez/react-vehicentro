@@ -514,6 +514,10 @@ ul.nav-links-h > li > a:hover,
   padding: 0 0 10px 0;
 }
 
+.list.nuevo {
+  padding: 0 0 10px 0;
+}
+
 p.titleFooter {
   padding: 0 0 10px 0;
 }

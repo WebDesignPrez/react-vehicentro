@@ -80,144 +80,34 @@ export default function Footer() {
         {/*<p className="title titleContacto">Realizado por Agencia Prez</p>*/}
       </div>
       <div className="col1 colProd">
-        <p className="title">PRODUCTOS</p>
-        <ul className="list">
+        <p className="title">CATÁLOGO DE PRODUCTOS</p>
+        <ul className="list listNonTitle">
           <li>
-            <p className="subTitle">SINOTRUK CAMIONES</p>
+            <a href="https://sinotruk.com.ec/busqueda">
+              <p className="itemMenu">Sinotruk Camiones</p>
+            </a>
           </li>
           <li>
-            <p className="itemMenu">
-              <a href="https://sinotruk.com.ec/busqueda">
-                Catálogo de productos
-              </a>
-            </p>
-          </li>
-          {/* <li>
-            <p className="itemMenu">
-              <a href="/serie/n">Serie N</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a href="/serie/100">Serie 100</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a href="/serie/t5g">Serie T5G</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a href="/serie/t7h">Serie T7H</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a href="/serie/c7h">Serie C7H</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a href="/serie/volquetas">Serie VOLQUETAS</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a href="/serie/mixer">Serie MIXER</a>
-            </p>
-          </li> */}
-          <li>
-            <p className="subTitle">SINOTRUK AUTOS</p>
-          </li>
-          {/* <li>
-            <p className="itemMenu">
-              <a href="/sinotruk/autos">Suv's</a>
-            </p>
-            <p className="itemMenu">
-              <a href="/proximamente">Camionetas</a>
-            </p>
-          </li> */}
-          <li>
-            <p className="itemMenu">
-              <a href="https://www.vehicentro.com/sinotruk/autos/">
-                Catálogo de productos
-              </a>
-            </p>
-          </li>
-          <li>
-            <p className="subTitle">SUNWARD </p>
+            <a href="https://www.vehicentro.com/sinotruk/autos/">
+              <p className="itemMenu">Sinotruk Autos</p>
+            </a>
           </li>
 
-          {/* <li>
-            <p className="itemMenu">
-              <a href="/excavadoras">Excavadoras</a>
-            </p>
+          <li>
+            <a href="/excavadoras">
+              <p className="itemMenu">Sunward </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.vehicentro.com/proximamente">
+              <p className="itemMenu">Case </p>
+            </a>
           </li>
           <li>
-            <p className="itemMenu">
-              <a href="/minicargadoras">Cargadoras</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a>Bulldozer</a>
-            </p>
-          </li> */}
-          <li>
-            <p className="itemMenu">
-              <a href="https://www.vehicentro.com/proximamente">
-                Catálogo de productos
-              </a>
-            </p>
-          </li>
-          <li>
-            <p className="subTitle">CASE </p>
-          </li>
-          {/* <li>
-            <p className="itemMenu">
-              <a>Excavadoras</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a>Retroexcavadoras</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a>Cargadoras</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a>Rodillos Compactadores</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a>Tractores de Orugas</a>
-            </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a>Motoniveladoras</a>
-            </p>
-          </li> */}
-          <li>
-            <p className="itemMenu">
-              <a href="https://www.vehicentro.com/proximamente">
-                Catálogo de productos
-              </a>
-            </p>
-          </li>
-          <li>
-            <p className="subTitle">Link & Co </p>
-          </li>
-          <li>
-            <p className="itemMenu">
-              <a href="https://lynkcoautos.com.ec/">Catálogo de productos</a>
-            </p>
+            <a href="https://lynkcoautos.com.ec/">
+              <p className="itemMenu">Lynk & Co </p>
+            </a>
           </li>
         </ul>
       </div>
