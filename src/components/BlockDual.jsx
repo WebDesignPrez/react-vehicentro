@@ -9,16 +9,18 @@ export const BlockDual = () => {
       image1: "images/home/dualCase.webp",
       image2: "images/home/dualCaseLogo.webp",
       reverse: true,
-      url: "/proximamente",
+      url: "#",
     },
     {
       image1: "images/home/dualLinkCo.webp",
       image2: "images/home/dualLinkCoLogo.webp",
+      url: "https://lynkcoautos.com.ec/",
     },
     {
       image1: "images/home/dualSunward.webp",
       image2: "images/home/dualSunwardLogo.webp",
       reverse: true,
+      url: "#",
     },
   ];
 
@@ -124,7 +126,7 @@ export const BlockDual = () => {
                     }
                   /> */}
                   <a
-                    href="#"
+                    href={data.url}
                     className={
                       index === layoutData.length - 1 ? "last-block" : ""
                     }

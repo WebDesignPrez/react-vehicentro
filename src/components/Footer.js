@@ -216,9 +216,7 @@ export default function Footer() {
           </li>
           <li>
             <p className="itemMenu">
-              <a href="https://www.vehicentro.com/proximamente">
-                Catálogo de productos
-              </a>
+              <a href="https://lynkcoautos.com.ec/">Catálogo de productos</a>
             </p>
           </li>
         </ul>
