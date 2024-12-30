@@ -53,7 +53,7 @@ export const BlockDual = () => {
                   <a href="proximamente">Camionetas</a>
                 </div>
                 <div className="linksproductos2">
-                  <a className="nonestyles" href="../home">
+                  <a className="nonestyles" href="../">
                     <div className="contenedorEcuadorBanderas">
                       <img src="images/home/banderaEcuador.webp" />
                       <p>Ecuador</p>
