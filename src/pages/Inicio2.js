@@ -373,7 +373,7 @@ function Block1() {
           </a>
         </div>
         <div className="logoHero">
-          <a href="http://lynkcoautos.com.ec/">
+          <a href="https://lynkcoautos.com.ec/">
             <img
               src={urlMedia + "home/linkCoLogo.png"}
               width="100%"
@@ -415,7 +415,7 @@ function Block1() {
                 alt="Camiones de carga liviana en Ecuador"
               />
             </a>
-            <a href="#">
+            <a href="https://lynkcoautos.com.ec/">
               <img
                 src={urlMedia + "home/linkCoLogo.png"}
                 width="50%"
