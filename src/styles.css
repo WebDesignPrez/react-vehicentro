@@ -257,7 +257,7 @@ ul.nav-links-h {
   margin: 0;
   padding: 0;
   width: 90%;
-  justify-content: space-around;
+  justify-content: right !important;
   display: flex;
   flex-wrap: wrap;
 }
@@ -917,18 +917,20 @@ p.titleFooter {
 }
 
 .contenerBannderasNavBar {
+  width: 150px;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+  margin-right: 2rem;
 }
 .banderaNavBar {
-  width: 20%;
+  width: 50%;
   height: auto;
 }
 
 .contenerBannderasNavBarEc {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .contenerBannderasNavBarEc:hover a {
@@ -936,7 +938,7 @@ p.titleFooter {
 }
 .contenerBannderasNavBarCo {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .contenerBannderasNavBarCo:hover a {

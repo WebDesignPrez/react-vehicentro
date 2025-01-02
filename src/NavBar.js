@@ -549,7 +549,7 @@ export default function NavBar() {
         </li> */}
 
         <li>
-          <a href="/concesionarios">CONCESIONARIOS</a>
+          <a href="/concesionariosEleccion">CONCESIONARIOS</a>
           <div className="item-level-3 nav-header nav-header-h">
             <div className="headerSubMenu">
               <div className="closeMovil" data-id="3"></div>
@@ -682,7 +682,7 @@ export default function NavBar() {
 
       <ul className="nav-links-h">
         <li className="concesionarios camionesCss">
-          <NavLink to="/concesionarios">CONCESIONARIOS</NavLink>
+          <NavLink to="/concesionariosEleccion">CONCESIONARIOS</NavLink>
         </li>
         <li className="companiaCss">
           <NavLink to="/compania">ACERCA DE NOSOTROS</NavLink>

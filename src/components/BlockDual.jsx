@@ -9,7 +9,7 @@ export const BlockDual = () => {
       image1: "images/home/dualCase.webp",
       image2: "images/home/dualCaseLogo.webp",
       reverse: true,
-      url: "#",
+      url: "https://case.com.ec/",
     },
     {
       image1: "images/home/dualLinkCo.webp",
@@ -20,7 +20,7 @@ export const BlockDual = () => {
       image1: "images/home/dualSunward.webp",
       image2: "images/home/dualSunwardLogo.webp",
       reverse: true,
-      url: "#",
+      url: "https://www.sunward.com.ec/",
     },
   ];
 

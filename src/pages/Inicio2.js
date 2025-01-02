@@ -383,7 +383,7 @@ function Block1() {
           </a>
         </div>
         <div className="logoHero">
-          <a href="#">
+          <a href="https://case.com.ec/">
             <img
               src={urlMedia + "home/case-logo.png"}
               width="100%"
@@ -393,7 +393,7 @@ function Block1() {
           </a>
         </div>
         <div className="logoHero">
-          <a href="#">
+          <a href="https://www.sunward.com.ec/">
             <img
               src={urlMedia + "home/sunware-logo.png"}
               width="100%"
@@ -425,7 +425,7 @@ function Block1() {
             </a>
           </div>
           <div className="bloqueDualLogos">
-            <a href="#">
+            <a href="https://case.com.ec/">
               <img
                 src={urlMedia + "home/case-logo.png"}
                 width="100%"
@@ -434,7 +434,7 @@ function Block1() {
               />
             </a>
 
-            <a href="#">
+            <a href="https://www.sunward.com.ec/">
               <img
                 src={urlMedia + "home/sunware-logo.png"}
                 width="100%"

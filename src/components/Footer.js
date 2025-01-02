@@ -23,7 +23,7 @@ export default function Footer() {
           </li>
           <li>
             <p className="titleFooter">
-              <a href="/concesionarios">CONCESIONARIOS</a>
+              <a href="/concesionariosEleccion">CONCESIONARIOS</a>
             </p>
           </li>
           {/* <li><p className="titleFooter"><a href="/motor-mc">TECNOLOGÍA</a></p></li> */}
@@ -94,13 +94,13 @@ export default function Footer() {
           </li>
 
           <li>
-            <a href="/excavadoras">
+            <a href="https://www.sunward.com.ec/">
               <p className="itemMenu">Sunward </p>
             </a>
           </li>
 
           <li>
-            <a href="https://www.vehicentro.com/proximamente">
+            <a href="https://case.com.ec/">
               <p className="itemMenu">Case </p>
             </a>
           </li>
@@ -116,7 +116,7 @@ export default function Footer() {
         <ul className="list listNonTitle">
           <li>
             <p className="itemMenu">
-              <a href="/concesionarios">Concesionarios</a>
+              <a href="/concesionariosEleccion">Concesionarios</a>
             </p>
           </li>
           <li>

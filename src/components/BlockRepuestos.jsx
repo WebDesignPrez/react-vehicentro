@@ -7,7 +7,7 @@ export const BlockRepuestos = () => {
   return (
     <div className="bloqueRep">
       <div className="izquierdaRep">
-        <a href="/concesionarios" className="image-wrapper">
+        <a href="/concesionariosEleccion" className="image-wrapper">
           <img
             src="images/home/concesionariosCuadrado.webp"
             alt="Concesionarios"
